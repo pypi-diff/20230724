@@ -788,3 +788,54 @@
 [2023-07-24 01:10:20] INFO root fetch - processPackages [libfds]: Remove: archive file [/home/abi/fetcher/tmp/libfds-0.2.0.tar.gz]
 [2023-07-24 01:10:20] INFO root fetch - main [MainThread]: End processing [libfds]: success
 [2023-07-24 01:10:20] INFO root fetch - main [MainThread]: Store serial: [19005408]
+[2023-07-24 01:15:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005408]
+[2023-07-24 01:15:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-analyst-cv2
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythepeer
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zeroconf
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoclint
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-livesettings3
+[2023-07-24 01:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ProbabilisticPheRS
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pythepeer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 01:15:29] INFO root fetch - processPackages [image-analyst-cv2]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 01:15:29] WARNING root fetch - processPackages [ProbabilisticPheRS]: Skipping, unable to determine old version
+[2023-07-24 01:15:29] INFO root fetch - main [MainThread]: End processing [ProbabilisticPheRS] error
+[2023-07-24 01:15:29] INFO root fetch - processPackages [django-livesettings3]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pydoclint]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 01:15:29] INFO root fetch - processPackages [zeroconf]: New version: [0.71.2] Old Version: [0.71.1]
+[2023-07-24 01:15:29] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/7d/74/95d3e0fc26863897bc698e10cc290a8dc6e76060763ec71fe7c48bdfd742/zeroconf-0.71.1.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pythepeer]: Downloading https://files.pythonhosted.org/packages/26/0e/4429b16bae2b67aa0941a2900938cbea34df44c16114f8bee8c314ec2afd/pythepeer-0.0.4.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [image-analyst-cv2]: Downloading https://files.pythonhosted.org/packages/ad/e5/0fa3db71ddda60e327e5ab097da3a33e24121cbe34c1a111b6ed55aa02ff/image_analyst_cv2-0.1.1.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/02/0b/4192b8b2e89f12479307d217c5d01e811b00e857cf5ea6c427514f0cade1/pydoclint-0.1.3.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [django-livesettings3]: Downloading https://files.pythonhosted.org/packages/7a/09/cf5290ecf180df8f3d07160f63c9f16a18ad4ea1dbb30aeca282c6c75065/django-livesettings3-1.6.0.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/94/d7/a717c54e4df1bbe09cf56e5c31405defdf04064c4093956f27d948ed850a/zeroconf-0.71.2.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [image-analyst-cv2]: Downloading https://files.pythonhosted.org/packages/f3/65/9d207a985d09fcf5a5230a14a49537f7a85b1f827edb60bbcb29aef8e58a/image_analyst_cv2-0.2.0.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-07-24 01:15:29] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.71.1.tar.gz tmp/zeroconf-0.71.2.tar.gz --markdown 20230724/z/zeroconf/0.71.1-0.71.2/diff.md --exclude *.pyd
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pythepeer]: Downloading https://files.pythonhosted.org/packages/c8/bf/cc6ace28c93ca130e4edb77fa062e876ea175a9b6250171e5b6b00ce41e3/pythepeer-0.0.5.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/3c/96/451d277afb162886c01778649ca53328abbc44fb5ddd9600bc3fa65eb983/pydoclint-0.1.4.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [django-livesettings3]: Downloading https://files.pythonhosted.org/packages/0b/cf/90e4418ea10887633bdf8a637fdc092e4bafca731097f4a4ea2bf66849f0/django-livesettings3-1.6.1.tar.gz
+[2023-07-24 01:15:29] INFO root fetch - processPackages [image-analyst-cv2]: executing diffoscope
+[2023-07-24 01:15:29] INFO root fetch - processPackages [image-analyst-cv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_cv2-0.1.1.tar.gz tmp/image_analyst_cv2-0.2.0.tar.gz --markdown 20230724/i/image-analyst-cv2/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 01:15:30] INFO root fetch - processPackages [pythepeer]: executing diffoscope
+[2023-07-24 01:15:30] INFO root fetch - processPackages [pythepeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythepeer-0.0.4.tar.gz tmp/pythepeer-0.0.5.tar.gz --markdown 20230724/p/pythepeer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 01:15:30] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-24 01:15:30] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.1.3.tar.gz tmp/pydoclint-0.1.4.tar.gz --markdown 20230724/p/pydoclint/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 01:15:30] INFO root fetch - processPackages [django-livesettings3]: executing diffoscope
+[2023-07-24 01:15:30] INFO root fetch - processPackages [django-livesettings3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-livesettings3-1.6.0.tar.gz tmp/django-livesettings3-1.6.1.tar.gz --markdown 20230724/d/django-livesettings3/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-24 01:15:30] INFO root fetch - processPackages [image-analyst-cv2]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_cv2-0.1.1.tar.gz]
+[2023-07-24 01:15:30] INFO root fetch - processPackages [image-analyst-cv2]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_cv2-0.2.0.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [image-analyst-cv2]: success
+[2023-07-24 01:15:31] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.3.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.1.4.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-24 01:15:31] INFO root fetch - processPackages [pythepeer]: Remove: archive file [/home/abi/fetcher/tmp/pythepeer-0.0.4.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - processPackages [pythepeer]: Remove: archive file [/home/abi/fetcher/tmp/pythepeer-0.0.5.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [pythepeer]: success
+[2023-07-24 01:15:31] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.1.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.2.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-07-24 01:15:31] INFO root fetch - processPackages [django-livesettings3]: Remove: archive file [/home/abi/fetcher/tmp/django-livesettings3-1.6.0.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - processPackages [django-livesettings3]: Remove: archive file [/home/abi/fetcher/tmp/django-livesettings3-1.6.1.tar.gz]
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [django-livesettings3]: success
+[2023-07-24 01:15:31] INFO root fetch - main [MainThread]: Store serial: [19005426]
