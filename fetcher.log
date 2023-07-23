@@ -1,0 +1,78 @@
+[2023-07-24 00:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005107]
+[2023-07-24 00:02:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvalidata
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scenedetect
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unkey-py
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuatara
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spatialdata-io
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: factorio-draftsman
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kedro-mlflow
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygetsource
+[2023-07-24 00:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlt
+[2023-07-24 00:02:26] WARNING root fetch - processPackages [tuatara]: Skipping, unable to determine old version
+[2023-07-24 00:02:26] INFO root fetch - main [MainThread]: End processing [tuatara] error
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pyvalidata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [kedro-mlflow]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [factorio-draftsman]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pygetsource]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [unkey-py]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [spatialdata-io]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [scenedetect]: New version: [0.6rc0] Old Version: [0.6.dev3]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [dlt]: New version: [0.3.5a0] Old Version: [0.3.5]
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/9b/24/20edd64670dffd824482dfcddbb06c32db959d74a708a38391725058288e/pyvalidata-0.1.0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pygetsource]: Downloading https://files.pythonhosted.org/packages/63/84/7f09a6b8535169a8995a0c7c0892f2f7369e66b4d8cea18ea2535cb7a34f/pygetsource-0.0.0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [kedro-mlflow]: Downloading https://files.pythonhosted.org/packages/cb/6c/5b2ee9f964d45f07681289f0460f2dc5240e8ee5ef30cfaa23aede8fd4b4/kedro_mlflow-0.8.1.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [factorio-draftsman]: Downloading https://files.pythonhosted.org/packages/4f/ca/3be43198ad71eec73c64c963296b89d382c33529413f46e8f936e3ed08e5/factorio-draftsman-1.0.5.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/38/59/af478169a4968bffec7e295095504d33ed24c1df86a6b4a54e053fc393c9/dlt-0.3.5.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [unkey-py]: Downloading https://files.pythonhosted.org/packages/23/43/d0786168a3500aef8127b386d2596c0574069ff591e2d1399bf6f1be4681/unkey_py-0.3.0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [scenedetect]: Downloading https://files.pythonhosted.org/packages/2c/a8/a910cb130357511c7de99cc82277bcc9f80de577a463266781a897937fd0/scenedetect-0.6.dev3.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/87/04/4b15e2f23ab235d83b6596125092c109691aa344c21c8ceb66c026f13468/spatialdata_io-0.0.6.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/bc/bf/670feb07703663c19da7ba45947bff87d4826ee7aed91f160280707c2f4f/pyvalidata-0.1.1-py3-none-any.whl
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pygetsource]: Downloading https://files.pythonhosted.org/packages/da/07/616182376b752f63ba54b4f4a105637f586b28dfb754a402d207afcda74b/pygetsource-0.1.0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [unkey-py]: Downloading https://files.pythonhosted.org/packages/b6/87/062f353b57f50740a0cd0e7d99829368529d6faf226181eb8b0254b97fea/unkey_py-0.4.0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pyvalidata]: executing diffoscope
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pyvalidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalidata-0.1.0.tar.gz tmp/pyvalidata-0.1.1-py3-none-any.whl.zip --markdown 20230724/p/pyvalidata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 00:02:26] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/85/cf/6f6a8659cb09ba13733013d5162c15c86d227a725a12f2c8c0ef153e1181/dlt-0.3.5a0.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/46/b8/1e3644484ae6c22a10460878fc7f316f29448b41425ecf657f39c77e782c/spatialdata_io-0.0.7.tar.gz
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pygetsource]: executing diffoscope
+[2023-07-24 00:02:26] INFO root fetch - processPackages [pygetsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygetsource-0.0.0.tar.gz tmp/pygetsource-0.1.0.tar.gz --markdown 20230724/p/pygetsource/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-24 00:02:26] INFO root fetch - processPackages [unkey-py]: executing diffoscope
+[2023-07-24 00:02:26] INFO root fetch - processPackages [unkey-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unkey_py-0.3.0.tar.gz tmp/unkey_py-0.4.0.tar.gz --markdown 20230724/u/unkey-py/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 00:02:26] INFO root fetch - processPackages [scenedetect]: Downloading https://files.pythonhosted.org/packages/24/84/ca8173a5012878cf921a998e8d291af3435a5d18f44bafb7743d20d5a802/scenedetect-0.6rc0.tar.gz
+[2023-07-24 00:02:27] INFO root fetch - processPackages [factorio-draftsman]: Downloading https://files.pythonhosted.org/packages/c1/80/3d62e5d4cdbfdac21b91050ffaf37d4290f935eaf2448b31e9be6deda508/factorio-draftsman-1.0.6.tar.gz
+[2023-07-24 00:02:27] INFO root fetch - processPackages [kedro-mlflow]: Downloading https://files.pythonhosted.org/packages/9e/56/7a7defa288c36ff2a703adcce1c40684813a1710c88256a74bdb75883ffa/kedro_mlflow-0.9.0.tar.gz
+[2023-07-24 00:02:27] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-07-24 00:02:27] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.5.tar.gz tmp/dlt-0.3.5a0.tar.gz --markdown 20230724/d/dlt/0.3.5-0.3.5a0/diff.md --exclude *.pyd
+[2023-07-24 00:02:27] INFO root fetch - processPackages [spatialdata-io]: executing diffoscope
+[2023-07-24 00:02:27] INFO root fetch - processPackages [spatialdata-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_io-0.0.6.tar.gz tmp/spatialdata_io-0.0.7.tar.gz --markdown 20230724/s/spatialdata-io/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 00:02:27] INFO root fetch - processPackages [scenedetect]: executing diffoscope
+[2023-07-24 00:02:27] INFO root fetch - processPackages [scenedetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenedetect-0.6.dev3.tar.gz tmp/scenedetect-0.6rc0.tar.gz --markdown 20230724/s/scenedetect/0.6.dev3-0.6rc0/diff.md --exclude *.pyd
+[2023-07-24 00:02:27] INFO root fetch - processPackages [factorio-draftsman]: executing diffoscope
+[2023-07-24 00:02:27] INFO root fetch - processPackages [factorio-draftsman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorio-draftsman-1.0.5.tar.gz tmp/factorio-draftsman-1.0.6.tar.gz --markdown 20230724/f/factorio-draftsman/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-24 00:02:27] INFO root fetch - processPackages [kedro-mlflow]: executing diffoscope
+[2023-07-24 00:02:27] INFO root fetch - processPackages [kedro-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro_mlflow-0.8.1.tar.gz tmp/kedro_mlflow-0.9.0.tar.gz --markdown 20230724/k/kedro-mlflow/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 00:02:28] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.1.0.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.1.1-py3-none-any.whl.zip]
+[2023-07-24 00:02:28] INFO root fetch - main [MainThread]: End processing [pyvalidata]: success
+[2023-07-24 00:02:28] INFO root fetch - processPackages [pygetsource]: Remove: archive file [/home/abi/fetcher/tmp/pygetsource-0.0.0.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - processPackages [pygetsource]: Remove: archive file [/home/abi/fetcher/tmp/pygetsource-0.1.0.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - main [MainThread]: End processing [pygetsource]: success
+[2023-07-24 00:02:28] INFO root fetch - processPackages [unkey-py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.3.0.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - processPackages [unkey-py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.4.0.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - main [MainThread]: End processing [unkey-py]: success
+[2023-07-24 00:02:28] INFO root fetch - processPackages [spatialdata-io]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_io-0.0.6.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - processPackages [spatialdata-io]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_io-0.0.7.tar.gz]
+[2023-07-24 00:02:28] INFO root fetch - main [MainThread]: End processing [spatialdata-io]: success
+[2023-07-24 00:02:29] INFO root fetch - processPackages [scenedetect]: Remove: archive file [/home/abi/fetcher/tmp/scenedetect-0.6.dev3.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - processPackages [scenedetect]: Remove: archive file [/home/abi/fetcher/tmp/scenedetect-0.6rc0.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - main [MainThread]: End processing [scenedetect]: success
+[2023-07-24 00:02:29] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.5.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.5a0.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-07-24 00:02:29] INFO root fetch - processPackages [kedro-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/kedro_mlflow-0.8.1.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - processPackages [kedro-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/kedro_mlflow-0.9.0.tar.gz]
+[2023-07-24 00:02:29] INFO root fetch - main [MainThread]: End processing [kedro-mlflow]: success
+[2023-07-24 00:02:35] INFO root fetch - processPackages [factorio-draftsman]: Remove: archive file [/home/abi/fetcher/tmp/factorio-draftsman-1.0.5.tar.gz]
+[2023-07-24 00:02:35] INFO root fetch - processPackages [factorio-draftsman]: Remove: archive file [/home/abi/fetcher/tmp/factorio-draftsman-1.0.6.tar.gz]
+[2023-07-24 00:02:35] INFO root fetch - main [MainThread]: End processing [factorio-draftsman]: success
+[2023-07-24 00:02:35] INFO root fetch - main [MainThread]: Store serial: [19005134]
