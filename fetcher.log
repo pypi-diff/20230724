@@ -450,3 +450,36 @@
 [2023-07-24 00:33:51] INFO root fetch - processPackages [uk-postcodes-parsing]: Remove: archive file [/home/abi/fetcher/tmp/uk_postcodes_parsing-1.1.2.tar.gz]
 [2023-07-24 00:33:51] INFO root fetch - main [MainThread]: End processing [uk-postcodes-parsing]: success
 [2023-07-24 00:33:51] INFO root fetch - main [MainThread]: Store serial: [19005273]
+[2023-07-24 00:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005273]
+[2023-07-24 00:39:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-24 00:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-07-24 00:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calcipy
+[2023-07-24 00:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2023-07-24 00:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-perceiver
+[2023-07-24 00:39:00] INFO root fetch - processPackages [calcipy]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-24 00:39:00] WARNING root fetch - processPackages [fast-perceiver]: Skipping, unable to determine old version
+[2023-07-24 00:39:00] INFO root fetch - main [MainThread]: End processing [fast-perceiver] error
+[2023-07-24 00:39:00] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-24 00:39:00] INFO root fetch - processPackages [pih]: New version: [1.47001] Old Version: [1.46231]
+[2023-07-24 00:39:00] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/8e/4a/0eb795c7e512c934750256f433d56f42f2add0b232315b99d5a5d88eb815/pih-1.46231.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/17/89/af11d02d296a66422c345c9cd67eb25b3eb8b9f485e53b21fa3966e89313/calcipy-1.5.0.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-24 00:39:00] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230724/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-24 00:39:00] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/4c/62/d673d63927cb958ae1b3f871e67f607858ecd144caddccecabe5a7d94067/calcipy-1.6.0.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/b4/d9/17c9044f167e47c47a03d2553d64a9ff406837acd5675cb3400d9872aa2e/pih-1.47001.tar.gz
+[2023-07-24 00:39:00] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-07-24 00:39:00] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.5.0.tar.gz tmp/calcipy-1.6.0.tar.gz --markdown 20230724/c/calcipy/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 00:39:01] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-07-24 00:39:01] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.46231.tar.gz tmp/pih-1.47001.tar.gz --markdown 20230724/p/pih/1.46231-1.47001/diff.md --exclude *.pyd
+[2023-07-24 00:39:01] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.5.0.tar.gz]
+[2023-07-24 00:39:01] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.6.0.tar.gz]
+[2023-07-24 00:39:01] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-07-24 00:39:01] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.46231.tar.gz]
+[2023-07-24 00:39:01] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47001.tar.gz]
+[2023-07-24 00:39:01] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-07-24 00:39:02] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-24 00:39:02] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-24 00:39:02] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-24 00:39:02] INFO root fetch - main [MainThread]: Store serial: [19005286]
