@@ -142,3 +142,57 @@
 [2023-07-24 00:07:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307232135-py3-none-any.whl.zip]
 [2023-07-24 00:07:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-24 00:07:55] INFO root fetch - main [MainThread]: Store serial: [19005152]
+[2023-07-24 00:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005152]
+[2023-07-24 00:13:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beewant
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nichord
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feynml
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nichord
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nichord
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nichord
+[2023-07-24 00:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geomancy
+[2023-07-24 00:13:04] WARNING root fetch - processPackages [beewant]: Skipping, unable to determine old version
+[2023-07-24 00:13:04] INFO root fetch - main [MainThread]: End processing [beewant] error
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [geomancy]: New version: [0.6.2b0] Old Version: [0.6.1b0]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [feynml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 00:13:04] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/bd/39/b2c772f2ce906986a321de264a429470f413817c3793275b87cba5a0fc4d/geomancy-0.6.1b0.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/2a/97/95a57cfde98ef210e97b99ffe528bf29d20e6e3f384c3196a7f2b9b6c145/feynml-0.2.8.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/7c/3c/ed8aa4680884fb25cb43da430a2c567b8c4b36a496704c33c6767281b527/nichord-0.1.6.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/7c/3c/ed8aa4680884fb25cb43da430a2c567b8c4b36a496704c33c6767281b527/nichord-0.1.6.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/7c/3c/ed8aa4680884fb25cb43da430a2c567b8c4b36a496704c33c6767281b527/nichord-0.1.6.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/7c/3c/ed8aa4680884fb25cb43da430a2c567b8c4b36a496704c33c6767281b527/nichord-0.1.6.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/2e/1c/b68306a793ebfd382df04b6d2c04fcf4c64df7141856fed6c5dc39c6fc71/geomancy-0.6.2b0.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/d9/df/19ae86b7f9a4037df223545491c7f036ec9a3eee9f25beab92da7daa3b25/feynml-0.2.9.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/ca/08/c815a3eeffff3a9e39d1764e16fe693a397b7f52797065240e5ca24892b7/nichord-0.1.7.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/ca/08/c815a3eeffff3a9e39d1764e16fe693a397b7f52797065240e5ca24892b7/nichord-0.1.7.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/ca/08/c815a3eeffff3a9e39d1764e16fe693a397b7f52797065240e5ca24892b7/nichord-0.1.7.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: Downloading https://files.pythonhosted.org/packages/ca/08/c815a3eeffff3a9e39d1764e16fe693a397b7f52797065240e5ca24892b7/nichord-0.1.7.tar.gz
+[2023-07-24 00:13:04] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-07-24 00:13:04] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-0.6.1b0.tar.gz tmp/geomancy-0.6.2b0.tar.gz --markdown 20230724/g/geomancy/0.6.1b0-0.6.2b0/diff.md --exclude *.pyd
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.1.6.tar.gz tmp/nichord-0.1.7.tar.gz --markdown 20230724/n/nichord/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.1.6.tar.gz tmp/nichord-0.1.7.tar.gz --markdown 20230724/n/nichord/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.1.6.tar.gz tmp/nichord-0.1.7.tar.gz --markdown 20230724/n/nichord/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: executing diffoscope
+[2023-07-24 00:13:04] INFO root fetch - processPackages [nichord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nichord-0.1.6.tar.gz tmp/nichord-0.1.7.tar.gz --markdown 20230724/n/nichord/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 00:13:05] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-24 00:13:05] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.8.tar.gz tmp/feynml-0.2.9.tar.gz --markdown 20230724/f/feynml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 00:13:05] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.1.6.tar.gz]
+[2023-07-24 00:13:05] INFO root fetch - processPackages [nichord]: Remove: archive file [/home/abi/fetcher/tmp/nichord-0.1.7.tar.gz]
+[2023-07-24 00:13:05] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-24 00:13:06] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.8.tar.gz]
+[2023-07-24 00:13:06] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.9.tar.gz]
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [nichord]: success
+[2023-07-24 00:13:06] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.1b0.tar.gz]
+[2023-07-24 00:13:06] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.2b0.tar.gz]
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-07-24 00:13:06] INFO root fetch - main [MainThread]: Store serial: [19005175]
