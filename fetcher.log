@@ -567,3 +567,42 @@
 [2023-07-24 00:49:22] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.1.tar.gz]
 [2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [medusa-zip]: success
 [2023-07-24 00:49:22] INFO root fetch - main [MainThread]: Store serial: [19005332]
+[2023-07-24 00:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005332]
+[2023-07-24 00:54:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-24 00:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tui-typer-tutor
+[2023-07-24 00:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mine
+[2023-07-24 00:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gearsllm
+[2023-07-24 00:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ifiscripts
+[2023-07-24 00:54:30] INFO root fetch - processPackages [gearsllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 00:54:30] INFO root fetch - processPackages [tui-typer-tutor]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-07-24 00:54:30] INFO root fetch - processPackages [ifiscripts]: New version: [2023.7.3.2] Old Version: [2023.7.3.1]
+[2023-07-24 00:54:30] INFO root fetch - processPackages [mine]: New version: [4.2] Old Version: [4.1]
+[2023-07-24 00:54:31] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/ed/3f/79d3f1bedae1f48ece5ee36f86725160a7f2ede6ca6ea6c77fa933e2fa56/gearsllm-0.1.0.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/6c/e1/38d94bc4e2f09ddb231fb53afb565b5e73f7bc07878cdb089cf317d52fdb/mine-4.1.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [tui-typer-tutor]: Downloading https://files.pythonhosted.org/packages/71/50/9cd209e3624f7f4700f5d101d59f2a7a33a375c9fe8452588e5da34b0316/tui_typer_tutor-1.1.0.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/bf/4d/1ca5b12802f0fe3ce88165a0045a9252ff400f03f62496f998806e1a176e/ifiscripts-2023.7.3.1.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/a1/8b/b5796fce521da65cbc1b6ab97296af595f8e67534eec47c0d6a373496888/gearsllm-0.1.1.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/ef/79/fe0e6105c309f15f97cee7e8afff948f8d8579ca1e254a09bec0259c43e9/mine-4.2.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-24 00:54:31] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.0.tar.gz tmp/gearsllm-0.1.1.tar.gz --markdown 20230724/g/gearsllm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 00:54:31] INFO root fetch - processPackages [tui-typer-tutor]: Downloading https://files.pythonhosted.org/packages/6f/99/1d2de9a0623c8407847d85950a65a87bb2d55fa91ec34e8f8dfad25aa361/tui_typer_tutor-1.1.2.tar.gz
+[2023-07-24 00:54:31] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-24 00:54:31] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-4.1.tar.gz tmp/mine-4.2.tar.gz --markdown 20230724/m/mine/4.1-4.2/diff.md --exclude *.pyd
+[2023-07-24 00:54:31] INFO root fetch - processPackages [tui-typer-tutor]: executing diffoscope
+[2023-07-24 00:54:31] INFO root fetch - processPackages [tui-typer-tutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_typer_tutor-1.1.0.tar.gz tmp/tui_typer_tutor-1.1.2.tar.gz --markdown 20230724/t/tui-typer-tutor/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-07-24 00:54:31] INFO root fetch - processPackages [ifiscripts]: Downloading https://files.pythonhosted.org/packages/68/fc/2be6656ca51423f0d4b271c80cf2426c53c0b1aae697221ac758ddc2f22c/ifiscripts-2023.7.3.2.tar.gz
+[2023-07-24 00:54:32] INFO root fetch - processPackages [ifiscripts]: executing diffoscope
+[2023-07-24 00:54:32] INFO root fetch - processPackages [ifiscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifiscripts-2023.7.3.1.tar.gz tmp/ifiscripts-2023.7.3.2.tar.gz --markdown 20230724/i/ifiscripts/2023.7.3.1-2023.7.3.2/diff.md --exclude *.pyd
+[2023-07-24 00:54:32] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.0.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.1.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-24 00:54:32] INFO root fetch - processPackages [tui-typer-tutor]: Remove: archive file [/home/abi/fetcher/tmp/tui_typer_tutor-1.1.0.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - processPackages [tui-typer-tutor]: Remove: archive file [/home/abi/fetcher/tmp/tui_typer_tutor-1.1.2.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - main [MainThread]: End processing [tui-typer-tutor]: success
+[2023-07-24 00:54:32] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.1.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-4.2.tar.gz]
+[2023-07-24 00:54:32] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-24 00:54:33] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.1.tar.gz]
+[2023-07-24 00:54:33] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.2.tar.gz]
+[2023-07-24 00:54:33] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
+[2023-07-24 00:54:33] INFO root fetch - main [MainThread]: Store serial: [19005344]
