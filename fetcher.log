@@ -315,3 +315,27 @@
 [2023-07-24 00:18:18] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl.zip]
 [2023-07-24 00:18:18] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
 [2023-07-24 00:18:18] INFO root fetch - main [MainThread]: Store serial: [19005220]
+[2023-07-24 00:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005220]
+[2023-07-24 00:23:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-24 00:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeroconf
+[2023-07-24 00:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fruitcraft
+[2023-07-24 00:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyblmm
+[2023-07-24 00:23:27] INFO root fetch - processPackages [fruitcraft]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 00:23:27] INFO root fetch - processPackages [zeroconf]: New version: [0.71.1] Old Version: [0.71.0]
+[2023-07-24 00:23:27] WARNING root fetch - processPackages [pyblmm]: Skipping, unable to determine old version
+[2023-07-24 00:23:27] INFO root fetch - main [MainThread]: End processing [pyblmm] error
+[2023-07-24 00:23:27] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/07/aa/2f8535a0a07ff9c08ddd16cc005c80dbb6462dc75784721e84ff9ff4dfe5/fruitcraft-0.0.5.tar.gz
+[2023-07-24 00:23:27] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/f8/72/85cf7d09881c1a83b69b430efb4446d770ee59fda0a5e09e18eced0143af/zeroconf-0.71.0.tar.gz
+[2023-07-24 00:23:27] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/7a/16/a2ae782340a5614ea2c275a9f689e2c1a768faa33e2f862ec7782f3b090a/fruitcraft-0.0.6.tar.gz
+[2023-07-24 00:23:27] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/7d/74/95d3e0fc26863897bc698e10cc290a8dc6e76060763ec71fe7c48bdfd742/zeroconf-0.71.1.tar.gz
+[2023-07-24 00:23:27] INFO root fetch - processPackages [fruitcraft]: executing diffoscope
+[2023-07-24 00:23:27] INFO root fetch - processPackages [fruitcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fruitcraft-0.0.5.tar.gz tmp/fruitcraft-0.0.6.tar.gz --markdown 20230724/f/fruitcraft/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 00:23:27] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-07-24 00:23:27] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.71.0.tar.gz tmp/zeroconf-0.71.1.tar.gz --markdown 20230724/z/zeroconf/0.71.0-0.71.1/diff.md --exclude *.pyd
+[2023-07-24 00:23:28] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.5.tar.gz]
+[2023-07-24 00:23:28] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.6.tar.gz]
+[2023-07-24 00:23:28] INFO root fetch - main [MainThread]: End processing [fruitcraft]: success
+[2023-07-24 00:23:28] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.0.tar.gz]
+[2023-07-24 00:23:28] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.1.tar.gz]
+[2023-07-24 00:23:28] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-07-24 00:23:28] INFO root fetch - main [MainThread]: Store serial: [19005231]
