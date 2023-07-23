@@ -374,3 +374,79 @@
 [2023-07-24 00:28:38] INFO root fetch - processPackages [predicthq]: Remove: archive file [/home/abi/fetcher/tmp/predicthq-2.4.0.tar.gz]
 [2023-07-24 00:28:38] INFO root fetch - main [MainThread]: End processing [predicthq]: success
 [2023-07-24 00:28:38] INFO root fetch - main [MainThread]: Store serial: [19005241]
+[2023-07-24 00:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005241]
+[2023-07-24 00:33:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naluconfigs
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciocore
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metathing
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-perceiver
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uk-postcodes-parsing
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autopack-tools
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-runtime
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyCapsid
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: capbypass
+[2023-07-24 00:33:47] INFO root fetch - processPackages [naluconfigs]: New version: [11.3.0] Old Version: [11.2.1]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [metathing]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 00:33:47] WARNING root fetch - processPackages [fast-perceiver]: Skipping, unable to determine old version
+[2023-07-24 00:33:47] INFO root fetch - main [MainThread]: End processing [fast-perceiver] error
+[2023-07-24 00:33:47] INFO root fetch - processPackages [autopack-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [uk-postcodes-parsing]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 00:33:47] WARNING root fetch - processPackages [capbypass]: Skipping, unable to determine old version
+[2023-07-24 00:33:47] INFO root fetch - main [MainThread]: End processing [capbypass] error
+[2023-07-24 00:33:47] INFO root fetch - processPackages [ciocore]: New version: [6.3.1rc2] Old Version: [6.3.1rc1]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [pyCapsid]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-24 00:33:47] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/52/1b/37653aa89a1cf6e4f8283c54c461a76a5db3c1f230a691b551160c9a5601/autopack_tools-0.3.3.tar.gz
+[2023-07-24 00:33:47] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-24 00:33:47] INFO root fetch - processPackages [metathing]: Downloading https://files.pythonhosted.org/packages/45/80/c9ff57572612f2085a04e9a696bc0600808ff53943b47bb5d4373fff46d2/metathing-0.3.3-py3-none-any.whl
+[2023-07-24 00:33:47] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-24 00:33:47] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/0f/d4/9723c7bc227ca7feea71f71bfe896f20491613457c7e55396a23273812f8/naluconfigs-11.2.1.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [uk-postcodes-parsing]: Downloading https://files.pythonhosted.org/packages/30/56/2a0af22a195f93a4c01662bf0b0a1131da8d347268a555f9133a2063a2da/uk_postcodes_parsing-1.0.2.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/0c/d4/6475591e6e6aa1777d50a6502fa478149b33484b98bc08428921353724ab/pyCapsid-0.5.1.tar.gz
+[2023-07-24 00:33:48] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 59093926>=10485760
+[2023-07-24 00:33:48] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-07-24 00:33:48] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/a6/1e/41a43d1a3dc44308c5f6786cf1ac3720061c5980776dce4eb848d3d4c226/autopack_tools-0.3.4.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/0b/64/c754d995cab46b20ec1582f5a0884c03c3b1381d035ebbcd60236b8f30f9/ciocore-6.3.1rc2-py2.py3-none-any.whl
+[2023-07-24 00:33:48] INFO root fetch - processPackages [metathing]: Downloading https://files.pythonhosted.org/packages/19/75/8b9119ef32a3d1b48681a2ef865378e8d42a6517e1e3bc112018dc926e1e/metathing-0.3.4-py3-none-any.whl
+[2023-07-24 00:33:48] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230724/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-24 00:33:48] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230724/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 00:33:48] INFO root fetch - processPackages [ciocore]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [ciocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciocore-6.3.1rc1-py2.py3-none-any.whl.zip tmp/ciocore-6.3.1rc2-py2.py3-none-any.whl.zip --markdown 20230724/c/ciocore/6.3.1rc1-6.3.1rc2/diff.md --exclude *.pyd
+[2023-07-24 00:33:48] INFO root fetch - processPackages [metathing]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [metathing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metathing-0.3.3-py3-none-any.whl.zip tmp/metathing-0.3.4-py3-none-any.whl.zip --markdown 20230724/m/metathing/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 00:33:48] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.3.3.tar.gz tmp/autopack_tools-0.3.4.tar.gz --markdown 20230724/a/autopack-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 00:33:48] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/10/2c/b15f182d0a6d2caab4086895d0509ad59394f032999eeff22c41e4b2c5e8/naluconfigs-11.3.0.tar.gz
+[2023-07-24 00:33:48] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-07-24 00:33:48] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-11.2.1.tar.gz tmp/naluconfigs-11.3.0.tar.gz --markdown 20230724/n/naluconfigs/11.2.1-11.3.0/diff.md --exclude *.pyd
+[2023-07-24 00:33:49] INFO root fetch - processPackages [uk-postcodes-parsing]: Downloading https://files.pythonhosted.org/packages/d7/3f/1803fdee07ff95b85177d955136ec48d10dd1e1374e71f66c44dedd232e5/uk_postcodes_parsing-1.1.2.tar.gz
+[2023-07-24 00:33:49] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-24 00:33:49] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.3.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.4.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-24 00:33:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-24 00:33:49] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.3.1rc1-py2.py3-none-any.whl.zip]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-6.3.1rc2-py2.py3-none-any.whl.zip]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [ciocore]: success
+[2023-07-24 00:33:49] INFO root fetch - processPackages [metathing]: Remove: archive file [/home/abi/fetcher/tmp/metathing-0.3.3-py3-none-any.whl.zip]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [metathing]: Remove: archive file [/home/abi/fetcher/tmp/metathing-0.3.4-py3-none-any.whl.zip]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [metathing]: success
+[2023-07-24 00:33:49] INFO root fetch - processPackages [uk-postcodes-parsing]: executing diffoscope
+[2023-07-24 00:33:49] INFO root fetch - processPackages [uk-postcodes-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_postcodes_parsing-1.0.2.tar.gz tmp/uk_postcodes_parsing-1.1.2.tar.gz --markdown 20230724/u/uk-postcodes-parsing/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-07-24 00:33:49] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.2.1.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.3.0.tar.gz]
+[2023-07-24 00:33:49] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-07-24 00:33:51] INFO root fetch - processPackages [uk-postcodes-parsing]: Remove: archive file [/home/abi/fetcher/tmp/uk_postcodes_parsing-1.0.2.tar.gz]
+[2023-07-24 00:33:51] INFO root fetch - processPackages [uk-postcodes-parsing]: Remove: archive file [/home/abi/fetcher/tmp/uk_postcodes_parsing-1.1.2.tar.gz]
+[2023-07-24 00:33:51] INFO root fetch - main [MainThread]: End processing [uk-postcodes-parsing]: success
+[2023-07-24 00:33:51] INFO root fetch - main [MainThread]: Store serial: [19005273]
