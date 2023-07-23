@@ -666,3 +666,74 @@
 [2023-07-24 00:59:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-24 00:59:56] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-24 00:59:56] INFO root fetch - main [MainThread]: Store serial: [19005368]
+[2023-07-24 01:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005368]
+[2023-07-24 01:05:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlitopencvplayer
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moteus
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moteus-gui
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rp
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image-analyst
+[2023-07-24 01:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlitopencvplayer
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus-gui]: New version: [0.3.55] Old Version: [0.3.54]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [image-analyst]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230723] Old Version: [0.7.0b20230722]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230723] Old Version: [0.7.0b20230722]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/e0/b3/52d2cb2505f9416e8bc5b4247173ea0d521d0449d719c7c05b62f1863cec/streamlitopencvplayer-1.5.7.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/e0/b3/52d2cb2505f9416e8bc5b4247173ea0d521d0449d719c7c05b62f1863cec/streamlitopencvplayer-1.5.7.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/2f/3d/c1818ed5878911e77bc965b4e65b11fd1287a72bfaf830baeafb0d8c4553/moteus_gui-0.3.54-py3-none-any.whl
+[2023-07-24 01:05:05] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/db/82/f66ce435e7cbf001bff21ab04dc31d54a0e0a994726baf324dd63cce387b/image_analyst-0.1.2.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/15/ef/aae748f0b8fd6d5bfb710dbd383b176dc367f5cf5805fc53ab05b8ab1dd6/tmnt-0.7.0b20230722.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/62/f9/078947536b3f3868ab5e18453c4593fb9c6bb31cb7b023fd8ed17fa1cf8c/moteus-0.3.8.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/26/1e/5abd29a89d0edbd58848183fa2d10682c7da611da22211742cb26dfa29e8/tmnt-cu101-0.7.0b20230722.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/80/61/091da61425675061578006088c97590e5166e08ca64d02a414192824b642/streamlitopencvplayer-1.5.8.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/80/61/091da61425675061578006088c97590e5166e08ca64d02a414192824b642/streamlitopencvplayer-1.5.8.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.7.tar.gz tmp/streamlitopencvplayer-1.5.8.tar.gz --markdown 20230724/s/streamlitopencvplayer/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/bc/12/93a9c556eede6de6b63e4672287cdcf30dabe68d1d17acddc3fb0f9bbfaf/moteus_gui-0.3.55-py3-none-any.whl
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.7.tar.gz tmp/streamlitopencvplayer-1.5.8.tar.gz --markdown 20230724/s/streamlitopencvplayer/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-24 01:05:05] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230724/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/be/f6/b1507187d986cfca2da53a0722250c5d84f1db0da18904982a38d589a7a9/tmnt-0.7.0b20230723.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/46/8d/be4d04fb568fda2371e8bcd6e10a935d05938b944a107bbf9674fcaa8981/image_analyst-0.1.3.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/53/0a/2af6cf0317ae1cea38ad973d226ac142a6f821e56bcb332e84b45305ce13/tmnt-cu101-0.7.0b20230723.tar.gz
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus-gui]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [moteus-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus_gui-0.3.54-py3-none-any.whl.zip tmp/moteus_gui-0.3.55-py3-none-any.whl.zip --markdown 20230724/m/moteus-gui/0.3.54-0.3.55/diff.md --exclude *.pyd
+[2023-07-24 01:05:05] INFO root fetch - processPackages [image-analyst]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [image-analyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst-0.1.2.tar.gz tmp/image_analyst-0.1.3.tar.gz --markdown 20230724/i/image-analyst/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-24 01:05:05] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230722.tar.gz tmp/tmnt-0.7.0b20230723.tar.gz --markdown 20230724/t/tmnt/0.7.0b20230722-0.7.0b20230723/diff.md --exclude *.pyd
+[2023-07-24 01:05:06] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-24 01:05:06] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230722.tar.gz tmp/tmnt-cu101-0.7.0b20230723.tar.gz --markdown 20230724/t/tmnt-cu101/0.7.0b20230722-0.7.0b20230723/diff.md --exclude *.pyd
+[2023-07-24 01:05:06] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/78/b3/d213a086454e82f9c5f13f3fb1c01b68749bb35298812108dc75ada6083c/moteus-0.3.9.tar.gz
+[2023-07-24 01:05:06] INFO root fetch - processPackages [moteus]: executing diffoscope
+[2023-07-24 01:05:06] INFO root fetch - processPackages [moteus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus-0.3.8.tar.gz tmp/moteus-0.3.9.tar.gz --markdown 20230724/m/moteus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 01:05:06] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.7.tar.gz]
+[2023-07-24 01:05:06] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.8.tar.gz]
+[2023-07-24 01:05:06] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-24 01:05:06] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-24 01:05:06] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.98.tar.gz]
+[2023-07-24 01:05:06] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.99.tar.gz]
+[2023-07-24 01:05:06] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-07-24 01:05:07] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.1.2.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.1.3.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [image-analyst]: success
+[2023-07-24 01:05:07] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.54-py3-none-any.whl.zip]
+[2023-07-24 01:05:07] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.55-py3-none-any.whl.zip]
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [moteus-gui]: success
+[2023-07-24 01:05:07] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230722.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230723.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-24 01:05:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230722.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230723.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-24 01:05:07] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.8.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [moteus]: success
+[2023-07-24 01:05:07] INFO root fetch - main [MainThread]: Store serial: [19005390]
