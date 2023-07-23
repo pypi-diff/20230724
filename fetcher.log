@@ -483,3 +483,33 @@
 [2023-07-24 00:39:02] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
 [2023-07-24 00:39:02] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-07-24 00:39:02] INFO root fetch - main [MainThread]: Store serial: [19005286]
+[2023-07-24 00:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005286]
+[2023-07-24 00:44:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-24 00:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-perceiver
+[2023-07-24 00:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyscript
+[2023-07-24 00:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eclair-cli
+[2023-07-24 00:44:10] INFO root fetch - processPackages [fast-perceiver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 00:44:10] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-24 00:44:10] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-07-24 00:44:10] INFO root fetch - processPackages [eclair-cli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-24 00:44:10] INFO root fetch - processPackages [fast-perceiver]: Downloading https://files.pythonhosted.org/packages/e0/60/16ef7bf6b7ff469a997fd7a17df73b1998cb3c6aacd406272c01e9e1cccf/fast_perceiver-0.1.1.tar.gz
+[2023-07-24 00:44:10] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/a6/24/6e79449c0946942566542d1bba11a660d8ce6b2ff9f549ea3400abdbb47a/eclair-cli-1.0.3.tar.gz
+[2023-07-24 00:44:11] INFO root fetch - processPackages [fast-perceiver]: Downloading https://files.pythonhosted.org/packages/70/1c/eec4c5b968be7970ed40f74d15d889486478a2e5d24514407761249a4954/fast_perceiver-0.1.2.tar.gz
+[2023-07-24 00:44:11] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/e9/de/01a02f1271663d8edcd986ca8f2ad3c4b0e21e1413408ad544533d86b36c/eclair-cli-1.0.4.tar.gz
+[2023-07-24 00:44:11] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-07-24 00:44:11] INFO root fetch - processPackages [fast-perceiver]: executing diffoscope
+[2023-07-24 00:44:11] INFO root fetch - processPackages [fast-perceiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_perceiver-0.1.1.tar.gz tmp/fast_perceiver-0.1.2.tar.gz --markdown 20230724/f/fast-perceiver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 00:44:11] INFO root fetch - processPackages [eclair-cli]: executing diffoscope
+[2023-07-24 00:44:11] INFO root fetch - processPackages [eclair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclair-cli-1.0.3.tar.gz tmp/eclair-cli-1.0.4.tar.gz --markdown 20230724/e/eclair-cli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-24 00:44:11] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-07-24 00:44:11] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230724/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-24 00:44:12] INFO root fetch - processPackages [fast-perceiver]: Remove: archive file [/home/abi/fetcher/tmp/fast_perceiver-0.1.1.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - processPackages [fast-perceiver]: Remove: archive file [/home/abi/fetcher/tmp/fast_perceiver-0.1.2.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - main [MainThread]: End processing [fast-perceiver]: success
+[2023-07-24 00:44:12] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-07-24 00:44:12] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.3.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.4.tar.gz]
+[2023-07-24 00:44:12] INFO root fetch - main [MainThread]: End processing [eclair-cli]: success
+[2023-07-24 00:44:12] INFO root fetch - main [MainThread]: Store serial: [19005295]
