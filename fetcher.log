@@ -1031,3 +1031,33 @@
 [2023-07-24 01:36:14] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.8.9.tar.gz]
 [2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [pdme]: success
 [2023-07-24 01:36:14] INFO root fetch - main [MainThread]: Store serial: [19005505]
+[2023-07-24 01:41:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005505]
+[2023-07-24 01:41:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-24 01:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nthp-api
+[2023-07-24 01:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AugmentedSocialScientist
+[2023-07-24 01:41:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: concurrent-plugin
+[2023-07-24 01:41:22] INFO root fetch - processPackages [AugmentedSocialScientist]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-24 01:41:22] INFO root fetch - processPackages [nthp-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 01:41:22] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-24 01:41:22] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/18/84/72a96eb7c6eb140c5d93214970e9ca980f69f2cbbb6a8424163deb280f34/nthp_api-0.1.2.tar.gz
+[2023-07-24 01:41:23] INFO root fetch - processPackages [AugmentedSocialScientist]: Downloading https://files.pythonhosted.org/packages/93/a5/3c1bb73f2b171a8b2729b81cf17d87a22bed0ac305886f16ec7c67491beb/AugmentedSocialScientist-1.0.1.tar.gz
+[2023-07-24 01:41:23] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/e9/02/200a8ec8ad24ba844cd0d9b7d2560b624e5123a04c66575c68a93edeafad/concurrent_plugin-0.5.4-py3-none-any.whl
+[2023-07-24 01:41:23] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/5b/75/b40c5ed21f98f92668636d060ef7ac98a5822447bdee06fe6e63b8901e40/nthp_api-0.1.3.tar.gz
+[2023-07-24 01:41:23] INFO root fetch - processPackages [AugmentedSocialScientist]: Downloading https://files.pythonhosted.org/packages/ad/33/331a98e77aaa14583cf0b6c17c3b31a3bbc0d54288ba7211c444a780f0e6/AugmentedSocialScientist-1.1.0.tar.gz
+[2023-07-24 01:41:23] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/05/3b/f74389593aaf9918e756ba88d902aad486637ef930c9e0d5ff2c92b66115/concurrent_plugin-0.5.5-py3-none-any.whl
+[2023-07-24 01:41:23] INFO root fetch - processPackages [nthp-api]: executing diffoscope
+[2023-07-24 01:41:23] INFO root fetch - processPackages [nthp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nthp_api-0.1.2.tar.gz tmp/nthp_api-0.1.3.tar.gz --markdown 20230724/n/nthp-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 01:41:23] INFO root fetch - processPackages [AugmentedSocialScientist]: executing diffoscope
+[2023-07-24 01:41:23] INFO root fetch - processPackages [AugmentedSocialScientist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AugmentedSocialScientist-1.0.1.tar.gz tmp/AugmentedSocialScientist-1.1.0.tar.gz --markdown 20230724/A/AugmentedSocialScientist/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 01:41:23] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-07-24 01:41:23] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.5.4-py3-none-any.whl.zip tmp/concurrent_plugin-0.5.5-py3-none-any.whl.zip --markdown 20230724/c/concurrent-plugin/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-24 01:41:24] INFO root fetch - processPackages [AugmentedSocialScientist]: Remove: archive file [/home/abi/fetcher/tmp/AugmentedSocialScientist-1.0.1.tar.gz]
+[2023-07-24 01:41:24] INFO root fetch - processPackages [AugmentedSocialScientist]: Remove: archive file [/home/abi/fetcher/tmp/AugmentedSocialScientist-1.1.0.tar.gz]
+[2023-07-24 01:41:24] INFO root fetch - main [MainThread]: End processing [AugmentedSocialScientist]: success
+[2023-07-24 01:41:24] INFO root fetch - processPackages [concurrent-plugin]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_plugin-0.5.4-py3-none-any.whl.zip]
+[2023-07-24 01:41:24] INFO root fetch - processPackages [concurrent-plugin]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_plugin-0.5.5-py3-none-any.whl.zip]
+[2023-07-24 01:41:24] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-07-24 01:41:24] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.2.tar.gz]
+[2023-07-24 01:41:24] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.3.tar.gz]
+[2023-07-24 01:41:24] INFO root fetch - main [MainThread]: End processing [nthp-api]: success
+[2023-07-24 01:41:24] INFO root fetch - main [MainThread]: Store serial: [19005514]
