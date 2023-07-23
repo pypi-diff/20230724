@@ -839,3 +839,36 @@
 [2023-07-24 01:15:31] INFO root fetch - processPackages [django-livesettings3]: Remove: archive file [/home/abi/fetcher/tmp/django-livesettings3-1.6.1.tar.gz]
 [2023-07-24 01:15:31] INFO root fetch - main [MainThread]: End processing [django-livesettings3]: success
 [2023-07-24 01:15:31] INFO root fetch - main [MainThread]: Store serial: [19005426]
+[2023-07-24 01:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005426]
+[2023-07-24 01:20:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mubind
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmailsorter
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebtorch
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdformat_mkdocs
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ebtorch]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 01:20:39] INFO root fetch - processPackages [gmailsorter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 01:20:39] ERROR root fetch - processPackages [mubind]: Unable to get metadata: No such project 'mubind'
+[2023-07-24 01:20:39] INFO root fetch - main [MainThread]: End processing [mubind] error
+[2023-07-24 01:20:39] INFO root fetch - processPackages [mdformat_mkdocs]: New version: [1.0.4rc1] Old Version: [1.0.3]
+[2023-07-24 01:20:39] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/1d/e0/ca813e61fb98a7aababc471d3cf7112a13f8abc19c12311bab65cecf11a8/ebtorch-0.9.2.tar.gz
+[2023-07-24 01:20:39] INFO root fetch - processPackages [gmailsorter]: Downloading https://files.pythonhosted.org/packages/8e/27/961e367105b8d33581fd63dbb17c6bb683168d96c7a417b6bb010fcaeb93/gmailsorter-0.1.0.tar.gz
+[2023-07-24 01:20:40] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/a4/65/38ac40c7bfc9a63ae515c9324e1948c793e2db50c2a26557296c3107e2b6/mdformat_mkdocs-1.0.3.tar.gz
+[2023-07-24 01:20:40] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/08/c9/ae9c0ba8f0ff46db78f6fc76858ee845a3a615602c629519c51ae587bda7/ebtorch-0.9.3.tar.gz
+[2023-07-24 01:20:40] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2023-07-24 01:20:40] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.2.tar.gz tmp/ebtorch-0.9.3.tar.gz --markdown 20230724/e/ebtorch/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 01:20:40] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/4d/19/c2bcfe39bb0ff89258f7aab5c37417b3b0dd8d6a33e742dc5f4b960ab6ba/mdformat_mkdocs-1.0.4rc1.tar.gz
+[2023-07-24 01:20:40] INFO root fetch - processPackages [gmailsorter]: Downloading https://files.pythonhosted.org/packages/10/5d/6564ba12ba1b977fd96e0a010181fde402a62026185eb76035a68ce99ad6/gmailsorter-0.1.1.tar.gz
+[2023-07-24 01:20:40] INFO root fetch - processPackages [mdformat_mkdocs]: executing diffoscope
+[2023-07-24 01:20:40] INFO root fetch - processPackages [mdformat_mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_mkdocs-1.0.3.tar.gz tmp/mdformat_mkdocs-1.0.4rc1.tar.gz --markdown 20230724/m/mdformat_mkdocs/1.0.3-1.0.4rc1/diff.md --exclude *.pyd
+[2023-07-24 01:20:40] INFO root fetch - processPackages [gmailsorter]: executing diffoscope
+[2023-07-24 01:20:40] INFO root fetch - processPackages [gmailsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmailsorter-0.1.0.tar.gz tmp/gmailsorter-0.1.1.tar.gz --markdown 20230724/g/gmailsorter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 01:20:41] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.2.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.3.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2023-07-24 01:20:41] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.3.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-1.0.4rc1.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - main [MainThread]: End processing [mdformat_mkdocs]: success
+[2023-07-24 01:20:41] INFO root fetch - processPackages [gmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/gmailsorter-0.1.0.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - processPackages [gmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/gmailsorter-0.1.1.tar.gz]
+[2023-07-24 01:20:41] INFO root fetch - main [MainThread]: End processing [gmailsorter]: success
+[2023-07-24 01:20:41] INFO root fetch - main [MainThread]: Store serial: [19005442]
