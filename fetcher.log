@@ -606,3 +606,63 @@
 [2023-07-24 00:54:33] INFO root fetch - processPackages [ifiscripts]: Remove: archive file [/home/abi/fetcher/tmp/ifiscripts-2023.7.3.2.tar.gz]
 [2023-07-24 00:54:33] INFO root fetch - main [MainThread]: End processing [ifiscripts]: success
 [2023-07-24 00:54:33] INFO root fetch - main [MainThread]: Store serial: [19005344]
+[2023-07-24 00:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005344]
+[2023-07-24 00:59:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cercis
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gearsllm
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timedctl
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kissio
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlitopencvplayer
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youtubeaio
+[2023-07-24 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-07-24 00:59:41] INFO root fetch - processPackages [youtubeaio]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-24 00:59:41] INFO root fetch - processPackages [gearsllm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 00:59:41] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-24 00:59:41] INFO root fetch - processPackages [cercis]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 00:59:41] WARNING root fetch - processPackages [kissio]: Skipping, unable to determine old version
+[2023-07-24 00:59:41] INFO root fetch - main [MainThread]: End processing [kissio] error
+[2023-07-24 00:59:41] INFO root fetch - processPackages [timedctl]: New version: [4.0.0] Old Version: [3.5.1]
+[2023-07-24 00:59:41] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-24 00:59:42] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/8e/0b/82da7d8eb8c4d7c349fadda43d13bc65fe653f067be68a7935fa9b7ce491/youtubeaio-1.1.3.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/a1/8b/b5796fce521da65cbc1b6ab97296af595f8e67534eec47c0d6a373496888/gearsllm-0.1.1.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/a4/ab/cbeba7f4bf223dca02609ba709ea48e72221ac2233971362a7cc6658e19e/streamlitopencvplayer-1.5.6.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/c0/72/32e9ca1bbf43a40f3dc2f976999aeb36bb89db50fa5c8e957be613b7bcf0/timedctl-3.5.1.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/00/00/9c99e5a7810480029ea3ed06294c10852a693cbd0abd46a9048cb3e65a16/cercis-0.2.0.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/a8/c4/a2a50ea2ad8385003fd63bde143a27ad15ba7335e91d3c636e0bd639350f/gearsllm-0.1.2.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/e0/b3/52d2cb2505f9416e8bc5b4247173ea0d521d0449d719c7c05b62f1863cec/streamlitopencvplayer-1.5.7.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/2e/b5/24fbb38e522bc7de8ea1780f96765b1f8d5914b7f0dfacae68dd3d8593b0/youtubeaio-1.1.4.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.1.tar.gz tmp/gearsllm-0.1.2.tar.gz --markdown 20230724/g/gearsllm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 00:59:42] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/5a/48/265c094c3c3b68089ba3176e900be1c8c9ea24b871912332133bb4b2bf16/timedctl-4.0.0.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/14/94/eface13199b61b63487ab0fe44f0e3bb64f1f803b2349c1751155c310ef9/cercis-0.2.1.tar.gz
+[2023-07-24 00:59:42] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.6.tar.gz tmp/streamlitopencvplayer-1.5.7.tar.gz --markdown 20230724/s/streamlitopencvplayer/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-24 00:59:42] INFO root fetch - processPackages [youtubeaio]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [youtubeaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeaio-1.1.3.tar.gz tmp/youtubeaio-1.1.4.tar.gz --markdown 20230724/y/youtubeaio/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-24 00:59:42] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-3.5.1.tar.gz tmp/timedctl-4.0.0.tar.gz --markdown 20230724/t/timedctl/3.5.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-24 00:59:42] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.2.0.tar.gz tmp/cercis-0.2.1.tar.gz --markdown 20230724/c/cercis/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 00:59:42] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-24 00:59:42] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230724/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-24 00:59:43] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.1.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.2.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-24 00:59:43] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.6.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.7.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-24 00:59:43] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.3.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.4.tar.gz]
+[2023-07-24 00:59:43] INFO root fetch - main [MainThread]: End processing [youtubeaio]: success
+[2023-07-24 00:59:44] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.1.tar.gz]
+[2023-07-24 00:59:44] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-4.0.0.tar.gz]
+[2023-07-24 00:59:44] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-24 00:59:45] INFO root fetch - processPackages [cercis]: Remove: archive file [/home/abi/fetcher/tmp/cercis-0.2.0.tar.gz]
+[2023-07-24 00:59:45] INFO root fetch - processPackages [cercis]: Remove: archive file [/home/abi/fetcher/tmp/cercis-0.2.1.tar.gz]
+[2023-07-24 00:59:45] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-07-24 00:59:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-24 00:59:56] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-24 00:59:56] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-24 00:59:56] INFO root fetch - main [MainThread]: Store serial: [19005368]
