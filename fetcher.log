@@ -513,3 +513,57 @@
 [2023-07-24 00:44:12] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.4.tar.gz]
 [2023-07-24 00:44:12] INFO root fetch - main [MainThread]: End processing [eclair-cli]: success
 [2023-07-24 00:44:12] INFO root fetch - main [MainThread]: Store serial: [19005295]
+[2023-07-24 00:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005295]
+[2023-07-24 00:49:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tail-jsonl
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-harbormaster
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eclair-cli
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizlib
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medusa-zip
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tradebig
+[2023-07-24 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gearsllm
+[2023-07-24 00:49:20] INFO root fetch - processPackages [medusa-zip]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-24 00:49:20] WARNING root fetch - processPackages [tradebig]: Skipping, unable to determine old version
+[2023-07-24 00:49:20] INFO root fetch - main [MainThread]: End processing [tradebig] error
+[2023-07-24 00:49:20] INFO root fetch - processPackages [eclair-cli]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-24 00:49:20] INFO root fetch - processPackages [wizlib]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-24 00:49:20] INFO root fetch - processPackages [tail-jsonl]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-24 00:49:20] INFO root fetch - processPackages [docker-harbormaster]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-24 00:49:20] WARNING root fetch - processPackages [gearsllm]: Skipping, unable to determine old version
+[2023-07-24 00:49:20] INFO root fetch - main [MainThread]: End processing [gearsllm] error
+[2023-07-24 00:49:21] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/e9/de/01a02f1271663d8edcd986ca8f2ad3c4b0e21e1413408ad544533d86b36c/eclair-cli-1.0.4.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/88/55/f49268964f55559b0c8fcfd1b87ae70bd80510ec11893d2d7d6ddc6ccece/docker_harbormaster-0.3.2.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/df/ff/fd9c4c0574857a4ea4904f533f2e08f0582a146f96b3760c30d725c70cfe/medusa-zip-0.0.0.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/71/dc/1705e53298b2602dbabc0458e7fe9978e3e7cfd28836b05ab3eeccba22cc/wizlib-0.8.0.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [tail-jsonl]: Downloading https://files.pythonhosted.org/packages/31/0c/4f3781a51d8dd90a82e0c0ae803f9c4129cfc27c1e8d3c72439bd7bb398a/tail_jsonl-1.2.4.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [eclair-cli]: Downloading https://files.pythonhosted.org/packages/00/9b/f669e9322b4fd7eac8cc41708112638045b31f838b87e85af73d69774eb8/eclair-cli-1.0.5.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/96/f2/b91e9b6d1cf88e707d1cfcad048cae0c44a57dfea4f1bdc81ee6d7cc09a2/docker_harbormaster-0.3.3.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/12/11/c6eae4ac22c8dbaf0ec3aa51771843575ca909db7189eed8c3a85c41ba6c/medusa-zip-0.0.1.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [eclair-cli]: executing diffoscope
+[2023-07-24 00:49:21] INFO root fetch - processPackages [eclair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclair-cli-1.0.4.tar.gz tmp/eclair-cli-1.0.5.tar.gz --markdown 20230724/e/eclair-cli/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-24 00:49:21] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/21/59/58ccb282688d1f8c35deaac63195e18da860ce539205f6cf4912aaf51d2c/wizlib-0.8.1.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [docker-harbormaster]: executing diffoscope
+[2023-07-24 00:49:21] INFO root fetch - processPackages [docker-harbormaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_harbormaster-0.3.2.tar.gz tmp/docker_harbormaster-0.3.3.tar.gz --markdown 20230724/d/docker-harbormaster/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 00:49:21] INFO root fetch - processPackages [medusa-zip]: executing diffoscope
+[2023-07-24 00:49:21] INFO root fetch - processPackages [medusa-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medusa-zip-0.0.0.tar.gz tmp/medusa-zip-0.0.1.tar.gz --markdown 20230724/m/medusa-zip/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-24 00:49:21] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-24 00:49:21] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.8.0.tar.gz tmp/wizlib-0.8.1.tar.gz --markdown 20230724/w/wizlib/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-24 00:49:21] INFO root fetch - processPackages [tail-jsonl]: Downloading https://files.pythonhosted.org/packages/65/48/2b14d261253eeb1216c9b5b0336c9711cf11385ba3bf02db723ca53146ce/tail_jsonl-1.2.5.tar.gz
+[2023-07-24 00:49:21] INFO root fetch - processPackages [tail-jsonl]: executing diffoscope
+[2023-07-24 00:49:21] INFO root fetch - processPackages [tail-jsonl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tail_jsonl-1.2.4.tar.gz tmp/tail_jsonl-1.2.5.tar.gz --markdown 20230724/t/tail-jsonl/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-24 00:49:22] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.2.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.3.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [docker-harbormaster]: success
+[2023-07-24 00:49:22] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.4.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - processPackages [eclair-cli]: Remove: archive file [/home/abi/fetcher/tmp/eclair-cli-1.0.5.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [eclair-cli]: success
+[2023-07-24 00:49:22] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.0.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.1.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-24 00:49:22] INFO root fetch - processPackages [tail-jsonl]: Remove: archive file [/home/abi/fetcher/tmp/tail_jsonl-1.2.4.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - processPackages [tail-jsonl]: Remove: archive file [/home/abi/fetcher/tmp/tail_jsonl-1.2.5.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [tail-jsonl]: success
+[2023-07-24 00:49:22] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.0.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.1.tar.gz]
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: End processing [medusa-zip]: success
+[2023-07-24 00:49:22] INFO root fetch - main [MainThread]: Store serial: [19005332]
