@@ -196,3 +196,122 @@
 [2023-07-24 00:13:06] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.2b0.tar.gz]
 [2023-07-24 00:13:06] INFO root fetch - main [MainThread]: End processing [geomancy]: success
 [2023-07-24 00:13:06] INFO root fetch - main [MainThread]: Store serial: [19005175]
+[2023-07-24 00:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005175]
+[2023-07-24 00:18:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscemu
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matan
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file-qt
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langdash
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangondor
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soccerdata
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySolidState
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deckian
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autopack-tools
+[2023-07-24 00:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphscope-client
+[2023-07-24 00:18:15] INFO root fetch - processPackages [autopack-tools]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [matan]: New version: [0.1.5.2.9] Old Version: [0.1.5.2.8]
+[2023-07-24 00:18:15] WARNING root fetch - processPackages [deckian]: Skipping, unable to determine old version
+[2023-07-24 00:18:15] INFO root fetch - processPackages [deckian]: Start processing: graphscope
+[2023-07-24 00:18:15] INFO root fetch - main [MainThread]: End processing [deckian] error
+[2023-07-24 00:18:15] INFO root fetch - processPackages [djangondor]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [langdash]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [PySolidState]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 00:18:15] WARNING root fetch - processPackages [faker-file-qt]: Skipping, unable to determine old version
+[2023-07-24 00:18:15] INFO root fetch - processPackages [faker-file-qt]: Start processing: gs-apps
+[2023-07-24 00:18:15] INFO root fetch - main [MainThread]: End processing [faker-file-qt] error
+[2023-07-24 00:18:15] INFO root fetch - processPackages [soccerdata]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [pyscemu]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope-client]: New version: [0.24.0a20230723] Old Version: [0.24.0a20230722]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [gs-apps]: New version: [0.24.0a20230722] Old Version: [0.24.0a20230721]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope]: New version: [0.24.0a20230722] Old Version: [0.24.0a20230721]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/7d/d2/5ae280fd2aa9a0e1396f061a707bf04b3ef3e74d5cdd478f51ffb84faa7d/autopack_tools-0.3.2.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/dd/d4/7e09af0a9233d398fb00a7af41e8adf20cd45f7be2e523ca864fc53fdfc8/matan-0.1.5.2.8.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/38/d1/646b6bc65c3a1f1aa03fae177fdb793b1c2197f3c5c33b47ec4b6d5a47d5/djangondor-0.0.4.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/97/bf/41b7545b98fdf7a099a6cc67174ef7df07444418c66a14c9a6edb1e8e082/graphscope_client-0.24.0a20230722-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 00:18:15] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/85/f5/c2617dd706399ccf6822845b26490321ad02c2f37218cb87e241a81f0720/pyscemu-0.2.7.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/65/2e/53ebee9671802a381252766b2abd9edc1061f461e55294beaefa9c2d864b/PySolidState-0.1.2.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/56/3a/da86277a76b0f2f563c7a5f789cf2c205681c74b513389357dfb1ed49113/gs_apps-0.24.0a20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 00:18:15] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/84/01/680cb18c8f000b7b3ce1e941cfcc1acfdb3f117aeffd080aee9bf19733da/soccerdata-1.4.0.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/4f/43/6542a5552ff744041e2b920bbdc85b28fa8ae1090acefcde59a488220537/graphscope-0.24.0a20230721-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 00:18:15] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64941420>=10485760
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope-client]: Start processing: gs-coordinator
+[2023-07-24 00:18:15] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-24 00:18:15] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211398804>=10485760
+[2023-07-24 00:18:15] INFO root fetch - processPackages [graphscope]: Start processing: gs-engine
+[2023-07-24 00:18:15] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-24 00:18:15] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/6a/14/28a67c60ba9a1e7944d1898a3fccd002d56dfb3bfdf0b00e2b47bf98195d/langdash-1.9.2.tar.gz
+[2023-07-24 00:18:15] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 46730864>=10485760
+[2023-07-24 00:18:15] INFO root fetch - processPackages [gs-apps]: Start processing: gs-include
+[2023-07-24 00:18:15] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-24 00:18:15] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230722] Old Version: [0.24.0a20230721]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230722] Old Version: [0.24.0a20230721]
+[2023-07-24 00:18:15] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/52/1b/37653aa89a1cf6e4f8283c54c461a76a5db3c1f230a691b551160c9a5601/autopack_tools-0.3.3.tar.gz
+[2023-07-24 00:18:15] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/83/53/1709db0c96e9faad69fe914276950bfe7001a4928981df8461e2736070bc/djangondor-1.0.0.tar.gz
+[2023-07-24 00:18:16] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.1.tar.gz tmp/langdash-1.9.2.tar.gz --markdown 20230724/l/langdash/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230722] Old Version: [0.24.0a20230721]
+[2023-07-24 00:18:16] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/06/57/ae50ebd04c365818de686fb26eee6fab486be4323009dc473e75f5ba2ebf/PySolidState-0.1.3.tar.gz
+[2023-07-24 00:18:16] INFO root fetch - processPackages [djangondor]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [djangondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangondor-0.0.4.tar.gz tmp/djangondor-1.0.0.tar.gz --markdown 20230724/d/djangondor/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.3.2.tar.gz tmp/autopack_tools-0.3.3.tar.gz --markdown 20230724/a/autopack-tools/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/1d/f7/49be7df6a9be1834af19a9b2b9e6ebbffdb6f52c3338acdf972ac0f62481/gs_coordinator-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/70/ff/7ab28c6f1070b8787b0f7fc9d223b6c81646c8e0fb469e1608be79b904f0/gs_engine-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-24 00:18:16] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.1.2.tar.gz tmp/PySolidState-0.1.3.tar.gz --markdown 20230724/P/PySolidState/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/25/3f/ec3e36db7ed25695bf889bc8646b825facde287670a48c369236c77b0a77/pyscemu-0.2.8.tar.gz
+[2023-07-24 00:18:16] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.8.tar.gz tmp/matan-0.1.5.2.9.tar.gz --markdown 20230724/m/matan/0.1.5.2.8-0.1.5.2.9/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/1e/14/a86c7b49455a7b43f3233e33f360bba646feb0cb10bd643ff4eef6947032/gs_include-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-24 00:18:16] INFO root fetch - processPackages [soccerdata]: Downloading https://files.pythonhosted.org/packages/69/25/d476212dacabdcef5699e60d43b671eab1b51cfd3c97fb1a088cab9d3037/soccerdata-1.5.0.tar.gz
+[2023-07-24 00:18:16] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.7.tar.gz tmp/pyscemu-0.2.8.tar.gz --markdown 20230724/p/pyscemu/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [soccerdata]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [soccerdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soccerdata-1.4.0.tar.gz tmp/soccerdata-1.5.0.tar.gz --markdown 20230724/s/soccerdata/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32290624>=10485760
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-include]: Start processing: hassfeld
+[2023-07-24 00:18:16] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-24 00:18:16] INFO root fetch - processPackages [hassfeld]: New version: [0.3.9a1] Old Version: [0.3.8a1]
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/78/d8/1b4d2e26733b64979d9d07eb2d368873da5e066117d0f46674ae39583fed/gs_engine-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/8a/df/0c3e8753e68e5c0c08c96e9e112ca755db8ea99b81fef8eebb30c47dd25f/gs_coordinator-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-24 00:18:16] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/66/fd/fbd8e0a077b19f27446b9f404ee0630e10e9622df598b6027f7349fa4625/hassfeld-0.3.8a1.tar.gz
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230724/g/gs-engine/0.24.0a20230721-0.24.0a20230722/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-24 00:18:16] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230724/g/gs-coordinator/0.24.0a20230721-0.24.0a20230722/diff.md --exclude *.pyd
+[2023-07-24 00:18:16] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/f1/0a/45cd6e93141b1803bbf3553160db58082b92c9732f824e8f4dedaf59654c/hassfeld-0.3.9a1.tar.gz
+[2023-07-24 00:18:17] INFO root fetch - processPackages [hassfeld]: executing diffoscope
+[2023-07-24 00:18:17] INFO root fetch - processPackages [hassfeld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassfeld-0.3.8a1.tar.gz tmp/hassfeld-0.3.9a1.tar.gz --markdown 20230724/h/hassfeld/0.3.8a1-0.3.9a1/diff.md --exclude *.pyd
+[2023-07-24 00:18:17] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-0.0.4.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.0.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [djangondor]: success
+[2023-07-24 00:18:17] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.2.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.3.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-24 00:18:17] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.8.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.9.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-24 00:18:17] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.2.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-24 00:18:17] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.1.2.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.1.3.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-24 00:18:17] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.7.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.8.tar.gz]
+[2023-07-24 00:18:17] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-07-24 00:18:18] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.4.0.tar.gz]
+[2023-07-24 00:18:18] INFO root fetch - processPackages [soccerdata]: Remove: archive file [/home/abi/fetcher/tmp/soccerdata-1.5.0.tar.gz]
+[2023-07-24 00:18:18] INFO root fetch - main [MainThread]: End processing [soccerdata]: success
+[2023-07-24 00:18:18] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-24 00:18:18] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-24 00:18:18] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-24 00:18:18] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.8a1.tar.gz]
+[2023-07-24 00:18:18] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.9a1.tar.gz]
+[2023-07-24 00:18:18] INFO root fetch - main [MainThread]: End processing [hassfeld]: success
+[2023-07-24 00:18:18] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230721-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-24 00:18:18] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230722-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-24 00:18:18] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-07-24 00:18:18] INFO root fetch - main [MainThread]: Store serial: [19005220]
