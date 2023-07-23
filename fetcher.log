@@ -1100,3 +1100,63 @@
 [2023-07-24 01:46:35] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230722.tar.gz]
 [2023-07-24 01:46:35] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-24 01:46:35] INFO root fetch - main [MainThread]: Store serial: [19005528]
+[2023-07-24 01:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005528]
+[2023-07-24 01:51:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-analyst-tf
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dreifus
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naludaq
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhOn
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timedctl
+[2023-07-24 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProbabilisticPheRS
+[2023-07-24 01:51:43] INFO root fetch - processPackages [timedctl]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-07-24 01:51:43] INFO root fetch - processPackages [dreifus]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-07-24 01:51:43] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 01:51:43] INFO root fetch - processPackages [image-analyst-tf]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-24 01:51:43] WARNING root fetch - processPackages [ProbabilisticPheRS]: Skipping, unable to determine old version
+[2023-07-24 01:51:43] INFO root fetch - main [MainThread]: End processing [ProbabilisticPheRS] error
+[2023-07-24 01:51:43] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-07-24 01:51:43] INFO root fetch - processPackages [naludaq]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-07-24 01:51:43] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-24 01:51:43] INFO root fetch - processPackages [image-analyst-tf]: Downloading https://files.pythonhosted.org/packages/3b/da/16f94504a8a74459c8f1e5325dbcf6dceb1556b473fcf83389d617b52cf9/image_analyst_tf-0.1.2.tar.gz
+[2023-07-24 01:51:43] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/45/63/0ccfe57d1023a83572a469401965a9a99d052470aa22c7afee3683ec6ac2/timedctl-3.5.0.tar.gz
+[2023-07-24 01:51:43] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/ee/a4/db8284a96d22e9a3e539973e237a0baa77584b0d951e2b25f69bb4b48b79/dreifus-0.0.9.tar.gz
+[2023-07-24 01:51:43] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-24 01:51:43] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/ee/9d/33b601d30b7fd93b517af5a975671509a134f900be68f0e9d34e27379168/naludaq-0.19.0.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [image-analyst-tf]: Downloading https://files.pythonhosted.org/packages/92/3e/e76fbfd0f328d84250519a4294bea4030c1526e5f477c61134a4f60ce80a/image_analyst_tf-0.2.0.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230724/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 01:51:44] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/c0/72/32e9ca1bbf43a40f3dc2f976999aeb36bb89db50fa5c8e957be613b7bcf0/timedctl-3.5.1.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [image-analyst-tf]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [image-analyst-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_tf-0.1.2.tar.gz tmp/image_analyst_tf-0.2.0.tar.gz --markdown 20230724/i/image-analyst-tf/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 01:51:44] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/4d/a5/bcf0f2d3a58eceb4c127ed7907869fc2c28fc9102537322e558b46ed14e9/dreifus-0.1.1.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-3.5.0.tar.gz tmp/timedctl-3.5.1.tar.gz --markdown 20230724/t/timedctl/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-07-24 01:51:44] INFO root fetch - processPackages [dreifus]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [dreifus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreifus-0.0.9.tar.gz tmp/dreifus-0.1.1.tar.gz --markdown 20230724/d/dreifus/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 01:51:44] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/12/af/3c039ae1331a20196b46b9bd69d91e0c2363f4564e6f23fa0fd1d7351563/naludaq-0.20.0.tar.gz
+[2023-07-24 01:51:44] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230724/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-24 01:51:44] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2023-07-24 01:51:44] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.19.0.tar.gz tmp/naludaq-0.20.0.tar.gz --markdown 20230724/n/naludaq/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-07-24 01:51:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-07-24 01:51:45] INFO root fetch - processPackages [image-analyst-tf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_tf-0.1.2.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - processPackages [image-analyst-tf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_tf-0.2.0.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - main [MainThread]: End processing [image-analyst-tf]: success
+[2023-07-24 01:51:45] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.0.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.5.1.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-24 01:51:45] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.0.9.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - processPackages [dreifus]: Remove: archive file [/home/abi/fetcher/tmp/dreifus-0.1.1.tar.gz]
+[2023-07-24 01:51:45] INFO root fetch - main [MainThread]: End processing [dreifus]: success
+[2023-07-24 01:51:46] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.19.0.tar.gz]
+[2023-07-24 01:51:46] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.20.0.tar.gz]
+[2023-07-24 01:51:46] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2023-07-24 01:51:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-24 01:51:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-24 01:51:58] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-24 01:51:58] INFO root fetch - main [MainThread]: Store serial: [19005549]
