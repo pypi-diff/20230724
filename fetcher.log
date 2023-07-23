@@ -983,3 +983,51 @@
 [2023-07-24 01:31:04] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.5.tar.gz]
 [2023-07-24 01:31:04] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
 [2023-07-24 01:31:04] INFO root fetch - main [MainThread]: Store serial: [19005491]
+[2023-07-24 01:36:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005491]
+[2023-07-24 01:36:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 01:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-07-24 01:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypkg-builder
+[2023-07-24 01:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GOES
+[2023-07-24 01:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdme
+[2023-07-24 01:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localeet
+[2023-07-24 01:36:12] INFO root fetch - processPackages [localeet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 01:36:12] INFO root fetch - processPackages [pypkg-builder]: New version: [1.0] Old Version: [0.1]
+[2023-07-24 01:36:12] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202307232331] Old Version: [1.0.202307232329]
+[2023-07-24 01:36:12] INFO root fetch - processPackages [GOES]: New version: [3.4] Old Version: [3.3]
+[2023-07-24 01:36:12] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/fb/2d/cf941b65eef2c20e8dd9d4f9d299278e165fcc2d22bfd8cfb200102b6ed1/mb_pytorch-1.0.202307232329-py3-none-any.whl
+[2023-07-24 01:36:12] INFO root fetch - processPackages [pdme]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-24 01:36:12] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/42/6d/71bd23e7a96baa87943d0f187f1726e897a05ccf94edc67401b50c59df33/localeet-0.1.0.tar.gz
+[2023-07-24 01:36:12] INFO root fetch - processPackages [pypkg-builder]: Downloading https://files.pythonhosted.org/packages/70/a3/61d1c361223f3fa27b0e43016d93e97a3e4d18c5aebe64669866fbad093a/pypkg_builder-0.1.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/6e/67/292e83723a93e19729dea93ecf6249f7723d6363c88ee0a7606e29c1e40d/localeet-0.1.1.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [GOES]: Downloading https://files.pythonhosted.org/packages/5c/5f/e9c0f7d16a139b71634f1c5a4663537cb328b7f92eb477a809a9268b2f2b/GOES-3.3.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/93/b8/20cf5c002277aae95ff21b3a502b1e35a6e70db8e5673f39190feb619f36/pdme-0.8.8.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/0a/a9/2175160c5dad64b0b69aaf0a693ac4eae602b83b579d51d04c045abc3510/mb_pytorch-1.0.202307232331-py3-none-any.whl
+[2023-07-24 01:36:13] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-07-24 01:36:13] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.1.0.tar.gz tmp/localeet-0.1.1.tar.gz --markdown 20230724/l/localeet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 01:36:13] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-07-24 01:36:13] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202307232329-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202307232331-py3-none-any.whl.zip --markdown 20230724/m/mb-pytorch/1.0.202307232329-1.0.202307232331/diff.md --exclude *.pyd
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pypkg-builder]: Downloading https://files.pythonhosted.org/packages/d4/6b/65e04c7329a5d037a9ed559c5c47a10d987ad8349c935ccc69af47677753/pypkg_builder-1.0.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pypkg-builder]: executing diffoscope
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pypkg-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypkg_builder-0.1.tar.gz tmp/pypkg_builder-1.0.tar.gz --markdown 20230724/p/pypkg-builder/0.1-1.0/diff.md --exclude *.pyd
+[2023-07-24 01:36:13] INFO root fetch - processPackages [GOES]: Downloading https://files.pythonhosted.org/packages/c1/30/5ed1c130be7d8fefa631f3c5f96274c055d44b764efb92d970d13b4e17b0/GOES-3.4.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/4f/df/796e731bfffae571063229abf8c6c5ab5da63f009ac65c62c37005ecf4ea/pdme-0.8.9.tar.gz
+[2023-07-24 01:36:13] INFO root fetch - processPackages [GOES]: executing diffoscope
+[2023-07-24 01:36:13] INFO root fetch - processPackages [GOES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GOES-3.3.tar.gz tmp/GOES-3.4.tar.gz --markdown 20230724/G/GOES/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pdme]: executing diffoscope
+[2023-07-24 01:36:13] INFO root fetch - processPackages [pdme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdme-0.8.8.tar.gz tmp/pdme-0.8.9.tar.gz --markdown 20230724/p/pdme/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-24 01:36:14] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.0.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.1.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-07-24 01:36:14] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.202307232329-py3-none-any.whl.zip]
+[2023-07-24 01:36:14] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.202307232331-py3-none-any.whl.zip]
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-07-24 01:36:14] INFO root fetch - processPackages [pypkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/pypkg_builder-0.1.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - processPackages [pypkg-builder]: Remove: archive file [/home/abi/fetcher/tmp/pypkg_builder-1.0.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [pypkg-builder]: success
+[2023-07-24 01:36:14] INFO root fetch - processPackages [GOES]: Remove: archive file [/home/abi/fetcher/tmp/GOES-3.3.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - processPackages [GOES]: Remove: archive file [/home/abi/fetcher/tmp/GOES-3.4.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [GOES]: success
+[2023-07-24 01:36:14] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.8.8.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.8.9.tar.gz]
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: End processing [pdme]: success
+[2023-07-24 01:36:14] INFO root fetch - main [MainThread]: Store serial: [19005505]
