@@ -737,3 +737,54 @@
 [2023-07-24 01:05:07] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
 [2023-07-24 01:05:07] INFO root fetch - main [MainThread]: End processing [moteus]: success
 [2023-07-24 01:05:07] INFO root fetch - main [MainThread]: Store serial: [19005390]
+[2023-07-24 01:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005390]
+[2023-07-24 01:10:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gearsllm
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jgp-utils
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libfds
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsfds3
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-cruddy-framework
+[2023-07-24 01:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlitopencvplayer
+[2023-07-24 01:10:16] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 01:10:16] INFO root fetch - processPackages [gearsllm]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 01:10:16] INFO root fetch - processPackages [jgp-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 01:10:16] WARNING root fetch - processPackages [nsfds3]: Skipping, unable to determine old version
+[2023-07-24 01:10:16] INFO root fetch - main [MainThread]: End processing [nsfds3] error
+[2023-07-24 01:10:16] INFO root fetch - processPackages [libfds]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-24 01:10:16] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-24 01:10:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/80/61/091da61425675061578006088c97590e5166e08ca64d02a414192824b642/streamlitopencvplayer-1.5.8.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/a8/c4/a2a50ea2ad8385003fd63bde143a27ad15ba7335e91d3c636e0bd639350f/gearsllm-0.1.2.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [jgp-utils]: Downloading https://files.pythonhosted.org/packages/6d/a7/f4b25f0f8815b1a84973af9cb959e075029832f90794298f72c0172762e8/jgp_utils-0.0.4.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [libfds]: Downloading https://files.pythonhosted.org/packages/2d/fb/a2cf62f41d3975e868437b1190666d9d3f0df12b6e16a00ac2a32cbbce5e/libfds-0.1.0.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/44/a7/acf153e4d8e981c40a6e93bc81dc39e095fd3cd165cf4eab0562da92f4b1/streamlitopencvplayer-1.5.9.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-24 01:10:16] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.8.tar.gz tmp/streamlitopencvplayer-1.5.9.tar.gz --markdown 20230724/s/streamlitopencvplayer/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-24 01:10:16] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/82/64/3caa3b041d08700c1c39df69db843cc6cd8e90952690a6e83f2ece4ccd4e/gearsllm-0.1.3.tar.gz
+[2023-07-24 01:10:16] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-24 01:10:16] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.2.tar.gz tmp/gearsllm-0.1.3.tar.gz --markdown 20230724/g/gearsllm/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 01:10:17] INFO root fetch - processPackages [jgp-utils]: Downloading https://files.pythonhosted.org/packages/ec/f3/f5da631dc335e210c839e1a6644ac3becc0b085076d6bac3a57eae723fc1/jgp_utils-0.0.5.tar.gz
+[2023-07-24 01:10:17] INFO root fetch - processPackages [jgp-utils]: executing diffoscope
+[2023-07-24 01:10:17] INFO root fetch - processPackages [jgp-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgp_utils-0.0.4.tar.gz tmp/jgp_utils-0.0.5.tar.gz --markdown 20230724/j/jgp-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 01:10:17] INFO root fetch - processPackages [libfds]: Downloading https://files.pythonhosted.org/packages/88/ef/e82aebc3a4d472fa656e02e404c72693cc1561e9eb3e584428485c816c85/libfds-0.2.0.tar.gz
+[2023-07-24 01:10:17] INFO root fetch - processPackages [libfds]: executing diffoscope
+[2023-07-24 01:10:17] INFO root fetch - processPackages [libfds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libfds-0.1.0.tar.gz tmp/libfds-0.2.0.tar.gz --markdown 20230724/l/libfds/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 01:10:17] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.8.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.9.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-24 01:10:17] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.2.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.3.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-24 01:10:17] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-07-24 01:10:17] INFO root fetch - processPackages [jgp-utils]: Remove: archive file [/home/abi/fetcher/tmp/jgp_utils-0.0.4.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - processPackages [jgp-utils]: Remove: archive file [/home/abi/fetcher/tmp/jgp_utils-0.0.5.tar.gz]
+[2023-07-24 01:10:17] INFO root fetch - main [MainThread]: End processing [jgp-utils]: success
+[2023-07-24 01:10:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-07-24 01:10:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230724/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 01:10:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-07-24 01:10:18] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-07-24 01:10:18] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-07-24 01:10:20] INFO root fetch - processPackages [libfds]: Remove: archive file [/home/abi/fetcher/tmp/libfds-0.1.0.tar.gz]
+[2023-07-24 01:10:20] INFO root fetch - processPackages [libfds]: Remove: archive file [/home/abi/fetcher/tmp/libfds-0.2.0.tar.gz]
+[2023-07-24 01:10:20] INFO root fetch - main [MainThread]: End processing [libfds]: success
+[2023-07-24 01:10:20] INFO root fetch - main [MainThread]: Store serial: [19005408]
