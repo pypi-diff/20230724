@@ -76,3 +76,69 @@
 [2023-07-24 00:02:35] INFO root fetch - processPackages [factorio-draftsman]: Remove: archive file [/home/abi/fetcher/tmp/factorio-draftsman-1.0.6.tar.gz]
 [2023-07-24 00:02:35] INFO root fetch - main [MainThread]: End processing [factorio-draftsman]: success
 [2023-07-24 00:02:35] INFO root fetch - main [MainThread]: Store serial: [19005134]
+[2023-07-24 00:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005134]
+[2023-07-24 00:07:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grimoirelab
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roguewave
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BiocFrame
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HttpMax
+[2023-07-24 00:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-07-24 00:07:51] INFO root fetch - processPackages [roguewave]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [grimoirelab]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [BiocFrame]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [kfish]: New version: [99.0.202307232207] Old Version: [99.0.202307232137]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [HttpMax]: New version: [1.2] Old Version: [1.1]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [kcli]: New version: [99.0.202307232135] Old Version: [99.0.202307222245]
+[2023-07-24 00:07:51] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2b/e7/c4b4906f6cac9f1702d4049b7d069a0d4fc72649eeab1e78fab7a8115567/grimoirelab-0.9.1.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cd/a8/e0c5f3318812c6de05e58eeeeaa7718a225c10a70d294effadce3c898668/kfish-99.0.202307232137-py3-none-any.whl
+[2023-07-24 00:07:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/77/d2/1f37a9947c2dc512fcc402d56ce5cb6e406a3084ca7c12a24cd9b55d9031/kcli-99.0.202307222245-py3-none-any.whl
+[2023-07-24 00:07:51] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/78/6a/176b0bb0901ea4782efa3a02cffa2564d80dedf95b4ab0ef114673ff33c2/roguewave-0.2.8.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [HttpMax]: Downloading https://files.pythonhosted.org/packages/07/67/7638c65c65d1573cd8fe4fc394414ee08e1b230c80e31be74a7ba448717d/HttpMax-1.1.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [BiocFrame]: Downloading https://files.pythonhosted.org/packages/6f/45/da582de765b633febe2d84e256ea5b2510bbd29ade5a86eed157cd0149d6/BiocFrame-0.2.8.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/e5/83/4d346602a9ec233e47b3be18f074f5b04f464610341167deb792b4e43545/grimoirelab-0.9.2.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-24 00:07:51] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230724/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-24 00:07:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e5/b0/6121dd505e86e99ce3fc5006c2028ff9c75963aa13e3f8d480559c567799/kfish-99.0.202307232207-py3-none-any.whl
+[2023-07-24 00:07:51] INFO root fetch - processPackages [HttpMax]: Downloading https://files.pythonhosted.org/packages/cd/b2/e338e7be907babc22924776d0650880f8395354efb13eb4ca272fa2119ee/HttpMax-1.2.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [BiocFrame]: Downloading https://files.pythonhosted.org/packages/44/a3/a9a3957b7f3ceaa5a7b276e49a8405126472a71799eb214ae1f0209cc180/BiocFrame-0.2.9.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/10/12/a4fc5463d893cee0b80a7528e4bfbbd704f33bec149787d2ca40d45c2590/roguewave-0.2.9.tar.gz
+[2023-07-24 00:07:51] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2023-07-24 00:07:51] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.1.tar.gz tmp/grimoirelab-0.9.2.tar.gz --markdown 20230724/g/grimoirelab/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [HttpMax]: executing diffoscope
+[2023-07-24 00:07:52] INFO root fetch - processPackages [HttpMax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HttpMax-1.1.tar.gz tmp/HttpMax-1.2.tar.gz --markdown 20230724/H/HttpMax/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a6/87/36cae3c2178d97fe1964f0f45664bcfc183a73e9614405f4a4d858e3adac/kcli-99.0.202307232135-py3-none-any.whl
+[2023-07-24 00:07:52] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-24 00:07:52] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307232137-py3-none-any.whl.zip tmp/kfish-99.0.202307232207-py3-none-any.whl.zip --markdown 20230724/k/kfish/99.0.202307232137-99.0.202307232207/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [BiocFrame]: executing diffoscope
+[2023-07-24 00:07:52] INFO root fetch - processPackages [BiocFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BiocFrame-0.2.8.tar.gz tmp/BiocFrame-0.2.9.tar.gz --markdown 20230724/B/BiocFrame/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [roguewave]: executing diffoscope
+[2023-07-24 00:07:52] INFO root fetch - processPackages [roguewave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roguewave-0.2.8.tar.gz tmp/roguewave-0.2.9.tar.gz --markdown 20230724/r/roguewave/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 00:07:52] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307222245-py3-none-any.whl.zip tmp/kcli-99.0.202307232135-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307222245-99.0.202307232135/diff.md --exclude *.pyd
+[2023-07-24 00:07:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-24 00:07:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-24 00:07:52] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-24 00:07:53] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.1.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - processPackages [grimoirelab]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab-0.9.2.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2023-07-24 00:07:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307232137-py3-none-any.whl.zip]
+[2023-07-24 00:07:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307232207-py3-none-any.whl.zip]
+[2023-07-24 00:07:53] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-24 00:07:53] INFO root fetch - processPackages [HttpMax]: Remove: archive file [/home/abi/fetcher/tmp/HttpMax-1.1.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - processPackages [HttpMax]: Remove: archive file [/home/abi/fetcher/tmp/HttpMax-1.2.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - main [MainThread]: End processing [HttpMax]: success
+[2023-07-24 00:07:53] INFO root fetch - processPackages [BiocFrame]: Remove: archive file [/home/abi/fetcher/tmp/BiocFrame-0.2.8.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - processPackages [BiocFrame]: Remove: archive file [/home/abi/fetcher/tmp/BiocFrame-0.2.9.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - main [MainThread]: End processing [BiocFrame]: success
+[2023-07-24 00:07:53] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.8.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.9.tar.gz]
+[2023-07-24 00:07:53] INFO root fetch - main [MainThread]: End processing [roguewave]: success
+[2023-07-24 00:07:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307222245-py3-none-any.whl.zip]
+[2023-07-24 00:07:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307232135-py3-none-any.whl.zip]
+[2023-07-24 00:07:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 00:07:55] INFO root fetch - main [MainThread]: Store serial: [19005152]
