@@ -872,3 +872,57 @@
 [2023-07-24 01:20:41] INFO root fetch - processPackages [gmailsorter]: Remove: archive file [/home/abi/fetcher/tmp/gmailsorter-0.1.1.tar.gz]
 [2023-07-24 01:20:41] INFO root fetch - main [MainThread]: End processing [gmailsorter]: success
 [2023-07-24 01:20:41] INFO root fetch - main [MainThread]: Store serial: [19005442]
+[2023-07-24 01:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005442]
+[2023-07-24 01:25:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-analyst-hf
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: defillama2
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mubind
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axion
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroconf
+[2023-07-24 01:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PiecewiseBeta
+[2023-07-24 01:25:51] INFO root fetch - processPackages [axion]: New version: [3.6.0] Old Version: [3.5.9]
+[2023-07-24 01:25:51] INFO root fetch - processPackages [image-analyst-hf]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 01:25:51] INFO root fetch - processPackages [defillama2]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-24 01:25:51] INFO root fetch - processPackages [zeroconf]: New version: [0.71.3] Old Version: [0.71.2]
+[2023-07-24 01:25:51] WARNING root fetch - processPackages [mubind]: Skipping, unable to determine old version
+[2023-07-24 01:25:51] INFO root fetch - main [MainThread]: End processing [mubind] error
+[2023-07-24 01:25:51] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-24 01:25:51] WARNING root fetch - processPackages [PiecewiseBeta]: Skipping, unable to determine old version
+[2023-07-24 01:25:51] INFO root fetch - main [MainThread]: End processing [PiecewiseBeta] error
+[2023-07-24 01:25:51] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/94/d7/a717c54e4df1bbe09cf56e5c31405defdf04064c4093956f27d948ed850a/zeroconf-0.71.2.tar.gz
+[2023-07-24 01:25:51] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/76/67/0926fea0018276fab1956d2de52671ca3b1876028ffc3e47a3b0a62e67b4/axion-3.5.9-cp311-none-win_amd64.whl
+[2023-07-24 01:25:51] INFO root fetch - processPackages [defillama2]: Downloading https://files.pythonhosted.org/packages/46/0f/26686edb60e90ec18be21d9a738af3c2bd6180d89e3c3ff574c5789983e0/defillama2-0.7.4.tar.gz
+[2023-07-24 01:25:51] INFO root fetch - processPackages [image-analyst-hf]: Downloading https://files.pythonhosted.org/packages/76/32/cbeda21ad8d3f3b3fb1dd1c2d2f2597e7011fdd02d7a6b527db3ec9af21a/image_analyst_hf-0.1.1.tar.gz
+[2023-07-24 01:25:51] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-24 01:25:51] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/9c/91/175c509f8c39be61f7235f8ff68931f2d8b262f9a096c61964e0c4333c36/zeroconf-0.71.3.tar.gz
+[2023-07-24 01:25:52] INFO root fetch - processPackages [image-analyst-hf]: Downloading https://files.pythonhosted.org/packages/a8/b2/6b19b6458922e74d91eec3b577470b5fbf27eb3b0e044d10df4d9b0cd297/image_analyst_hf-0.2.0.tar.gz
+[2023-07-24 01:25:52] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/6a/8c/e77bfcbd7ab44dd45985dcd34ec9af79200cac18c55be1c3955b110a2a94/axion-3.6.0-cp311-none-win_amd64.whl
+[2023-07-24 01:25:52] INFO root fetch - processPackages [image-analyst-hf]: executing diffoscope
+[2023-07-24 01:25:52] INFO root fetch - processPackages [image-analyst-hf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst_hf-0.1.1.tar.gz tmp/image_analyst_hf-0.2.0.tar.gz --markdown 20230724/i/image-analyst-hf/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 01:25:52] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-24 01:25:52] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-07-24 01:25:52] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.71.2.tar.gz tmp/zeroconf-0.71.3.tar.gz --markdown 20230724/z/zeroconf/0.71.2-0.71.3/diff.md --exclude *.pyd
+[2023-07-24 01:25:52] INFO root fetch - processPackages [defillama2]: Downloading https://files.pythonhosted.org/packages/c8/20/c4dd00d589cc99b4300b6de07b95517bfc2c1660ae5fff574f01ba6da9af/defillama2-0.7.5.tar.gz
+[2023-07-24 01:25:52] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-24 01:25:52] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230724/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-24 01:25:52] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-24 01:25:52] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip tmp/axion-3.6.0-cp311-none-win_amd64.whl.zip --markdown 20230724/a/axion/3.5.9-3.6.0/diff.md --exclude *.pyd
+[2023-07-24 01:25:52] INFO root fetch - processPackages [defillama2]: executing diffoscope
+[2023-07-24 01:25:52] INFO root fetch - processPackages [defillama2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defillama2-0.7.4.tar.gz tmp/defillama2-0.7.5.tar.gz --markdown 20230724/d/defillama2/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-24 01:25:53] INFO root fetch - processPackages [image-analyst-hf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_hf-0.1.1.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - processPackages [image-analyst-hf]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst_hf-0.2.0.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - main [MainThread]: End processing [image-analyst-hf]: success
+[2023-07-24 01:25:53] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip]
+[2023-07-24 01:25:53] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.0-cp311-none-win_amd64.whl.zip]
+[2023-07-24 01:25:53] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-24 01:25:53] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.2.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.71.3.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-07-24 01:25:53] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-24 01:25:53] INFO root fetch - processPackages [defillama2]: Remove: archive file [/home/abi/fetcher/tmp/defillama2-0.7.4.tar.gz]
+[2023-07-24 01:25:53] INFO root fetch - processPackages [defillama2]: Remove: archive file [/home/abi/fetcher/tmp/defillama2-0.7.5.tar.gz]
+[2023-07-24 01:25:54] INFO root fetch - main [MainThread]: End processing [defillama2]: success
+[2023-07-24 01:25:54] INFO root fetch - main [MainThread]: Store serial: [19005471]
