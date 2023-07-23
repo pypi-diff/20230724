@@ -1160,3 +1160,33 @@
 [2023-07-24 01:51:58] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-24 01:51:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-24 01:51:58] INFO root fetch - main [MainThread]: Store serial: [19005549]
+[2023-07-24 01:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005549]
+[2023-07-24 01:57:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-24 01:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ProbabilisticPheRS
+[2023-07-24 01:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timedctl
+[2023-07-24 01:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Accuinsight
+[2023-07-24 01:57:06] INFO root fetch - processPackages [timedctl]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-07-24 01:57:06] INFO root fetch - processPackages [ProbabilisticPheRS]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 01:57:06] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230530] Old Version: [3.4.230516rc1]
+[2023-07-24 01:57:06] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/59/83/75a171cd54043bbfa1565ffddbbf8c9012dfc2a035d4731e88df15910217/timedctl-5.0.0.tar.gz
+[2023-07-24 01:57:06] INFO root fetch - processPackages [ProbabilisticPheRS]: Downloading https://files.pythonhosted.org/packages/37/5c/3dfc774ba84b752d0ec6e945f82986369b104a183de221005cadcdef306f/ProbabilisticPheRS-0.0.1.tar.gz
+[2023-07-24 01:57:06] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/a3/74/24160bcfe107e2545b51dae55876ed752d0a278ce0517ba4ab6493a20a92/Accuinsight-3.4.230516rc1.tar.gz
+[2023-07-24 01:57:07] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/fc/2f/62dc83bcdf07fd1435c4fcbbd60604c61ba12fe5f5690052f863d0a880c2/timedctl-5.0.1.tar.gz
+[2023-07-24 01:57:07] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/4e/5a/b5c015b7df70d45b696d6939e0a90221416bbe87757b22d95a2e47b572dd/Accuinsight-3.4.230530.tar.gz
+[2023-07-24 01:57:07] INFO root fetch - processPackages [ProbabilisticPheRS]: Downloading https://files.pythonhosted.org/packages/ce/d5/ec76d3bc2ca6beb8fa5c2c498205515e6011ca20c3bf4743810cf938dfde/ProbabilisticPheRS-0.0.2.tar.gz
+[2023-07-24 01:57:07] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-07-24 01:57:07] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230516rc1.tar.gz tmp/Accuinsight-3.4.230530.tar.gz --markdown 20230724/A/Accuinsight/3.4.230516rc1-3.4.230530/diff.md --exclude *.pyd
+[2023-07-24 01:57:07] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-24 01:57:07] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-5.0.0.tar.gz tmp/timedctl-5.0.1.tar.gz --markdown 20230724/t/timedctl/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-24 01:57:07] INFO root fetch - processPackages [ProbabilisticPheRS]: executing diffoscope
+[2023-07-24 01:57:07] INFO root fetch - processPackages [ProbabilisticPheRS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProbabilisticPheRS-0.0.1.tar.gz tmp/ProbabilisticPheRS-0.0.2.tar.gz --markdown 20230724/P/ProbabilisticPheRS/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 01:57:08] INFO root fetch - processPackages [ProbabilisticPheRS]: Remove: archive file [/home/abi/fetcher/tmp/ProbabilisticPheRS-0.0.1.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - processPackages [ProbabilisticPheRS]: Remove: archive file [/home/abi/fetcher/tmp/ProbabilisticPheRS-0.0.2.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - main [MainThread]: End processing [ProbabilisticPheRS]: success
+[2023-07-24 01:57:08] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.0.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.1.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-24 01:57:08] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230516rc1.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230530.tar.gz]
+[2023-07-24 01:57:08] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-07-24 01:57:08] INFO root fetch - main [MainThread]: Store serial: [19005557]
