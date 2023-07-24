@@ -22349,3 +22349,140 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:34:21] INFO root fetch - processPackages [netbox-powerdns-sync]: Remove: archive file [/home/abi/fetcher/tmp/netbox_powerdns_sync-0.0.2.tar.gz]
 [2023-07-24 16:34:21] INFO root fetch - main [MainThread]: End processing [netbox-powerdns-sync]: success
 [2023-07-24 16:34:21] INFO root fetch - main [MainThread]: Store serial: [19014187]
+[2023-07-24 16:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014187]
+[2023-07-24 16:39:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-webstack
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d-geolib
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-disconnect-notice
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idessem
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jax-md
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstats
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radstar
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microcat
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-shopfloor-base
+[2023-07-24 16:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopfloor-mobile
+[2023-07-24 16:39:31] INFO root fetch - processPackages [radstar]: New version: [0.13.2] Old Version: [0.13.1]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [jax-md]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [idessem]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: New version: [14.0.2.9.1.dev5] Old Version: [14.0.2.9.1.dev4]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [d-geolib]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [django-webstack]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [microcat]: New version: [0.2.5b0] Old Version: [0.2.5]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [quickstats]: New version: [0.6.9.0] Old Version: [0.6.8.9]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/a8/ca/8e156020eb4d7edd4f980fa54ef1d698fb5463154a3d7732c727009b4ec1/nonebot_plugin_disconnect_notice-0.1.2.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/18/68/0f586c9114ea9cef3d9daee886ab19b08d0f76ca197543fc075d3bedbe71/radstar-0.13.1-py3-none-any.whl
+[2023-07-24 16:39:31] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2023-07-24 16:39:31] INFO root fetch - processPackages [jax-md]: Downloading https://files.pythonhosted.org/packages/de/25/2dea206bcfdc857eaff4287be19da752db92999120aae3d6e9fb1e51eca3/jax-md-0.2.5.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/23/fe/5ea5422e9707e663a630f730656dda0b3a247b6eac2399293c3723bf1ab9/quickstats-0.6.8.9.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: Downloading https://files.pythonhosted.org/packages/3d/aa/9c458406bfa7448186ae04299b53871e6d006d7211d500f758edb4e19019/odoo14_addon_shopfloor_base-14.0.2.9.1.dev4-py3-none-any.whl
+[2023-07-24 16:39:31] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/60/ee/67eccaaaf2250769594930bf6ed6aa241b3f4bc67844dbb173feeb969eb1/microcat-0.2.5.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/60/af/14aed345dc32cc66feb35b5482596fe5e9e8c95d3b90b4617cf0bf7e5a55/d_geolib-1.0.1.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [idessem]: Downloading https://files.pythonhosted.org/packages/86/0b/5716479a84c0040ba49c7867ea5547c539cb67af543dde03bb1cff673ac4/idessem-0.0.8.tar.gz
+[2023-07-24 16:39:31] WARNING root fetch - processPackages [microcat]: Skipping package: exceeds size limit 26980835>=10485760
+[2023-07-24 16:39:31] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/9c/f7/df03c24e6eb7179b5923dbcd206008c3cfa91e6816b6b98e7d84e11bf947/django-webstack-1.2.1.tar.gz
+[2023-07-24 16:39:31] INFO root fetch - processPackages [microcat]: Start processing: odoo14-addon-shopfloor
+[2023-07-24 16:39:31] INFO root fetch - main [MainThread]: End processing [microcat] error
+[2023-07-24 16:39:31] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.3.3.0] Old Version: [14.0.3.2.0]
+[2023-07-24 16:39:31] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/b6/78/3baa61f60e6083ec90c25c7701e3c71d91ae3921a92f56f02b7e9a80b591/nonebot_plugin_disconnect_notice-0.1.3.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/b5/6a/1a7881ed2a43bcc8fc5e288adaff7b7345ff234e475b897b209df0fcd80d/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl
+[2023-07-24 16:39:32] INFO root fetch - processPackages [jax-md]: Downloading https://files.pythonhosted.org/packages/49/35/c3d187d7906b538acbcc481b2422d411cc07ffa4f1da857a4e58373e7259/jax-md-0.2.6.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.1.2.tar.gz tmp/nonebot_plugin_disconnect_notice-0.1.3.tar.gz --markdown 20230724/n/nonebot-plugin-disconnect-notice/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [idessem]: Downloading https://files.pythonhosted.org/packages/3c/7f/56f4468609e8e3673d1d782e8760a542f66e6199b428484c9cfce10b1293/idessem-0.0.9.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/f6/92/0a1e2157bbcfa6d725daa698099482d6e88a605d08fefe470bdf22721fb8/quickstats-0.6.9.0.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/42/d3/5358ad9852b7985d52bd583d590c94d23ea696bd737c33fef07389a76644/d_geolib-1.1.0.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: Downloading https://files.pythonhosted.org/packages/7f/bd/a366a38a95cf8ac343c77dfd1fd949719bdd046baf42a5af20b0176203ed/odoo14_addon_shopfloor_base-14.0.2.9.1.dev5-py3-none-any.whl
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [django-webstack]: Downloading https://files.pythonhosted.org/packages/14/24/6eb03b296719d6e3fe9d48fe2b667508dc292f18b26327945af288f39037/django-webstack-1.2.2.tar.gz
+[2023-07-24 16:39:32] INFO root fetch - processPackages [jax-md]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [jax-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-md-0.2.5.tar.gz tmp/jax-md-0.2.6.tar.gz --markdown 20230724/j/jax-md/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/e5/24/ff3f0ba3137d223a2ebcdf0415d0a70ad91a6728253f31576cc64c6b1575/radstar-0.13.2-py3-none-any.whl
+[2023-07-24 16:39:32] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.6.8.9.tar.gz tmp/quickstats-0.6.9.0.tar.gz --markdown 20230724/q/quickstats/0.6.8.9-0.6.9.0/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [idessem]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [idessem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idessem-0.0.8.tar.gz tmp/idessem-0.0.9.tar.gz --markdown 20230724/i/idessem/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [d-geolib]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [d-geolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_geolib-1.0.1.tar.gz tmp/d_geolib-1.1.0.tar.gz --markdown 20230724/d/d-geolib/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [django-webstack]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [django-webstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webstack-1.2.1.tar.gz tmp/django-webstack-1.2.2.tar.gz --markdown 20230724/d/django-webstack/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.13.1-py3-none-any.whl.zip tmp/radstar-0.13.2-py3-none-any.whl.zip --markdown 20230724/r/radstar/0.13.1-0.13.2/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_base-14.0.2.9.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_base-14.0.2.9.1.dev5-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor-base/14.0.2.9.1.dev4-14.0.2.9.1.dev5/diff.md --exclude *.pyd
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/dd/a6/2e1868794a9cca5f644f89dd01b66186732c85927dcab913fe47c0928dab/odoo14_addon_shopfloor-14.0.3.3.0-py3-none-any.whl
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-07-24 16:39:32] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.3.3.0-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor/14.0.3.2.0-14.0.3.3.0/diff.md --exclude *.pyd
+[2023-07-24 16:39:34] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.2.tar.gz]
+[2023-07-24 16:39:34] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.3.tar.gz]
+[2023-07-24 16:39:34] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Start processing: strongmind-deployment
+[2023-07-24 16:39:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2023-07-24 16:39:34] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 16:39:34] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/44/37/1fa9e511059e9286981228d061a848835373aa0d2564f1817d7e1cb50c09/strongmind_deployment-1.0.8-py3-none-any.whl
+[2023-07-24 16:39:34] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/6a/1b/90068fc2357bb338535372b0a54aaf7542de3c94754f32c7d29dfd0aa361/strongmind_deployment-1.0.9-py3-none-any.whl
+[2023-07-24 16:39:34] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-07-24 16:39:34] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip --markdown 20230724/s/strongmind-deployment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:39:35] INFO root fetch - processPackages [jax-md]: Remove: archive file [/home/abi/fetcher/tmp/jax-md-0.2.5.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [jax-md]: Remove: archive file [/home/abi/fetcher/tmp/jax-md-0.2.6.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [jax-md]: Start processing: upf-tools
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [jax-md]: success
+[2023-07-24 16:39:35] INFO root fetch - processPackages [upf-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.2.1.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [django-webstack]: Remove: archive file [/home/abi/fetcher/tmp/django-webstack-1.2.2.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [django-webstack]: Start processing: ccf
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [django-webstack]: success
+[2023-07-24 16:39:35] INFO root fetch - processPackages [ccf]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [upf-tools]: Downloading https://files.pythonhosted.org/packages/92/29/77a4f148e8b128397e1b4eafc107eb4942748212d6943883dfd9d01a2ceb/upf_tools-0.1.0.tar.gz
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Start processing: neurosift
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_base-14.0.2.9.1.dev4-py3-none-any.whl.zip]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_base-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-base]: Start processing: pynwb
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-base]: success
+[2023-07-24 16:39:35] INFO root fetch - processPackages [d-geolib]: Remove: archive file [/home/abi/fetcher/tmp/d_geolib-1.0.1.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [d-geolib]: Remove: archive file [/home/abi/fetcher/tmp/d_geolib-1.1.0.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [d-geolib]: success
+[2023-07-24 16:39:35] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/c5/58/3ec29311b736e4023671fdb2c58a8dfb8df028ebfe8510b91356e112b11f/ccf-4.0.5-py3-none-any.whl
+[2023-07-24 16:39:35] WARNING root fetch - processPackages [neurosift]: Skipping, unable to determine old version
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [neurosift] error
+[2023-07-24 16:39:35] INFO root fetch - processPackages [idessem]: Remove: archive file [/home/abi/fetcher/tmp/idessem-0.0.8.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - processPackages [idessem]: Remove: archive file [/home/abi/fetcher/tmp/idessem-0.0.9.tar.gz]
+[2023-07-24 16:39:35] INFO root fetch - main [MainThread]: End processing [idessem]: success
+[2023-07-24 16:39:36] INFO root fetch - processPackages [upf-tools]: Downloading https://files.pythonhosted.org/packages/64/85/048454e0fc0d791630b0e41fe777107c273d34b48ec779bef4aabb81f29e/upf_tools-0.1.1.tar.gz
+[2023-07-24 16:39:36] INFO root fetch - processPackages [pynwb]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-07-24 16:39:36] INFO root fetch - processPackages [upf-tools]: executing diffoscope
+[2023-07-24 16:39:36] INFO root fetch - processPackages [upf-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upf_tools-0.1.0.tar.gz tmp/upf_tools-0.1.1.tar.gz --markdown 20230724/u/upf-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 16:39:36] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/d1/1d/8729342fad51c495c35b07ac1135ebcb4a85e1398b94dd4783c50cf89e0b/ccf-4.0.6-py3-none-any.whl
+[2023-07-24 16:39:36] INFO root fetch - processPackages [pynwb]: Downloading https://files.pythonhosted.org/packages/58/6d/e4f80f11a1ee438c6c25fbc121b1564b9bc14fd2463428e33ce65322d77a/pynwb-2.3.3.tar.gz
+[2023-07-24 16:39:36] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2023-07-24 16:39:36] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-4.0.5-py3-none-any.whl.zip tmp/ccf-4.0.6-py3-none-any.whl.zip --markdown 20230724/c/ccf/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-24 16:39:36] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-07-24 16:39:36] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.1-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.2-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-24 16:39:36] INFO root fetch - processPackages [pynwb]: Downloading https://files.pythonhosted.org/packages/15/9d/598708afce2457d7e3e6a4ec7e9bf35761c4099292a453c806d02f07b567/pynwb-2.4.0.tar.gz
+[2023-07-24 16:39:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.3.0-py3-none-any.whl.zip]
+[2023-07-24 16:39:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-07-24 16:39:36] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.8.9.tar.gz]
+[2023-07-24 16:39:36] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.9.0.tar.gz]
+[2023-07-24 16:39:36] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2023-07-24 16:39:37] INFO root fetch - processPackages [pynwb]: executing diffoscope
+[2023-07-24 16:39:37] INFO root fetch - processPackages [pynwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynwb-2.3.3.tar.gz tmp/pynwb-2.4.0.tar.gz --markdown 20230724/p/pynwb/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-07-24 16:39:37] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-4.0.5-py3-none-any.whl.zip]
+[2023-07-24 16:39:37] INFO root fetch - processPackages [ccf]: Remove: archive file [/home/abi/fetcher/tmp/ccf-4.0.6-py3-none-any.whl.zip]
+[2023-07-24 16:39:37] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2023-07-24 16:39:37] INFO root fetch - processPackages [upf-tools]: Remove: archive file [/home/abi/fetcher/tmp/upf_tools-0.1.0.tar.gz]
+[2023-07-24 16:39:37] INFO root fetch - processPackages [upf-tools]: Remove: archive file [/home/abi/fetcher/tmp/upf_tools-0.1.1.tar.gz]
+[2023-07-24 16:39:37] INFO root fetch - main [MainThread]: End processing [upf-tools]: success
+[2023-07-24 16:39:38] INFO root fetch - processPackages [pynwb]: Remove: archive file [/home/abi/fetcher/tmp/pynwb-2.3.3.tar.gz]
+[2023-07-24 16:39:38] INFO root fetch - processPackages [pynwb]: Remove: archive file [/home/abi/fetcher/tmp/pynwb-2.4.0.tar.gz]
+[2023-07-24 16:39:38] INFO root fetch - main [MainThread]: End processing [pynwb]: success
+[2023-07-24 16:39:38] INFO root fetch - main [MainThread]: Store serial: [19014236]
