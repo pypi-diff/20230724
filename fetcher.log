@@ -6227,3 +6227,102 @@
 [2023-07-24 05:05:10] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.5.2.tar.gz]
 [2023-07-24 05:05:10] INFO root fetch - main [MainThread]: End processing [commonX]: success
 [2023-07-24 05:05:10] INFO root fetch - main [MainThread]: Store serial: [19007579]
+[2023-07-24 05:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007579]
+[2023-07-24 05:10:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ats-case
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vellum-ai
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yao-test-package1
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yao-test-package2
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idocker
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgvector
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aihero
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gearsllm
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fullctl
+[2023-07-24 05:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: byquant
+[2023-07-24 05:10:19] INFO root fetch - processPackages [pgvector]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 05:10:19] WARNING root fetch - processPackages [yao-test-package2]: Skipping, unable to determine old version
+[2023-07-24 05:10:19] INFO root fetch - processPackages [yao-test-package2]: Start processing: whisper-at
+[2023-07-24 05:10:19] INFO root fetch - main [MainThread]: End processing [yao-test-package2] error
+[2023-07-24 05:10:19] INFO root fetch - processPackages [fullctl]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-24 05:10:19] WARNING root fetch - processPackages [yao-test-package1]: Skipping, unable to determine old version
+[2023-07-24 05:10:19] INFO root fetch - processPackages [gearsllm]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [yao-test-package1]: Start processing: auto-eval
+[2023-07-24 05:10:19] INFO root fetch - main [MainThread]: End processing [yao-test-package1] error
+[2023-07-24 05:10:19] INFO root fetch - processPackages [idocker]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [aihero]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [byquant]: New version: [1.7.21] Old Version: [1.7.20]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [whisper-at]: New version: [0.4] Old Version: [0.2]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [auto-eval]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-24 05:10:19] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [pgvector]: Downloading https://files.pythonhosted.org/packages/1b/2a/3c7af6b8460d931102cb67709b870e535c5afad3e00639ffef3f408989a5/pgvector-0.1.8-py2.py3-none-any.whl
+[2023-07-24 05:10:19] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/68/07/dc322b4c2787be5564ffaf4dac8037510f9489f90d22fe884a04e8e4f1c0/gearsllm-0.1.4.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/57/9f/b399569bc3c5d9470aef410237ed9b6ed00bf20c8987a8aaa13f4f964697/idocker-1.2.1.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/35/35/2bfd20bdc1bf57823c342619eb8d0bed3af5410be418fdc18ae27701e33b/byquant-1.7.20.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/06/d8/029540dd890bc55242fc7fefddfe84ad9253eb39615c848092b62998427d/aihero-0.2.6.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [fullctl]: Downloading https://files.pythonhosted.org/packages/c4/af/2321a61c4a1c08cfeb76053223e513c994a70ee99e1642397340e1ca339b/fullctl-1.4.0.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [whisper-at]: Downloading https://files.pythonhosted.org/packages/2b/39/8deda3b4952bc794ab9479e47b80eb63015e9b8ab4784f40b7ce130a820b/whisper-at-0.2.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/de/b0/254a0fa1c8b73956e9200b1303bb2c4eb8cfd99d273e542a7e1588b8c73f/auto-eval-0.3.5.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/38/fe/ed9b089002dab88286f37ed44154b957a824d26ac42f4792dab2830be224/gearsllm-0.1.5.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [pgvector]: Downloading https://files.pythonhosted.org/packages/f9/6d/bd3546a11b469ab202da872d7220a37fbb3bb69358eaa65f6af7dd58abb7/pgvector-0.2.0-py2.py3-none-any.whl
+[2023-07-24 05:10:19] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/25/da/9911419dec22a2ef2eb3588046a45be69072ad61bb7461da13f42820b926/idocker-1.2.2.tar.gz
+[2023-07-24 05:10:19] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-24 05:10:19] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230724/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [aihero]: Downloading https://files.pythonhosted.org/packages/bc/6b/2d9458f6e290a97e82aa665d29964d360f4c8834c387ffba96fe8ec9b348/aihero-0.2.7.tar.gz
+[2023-07-24 05:10:20] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/b5/1a/9e94dac646d249d1b42b6110d8202f82b3cbfffd7929610085cc5f4e2dff/byquant-1.7.21.tar.gz
+[2023-07-24 05:10:20] INFO root fetch - processPackages [fullctl]: Downloading https://files.pythonhosted.org/packages/0b/15/1ac7905862b304b62a7adfb01a21d71decf8b7d04e575642975927ad430e/fullctl-1.5.0.tar.gz
+[2023-07-24 05:10:20] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230724/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/61/4b/fae96808eb782d18d851cb61ed22b5daf1624db91c07a67bf988f4a22dfd/auto-eval-0.3.6.tar.gz
+[2023-07-24 05:10:20] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.4.tar.gz tmp/gearsllm-0.1.5.tar.gz --markdown 20230724/g/gearsllm/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [pgvector]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [pgvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgvector-0.1.8-py2.py3-none-any.whl.zip tmp/pgvector-0.2.0-py2.py3-none-any.whl.zip --markdown 20230724/p/pgvector/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [idocker]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [idocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idocker-1.2.1.tar.gz tmp/idocker-1.2.2.tar.gz --markdown 20230724/i/idocker/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.3.5.tar.gz tmp/auto-eval-0.3.6.tar.gz --markdown 20230724/a/auto-eval/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [whisper-at]: Downloading https://files.pythonhosted.org/packages/02/ba/7d8a20f34382b4ba056a75b93d98f92205dc8842685887c29ba12ed46412/whisper-at-0.4.tar.gz
+[2023-07-24 05:10:20] INFO root fetch - processPackages [aihero]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [aihero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihero-0.2.6.tar.gz tmp/aihero-0.2.7.tar.gz --markdown 20230724/a/aihero/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [whisper-at]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [whisper-at]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-at-0.2.tar.gz tmp/whisper-at-0.4.tar.gz --markdown 20230724/w/whisper-at/0.2-0.4/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.20.tar.gz tmp/byquant-1.7.21.tar.gz --markdown 20230724/b/byquant/1.7.20-1.7.21/diff.md --exclude *.pyd
+[2023-07-24 05:10:20] INFO root fetch - processPackages [fullctl]: executing diffoscope
+[2023-07-24 05:10:20] INFO root fetch - processPackages [fullctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullctl-1.4.0.tar.gz tmp/fullctl-1.5.0.tar.gz --markdown 20230724/f/fullctl/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-24 05:10:21] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.2.1.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.2.2.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [idocker]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.4.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.5.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [pgvector]: Remove: archive file [/home/abi/fetcher/tmp/pgvector-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [pgvector]: Remove: archive file [/home/abi/fetcher/tmp/pgvector-0.2.0-py2.py3-none-any.whl.zip]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [pgvector]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.6.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [aihero]: Remove: archive file [/home/abi/fetcher/tmp/aihero-0.2.7.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [aihero]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.5.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.6.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-07-24 05:10:21] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-07-24 05:10:21] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-07-24 05:10:22] INFO root fetch - processPackages [whisper-at]: Remove: archive file [/home/abi/fetcher/tmp/whisper-at-0.2.tar.gz]
+[2023-07-24 05:10:22] INFO root fetch - processPackages [whisper-at]: Remove: archive file [/home/abi/fetcher/tmp/whisper-at-0.4.tar.gz]
+[2023-07-24 05:10:22] INFO root fetch - main [MainThread]: End processing [whisper-at]: success
+[2023-07-24 05:10:22] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.20.tar.gz]
+[2023-07-24 05:10:22] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.21.tar.gz]
+[2023-07-24 05:10:22] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-24 05:10:23] INFO root fetch - processPackages [fullctl]: Remove: archive file [/home/abi/fetcher/tmp/fullctl-1.4.0.tar.gz]
+[2023-07-24 05:10:23] INFO root fetch - processPackages [fullctl]: Remove: archive file [/home/abi/fetcher/tmp/fullctl-1.5.0.tar.gz]
+[2023-07-24 05:10:23] INFO root fetch - main [MainThread]: End processing [fullctl]: success
+[2023-07-24 05:10:23] INFO root fetch - main [MainThread]: Store serial: [19007619]
