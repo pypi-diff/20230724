@@ -6401,3 +6401,51 @@
 [2023-07-24 05:16:20] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1620.tar.gz]
 [2023-07-24 05:16:20] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-07-24 05:16:20] INFO root fetch - main [MainThread]: Store serial: [19007650]
+[2023-07-24 05:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007650]
+[2023-07-24 05:21:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chungus
+[2023-07-24 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaborn-analyzer
+[2023-07-24 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sysml2py
+[2023-07-24 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2023-07-24 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starmerx-url
+[2023-07-24 05:21:29] INFO root fetch - processPackages [starmerx-url]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 05:21:29] INFO root fetch - processPackages [chungus]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-24 05:21:29] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-24 05:21:29] INFO root fetch - processPackages [sysml2py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-24 05:21:29] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-24 05:21:29] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/19/7e/e35cdff0e81a37f3fc3b3a8550963aa328434ae888f9a7df822f71a00140/seaborn-analyzer-0.3.4.tar.gz
+[2023-07-24 05:21:29] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-24 05:21:29] INFO root fetch - processPackages [chungus]: Downloading https://files.pythonhosted.org/packages/68/c7/677f089858468f7c9af690bcfd1c3b6c8df567beb2ce7cd768324239a043/chungus-0.0.0.tar.gz
+[2023-07-24 05:21:29] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/14/21/bf42a0327e231120f014a83280ba11e70b024f295885569c8e8e464fbedd/starmerx_url-0.1.4.tar.gz
+[2023-07-24 05:21:29] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/0b/0a/b43f25cacfe43359cf0169a64f34091375f81b6c8c6362cdec5c1cb8f993/sysml2py-0.4.0.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/3a/d5/8969f685e8a8c6fe37d80c2a8b4f837e2566f7cc91e48e3b8bdcc9130371/seaborn-analyzer-0.3.5.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [chungus]: Downloading https://files.pythonhosted.org/packages/dc/fb/a0481fa07b541684496c8a366349843ae074a8686ad719df3510a3ff3340/chungus-1.0.0.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/42/75/1f76de7956f8dea5e78683ea2130abc62b00b689923c538128cf4ffe6f64/sysml2py-0.4.1.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-24 05:21:30] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230724/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-24 05:21:30] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/07/db/2826689427bdd207b91a73893c3b818bfa505bcebdc8ae0f6339c15da240/starmerx_url-0.1.5.tar.gz
+[2023-07-24 05:21:30] INFO root fetch - processPackages [chungus]: executing diffoscope
+[2023-07-24 05:21:30] INFO root fetch - processPackages [chungus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chungus-0.0.0.tar.gz tmp/chungus-1.0.0.tar.gz --markdown 20230724/c/chungus/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 05:21:30] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-07-24 05:21:30] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.4.0.tar.gz tmp/sysml2py-0.4.1.tar.gz --markdown 20230724/s/sysml2py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-24 05:21:30] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-07-24 05:21:30] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.3.4.tar.gz tmp/seaborn-analyzer-0.3.5.tar.gz --markdown 20230724/s/seaborn-analyzer/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-24 05:21:30] INFO root fetch - processPackages [starmerx-url]: executing diffoscope
+[2023-07-24 05:21:30] INFO root fetch - processPackages [starmerx-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerx_url-0.1.4.tar.gz tmp/starmerx_url-0.1.5.tar.gz --markdown 20230724/s/starmerx-url/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 05:21:31] INFO root fetch - processPackages [chungus]: Remove: archive file [/home/abi/fetcher/tmp/chungus-0.0.0.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - processPackages [chungus]: Remove: archive file [/home/abi/fetcher/tmp/chungus-1.0.0.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [chungus]: success
+[2023-07-24 05:21:31] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.4.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.5.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [starmerx-url]: success
+[2023-07-24 05:21:31] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.4.0.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.4.1.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-07-24 05:21:31] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.4.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.5.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-07-24 05:21:31] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-24 05:21:31] INFO root fetch - main [MainThread]: Store serial: [19007664]
