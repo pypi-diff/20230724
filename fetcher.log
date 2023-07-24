@@ -5149,3 +5149,137 @@
 [2023-07-24 03:40:46] INFO root fetch - processPackages [heare-sdk]: Remove: archive file [/home/abi/fetcher/tmp/heare-sdk-0.0.9.tar.gz]
 [2023-07-24 03:40:46] INFO root fetch - main [MainThread]: End processing [heare-sdk]: success
 [2023-07-24 03:40:46] INFO root fetch - main [MainThread]: Store serial: [19007140]
+[2023-07-24 03:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007140]
+[2023-07-24 03:45:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-ariakedark-theme
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-materialdarker-theme
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiutil
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energon-prometheus-exporter
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-07-24 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simpleaichat
+[2023-07-24 03:45:55] INFO root fetch - processPackages [energon-prometheus-exporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [simpleaichat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [aiutil]: New version: [0.80.4] Old Version: [0.79.0]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.913] Old Version: [0.0.912]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/6a/f7/49429662bbf365ddc4bb5193e7ce81e2300cf6b30fc6e6e0f36aeafd2f24/energon_prometheus_exporter-0.0.1.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1e/2d/85b9c000957436efd161e712ddda46127e87c25a0f5bf71f6c41b1d45ce8/nbdev-apl-0.0.912.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-24 03:45:55] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-24 03:45:55] INFO root fetch - processPackages [proactive]: Start processing: sqlx-exec
+[2023-07-24 03:45:55] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-24 03:45:55] INFO root fetch - processPackages [simpleaichat]: Downloading https://files.pythonhosted.org/packages/bb/21/e05966fff642bf0a0fbacdcfa36c5a02e9eda347eaba6b7c43cfe52dff8a/simpleaichat-0.2.1.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Downloading https://files.pythonhosted.org/packages/16/71/84d0da1cd6cc9ae8f0fcc7443da4f009885e11107248733dcf76625c7ae3/jupyterlab_ariakedark_theme-0.1.1.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: Downloading https://files.pythonhosted.org/packages/09/30/a3a85cb8c05f4d6076745e809d3bfa361fef7edf68b2ecf13e7e6fee33fa/jupyterlab_materialdarker_theme-0.1.1.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/0e/b0/a8b2aa819bdbf2ce094b4112922fbb5862f4027a693ae0268700088269f7/aiutil-0.79.0.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [sqlx-exec]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-24 03:45:55] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/7a/d6/388e6cfcd39493697c96539ecc4f7d95b8adb103c5fa595745f49cd491c4/energon_prometheus_exporter-0.0.2.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/48/90/af39a6cc4b484da0d7313f1f2e91312a441f59c140a8815e6d114bc9a747/sqlx-exec-1.1.4.tar.gz
+[2023-07-24 03:45:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/74/38/77ee43a3376f4143fa9497ddf2168ac1a2a0a1072426325cea76831d2134/nbdev-apl-0.0.913.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-24 03:45:56] INFO root fetch - processPackages [energon-prometheus-exporter]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [energon-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energon_prometheus_exporter-0.0.1.tar.gz tmp/energon_prometheus_exporter-0.0.2.tar.gz --markdown 20230724/e/energon-prometheus-exporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230724/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [simpleaichat]: Downloading https://files.pythonhosted.org/packages/77/61/9234ca68320bfec00e48cc65478bfac3a18b01e08315458dbf9cf38e728d/simpleaichat-0.2.2.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230724/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/b9/c9/437d6991041f376f80103a3ea2237a92a6fe0ec1d96ae4d996413ea24a50/aiutil-0.80.4.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Downloading https://files.pythonhosted.org/packages/4d/cd/f82336bcd32922dfbee1a24951632a861df6c61bba502aeebf8b0de877b7/jupyterlab_ariakedark_theme-0.1.2.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: Downloading https://files.pythonhosted.org/packages/3b/21/d614b55127e1cd7f254c1a38b95adce36e99e07e4318d7e6dc324e061e6b/jupyterlab_materialdarker_theme-0.1.2.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.912.tar.gz tmp/nbdev-apl-0.0.913.tar.gz --markdown 20230724/n/nbdev-apl/0.0.912-0.0.913/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230724/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [aiutil]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [aiutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiutil-0.79.0.tar.gz tmp/aiutil-0.80.4.tar.gz --markdown 20230724/a/aiutil/0.79.0-0.80.4/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/09/e0/e4171e8be7d2837fbc99ad27c16131fa58a580a2a1fbe95140ae9e63e62b/sqlx-exec-1.1.5.tar.gz
+[2023-07-24 03:45:56] INFO root fetch - processPackages [simpleaichat]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [simpleaichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleaichat-0.2.1.tar.gz tmp/simpleaichat-0.2.2.tar.gz --markdown 20230724/s/simpleaichat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_ariakedark_theme-0.1.1.tar.gz tmp/jupyterlab_ariakedark_theme-0.1.2.tar.gz --markdown 20230724/j/jupyterlab-ariakedark-theme/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_materialdarker_theme-0.1.1.tar.gz tmp/jupyterlab_materialdarker_theme-0.1.2.tar.gz --markdown 20230724/j/jupyterlab-materialdarker-theme/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 03:45:56] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-07-24 03:45:56] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.1.4.tar.gz tmp/sqlx-exec-1.1.5.tar.gz --markdown 20230724/s/sqlx-exec/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-24 03:45:57] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.1.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.2.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [energon-prometheus-exporter]: Start processing: pyrsm
+[2023-07-24 03:45:57] INFO root fetch - main [MainThread]: End processing [energon-prometheus-exporter]: success
+[2023-07-24 03:45:57] INFO root fetch - processPackages [pyrsm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-django]: Start processing: django-user-notification
+[2023-07-24 03:45:57] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.912.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.913.tar.gz]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [nbdev-apl]: Start processing: sqlx-batis
+[2023-07-24 03:45:57] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-24 03:45:57] INFO root fetch - processPackages [django-user-notification]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [sqlx-batis]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: vellum-ai
+[2023-07-24 03:45:57] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-24 03:45:57] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 03:45:57] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/57/38/3fdf6e61ad46c8e8f255cd72c7749b2af971b47a3d25c9f4779be43172b7/sqlx-batis-0.0.6.tar.gz
+[2023-07-24 03:45:57] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/12/28/7c18cdab7bd736e584a0df186f5f60cc0e70a3117c0948b214f3f09a29fc/pyrsm-0.9.0.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/14/ef/e8454e7e07faed7613139c7d5bad56231d7f5890b52e09f0937590936438/django_user_notification-0.9.1.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [simpleaichat]: Remove: archive file [/home/abi/fetcher/tmp/simpleaichat-0.2.1.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [simpleaichat]: Remove: archive file [/home/abi/fetcher/tmp/simpleaichat-0.2.2.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [simpleaichat]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.4.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.1.5.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.79.0.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.80.4.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [aiutil]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/23/c8/db283350865f81fb1a75715874c159ed90eb93be843042349956cada0d4d/sqlx-batis-0.0.7.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ariakedark_theme-0.1.1.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ariakedark_theme-0.1.2.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-ariakedark-theme]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_materialdarker_theme-0.1.1.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - processPackages [jupyterlab-materialdarker-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_materialdarker_theme-0.1.2.tar.gz]
+[2023-07-24 03:45:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-materialdarker-theme]: success
+[2023-07-24 03:45:58] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/51/eb/61bd4cb8618f83e56bfaa382ccd4a4e9d93d726c953200f9114481e9a886/pyrsm-0.9.1.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-24 03:45:58] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.9.0.tar.gz tmp/pyrsm-0.9.1.tar.gz --markdown 20230724/p/pyrsm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 03:45:58] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-24 03:45:58] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.0.6.tar.gz tmp/sqlx-batis-0.0.7.tar.gz --markdown 20230724/s/sqlx-batis/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 03:45:58] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/de/d5/e89db08d167141992d14f608e830363d50a4499984fb6a409d962b434b78/django_user_notification-0.9.2.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/4a/1a/5f8a4060cf923a537d1e78b17458c42b4d0162ec730b5a3eb7ca618925fe/vellum_ai-0.0.9.tar.gz
+[2023-07-24 03:45:58] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-07-24 03:45:58] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.8.tar.gz tmp/vellum_ai-0.0.9.tar.gz --markdown 20230724/v/vellum-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 03:45:58] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-07-24 03:45:58] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.9.1.tar.gz tmp/django_user_notification-0.9.2.tar.gz --markdown 20230724/d/django-user-notification/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 03:45:59] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.6.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.7.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-24 03:45:59] INFO root fetch - processPackages [django-user-notification]: Remove: archive file [/home/abi/fetcher/tmp/django_user_notification-0.9.1.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - processPackages [django-user-notification]: Remove: archive file [/home/abi/fetcher/tmp/django_user_notification-0.9.2.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-07-24 03:45:59] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.8.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.0.9.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-07-24 03:45:59] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.0.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.1.tar.gz]
+[2023-07-24 03:45:59] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-24 03:45:59] INFO root fetch - main [MainThread]: Store serial: [19007187]
