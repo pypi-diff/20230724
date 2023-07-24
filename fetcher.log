@@ -7395,3 +7395,66 @@
 [2023-07-24 06:34:50] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.3.tar.gz]
 [2023-07-24 06:34:50] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2023-07-24 06:34:50] INFO root fetch - main [MainThread]: Store serial: [19008056]
+[2023-07-24 06:39:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008056]
+[2023-07-24 06:39:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyakamai
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-url
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-url
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-utils-sqlite-url
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scope-rl
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pairguy
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-ariakedark-theme
+[2023-07-24 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PDFAgent
+[2023-07-24 06:39:59] INFO root fetch - processPackages [pairguy]: New version: [1.2.2] Old Version: [1.2]
+[2023-07-24 06:39:59] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 06:39:59] INFO root fetch - processPackages [datasette-sqlite-url]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-24 06:39:59] WARNING root fetch - processPackages [PDFAgent]: Skipping, unable to determine old version
+[2023-07-24 06:39:59] INFO root fetch - processPackages [sqlite-url]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-24 06:39:59] INFO root fetch - main [MainThread]: End processing [PDFAgent] error
+[2023-07-24 06:39:59] INFO root fetch - processPackages [scope-rl]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 06:39:59] WARNING root fetch - processPackages [sqlite-utils-sqlite-url]: Skipping, unable to determine old version
+[2023-07-24 06:39:59] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-url] error
+[2023-07-24 06:39:59] INFO root fetch - processPackages [pyakamai]: New version: [1.26] Old Version: [1.25]
+[2023-07-24 06:39:59] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Downloading https://files.pythonhosted.org/packages/4d/cd/f82336bcd32922dfbee1a24951632a861df6c61bba502aeebf8b0de877b7/jupyterlab_ariakedark_theme-0.1.2.tar.gz
+[2023-07-24 06:39:59] INFO root fetch - processPackages [pairguy]: Downloading https://files.pythonhosted.org/packages/2f/8d/59e2733f963f2ce5fdd37028bd1ddc4b25552abe18a3be7f2dc4dab04bdc/pairguy-1.2.tar.gz
+[2023-07-24 06:39:59] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/db/86/9f5ea7af08ba25a72e73e406b7dad521730b1e77e1878418300a9a03bec8/datasette_sqlite_url-0.1.0a7-py3-none-any.whl
+[2023-07-24 06:39:59] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/32/25/9a286506af499ec7a51f352e18204dfedf0a6c56c41ef2b788d8f6e7a7d6/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 06:39:59] INFO root fetch - processPackages [scope-rl]: Downloading https://files.pythonhosted.org/packages/f8/c4/d0c43b849038e5ab7d0ace9d2dc002f14abadd2d4740e9edfd12449f3482/scope-rl-0.1.2.tar.gz
+[2023-07-24 06:39:59] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/9c/27/2e8423a62d7d0c5f33184284732f81fb430d23e00c6a348b2117ac2ea0c4/pyakamai-1.25-py3-none-any.whl
+[2023-07-24 06:39:59] INFO root fetch - processPackages [pairguy]: Downloading https://files.pythonhosted.org/packages/00/64/84885c1f14d3da26321d178454b7e954da494c4ef845a13e15584b3f75a9/pairguy-1.2.2.tar.gz
+[2023-07-24 06:39:59] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Downloading https://files.pythonhosted.org/packages/6d/2e/98391822b82de99c05a6f7b3e584f93b7dcefb653bfce6ae687a8a231123/jupyterlab_ariakedark_theme-0.1.3.tar.gz
+[2023-07-24 06:39:59] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/33/36/60fc25172d23e333f1573a1beed10e0627fb65d1d07f6c0fee07ebdd3bd7/datasette_sqlite_url-0.1.0a8-py3-none-any.whl
+[2023-07-24 06:40:00] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/62/7a/19a4fac5ba209c0b6bd3508b146a4634edf64332c6680ff62d887400e9b5/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 06:40:00] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/1e/56/8fa8bbd31d25e8cef04672f0429513d89813c09e15965b80c522460be394/pyakamai-1.26-py3-none-any.whl
+[2023-07-24 06:40:00] INFO root fetch - processPackages [scope-rl]: Downloading https://files.pythonhosted.org/packages/3e/eb/9d40945c4ab21c1d38e837a9d06e45d56acbe0727e8ad5b46288e279e7ec/scope-rl-0.1.3.tar.gz
+[2023-07-24 06:40:00] INFO root fetch - processPackages [pairguy]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [pairguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pairguy-1.2.tar.gz tmp/pairguy-1.2.2.tar.gz --markdown 20230724/p/pairguy/1.2-1.2.2/diff.md --exclude *.pyd
+[2023-07-24 06:40:00] INFO root fetch - processPackages [datasette-sqlite-url]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [datasette-sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip tmp/datasette_sqlite_url-0.1.0a8-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-url/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-24 06:40:00] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.25-py3-none-any.whl.zip tmp/pyakamai-1.26-py3-none-any.whl.zip --markdown 20230724/p/pyakamai/1.25-1.26/diff.md --exclude *.pyd
+[2023-07-24 06:40:00] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_ariakedark_theme-0.1.2.tar.gz tmp/jupyterlab_ariakedark_theme-0.1.3.tar.gz --markdown 20230724/j/jupyterlab-ariakedark-theme/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 06:40:00] INFO root fetch - processPackages [scope-rl]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [scope-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scope-rl-0.1.2.tar.gz tmp/scope-rl-0.1.3.tar.gz --markdown 20230724/s/scope-rl/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 06:40:00] INFO root fetch - processPackages [sqlite-url]: executing diffoscope
+[2023-07-24 06:40:00] INFO root fetch - processPackages [sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230724/s/sqlite-url/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-24 06:40:01] INFO root fetch - processPackages [pairguy]: Remove: archive file [/home/abi/fetcher/tmp/pairguy-1.2.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - processPackages [pairguy]: Remove: archive file [/home/abi/fetcher/tmp/pairguy-1.2.2.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - main [MainThread]: End processing [pairguy]: success
+[2023-07-24 06:40:01] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip]
+[2023-07-24 06:40:01] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a8-py3-none-any.whl.zip]
+[2023-07-24 06:40:01] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-url]: success
+[2023-07-24 06:40:01] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.25-py3-none-any.whl.zip]
+[2023-07-24 06:40:01] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.26-py3-none-any.whl.zip]
+[2023-07-24 06:40:01] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-07-24 06:40:01] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ariakedark_theme-0.1.2.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - processPackages [jupyterlab-ariakedark-theme]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_ariakedark_theme-0.1.3.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-ariakedark-theme]: success
+[2023-07-24 06:40:01] INFO root fetch - processPackages [scope-rl]: Remove: archive file [/home/abi/fetcher/tmp/scope-rl-0.1.2.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - processPackages [scope-rl]: Remove: archive file [/home/abi/fetcher/tmp/scope-rl-0.1.3.tar.gz]
+[2023-07-24 06:40:01] INFO root fetch - main [MainThread]: End processing [scope-rl]: success
+[2023-07-24 06:40:03] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 06:40:03] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 06:40:03] INFO root fetch - main [MainThread]: End processing [sqlite-url]: success
+[2023-07-24 06:40:03] INFO root fetch - main [MainThread]: Store serial: [19008078]
