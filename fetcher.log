@@ -6914,3 +6914,75 @@
 [2023-07-24 06:03:26] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
 [2023-07-24 06:03:26] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
 [2023-07-24 06:03:26] INFO root fetch - main [MainThread]: Store serial: [19007860]
+[2023-07-24 06:08:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007860]
+[2023-07-24 06:08:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ekonlpy
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biggo-api-pms-python
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medusa-zip
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-regex
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-regex
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yanhui-text2speech
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-utils-sqlite-regex
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-swissknife
+[2023-07-24 06:08:38] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ekonlpy]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-07-24 06:08:38] INFO root fetch - processPackages [biggo-api-pms-python]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 06:08:38] INFO root fetch - processPackages [medusa-zip]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-07-24 06:08:38] WARNING root fetch - processPackages [yanhui-text2speech]: Skipping, unable to determine old version
+[2023-07-24 06:08:38] INFO root fetch - processPackages [sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 06:08:38] INFO root fetch - main [MainThread]: End processing [yanhui-text2speech] error
+[2023-07-24 06:08:38] WARNING root fetch - processPackages [sqlite-utils-sqlite-regex]: Skipping, unable to determine old version
+[2023-07-24 06:08:38] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-regex] error
+[2023-07-24 06:08:38] INFO root fetch - processPackages [hiddifypanel]: New version: [7.1.5] Old Version: [7.1.4]
+[2023-07-24 06:08:38] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ml-swissknife]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 06:08:38] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/9d/3e/8f162811399247c0cfe313582fea28dc46e9d4d3e6d1205af9d25d324c41/medusa-zip-0.0.2.tar.gz
+[2023-07-24 06:08:38] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/25/c5/7c63d35ee5f41a41d5d94b797a0545e2d77df72f6d7d15640fd9693b2911/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl
+[2023-07-24 06:08:38] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/55/ef/30d888f8e93d294476184c560565d581edb0aa3f7f9d7ed3d486feacffd5/ekonlpy-1.1.7.tar.gz
+[2023-07-24 06:08:38] INFO root fetch - processPackages [biggo-api-pms-python]: Downloading https://files.pythonhosted.org/packages/f0/4f/b0e949294c31906de8a9eb0e21232b93c5f5d54945a9e8b8873cb44c76a8/biggo-api-pms-python-1.0.0.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/48/62/95bcaf409cd88ea3aac6424ee42ecd2df4fa5dab60b5bc2d965cbd656673/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl
+[2023-07-24 06:08:39] INFO root fetch - processPackages [ml-swissknife]: Downloading https://files.pythonhosted.org/packages/1b/f4/84ef806d3a7f356b575f39eb9be97b23911451400063cb3fb76034f13aa9/ml-swissknife-0.1.8.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/4c/13/c19acae36b7b10240152cd5e5b46078b9c01ceff1e29a09d5482bf422377/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 06:08:39] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-07-24 06:08:39] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 06:08:39] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/95/f7/076fbd88712e329f0020ae9f827132ea6ee4d097ede2ae75c83b6006d4ac/medusa-zip-0.0.5.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/c6/af/dc3e5461f322aa76450bd02d99ee04f6e3971e6886fcccecd8b3ea645e97/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl
+[2023-07-24 06:08:39] INFO root fetch - processPackages [biggo-api-pms-python]: Downloading https://files.pythonhosted.org/packages/ed/98/3856ed9dc5c95e98c895584b4ccad17626cab39cda92eb49738c1b1d8caa/biggo-api-pms-python-1.0.1.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [biggo-api-pms-python]: executing diffoscope
+[2023-07-24 06:08:39] INFO root fetch - processPackages [biggo-api-pms-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biggo-api-pms-python-1.0.0.tar.gz tmp/biggo-api-pms-python-1.0.1.tar.gz --markdown 20230724/b/biggo-api-pms-python/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 06:08:39] INFO root fetch - processPackages [medusa-zip]: executing diffoscope
+[2023-07-24 06:08:39] INFO root fetch - processPackages [medusa-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medusa-zip-0.0.2.tar.gz tmp/medusa-zip-0.0.5.tar.gz --markdown 20230724/m/medusa-zip/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 06:08:39] INFO root fetch - processPackages [ml-swissknife]: Downloading https://files.pythonhosted.org/packages/81/67/73dace4381e667d1d9ada5a6606ba4e01274506497c4b2338ef2bf1bc6d9/ml-swissknife-0.1.9.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [sqlite-regex]: executing diffoscope
+[2023-07-24 06:08:39] INFO root fetch - processPackages [sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 06:08:39] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/09/e9/f938179936d8a01cb8c456693d4e52c65c2865a3a2df864570dadc2f8277/ekonlpy-1.2.0.tar.gz
+[2023-07-24 06:08:39] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/d3/55/f6e968832f1840fc494bf60bf46db6f7ccc9cea0e7b1da3ca44b005ea026/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 06:08:39] INFO root fetch - processPackages [ml-swissknife]: executing diffoscope
+[2023-07-24 06:08:39] INFO root fetch - processPackages [ml-swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-swissknife-0.1.8.tar.gz tmp/ml-swissknife-0.1.9.tar.gz --markdown 20230724/m/ml-swissknife/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 06:08:39] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-07-24 06:08:39] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip]
+[2023-07-24 06:08:39] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-07-24 06:08:40] INFO root fetch - processPackages [ekonlpy]: executing diffoscope
+[2023-07-24 06:08:40] INFO root fetch - processPackages [ekonlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekonlpy-1.1.7.tar.gz tmp/ekonlpy-1.2.0.tar.gz --markdown 20230724/e/ekonlpy/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-07-24 06:08:40] INFO root fetch - processPackages [biggo-api-pms-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo-api-pms-python-1.0.0.tar.gz]
+[2023-07-24 06:08:40] INFO root fetch - processPackages [biggo-api-pms-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo-api-pms-python-1.0.1.tar.gz]
+[2023-07-24 06:08:40] INFO root fetch - main [MainThread]: End processing [biggo-api-pms-python]: success
+[2023-07-24 06:08:40] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.2.tar.gz]
+[2023-07-24 06:08:40] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.5.tar.gz]
+[2023-07-24 06:08:40] INFO root fetch - main [MainThread]: End processing [medusa-zip]: success
+[2023-07-24 06:08:40] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-07-24 06:08:40] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230724/h/hiddifypanel/7.1.4-7.1.5/diff.md --exclude *.pyd
+[2023-07-24 06:08:41] INFO root fetch - processPackages [ml-swissknife]: Remove: archive file [/home/abi/fetcher/tmp/ml-swissknife-0.1.8.tar.gz]
+[2023-07-24 06:08:41] INFO root fetch - processPackages [ml-swissknife]: Remove: archive file [/home/abi/fetcher/tmp/ml-swissknife-0.1.9.tar.gz]
+[2023-07-24 06:08:41] INFO root fetch - main [MainThread]: End processing [ml-swissknife]: success
+[2023-07-24 06:08:43] INFO root fetch - processPackages [ekonlpy]: Remove: archive file [/home/abi/fetcher/tmp/ekonlpy-1.1.7.tar.gz]
+[2023-07-24 06:08:43] INFO root fetch - processPackages [ekonlpy]: Remove: archive file [/home/abi/fetcher/tmp/ekonlpy-1.2.0.tar.gz]
+[2023-07-24 06:08:43] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
+[2023-07-24 06:08:45] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:08:45] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:08:45] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
+[2023-07-24 06:08:49] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 06:08:49] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 06:08:49] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-07-24 06:08:49] INFO root fetch - main [MainThread]: Store serial: [19007920]
