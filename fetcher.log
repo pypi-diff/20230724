@@ -8873,3 +8873,111 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:13:58] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230723.tar.gz]
 [2023-07-24 08:13:58] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-24 08:13:58] INFO root fetch - main [MainThread]: Store serial: [19008734]
+[2023-07-24 08:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008734]
+[2023-07-24 08:19:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-ulid
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-ulid
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-ulid
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invoicing-excel-pdf
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hhb
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-hr
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-hr-employee-project-experience
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasette-sqlite-url
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-url
+[2023-07-24 08:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-utils-sqlite-url
+[2023-07-24 08:19:06] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-employee-project-experience]: Skipping, unable to determine old version
+[2023-07-24 08:19:06] INFO root fetch - processPackages [odoo14-addon-ssi-hr-employee-project-experience]: Start processing: alibabacloud-dcdn20180115
+[2023-07-24 08:19:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-employee-project-experience] error
+[2023-07-24 08:19:06] INFO root fetch - processPackages [sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-07-24 08:19:06] INFO root fetch - processPackages [hhb]: New version: [2.4.5] Old Version: [2.2.35]
+[2023-07-24 08:19:06] INFO root fetch - processPackages [datasette-sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-07-24 08:19:06] INFO root fetch - processPackages [datasette-sqlite-url]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-24 08:19:06] WARNING root fetch - processPackages [invoicing-excel-pdf]: Skipping, unable to determine old version
+[2023-07-24 08:19:06] INFO root fetch - processPackages [invoicing-excel-pdf]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-07-24 08:19:06] INFO root fetch - main [MainThread]: End processing [invoicing-excel-pdf] error
+[2023-07-24 08:19:06] INFO root fetch - processPackages [sqlite-url]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-07-24 08:19:06] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: New version: [0.1.0a8] Old Version: [0.1.0]
+[2023-07-24 08:19:06] WARNING root fetch - processPackages [odoo14-addon-ssi-hr]: Skipping, unable to determine old version
+[2023-07-24 08:19:06] INFO root fetch - processPackages [odoo14-addon-ssi-hr]: Start processing: pymobiledevice3
+[2023-07-24 08:19:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr] error
+[2023-07-24 08:19:06] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: New version: [0.2.1a19] Old Version: [0.2.1]
+[2023-07-24 08:19:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/fb/75/84772c7d22f6331c21be9e6e44aa4d0e7bc9a093ec1efae29447e06afe1b/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-24 08:19:07] INFO root fetch - processPackages [pymobiledevice3]: New version: [2.1.0] Old Version: [2.0.4]
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/39/9c/3b1b12e0230189f953e9f6fa50b27a1f41b55d46b4d30faf5ba7bfdf28a6/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/32/25/9a286506af499ec7a51f352e18204dfedf0a6c56c41ef2b788d8f6e7a7d6/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [hhb]: Downloading https://files.pythonhosted.org/packages/9c/f1/732eff40a278f5bf709cceb595e75879400871d351c0ca2e9dddc224cc6a/hhb-2.2.35-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: Downloading https://files.pythonhosted.org/packages/96/47/326a24d0902dc84cbd4c3b067fbb616c748672a170af1eb007e7d31f56cb/sqlite_utils_sqlite_url-0.1.0-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/db/86/9f5ea7af08ba25a72e73e406b7dad521730b1e77e1878418300a9a03bec8/datasette_sqlite_url-0.1.0a7-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/7c/d8/3ee793066e5bebb5bdb6e157a90cf228bf5be8d933a231ec07f369e4ba7a/sqlite_utils_sqlite_ulid-0.2.1-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/ab/3b/187b961948c84ee89a9df49535537d0cef20be60d541c6153ec33f55b5eb/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/a0/ca/16bfd3d8bcf347344b4fdb3e03d166da6413d2f4a86830e9d2c02b760a11/pymobiledevice3-2.0.4.tar.gz
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-url]: Downloading https://files.pythonhosted.org/packages/62/7a/19a4fac5ba209c0b6bd3508b146a4634edf64332c6680ff62d887400e9b5/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: Downloading https://files.pythonhosted.org/packages/ef/15/da1861af3e272d95511a1d63a1b6fcc32e918b74888ed6610867e9f598e8/sqlite_utils_sqlite_url-0.1.0a8-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/79/88/62ad933ff780becc4cc2adda47c01876102f548edb36ed1d727d10bcbb81/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-ulid]: executing diffoscope
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-url]: Downloading https://files.pythonhosted.org/packages/33/36/60fc25172d23e333f1573a1beed10e0627fb65d1d07f6c0fee07ebdd3bd7/datasette_sqlite_url-0.1.0a8-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/25/a0/92e29300ed677fe50a0f0ce94c85630438f1d94f4fd30b950a9a0b4c2777/alibabacloud_dcdn20180115-1.1.9.tar.gz
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-url]: executing diffoscope
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230724/s/sqlite-url/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/6c/2a/151f2fbe00a22c8b10743accfac7993d56a443deac29649aefcd9fc952e8/sqlite_utils_sqlite_ulid-0.2.1a19-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [hhb]: Downloading https://files.pythonhosted.org/packages/51/da/181ee24083d3ee0d3f35ac39f0157a387c1399ac87f21e4fe4923cc57134/hhb-2.4.5-py3-none-any.whl
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: executing diffoscope
+[2023-07-24 08:19:07] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_url-0.1.0-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_url-0.1.0a8-py3-none-any.whl.zip --markdown 20230724/s/sqlite-utils-sqlite-url/0.1.0-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-url]: executing diffoscope
+[2023-07-24 08:19:07] INFO root fetch - processPackages [datasette-sqlite-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip tmp/datasette_sqlite_url-0.1.0a8-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-url/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/7b/3b/d2e5e5872bff482675c6c8fb178b95174b8780c80e367084d17a3bc9ccb1/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz
+[2023-07-24 08:19:08] WARNING root fetch - processPackages [hhb]: Skipping package: exceeds size limit 10870239>=10485760
+[2023-07-24 08:19:08] INFO root fetch - processPackages [hhb]: Start processing: datasette-sqlite-regex
+[2023-07-24 08:19:08] INFO root fetch - main [MainThread]: End processing [hhb] error
+[2023-07-24 08:19:08] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_ulid-0.2.1-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_ulid-0.2.1a19-py3-none-any.whl.zip --markdown 20230724/s/sqlite-utils-sqlite-ulid/0.2.1-0.2.1a19/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz --markdown 20230724/a/alibabacloud-dcdn20180115/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 08:19:08] INFO root fetch - processPackages [sqlite-ulid]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/16/66/872a09e46d24fbcb20bf0d11a5559c6eb86a8bacd0a30dbda6304b2966d6/pymobiledevice3-2.1.0.tar.gz
+[2023-07-24 08:19:08] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-07-24 08:19:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz --markdown 20230724/a/alibabacloud-dcdn20180115-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-2.0.4.tar.gz tmp/pymobiledevice3-2.1.0.tar.gz --markdown 20230724/p/pymobiledevice3/2.0.4-2.1.0/diff.md --exclude *.pyd
+[2023-07-24 08:19:08] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/48/62/95bcaf409cd88ea3aac6424ee42ecd2df4fa5dab60b5bc2d965cbd656673/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl
+[2023-07-24 08:19:08] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-07-24 08:19:08] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-ulid]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_url-0.1.0-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [sqlite-utils-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_url-0.1.0a8-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-url]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a7-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_url-0.1.0a8-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-url]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_ulid-0.2.1-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [sqlite-utils-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_ulid-0.2.1a19-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-ulid]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115-1.1.9.tar.gz]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dcdn20180115_py2-1.1.9.tar.gz]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip]
+[2023-07-24 08:19:09] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-07-24 08:19:10] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.0.4.tar.gz]
+[2023-07-24 08:19:10] INFO root fetch - processPackages [pymobiledevice3]: Remove: archive file [/home/abi/fetcher/tmp/pymobiledevice3-2.1.0.tar.gz]
+[2023-07-24 08:19:10] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-07-24 08:19:11] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-07-24 08:19:11] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-07-24 08:19:11] INFO root fetch - main [MainThread]: End processing [sqlite-ulid]: success
+[2023-07-24 08:19:11] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 08:19:11] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 08:19:11] INFO root fetch - main [MainThread]: End processing [sqlite-url]: success
+[2023-07-24 08:19:11] INFO root fetch - main [MainThread]: Store serial: [19008776]
