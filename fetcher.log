@@ -23356,3 +23356,213 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 17:09:48] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.1.1-py3-none-any.whl.zip]
 [2023-07-24 17:09:48] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
 [2023-07-24 17:09:48] INFO root fetch - main [MainThread]: Store serial: [19014614]
+[2023-07-24 17:14:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014614]
+[2023-07-24 17:14:59] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-devoops
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubi
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-plotly-plugin
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dstack
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-botmailnotice
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qbwrap
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tplus
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-rds20140815
+[2023-07-24 17:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-07-24 17:14:59] INFO root fetch - processPackages [rubi]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [mkdocs-plotly-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 17:14:59] WARNING root fetch - processPackages [qbwrap]: Skipping, unable to determine old version
+[2023-07-24 17:14:59] INFO root fetch - processPackages [qbwrap]: Start processing: elements-custom-s3fs
+[2023-07-24 17:14:59] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-24 17:14:59] INFO root fetch - main [MainThread]: End processing [qbwrap] error
+[2023-07-24 17:14:59] WARNING root fetch - processPackages [nonebot-plugin-botmailnotice]: Skipping, unable to determine old version
+[2023-07-24 17:14:59] INFO root fetch - processPackages [nonebot-plugin-botmailnotice]: Start processing: roblox-pyc
+[2023-07-24 17:14:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-botmailnotice] error
+[2023-07-24 17:14:59] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-07-24 17:14:59] WARNING root fetch - processPackages [tplus]: Skipping, unable to determine old version
+[2023-07-24 17:14:59] INFO root fetch - processPackages [tplus]: Start processing: PARE-TOOLBOX
+[2023-07-24 17:14:59] INFO root fetch - main [MainThread]: End processing [tplus] error
+[2023-07-24 17:14:59] INFO root fetch - processPackages [elements-custom-s3fs]: New version: [2021.11.4] Old Version: [2021.11.3]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241512] Old Version: [99.0.202307241511]
+[2023-07-24 17:14:59] WARNING root fetch - processPackages [PARE-TOOLBOX]: Skipping, unable to determine old version
+[2023-07-24 17:14:59] INFO root fetch - processPackages [PARE-TOOLBOX]: Start processing: kcli
+[2023-07-24 17:14:59] INFO root fetch - main [MainThread]: End processing [PARE-TOOLBOX] error
+[2023-07-24 17:14:59] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [mkdocs-plotly-plugin]: Downloading https://files.pythonhosted.org/packages/4e/5e/ec563f22aa210fe778d9e99fd97d68e00e75a4c374e8983172ae4be7b551/mkdocs-plotly-plugin-0.1.2.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [elements-custom-s3fs]: Downloading https://files.pythonhosted.org/packages/0a/df/0b1250c7aec2692fb8e35c20778112e0c3fbadc03f3a74de9e02caf5afef/elements-custom-s3fs-2021.11.3.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241512] Old Version: [99.0.202307241511]
+[2023-07-24 17:14:59] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/f7/b6/9355f198b4eda28856bc9141c6570f740b9027c9109877851be7851e1278/alibabacloud_rds20140815_py2-1.3.3.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/e2/55/3c200b392c6ce4eb62255194457e2c5d0ca68fdcc8f7036f0b7b25e8366d/rubi-2.1.7.tar.gz
+[2023-07-24 17:14:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3b/0a/4f8288df589f772d0cd77fedcc444badd5bf660220d2acd374e4fbd269f4/kcli-99.0.202307241511-py3-none-any.whl
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3b/0a/4f8288df589f772d0cd77fedcc444badd5bf660220d2acd374e4fbd269f4/kcli-99.0.202307241511-py3-none-any.whl
+[2023-07-24 17:15:00] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [mkdocs-plotly-plugin]: Downloading https://files.pythonhosted.org/packages/df/21/01431251720764246970a0bb9359fd8734007b518773a5102b089c46aec2/mkdocs-plotly-plugin-0.1.3.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [elements-custom-s3fs]: Downloading https://files.pythonhosted.org/packages/2f/a8/1ddf41912bbd117c2dd2b623ae17721f927d63aa70d3e91bf56e8a4696b5/elements-custom-s3fs-2021.11.4.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230724/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230724/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/79/84/a0c8146194c04cc7890abecb4777eb4f7be5353b6e0cc8f074810ab1d596/alibabacloud_rds20140815_py2-1.3.4.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/ab/3b/5c249d3344dd67781e4c82863defa5b24f69f39d29fac43dfbf10597e78e/rubi-2.1.8.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230724/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ef/b3/77e4cc05d91c74f69a6e7f1fc1bed8e013a5b79eb5d6bd2ed850c93f1ac8/kcli-99.0.202307241512-py3-none-any.whl
+[2023-07-24 17:15:00] INFO root fetch - processPackages [mkdocs-plotly-plugin]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [mkdocs-plotly-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-plotly-plugin-0.1.2.tar.gz tmp/mkdocs-plotly-plugin-0.1.3.tar.gz --markdown 20230724/m/mkdocs-plotly-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [elements-custom-s3fs]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [elements-custom-s3fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-custom-s3fs-2021.11.3.tar.gz tmp/elements-custom-s3fs-2021.11.4.tar.gz --markdown 20230724/e/elements-custom-s3fs/2021.11.3-2021.11.4/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ef/b3/77e4cc05d91c74f69a6e7f1fc1bed8e013a5b79eb5d6bd2ed850c93f1ac8/kcli-99.0.202307241512-py3-none-any.whl
+[2023-07-24 17:15:00] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.1.7.tar.gz tmp/rubi-2.1.8.tar.gz --markdown 20230724/r/rubi/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230724/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.3.3.tar.gz tmp/alibabacloud_rds20140815_py2-1.3.4.tar.gz --markdown 20230724/a/alibabacloud-rds20140815-py2/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307241511-py3-none-any.whl.zip tmp/kcli-99.0.202307241512-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307241511-99.0.202307241512/diff.md --exclude *.pyd
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 17:15:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307241511-py3-none-any.whl.zip tmp/kcli-99.0.202307241512-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307241511-99.0.202307241512/diff.md --exclude *.pyd
+[2023-07-24 17:15:01] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-24 17:15:01] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-24 17:15:01] INFO root fetch - processPackages [core-devoops]: Start processing: elements-custom-s3fs
+[2023-07-24 17:15:01] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: New version: [2021.11.4] Old Version: [2021.11.3]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: executing diffoscope
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-custom-s3fs-2021.11.3.tar.gz tmp/elements-custom-s3fs-2021.11.4.tar.gz --markdown 20230724/e/elements-custom-s3fs/2021.11.3-2021.11.4/diff.md --exclude *.pyd
+[2023-07-24 17:15:02] INFO root fetch - processPackages [mkdocs-plotly-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-plotly-plugin-0.1.2.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [mkdocs-plotly-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-plotly-plugin-0.1.3.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [mkdocs-plotly-plugin]: Start processing: thumbor-libs-blackhand
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [mkdocs-plotly-plugin]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: Start processing: chromedriver-binary
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [thumbor-libs-blackhand]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [thumbor-libs-blackhand]: Downloading https://files.pythonhosted.org/packages/2a/de/86f08f11eb9ed833544e108e4c17d1f2d462e719d5f5bc70d4603a052135/thumbor_libs_blackhand-0.3.1.tar.gz
+[2023-07-24 17:15:02] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.7.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.8.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [rubi]: Start processing: chromedriver-binary
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [roblox-pyc]: Start processing: pytenzir
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-24 17:15:02] WARNING root fetch - processPackages [pytenzir]: Skipping, unable to determine old version
+[2023-07-24 17:15:02] INFO root fetch - processPackages [pytenzir]: Start processing: chromedriver-binary
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [pytenzir] error
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: Remove: archive file [/home/abi/fetcher/tmp/elements-custom-s3fs-2021.11.3.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: Remove: archive file [/home/abi/fetcher/tmp/elements-custom-s3fs-2021.11.4.tar.gz]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: Start processing: core-devoops
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [elements-custom-s3fs]: success
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-24 17:15:02] INFO root fetch - processPackages [thumbor-libs-blackhand]: Downloading https://files.pythonhosted.org/packages/f3/cd/052403464b51dba9f8b8636a05bdb58e1dcf6d407594253870c6dbade2ab/thumbor_libs_blackhand-0.3.2.tar.gz
+[2023-07-24 17:15:02] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-07-24 17:15:02] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-24 17:15:02] ERROR root fetch - processPackages [elements-custom-s3fs]: Diffoscope failed: time="2023-07-24T17:15:02+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/elements-custom-s3fs-2021.11.3.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/elements-custom-s3fs-2021.11.4.tar.gz: No such file or directory
+
+[2023-07-24 17:15:02] INFO root fetch - processPackages [elements-custom-s3fs]: Start processing: titan-iris
+[2023-07-24 17:15:02] INFO root fetch - main [MainThread]: End processing [elements-custom-s3fs] error
+[2023-07-24 17:15:02] INFO root fetch - processPackages [thumbor-libs-blackhand]: executing diffoscope
+[2023-07-24 17:15:02] INFO root fetch - processPackages [thumbor-libs-blackhand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thumbor_libs_blackhand-0.3.1.tar.gz tmp/thumbor_libs_blackhand-0.3.2.tar.gz --markdown 20230724/t/thumbor-libs-blackhand/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-07-24 17:15:03] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-07-24 17:15:03] INFO root fetch - processPackages [dstack]: Start processing: Janex
+[2023-07-24 17:15:03] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-07-24 17:15:03] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-24 17:15:03] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230724/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230724/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230724/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230724/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230724/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:15:03] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-24 17:15:03] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-24 17:15:03] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230724/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-24 17:15:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.3.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.4.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Start processing: kfish
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-24 17:15:04] INFO root fetch - processPackages [kfish]: New version: [99.0.202307241501] Old Version: [99.0.202307241354]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [thumbor-libs-blackhand]: Remove: archive file [/home/abi/fetcher/tmp/thumbor_libs_blackhand-0.3.1.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [thumbor-libs-blackhand]: Remove: archive file [/home/abi/fetcher/tmp/thumbor_libs_blackhand-0.3.2.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [thumbor-libs-blackhand]: Start processing: botiverse
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [thumbor-libs-blackhand]: success
+[2023-07-24 17:15:04] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/45/52362a97fde476b641be948543cd7dd48c881c24cd83f4af880e3b7bbd73/kfish-99.0.202307241354-py3-none-any.whl
+[2023-07-24 17:15:04] INFO root fetch - processPackages [botiverse]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/36/20/f85c51c2f22f0962d011688cb09f2fbb48d07aa9f199f78fea5c2866d2a9/kfish-99.0.202307241501-py3-none-any.whl
+[2023-07-24 17:15:04] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [core-devoops]: Start processing: adapta
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 17:15:04] INFO root fetch - processPackages [adapta]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-24 17:15:04] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307241354-py3-none-any.whl.zip tmp/kfish-99.0.202307241501-py3-none-any.whl.zip --markdown 20230724/k/kfish/99.0.202307241354-99.0.202307241501/diff.md --exclude *.pyd
+[2023-07-24 17:15:04] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/88/03/cac3e590e7b959415a8c3abf3e8a0a8da13c36d33a1a174f28c33220706e/botiverse-0.1.0.tar.gz
+[2023-07-24 17:15:04] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/8b/97540d66629cdcc443394eaba881ec7e7fe1830378199bb63379127e0956/adapta-2.3.1.tar.gz
+[2023-07-24 17:15:04] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-07-24 17:15:04] INFO root fetch - processPackages [chromedriver-binary]: Start processing: ansys-api-fluent
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-24 17:15:04] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/97/f2/eacf6a10bef311c77194401a8d06c31fcb5a68fbec516c97636fdc4a3810/adapta-2.3.2.tar.gz
+[2023-07-24 17:15:04] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-07-24 17:15:05] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/84/68/730b6686ba889fcce7982f29507093993892ba0712e17168b3506c58e382/botiverse-0.3.0.tar.gz
+[2023-07-24 17:15:05] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-07-24 17:15:05] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-07-24 17:15:05] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-24 17:15:05] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-07-24 17:15:05] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.3.1.tar.gz tmp/adapta-2.3.2.tar.gz --markdown 20230724/a/adapta/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-24 17:15:05] INFO root fetch - processPackages [botiverse]: executing diffoscope
+[2023-07-24 17:15:05] INFO root fetch - processPackages [botiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botiverse-0.1.0.tar.gz tmp/botiverse-0.3.0.tar.gz --markdown 20230724/b/botiverse/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 17:15:05] INFO root fetch - processPackages [ansys-api-fluent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 17:15:05] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/92/6c/d9e3332610449fb8dd5f58fa8e1e340141302cb3ac74df49a9b079b4899b/ansys_api_fluent-0.3.8-py3-none-any.whl
+[2023-07-24 17:15:05] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-24 17:15:05] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-24 17:15:05] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-24 17:15:05] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/91/3f/3641a3fcda51e1eb122b0eecd800262e2a484e5f57e43383d60df727d6dc/ansys_api_fluent-0.3.9-py3-none-any.whl
+[2023-07-24 17:15:05] INFO root fetch - processPackages [ansys-api-fluent]: executing diffoscope
+[2023-07-24 17:15:05] INFO root fetch - processPackages [ansys-api-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip --markdown 20230724/a/ansys-api-fluent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 17:15:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241354-py3-none-any.whl.zip]
+[2023-07-24 17:15:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241501-py3-none-any.whl.zip]
+[2023-07-24 17:15:05] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-24 17:15:06] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.1.0.tar.gz]
+[2023-07-24 17:15:06] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.3.0.tar.gz]
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: End processing [botiverse]: success
+[2023-07-24 17:15:06] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.1.tar.gz]
+[2023-07-24 17:15:06] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.2.tar.gz]
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-07-24 17:15:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241511-py3-none-any.whl.zip]
+[2023-07-24 17:15:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241512-py3-none-any.whl.zip]
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 17:15:06] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip]
+[2023-07-24 17:15:06] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip]
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: End processing [ansys-api-fluent]: success
+[2023-07-24 17:15:06] INFO root fetch - main [MainThread]: Store serial: [19014698]
