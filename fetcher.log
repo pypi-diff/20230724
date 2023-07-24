@@ -15946,3 +15946,108 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:14:42] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.3.tar.gz]
 [2023-07-24 13:14:42] INFO root fetch - main [MainThread]: End processing [jupyterlab_local_browser]: success
 [2023-07-24 13:14:42] INFO root fetch - main [MainThread]: Store serial: [19011681]
+[2023-07-24 13:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011681]
+[2023-07-24 13:19:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlite-sphinx
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opnsense
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-services4-components
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: passwgeneration
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nasops
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marketwatchdata
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feedancy
+[2023-07-24 13:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PVNet
+[2023-07-24 13:19:53] INFO root fetch - processPackages [pip-services4-components]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [jupyterlite-sphinx]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [dxsp]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [passwgeneration]: New version: [1.2.0.1] Old Version: [1.1.9]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [nasops]: New version: [0.0.3.1] Old Version: [0.0.2]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [feedancy]: New version: [0.1.3a0] Old Version: [0.1.3]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [hyfi]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-24 13:19:53] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/09/7d/8ee176677938608f7a5e123aaa9f890be8bd3352a5f96f7a54adabaab4a3/passwgeneration-1.1.9.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/48/7d/38adb9b3d514b40efe24ec3f66724492165f2e4e1c569f3cfbcae5342769/dxsp-4.2.0.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/e0/23/f832c3f3dfad5583df008a825585c4b641db4a42f591f55c041bec81b8dd/marketwatchdata-0.0.7.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ff/a9/d59b71c817d3dec662840e501016b117ffa9a6ecddd0ce71ad0b600374b9/pulumi_opnsense-0.0.66.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/8e/7f/7c03444bc9cef940d879bd5b40dae6467e3013ae8d0649dbbbb677648a26/feedancy-0.1.3.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [pip-services4-components]: Downloading https://files.pythonhosted.org/packages/b7/d6/f2ac962a15efbaf30782b1be62b9cb2a50e751c543c03b931319cfff976a/pip_services4_components-0.0.2.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [jupyterlite-sphinx]: Downloading https://files.pythonhosted.org/packages/5e/b2/20161bc433244accb2f31731dda279f106c1656171aa3419f853eb4d89a7/jupyterlite_sphinx-0.9.0.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/44/2c/26c928e70b777b08eeed3fdf52e12ed0851254aee60eefafaa1e417bd889/nasops-0.0.2.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/04/b3/53c80d742fa02a3c3418f66cf11b8917236006cba51a8dcd0bd71c8205a0/hyfi-1.8.3.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/50/8a/2dd1bed76ec5ddfa93a2d3e5f12b530f95d453c15275458f4b2bdc73b41a/marketwatchdata-0.0.8.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/36/9e/f7ee73139410cccc3915fe114ab3fe92fbb734325c7d3a02df78417cf25e/passwgeneration-1.2.0.1-py3-none-any.whl
+[2023-07-24 13:19:53] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/fa/01/42f724b9126325c2380207c570d6e33bfa4f6bae5d8019a220ec214f3a27/dxsp-4.2.1.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/77/a2/55b05a537ac5e0cb97f2387cb9e5fa0195cd1e6880887c4056a0a4917ac7/pulumi_opnsense-0.0.67.tar.gz
+[2023-07-24 13:19:53] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/cd/d7/86cd145ff548c83f8e07dfcb7c5606851492f918b4b26b7883efb51f3e44/feedancy-0.1.3a0.tar.gz
+[2023-07-24 13:19:54] INFO root fetch - processPackages [jupyterlite-sphinx]: Downloading https://files.pythonhosted.org/packages/c2/81/7b110c33463f853df59593ce9cfe5ed0c6329310902458237c7b11b3f112/jupyterlite_sphinx-0.9.1.tar.gz
+[2023-07-24 13:19:54] INFO root fetch - processPackages [pip-services4-components]: Downloading https://files.pythonhosted.org/packages/c4/c5/4388ecf850bab460443ce80a1e5b228243eaff6bb336a10483f80e5f5daa/pip_services4_components-0.0.3.tar.gz
+[2023-07-24 13:19:54] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.7.tar.gz tmp/marketwatchdata-0.0.8.tar.gz --markdown 20230724/m/marketwatchdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/07/5e/9f2eb03d4bfdae5fa6cf6f01c81defcfe309455f9c1f79f781252cf7812d/nasops-0.0.3.1.tar.gz
+[2023-07-24 13:19:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/dd/cc/ae1ee3eea14fe07d20a8dab3293ecf53d97334e2e5f78be72f5463115618/hyfi-1.9.0.tar.gz
+[2023-07-24 13:19:54] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.2.0.tar.gz tmp/dxsp-4.2.1.tar.gz --markdown 20230724/d/dxsp/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [jupyterlite-sphinx]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [jupyterlite-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite_sphinx-0.9.0.tar.gz tmp/jupyterlite_sphinx-0.9.1.tar.gz --markdown 20230724/j/jupyterlite-sphinx/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [passwgeneration]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [passwgeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwgeneration-1.1.9.tar.gz tmp/passwgeneration-1.2.0.1-py3-none-any.whl.zip --markdown 20230724/p/passwgeneration/1.1.9-1.2.0.1/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230724/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.1.3.tar.gz tmp/feedancy-0.1.3a0.tar.gz --markdown 20230724/f/feedancy/0.1.3-0.1.3a0/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.66.tar.gz tmp/pulumi_opnsense-0.0.67.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [pip-services4-components]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [pip-services4-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_services4_components-0.0.2.tar.gz tmp/pip_services4_components-0.0.3.tar.gz --markdown 20230724/p/pip-services4-components/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [nasops]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [nasops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasops-0.0.2.tar.gz tmp/nasops-0.0.3.1.tar.gz --markdown 20230724/n/nasops/0.0.2-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-24 13:19:54] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-24 13:19:54] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.8.3.tar.gz tmp/hyfi-1.9.0.tar.gz --markdown 20230724/h/hyfi/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 13:19:55] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.7.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.8.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [marketwatchdata]: Start processing: uagents-twilio
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-24 13:19:55] INFO root fetch - processPackages [jupyterlite-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_sphinx-0.9.0.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [jupyterlite-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite_sphinx-0.9.1.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [jupyterlite-sphinx]: Start processing: core-devoops
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [jupyterlite-sphinx]: success
+[2023-07-24 13:19:55] WARNING root fetch - processPackages [uagents-twilio]: Skipping, unable to determine old version
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [uagents-twilio] error
+[2023-07-24 13:19:55] INFO root fetch - processPackages [core-devoops]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.1.9.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.2.0.1-py3-none-any.whl.zip]
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [passwgeneration]: success
+[2023-07-24 13:19:55] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/23/bb/75ed1a8fc2b2708ec7e2505cab2d9aac6fca87d47b186ea0996308e3598c/core_devoops-0.0.2.tar.gz
+[2023-07-24 13:19:55] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.0.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.1.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-24 13:19:55] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-24 13:19:55] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.2.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.3.1.tar.gz]
+[2023-07-24 13:19:55] INFO root fetch - main [MainThread]: End processing [nasops]: success
+[2023-07-24 13:19:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.66.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.67.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/f2/ac/653e9295115fcd4c07630f2c9b7cb561e390007102d5327dfbc604b5be68/core_devoops-0.0.3.tar.gz
+[2023-07-24 13:19:56] INFO root fetch - processPackages [pip-services4-components]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_components-0.0.2.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - processPackages [pip-services4-components]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_components-0.0.3.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [pip-services4-components]: success
+[2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.2.tar.gz tmp/core_devoops-0.0.3.tar.gz --markdown 20230724/c/core-devoops/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 13:19:56] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.3.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.3a0.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-07-24 13:19:56] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.8.3.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.0.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.2.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.3.tar.gz]
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 13:19:56] INFO root fetch - main [MainThread]: Store serial: [19011718]
