@@ -6644,3 +6644,61 @@
 [2023-07-24 05:42:17] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-managednetworkfabric-1.0.0b1.zip]
 [2023-07-24 05:42:17] INFO root fetch - main [MainThread]: End processing [azure-mgmt-managednetworkfabric]: success
 [2023-07-24 05:42:17] INFO root fetch - main [MainThread]: Store serial: [19007737]
+[2023-07-24 05:47:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007737]
+[2023-07-24 05:47:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reddit-dl
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperthought
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizlib
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BlitzChain
+[2023-07-24 05:47:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: the-grid
+[2023-07-24 05:47:27] INFO root fetch - processPackages [wizlib]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [reddit-dl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [hyperthought]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [BlitzChain]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 05:47:27] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/21/59/58ccb282688d1f8c35deaac63195e18da860ce539205f6cf4912aaf51d2c/wizlib-0.8.1.tar.gz
+[2023-07-24 05:47:27] WARNING root fetch - processPackages [the-grid]: Skipping, unable to determine old version
+[2023-07-24 05:47:27] INFO root fetch - main [MainThread]: End processing [the-grid] error
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-24 05:47:27] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/02/86/2ca8ecfaca9e7bea2ba26a01b058abc71ec347892f90d41ef11d7808be25/BlitzChain-0.8.0.tar.gz
+[2023-07-24 05:47:27] INFO root fetch - processPackages [reddit-dl]: Downloading https://files.pythonhosted.org/packages/74/9a/6a05e782baa26d1c5a7e857d2737b2be0cafbd036c860d8e9b7e50ff732d/reddit-dl-0.0.2.tar.gz
+[2023-07-24 05:47:27] INFO root fetch - processPackages [hyperthought]: Downloading https://files.pythonhosted.org/packages/03/88/6c3752021e3d2bcc4ed6b27af9dda95c4979af710b1e3ebe65c0f94a929c/hyperthought-0.9.8.tar.gz
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-24 05:47:27] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-24 05:47:27] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/b2/93/0ffe7247d119fd74d13dd1ea802e0fdc43a818e2586174982c1893e0c1bc/wizlib-0.8.2.tar.gz
+[2023-07-24 05:47:28] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230724/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 05:47:28] INFO root fetch - processPackages [reddit-dl]: Downloading https://files.pythonhosted.org/packages/a4/1c/135714d5ca1c7687c5207d66359f7463d488df94eb571aced0dec251e9be/reddit-dl-0.0.3.tar.gz
+[2023-07-24 05:47:28] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/ca/7f/5312299bc4a8ef1916f5e4ca2820dc3543451a74cddcc071574bcffb55c3/BlitzChain-0.8.1.tar.gz
+[2023-07-24 05:47:28] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230724/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 05:47:28] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.8.1.tar.gz tmp/wizlib-0.8.2.tar.gz --markdown 20230724/w/wizlib/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-24 05:47:28] INFO root fetch - processPackages [reddit-dl]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [reddit-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-dl-0.0.2.tar.gz tmp/reddit-dl-0.0.3.tar.gz --markdown 20230724/r/reddit-dl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 05:47:28] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.8.0.tar.gz tmp/BlitzChain-0.8.1.tar.gz --markdown 20230724/B/BlitzChain/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-24 05:47:28] INFO root fetch - processPackages [hyperthought]: Downloading https://files.pythonhosted.org/packages/b6/90/34612fc3b73cd129a24cd885fb74977ca3d32b5df9855ed0beccd7959449/hyperthought-0.9.9.tar.gz
+[2023-07-24 05:47:28] INFO root fetch - processPackages [hyperthought]: executing diffoscope
+[2023-07-24 05:47:28] INFO root fetch - processPackages [hyperthought]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperthought-0.9.8.tar.gz tmp/hyperthought-0.9.9.tar.gz --markdown 20230724/h/hyperthought/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 05:47:29] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-24 05:47:29] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-24 05:47:29] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.1.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.8.2.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-24 05:47:29] INFO root fetch - processPackages [reddit-dl]: Remove: archive file [/home/abi/fetcher/tmp/reddit-dl-0.0.2.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - processPackages [reddit-dl]: Remove: archive file [/home/abi/fetcher/tmp/reddit-dl-0.0.3.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [reddit-dl]: success
+[2023-07-24 05:47:29] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.8.0.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.8.1.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-24 05:47:29] INFO root fetch - processPackages [hyperthought]: Remove: archive file [/home/abi/fetcher/tmp/hyperthought-0.9.8.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - processPackages [hyperthought]: Remove: archive file [/home/abi/fetcher/tmp/hyperthought-0.9.9.tar.gz]
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: End processing [hyperthought]: success
+[2023-07-24 05:47:29] INFO root fetch - main [MainThread]: Store serial: [19007755]
