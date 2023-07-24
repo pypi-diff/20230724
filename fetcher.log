@@ -8382,3 +8382,56 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:42:43] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.0.0.tar.gz]
 [2023-07-24 07:42:43] INFO root fetch - main [MainThread]: End processing [educommon]: success
 [2023-07-24 07:42:43] INFO root fetch - main [MainThread]: Store serial: [19008522]
+[2023-07-24 07:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008522]
+[2023-07-24 07:47:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtcbot
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SloppyV3
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anarchy-bot
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hspfbintoolbox
+[2023-07-24 07:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtgql
+[2023-07-24 07:47:52] INFO root fetch - processPackages [hspfbintoolbox]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [SloppyV3]: New version: [0.0.0.0.20230724.3] Old Version: [0.0.0.0.20230724.2]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.7] Old Version: [23.0.6]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [rtcbot]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [qtgql]: New version: [0.130.8] Old Version: [0.130.7]
+[2023-07-24 07:47:52] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/ef/e9/453ea25b5d7da48ec6996340276c9b3858f6d9267e207295ccfe22d5eb1e/anarchy_bot-23.0.6.tar.gz
+[2023-07-24 07:47:52] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/b4/29/20ba9185e350618980b25e5fb70f1bedb1abe91aae57c26c7c643c26ce8f/qtgql-0.130.7.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [SloppyV3]: Downloading https://files.pythonhosted.org/packages/5a/b9/2263f020199b1099fd2f93e12277edfaa8487b61369d7211066ba44e9e39/SloppyV3-0.0.0.0.20230724.2.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [hspfbintoolbox]: Downloading https://files.pythonhosted.org/packages/16/a8/ac7977de5b01a08ce20e41f3310098b11be29f88ea28aa708c38820f3e6f/hspfbintoolbox-9.0.0.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [rtcbot]: Downloading https://files.pythonhosted.org/packages/2c/e0/58c77f2bea6f6a98b3f982fea830716ff98d778dfedd3118ed9628cfb66b/rtcbot-0.2.4.tar.gz
+[2023-07-24 07:47:53] WARNING root fetch - processPackages [hspfbintoolbox]: Skipping package: exceeds size limit 17152620>=10485760
+[2023-07-24 07:47:53] INFO root fetch - main [MainThread]: End processing [hspfbintoolbox] error
+[2023-07-24 07:47:53] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/3c/d2/d58c4f0458927e8e83e8af63f8f6780c25eb4b1aaad87ffd787782b9f608/anarchy_bot-23.0.7.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/8f/39/fca97650337e1d1dadf81f7fe0118f3f1ce866e37cd4a5e3a227e1355b2b/qtgql-0.130.8.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [SloppyV3]: Downloading https://files.pythonhosted.org/packages/3b/7b/ca122ce9b1b088d0d88bf3d02697be2b75f494c86873d66b139ada451c67/SloppyV3-0.0.0.0.20230724.3.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [rtcbot]: Downloading https://files.pythonhosted.org/packages/b3/8f/1093211cab368ce754a564a8e7e44f562c925f68cd585ca9c9917edf95a7/rtcbot-0.2.5.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-07-24 07:47:53] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-24 07:47:53] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.6.tar.gz tmp/anarchy_bot-23.0.7.tar.gz --markdown 20230724/a/anarchy-bot/23.0.6-23.0.7/diff.md --exclude *.pyd
+[2023-07-24 07:47:53] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-24 07:47:53] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.130.7.tar.gz tmp/qtgql-0.130.8.tar.gz --markdown 20230724/q/qtgql/0.130.7-0.130.8/diff.md --exclude *.pyd
+[2023-07-24 07:47:53] INFO root fetch - processPackages [SloppyV3]: executing diffoscope
+[2023-07-24 07:47:53] INFO root fetch - processPackages [SloppyV3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SloppyV3-0.0.0.0.20230724.2.tar.gz tmp/SloppyV3-0.0.0.0.20230724.3.tar.gz --markdown 20230724/S/SloppyV3/0.0.0.0.20230724.2-0.0.0.0.20230724.3/diff.md --exclude *.pyd
+[2023-07-24 07:47:53] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-07-24 07:47:53] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230724/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-07-24 07:47:53] INFO root fetch - processPackages [rtcbot]: executing diffoscope
+[2023-07-24 07:47:53] INFO root fetch - processPackages [rtcbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtcbot-0.2.4.tar.gz tmp/rtcbot-0.2.5.tar.gz --markdown 20230724/r/rtcbot/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-24 07:47:54] INFO root fetch - processPackages [SloppyV3]: Remove: archive file [/home/abi/fetcher/tmp/SloppyV3-0.0.0.0.20230724.2.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - processPackages [SloppyV3]: Remove: archive file [/home/abi/fetcher/tmp/SloppyV3-0.0.0.0.20230724.3.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - main [MainThread]: End processing [SloppyV3]: success
+[2023-07-24 07:47:54] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.6.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.7.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-24 07:47:54] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.7.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.8.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-24 07:47:54] INFO root fetch - processPackages [rtcbot]: Remove: archive file [/home/abi/fetcher/tmp/rtcbot-0.2.4.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - processPackages [rtcbot]: Remove: archive file [/home/abi/fetcher/tmp/rtcbot-0.2.5.tar.gz]
+[2023-07-24 07:47:54] INFO root fetch - main [MainThread]: End processing [rtcbot]: success
+[2023-07-24 07:47:55] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-07-24 07:47:55] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-07-24 07:47:55] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-07-24 07:47:55] INFO root fetch - main [MainThread]: Store serial: [19008539]
