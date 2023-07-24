@@ -6449,3 +6449,96 @@
 [2023-07-24 05:21:31] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
 [2023-07-24 05:21:31] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-07-24 05:21:31] INFO root fetch - main [MainThread]: Store serial: [19007664]
+[2023-07-24 05:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007664]
+[2023-07-24 05:26:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waterbear
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdme
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-rimofun
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byquant
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-thread
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htt
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starmerx-url
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labml
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: konfuzio-sdk
+[2023-07-24 05:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yyxx-game-pkg-dev
+[2023-07-24 05:26:40] INFO root fetch - processPackages [byquant]: New version: [1.7.22] Old Version: [1.7.21]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [htt]: New version: [0.1] Old Version: [0.0]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [waterbear]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [starmerx-url]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [nonebot-plugin-rimofun]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [labml]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [pdme]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/07/db/2826689427bdd207b91a73893c3b818bfa505bcebdc8ae0f6339c15da240/starmerx_url-0.1.5.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: New version: [2023.7.5.5.dev4] Old Version: [2023.7.12.1.dev1]
+[2023-07-24 05:26:40] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/b5/1a/9e94dac646d249d1b42b6110d8202f82b3cbfffd7929610085cc5f4e2dff/byquant-1.7.21.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/a9/13/1255f160dac7a8cfec5492e6b623df44418d9fc1cdec88976a7e94457d4e/pdme-0.9.0.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [waterbear]: Downloading https://files.pythonhosted.org/packages/e2/e2/092ef492dd1750834007bebc30a814fc28ae02e495c63a6bc9972f1db09d/waterbear-2.6.6-py3-none-any.whl
+[2023-07-24 05:26:40] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/57/3d/faf7d8fd0b2d4108b66bc44af7ef45e949165471760859111d2a800bc93f/yyxx_game_pkg_dev-2023.7.12.1.dev1.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/ad/b0/2f629ab724eac107b099768a07fd8edd4da03b2de41b4f637073886003bc/labml-0.4.98.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [nonebot-plugin-rimofun]: Downloading https://files.pythonhosted.org/packages/87/35/8e7e022c66ada761c4faa6998c9b4aa1b66c99b061caa326b1248f3d3189/nonebot_plugin_rimofun-0.1.1.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/12/d2/9daf38e3779135eea73408e05f5a43e65ad913bdaf19aa6068da6893508e/htt-0.0.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [starmerx-url]: Downloading https://files.pythonhosted.org/packages/46/fb/262964bae70bd3c57cb48e4fcfba01ad47c42e2d4db77e4a76713bb08345/starmerx_url-0.1.6.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/39/d0/aa779183c11895b933649d0ff778cbf64b3602f9f75667902cf45902e446/byquant-1.7.22.tar.gz
+[2023-07-24 05:26:40] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/71/bb/38eee60a2e6241a7a99b4d8a53f88b368c599321862c32c4a2b775a657c7/pdme-0.9.1.tar.gz
+[2023-07-24 05:26:41] INFO root fetch - processPackages [starmerx-url]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [starmerx-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmerx_url-0.1.5.tar.gz tmp/starmerx_url-0.1.6.tar.gz --markdown 20230724/s/starmerx-url/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [waterbear]: Downloading https://files.pythonhosted.org/packages/97/31/5edf51e20ec9d37595882516cc99d30266d98130d75a21f17dd718a370e0/waterbear-2.6.7-py3-none-any.whl
+[2023-07-24 05:26:41] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230724/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-24 05:26:41] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.21.tar.gz tmp/byquant-1.7.22.tar.gz --markdown 20230724/b/byquant/1.7.21-1.7.22/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [pdme]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [pdme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdme-0.9.0.tar.gz tmp/pdme-0.9.1.tar.gz --markdown 20230724/p/pdme/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [waterbear]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [waterbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waterbear-2.6.6-py3-none-any.whl.zip tmp/waterbear-2.6.7-py3-none-any.whl.zip --markdown 20230724/w/waterbear/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/08/31/781add84a649c97d63e2ae8d7aecd4c3c3b912004daffa689a7d7ae7633e/htt-0.1.tar.gz
+[2023-07-24 05:26:41] INFO root fetch - processPackages [labml]: Downloading https://files.pythonhosted.org/packages/3e/a4/7ab7ac87bc2b361ae6b357a7f09b0ab612c1b3d7475eca5f8db578d3af7b/labml-0.4.99.tar.gz
+[2023-07-24 05:26:41] INFO root fetch - processPackages [htt]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.0.tar.gz tmp/htt-0.1.tar.gz --markdown 20230724/h/htt/0.0-0.1/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [labml]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [labml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml-0.4.98.tar.gz tmp/labml-0.4.99.tar.gz --markdown 20230724/l/labml/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [nonebot-plugin-rimofun]: Downloading https://files.pythonhosted.org/packages/64/d9/4afcd56c22c9eb93d5d9cb5bffb0a319374a6ebcb71a2eefe410c44d9fd6/nonebot_plugin_rimofun-0.2.0.tar.gz
+[2023-07-24 05:26:41] INFO root fetch - processPackages [nonebot-plugin-rimofun]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [nonebot-plugin-rimofun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rimofun-0.1.1.tar.gz tmp/nonebot_plugin_rimofun-0.2.0.tar.gz --markdown 20230724/n/nonebot-plugin-rimofun/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-24 05:26:41] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230724/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-24 05:26:41] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/ad/96/854fce31a8df31cc270ecfe41c1255fa30ceedfbb502405ac960c479d212/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz
+[2023-07-24 05:26:42] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.5.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [starmerx-url]: Remove: archive file [/home/abi/fetcher/tmp/starmerx_url-0.1.6.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [starmerx-url]: success
+[2023-07-24 05:26:42] INFO root fetch - processPackages [waterbear]: Remove: archive file [/home/abi/fetcher/tmp/waterbear-2.6.6-py3-none-any.whl.zip]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [waterbear]: Remove: archive file [/home/abi/fetcher/tmp/waterbear-2.6.7-py3-none-any.whl.zip]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [waterbear]: success
+[2023-07-24 05:26:42] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-24 05:26:42] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.0.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.1.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2023-07-24 05:26:42] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.9.0.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.9.1.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [pdme]: success
+[2023-07-24 05:26:42] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.98.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - processPackages [labml]: Remove: archive file [/home/abi/fetcher/tmp/labml-0.4.99.tar.gz]
+[2023-07-24 05:26:42] INFO root fetch - main [MainThread]: End processing [labml]: success
+[2023-07-24 05:26:43] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-24 05:26:43] INFO root fetch - processPackages [nonebot-plugin-rimofun]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rimofun-0.1.1.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - processPackages [nonebot-plugin-rimofun]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rimofun-0.2.0.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rimofun]: success
+[2023-07-24 05:26:43] INFO root fetch - processPackages [yyxx-game-pkg-dev]: executing diffoscope
+[2023-07-24 05:26:43] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.7.12.1.dev1.tar.gz tmp/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz --markdown 20230724/y/yyxx-game-pkg-dev/2023.7.12.1.dev1-2023.7.5.5.dev4/diff.md --exclude *.pyd
+[2023-07-24 05:26:43] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.21.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.22.tar.gz]
+[2023-07-24 05:26:43] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-24 05:26:45] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.7.12.1.dev1.tar.gz]
+[2023-07-24 05:26:45] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz]
+[2023-07-24 05:26:45] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
+[2023-07-24 05:26:45] INFO root fetch - main [MainThread]: Store serial: [19007693]
