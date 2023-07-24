@@ -14249,3 +14249,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:03:23] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-24 12:03:23] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-24 12:03:23] INFO root fetch - main [MainThread]: Store serial: [19010901]
+[2023-07-24 12:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010901]
+[2023-07-24 12:08:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-devoops
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namekoplus
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arvancloud-video
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyosutools
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisor-shell-ui
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dm-reverb-nightly
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aries-cloudcontroller
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CellNeighborEX
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hsfs
+[2023-07-24 12:08:34] INFO root fetch - processPackages [namekoplus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [cognite-neat]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.2b0] Old Version: [0.8.1rc9]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [core-devoops]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [pyosutools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-24 12:08:34] WARNING root fetch - processPackages [arvancloud-video]: Skipping, unable to determine old version
+[2023-07-24 12:08:34] INFO root fetch - processPackages [arvancloud-video]: Start processing: rattr
+[2023-07-24 12:08:34] INFO root fetch - main [MainThread]: End processing [arvancloud-video] error
+[2023-07-24 12:08:34] INFO root fetch - processPackages [hsfs]: New version: [3.3.0rc0] Old Version: [3.2.1]
+[2023-07-24 12:08:34] WARNING root fetch - processPackages [CellNeighborEX]: Skipping, unable to determine old version
+[2023-07-24 12:08:34] INFO root fetch - processPackages [CellNeighborEX]: Start processing: ciderpolarity
+[2023-07-24 12:08:34] INFO root fetch - main [MainThread]: End processing [CellNeighborEX] error
+[2023-07-24 12:08:34] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [rattr]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/46/e0/0dc88d9fccf665f46da1ff66a4ab069f5b0da216b25c74a5d6652e9deb51/namekoplus-0.3.0.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-24 12:08:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/44/3a/394d4573e9629926b2c2c4fec3bb743031b3c2214b9ccc456fed631ca79e/supervisor-shell-ui-0.2.4.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 12:08:34] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/d5/e4/58adc23556e6b014a22158918e4ef67259cb5b14e8809697c06ce57449f9/pyosutools-0.2.3.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/76/7b/e4387338f6bd426f1b6378d7dbb8d94dfee14c4f4a7d685d2b67f32e44c3/core_devoops-0.0.1.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/f1/9e/672da4a4169c006bde3d2267bcab24a67d20ccbd9498abdc34ca4050da33/cognite_neat-0.17.2.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [rattr]: Downloading https://files.pythonhosted.org/packages/f0/87/a5ef9f93ca2e61d82993ebe9b560d5a9c679310e34355d0dbf41f3097703/rattr-0.1.6.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/cf/ee/6f6ab9cf20456af0d59356f52410dbaefcd32828b1890592798cefcd9ce3/hsfs-3.2.1.tar.gz
+[2023-07-24 12:08:34] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/1d/9f/a343676dbbca9af663721377486d599654e649aaf8e7e06f84d2c8e107f5/ciderpolarity-0.2.7.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/fa/13/ae08be7d9226071eb99d059f419035c5127c4844f31a337792ad01b0be7e/namekoplus-0.3.1.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/1e/43/ae3f7338a05c1f2b36de6bf7d3d3c2ab3b7a1f8a64a696b636fa2fde766c/supervisor-shell-ui-0.2.5.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/08/7b/bd786a26dd19e50f9e6f97c28935e7cb8efbdfdafea3229cfd645ae91001/pyosutools-0.2.4.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/23/bb/75ed1a8fc2b2708ec7e2505cab2d9aac6fca87d47b186ea0996308e3598c/core_devoops-0.0.2.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/a9/65/8c1f09da11897a7f113789868521046e0bdf84ded189651b7aaec3b9945e/aries_cloudcontroller-0.8.2b0.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.3.0.tar.gz tmp/namekoplus-0.3.1.tar.gz --markdown 20230724/n/namekoplus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [rattr]: Downloading https://files.pythonhosted.org/packages/1a/e3/94137d00aebec7ec22894fc3e59eedf4e9b22a52fdf868fa1a3f5cb13222/rattr-0.1.7.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [pyosutools]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [pyosutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosutools-0.2.3.tar.gz tmp/pyosutools-0.2.4.tar.gz --markdown 20230724/p/pyosutools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/ba/23/7d06585a66bb6dbc209321b07b3de3ba335842930baddd3a95ede300fba8/ciderpolarity-0.2.8.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/3c/1c/009786e63e8255a40d830af6914753de7334967941f76121100ba1b65d58/hsfs-3.3.0rc0.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-0.2.4.tar.gz tmp/supervisor-shell-ui-0.2.5.tar.gz --markdown 20230724/s/supervisor-shell-ui/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8e/10/a7c21d02bfc617fd27775ed7868e89641778a5f13ca7310d6c6a832702e3/cognite_neat-0.17.3.tar.gz
+[2023-07-24 12:08:35] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc9.tar.gz tmp/aries_cloudcontroller-0.8.2b0.tar.gz --markdown 20230724/a/aries-cloudcontroller/0.8.1rc9-0.8.2b0/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.1.tar.gz tmp/core_devoops-0.0.2.tar.gz --markdown 20230724/c/core-devoops/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.7.tar.gz tmp/ciderpolarity-0.2.8.tar.gz --markdown 20230724/c/ciderpolarity/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [rattr]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [rattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattr-0.1.6.tar.gz tmp/rattr-0.1.7.tar.gz --markdown 20230724/r/rattr/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.1.tar.gz tmp/hsfs-3.3.0rc0.tar.gz --markdown 20230724/h/hsfs/3.2.1-3.3.0rc0/diff.md --exclude *.pyd
+[2023-07-24 12:08:35] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 12:08:35] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-07-24 12:08:35] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.17.2.tar.gz tmp/cognite_neat-0.17.3.tar.gz --markdown 20230724/c/cognite-neat/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-07-24 12:08:36] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-24 12:08:36] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230724/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-24 12:08:37] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.3.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.4.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [pyosutools]: Start processing: pulumi-hcloud
+[2023-07-24 12:08:37] INFO root fetch - main [MainThread]: End processing [pyosutools]: success
+[2023-07-24 12:08:37] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.4.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.5.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [supervisor-shell-ui]: Start processing: lamindb
+[2023-07-24 12:08:37] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 12:08:37] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.0.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.1.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [namekoplus]: Start processing: sphinx-enos-theme
+[2023-07-24 12:08:37] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-24 12:08:37] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.7.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.8.tar.gz]
+[2023-07-24 12:08:37] INFO root fetch - processPackages [ciderpolarity]: Start processing: lumaCLI
+[2023-07-24 12:08:37] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-24 12:08:37] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lumaCLI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 12:08:38] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.1.tar.gz]
+[2023-07-24 12:08:38] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.2.tar.gz]
+[2023-07-24 12:08:38] INFO root fetch - processPackages [core-devoops]: Start processing: pip-services4-components
+[2023-07-24 12:08:38] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-24 12:08:38] WARNING root fetch - processPackages [pip-services4-components]: Skipping, unable to determine old version
+[2023-07-24 12:08:38] INFO root fetch - main [MainThread]: End processing [pip-services4-components] error
+[2023-07-24 12:08:38] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lumaCLI]: Downloading https://files.pythonhosted.org/packages/6a/9e/8dc983b9b03026cd5133a5d6322b934ce2842d5090c35af8cbc0e531e6c5/lumacli-0.0.3.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-24 12:08:38] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230724/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 12:08:38] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lumaCLI]: Downloading https://files.pythonhosted.org/packages/02/1a/78fe41c413ae6a8e90b084965b94fa26901bc05b6cef4fdc23e42ce51556/lumacli-0.0.4.tar.gz
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230724/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-24 12:08:38] INFO root fetch - processPackages [rattr]: Remove: archive file [/home/abi/fetcher/tmp/rattr-0.1.6.tar.gz]
+[2023-07-24 12:08:38] INFO root fetch - processPackages [rattr]: Remove: archive file [/home/abi/fetcher/tmp/rattr-0.1.7.tar.gz]
+[2023-07-24 12:08:38] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-07-24 12:08:38] INFO root fetch - main [MainThread]: End processing [rattr]: success
+[2023-07-24 12:08:38] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230724/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lumaCLI]: executing diffoscope
+[2023-07-24 12:08:38] INFO root fetch - processPackages [lumaCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumacli-0.0.3.tar.gz tmp/lumacli-0.0.4.tar.gz --markdown 20230724/l/lumaCLI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 12:08:39] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.1.tar.gz]
+[2023-07-24 12:08:39] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.3.0rc0.tar.gz]
+[2023-07-24 12:08:39] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-07-24 12:08:40] INFO root fetch - processPackages [lumaCLI]: Remove: archive file [/home/abi/fetcher/tmp/lumacli-0.0.3.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - processPackages [lumaCLI]: Remove: archive file [/home/abi/fetcher/tmp/lumacli-0.0.4.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - main [MainThread]: End processing [lumaCLI]: success
+[2023-07-24 12:08:40] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-24 12:08:40] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.2b0.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-07-24 12:08:40] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-07-24 12:08:40] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-24 12:08:40] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-24 12:09:13] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 12:09:13] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 12:09:13] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-24 12:10:54] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.2.tar.gz]
+[2023-07-24 12:10:54] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.17.3.tar.gz]
+[2023-07-24 12:10:54] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-07-24 12:10:54] INFO root fetch - main [MainThread]: Store serial: [19010951]
