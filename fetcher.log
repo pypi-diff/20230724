@@ -15132,3 +15132,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:42:54] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-0.0.6a1.tar.gz]
 [2023-07-24 12:42:54] INFO root fetch - main [MainThread]: End processing [kohlrahbi]: success
 [2023-07-24 12:42:54] INFO root fetch - main [MainThread]: Store serial: [19011282]
+[2023-07-24 12:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011282]
+[2023-07-24 12:48:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marketwatchdata
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urlincode
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DuHast
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwdPackage
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexible-dict
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt5-sip
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kissio
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autometrics
+[2023-07-24 12:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vgis-ai
+[2023-07-24 12:48:03] WARNING root fetch - processPackages [pwdPackage]: Skipping, unable to determine old version
+[2023-07-24 12:48:03] INFO root fetch - processPackages [pwdPackage]: Start processing: PyQt6-sip
+[2023-07-24 12:48:03] INFO root fetch - main [MainThread]: End processing [pwdPackage] error
+[2023-07-24 12:48:03] INFO root fetch - processPackages [DuHast]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [flexible-dict]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [kissio]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [urlincode]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 12:48:03] WARNING root fetch - processPackages [vgis-ai]: Skipping, unable to determine old version
+[2023-07-24 12:48:03] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [vgis-ai]: Start processing: RotEx
+[2023-07-24 12:48:03] INFO root fetch - main [MainThread]: End processing [vgis-ai] error
+[2023-07-24 12:48:03] INFO root fetch - processPackages [autometrics]: New version: [0.8] Old Version: [0.7]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [PyQt5-sip]: New version: [4.19.19] Old Version: [4.19.18]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/b9/4f/eb64ba3b0ce8877c821e62a39ec157408e1099d61ec6476985d53151302a/DuHast-0.0.7.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/e0/23/f832c3f3dfad5583df008a825585c4b641db4a42f591f55c041bec81b8dd/marketwatchdata-0.0.7.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/f0/e0/9adc1e7014e79ba649cf14bfd065c1e08ff65a8ef26f8d30a40f5b6d4476/kissio-0.0.3.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [PyQt6-sip]: New version: [13.5.2] Old Version: [13.5.1]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [RotEx]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 12:48:03] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/62/c4/629061cc6654b518d1556582aa6240e00a952fb08ee37991c12f6b642a2f/flexible_dict-1.0.0.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [urlincode]: Downloading https://files.pythonhosted.org/packages/30/69/d0e31acd538cadf575784e14a9e0ad4d4fff5c0ed985910b3e8afb5147f8/urlincode-0.2.0.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [autometrics]: Downloading https://files.pythonhosted.org/packages/0c/c6/441afc3f61ad8d4eb5b34b16f1974aba19211f47e708dbe0cb4eeeded7fb/autometrics-0.7.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-24 12:48:03] INFO root fetch - processPackages [PyQt5-sip]: Downloading https://files.pythonhosted.org/packages/cf/c8/1e9eda4ba09a84fc528d4c87001de2d7a8cbbe04c2a834af3eb81a0ecd88/PyQt5_sip-4.19.18-cp37-none-win_amd64.whl
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt6-sip]: Downloading https://files.pythonhosted.org/packages/2b/b4/87241bb21832cda1061805492ca2a5fd9d18969ea72277bb9fde94228962/PyQt6_sip-13.5.1.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [RotEx]: Downloading https://files.pythonhosted.org/packages/31/a4/83d7b0e13ccc74e10b8d23c3d2dc4aad42c1fb4b047f010b342b96fa2d01/RotEx-0.1.1.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/fe/b6/a418a4cc5d74d468739c55b1e437394effd41b35cc4d9b6ab536a3e98af7/DuHast-0.0.8.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/50/8a/2dd1bed76ec5ddfa93a2d3e5f12b530f95d453c15275458f4b2bdc73b41a/marketwatchdata-0.0.8.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/80/bd/a9bf971ae874d210eb331810f9cd84d2bb93be51be62c10f4ed0fcac6d81/kissio-0.0.4.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.7.tar.gz tmp/marketwatchdata-0.0.8.tar.gz --markdown 20230724/m/marketwatchdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/25/d8/ddbb06a1d65e1766d0930dc890aedcb5e4e8c2db23c1d09028bec657d3a3/flexible_dict-1.1.0.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [DuHast]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [DuHast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DuHast-0.0.7.tar.gz tmp/DuHast-0.0.8.tar.gz --markdown 20230724/D/DuHast/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.3.tar.gz tmp/kissio-0.0.4.tar.gz --markdown 20230724/k/kissio/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [urlincode]: Downloading https://files.pythonhosted.org/packages/bb/e3/3008ba545c4a7f30c934eb243243965357cd4c5621607b01e42cf64a32c7/urlincode-0.3.0.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [autometrics]: Downloading https://files.pythonhosted.org/packages/20/4b/389f3c0cd04ecf1508bddfeef7e0cbed1cce49a0d6b8e0d53d5aac8a2dd9/autometrics-0.8.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.0.0.tar.gz tmp/flexible_dict-1.1.0.tar.gz --markdown 20230724/f/flexible-dict/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [RotEx]: Downloading https://files.pythonhosted.org/packages/9d/93/1b83cb7a6eda55ed00416dd9bf836dfd074974a91d52c1b5cbfbf17bd8c1/RotEx-0.2.0.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt5-sip]: Downloading https://files.pythonhosted.org/packages/9b/ca/f61051460610126dc89b354345c8319183cae938ed87b51ba03ba03f2a1e/PyQt5_sip-4.19.19-cp38-none-win_amd64.whl
+[2023-07-24 12:48:04] INFO root fetch - processPackages [urlincode]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [urlincode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlincode-0.2.0.tar.gz tmp/urlincode-0.3.0.tar.gz --markdown 20230724/u/urlincode/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [autometrics]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [autometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autometrics-0.7.tar.gz tmp/autometrics-0.8.tar.gz --markdown 20230724/a/autometrics/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt6-sip]: Downloading https://files.pythonhosted.org/packages/c0/08/6bde4b067729a7e0dac6b55654357a2a84af04f1152661cd1602979642a1/PyQt6_sip-13.5.2.tar.gz
+[2023-07-24 12:48:04] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230724/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [RotEx]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [RotEx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RotEx-0.1.1.tar.gz tmp/RotEx-0.2.0.tar.gz --markdown 20230724/R/RotEx/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt5-sip]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt5-sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt5_sip-4.19.18-cp37-none-win_amd64.whl.zip tmp/PyQt5_sip-4.19.19-cp38-none-win_amd64.whl.zip --markdown 20230724/P/PyQt5-sip/4.19.18-4.19.19/diff.md --exclude *.pyd
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt6-sip]: executing diffoscope
+[2023-07-24 12:48:04] INFO root fetch - processPackages [PyQt6-sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_sip-13.5.1.tar.gz tmp/PyQt6_sip-13.5.2.tar.gz --markdown 20230724/P/PyQt6-sip/13.5.1-13.5.2/diff.md --exclude *.pyd
+[2023-07-24 12:48:05] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.3.tar.gz]
+[2023-07-24 12:48:05] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.4.tar.gz]
+[2023-07-24 12:48:05] INFO root fetch - processPackages [kissio]: Start processing: pywr
+[2023-07-24 12:48:05] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 12:48:05] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.7.tar.gz]
+[2023-07-24 12:48:05] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.8.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.0.0.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.0.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [urlincode]: Remove: archive file [/home/abi/fetcher/tmp/urlincode-0.2.0.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [urlincode]: Remove: archive file [/home/abi/fetcher/tmp/urlincode-0.3.0.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [urlincode]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [pywr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [autometrics]: Remove: archive file [/home/abi/fetcher/tmp/autometrics-0.7.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [autometrics]: Remove: archive file [/home/abi/fetcher/tmp/autometrics-0.8.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [autometrics]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [RotEx]: Remove: archive file [/home/abi/fetcher/tmp/RotEx-0.1.1.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [RotEx]: Remove: archive file [/home/abi/fetcher/tmp/RotEx-0.2.0.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [RotEx]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [PyQt5-sip]: Remove: archive file [/home/abi/fetcher/tmp/PyQt5_sip-4.19.18-cp37-none-win_amd64.whl.zip]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [PyQt5-sip]: Remove: archive file [/home/abi/fetcher/tmp/PyQt5_sip-4.19.19-cp38-none-win_amd64.whl.zip]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [PyQt5-sip]: success
+[2023-07-24 12:48:06] INFO root fetch - processPackages [pywr]: Downloading https://files.pythonhosted.org/packages/14/56/c0ba764d539242d68f853d354ffd3ce521e2326311fc78e3412149d98cf8/pywr-1.8.0.tar.gz
+[2023-07-24 12:48:06] INFO root fetch - processPackages [PyQt6-sip]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_sip-13.5.1.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - processPackages [PyQt6-sip]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_sip-13.5.2.tar.gz]
+[2023-07-24 12:48:06] INFO root fetch - main [MainThread]: End processing [PyQt6-sip]: success
+[2023-07-24 12:48:07] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-24 12:48:07] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-24 12:48:07] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-24 12:48:07] INFO root fetch - processPackages [pywr]: Downloading https://files.pythonhosted.org/packages/cb/e6/ed4bc0d1e5746a43c5364aeba2fcf8d90d29321e7b52980bab67c016eebd/pywr-1.9.0.tar.gz
+[2023-07-24 12:48:08] INFO root fetch - processPackages [pywr]: executing diffoscope
+[2023-07-24 12:48:08] INFO root fetch - processPackages [pywr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywr-1.8.0.tar.gz tmp/pywr-1.9.0.tar.gz --markdown 20230724/p/pywr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 12:48:09] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.7.tar.gz]
+[2023-07-24 12:48:09] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.8.tar.gz]
+[2023-07-24 12:48:09] INFO root fetch - main [MainThread]: End processing [DuHast]: success
+[2023-07-24 12:48:11] INFO root fetch - processPackages [pywr]: Remove: archive file [/home/abi/fetcher/tmp/pywr-1.8.0.tar.gz]
+[2023-07-24 12:48:11] INFO root fetch - processPackages [pywr]: Remove: archive file [/home/abi/fetcher/tmp/pywr-1.9.0.tar.gz]
+[2023-07-24 12:48:11] INFO root fetch - main [MainThread]: End processing [pywr]: success
+[2023-07-24 12:48:11] INFO root fetch - main [MainThread]: Store serial: [19011367]
