@@ -5723,3 +5723,76 @@
 [2023-07-24 04:26:12] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.2.1.tar.gz]
 [2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [idocker]: success
 [2023-07-24 04:26:12] INFO root fetch - main [MainThread]: Store serial: [19007382]
+[2023-07-24 04:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007382]
+[2023-07-24 04:31:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supervisor-shell-ui
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drawwithplt
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpc-obscodes
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: control-lab-ly
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisor-shell-ui
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypdb
+[2023-07-24 04:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: klvm-tools-rs
+[2023-07-24 04:31:21] INFO root fetch - processPackages [klvm-tools-rs]: New version: [0.1.34] Old Version: [0.1.30]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [drawwithplt]: New version: [0.3] Old Version: [0.2]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [pypdb]: New version: [2.3] Old Version: [2.2]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.7.24] Old Version: [2023.7.20]
+[2023-07-24 04:31:21] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.3a1] Old Version: [1.1.2]
+[2023-07-24 04:31:22] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/17/ea/590121da2e68a379e03a0824f1525653a5dec82543fd38bf09d83bf8a401/supervisor-shell-ui-0.2.1.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/17/ea/590121da2e68a379e03a0824f1525653a5dec82543fd38bf09d83bf8a401/supervisor-shell-ui-0.2.1.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/d2/53/56cc1ada16a87c9580207346ac5779c60dcb244324c5868a82f455b2f1d0/klvm_tools_rs-0.1.30.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [drawwithplt]: Downloading https://files.pythonhosted.org/packages/77/f1/636007eb7b28daa6e7bcb0041051d487bbd8d3758619c5e86a49497c1494/drawwithplt-0.2-py3-none-any.whl
+[2023-07-24 04:31:22] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/ef/33/ec7fcb8661fd8972f6d4592595a2c999a27c2f93e7e20c7f379aaa96ac3a/mpc_obscodes-2023.7.20.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [pypdb]: Downloading https://files.pythonhosted.org/packages/e7/a6/8ec76f3094d7cf0f71050af90ad90d93caebac8ad1a655e32a45d2383037/pypdb-2.2.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/dd/b1/3adf2c16916d44292e01f7ec784d5e25c66667b254b8a0368fa8ab2f697d/control-lab-ly-1.1.2.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/cf/94/a7904bd4ef6fa57dc9147b217e6dc83464d4961564737ec980c57b6adb8e/supervisor-shell-ui-0.2.2.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/cf/94/a7904bd4ef6fa57dc9147b217e6dc83464d4961564737ec980c57b6adb8e/supervisor-shell-ui-0.2.2.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [drawwithplt]: Downloading https://files.pythonhosted.org/packages/d7/02/4195fe3cd99b1d3deece3a053164d3c5def103f027a4e4b97b7512f23903/drawwithplt-0.3-py3-none-any.whl
+[2023-07-24 04:31:22] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/30/74/4e02dd1cdcd242c335375cdf268811cbbc4d3fcdfbcd80b2c53475db9c42/mpc_obscodes-2023.7.24.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/18/ae/90f6766b65f4635b239f8618e70fab42de206b097ac7712767bde418fa11/control-lab-ly-1.1.3a1.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-0.2.1.tar.gz tmp/supervisor-shell-ui-0.2.2.tar.gz --markdown 20230724/s/supervisor-shell-ui/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-24 04:31:22] INFO root fetch - processPackages [drawwithplt]: executing diffoscope
+[2023-07-24 04:31:22] INFO root fetch - processPackages [drawwithplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawwithplt-0.2-py3-none-any.whl.zip tmp/drawwithplt-0.3-py3-none-any.whl.zip --markdown 20230724/d/drawwithplt/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 04:31:22] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-0.2.1.tar.gz tmp/supervisor-shell-ui-0.2.2.tar.gz --markdown 20230724/s/supervisor-shell-ui/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-24 04:31:22] INFO root fetch - processPackages [klvm-tools-rs]: Downloading https://files.pythonhosted.org/packages/92/aa/e91ad0492b8941ec149c550233072a7b5e1a040be6267278215733f78799/klvm_tools_rs-0.1.34.tar.gz
+[2023-07-24 04:31:22] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-07-24 04:31:22] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.7.20.tar.gz tmp/mpc_obscodes-2023.7.24.tar.gz --markdown 20230724/m/mpc-obscodes/2023.7.20-2023.7.24/diff.md --exclude *.pyd
+[2023-07-24 04:31:22] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-07-24 04:31:22] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.2.tar.gz tmp/control-lab-ly-1.1.3a1.tar.gz --markdown 20230724/c/control-lab-ly/1.1.2-1.1.3a1/diff.md --exclude *.pyd
+[2023-07-24 04:31:22] INFO root fetch - processPackages [pypdb]: Downloading https://files.pythonhosted.org/packages/fd/2f/19b4446329f7e64b0a51e7e65029aec1301cb47fd9698291ab67ccfdc0ff/pypdb-2.3.tar.gz
+[2023-07-24 04:31:23] INFO root fetch - processPackages [pypdb]: executing diffoscope
+[2023-07-24 04:31:23] INFO root fetch - processPackages [pypdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdb-2.2.tar.gz tmp/pypdb-2.3.tar.gz --markdown 20230724/p/pypdb/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-24 04:31:23] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-24 04:31:23] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230724/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-24 04:31:23] INFO root fetch - processPackages [klvm-tools-rs]: executing diffoscope
+[2023-07-24 04:31:23] INFO root fetch - processPackages [klvm-tools-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_tools_rs-0.1.30.tar.gz tmp/klvm_tools_rs-0.1.34.tar.gz --markdown 20230724/k/klvm-tools-rs/0.1.30-0.1.34/diff.md --exclude *.pyd
+[2023-07-24 04:31:23] INFO root fetch - processPackages [drawwithplt]: Remove: archive file [/home/abi/fetcher/tmp/drawwithplt-0.2-py3-none-any.whl.zip]
+[2023-07-24 04:31:23] INFO root fetch - processPackages [drawwithplt]: Remove: archive file [/home/abi/fetcher/tmp/drawwithplt-0.3-py3-none-any.whl.zip]
+[2023-07-24 04:31:23] INFO root fetch - main [MainThread]: End processing [drawwithplt]: success
+[2023-07-24 04:31:24] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.1.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.2.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 04:31:24] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.7.20.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.7.24.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-07-24 04:31:24] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 04:31:24] INFO root fetch - processPackages [pypdb]: Remove: archive file [/home/abi/fetcher/tmp/pypdb-2.2.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - processPackages [pypdb]: Remove: archive file [/home/abi/fetcher/tmp/pypdb-2.3.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - main [MainThread]: End processing [pypdb]: success
+[2023-07-24 04:31:24] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.2.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.3a1.tar.gz]
+[2023-07-24 04:31:24] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-07-24 04:31:26] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-24 04:31:26] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-24 04:31:26] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-24 04:31:41] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.30.tar.gz]
+[2023-07-24 04:31:41] INFO root fetch - processPackages [klvm-tools-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_tools_rs-0.1.34.tar.gz]
+[2023-07-24 04:31:41] INFO root fetch - main [MainThread]: End processing [klvm-tools-rs]: success
+[2023-07-24 04:31:41] INFO root fetch - main [MainThread]: Store serial: [19007406]
