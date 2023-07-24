@@ -10365,3 +10365,135 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:23:26] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
 [2023-07-24 09:23:26] INFO root fetch - main [MainThread]: End processing [classiq]: success
 [2023-07-24 09:23:26] INFO root fetch - main [MainThread]: Store serial: [19009393]
+[2023-07-24 09:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009393]
+[2023-07-24 09:28:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moptipy
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-analytic
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openi-beta
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rqsdk
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xclass-sdk
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-es-aeat
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyconfita
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: furs-fiscalization
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fedex-sdk
+[2023-07-24 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-07-24 09:28:34] INFO root fetch - processPackages [openi-beta]: New version: [2.0.0] Old Version: [0.1.8]
+[2023-07-24 09:28:34] WARNING root fetch - processPackages [xclass-sdk]: Skipping, unable to determine old version
+[2023-07-24 09:28:34] INFO root fetch - processPackages [xclass-sdk]: Start processing: radstar
+[2023-07-24 09:28:34] INFO root fetch - main [MainThread]: End processing [xclass-sdk] error
+[2023-07-24 09:28:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.1.0.1] Old Version: [16.0.2.1.0]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [furs-fiscalization]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [rqsdk]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [pyconfita]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [odoo-addon-stock-analytic]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.1]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.86]
+[2023-07-24 09:28:34] INFO root fetch - processPackages [radstar]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-07-24 09:28:35] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/b9/39/50741c3574e1ba538b3cfe6fea11aeea7f2598eea40b5d8fd65f36a5e983/openi-beta-0.1.8.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/00/43/745fa44c7bff24954494f8902536cc2cdd635f81c8ede8da4b6df314702d/fedex-sdk-1.0.2.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/8d/e5/937cc00b1c414169c8445f98502fb175f387da7ac7ee1f21b2f6b495859b/radstar-0.14.1-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/cc/64/4e94f2c5e960b31fe30282fd3e5578fbc53349c1f9b294efef6b7363c669/odoo_addon_l10n_es_aeat-16.0.2.1.0-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/71/32/363b6734c09f93a1fc9af8d41acf2e417445972555fef5b32170aae20157/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/8f/4d/0b819d098975d22083058761c0aaafa6cf08ccdbb235dafba06337dd2e28/rqsdk-1.5.2.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [furs-fiscalization]: Downloading https://files.pythonhosted.org/packages/5b/14/a2b861a08f445d72a5b360f2a5cdedb3ace578b2ceece026d13ed2f7dc22/furs_fiscalization-0.8.0.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [pyconfita]: Downloading https://files.pythonhosted.org/packages/a7/06/a67d017cef02e7a40268c870decff5593e79a9b7a574b56ffd6601bb7640/pyconfita-1.0.8.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/ad/9d/f88076f2f82120d59f270a2b8260dd3bbaae8d0d72be459fc347a73b7bcf/moptipy-0.9.86.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/94/1b/24da50b0017c1588bea20fac3b351567c37f38209103d71b6bc8dc420197/openi-beta-2.0.0.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/4b/5d/afbe458c7c0372ae54904cd35b34a6ccca0818fe1068dfe1a3e3c98e8339/fedex-sdk-1.0.3.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/5f/65/f4dcdd01959291b3cc2c892a44de56bb9ff3381868d6237a4600a61be442/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/49/73/fea2c257bb6257c1ec17d5799e310632555694c61812b3efe7672dbbfce0/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7c/89/5827743d14d91ce70312f54eb1c30b0042b11c9efd383e94ff6bad1b493b/rqsdk-1.5.3.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-0.1.8.tar.gz tmp/openi-beta-2.0.0.tar.gz --markdown 20230724/o/openi-beta/0.1.8-2.0.0/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.2.tar.gz tmp/fedex-sdk-1.0.3.tar.gz --markdown 20230724/f/fedex-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/8c/11/ba44bcddf189cf559fd4294f85b11306c89fd0f0b5b835f33680f86603ff/radstar-0.14.2-py3-none-any.whl
+[2023-07-24 09:28:35] INFO root fetch - processPackages [furs-fiscalization]: Downloading https://files.pythonhosted.org/packages/17/d0/8d41450bef50a057682d2e4d6094923a3ebd3851a300ccb224e026732e31/furs_fiscalization-0.8.1.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [pyconfita]: Downloading https://files.pythonhosted.org/packages/2b/39/42c581a4d9ca138c28e310624ca579c59c09e4b44b7238f7e9f94180e791/pyconfita-1.0.9.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-stock-analytic]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-stock-analytic/16.0.1.1.0.1-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-l10n-es-aeat/16.0.2.1.0-16.0.2.1.0.1/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.2.tar.gz tmp/rqsdk-1.5.3.tar.gz --markdown 20230724/r/rqsdk/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-24 09:28:35] INFO root fetch - processPackages [furs-fiscalization]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [furs-fiscalization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furs_fiscalization-0.8.0.tar.gz tmp/furs_fiscalization-0.8.1.tar.gz --markdown 20230724/f/furs-fiscalization/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-24 09:28:35] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-24 09:28:35] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230724/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 09:28:36] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-24 09:28:36] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.1-py3-none-any.whl.zip tmp/radstar-0.14.2-py3-none-any.whl.zip --markdown 20230724/r/radstar/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-07-24 09:28:36] INFO root fetch - processPackages [pyconfita]: executing diffoscope
+[2023-07-24 09:28:36] INFO root fetch - processPackages [pyconfita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconfita-1.0.8.tar.gz tmp/pyconfita-1.0.9.tar.gz --markdown 20230724/p/pyconfita/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:28:36] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-24 09:28:36] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.86.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230724/m/moptipy/0.9.86-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 09:28:37] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-0.1.8.tar.gz]
+[2023-07-24 09:28:37] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.0.tar.gz]
+[2023-07-24 09:28:37] INFO root fetch - processPackages [openi-beta]: Start processing: pyfeyn2
+[2023-07-24 09:28:37] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-24 09:28:37] INFO root fetch - processPackages [pyfeyn2]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.2.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.3.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [fedex-sdk]: Start processing: mysqlx
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 09:28:38] INFO root fetch - processPackages [mysqlx]: New version: [1.6.0] Old Version: [1.5.7]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyfeyn2]: Downloading https://files.pythonhosted.org/packages/6d/17/10b5c2557b68825ed0e722ff672146fbbb2211f3f06d1750133e4606b41e/pyfeyn2-2.3.4.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/f5/78/fc40aaaf2733d0cd16b9a30d423368c02fa70f1909215761d3b5ff1c1fff/mysqlx-1.5.7.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [furs-fiscalization]: Remove: archive file [/home/abi/fetcher/tmp/furs_fiscalization-0.8.0.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [furs-fiscalization]: Remove: archive file [/home/abi/fetcher/tmp/furs_fiscalization-0.8.1.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [furs-fiscalization]: Start processing: aliyun-python-sdk-eipanycast
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [furs-fiscalization]: success
+[2023-07-24 09:28:38] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyconfita]: Remove: archive file [/home/abi/fetcher/tmp/pyconfita-1.0.8.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyconfita]: Remove: archive file [/home/abi/fetcher/tmp/pyconfita-1.0.9.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyconfita]: Start processing: pgsqlx
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [pyconfita]: success
+[2023-07-24 09:28:38] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.2.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/58/09/ed86aadfb270ea92779732d2e19792453225485b09ab80ac92a702ad718c/mysqlx-1.6.0.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.3.tar.gz]
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyfeyn2]: Downloading https://files.pythonhosted.org/packages/ed/ae/acb22900598756be2c66553ca159ae48e1db94373772c5442f087df71cd4/pyfeyn2-2.3.5.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-24 09:28:38] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-24 09:28:38] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.7.tar.gz tmp/mysqlx-1.6.0.tar.gz --markdown 20230724/m/mysqlx/1.5.7-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyfeyn2]: executing diffoscope
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pyfeyn2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfeyn2-2.3.4.tar.gz tmp/pyfeyn2-2.3.5.tar.gz --markdown 20230724/p/pyfeyn2/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-24 09:28:38] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/77/30/c8c5ff11693a840de573e4522c8be5dde3b79465955905d7a761731da8c1/pgsqlx-1.6.0.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Downloading https://files.pythonhosted.org/packages/f5/cd/b7750931a848a560a11f00a9fb9101e79687d1af223d90f92cb949ad9983/aliyun-python-sdk-eipanycast-1.0.4.tar.gz
+[2023-07-24 09:28:38] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 09:28:38] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-24 09:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-analytic]: success
+[2023-07-24 09:28:39] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/8a/80/54aadda61f8ea7440ef1d39f8056f091945d5f4849fce7600f6da415c57a/pgsqlx-1.6.1.tar.gz
+[2023-07-24 09:28:39] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.1-py3-none-any.whl.zip]
+[2023-07-24 09:28:39] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.2-py3-none-any.whl.zip]
+[2023-07-24 09:28:39] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-24 09:28:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-24 09:28:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 09:28:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-07-24 09:28:39] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-24 09:28:39] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.0.tar.gz tmp/pgsqlx-1.6.1.tar.gz --markdown 20230724/p/pgsqlx/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-24 09:28:39] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Downloading https://files.pythonhosted.org/packages/a4/6a/e3099daf7f970e2489325165bbd71c95feacd983da982647f74b18eab882/aliyun-python-sdk-eipanycast-1.0.5.tar.gz
+[2023-07-24 09:28:39] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: executing diffoscope
+[2023-07-24 09:28:39] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eipanycast-1.0.4.tar.gz tmp/aliyun-python-sdk-eipanycast-1.0.5.tar.gz --markdown 20230724/a/aliyun-python-sdk-eipanycast/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-24 09:28:40] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.7.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.0.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-24 09:28:40] INFO root fetch - processPackages [pyfeyn2]: Remove: archive file [/home/abi/fetcher/tmp/pyfeyn2-2.3.4.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - processPackages [pyfeyn2]: Remove: archive file [/home/abi/fetcher/tmp/pyfeyn2-2.3.5.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [pyfeyn2]: success
+[2023-07-24 09:28:40] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.0.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.1.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-24 09:28:40] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eipanycast-1.0.4.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - processPackages [aliyun-python-sdk-eipanycast]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eipanycast-1.0.5.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eipanycast]: success
+[2023-07-24 09:28:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.86.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-24 09:28:40] INFO root fetch - main [MainThread]: Store serial: [19009432]
