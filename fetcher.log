@@ -20005,3 +20005,71 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:24:55] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
 [2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [daktari]: success
 [2023-07-24 15:24:55] INFO root fetch - main [MainThread]: Store serial: [19013250]
+[2023-07-24 15:29:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013250]
+[2023-07-24 15:30:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slidescore-sdk
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanite
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-radiance
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: killbills-sdk
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kl-sdk
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-bulk-ingest
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rpa-pdf
+[2023-07-24 15:30:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiven-client
+[2023-07-24 15:30:05] INFO root fetch - processPackages [rpa-pdf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-24 15:30:05] INFO root fetch - processPackages [nanite]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-07-24 15:30:05] WARNING root fetch - processPackages [kl-sdk]: Skipping, unable to determine old version
+[2023-07-24 15:30:05] INFO root fetch - main [MainThread]: End processing [kl-sdk] error
+[2023-07-24 15:30:05] INFO root fetch - processPackages [coretex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 15:30:05] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 15:30:05] INFO root fetch - processPackages [slidescore-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-24 15:30:05] WARNING root fetch - processPackages [killbills-sdk]: Skipping, unable to determine old version
+[2023-07-24 15:30:05] INFO root fetch - main [MainThread]: End processing [killbills-sdk] error
+[2023-07-24 15:30:05] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-24 15:30:05] INFO root fetch - processPackages [rpa-pdf]: Downloading https://files.pythonhosted.org/packages/da/3b/f0b7928a393046622e99bc5b34cce8638a08fae40d93665005580f70636d/rpa-pdf-1.1.0.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [aiven-client]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-07-24 15:30:05] WARNING root fetch - processPackages [rpa-pdf]: Skipping package: exceeds size limit 28449499>=10485760
+[2023-07-24 15:30:05] INFO root fetch - main [MainThread]: End processing [rpa-pdf] error
+[2023-07-24 15:30:05] INFO root fetch - processPackages [nanite]: Downloading https://files.pythonhosted.org/packages/1f/8d/027018e6aa7ce357b1cb75a5854d36755a80b17ddcfd3c1ccf0b68f20e75/nanite-3.6.0.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/c3/8c/7bcc16062a06e91a0ad17cbd6dea9bf5fe38cc0b68978cface45b050953d/slidescore-sdk-1.2.8.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d7/75/8f4b6144971b3d6263e9a16d64f4cdb7e8674d361ee6bf7eb12131095413/coretex-1.0.8.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/b0/22/3ed2692d0b55f5a16dccaa615a6ca36816028fe3862261bb43a20331f4c0/aiven-client-2.9.0.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-24 15:30:05] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230724/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 15:30:05] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/d6/c4/89dc77c1c4645d9dfc7e2c5fabe518d4c2a28b7142db6b030a93cb938fca/coretex-1.0.9.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/ee/ee/86759a3eb2858cde1304f6063043d70e459d6a1390b5911983f68575a62f/slidescore-sdk-1.2.9.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/46/b5/38fca92bce202f6c547d709743545eba881cadfe495903d234149f6d360c/aiven_client-3.0.0.tar.gz
+[2023-07-24 15:30:05] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-24 15:30:06] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-07-24 15:30:06] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.8.tar.gz tmp/coretex-1.0.9.tar.gz --markdown 20230724/c/coretex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 15:30:06] INFO root fetch - processPackages [aiven-client]: executing diffoscope
+[2023-07-24 15:30:06] INFO root fetch - processPackages [aiven-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiven-client-2.9.0.tar.gz tmp/aiven_client-3.0.0.tar.gz --markdown 20230724/a/aiven-client/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-24 15:30:06] INFO root fetch - processPackages [slidescore-sdk]: executing diffoscope
+[2023-07-24 15:30:06] INFO root fetch - processPackages [slidescore-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidescore-sdk-1.2.8.tar.gz tmp/slidescore-sdk-1.2.9.tar.gz --markdown 20230724/s/slidescore-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-24 15:30:06] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-24 15:30:06] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230724/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-24 15:30:06] INFO root fetch - processPackages [nanite]: Downloading https://files.pythonhosted.org/packages/33/e5/d24d988510277349ba611be80027241c04bc22bcc9fa830b0ae167184a7f/nanite-3.7.0.tar.gz
+[2023-07-24 15:30:06] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-24 15:30:06] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-24 15:30:06] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-24 15:30:06] INFO root fetch - processPackages [nanite]: executing diffoscope
+[2023-07-24 15:30:06] INFO root fetch - processPackages [nanite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanite-3.6.0.tar.gz tmp/nanite-3.7.0.tar.gz --markdown 20230724/n/nanite/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-07-24 15:30:07] INFO root fetch - processPackages [slidescore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slidescore-sdk-1.2.8.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - processPackages [slidescore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slidescore-sdk-1.2.9.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - main [MainThread]: End processing [slidescore-sdk]: success
+[2023-07-24 15:30:07] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven-client-2.9.0.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven_client-3.0.0.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - main [MainThread]: End processing [aiven-client]: success
+[2023-07-24 15:30:07] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.8.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.9.tar.gz]
+[2023-07-24 15:30:07] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-07-24 15:30:08] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-24 15:30:08] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-24 15:30:08] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-24 15:30:08] INFO root fetch - processPackages [nanite]: Remove: archive file [/home/abi/fetcher/tmp/nanite-3.6.0.tar.gz]
+[2023-07-24 15:30:08] INFO root fetch - processPackages [nanite]: Remove: archive file [/home/abi/fetcher/tmp/nanite-3.7.0.tar.gz]
+[2023-07-24 15:30:08] INFO root fetch - main [MainThread]: End processing [nanite]: success
+[2023-07-24 15:30:08] INFO root fetch - main [MainThread]: Store serial: [19013283]
