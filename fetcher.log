@@ -5649,3 +5649,77 @@
 [2023-07-24 04:21:01] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.2.3.tar.gz]
 [2023-07-24 04:21:01] INFO root fetch - main [MainThread]: End processing [rlviser-py]: success
 [2023-07-24 04:21:01] INFO root fetch - main [MainThread]: Store serial: [19007355]
+[2023-07-24 04:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007355]
+[2023-07-24 04:26:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aoirint-matvtool
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SloppyV3
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easynotify
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plotly-extend-wrapper
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcdl
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energon-prometheus-exporter
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idocker
+[2023-07-24 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shipdan-serializer-tester
+[2023-07-24 04:26:10] INFO root fetch - processPackages [aoirint-matvtool]: New version: [0.3.0b4] Old Version: [0.3.0b1]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [plotly-extend-wrapper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 04:26:10] WARNING root fetch - processPackages [SloppyV3]: Skipping, unable to determine old version
+[2023-07-24 04:26:10] INFO root fetch - main [MainThread]: End processing [SloppyV3] error
+[2023-07-24 04:26:10] INFO root fetch - processPackages [idocker]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [shipdan-serializer-tester]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [pcdl]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [easynotify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [energon-prometheus-exporter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-24 04:26:10] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/4c/04/b770ed66371c26a86880b57776a2d9a83e1151a2138651b058d2cc77390c/aoirint_matvtool-0.3.0b1.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/fc/ee/e48fe076f92f5877b3c0402dd87976d24fcbc96caa60229d5e1a991eecf0/easynotify-0.1.1.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/6b/9e/58bca1baf01eeb7536a3ef5dd6d67b0d15bf5e87b7b78d8e3fffcfc37597/energon_prometheus_exporter-0.0.5.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/92/fc/e5c33c79a934597944c208f6f3d9d7b6b315fffa48a4738ca07a7f705cda/idocker-1.2.0.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [plotly-extend-wrapper]: Downloading https://files.pythonhosted.org/packages/b9/76/b7d69fa18b69cb6712e2b78a126c39fe019e6da80bb688177c3c0592117c/plotly-extend-wrapper-0.0.1.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/6c/ad/72893b482526bcc5da67f4170c08db1d63a86f876c4cd968cd9a458a575f/shipdan_serializer_tester-0.0.1.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/c5/4b/42c86ab1c49f0791f282efcdba4d13bd87abf7144e6f65fdf646c6e52f78/pcdl-3.2.8.tar.gz
+[2023-07-24 04:26:10] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-07-24 04:26:10] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16867588>=10485760
+[2023-07-24 04:26:10] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-07-24 04:26:10] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/a5/c3/42a80c0e3367794f23df43eb9568f95799da1f63fd39846ad90182dc7819/aoirint_matvtool-0.3.0b4.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/45/6b/ff8ef745142d506f21c444d304dc01d8d384bd6ea3a93a79d685eedb604b/easynotify-0.1.2.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/26/70/cac6df5bd0e48ba32b8bcbfc9d530f82d80e81bb8266f1ef66434f2bdf63/energon_prometheus_exporter-0.0.6.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [plotly-extend-wrapper]: Downloading https://files.pythonhosted.org/packages/04/21/d163b4481df6fce8c0dd6571cd941dc2855f0be00f509170090f2f2b8b29/plotly-extend-wrapper-0.0.2.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/67/d5/4a091cf0df848a73033a8c967631b425d26307dba15d9bb805b81bedcbfb/shipdan_serializer_tester-0.0.2.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [aoirint-matvtool]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [aoirint-matvtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aoirint_matvtool-0.3.0b1.tar.gz tmp/aoirint_matvtool-0.3.0b4.tar.gz --markdown 20230724/a/aoirint-matvtool/0.3.0b1-0.3.0b4/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [idocker]: Downloading https://files.pythonhosted.org/packages/57/9f/b399569bc3c5d9470aef410237ed9b6ed00bf20c8987a8aaa13f4f964697/idocker-1.2.1.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-07-24 04:26:11] INFO root fetch - processPackages [plotly-extend-wrapper]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [plotly-extend-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly-extend-wrapper-0.0.1.tar.gz tmp/plotly-extend-wrapper-0.0.2.tar.gz --markdown 20230724/p/plotly-extend-wrapper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [easynotify]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [easynotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynotify-0.1.1.tar.gz tmp/easynotify-0.1.2.tar.gz --markdown 20230724/e/easynotify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [energon-prometheus-exporter]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [energon-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energon_prometheus_exporter-0.0.5.tar.gz tmp/energon_prometheus_exporter-0.0.6.tar.gz --markdown 20230724/e/energon-prometheus-exporter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [shipdan-serializer-tester]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [shipdan-serializer-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdan_serializer_tester-0.0.1.tar.gz tmp/shipdan_serializer_tester-0.0.2.tar.gz --markdown 20230724/s/shipdan-serializer-tester/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [idocker]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [idocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idocker-1.2.0.tar.gz tmp/idocker-1.2.1.tar.gz --markdown 20230724/i/idocker/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 04:26:11] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-07-24 04:26:11] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230724/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-24 04:26:12] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.1.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.2.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [shipdan-serializer-tester]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.3.0b1.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.3.0b4.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [aoirint-matvtool]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [plotly-extend-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/plotly-extend-wrapper-0.0.1.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [plotly-extend-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/plotly-extend-wrapper-0.0.2.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [plotly-extend-wrapper]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [easynotify]: Remove: archive file [/home/abi/fetcher/tmp/easynotify-0.1.1.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [easynotify]: Remove: archive file [/home/abi/fetcher/tmp/easynotify-0.1.2.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [easynotify]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.5.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.6.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [energon-prometheus-exporter]: success
+[2023-07-24 04:26:12] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.2.0.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - processPackages [idocker]: Remove: archive file [/home/abi/fetcher/tmp/idocker-1.2.1.tar.gz]
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: End processing [idocker]: success
+[2023-07-24 04:26:12] INFO root fetch - main [MainThread]: Store serial: [19007382]
