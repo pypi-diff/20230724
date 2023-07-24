@@ -16980,3 +16980,108 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:56:45] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-24 13:56:45] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-07-24 13:56:45] INFO root fetch - main [MainThread]: Store serial: [19012077]
+[2023-07-24 14:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012077]
+[2023-07-24 14:01:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu117
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyswarming
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-rmq
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easycompletion
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raillabel
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shared-modules
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymoebot
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fajrGPT
+[2023-07-24 14:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autoapi-django
+[2023-07-24 14:01:54] INFO root fetch - processPackages [easycompletion]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [pyswarming]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [raillabel]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [async-rmq]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [pymoebot]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [autoapi-django]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [fajrGPT]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-24 14:01:54] WARNING root fetch - processPackages [shared-modules]: Skipping, unable to determine old version
+[2023-07-24 14:01:54] INFO root fetch - processPackages [shared-modules]: Start processing: kazu
+[2023-07-24 14:01:54] INFO root fetch - main [MainThread]: End processing [shared-modules] error
+[2023-07-24 14:01:54] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/e2/a7/429a5d8e8089c4c8a5d37958cffe2ea3afd14b2fe432486146ee1e73a28f/easycompletion-0.2.8.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [kazu]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-07-24 14:01:54] INFO root fetch - processPackages [pymoebot]: Downloading https://files.pythonhosted.org/packages/a7/89/71294b91acf218b6b20fdb9ea830037bd6ed295964534ccd251d4ff3e23c/pymoebot-0.2.2.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 14:01:54] INFO root fetch - processPackages [async-rmq]: Downloading https://files.pythonhosted.org/packages/1c/a0/22ae7d3bd9678e7406226f27634e43f7d84ce3748ce78623d09261bbc2f2/async_rmq-0.2.3.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [pyswarming]: Downloading https://files.pythonhosted.org/packages/03/cb/0b52374b76c8f85f00baf8b9e189a9676cb72256c27b01a8a99bc81c271b/pyswarming-1.1.1.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/30/74/5be17ab2b60b12983ea08a06c68c14cad76d0cd7cff769da9c2f08edc690/fajrGPT-1.4.2.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [raillabel]: Downloading https://files.pythonhosted.org/packages/e4/6e/d50dba6b5b9816685d9dd4f445a6c5500d60e31c34fa428cadf1f30589b0/raillabel-2.2.0.tar.gz
+[2023-07-24 14:01:54] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/33/37/fdee8136fc0237aea9075a557a730240a9f626eff149eb5e8328776b4321/autoapi-django-0.9.1.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [kazu]: Downloading https://files.pythonhosted.org/packages/a5/a0/d38350724382b610ab57de2e59947d2d1f45982f8375b456f1690630bf30/kazu-0.1.0.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/7b/59/92e027af5c9418542998d160132806fd014e86d7830f1c3f963c001a51e8/easycompletion-0.2.9.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pymoebot]: Downloading https://files.pythonhosted.org/packages/54/19/8e6cfb0e5f8479a3de2ad54e7d804bf613e52ca146029e0102a67982229a/pymoebot-0.2.3.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.2.8.tar.gz tmp/easycompletion-0.2.9.tar.gz --markdown 20230724/e/easycompletion/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [async-rmq]: Downloading https://files.pythonhosted.org/packages/69/58/e453c7bd1ff3f94134c6971886d5379607e1314cd28fa29f3e68334a4e06/async_rmq-0.3.0.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pyswarming]: Downloading https://files.pythonhosted.org/packages/32/70/80b9bfd9dda6c5a1dcac522204f548f1cca680f9d068a58a0b69cb9fb0ad/pyswarming-1.1.2.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/9e/65/2ab5387871abeebdfae92e89ae6ff191ab824f60b13fa056877276420925/fajrGPT-1.4.3.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/4a/c8/e5fbd22789d51741011533765bab6db3930f338c9225d61686e4dec24027/autoapi-django-0.9.2.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pymoebot]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pymoebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymoebot-0.2.2.tar.gz tmp/pymoebot-0.2.3.tar.gz --markdown 20230724/p/pymoebot/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [raillabel]: Downloading https://files.pythonhosted.org/packages/1c/8d/b08837d69afe5eae9553f1aa76a5d3a23c7356f2cd82c022cbb675d0a3d6/raillabel-2.2.1.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230724/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [async-rmq]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [async-rmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_rmq-0.2.3.tar.gz tmp/async_rmq-0.3.0.tar.gz --markdown 20230724/a/async-rmq/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pyswarming]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [pyswarming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswarming-1.1.1.tar.gz tmp/pyswarming-1.1.2.tar.gz --markdown 20230724/p/pyswarming/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [kazu]: Downloading https://files.pythonhosted.org/packages/da/48/9139165a6679c2ca95176a1544f223954a927a77315cb0ea9e32e5f52499/kazu-1.0.0.tar.gz
+[2023-07-24 14:01:55] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.4.2.tar.gz tmp/fajrGPT-1.4.3.tar.gz --markdown 20230724/f/fajrGPT/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [autoapi-django]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [autoapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoapi-django-0.9.1.tar.gz tmp/autoapi-django-0.9.2.tar.gz --markdown 20230724/a/autoapi-django/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [raillabel]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [raillabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raillabel-2.2.0.tar.gz tmp/raillabel-2.2.1.tar.gz --markdown 20230724/r/raillabel/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-24 14:01:55] INFO root fetch - processPackages [kazu]: executing diffoscope
+[2023-07-24 14:01:55] INFO root fetch - processPackages [kazu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazu-0.1.0.tar.gz tmp/kazu-1.0.0.tar.gz --markdown 20230724/k/kazu/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 14:01:56] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 14:01:57] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.8.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.9.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [easycompletion]: Start processing: steamship
+[2023-07-24 14:01:57] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-24 14:01:57] INFO root fetch - processPackages [pymoebot]: Remove: archive file [/home/abi/fetcher/tmp/pymoebot-0.2.2.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [pymoebot]: Remove: archive file [/home/abi/fetcher/tmp/pymoebot-0.2.3.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - main [MainThread]: End processing [pymoebot]: success
+[2023-07-24 14:01:57] INFO root fetch - processPackages [async-rmq]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq-0.2.3.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [async-rmq]: Remove: archive file [/home/abi/fetcher/tmp/async_rmq-0.3.0.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - main [MainThread]: End processing [async-rmq]: success
+[2023-07-24 14:01:57] INFO root fetch - processPackages [steamship]: New version: [2.7.17] Old Version: [2.3.9]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.2.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.3.tar.gz]
+[2023-07-24 14:01:57] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-24 14:01:58] INFO root fetch - processPackages [pyswarming]: Remove: archive file [/home/abi/fetcher/tmp/pyswarming-1.1.1.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - processPackages [pyswarming]: Remove: archive file [/home/abi/fetcher/tmp/pyswarming-1.1.2.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - main [MainThread]: End processing [pyswarming]: success
+[2023-07-24 14:01:58] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-24 14:01:58] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.1.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.2.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - main [MainThread]: End processing [autoapi-django]: success
+[2023-07-24 14:01:58] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-24 14:01:58] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230724/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-24 14:01:58] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/fc/7f/490997e5736bb6baca2fd79ebdb477307b56adeb7eeac9f7575d42158aa4/steamship-2.7.17.tar.gz
+[2023-07-24 14:01:58] INFO root fetch - processPackages [kazu]: Remove: archive file [/home/abi/fetcher/tmp/kazu-0.1.0.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - processPackages [kazu]: Remove: archive file [/home/abi/fetcher/tmp/kazu-1.0.0.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - main [MainThread]: End processing [kazu]: success
+[2023-07-24 14:01:58] INFO root fetch - processPackages [raillabel]: Remove: archive file [/home/abi/fetcher/tmp/raillabel-2.2.0.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - processPackages [raillabel]: Remove: archive file [/home/abi/fetcher/tmp/raillabel-2.2.1.tar.gz]
+[2023-07-24 14:01:58] INFO root fetch - main [MainThread]: End processing [raillabel]: success
+[2023-07-24 14:01:58] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-24 14:01:58] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.9.tar.gz tmp/steamship-2.7.17.tar.gz --markdown 20230724/s/steamship/2.3.9-2.7.17/diff.md --exclude *.pyd
+[2023-07-24 14:02:00] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 14:02:00] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 14:02:00] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-24 14:02:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-24 14:02:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-24 14:02:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-24 14:02:01] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-24 14:02:01] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.7.17.tar.gz]
+[2023-07-24 14:02:01] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-24 14:02:01] INFO root fetch - main [MainThread]: Store serial: [19012115]
