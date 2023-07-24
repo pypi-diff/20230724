@@ -21261,3 +21261,208 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:07:38] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.6.0.tar.gz]
 [2023-07-24 16:07:38] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
 [2023-07-24 16:07:38] INFO root fetch - main [MainThread]: Store serial: [19013788]
+[2023-07-24 16:12:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013788]
+[2023-07-24 16:12:47] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebtorch
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-functools
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wingechr-datatools
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-reloaded
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-api-fluent
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dark-matter
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpforecaster
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-spreadsheets-exporter
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openbb
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multicamselfcal
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ansys-api-fluent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [openai-functools]: New version: [1.0.82] Old Version: [1.0.81]
+[2023-07-24 16:12:47] WARNING root fetch - processPackages [wingechr-datatools]: Skipping, unable to determine old version
+[2023-07-24 16:12:47] INFO root fetch - processPackages [wingechr-datatools]: Start processing: hdbcli
+[2023-07-24 16:12:47] INFO root fetch - main [MainThread]: End processing [wingechr-datatools] error
+[2023-07-24 16:12:47] INFO root fetch - processPackages [multicamselfcal]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [openbb]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ebtorch]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.94] Old Version: [0.3.93]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [google-spreadsheets-exporter]: New version: [0.2] Old Version: [0.1]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [zipline-reloaded]: New version: [3.1.dev4] Old Version: [3.0.3]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [hdbcli]: New version: [2.9.28] Old Version: [2.9.23]
+[2023-07-24 16:12:47] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/ef/51/b537b76ea686d4a50323e457533d59775cc7985c435c55a6e03de3c1d2f3/openai_functools-1.0.81.tar.gz
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/1e/41/d1f226cf21b1b34689563f85e3f390a1d38e1d0cd9e9e525e0bf422cec12/ebtorch-0.9.4.tar.gz
+[2023-07-24 16:12:47] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/92/6c/d9e3332610449fb8dd5f58fa8e1e340141302cb3ac74df49a9b079b4899b/ansys_api_fluent-0.3.8-py3-none-any.whl
+[2023-07-24 16:12:47] INFO root fetch - processPackages [zipline-reloaded]: Downloading https://files.pythonhosted.org/packages/19/e8/2ec5660574ff0193438367d1f77601147a730b8ff5974ff613ec1a58a222/zipline-reloaded-3.0.3.tar.gz
+[2023-07-24 16:12:47] INFO root fetch - processPackages [multicamselfcal]: Downloading https://files.pythonhosted.org/packages/c8/09/f1eac8cc0809a27ddc388dd72da716e0ed12059d0477990bee4daf553fb3/multicamselfcal-0.1.0.tar.gz
+[2023-07-24 16:12:47] INFO root fetch - processPackages [google-spreadsheets-exporter]: Downloading https://files.pythonhosted.org/packages/14/f5/c8f5873a7cb25d0a8d567da977ede8dfeaef729b02a7ae1a96decde03d84/google_spreadsheets_exporter-0.1.tar.gz
+[2023-07-24 16:12:47] INFO root fetch - processPackages [hdbcli]: Downloading https://files.pythonhosted.org/packages/1e/e5/f8f73481c75bbe2e895923b8b17da6db0f4f393a02cca6865ffd593b3eee/hdbcli-2.9.23-cp39-cp39-win_amd64.whl
+[2023-07-24 16:12:48] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [openbb]: Downloading https://files.pythonhosted.org/packages/d9/9b/d3dca04fdcb711f83f2f891f40fa0bb3f0d9202e2812f9c1b68d7b20a684/openbb-3.1.0.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/84/35/d70cce8842f91cf8a9b5967d8923bc4e87e647c940f9630c7bd6b4f3f682/gpforecaster-0.3.93.tar.gz
+[2023-07-24 16:12:48] WARNING root fetch - processPackages [zipline-reloaded]: Skipping package: exceeds size limit 11550067>=10485760
+[2023-07-24 16:12:48] INFO root fetch - processPackages [zipline-reloaded]: Start processing: pydantic-neo4j
+[2023-07-24 16:12:48] INFO root fetch - main [MainThread]: End processing [zipline-reloaded] error
+[2023-07-24 16:12:48] WARNING root fetch - processPackages [openbb]: Skipping package: exceeds size limit 21260145>=10485760
+[2023-07-24 16:12:48] INFO root fetch - processPackages [openbb]: Start processing: invenio-theme
+[2023-07-24 16:12:48] INFO root fetch - main [MainThread]: End processing [openbb] error
+[2023-07-24 16:12:48] INFO root fetch - processPackages [pydantic-neo4j]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 16:12:48] INFO root fetch - processPackages [invenio-theme]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-24 16:12:48] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/84/ba/79fbfdf6db8578606021eec87e8a635c8a39af14cae684f4a541755d1e68/openai_functools-1.0.82.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/bf/c3/1902a512647306a4e0669a9b0312e725b6a206beef5f0c05914efebf2dfe/ebtorch-0.9.5.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ansys-api-fluent]: Downloading https://files.pythonhosted.org/packages/91/3f/3641a3fcda51e1eb122b0eecd800262e2a484e5f57e43383d60df727d6dc/ansys_api_fluent-0.3.9-py3-none-any.whl
+[2023-07-24 16:12:48] INFO root fetch - processPackages [google-spreadsheets-exporter]: Downloading https://files.pythonhosted.org/packages/e4/a2/8b23c2f0669c07c5314642d7098e90d2df13dfdc9bb4eccd0caa59de052a/google_spreadsheets_exporter-0.2.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/85/51/d0fae5c19ce772c51d17fc9405f8d846828ea1c24e1d88dd8e6b2a8ef3b2/pydantic_neo4j-0.3.1.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/90/13/cbece93df595e1f01f1f3f147b8dcaa3067299417ff53bae93e1d5a24dce/invenio-theme-2.1.2.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [multicamselfcal]: Downloading https://files.pythonhosted.org/packages/c0/c7/523cb62004a2ef45a293b9769eb7a063a263085c66d367362eaf7849bc75/multicamselfcal-0.2.0.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/5f/f2/cd44a27614323f6fa1369d6bcc368dda1731619403c885b4d6217072094a/gpforecaster-0.3.94.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [openai-functools]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [openai-functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functools-1.0.81.tar.gz tmp/openai_functools-1.0.82.tar.gz --markdown 20230724/o/openai-functools/1.0.81-1.0.82/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.4.tar.gz tmp/ebtorch-0.9.5.tar.gz --markdown 20230724/e/ebtorch/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ansys-api-fluent]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [ansys-api-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip --markdown 20230724/a/ansys-api-fluent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.93.tar.gz tmp/gpforecaster-0.3.94.tar.gz --markdown 20230724/g/gpforecaster/0.3.93-0.3.94/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [google-spreadsheets-exporter]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [google-spreadsheets-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_spreadsheets_exporter-0.1.tar.gz tmp/google_spreadsheets_exporter-0.2.tar.gz --markdown 20230724/g/google-spreadsheets-exporter/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [multicamselfcal]: executing diffoscope
+[2023-07-24 16:12:48] INFO root fetch - processPackages [multicamselfcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicamselfcal-0.1.0.tar.gz tmp/multicamselfcal-0.2.0.tar.gz --markdown 20230724/m/multicamselfcal/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 16:12:48] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/e9/80/f8ae7cbf79cad380061938299df8ccecab5babbb5885bcba6c2e0e1ba3f4/pydantic_neo4j-0.3.2.tar.gz
+[2023-07-24 16:12:49] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-07-24 16:12:49] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230724/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:12:49] INFO root fetch - processPackages [pydantic-neo4j]: executing diffoscope
+[2023-07-24 16:12:49] INFO root fetch - processPackages [pydantic-neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_neo4j-0.3.1.tar.gz tmp/pydantic_neo4j-0.3.2.tar.gz --markdown 20230724/p/pydantic-neo4j/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 16:12:49] INFO root fetch - processPackages [hdbcli]: Downloading https://files.pythonhosted.org/packages/0e/40/9778206bcbad23cbee1755727d11528e17a0f244e3c131e4a479e5971eb7/hdbcli-2.9.28-cp39-cp39-win_amd64.whl
+[2023-07-24 16:12:49] INFO root fetch - processPackages [invenio-theme]: Downloading https://files.pythonhosted.org/packages/0e/38/69d3afe2360f423b4425bb78fb9f9a15b4f55fe0cd0278dba7122648f7f4/invenio-theme-2.1.3.tar.gz
+[2023-07-24 16:12:50] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-1.0.81.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-1.0.82.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [openai-functools]: Start processing: more-itertools
+[2023-07-24 16:12:50] INFO root fetch - processPackages [invenio-theme]: executing diffoscope
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [openai-functools]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [invenio-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-theme-2.1.2.tar.gz tmp/invenio-theme-2.1.3.tar.gz --markdown 20230724/i/invenio-theme/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-24 16:12:50] INFO root fetch - processPackages [more-itertools]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [google-spreadsheets-exporter]: Remove: archive file [/home/abi/fetcher/tmp/google_spreadsheets_exporter-0.1.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [google-spreadsheets-exporter]: Remove: archive file [/home/abi/fetcher/tmp/google_spreadsheets_exporter-0.2.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [google-spreadsheets-exporter]: Start processing: pyjibe
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [google-spreadsheets-exporter]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [more-itertools]: Downloading https://files.pythonhosted.org/packages/13/b3/397aa9668da8b1f0c307bc474608653d46122ae0563d1d32f60e24fa0cbd/more-itertools-9.0.0.tar.gz
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pyjibe]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.4.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.5.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [ebtorch]: Start processing: airflow-docker-compose
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.93.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.94.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [gpforecaster]: Start processing: morecantile
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [morecantile]: New version: [5.0.0] Old Version: [4.3.0]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [airflow-docker-compose]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [more-itertools]: Downloading https://files.pythonhosted.org/packages/2e/d0/bea165535891bd1dcb5152263603e902c0ec1f4c9a2e152cc4adff6b3a38/more-itertools-9.1.0.tar.gz
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pyjibe]: Downloading https://files.pythonhosted.org/packages/4a/19/73e708b9237a7173c02b53e2922b31a0d623d935913fcfcab52832914c24/pyjibe-0.9.3.tar.gz
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.3.1.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.3.2.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pydantic-neo4j]: Start processing: pydantic-neo4j
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [pydantic-neo4j]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [multicamselfcal]: Remove: archive file [/home/abi/fetcher/tmp/multicamselfcal-0.1.0.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [multicamselfcal]: Remove: archive file [/home/abi/fetcher/tmp/multicamselfcal-0.2.0.tar.gz]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [multicamselfcal]: Start processing: core-devoops
+[2023-07-24 16:12:50] INFO root fetch - main [MainThread]: End processing [multicamselfcal]: success
+[2023-07-24 16:12:50] INFO root fetch - processPackages [pydantic-neo4j]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 16:12:50] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 16:12:51] INFO root fetch - processPackages [more-itertools]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [more-itertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/more-itertools-9.0.0.tar.gz tmp/more-itertools-9.1.0.tar.gz --markdown 20230724/m/more-itertools/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [airflow-docker-compose]: Downloading https://files.pythonhosted.org/packages/4a/12/a6cb710fb9ec519a234d5235cc705d4793eded856bf72aa62a379268774c/airflow-docker-compose-0.1.9.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [hdbcli]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdbcli-2.9.23-cp39-cp39-win_amd64.whl.zip tmp/hdbcli-2.9.28-cp39-cp39-win_amd64.whl.zip --markdown 20230724/h/hdbcli/2.9.23-2.9.28/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/85/51/d0fae5c19ce772c51d17fc9405f8d846828ea1c24e1d88dd8e6b2a8ef3b2/pydantic_neo4j-0.3.1.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/04/fc/152907ef045cb179ad2246aa892c0aefb6e0b5251930a6e408791f68190a/morecantile-4.3.0.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.8-py3-none-any.whl.zip]
+[2023-07-24 16:12:51] INFO root fetch - processPackages [ansys-api-fluent]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_fluent-0.3.9-py3-none-any.whl.zip]
+[2023-07-24 16:12:51] INFO root fetch - processPackages [ansys-api-fluent]: Start processing: hgcal-state-machine
+[2023-07-24 16:12:51] INFO root fetch - main [MainThread]: End processing [ansys-api-fluent]: success
+[2023-07-24 16:12:51] INFO root fetch - processPackages [hgcal-state-machine]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pydantic-neo4j]: Downloading https://files.pythonhosted.org/packages/e9/80/f8ae7cbf79cad380061938299df8ccecab5babbb5885bcba6c2e0e1ba3f4/pydantic_neo4j-0.3.2.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pyjibe]: Downloading https://files.pythonhosted.org/packages/a2/aa/b3bb1ecc9381fda6d030d3eabd3454644a7be1290487f83e49b17e272624/pyjibe-0.9.4.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [airflow-docker-compose]: Downloading https://files.pythonhosted.org/packages/81/de/24e6f79c85df8f5d053e4ac1b7bb3e23d63674e17e8c67980c0eb4093f7b/airflow_docker_compose-0.2.0.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [hgcal-state-machine]: Downloading https://files.pythonhosted.org/packages/e4/93/7de64be5aef1dbb5856346a48626e08229db5cb8abfb93787d7a3b8e6890/hgcal_state_machine-0.2.0.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pydantic-neo4j]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pydantic-neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_neo4j-0.3.1.tar.gz tmp/pydantic_neo4j-0.3.2.tar.gz --markdown 20230724/p/pydantic-neo4j/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [morecantile]: Downloading https://files.pythonhosted.org/packages/e5/68/bc1ec3fb34aef6cec4c800ec3a2fef7095240201d3e6c47503ee194f4654/morecantile-5.0.0.tar.gz
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pyjibe]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [pyjibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjibe-0.9.3.tar.gz tmp/pyjibe-0.9.4.tar.gz --markdown 20230724/p/pyjibe/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [airflow-docker-compose]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [airflow-docker-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-docker-compose-0.1.9.tar.gz tmp/airflow_docker_compose-0.2.0.tar.gz --markdown 20230724/a/airflow-docker-compose/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230724/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-07-24 16:12:51] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.3.0.tar.gz tmp/morecantile-5.0.0.tar.gz --markdown 20230724/m/morecantile/4.3.0-5.0.0/diff.md --exclude *.pyd
+[2023-07-24 16:12:51] INFO root fetch - processPackages [hgcal-state-machine]: Downloading https://files.pythonhosted.org/packages/ae/1c/b79640a9baf7d79c71348042e842f94959c8f7db518e037eb9827049724a/hgcal_state_machine-0.3.0.tar.gz
+[2023-07-24 16:12:52] INFO root fetch - processPackages [hgcal-state-machine]: executing diffoscope
+[2023-07-24 16:12:52] INFO root fetch - processPackages [hgcal-state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_state_machine-0.2.0.tar.gz tmp/hgcal_state_machine-0.3.0.tar.gz --markdown 20230724/h/hgcal-state-machine/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 16:12:52] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [dark-matter]: Start processing: LIB-ADTECH
+[2023-07-24 16:12:52] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-07-24 16:12:52] INFO root fetch - processPackages [LIB-ADTECH]: New version: [1.1.1] Old Version: [1.0.8]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/hdbcli-2.9.23-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [hdbcli]: Remove: archive file [/home/abi/fetcher/tmp/hdbcli-2.9.28-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [hdbcli]: Start processing: dwiqc
+[2023-07-24 16:12:52] INFO root fetch - main [MainThread]: End processing [hdbcli]: success
+[2023-07-24 16:12:52] INFO root fetch - processPackages [dwiqc]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-24 16:12:52] INFO root fetch - processPackages [LIB-ADTECH]: Downloading https://files.pythonhosted.org/packages/7a/41/46d63642d722d3d63c62ace1f56b07d438efe2a13d168d90f747261388fc/LIB-ADTECH-1.0.8.tar.gz
+[2023-07-24 16:12:52] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/3c/10/901355ec84e55de5929f5bea2602cc3602b77cf65b5b365cc1b0ea3d5125/dwiqc-0.7.2-py2.py3-none-any.whl
+[2023-07-24 16:12:53] INFO root fetch - processPackages [more-itertools]: Remove: archive file [/home/abi/fetcher/tmp/more-itertools-9.0.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [more-itertools]: Remove: archive file [/home/abi/fetcher/tmp/more-itertools-9.1.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [more-itertools]: Start processing: matflow-new
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [more-itertools]: success
+[2023-07-24 16:12:53] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/93/d4/c0cebd550cd09d757f22fa137a5e08cbc9bc24e2c1fb34d941383af5fc42/dwiqc-0.7.3-py2.py3-none-any.whl
+[2023-07-24 16:12:53] INFO root fetch - processPackages [LIB-ADTECH]: Downloading https://files.pythonhosted.org/packages/87/c2/95c5874b60ddbad3d67b17d23a3aa839643a307b01e40dd676e43dee0f66/LIB-ADTECH-1.1.1.tar.gz
+[2023-07-24 16:12:53] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-07-24 16:12:53] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.7.2-py2.py3-none-any.whl.zip tmp/dwiqc-0.7.3-py2.py3-none-any.whl.zip --markdown 20230724/d/dwiqc/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-24 16:12:53] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.3.1.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [pydantic-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_neo4j-0.3.2.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [pydantic-neo4j]: Start processing: disco-generation
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [pydantic-neo4j]: success
+[2023-07-24 16:12:53] INFO root fetch - processPackages [LIB-ADTECH]: executing diffoscope
+[2023-07-24 16:12:53] INFO root fetch - processPackages [LIB-ADTECH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LIB-ADTECH-1.0.8.tar.gz tmp/LIB-ADTECH-1.1.1.tar.gz --markdown 20230724/L/LIB-ADTECH/1.0.8-1.1.1/diff.md --exclude *.pyd
+[2023-07-24 16:12:53] INFO root fetch - processPackages [disco-generation]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-07-24 16:12:53] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 16:12:53] INFO root fetch - processPackages [airflow-docker-compose]: Remove: archive file [/home/abi/fetcher/tmp/airflow-docker-compose-0.1.9.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [airflow-docker-compose]: Remove: archive file [/home/abi/fetcher/tmp/airflow_docker_compose-0.2.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [airflow-docker-compose]: success
+[2023-07-24 16:12:53] INFO root fetch - processPackages [disco-generation]: Downloading https://files.pythonhosted.org/packages/89/b0/f4af413472ceaed25b1735b76bb50e30787bbb5b7906382032adfb47dc62/disco-generation-1.1.0.tar.gz
+[2023-07-24 16:12:53] INFO root fetch - processPackages [hgcal-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_state_machine-0.2.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [hgcal-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_state_machine-0.3.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [hgcal-state-machine]: success
+[2023-07-24 16:12:53] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-07-24 16:12:53] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-4.3.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - processPackages [morecantile]: Remove: archive file [/home/abi/fetcher/tmp/morecantile-5.0.0.tar.gz]
+[2023-07-24 16:12:53] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-07-24 16:12:54] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-07-24 16:12:54] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230724/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-24 16:12:54] INFO root fetch - processPackages [pyjibe]: Remove: archive file [/home/abi/fetcher/tmp/pyjibe-0.9.3.tar.gz]
+[2023-07-24 16:12:54] INFO root fetch - processPackages [pyjibe]: Remove: archive file [/home/abi/fetcher/tmp/pyjibe-0.9.4.tar.gz]
+[2023-07-24 16:12:54] INFO root fetch - main [MainThread]: End processing [pyjibe]: success
+[2023-07-24 16:12:54] INFO root fetch - processPackages [disco-generation]: Downloading https://files.pythonhosted.org/packages/60/91/72a3ef55538678a939f6e4318de1ec7b1b1ed9750d1eeb3455db0289e63d/disco-generation-1.1.1.tar.gz
+[2023-07-24 16:12:54] INFO root fetch - processPackages [disco-generation]: executing diffoscope
+[2023-07-24 16:12:54] INFO root fetch - processPackages [disco-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disco-generation-1.1.0.tar.gz tmp/disco-generation-1.1.1.tar.gz --markdown 20230724/d/disco-generation/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-24 16:12:54] INFO root fetch - processPackages [LIB-ADTECH]: Remove: archive file [/home/abi/fetcher/tmp/LIB-ADTECH-1.0.8.tar.gz]
+[2023-07-24 16:12:54] INFO root fetch - processPackages [LIB-ADTECH]: Remove: archive file [/home/abi/fetcher/tmp/LIB-ADTECH-1.1.1.tar.gz]
+[2023-07-24 16:12:54] INFO root fetch - main [MainThread]: End processing [LIB-ADTECH]: success
+[2023-07-24 16:12:54] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.7.2-py2.py3-none-any.whl.zip]
+[2023-07-24 16:12:54] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.7.3-py2.py3-none-any.whl.zip]
+[2023-07-24 16:12:54] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-07-24 16:12:55] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.1.2.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - processPackages [invenio-theme]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-2.1.3.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - main [MainThread]: End processing [invenio-theme]: success
+[2023-07-24 16:12:55] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-07-24 16:12:55] INFO root fetch - processPackages [disco-generation]: Remove: archive file [/home/abi/fetcher/tmp/disco-generation-1.1.0.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - processPackages [disco-generation]: Remove: archive file [/home/abi/fetcher/tmp/disco-generation-1.1.1.tar.gz]
+[2023-07-24 16:12:55] INFO root fetch - main [MainThread]: End processing [disco-generation]: success
+[2023-07-24 16:12:55] INFO root fetch - main [MainThread]: Store serial: [19013891]
