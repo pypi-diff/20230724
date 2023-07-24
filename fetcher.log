@@ -9402,3 +9402,170 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:45:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2115.0-py3-none-any.whl.zip]
 [2023-07-24 08:45:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
 [2023-07-24 08:45:18] INFO root fetch - main [MainThread]: Store serial: [19008939]
+[2023-07-24 08:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008939]
+[2023-07-24 08:50:28] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-cli
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-dso
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snbtlib
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-libs
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-whd
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-oci
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biggo-pms-api-python
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-cdn20180510
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-herobiz-ds
+[2023-07-24 08:50:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arun-test
+[2023-07-24 08:50:28] INFO root fetch - processPackages [django-herobiz-ds]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [biggo-pms-api-python]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [alibabacloud-cdn20180510]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [snbtlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 08:50:28] WARNING root fetch - processPackages [arun-test]: Skipping, unable to determine old version
+[2023-07-24 08:50:28] INFO root fetch - processPackages [arun-test]: Start processing: easypcd
+[2023-07-24 08:50:28] INFO root fetch - main [MainThread]: End processing [arun-test] error
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [easypcd]: New version: [0.0.26] Old Version: [0.0.23]
+[2023-07-24 08:50:28] INFO root fetch - processPackages [biggo-pms-api-python]: Downloading https://files.pythonhosted.org/packages/17/0c/07a9b143746f404d8bbdb9034be5ea8442a2172e11556949318f4a5a56ea/biggo_pms_api_python-1.1.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b6/22/9488d68dd188ff719d42e9f0f9aa1c5011c3408eb926b13724c294f4af69/gardener-cicd-cli-1.2114.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [django-herobiz-ds]: Downloading https://files.pythonhosted.org/packages/f6/39/4d64a2d7cee51afb01b803d9bd92f8449d0553e4365555967ec5edf527fb/django-herobiz_ds-1.2.2.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/6d/d6/b5a3b94fcbb94cb42284be13cca6524f9655ff89d51473e0f52b50a86afb/gardener-cicd-libs-1.2114.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/0a/d8/c401e2a1418c6391c8838cbcdfb73780650cb5b3d5f958f06d427ffc8843/easypcd-0.0.23-py3-none-any.whl
+[2023-07-24 08:50:28] INFO root fetch - processPackages [snbtlib]: Downloading https://files.pythonhosted.org/packages/a9/f6/521858d2e673aeb739d6940adf48c8a560265bdf831cf0517a7a38077090/snbtlib-1.0.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/f0/35/8ead5ee3412ce2c4b4edb5638a381714f546fa1a8ab17642a7c588f73bd1/gardener-cicd-whd-1.2114.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/84/80/1f1b950de946d87f3424e0257bd00dd138a816a3997682d2b0b4dc49343a/gardener-cicd-dso-1.2114.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-24 08:50:28] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/e1/95/58156658c827b8a345a1bcff7bfab978eeb3e6157a1c0fa2a91995d775c6/alibabacloud_cdn20180510-1.2.8.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [biggo-pms-api-python]: Downloading https://files.pythonhosted.org/packages/a0/77/32fd53fcd99d6f6e930cb7b3ab5549ee671e0330f2f64d4adf1c28657d01/biggo_pms_api_python-1.1.1.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/a6/4f/c200f3135d1d4a8b9bcc433e7c9e98ff9725f70a25a0eb1adc21cf25ed60/gardener-cicd-cli-1.2115.0.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/ac/23/c2fee5dcef92134f9b892d0b74537b2be6c98225a59a2d3fe804d21ac91a/easypcd-0.0.26-py3-none-any.whl
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/50/e9/0eec88146bc7de99b35fec70f0882d2d8f02f7409bdd9cc327bb6c07c6eb/gardener-cicd-dso-1.2115.0.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [snbtlib]: Downloading https://files.pythonhosted.org/packages/12/42/6821827b019d454fca175e4cc60244832f29f38e5b98ccc90ccf80a63df0/snbtlib-1.0.1.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/cf/5e/0f0283dbb3041ca9b68c51eb6135a5099f5821a0cede15ebc46508783ecd/gardener-cicd-whd-1.2115.0.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [biggo-pms-api-python]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [biggo-pms-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biggo_pms_api_python-1.1.0.tar.gz tmp/biggo_pms_api_python-1.1.1.tar.gz --markdown 20230724/b/biggo-pms-api-python/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2114.0.tar.gz tmp/gardener-cicd-cli-1.2115.0.tar.gz --markdown 20230724/g/gardener-cicd-cli/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/59/5b/c7e2cbba0eb1c3d606017ababf2e4be16336b860d0e25d64ab0bf6287b1e/gardener-cicd-libs-1.2115.0.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Downloading https://files.pythonhosted.org/packages/27/ed/4efd8c76dab91dff011f164093a515b4c95ad1b26a477f6ad015a3a19599/alibabacloud_cdn20180510-1.2.9.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2114.0.tar.gz tmp/gardener-cicd-dso-1.2115.0.tar.gz --markdown 20230724/g/gardener-cicd-dso/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [snbtlib]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [snbtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snbtlib-1.0.0.tar.gz tmp/snbtlib-1.0.1.tar.gz --markdown 20230724/s/snbtlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [django-herobiz-ds]: Downloading https://files.pythonhosted.org/packages/18/56/619184f7fbb8845b38231e9ecf60358bfd7e62b878354e8aac869829bcd2/django-herobiz_ds-1.2.3.tar.gz
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230724/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.23-py3-none-any.whl.zip tmp/easypcd-0.0.26-py3-none-any.whl.zip --markdown 20230724/e/easypcd/0.0.23-0.0.26/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2114.0.tar.gz tmp/gardener-cicd-whd-1.2115.0.tar.gz --markdown 20230724/g/gardener-cicd-whd/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2114.0.tar.gz tmp/gardener-cicd-libs-1.2115.0.tar.gz --markdown 20230724/g/gardener-cicd-libs/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:29] INFO root fetch - processPackages [alibabacloud-cdn20180510]: executing diffoscope
+[2023-07-24 08:50:29] INFO root fetch - processPackages [alibabacloud-cdn20180510]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510-1.2.8.tar.gz tmp/alibabacloud_cdn20180510-1.2.9.tar.gz --markdown 20230724/a/alibabacloud-cdn20180510/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-24 08:50:30] INFO root fetch - processPackages [django-herobiz-ds]: executing diffoscope
+[2023-07-24 08:50:30] INFO root fetch - processPackages [django-herobiz-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-herobiz_ds-1.2.2.tar.gz tmp/django-herobiz_ds-1.2.3.tar.gz --markdown 20230724/d/django-herobiz-ds/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-24 08:50:31] INFO root fetch - processPackages [biggo-pms-api-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo_pms_api_python-1.1.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [biggo-pms-api-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo_pms_api_python-1.1.1.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [biggo-pms-api-python]: Start processing: Discord-Anti-Spam
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [biggo-pms-api-python]: success
+[2023-07-24 08:50:31] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.23-py3-none-any.whl.zip]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.26-py3-none-any.whl.zip]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [easypcd]: Start processing: acuitylite
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-24 08:50:31] INFO root fetch - processPackages [Discord-Anti-Spam]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [acuitylite]: New version: [6.6.0] Old Version: [6.21.0]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [snbtlib]: Remove: archive file [/home/abi/fetcher/tmp/snbtlib-1.0.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [snbtlib]: Remove: archive file [/home/abi/fetcher/tmp/snbtlib-1.0.1.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [snbtlib]: Start processing: dash-express-components
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [snbtlib]: success
+[2023-07-24 08:50:31] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-oci]: Start processing: Pandora-ChatGPT
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-24 08:50:31] INFO root fetch - processPackages [Discord-Anti-Spam]: Downloading https://files.pythonhosted.org/packages/f2/f2/6b2efc8f0b5d80ebeef72ce9ea0d45160394621ec0d98b84dbde83105e85/Discord%20Anti-Spam-1.8.0.tar.gz
+[2023-07-24 08:50:31] INFO root fetch - processPackages [acuitylite]: Downloading https://files.pythonhosted.org/packages/de/26/fb39816d319a87d90fb337e8c697afd22b3797d519778c2cc4628820f40b/acuitylite-6.21.0-cp310-cp310-manylinux2010_x86_64.whl
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2114.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2115.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: pymodaq-plugins-greateyes
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2114.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2115.0.tar.gz]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-24 08:50:31] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: easypcd
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-24 08:50:31] WARNING root fetch - processPackages [acuitylite]: Skipping package: exceeds size limit 129549040>=10485760
+[2023-07-24 08:50:31] INFO root fetch - processPackages [acuitylite]: Start processing: xj-user
+[2023-07-24 08:50:31] INFO root fetch - main [MainThread]: End processing [acuitylite] error
+[2023-07-24 08:50:31] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [easypcd]: New version: [0.0.26] Old Version: [0.0.23]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/45/7b/61b1675fed3cbd68bd3fe066763b3fc63536dbbc20acaef0ef22906a792b/dash_express_components-0.0.8.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2114.0.tar.gz]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2115.0.tar.gz]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: lyft-bikes
+[2023-07-24 08:50:32] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-24 08:50:32] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/0a/d8/c401e2a1418c6391c8838cbcdfb73780650cb5b3d5f958f06d427ffc8843/easypcd-0.0.23-py3-none-any.whl
+[2023-07-24 08:50:32] WARNING root fetch - processPackages [lyft-bikes]: Skipping, unable to determine old version
+[2023-07-24 08:50:32] INFO root fetch - processPackages [lyft-bikes]: Start processing: trilium-py
+[2023-07-24 08:50:32] INFO root fetch - main [MainThread]: End processing [lyft-bikes] error
+[2023-07-24 08:50:32] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/e9/79/3a9f45ba7e0b1a54633234311b6829beec63cd72f97e27eb32d453be50c0/Pandora-ChatGPT-1.2.9.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: Downloading https://files.pythonhosted.org/packages/10/65/35cf1de49163c45fbedd194c12f6287e792d03020653d0da16a9a2717b53/pymodaq_plugins_greateyes-1.0.0.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [trilium-py]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [Discord-Anti-Spam]: Downloading https://files.pythonhosted.org/packages/4c/a5/6c577df5114e2925a2ca7e31c10b1056ce2c1a0af753cc00d3a5a1449811/Discord%20Anti-Spam-1.8.1.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/ac/23/c2fee5dcef92134f9b892d0b74537b2be6c98225a59a2d3fe804d21ac91a/easypcd-0.0.26-py3-none-any.whl
+[2023-07-24 08:50:32] INFO root fetch - processPackages [Discord-Anti-Spam]: executing diffoscope
+[2023-07-24 08:50:32] INFO root fetch - processPackages [Discord-Anti-Spam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Discord Anti-Spam-1.8.0.tar.gz tmp/Discord Anti-Spam-1.8.1.tar.gz --markdown 20230724/D/Discord-Anti-Spam/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-24 08:50:32] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-24 08:50:32] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.23-py3-none-any.whl.zip tmp/easypcd-0.0.26-py3-none-any.whl.zip --markdown 20230724/e/easypcd/0.0.23-0.0.26/diff.md --exclude *.pyd
+[2023-07-24 08:50:32] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/3e/84/b747dee6692591279355d2d4bffaee7c1e4649d75ee3c51ccd90aac99c5f/trilium_py-0.8.1-py3-none-any.whl
+[2023-07-24 08:50:32] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: Downloading https://files.pythonhosted.org/packages/e2/b2/9ad0b47b672a4ee4c2c776ccdcf25a13803c3bf877364e20faf01ab3547b/pymodaq_plugins_greateyes-1.0.1.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/2e/bb/ff60aeffb6a15170d8083d2f58a84efdbe170e61795ed8e9877d95c9dcbd/Pandora-ChatGPT-1.3.0.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-24 08:50:32] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.8.tar.gz]
+[2023-07-24 08:50:32] INFO root fetch - processPackages [alibabacloud-cdn20180510]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510-1.2.9.tar.gz]
+[2023-07-24 08:50:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510]: success
+[2023-07-24 08:50:32] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: executing diffoscope
+[2023-07-24 08:50:32] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_greateyes-1.0.0.tar.gz tmp/pymodaq_plugins_greateyes-1.0.1.tar.gz --markdown 20230724/p/pymodaq-plugins-greateyes/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 08:50:32] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/19/bd/a24d847266cd35ecf1681d41420a9be0331b22fb730bef223ef869483a72/dash_express_components-0.0.9.tar.gz
+[2023-07-24 08:50:33] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-24 08:50:33] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230724/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-24 08:50:33] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/75/18/015a283dffd0645b72c4bdc7c0358d1986cbf9fb4095e44a8028edc083aa/trilium_py-0.8.2-py3-none-any.whl
+[2023-07-24 08:50:33] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-07-24 08:50:33] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.9.tar.gz tmp/Pandora-ChatGPT-1.3.0.tar.gz --markdown 20230724/P/Pandora-ChatGPT/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-24 08:50:33] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2023-07-24 08:50:33] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.8.1-py3-none-any.whl.zip tmp/trilium_py-0.8.2-py3-none-any.whl.zip --markdown 20230724/t/trilium-py/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-24 08:50:33] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2114.0.tar.gz]
+[2023-07-24 08:50:33] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2115.0.tar.gz]
+[2023-07-24 08:50:33] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-24 08:50:33] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2023-07-24 08:50:33] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.8.tar.gz tmp/dash_express_components-0.0.9.tar.gz --markdown 20230724/d/dash-express-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:50:33] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.23-py3-none-any.whl.zip]
+[2023-07-24 08:50:33] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.26-py3-none-any.whl.zip]
+[2023-07-24 08:50:33] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-24 08:50:34] INFO root fetch - processPackages [Discord-Anti-Spam]: Remove: archive file [/home/abi/fetcher/tmp/Discord Anti-Spam-1.8.0.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - processPackages [Discord-Anti-Spam]: Remove: archive file [/home/abi/fetcher/tmp/Discord Anti-Spam-1.8.1.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - main [MainThread]: End processing [Discord-Anti-Spam]: success
+[2023-07-24 08:50:34] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_greateyes-1.0.0.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - processPackages [pymodaq-plugins-greateyes]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_greateyes-1.0.1.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-greateyes]: success
+[2023-07-24 08:50:34] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-24 08:50:34] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-24 08:50:35] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.1-py3-none-any.whl.zip]
+[2023-07-24 08:50:35] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.2-py3-none-any.whl.zip]
+[2023-07-24 08:50:35] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2023-07-24 08:50:35] INFO root fetch - processPackages [django-herobiz-ds]: Remove: archive file [/home/abi/fetcher/tmp/django-herobiz_ds-1.2.2.tar.gz]
+[2023-07-24 08:50:35] INFO root fetch - processPackages [django-herobiz-ds]: Remove: archive file [/home/abi/fetcher/tmp/django-herobiz_ds-1.2.3.tar.gz]
+[2023-07-24 08:50:35] INFO root fetch - main [MainThread]: End processing [django-herobiz-ds]: success
+[2023-07-24 08:50:37] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.9.tar.gz]
+[2023-07-24 08:50:37] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.3.0.tar.gz]
+[2023-07-24 08:50:37] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-07-24 08:51:07] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.8.tar.gz]
+[2023-07-24 08:51:07] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
+[2023-07-24 08:51:07] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2023-07-24 08:51:07] INFO root fetch - main [MainThread]: Store serial: [19009005]
