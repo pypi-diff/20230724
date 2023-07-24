@@ -8981,3 +8981,82 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:19:11] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-24 08:19:11] INFO root fetch - main [MainThread]: End processing [sqlite-url]: success
 [2023-07-24 08:19:11] INFO root fetch - main [MainThread]: Store serial: [19008776]
+[2023-07-24 08:24:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008776]
+[2023-07-24 08:24:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-regex
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-regex
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-regex
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyc-iot
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anarchy-bot
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: core-models
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funboost
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-07-24 08:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osinfopkg
+[2023-07-24 08:24:20] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: New version: [0.2.3a12] Old Version: [0.2.3]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [osinfopkg]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.9] Old Version: [23.0.8]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [core-models]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [spyc-iot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [funboost]: New version: [24.0] Old Version: [23.9]
+[2023-07-24 08:24:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-24 08:24:20] ERROR root fetch - processPackages [osinfopkg]: Unable to fetch info: No such project/version 'osinfopkg' 0.0.4
+[2023-07-24 08:24:20] INFO root fetch - main [MainThread]: End processing [osinfopkg] error
+[2023-07-24 08:24:20] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/00/08/c1d70eee73270b6678301db4b5e59977aa00d8246a0ff8bf6a2defa25035/anarchy_bot-23.0.8.tar.gz
+[2023-07-24 08:24:20] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/5d/01/bb0fe46a91047170be0e071731be662ec7e32db8c12478612f9b6cc81132/sqlite_utils_sqlite_regex-0.2.3-py3-none-any.whl
+[2023-07-24 08:24:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-24 08:24:20] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-07-24 08:24:20] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/25/c5/7c63d35ee5f41a41d5d94b797a0545e2d77df72f6d7d15640fd9693b2911/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl
+[2023-07-24 08:24:20] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/03/a0/fd7a311ff5e12705d4fb8feee7580c330a05d0353025e34b511c273c5e7d/spyc_iot-0.0.6.tar.gz
+[2023-07-24 08:24:20] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/af/8f/9badcd222ea15e32f5b27d225e903c39d9a9837a8731b23808f3d42d7f00/core_models-0.1.4.tar.gz
+[2023-07-24 08:24:20] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/57/c0/d6805f4eeee9bd29596d7dce537bf03ed1f99e7864d0ad2cae29ffe058af/funboost-23.9-py3-none-any.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/d2/39/09ca4fdfdd115d21cb2824c0f57dc827210f551672a0b655583e03c9681f/anarchy_bot-23.0.9.tar.gz
+[2023-07-24 08:24:21] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/f8/11/0c88b6bcfbd3503506cd3e295a997f90e8a13ac82ea50be6e0eda915e119/sqlite_utils_sqlite_regex-0.2.3a12-py3-none-any.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/48/62/95bcaf409cd88ea3aac6424ee42ecd2df4fa5dab60b5bc2d965cbd656673/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.8.tar.gz tmp/anarchy_bot-23.0.9.tar.gz --markdown 20230724/a/anarchy-bot/23.0.8-23.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_regex-0.2.3-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_regex-0.2.3a12-py3-none-any.whl.zip --markdown 20230724/s/sqlite-utils-sqlite-regex/0.2.3-0.2.3a12/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/2f/13/b1f8bbe5fb56c3db30a0e7d9be9faa4b25d6be9bf66d62118c4913f7759d/spyc_iot-0.0.7.tar.gz
+[2023-07-24 08:24:21] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/4f/74/bba9a4c7e0999693f18a5376f05361dbb1ed61583f9d82ae4bf16094b9cd/core_models-0.1.5.tar.gz
+[2023-07-24 08:24:21] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230724/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/c6/af/dc3e5461f322aa76450bd02d99ee04f6e3971e6886fcccecd8b3ea645e97/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [spyc-iot]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [spyc-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyc_iot-0.0.6.tar.gz tmp/spyc_iot-0.0.7.tar.gz --markdown 20230724/s/spyc-iot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.4.tar.gz tmp/core_models-0.1.5.tar.gz --markdown 20230724/c/core-models/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/80/22/466aa9c402f76da1ac4679dc48e752d365766657807d71e21adf55961c31/funboost-24.0-py3-none-any.whl
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-regex]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 08:24:21] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-07-24 08:24:21] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.9-py3-none-any.whl.zip tmp/funboost-24.0-py3-none-any.whl.zip --markdown 20230724/f/funboost/23.9-24.0/diff.md --exclude *.pyd
+[2023-07-24 08:24:22] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.8.tar.gz]
+[2023-07-24 08:24:22] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.9.tar.gz]
+[2023-07-24 08:24:22] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-24 08:24:22] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_regex-0.2.3-py3-none-any.whl.zip]
+[2023-07-24 08:24:22] INFO root fetch - processPackages [sqlite-utils-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_regex-0.2.3a12-py3-none-any.whl.zip]
+[2023-07-24 08:24:22] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-regex]: success
+[2023-07-24 08:24:22] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-07-24 08:24:22] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip]
+[2023-07-24 08:24:22] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-07-24 08:24:23] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.6.tar.gz]
+[2023-07-24 08:24:23] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.7.tar.gz]
+[2023-07-24 08:24:23] INFO root fetch - main [MainThread]: End processing [spyc-iot]: success
+[2023-07-24 08:24:23] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.4.tar.gz]
+[2023-07-24 08:24:23] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.5.tar.gz]
+[2023-07-24 08:24:23] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-07-24 08:24:24] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.9-py3-none-any.whl.zip]
+[2023-07-24 08:24:24] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-24.0-py3-none-any.whl.zip]
+[2023-07-24 08:24:24] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-07-24 08:24:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-24 08:24:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-24 08:24:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-24 08:24:28] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
+[2023-07-24 08:24:28] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
+[2023-07-24 08:24:28] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
+[2023-07-24 08:24:28] INFO root fetch - main [MainThread]: Store serial: [19008803]
