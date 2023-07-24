@@ -10138,3 +10138,128 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:12:51] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.7.tar.gz]
 [2023-07-24 09:12:51] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-07-24 09:12:51] INFO root fetch - main [MainThread]: Store serial: [19009222]
+[2023-07-24 09:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009222]
+[2023-07-24 09:18:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfem
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: code-loader
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apidriver
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radstar
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphractal
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-dynamic-routers
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-openeo
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfq-nightly
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: power-grid-model-io
+[2023-07-24 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nacos-sdk-rust-binding-py
+[2023-07-24 09:18:00] INFO root fetch - processPackages [apidriver]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [radstar]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [power-grid-model-io]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-24 09:18:00] WARNING root fetch - processPackages [fastapi-dynamic-routers]: Skipping, unable to determine old version
+[2023-07-24 09:18:00] INFO root fetch - processPackages [fastapi-dynamic-routers]: Start processing: fedex-sdk
+[2023-07-24 09:18:00] INFO root fetch - main [MainThread]: End processing [fastapi-dynamic-routers] error
+[2023-07-24 09:18:00] INFO root fetch - processPackages [pyfem]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev5]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 09:18:00] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230724] Old Version: [0.7.3.dev20230723]
+[2023-07-24 09:18:01] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/ce/9d/fa5d4ce5d73a451d326f13b0586ea4d845265e29e0e947bb297727eb3526/radstar-0.14.0-py3-none-any.whl
+[2023-07-24 09:18:01] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/63/73/5176a37a1b7bdc5305ee4f10587bee50178431cedec10d3eb8a4a9821912/fedex-sdk-1.0.1.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [apidriver]: Downloading https://files.pythonhosted.org/packages/1f/96/cb0a111bbcec5627d1b933ebe9c1d5191c92e4ee3a76252475b7ba929119/apidriver-0.8.0.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/c8/0f/e6bf3be86e47f618ba6c9104d7a677e3c070fed9b02226c0aa714b4fe57e/pyfem-0.1.2.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/fc/b8/dd35d087ddf53bc6e565d2755b50bb561553f08dc13a834b056503e142a4/eodc_faas_openeo-2023.7.1.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/61/ba/41b8d76ab2f474273d86bc98825bf68e1374399bea01a0aa7ae771a29bef/code_loader-0.2.84.dev5.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/f5/2d/38fd53c680170b530df74688c518af350dadfc964ac23a736dd88ee324db/power_grid_model_io-1.2.8-py3-none-any.whl
+[2023-07-24 09:18:01] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/a6/d3/317af303c87e3097601b07d234c2cadd27b073c0da69b3f92d37d48522c9/tfq_nightly-0.7.3.dev20230723-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 09:18:01] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Downloading https://files.pythonhosted.org/packages/17/0a/d32a25e7c2b499de95312deb1525138806340ff643acf6c065c7e79ca242/nacos_sdk_rust_binding_py-0.3.0.tar.gz
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807262>=10485760
+[2023-07-24 09:18:01] INFO root fetch - processPackages [tfq-nightly]: Start processing: odoo14-addon-ssi-product-usage-account-type
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [odoo14-addon-ssi-product-usage-account-type]: Skipping, unable to determine old version
+[2023-07-24 09:18:01] INFO root fetch - processPackages [odoo14-addon-ssi-product-usage-account-type]: Start processing: odoo14-addon-ssi-product
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product-usage-account-type] error
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [odoo14-addon-ssi-product]: Skipping, unable to determine old version
+[2023-07-24 09:18:01] INFO root fetch - processPackages [odoo14-addon-ssi-product]: Start processing: odoo14-addon-ssi-product-purchase
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product] error
+[2023-07-24 09:18:01] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/00/43/745fa44c7bff24954494f8902536cc2cdd635f81c8ede8da4b6df314702d/fedex-sdk-1.0.2.tar.gz
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [odoo14-addon-ssi-product-purchase]: Skipping, unable to determine old version
+[2023-07-24 09:18:01] INFO root fetch - processPackages [odoo14-addon-ssi-product-purchase]: Start processing: odoo14-addon-ssi-product-sale
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product-purchase] error
+[2023-07-24 09:18:01] INFO root fetch - processPackages [apidriver]: Downloading https://files.pythonhosted.org/packages/9f/08/1b2aa9eaade3073512a40caa0da2f22b5a69f28688a3a04c5e74dc37b185/apidriver-0.9.0.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/e7/83/06689296390d3bd98b26810dbb59844fcb84703ac35acea6e110f83f149b/eodc_faas_openeo-2023.7.2.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/8c/85/69fdb33a06ca65cdc34051bdb391853ac9d03972482f6f9457692b6fe926/pyfem-0.1.3.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/8d/e5/937cc00b1c414169c8445f98502fb175f387da7ac7ee1f21b2f6b495859b/radstar-0.14.1-py3-none-any.whl
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [odoo14-addon-ssi-product-sale]: Skipping, unable to determine old version
+[2023-07-24 09:18:01] INFO root fetch - processPackages [odoo14-addon-ssi-product-sale]: Start processing: odoo14-addon-ssi-product-stock
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product-sale] error
+[2023-07-24 09:18:01] WARNING root fetch - processPackages [odoo14-addon-ssi-product-stock]: Skipping, unable to determine old version
+[2023-07-24 09:18:01] INFO root fetch - processPackages [odoo14-addon-ssi-product-stock]: Start processing: streamlit-nightly
+[2023-07-24 09:18:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-product-stock] error
+[2023-07-24 09:18:01] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/4c/cc/8eb9ed701ded84401013d806307a8c2d457f6815447f949a74b8907b664e/power_grid_model_io-1.2.9-py3-none-any.whl
+[2023-07-24 09:18:01] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 09:18:01] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.1.tar.gz tmp/fedex-sdk-1.0.2.tar.gz --markdown 20230724/f/fedex-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:18:01] INFO root fetch - processPackages [apidriver]: executing diffoscope
+[2023-07-24 09:18:01] INFO root fetch - processPackages [apidriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidriver-0.8.0.tar.gz tmp/apidriver-0.9.0.tar.gz --markdown 20230724/a/apidriver/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 09:18:01] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Downloading https://files.pythonhosted.org/packages/c2/60/bbfc377c5419eaabbb739efae1db6cab31d79d0221c98177770380fe9034/nacos_sdk_rust_binding_py-0.3.1.tar.gz
+[2023-07-24 09:18:01] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-24 09:18:01] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.7.1.tar.gz tmp/eodc_faas_openeo-2023.7.2.tar.gz --markdown 20230724/e/eodc-faas-openeo/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-24 09:18:01] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-07-24 09:18:01] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.1.2.tar.gz tmp/pyfem-0.1.3.tar.gz --markdown 20230724/p/pyfem/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 09:18:02] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-24 09:18:02] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-24 09:18:02] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.14.0-py3-none-any.whl.zip tmp/radstar-0.14.1-py3-none-any.whl.zip --markdown 20230724/r/radstar/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-24 09:18:02] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-24 09:18:02] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230724/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 09:18:02] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-24 09:18:02] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev5.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230724/c/code-loader/0.2.84.dev5-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 09:18:02] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-24 09:18:02] INFO root fetch - processPackages [power-grid-model-io]: executing diffoscope
+[2023-07-24 09:18:02] INFO root fetch - processPackages [power-grid-model-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip --markdown 20230724/p/power-grid-model-io/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-24 09:18:02] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: executing diffoscope
+[2023-07-24 09:18:02] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacos_sdk_rust_binding_py-0.3.0.tar.gz tmp/nacos_sdk_rust_binding_py-0.3.1.tar.gz --markdown 20230724/n/nacos-sdk-rust-binding-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-24 09:18:03] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-24 09:18:03] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.1.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.7.2.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [eodc-faas-openeo]: Start processing: sinabs-dynapcnn
+[2023-07-24 09:18:03] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-24 09:18:03] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.1.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.2.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 09:18:03] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev5.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-24 09:18:03] INFO root fetch - processPackages [apidriver]: Remove: archive file [/home/abi/fetcher/tmp/apidriver-0.8.0.tar.gz]
+[2023-07-24 09:18:03] INFO root fetch - processPackages [apidriver]: Remove: archive file [/home/abi/fetcher/tmp/apidriver-0.9.0.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [apidriver]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Remove: archive file [/home/abi/fetcher/tmp/nacos_sdk_rust_binding_py-0.3.0.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - processPackages [nacos-sdk-rust-binding-py]: Remove: archive file [/home/abi/fetcher/tmp/nacos_sdk_rust_binding_py-0.3.1.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [nacos-sdk-rust-binding-py]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-07-24 09:18:04] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip]
+[2023-07-24 09:18:04] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [power-grid-model-io]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.0-py3-none-any.whl.zip]
+[2023-07-24 09:18:04] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.1-py3-none-any.whl.zip]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.2.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.3.tar.gz]
+[2023-07-24 09:18:04] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-07-24 09:18:04] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-24 09:18:04] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230724/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-07-24 09:18:04] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230724/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-07-24 09:18:06] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-07-24 09:18:06] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-07-24 09:18:06] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-07-24 09:18:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-24 09:18:13] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-24 09:18:13] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-24 09:18:13] INFO root fetch - main [MainThread]: Store serial: [19009353]
