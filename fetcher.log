@@ -20654,3 +20654,181 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:45:57] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.5.1.tar.gz]
 [2023-07-24 15:45:57] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
 [2023-07-24 15:45:57] INFO root fetch - main [MainThread]: Store serial: [19013547]
+[2023-07-24 15:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013547]
+[2023-07-24 15:51:07] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-materialize
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-devoops
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diagrams-yaml
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-utilities
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chdb
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hgcal-state-machine
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: profiles-rudderstack
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poe-api
+[2023-07-24 15:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kl-sdk
+[2023-07-24 15:51:08] INFO root fetch - processPackages [core-devoops]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [kl-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-24 15:51:08] WARNING root fetch - processPackages [hgcal-state-machine]: Skipping, unable to determine old version
+[2023-07-24 15:51:08] INFO root fetch - processPackages [hgcal-state-machine]: Start processing: chocs-middleware-openapi
+[2023-07-24 15:51:08] INFO root fetch - main [MainThread]: End processing [hgcal-state-machine] error
+[2023-07-24 15:51:08] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [dbt-materialize]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [chdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [chocs-middleware-openapi]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/91/6e/6a6bf65c291a4449a844e60059dd315135ebfa3d36bfad3da1f1a9e09537/core_devoops-0.0.7.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/0c/08/8248dd417f3037b1bc5c07da14492e253d674df44575dec6d3ae0df38b78/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/20/87/0ad5c8cb0ec138600aa12512b05378eecd60f8a0b3b9dd9d07494745f1e2/dbt-materialize-1.5.0.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [kl-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ed/045b0055ddd99943d112412ff28ac2a64a48f9d88d7062d2fef55df84a04/kl_sdk-0.0.1.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/f9/2d/a1220b96fc55dec8c1af7afc56d0a6aaf8910d89800f55b2da1436e4838f/profiles_rudderstack-0.7.1-py3-none-win_amd64.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/46/34/78cda0c6a8c072a692d2240af17a7c99de4739831f72ec6589ec96e8952b/chdb-0.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [chocs-middleware-openapi]: Downloading https://files.pythonhosted.org/packages/20/87/7da05f523af54e744427fc6f42cb6e668601e8b0f84fb479546a947939b3/chocs_middleware_openapi-1.2.3.tar.gz
+[2023-07-24 15:51:08] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108993016>=10485760
+[2023-07-24 15:51:08] INFO root fetch - processPackages [chdb]: Start processing: browserstack-sdk
+[2023-07-24 15:51:08] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-07-24 15:51:08] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/fb/4c/e44dbd2c80a049d04d0ac7b7cc88d5c46a23a7dad278339b22a6dff2bfce/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-24 15:51:08] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-24 15:51:08] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-07-24 15:51:08] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/fa/0c/34850b65a16f67140d5b2479ad98fe80ebe8c6fcee6b2cb7eadb50bbce74/dbt-materialize-1.5.1.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230724/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] WARNING root fetch - processPackages [profiles-rudderstack]: Skipping package: exceeds size limit 23941351>=10485760
+[2023-07-24 15:51:09] INFO root fetch - processPackages [profiles-rudderstack]: Start processing: cloud-governance
+[2023-07-24 15:51:09] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack] error
+[2023-07-24 15:51:09] INFO root fetch - processPackages [kl-sdk]: Downloading https://files.pythonhosted.org/packages/ae/e0/33a7fd966f848339d6c113dabb5a0a232318a79b3c658b4ccaa7a7dfde90/kl_sdk-0.0.2.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230724/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230724/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-24 15:51:09] INFO root fetch - processPackages [dbt-materialize]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [dbt-materialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-materialize-1.5.0.tar.gz tmp/dbt-materialize-1.5.1.tar.gz --markdown 20230724/d/dbt-materialize/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [chocs-middleware-openapi]: Downloading https://files.pythonhosted.org/packages/6e/03/5775daeda5c24b1b01d5a8f34e83780a154a5d769cc2b868e6d98729d01f/chocs_middleware_openapi-1.2.4.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.7.tar.gz tmp/core_devoops-0.0.8.tar.gz --markdown 20230724/c/core-devoops/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [kl-sdk]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [kl-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kl_sdk-0.0.1.tar.gz tmp/kl_sdk-0.0.2.tar.gz --markdown 20230724/k/kl-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230724/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [chocs-middleware-openapi]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [chocs-middleware-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chocs_middleware_openapi-1.2.3.tar.gz tmp/chocs_middleware_openapi-1.2.4.tar.gz --markdown 20230724/c/chocs-middleware-openapi/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2023-07-24 15:51:09] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-07-24 15:51:09] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20230724/b/browserstack-sdk/1.8.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-24 15:51:09] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-24 15:51:10] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-24 15:51:10] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230724/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-24 15:51:10] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [diagrams-yaml]: Start processing: pylatexenc
+[2023-07-24 15:51:10] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-24 15:51:10] INFO root fetch - processPackages [pylatexenc]: New version: [3.0a18] Old Version: [3.0a17]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/46/3c/f55491da279454152e64e077f8d573accc4f6abae11c90cc9569140deab5/pylatexenc-3.0a17.tar.gz
+[2023-07-24 15:51:10] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.5.0.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.5.1.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [dbt-materialize]: Start processing: aeronet
+[2023-07-24 15:51:10] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
+[2023-07-24 15:51:10] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.7.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [core-devoops]: Start processing: lbt-dragonfly
+[2023-07-24 15:51:10] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 15:51:10] INFO root fetch - processPackages [kl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kl_sdk-0.0.1.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [kl-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kl_sdk-0.0.2.tar.gz]
+[2023-07-24 15:51:10] INFO root fetch - processPackages [kl-sdk]: Start processing: v8unpack
+[2023-07-24 15:51:10] INFO root fetch - main [MainThread]: End processing [kl-sdk]: success
+[2023-07-24 15:51:10] INFO root fetch - processPackages [aeronet]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [chocs-middleware-openapi]: Remove: archive file [/home/abi/fetcher/tmp/chocs_middleware_openapi-1.2.3.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [chocs-middleware-openapi]: Remove: archive file [/home/abi/fetcher/tmp/chocs_middleware_openapi-1.2.4.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [chocs-middleware-openapi]: Start processing: openai-parallel-toolkit
+[2023-07-24 15:51:11] INFO root fetch - main [MainThread]: End processing [chocs-middleware-openapi]: success
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [poe-api]: Start processing: arclet-alconna
+[2023-07-24 15:51:11] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-24 15:51:11] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-honeybee]: Start processing: hpcflow-new2
+[2023-07-24 15:51:11] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-24 15:51:11] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/db/44/4be796d574470b99c0766267bc0345fcd6c84c91c99e3122caf753cce2ce/aeronet-0.1.0a5.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/ad/4a/5fc80d62c53834fd41155d9f0e92727af4edf8e65c7c22d7a1484c2d553e/pylatexenc-3.0a18.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [browserstack-sdk]: Start processing: pulp-rpm
+[2023-07-24 15:51:11] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-07-24 15:51:11] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/08/03/98124648a95bcb037324f1ee104dc94b46478b5cdd544f7a874c137dada5/v8unpack-0.9.2.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/35/f2/039dbb60ca3eb0df621209767e547659ccd353ede0f0117cec105a28774a/openai_parallel_toolkit-0.5.2-py3-none-any.whl
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-24 15:51:11] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/fb/1b/f22b0c2c98423fc4f9941e4c391c55f7d571c4ade0c96d4600f5304a81d4/aeronet-0.1.0a6.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [pylatexenc]: executing diffoscope
+[2023-07-24 15:51:11] INFO root fetch - processPackages [pylatexenc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylatexenc-3.0a17.tar.gz tmp/pylatexenc-3.0a18.tar.gz --markdown 20230724/p/pylatexenc/3.0a17-3.0a18/diff.md --exclude *.pyd
+[2023-07-24 15:51:11] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/c6/db/97e0f4658f256f534a6a058447552b56cfa19b7c961c652ed0fbbad0170b/arclet-alconna-1.7.8.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-24 15:51:11] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230724/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-24 15:51:11] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/ff/1e/5233d641810949aa6421b42d883f21e226633dae7b51692d36e9ba32248c/pulp-rpm-3.9.0.tar.gz
+[2023-07-24 15:51:11] INFO root fetch - processPackages [aeronet]: executing diffoscope
+[2023-07-24 15:51:11] INFO root fetch - processPackages [aeronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet-0.1.0a5.tar.gz tmp/aeronet-0.1.0a6.tar.gz --markdown 20230724/a/aeronet/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-07-24 15:51:11] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/98/1c/7dc85f21a1bfb19bb86a81fc5d0f0da170d980fef072fe462cf44a4c80c8/openai_parallel_toolkit-0.6.0-py3-none-any.whl
+[2023-07-24 15:51:11] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/d4/64/0da11cb521c6c2964e5528bda0112e9d37623a5d326ab0631d52ca03a487/v8unpack-0.9.3.tar.gz
+[2023-07-24 15:51:12] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-07-24 15:51:12] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/01/0c/99507417d89907e5272dd8bcbc39efec86528a0e9c1d4a964b679782767d/arclet_alconna-1.7.9.tar.gz
+[2023-07-24 15:51:12] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-07-24 15:51:12] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.5.2-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.6.0-py3-none-any.whl.zip --markdown 20230724/o/openai-parallel-toolkit/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 15:51:12] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-24 15:51:12] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-24 15:51:12] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-24 15:51:12] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-07-24 15:51:12] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230724/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-07-24 15:51:12] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-07-24 15:51:12] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.8.tar.gz tmp/arclet_alconna-1.7.9.tar.gz --markdown 20230724/a/arclet-alconna/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-24 15:51:12] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-07-24 15:51:12] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230724/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 15:51:12] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip]
+[2023-07-24 15:51:12] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip]
+[2023-07-24 15:51:12] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-07-24 15:51:12] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/f6/c3/7630f1a0387b49cdb9c675bda36988b5f74f95750b8884864db4d8ece3ae/pulp-rpm-3.9.1.tar.gz
+[2023-07-24 15:51:12] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-07-24 15:51:12] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230724/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:51:12] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-24 15:51:12] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-24 15:51:12] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [pylatexenc]: Remove: archive file [/home/abi/fetcher/tmp/pylatexenc-3.0a17.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [pylatexenc]: Remove: archive file [/home/abi/fetcher/tmp/pylatexenc-3.0a18.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [pylatexenc]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a5.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a6.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [aeronet]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.2-py3-none-any.whl.zip]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.6.0-py3-none-any.whl.zip]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-1.7.8.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [arclet-alconna]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna-1.7.9.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-07-24 15:51:13] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.2.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.3.tar.gz]
+[2023-07-24 15:51:13] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-07-24 15:51:14] INFO root fetch - processPackages [pulp-rpm]: Remove: archive file [/home/abi/fetcher/tmp/pulp-rpm-3.9.0.tar.gz]
+[2023-07-24 15:51:14] INFO root fetch - processPackages [pulp-rpm]: Remove: archive file [/home/abi/fetcher/tmp/pulp-rpm-3.9.1.tar.gz]
+[2023-07-24 15:51:14] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-07-24 15:51:14] INFO root fetch - main [MainThread]: Store serial: [19013613]
