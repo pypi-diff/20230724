@@ -13532,3 +13532,158 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:31:38] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.5.0.tar.gz]
 [2023-07-24 11:31:38] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
 [2023-07-24 11:31:38] INFO root fetch - main [MainThread]: Store serial: [19010611]
+[2023-07-24 11:36:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010611]
+[2023-07-24 11:36:47] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpi-cbs.mediforms
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddecoapiparser
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: distcrab
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumigo-opentelemetry
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cow-api
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perceval-public-inbox
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-pagerduty
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idkwhttph
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libzac
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OKAppleAPI
+[2023-07-24 11:36:47] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [mpi-cbs.mediforms]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [libzac]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [OKAppleAPI]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [cow-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.88]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [perceval-public-inbox]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ddecoapiparser]: New version: [0.1] Old Version: [0.0.2]
+[2023-07-24 11:36:47] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/fb/a5/db0f560af18045b81dd3bec184377c39f6b9c3b91ce79605f91eada75f04/mpi-cbs.mediforms-0.1.0a8.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/88/3d/59e915318e2e76fbff1478722cf9834034a3e94bb54734548439f14b18de/lumigo_opentelemetry-1.0.88-py3-none-any.whl
+[2023-07-24 11:36:47] INFO root fetch - processPackages [ddecoapiparser]: Downloading https://files.pythonhosted.org/packages/6e/20/98515a543633ddeb006ca2d10f85fba56f69fe32e46695eb342899bb89f4/ddecoapiparser-0.0.2.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/34/12/34f4f0216e77356ab64f2345f303ee5207597a2d3a4cf5b99cf1a7f5acb1/libzac-0.0.9-py3-none-any.whl
+[2023-07-24 11:36:47] INFO root fetch - processPackages [OKAppleAPI]: Downloading https://files.pythonhosted.org/packages/31/05/e98be6f5e23b218a6958d41152d8bd675083d235d3c40b5a8fe5651a223a/OKAppleAPI-1.4.2.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/dc/7e/d3809a457a120ac51e97500769af515f6b29eed712546e4a9474f52a54c1/idkwhttph-0.3.1.tar.gz
+[2023-07-24 11:36:47] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/d6/cd/ba1865cba6f875a700c7aa0439d7602915a4943aaf3245e4194158658dec/perceval_public_inbox-0.1.2.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [cow-api]: Downloading https://files.pythonhosted.org/packages/90/43/a1c5a3d7604e776d23bcec40bbe56aa761c4f72ff608d650146f04b82575/cow_api-0.1.0.tar.gz
+[2023-07-24 11:36:48] WARNING root fetch - processPackages [ddecoapiparser]: Skipping package: exceeds size limit 30149892>=10485760
+[2023-07-24 11:36:48] INFO root fetch - processPackages [ddecoapiparser]: Start processing: protocol-instance
+[2023-07-24 11:36:48] INFO root fetch - main [MainThread]: End processing [ddecoapiparser] error
+[2023-07-24 11:36:48] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-24 11:36:48] WARNING root fetch - processPackages [protocol-instance]: Skipping, unable to determine old version
+[2023-07-24 11:36:48] INFO root fetch - processPackages [protocol-instance]: Start processing: pynisher
+[2023-07-24 11:36:48] INFO root fetch - main [MainThread]: End processing [protocol-instance] error
+[2023-07-24 11:36:48] INFO root fetch - processPackages [pynisher]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-24 11:36:48] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230724/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-24 11:36:48] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/c5/47/5306f01b519d5d73d50901fa4c517511bc68b1fcaecce1700b4552ccb469/mpi-cbs.mediforms-0.1.0a9.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [OKAppleAPI]: Downloading https://files.pythonhosted.org/packages/b8/35/2e42d5f8a8290e107671677fa7ba95ab59e0ca697ad707fa612cbb00d43b/OKAppleAPI-1.4.3.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/bb/49/f640bce1c4fb58e5b64903a2c434e18879cb4cb18c8088f760b1917d3cdd/idkwhttph-0.3.2.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [cow-api]: Downloading https://files.pythonhosted.org/packages/de/0f/8637e4e7d6d7f08e1487cf6e0fc0e9106639d4a8cf79e9edf37183339ed6/cow_api-0.1.1.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/62/af/50c361f5c2bc0a9a06556b435d743944dcec9869900cefbb156bf6a95449/perceval_public_inbox-0.1.3.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/38/6c/9c728a26860b2deec1ff915da80e2abd94c58dea024a960b519947903bd9/libzac-0.1.0-py3-none-any.whl
+[2023-07-24 11:36:48] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/6f/05/bcb70c171ee9a85b245034e428e4f88f34a34637cfa620233eef90b0fb33/pynisher-1.0.7.tar.gz
+[2023-07-24 11:36:48] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.88-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230724/l/lumigo-opentelemetry/1.0.88-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [OKAppleAPI]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [OKAppleAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OKAppleAPI-1.4.2.tar.gz tmp/OKAppleAPI-1.4.3.tar.gz --markdown 20230724/O/OKAppleAPI/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.1.tar.gz tmp/idkwhttph-0.3.2.tar.gz --markdown 20230724/i/idkwhttph/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [cow-api]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [cow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cow_api-0.1.0.tar.gz tmp/cow_api-0.1.1.tar.gz --markdown 20230724/c/cow-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [perceval-public-inbox]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [libzac]: executing diffoscope
+[2023-07-24 11:36:48] INFO root fetch - processPackages [perceval-public-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_public_inbox-0.1.2.tar.gz tmp/perceval_public_inbox-0.1.3.tar.gz --markdown 20230724/p/perceval-public-inbox/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [libzac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libzac-0.0.9-py3-none-any.whl.zip tmp/libzac-0.1.0-py3-none-any.whl.zip --markdown 20230724/l/libzac/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-24 11:36:48] INFO root fetch - processPackages [pynisher]: Downloading https://files.pythonhosted.org/packages/6b/7e/d0858a7b8d2c2fdc9a886f1259e08052635a323a42673a804392022efcc2/pynisher-1.0.8.tar.gz
+[2023-07-24 11:36:49] INFO root fetch - processPackages [pynisher]: executing diffoscope
+[2023-07-24 11:36:49] INFO root fetch - processPackages [pynisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynisher-1.0.7.tar.gz tmp/pynisher-1.0.8.tar.gz --markdown 20230724/p/pynisher/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-24 11:36:49] INFO root fetch - processPackages [mpi-cbs.mediforms]: executing diffoscope
+[2023-07-24 11:36:49] INFO root fetch - processPackages [mpi-cbs.mediforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz --markdown 20230724/m/mpi-cbs.mediforms/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-24 11:36:49] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-07-24 11:36:49] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230724/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-07-24 11:36:49] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-24 11:36:49] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-24 11:36:49] INFO root fetch - processPackages [distcrab]: Start processing: AZMusicAPI
+[2023-07-24 11:36:49] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-24 11:36:49] INFO root fetch - processPackages [AZMusicAPI]: New version: [0.9.2] Old Version: [0.3.9]
+[2023-07-24 11:36:49] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/bb/58/55058282ea94a9bf5eaeeba09e4e42545b9af6a224f808d678ced0e86026/AZMusicAPI-0.3.9-py3-none-any.whl
+[2023-07-24 11:36:50] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/56/85/1a284a7f3b8755826886481ce20ffedf9d9f49fd4745228f6c3e98470a01/AZMusicAPI-0.9.2.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [OKAppleAPI]: Remove: archive file [/home/abi/fetcher/tmp/OKAppleAPI-1.4.2.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [OKAppleAPI]: Remove: archive file [/home/abi/fetcher/tmp/OKAppleAPI-1.4.3.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [OKAppleAPI]: Start processing: pyTermUI
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [OKAppleAPI]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [cow-api]: Remove: archive file [/home/abi/fetcher/tmp/cow_api-0.1.0.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [cow-api]: Remove: archive file [/home/abi/fetcher/tmp/cow_api-0.1.1.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [cow-api]: Start processing: dve-lumipy-preview
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [cow-api]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [pyTermUI]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [AZMusicAPI]: executing diffoscope
+[2023-07-24 11:36:50] INFO root fetch - processPackages [AZMusicAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AZMusicAPI-0.3.9-py3-none-any.whl.zip tmp/AZMusicAPI-0.9.2.tar.gz --markdown 20230724/A/AZMusicAPI/0.3.9-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 11:36:50] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.1.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.2.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [idkwhttph]: Start processing: openi-beta
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [pyTermUI]: Downloading https://files.pythonhosted.org/packages/f0/be/d53cb7e76b4a75bd177dcc74553e3405733e1bec43bf0b91382989fd9ba8/pyTermUI-1.2.1.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.1.0-py3-none-any.whl.zip]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [libzac]: Start processing: ideabox.policy
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [libzac]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [openi-beta]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [ideabox.policy]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.2.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.3.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [perceval-public-inbox]: Start processing: ansys-templates
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [perceval-public-inbox]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/f8/aa/67b71ee8477efe18de4bddc115c990e14349fd6686f7f371d0f3b33bbaee/openi-beta-2.0.1.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [ansys-templates]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-07-24 11:36:50] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.88-py3-none-any.whl.zip]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [ideabox.policy]: Downloading https://files.pythonhosted.org/packages/b6/f3/93f42c60792931a952ab628823985bedbb079b5a48ebf1432abac417ff33/ideabox.policy-3.4.8.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/eb/53/6fe7d187279beaaa03c16a933239e06a7d1af87eef8fa6058cd468a346d4/ansys_templates-1.2.0.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [pyTermUI]: Downloading https://files.pythonhosted.org/packages/c4/a7/bdd4c3a7394dc3e2bb684adde85310ce260e1286315b7e438a6abe2c2bf3/pyTermUI-1.2.2.tar.gz
+[2023-07-24 11:36:50] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [mpi-cbs.mediforms]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.7.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - processPackages [pynisher]: Remove: archive file [/home/abi/fetcher/tmp/pynisher-1.0.8.tar.gz]
+[2023-07-24 11:36:50] INFO root fetch - main [MainThread]: End processing [pynisher]: success
+[2023-07-24 11:36:50] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/61/c0/e6468cecaa04ab8a8289750feff5100cad12324bc7c924d0db84a22949e1/openi-beta-2.0.2.tar.gz
+[2023-07-24 11:36:51] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-07-24 11:36:51] INFO root fetch - processPackages [pyTermUI]: executing diffoscope
+[2023-07-24 11:36:51] INFO root fetch - processPackages [pyTermUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermUI-1.2.1.tar.gz tmp/pyTermUI-1.2.2.tar.gz --markdown 20230724/p/pyTermUI/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-24 11:36:51] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-24 11:36:51] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.1.tar.gz tmp/openi-beta-2.0.2.tar.gz --markdown 20230724/o/openi-beta/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-24 11:36:51] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-24 11:36:51] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230724/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ideabox.policy]: Downloading https://files.pythonhosted.org/packages/52/7d/cb8729cec188b0ed7ab47fd4065ab4d637f1ba8e19733a4940ede97b36b6/ideabox.policy-3.4.9.tar.gz
+[2023-07-24 11:36:51] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-0.3.9-py3-none-any.whl.zip]
+[2023-07-24 11:36:51] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-0.9.2.tar.gz]
+[2023-07-24 11:36:51] INFO root fetch - main [MainThread]: End processing [AZMusicAPI]: success
+[2023-07-24 11:36:51] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-07-24 11:36:51] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-07-24 11:36:51] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/1f/37/f1c035f0a385d836adbcd311340f65bc2d145a333e1332f1ddaa46f7567a/ansys_templates-1.2.1.tar.gz
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ideabox.policy]: executing diffoscope
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ideabox.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ideabox.policy-3.4.8.tar.gz tmp/ideabox.policy-3.4.9.tar.gz --markdown 20230724/i/ideabox.policy/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-07-24 11:36:51] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.2.0.tar.gz tmp/ansys_templates-1.2.1.tar.gz --markdown 20230724/a/ansys-templates/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:36:52] INFO root fetch - processPackages [pyTermUI]: Remove: archive file [/home/abi/fetcher/tmp/pyTermUI-1.2.1.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - processPackages [pyTermUI]: Remove: archive file [/home/abi/fetcher/tmp/pyTermUI-1.2.2.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - main [MainThread]: End processing [pyTermUI]: success
+[2023-07-24 11:36:52] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.1.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.2.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-24 11:36:52] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-24 11:36:52] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-24 11:36:52] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-24 11:36:52] INFO root fetch - processPackages [ideabox.policy]: Remove: archive file [/home/abi/fetcher/tmp/ideabox.policy-3.4.8.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - processPackages [ideabox.policy]: Remove: archive file [/home/abi/fetcher/tmp/ideabox.policy-3.4.9.tar.gz]
+[2023-07-24 11:36:52] INFO root fetch - main [MainThread]: End processing [ideabox.policy]: success
+[2023-07-24 11:36:53] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.0.tar.gz]
+[2023-07-24 11:36:53] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.1.tar.gz]
+[2023-07-24 11:36:53] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-07-24 11:36:53] INFO root fetch - main [MainThread]: Store serial: [19010665]
