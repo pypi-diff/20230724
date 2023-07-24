@@ -8435,3 +8435,120 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:47:55] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
 [2023-07-24 07:47:55] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2023-07-24 07:47:55] INFO root fetch - main [MainThread]: Store serial: [19008539]
+[2023-07-24 07:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008539]
+[2023-07-24 07:53:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-activity
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-twc
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shioaji-position-management
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumigo-opentelemetry
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lokzzpylib
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muutils
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pglive
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytorch-pfn-extras
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyft
+[2023-07-24 07:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hspf-utils
+[2023-07-24 07:53:03] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [hspf-utils]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [muutils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [heaserver-activity]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [pytorch-pfn-extras]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [pglive]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [pyft]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-24 07:53:03] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-07-24 07:53:03] WARNING root fetch - processPackages [shioaji-position-management]: Skipping, unable to determine old version
+[2023-07-24 07:53:03] INFO root fetch - processPackages [shioaji-position-management]: Start processing: pami
+[2023-07-24 07:53:03] INFO root fetch - main [MainThread]: End processing [shioaji-position-management] error
+[2023-07-24 07:53:04] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pami]: New version: [2023.7.7] Old Version: [2023.7.22.3]
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/26/f9/bfc6b3b66cd901649cf13ea23361c69321e46ed3b1fe73981863371c14ea/pyft-0.1.7.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pytorch-pfn-extras]: Downloading https://files.pythonhosted.org/packages/6b/b4/a250ef451d04408a7386002d1204ec0c761c2e7a782f5769f63c75836d4b/pytorch-pfn-extras-0.7.0.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [hspf-utils]: Downloading https://files.pythonhosted.org/packages/76/48/71fe8b9e3f5169bae5f1a626b46dc412a13082c3fccd1fef2d0e6dff5b27/hspf_utils-6.0.5.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/91/01/d4212971eaa006ce1f1bab7373d2773561d8f949a80b4c51b79931c8c117/lumigo_opentelemetry-1.0.86-py3-none-any.whl
+[2023-07-24 07:53:04] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/0d/e5/8db5ca2b11516b893253ec972df4119a1429a6b86f473f732a1eaf31b7f1/heaserver-activity-1.0.0a8.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/cf/f9/417993ddf60c77d04a8c0b56614b534351063547455e79caf1ebe0bf109d/pami-2023.7.22.3.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/d4/e3/d5960619c50f3a32d539afe41bec654f1281919ff6d342fd299832cc980d/muutils-0.5.1.tar.gz
+[2023-07-24 07:53:04] WARNING root fetch - processPackages [hspf-utils]: Skipping package: exceeds size limit 16998627>=10485760
+[2023-07-24 07:53:04] INFO root fetch - processPackages [hspf-utils]: Start processing: anarchy-bot
+[2023-07-24 07:53:04] INFO root fetch - main [MainThread]: End processing [hspf-utils] error
+[2023-07-24 07:53:04] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.8] Old Version: [23.0.7]
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pglive]: Downloading https://files.pythonhosted.org/packages/22/9a/02048e2c437c895ffadf35ed8cc45a86543223dcf07cc02b4790c60ab07b/pglive-0.6.6.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [muutils]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [muutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muutils-0.5.0.tar.gz tmp/muutils-0.5.1.tar.gz --markdown 20230724/m/muutils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-24 07:53:04] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/3c/d2/d58c4f0458927e8e83e8af63f8f6780c25eb4b1aaad87ffd787782b9f608/anarchy_bot-23.0.7.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230724/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pytorch-pfn-extras]: Downloading https://files.pythonhosted.org/packages/bb/0d/ed8a741dfe36dfef5c497778b231cb7727e9b30061bd2dba8d6d18136810/pytorch-pfn-extras-0.7.1.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pglive]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pglive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglive-0.6.5.tar.gz tmp/pglive-0.6.6.tar.gz --markdown 20230724/p/pglive/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-24 07:53:04] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/4c/3a/67c0a4c8f841993e61fe8e3a7a178d26fdf6092e5996647479b2a8459ae0/heaserver-activity-1.0.0a9.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/ce/e7/c55525cdea4a7421cd6f08f16b85d094a3f95578f8d410ae6849e20ae1aa/pyft-0.1.8.tar.gz
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pytorch-pfn-extras]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [pytorch-pfn-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-pfn-extras-0.7.0.tar.gz tmp/pytorch-pfn-extras-0.7.1.tar.gz --markdown 20230724/p/pytorch-pfn-extras/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-24 07:53:04] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.0a8.tar.gz tmp/heaserver-activity-1.0.0a9.tar.gz --markdown 20230724/h/heaserver-activity/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-24 07:53:04] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230724/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-24 07:53:05] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-07-24 07:53:05] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.22.3.tar.gz tmp/pami-2023.7.7.tar.gz --markdown 20230724/p/pami/2023.7.22.3-2023.7.7/diff.md --exclude *.pyd
+[2023-07-24 07:53:05] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/00/08/c1d70eee73270b6678301db4b5e59977aa00d8246a0ff8bf6a2defa25035/anarchy_bot-23.0.8.tar.gz
+[2023-07-24 07:53:05] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-24 07:53:05] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.7.tar.gz tmp/anarchy_bot-23.0.8.tar.gz --markdown 20230724/a/anarchy-bot/23.0.7-23.0.8/diff.md --exclude *.pyd
+[2023-07-24 07:53:05] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-24 07:53:05] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.86-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230724/l/lumigo-opentelemetry/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 07:53:05] INFO root fetch - processPackages [pglive]: Remove: archive file [/home/abi/fetcher/tmp/pglive-0.6.5.tar.gz]
+[2023-07-24 07:53:05] INFO root fetch - processPackages [pglive]: Remove: archive file [/home/abi/fetcher/tmp/pglive-0.6.6.tar.gz]
+[2023-07-24 07:53:05] INFO root fetch - processPackages [pglive]: Start processing: hep-ml-lab
+[2023-07-24 07:53:05] INFO root fetch - main [MainThread]: End processing [pglive]: success
+[2023-07-24 07:53:05] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.0.tar.gz]
+[2023-07-24 07:53:05] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.1.tar.gz]
+[2023-07-24 07:53:05] INFO root fetch - processPackages [muutils]: Start processing: claude-api
+[2023-07-24 07:53:05] INFO root fetch - main [MainThread]: End processing [muutils]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [hep-ml-lab]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [claude-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a8.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.0a9.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [hep-ml-lab]: Downloading https://files.pythonhosted.org/packages/d5/2d/2cf88ea29808ac94860f50ec15769d3269c0a2388760e3e4ab6abe294982/hep_ml_lab-0.1.0.tar.gz
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/e3/d0/3c78897a037f888af77ecfa6d86ffd61eeebe6a7006e2f35dc69f8630f03/claude-api-1.0.8.tar.gz
+[2023-07-24 07:53:06] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.7.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.8.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pyft]: executing diffoscope
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pyft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyft-0.1.7.tar.gz tmp/pyft-0.1.8.tar.gz --markdown 20230724/p/pyft/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-24 07:53:06] INFO root fetch - processPackages [hep-ml-lab]: Downloading https://files.pythonhosted.org/packages/b6/b3/b0bcf9a15254dc0e6f4f10026c5fa5c9b07b460ae8ef10e3ac1caaff754f/hep_ml_lab-0.2.0.tar.gz
+[2023-07-24 07:53:06] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [claude-api]: Downloading https://files.pythonhosted.org/packages/90/3c/c71498f040117ed30bc1f9a4d500309ead500bfd68443f41947d18fce600/claude-api-1.0.9.tar.gz
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.22.3.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [hep-ml-lab]: executing diffoscope
+[2023-07-24 07:53:06] INFO root fetch - processPackages [hep-ml-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hep_ml_lab-0.1.0.tar.gz tmp/hep_ml_lab-0.2.0.tar.gz --markdown 20230724/h/hep-ml-lab/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 07:53:06] INFO root fetch - processPackages [claude-api]: executing diffoscope
+[2023-07-24 07:53:06] INFO root fetch - processPackages [claude-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude-api-1.0.8.tar.gz tmp/claude-api-1.0.9.tar.gz --markdown 20230724/c/claude-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pytorch-pfn-extras]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pfn-extras-0.7.0.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [pytorch-pfn-extras]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-pfn-extras-0.7.1.tar.gz]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [pytorch-pfn-extras]: success
+[2023-07-24 07:53:06] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.86-py3-none-any.whl.zip]
+[2023-07-24 07:53:06] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 07:53:06] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-24 07:53:07] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.8.tar.gz]
+[2023-07-24 07:53:07] INFO root fetch - processPackages [claude-api]: Remove: archive file [/home/abi/fetcher/tmp/claude-api-1.0.9.tar.gz]
+[2023-07-24 07:53:07] INFO root fetch - main [MainThread]: End processing [claude-api]: success
+[2023-07-24 07:53:07] INFO root fetch - processPackages [hep-ml-lab]: Remove: archive file [/home/abi/fetcher/tmp/hep_ml_lab-0.1.0.tar.gz]
+[2023-07-24 07:53:07] INFO root fetch - processPackages [hep-ml-lab]: Remove: archive file [/home/abi/fetcher/tmp/hep_ml_lab-0.2.0.tar.gz]
+[2023-07-24 07:53:07] INFO root fetch - main [MainThread]: End processing [hep-ml-lab]: success
+[2023-07-24 07:53:08] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.7.tar.gz]
+[2023-07-24 07:53:08] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.8.tar.gz]
+[2023-07-24 07:53:08] INFO root fetch - main [MainThread]: End processing [pyft]: success
+[2023-07-24 07:53:08] INFO root fetch - main [MainThread]: Store serial: [19008581]
