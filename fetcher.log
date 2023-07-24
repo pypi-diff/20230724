@@ -11660,3 +11660,164 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:14:44] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.1.tar.gz]
 [2023-07-24 10:14:44] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2023-07-24 10:14:44] INFO root fetch - main [MainThread]: Store serial: [19009844]
+[2023-07-24 10:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009844]
+[2023-07-24 10:19:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngsolve
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyconnectwise
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: junoplatform
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinabs-dynapcnn
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pydantic-field
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-hdinsight
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dev-assistant-client
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: breeze-connect
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecs-composex
+[2023-07-24 10:19:53] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [django-pydantic-field]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230724081507] Old Version: [2.2.1.dev20230723050442]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [azure-mgmt-hdinsight]: New version: [9.0.0b2] Old Version: [9.0.0b1]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [pyconnectwise]: New version: [0.4] Old Version: [0.3.1]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2304.post55.dev0] Old Version: [6.2.2304.post36.dev0]
+[2023-07-24 10:19:53] INFO root fetch - processPackages [ecs-composex]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-07-24 10:19:54] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [django-pydantic-field]: Downloading https://files.pythonhosted.org/packages/fb/b2/ecfb603a7b5ef6a4b7c82cbd0cde99cb1a6769b50fe60cda64527b15175a/django-pydantic-field-0.2.7.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [azure-mgmt-hdinsight]: Downloading https://files.pythonhosted.org/packages/1b/90/451bf2d6a71e8212ceac4305b6b6a2cb49290b3f7792e3ca2addeab947ce/azure-mgmt-hdinsight-9.0.0b1.zip
+[2023-07-24 10:19:54] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/95/c0/8b11a18e4edd40d7d513777c0768d8622f460382be4d37af4f82cd00f602/ngsolve-6.2.2304.post36.dev0-cp39-cp39-win_amd64.whl
+[2023-07-24 10:19:54] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/9d/d1/fd58585c3a93e07fba85d581d35266dcd6b738234c55a154f76de90fd032/pyconnectwise-0.3.1.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [ecs-composex]: Downloading https://files.pythonhosted.org/packages/71/65/25118bd168574eb25b00b44521d69a32ebbb8ff437dcc4638e6968c6cdb5/ecs_composex-0.8.9.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ca/89/55f29aafc297ed0d42fc2c7ea7149f8413fa24b4d5ea820d79452386e976/localstack-core-2.2.1.dev20230723050442.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-24 10:19:54] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13405477>=10485760
+[2023-07-24 10:19:54] INFO root fetch - processPackages [ngsolve]: Start processing: junoplatform
+[2023-07-24 10:19:54] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-07-24 10:19:54] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-24 10:19:54] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230724/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:54] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [django-pydantic-field]: Downloading https://files.pythonhosted.org/packages/ea/ad/ea5ee8d8e644059e2533ee52912b7bc105e7d76c74bcd77a5c7116824423/django-pydantic-field-0.2.8.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/84/d2/7b40f297316e5101b3c765e52bbb22490503bbca509d45f2ad65ffe5bf5c/pyconnectwise-0.4.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [azure-mgmt-hdinsight]: Downloading https://files.pythonhosted.org/packages/ab/28/7be41361b4171bc6e76e69c3d7752ae3ab4da9f36f2a7edae434eeae0846/azure-mgmt-hdinsight-9.0.0b2.zip
+[2023-07-24 10:19:54] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [django-pydantic-field]: executing diffoscope
+[2023-07-24 10:19:54] INFO root fetch - processPackages [django-pydantic-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pydantic-field-0.2.7.tar.gz tmp/django-pydantic-field-0.2.8.tar.gz --markdown 20230724/d/django-pydantic-field/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-24 10:19:54] INFO root fetch - processPackages [pyconnectwise]: executing diffoscope
+[2023-07-24 10:19:54] INFO root fetch - processPackages [pyconnectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconnectwise-0.3.1.tar.gz tmp/pyconnectwise-0.4.tar.gz --markdown 20230724/p/pyconnectwise/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-24 10:19:54] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230724/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5f/be/e741e50957b01c7d9b50d3317d0ff021209734bb732d2095fb4ee1d86ea7/localstack-core-2.2.1.dev20230724081507.tar.gz
+[2023-07-24 10:19:55] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230724/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20230724/b/breeze-connect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [azure-mgmt-hdinsight]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [azure-mgmt-hdinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-hdinsight-9.0.0b1.zip tmp/azure-mgmt-hdinsight-9.0.0b2.zip --markdown 20230724/a/azure-mgmt-hdinsight/9.0.0b1-9.0.0b2/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [ecs-composex]: Downloading https://files.pythonhosted.org/packages/82/e2/6ac5b2b2eca42a9b9d8d90efb9d2bd1e3a36ec6a48879ad6635a60b3ec4a/ecs_composex-0.9.2.tar.gz
+[2023-07-24 10:19:55] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230724/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230723050442.tar.gz tmp/localstack-core-2.2.1.dev20230724081507.tar.gz --markdown 20230724/l/localstack-core/2.2.1.dev20230723050442-2.2.1.dev20230724081507/diff.md --exclude *.pyd
+[2023-07-24 10:19:55] INFO root fetch - processPackages [ecs-composex]: executing diffoscope
+[2023-07-24 10:19:55] INFO root fetch - processPackages [ecs-composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-0.8.9.tar.gz tmp/ecs_composex-0.9.2.tar.gz --markdown 20230724/e/ecs-composex/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 10:19:56] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [dev-assistant-client]: Start processing: qwak-core
+[2023-07-24 10:19:56] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-24 10:19:56] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-24 10:19:56] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-24 10:19:56] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-24 10:19:56] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230724/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 10:19:56] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [junoplatform]: Start processing: junoplatform
+[2023-07-24 10:19:56] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-24 10:19:56] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [django-pydantic-field]: Remove: archive file [/home/abi/fetcher/tmp/django-pydantic-field-0.2.7.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - processPackages [django-pydantic-field]: Remove: archive file [/home/abi/fetcher/tmp/django-pydantic-field-0.2.8.tar.gz]
+[2023-07-24 10:19:56] INFO root fetch - main [MainThread]: End processing [django-pydantic-field]: success
+[2023-07-24 10:19:56] INFO root fetch - processPackages [django-pydantic-field]: Start processing: invoke-plugin-for-sphinx
+[2023-07-24 10:19:57] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-24 10:19:57] INFO root fetch - processPackages [junoplatform]: Start processing: pibooth-fire-remote
+[2023-07-24 10:19:57] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-24 10:19:57] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-07-24 10:19:57] INFO root fetch - processPackages [pibooth-fire-remote]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 10:19:57] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2023-07-24 10:19:57] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2023-07-24 10:19:57] INFO root fetch - processPackages [breeze-connect]: Start processing: taichu-s3tool
+[2023-07-24 10:19:57] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2023-07-24 10:19:57] WARNING root fetch - processPackages [taichu-s3tool]: Skipping, unable to determine old version
+[2023-07-24 10:19:57] INFO root fetch - processPackages [taichu-s3tool]: Start processing: OctoBot-Trading
+[2023-07-24 10:19:57] INFO root fetch - main [MainThread]: End processing [taichu-s3tool] error
+[2023-07-24 10:19:57] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/c2/50/9c8a9ccb1a89da31a5e669181eb177637f569c962365d0ce2404452aa1ca/pibooth_fire_remote-0.1.6-py3-none-any.whl
+[2023-07-24 10:19:57] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: Downloading https://files.pythonhosted.org/packages/b3/eb/b454d224ab02d67334f4c70e4dce6cd94731c681a9d283181c7a7edc077f/invoke-plugin-for-sphinx-1.0.0.tar.gz
+[2023-07-24 10:19:57] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-24 10:19:57] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-07-24 10:19:57] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-07-24 10:19:57] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-24 10:19:57] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230724/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:57] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/97/9c/f1579b35fcec6ccbb6375521aaabcc4552b372112cba3ba93fd82890c3a6/pibooth_fire_remote-0.1.7-py3-none-any.whl
+[2023-07-24 10:19:57] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: Downloading https://files.pythonhosted.org/packages/d8/a6/78109d841aa8bf9f52b4b9828e0da35a9d845b0404b946308cdcc20b1607/invoke-plugin-for-sphinx-1.1.0.tar.gz
+[2023-07-24 10:19:57] INFO root fetch - processPackages [pibooth-fire-remote]: executing diffoscope
+[2023-07-24 10:19:57] INFO root fetch - processPackages [pibooth-fire-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibooth_fire_remote-0.1.6-py3-none-any.whl.zip tmp/pibooth_fire_remote-0.1.7-py3-none-any.whl.zip --markdown 20230724/p/pibooth-fire-remote/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 10:19:57] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: executing diffoscope
+[2023-07-24 10:19:57] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-plugin-for-sphinx-1.0.0.tar.gz tmp/invoke-plugin-for-sphinx-1.1.0.tar.gz --markdown 20230724/i/invoke-plugin-for-sphinx/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 10:19:57] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2023-07-24 10:19:58] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-07-24 10:19:58] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20230724/O/OctoBot-Trading/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-24 10:19:58] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [sinabs-dynapcnn]: Start processing: invenio-rdm-migrator
+[2023-07-24 10:19:58] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-07-24 10:19:58] INFO root fetch - processPackages [invenio-rdm-migrator]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [azure-mgmt-hdinsight]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hdinsight-9.0.0b1.zip]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [azure-mgmt-hdinsight]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hdinsight-9.0.0b2.zip]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [azure-mgmt-hdinsight]: Start processing: pulumi-opnsense
+[2023-07-24 10:19:58] INFO root fetch - main [MainThread]: End processing [azure-mgmt-hdinsight]: success
+[2023-07-24 10:19:58] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-07-24 10:19:58] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/f2/35/df1d3d1fd116accb444b432b3a6355ab02c1c2c7fc74df9355a7b4183460/invenio-rdm-migrator-1.0.0a8.tar.gz
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/61/d5/794dfa6308a3f5e7873204057057e04529441c7a17730fa54ff7b58a1d8a/pulumi-opnsense-v0.0.55.tar.gz
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/0f/25/09839ef293cda3808aea40a946c98224aeb8010b7c4bfabe253adca5fdb8/pulumi-opnsense-v0.0.56.tar.gz
+[2023-07-24 10:19:59] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-07-24 10:19:59] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-07-24 10:19:59] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-opnsense-v0.0.55.tar.gz tmp/pulumi-opnsense-v0.0.56.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.1.6-py3-none-any.whl.zip]
+[2023-07-24 10:19:59] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.1.7-py3-none-any.whl.zip]
+[2023-07-24 10:19:59] INFO root fetch - main [MainThread]: End processing [pibooth-fire-remote]: success
+[2023-07-24 10:19:59] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/invoke-plugin-for-sphinx-1.0.0.tar.gz]
+[2023-07-24 10:19:59] INFO root fetch - processPackages [invoke-plugin-for-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/invoke-plugin-for-sphinx-1.1.0.tar.gz]
+[2023-07-24 10:19:59] INFO root fetch - main [MainThread]: End processing [invoke-plugin-for-sphinx]: success
+[2023-07-24 10:19:59] INFO root fetch - processPackages [invenio-rdm-migrator]: Downloading https://files.pythonhosted.org/packages/f6/0b/8a545ab266d704938b556168a3fcddbc06ebfc9f0eb7ae8dfd46a1ee9f19/invenio-rdm-migrator-1.0.0a9.tar.gz
+[2023-07-24 10:20:00] INFO root fetch - processPackages [invenio-rdm-migrator]: executing diffoscope
+[2023-07-24 10:20:00] INFO root fetch - processPackages [invenio-rdm-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-migrator-1.0.0a8.tar.gz tmp/invenio-rdm-migrator-1.0.0a9.tar.gz --markdown 20230724/i/invenio-rdm-migrator/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-24 10:20:00] INFO root fetch - processPackages [ecs-composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-0.8.9.tar.gz]
+[2023-07-24 10:20:00] INFO root fetch - processPackages [ecs-composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-0.9.2.tar.gz]
+[2023-07-24 10:20:00] INFO root fetch - main [MainThread]: End processing [ecs-composex]: success
+[2023-07-24 10:20:01] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-v0.0.55.tar.gz]
+[2023-07-24 10:20:01] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-v0.0.56.tar.gz]
+[2023-07-24 10:20:01] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 10:20:01] INFO root fetch - processPackages [invenio-rdm-migrator]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-migrator-1.0.0a8.tar.gz]
+[2023-07-24 10:20:01] INFO root fetch - processPackages [invenio-rdm-migrator]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-migrator-1.0.0a9.tar.gz]
+[2023-07-24 10:20:01] INFO root fetch - main [MainThread]: End processing [invenio-rdm-migrator]: success
+[2023-07-24 10:20:02] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-24 10:20:02] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-24 10:20:02] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-24 10:20:03] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-07-24 10:20:03] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2023-07-24 10:20:03] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-07-24 10:20:03] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.3.1.tar.gz]
+[2023-07-24 10:20:03] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.tar.gz]
+[2023-07-24 10:20:04] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
+[2023-07-24 10:20:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230723050442.tar.gz]
+[2023-07-24 10:20:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230724081507.tar.gz]
+[2023-07-24 10:20:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-24 10:20:04] INFO root fetch - main [MainThread]: Store serial: [19009900]
