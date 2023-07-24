@@ -13687,3 +13687,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:36:53] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.1.tar.gz]
 [2023-07-24 11:36:53] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
 [2023-07-24 11:36:53] INFO root fetch - main [MainThread]: Store serial: [19010665]
+[2023-07-24 11:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010665]
+[2023-07-24 11:42:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mppm
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distcrab
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metdig
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntcli
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msal
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mwj-apitest
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panther
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kevin-toolbox
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kevin-toolbox-dev
+[2023-07-24 11:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-opnsense
+[2023-07-24 11:42:02] INFO root fetch - processPackages [panther]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [mwj-apitest]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [mppm]: New version: [3.0.1] Old Version: [2.0.1]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.64] Old Version: [0.0.57]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [msal]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [pyntcli]: New version: [0.1.50] Old Version: [0.1.48]
+[2023-07-24 11:42:02] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/20/9b/b881ccb5efbe70a8667887fcb68dc07c2e1aeeb7abd9b6f331a7f5a9fe95/kevin-toolbox-dev-1.1.4.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/3f/1e/a7152b54c99130cce3efabf04543129bf315ac99f17e06bd752ce4a72c16/pulumi-opnsense-v0.0.57.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/22/7f/e45916f90c729b991d5fb68083607ae07c06576b188b70d69c1e2344301a/panther-1.7.8.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/e2/05/8b88fa7b1f564b27df88b7fcf1d9532626b5ace88444c3bbfdb06f5e0dfd/mwj-apitest-1.1.2.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/3c/df/e1439a5164e9dc79809da92a43a4e0dea2f1d5948915aeca9db20a1fe76a/kevin-toolbox-1.1.4.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [mppm]: Downloading https://files.pythonhosted.org/packages/cd/90/e698e64ebe8db23a7d3f78536892dd1f56101ff88851c7322d23bdd8d945/mppm-2.0.1.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [msal]: Downloading https://files.pythonhosted.org/packages/60/6c/62cc536190b963a74aeb2973ee0c18a6aa202535503369153f94b90c0998/msal-1.8.0.tar.gz
+[2023-07-24 11:42:02] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-07-24 11:42:02] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/0e/7c/4386fb4399700b2c75bba69831eb96d91fb519dbc0f7ca94cbee2df7a46d/pyntcli-0.1.48-py3-none-any.whl
+[2023-07-24 11:42:03] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/12/e3/4c2dfda092792fa7f79632e28a647e4c3c4ac2e0ef8988ebee87868c2275/kevin-toolbox-dev-1.1.5.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/30/b1/d1f58deb570029ca7c997cd0e5bbc3f5f94c5fcbf3fc9bd97fa666ee89fc/mwj-apitest-1.1.3.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230724/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/ab/2f/9ccd9ae08bdb55543b07be139d4dd203dd6925d5c27b0ebcdd0e2973eac0/kevin-toolbox-1.1.5.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/26/b4/a11d5e9201570ef6c49a09335ff86fdedfb67593aafcf07712d13a04dcef/panther-1.7.9.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/7e/73/064b56c11863f9191d080290be94826c4444e92631b9f4cbf9554e55154c/pulumi_opnsense-0.0.64.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.1.2.tar.gz tmp/mwj-apitest-1.1.3.tar.gz --markdown 20230724/m/mwj-apitest/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/cf/c5/07710f6affc69e7b4a6e6d66abaabe856e61ba25ae13018bb79fefc3b5dc/pyntcli-0.1.50-py3-none-any.whl
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mppm]: Downloading https://files.pythonhosted.org/packages/09/af/5a98e8b90ef492240956c37e03d9a93cec3a339e4c0c2477334ceb63f5b5/mppm-3.0.1.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [msal]: Downloading https://files.pythonhosted.org/packages/29/7e/41c593ecf49978b3885413ef3d2d711453a6ebdc7eb28e062d910d9dd785/msal-1.9.0.tar.gz
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.4.tar.gz tmp/kevin-toolbox-dev-1.1.5.tar.gz --markdown 20230724/k/kevin-toolbox-dev/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [panther]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-1.7.8.tar.gz tmp/panther-1.7.9.tar.gz --markdown 20230724/p/panther/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-opnsense-v0.0.57.tar.gz tmp/pulumi_opnsense-0.0.64.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.57-0.0.64/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.48-py3-none-any.whl.zip tmp/pyntcli-0.1.50-py3-none-any.whl.zip --markdown 20230724/p/pyntcli/0.1.48-0.1.50/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.1.4.tar.gz tmp/kevin-toolbox-1.1.5.tar.gz --markdown 20230724/k/kevin-toolbox/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mppm]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [mppm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppm-2.0.1.tar.gz tmp/mppm-3.0.1.tar.gz --markdown 20230724/m/mppm/2.0.1-3.0.1/diff.md --exclude *.pyd
+[2023-07-24 11:42:03] INFO root fetch - processPackages [msal]: executing diffoscope
+[2023-07-24 11:42:03] INFO root fetch - processPackages [msal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msal-1.8.0.tar.gz tmp/msal-1.9.0.tar.gz --markdown 20230724/m/msal/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 11:42:04] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-24 11:42:04] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-24 11:42:04] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.2.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.3.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [mppm]: Remove: archive file [/home/abi/fetcher/tmp/mppm-2.0.1.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [mppm]: Remove: archive file [/home/abi/fetcher/tmp/mppm-3.0.1.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [mppm]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [msal]: Remove: archive file [/home/abi/fetcher/tmp/msal-1.8.0.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [msal]: Remove: archive file [/home/abi/fetcher/tmp/msal-1.9.0.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [msal]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.8.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.9.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-opnsense-v0.0.57.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.64.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.48-py3-none-any.whl.zip]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.50-py3-none-any.whl.zip]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.4.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.5.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.4.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.5.tar.gz]
+[2023-07-24 11:42:05] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-07-24 11:42:05] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-07-24 11:42:08] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-07-24 11:42:08] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230724/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-07-24 11:42:12] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip]
+[2023-07-24 11:42:12] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
+[2023-07-24 11:42:12] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-07-24 11:42:12] INFO root fetch - main [MainThread]: Store serial: [19010698]
