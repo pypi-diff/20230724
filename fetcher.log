@@ -22238,3 +22238,114 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:29:07] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0b0.tar.gz]
 [2023-07-24 16:29:07] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
 [2023-07-24 16:29:07] INFO root fetch - main [MainThread]: Store serial: [19014148]
+[2023-07-24 16:34:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014148]
+[2023-07-24 16:34:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hestia-earth-earth-engine
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: async-poe-client
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezgpx
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bhfutils
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyBIS
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemaker-pytorch-inference
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simpa
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: obis
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eArsivPortal
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sinr
+[2023-07-24 16:34:16] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [simpa]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [hestia-earth-earth-engine]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [ezgpx]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [obis]: New version: [0.4.2rc7] Old Version: [0.4.2rc6]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [bhfutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [sagemaker-pytorch-inference]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [eArsivPortal]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [PyBIS]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [sinr]: New version: [1.2.0a0] Old Version: [1.1.1]
+[2023-07-24 16:34:16] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/86/6d/220de236320261baf7783ae3f8abdd0964afd46b6715522be6f0305e4ede/async_poe_client-0.1.7.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/75/5d/bd467d062eb618aaba3a3570942c7f6605e03e8f12341882475813c6a981/bhfutils-0.0.98.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/82/2c/82b592acbdcf57c9d119bbd72bd9de32113331e9119c11bde1a4160da282/simpa-0.8.7.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [hestia-earth-earth-engine]: Downloading https://files.pythonhosted.org/packages/ea/56/3cc574568f9e93bb3e75686beef6c5700a85e6fbaf73f7eaff766bf19d4f/hestia-earth-earth-engine-0.2.1.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [ezgpx]: Downloading https://files.pythonhosted.org/packages/0f/7e/9f8ac6d5dc32233ce46ecc8e7b7039085a849177061f842746e286d68fbd/ezgpx-0.1.4.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/0b/44/fe0231003ffc36a7b01dff7dcb46629cccf554473e121900d1388e6c6260/PyBIS-1.9.7.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Downloading https://files.pythonhosted.org/packages/81/e9/24f9535fd48ac37ed743b058b01952b902b24d63b73bc364b5bedda88bbd/sagemaker_pytorch_inference-2.0.8.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/a9/35/4bd6c81cc6dd6cf03190586a4c3ec760fed57292a229b52a3605d4d4507e/obis-0.4.2rc6.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [eArsivPortal]: Downloading https://files.pythonhosted.org/packages/41/44/ada6455414dbb0480364700f23c58ff7d1de2095ae37be19b85433efb4c9/eArsivPortal-1.0.1.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [sinr]: Downloading https://files.pythonhosted.org/packages/ae/28/9a86fd0fdfe8da44e6595885ec003bb418ccb37b78843a36c6a6685dda83/sinr-1.1.1.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/cc/d8/604340d29fafea934750802da6618deb6d1a6d90fca0b5b4a80f2ada8afc/async_poe_client-0.1.8.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-24 16:34:17] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.7.tar.gz tmp/async_poe_client-0.1.8.tar.gz --markdown 20230724/a/async-poe-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-24 16:34:17] INFO root fetch - processPackages [hestia-earth-earth-engine]: Downloading https://files.pythonhosted.org/packages/e1/5a/5ff24d2b115b406bf2c87aaf2f5f5014549967752e0fe4e47f7adb9763c1/hestia-earth-earth-engine-0.2.2.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [ezgpx]: Downloading https://files.pythonhosted.org/packages/fe/11/ef323c1df399719e6f977d197a1c4ea1a5dd3e06fa58c6a875054ff2c0c0/ezgpx-0.1.5.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/7e/b5/54ec37847def6d118ee896211d1b9f8b1908178a7f77638d5fa6262d96ce/bhfutils-0.0.99.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [PyBIS]: Downloading https://files.pythonhosted.org/packages/de/6a/e2fbd779a6f64422fe1720ef3dd721543ce07d5e1ea97c26bc9ff21ac882/PyBIS-1.9.8.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [eArsivPortal]: Downloading https://files.pythonhosted.org/packages/46/73/d228b0c9d51736f7e6c8588e02781487bcf861c21932443a1cd39fcb99d8/eArsivPortal-1.0.3.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [obis]: Downloading https://files.pythonhosted.org/packages/69/8f/92fce0d04c84ced6d067d84c0092591ffed1a863ccdc5aa0b3f6bdc2afc4/obis-0.4.2rc7.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [hestia-earth-earth-engine]: executing diffoscope
+[2023-07-24 16:34:17] INFO root fetch - processPackages [hestia-earth-earth-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-earth-engine-0.2.1.tar.gz tmp/hestia-earth-earth-engine-0.2.2.tar.gz --markdown 20230724/h/hestia-earth-earth-engine/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-24 16:34:17] INFO root fetch - processPackages [simpa]: Downloading https://files.pythonhosted.org/packages/b8/55/1066db6725e52399479f5a0792e14506581ed4e798cc9fd29db36d227ab8/simpa-0.8.9.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Downloading https://files.pythonhosted.org/packages/c5/a4/3166199dcbbf8310cee5278ae9b5903d4cc706c5605cb968aafa96941976/sagemaker_pytorch_inference-2.0.9.tar.gz
+[2023-07-24 16:34:17] INFO root fetch - processPackages [ezgpx]: executing diffoscope
+[2023-07-24 16:34:17] INFO root fetch - processPackages [ezgpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezgpx-0.1.4.tar.gz tmp/ezgpx-0.1.5.tar.gz --markdown 20230724/e/ezgpx/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [eArsivPortal]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [eArsivPortal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eArsivPortal-1.0.1.tar.gz tmp/eArsivPortal-1.0.3.tar.gz --markdown 20230724/e/eArsivPortal/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [bhfutils]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [bhfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhfutils-0.0.98.tar.gz tmp/bhfutils-0.0.99.tar.gz --markdown 20230724/b/bhfutils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [PyBIS]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [PyBIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBIS-1.9.7.tar.gz tmp/PyBIS-1.9.8.tar.gz --markdown 20230724/P/PyBIS/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [obis]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [obis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obis-0.4.2rc6.tar.gz tmp/obis-0.4.2rc7.tar.gz --markdown 20230724/o/obis/0.4.2rc6-0.4.2rc7/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [sagemaker-pytorch-inference]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [sagemaker-pytorch-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker_pytorch_inference-2.0.8.tar.gz tmp/sagemaker_pytorch_inference-2.0.9.tar.gz --markdown 20230724/s/sagemaker-pytorch-inference/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [simpa]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [simpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpa-0.8.7.tar.gz tmp/simpa-0.8.9.tar.gz --markdown 20230724/s/simpa/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-24 16:34:18] INFO root fetch - processPackages [sinr]: Downloading https://files.pythonhosted.org/packages/84/e8/f3a05a91b407f2877781b9b91249d87d30c6d0db3040b30b028c904bfef4/sinr-1.2.0a0.tar.gz
+[2023-07-24 16:34:18] INFO root fetch - processPackages [sinr]: executing diffoscope
+[2023-07-24 16:34:18] INFO root fetch - processPackages [sinr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinr-1.1.1.tar.gz tmp/sinr-1.2.0a0.tar.gz --markdown 20230724/s/sinr/1.1.1-1.2.0a0/diff.md --exclude *.pyd
+[2023-07-24 16:34:19] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.7.tar.gz]
+[2023-07-24 16:34:19] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.8.tar.gz]
+[2023-07-24 16:34:19] INFO root fetch - processPackages [async-poe-client]: Start processing: ont-remora
+[2023-07-24 16:34:19] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-24 16:34:19] INFO root fetch - processPackages [ont-remora]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-24 16:34:19] INFO root fetch - processPackages [ont-remora]: Downloading https://files.pythonhosted.org/packages/22/ff/ebe7bb2ced58388524150872a2c8229fcce8d4dff2778f18e0bf999224c4/ont-remora-2.1.2.tar.gz
+[2023-07-24 16:34:20] INFO root fetch - processPackages [hestia-earth-earth-engine]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-earth-engine-0.2.1.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [hestia-earth-earth-engine]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-earth-engine-0.2.2.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [hestia-earth-earth-engine]: Start processing: netbox-powerdns-sync
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [hestia-earth-earth-engine]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [eArsivPortal]: Remove: archive file [/home/abi/fetcher/tmp/eArsivPortal-1.0.1.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [eArsivPortal]: Remove: archive file [/home/abi/fetcher/tmp/eArsivPortal-1.0.3.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [eArsivPortal]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [netbox-powerdns-sync]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_pytorch_inference-2.0.8.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [sagemaker-pytorch-inference]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_pytorch_inference-2.0.9.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [sagemaker-pytorch-inference]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [netbox-powerdns-sync]: Downloading https://files.pythonhosted.org/packages/b9/bb/af43e73bb0a6aa18e44557fcd659417cb25af5c736fadb64f9c5729c9157/netbox_powerdns_sync-0.0.1.tar.gz
+[2023-07-24 16:34:20] INFO root fetch - processPackages [ont-remora]: Downloading https://files.pythonhosted.org/packages/90/58/f8e0f9f00580340f06c0944d00419e80c98ae6e71e6180b9b0d7bb1aa292/ont-remora-2.1.3.tar.gz
+[2023-07-24 16:34:20] INFO root fetch - processPackages [ezgpx]: Remove: archive file [/home/abi/fetcher/tmp/ezgpx-0.1.4.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [ezgpx]: Remove: archive file [/home/abi/fetcher/tmp/ezgpx-0.1.5.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [ezgpx]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.7.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [PyBIS]: Remove: archive file [/home/abi/fetcher/tmp/PyBIS-1.9.8.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [PyBIS]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [sinr]: Remove: archive file [/home/abi/fetcher/tmp/sinr-1.1.1.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [sinr]: Remove: archive file [/home/abi/fetcher/tmp/sinr-1.2.0a0.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [sinr]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [ont-remora]: executing diffoscope
+[2023-07-24 16:34:20] INFO root fetch - processPackages [ont-remora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ont-remora-2.1.2.tar.gz tmp/ont-remora-2.1.3.tar.gz --markdown 20230724/o/ont-remora/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-24 16:34:20] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.98.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.99.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [bhfutils]: success
+[2023-07-24 16:34:20] INFO root fetch - processPackages [netbox-powerdns-sync]: Downloading https://files.pythonhosted.org/packages/62/11/97238bf61d2638a1da2e3b841104f63706d10c345e617fe0e86a03ac16fe/netbox_powerdns_sync-0.0.2.tar.gz
+[2023-07-24 16:34:20] INFO root fetch - processPackages [netbox-powerdns-sync]: executing diffoscope
+[2023-07-24 16:34:20] INFO root fetch - processPackages [netbox-powerdns-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_powerdns_sync-0.0.1.tar.gz tmp/netbox_powerdns_sync-0.0.2.tar.gz --markdown 20230724/n/netbox-powerdns-sync/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 16:34:20] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc6.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - processPackages [obis]: Remove: archive file [/home/abi/fetcher/tmp/obis-0.4.2rc7.tar.gz]
+[2023-07-24 16:34:20] INFO root fetch - main [MainThread]: End processing [obis]: success
+[2023-07-24 16:34:21] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.7.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - processPackages [simpa]: Remove: archive file [/home/abi/fetcher/tmp/simpa-0.8.9.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - main [MainThread]: End processing [simpa]: success
+[2023-07-24 16:34:21] INFO root fetch - processPackages [ont-remora]: Remove: archive file [/home/abi/fetcher/tmp/ont-remora-2.1.2.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - processPackages [ont-remora]: Remove: archive file [/home/abi/fetcher/tmp/ont-remora-2.1.3.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - main [MainThread]: End processing [ont-remora]: success
+[2023-07-24 16:34:21] INFO root fetch - processPackages [netbox-powerdns-sync]: Remove: archive file [/home/abi/fetcher/tmp/netbox_powerdns_sync-0.0.1.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - processPackages [netbox-powerdns-sync]: Remove: archive file [/home/abi/fetcher/tmp/netbox_powerdns_sync-0.0.2.tar.gz]
+[2023-07-24 16:34:21] INFO root fetch - main [MainThread]: End processing [netbox-powerdns-sync]: success
+[2023-07-24 16:34:21] INFO root fetch - main [MainThread]: Store serial: [19014187]
