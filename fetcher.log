@@ -9722,3 +9722,138 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:56:24] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.1.tar.gz]
 [2023-07-24 08:56:24] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-07-24 08:56:24] INFO root fetch - main [MainThread]: Store serial: [19009060]
+[2023-07-24 09:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009060]
+[2023-07-24 09:01:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-templates
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yanhui-text2speech
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struphy
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AZMusicAPI
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyft-bikes
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radstar
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kistipy
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apimatic-core
+[2023-07-24 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eztils
+[2023-07-24 09:01:33] INFO root fetch - processPackages [apimatic-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [struphy]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [lyft-bikes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [nonebot-plugin-templates]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 09:01:33] WARNING root fetch - processPackages [kistipy]: Skipping, unable to determine old version
+[2023-07-24 09:01:33] INFO root fetch - processPackages [kistipy]: Start processing: osinfopkg
+[2023-07-24 09:01:33] INFO root fetch - main [MainThread]: End processing [kistipy] error
+[2023-07-24 09:01:33] INFO root fetch - processPackages [radstar]: New version: [0.14.0] Old Version: [0.13.2]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [eztils]: New version: [0.4.72] Old Version: [0.4.71]
+[2023-07-24 09:01:33] WARNING root fetch - processPackages [AZMusicAPI]: Skipping, unable to determine old version
+[2023-07-24 09:01:33] INFO root fetch - processPackages [AZMusicAPI]: Start processing: ecr-scan-notifier
+[2023-07-24 09:01:33] INFO root fetch - main [MainThread]: End processing [AZMusicAPI] error
+[2023-07-24 09:01:33] INFO root fetch - processPackages [yanhui-text2speech]: New version: [0.2] Old Version: [0.1]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-24 09:01:33] WARNING root fetch - processPackages [osinfopkg]: Skipping, unable to determine old version
+[2023-07-24 09:01:33] INFO root fetch - processPackages [osinfopkg]: Start processing: microlearn-llm-factory
+[2023-07-24 09:01:33] INFO root fetch - main [MainThread]: End processing [osinfopkg] error
+[2023-07-24 09:01:33] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [lyft-bikes]: Downloading https://files.pythonhosted.org/packages/f2/27/70f3f793f6f128371ceed2131afe574cbd9ccfc5c3fce54cdae743a152e0/lyft_bikes-0.1.0.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/8b/9e/859235f0f99e2f16c6810a9a9ed98faddc56f8654078c7a3848254b840da/eztils-0.4.71.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [microlearn-llm-factory]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 09:01:33] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/f1/62/bc2d8b9081e6cf6b6d10497749efabd6fdfd92d37ad42984d1be88e8723a/apimatic-core-0.2.3.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/e6/c1/fbdaf7e7b918946b0d8dd0bee76053210bea0caf7a4dc62b8941d35006c0/nonebot_plugin_templates-0.1.3.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/e5/24/ff3f0ba3137d223a2ebcdf0415d0a70ad91a6728253f31576cc64c6b1575/radstar-0.13.2-py3-none-any.whl
+[2023-07-24 09:01:33] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/75/58/ca407ce4e2147af75687c013b2a7e18354cbd9a296dc17faf86703f57965/struphy-2.0.1.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [yanhui-text2speech]: Downloading https://files.pythonhosted.org/packages/09/a2/ffed9e9ab27181171cf9d5132e94e9f9fda63496416b6ce72c7fb1d4a14b/yanhui_text2speech-0.1.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/09/f1/45d148e135598be96031154ea73a24b5369c48d47b51eca215dc509ea76e/ecr-scan-notifier-0.0.7.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/9e/53/1a07c0c2044978197c0ff60ea074b3ae7c666a1eeee9e459c66ac72e1d9e/microlearn_llm_factory-0.0.3.tar.gz
+[2023-07-24 09:01:33] INFO root fetch - processPackages [lyft-bikes]: Downloading https://files.pythonhosted.org/packages/f0/91/8bf00638516e81f83aa4779ff00ec91902ec881c9a223e3165d3fbd02400/lyft_bikes-0.1.1.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/47/95/bd08cd656163f4ce6d0da232b339e639789efc51f9c5355e7a6d64e53fa4/eztils-0.4.72.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/cc/f1/4f01de955761776bd93fc9b2c97ebe72a5843564f3527fa0505ba4aec913/apimatic-core-0.2.4.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [yanhui-text2speech]: Downloading https://files.pythonhosted.org/packages/a0/38/348c08fb8365cdb944400184973b171567e369f4f89f2fbff246dfd3a2a3/yanhui_text2speech-0.2.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [lyft-bikes]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [lyft-bikes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyft_bikes-0.1.0.tar.gz tmp/lyft_bikes-0.1.1.tar.gz --markdown 20230724/l/lyft-bikes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.71.tar.gz tmp/eztils-0.4.72.tar.gz --markdown 20230724/e/eztils/0.4.71-0.4.72/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [apimatic-core]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [apimatic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-0.2.3.tar.gz tmp/apimatic-core-0.2.4.tar.gz --markdown 20230724/a/apimatic-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/ee/ba/5744b56575da56c98c77594166404ea78ef8b871a901f00cc4a377c72db5/microlearn_llm_factory-0.0.4.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.7.tar.gz tmp/ecr-scan-notifier-0.0.8.tar.gz --markdown 20230724/e/ecr-scan-notifier/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [radstar]: Downloading https://files.pythonhosted.org/packages/ce/9d/fa5d4ce5d73a451d326f13b0586ea4d845265e29e0e947bb297727eb3526/radstar-0.14.0-py3-none-any.whl
+[2023-07-24 09:01:34] INFO root fetch - processPackages [yanhui-text2speech]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [yanhui-text2speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yanhui_text2speech-0.1.tar.gz tmp/yanhui_text2speech-0.2.tar.gz --markdown 20230724/y/yanhui-text2speech/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/6f/8f/1b6f432785ee8d648463bcdd2ad13adc146cc397bde0915c5be092b88fb3/struphy-2.0.2.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [microlearn-llm-factory]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [microlearn-llm-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_llm_factory-0.0.3.tar.gz tmp/microlearn_llm_factory-0.0.4.tar.gz --markdown 20230724/m/microlearn-llm-factory/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [radstar]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [radstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radstar-0.13.2-py3-none-any.whl.zip tmp/radstar-0.14.0-py3-none-any.whl.zip --markdown 20230724/r/radstar/0.13.2-0.14.0/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [nonebot-plugin-templates]: Downloading https://files.pythonhosted.org/packages/51/a9/cf4efcd70f5092147281c92712a6defb339d179057f2af48c8d35123aaab/nonebot_plugin_templates-0.1.4.tar.gz
+[2023-07-24 09:01:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230724/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [struphy]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [struphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struphy-2.0.1.tar.gz tmp/struphy-2.0.2.tar.gz --markdown 20230724/s/struphy/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:01:34] INFO root fetch - processPackages [nonebot-plugin-templates]: executing diffoscope
+[2023-07-24 09:01:34] INFO root fetch - processPackages [nonebot-plugin-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_templates-0.1.3.tar.gz tmp/nonebot_plugin_templates-0.1.4.tar.gz --markdown 20230724/n/nonebot-plugin-templates/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 09:01:36] INFO root fetch - processPackages [lyft-bikes]: Remove: archive file [/home/abi/fetcher/tmp/lyft_bikes-0.1.0.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [lyft-bikes]: Remove: archive file [/home/abi/fetcher/tmp/lyft_bikes-0.1.1.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [lyft-bikes]: Start processing: sdk-openapi
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [lyft-bikes]: success
+[2023-07-24 09:01:36] WARNING root fetch - processPackages [sdk-openapi]: Skipping, unable to determine old version
+[2023-07-24 09:01:36] INFO root fetch - processPackages [sdk-openapi]: Start processing: checkmkpluginmaker
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [sdk-openapi] error
+[2023-07-24 09:01:36] INFO root fetch - processPackages [checkmkpluginmaker]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.71.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.72.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [eztils]: Start processing: phylox
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-24 09:01:36] INFO root fetch - processPackages [checkmkpluginmaker]: Downloading https://files.pythonhosted.org/packages/86/43/62e2e68c425ed2439782611c3e466790bce39e196d03d9c70c991afd0ce9/checkmkpluginmaker-1.0.1.tar.gz
+[2023-07-24 09:01:36] INFO root fetch - processPackages [yanhui-text2speech]: Remove: archive file [/home/abi/fetcher/tmp/yanhui_text2speech-0.1.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [yanhui-text2speech]: Remove: archive file [/home/abi/fetcher/tmp/yanhui_text2speech-0.2.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [yanhui-text2speech]: Start processing: odoo13-addon-report-csv
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [yanhui-text2speech]: success
+[2023-07-24 09:01:36] INFO root fetch - processPackages [phylox]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.7.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [ecr-scan-notifier]: Start processing: minican
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-07-24 09:01:36] INFO root fetch - processPackages [odoo13-addon-report-csv]: New version: [13.0.1.0.3.dev4] Old Version: [13.0.1.0.3.dev3]
+[2023-07-24 09:01:36] WARNING root fetch - processPackages [minican]: Skipping, unable to determine old version
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [minican] error
+[2023-07-24 09:01:36] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.3.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.4.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [microlearn-llm-factory]: success
+[2023-07-24 09:01:36] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/8f/34/9a63c44772d6add57179d91a845d55b8218226e7467397bd295547b11482/phylox-0.0.2.tar.gz
+[2023-07-24 09:01:36] INFO root fetch - processPackages [checkmkpluginmaker]: Downloading https://files.pythonhosted.org/packages/d3/eb/15267665dbe4c5e1089d95906a1e9ba8894bd91e0c77975ea17c97f617ec/checkmkpluginmaker-1.0.2.tar.gz
+[2023-07-24 09:01:36] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/69/82/9f482e3e3629c5995072dcd83ba5d652802b9f277f5be6392aece753953c/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl
+[2023-07-24 09:01:36] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-24 09:01:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-24 09:01:36] INFO root fetch - processPackages [checkmkpluginmaker]: executing diffoscope
+[2023-07-24 09:01:36] INFO root fetch - processPackages [checkmkpluginmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmkpluginmaker-1.0.1.tar.gz tmp/checkmkpluginmaker-1.0.2.tar.gz --markdown 20230724/c/checkmkpluginmaker/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:01:37] INFO root fetch - processPackages [phylox]: Downloading https://files.pythonhosted.org/packages/14/da/081037b0c5a8a4d3010e41e9fed34c41cc86c247e1422f42c3caff0e1b88/phylox-0.0.5.tar.gz
+[2023-07-24 09:01:37] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-0.2.3.tar.gz]
+[2023-07-24 09:01:37] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-0.2.4.tar.gz]
+[2023-07-24 09:01:37] INFO root fetch - main [MainThread]: End processing [apimatic-core]: success
+[2023-07-24 09:01:37] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.13.2-py3-none-any.whl.zip]
+[2023-07-24 09:01:37] INFO root fetch - processPackages [radstar]: Remove: archive file [/home/abi/fetcher/tmp/radstar-0.14.0-py3-none-any.whl.zip]
+[2023-07-24 09:01:37] INFO root fetch - main [MainThread]: End processing [radstar]: success
+[2023-07-24 09:01:37] INFO root fetch - processPackages [phylox]: executing diffoscope
+[2023-07-24 09:01:37] INFO root fetch - processPackages [phylox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylox-0.0.2.tar.gz tmp/phylox-0.0.5.tar.gz --markdown 20230724/p/phylox/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 09:01:37] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/e6/bd/383a89008d6436b6f96aeb1484b1713e978f99bfed640aab7bd8417cc4d2/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl
+[2023-07-24 09:01:37] INFO root fetch - processPackages [odoo13-addon-report-csv]: executing diffoscope
+[2023-07-24 09:01:37] INFO root fetch - processPackages [odoo13-addon-report-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl.zip tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip --markdown 20230724/o/odoo13-addon-report-csv/13.0.1.0.3.dev3-13.0.1.0.3.dev4/diff.md --exclude *.pyd
+[2023-07-24 09:01:37] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.3.tar.gz]
+[2023-07-24 09:01:37] INFO root fetch - processPackages [nonebot-plugin-templates]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_templates-0.1.4.tar.gz]
+[2023-07-24 09:01:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-templates]: success
+[2023-07-24 09:01:38] INFO root fetch - processPackages [checkmkpluginmaker]: Remove: archive file [/home/abi/fetcher/tmp/checkmkpluginmaker-1.0.1.tar.gz]
+[2023-07-24 09:01:38] INFO root fetch - processPackages [checkmkpluginmaker]: Remove: archive file [/home/abi/fetcher/tmp/checkmkpluginmaker-1.0.2.tar.gz]
+[2023-07-24 09:01:38] INFO root fetch - main [MainThread]: End processing [checkmkpluginmaker]: success
+[2023-07-24 09:01:38] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-0.0.2.tar.gz]
+[2023-07-24 09:01:38] INFO root fetch - processPackages [phylox]: Remove: archive file [/home/abi/fetcher/tmp/phylox-0.0.5.tar.gz]
+[2023-07-24 09:01:38] INFO root fetch - main [MainThread]: End processing [phylox]: success
+[2023-07-24 09:01:38] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-07-24 09:01:38] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-07-24 09:01:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-report-csv]: success
+[2023-07-24 09:01:40] INFO root fetch - processPackages [struphy]: Remove: archive file [/home/abi/fetcher/tmp/struphy-2.0.1.tar.gz]
+[2023-07-24 09:01:40] INFO root fetch - processPackages [struphy]: Remove: archive file [/home/abi/fetcher/tmp/struphy-2.0.2.tar.gz]
+[2023-07-24 09:01:40] INFO root fetch - main [MainThread]: End processing [struphy]: success
+[2023-07-24 09:01:40] INFO root fetch - main [MainThread]: Store serial: [19009121]
