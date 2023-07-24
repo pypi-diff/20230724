@@ -17944,3 +17944,68 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:28:25] INFO root fetch - processPackages [riptable]: Remove: archive file [/home/abi/fetcher/tmp/riptable-1.9.2.tar.gz]
 [2023-07-24 14:28:25] INFO root fetch - main [MainThread]: End processing [riptable]: success
 [2023-07-24 14:28:25] INFO root fetch - main [MainThread]: Store serial: [19012425]
+[2023-07-24 14:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012425]
+[2023-07-24 14:33:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Inde-Abbre
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opnsense
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BukeColabProject
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aisquared
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perceval-quandela
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-uWSGI
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphlearn-torch
+[2023-07-24 14:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wodoo
+[2023-07-24 14:33:36] WARNING root fetch - processPackages [types-uWSGI]: Skipping, unable to determine old version
+[2023-07-24 14:33:36] INFO root fetch - main [MainThread]: End processing [types-uWSGI] error
+[2023-07-24 14:33:36] INFO root fetch - processPackages [Inde-Abbre]: New version: [0.4] Old Version: [0.3]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [BukeColabProject]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [perceval-quandela]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [graphlearn-torch]: New version: [0.2.1] Old Version: [0.2.0rc2]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [aisquared]: New version: [0.3.7.dev1] Old Version: [0.3.7.dev0]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-24 14:33:36] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/aa/e4/4b4d71eed93c3488cae25f94cb5bae53c4ef3aa516f000c9d97f80bfd188/pulumi_opnsense-0.0.68.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/c7/23/41099b09fc9b07404ea5e807f6a93ceeac17eac1f7036d4e52d0af1d8c5f/BukeColabProject-0.4.2.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/84/cb/4a7bf0fe4a3810503bd030f9961e6496518d2653a2261517530904354bc5/Inde_Abbre-0.3-py3-none-any.whl
+[2023-07-24 14:33:36] INFO root fetch - processPackages [perceval-quandela]: Downloading https://files.pythonhosted.org/packages/a2/10/b80ad2a7edc069d0730006b31040436da123139f468995d80d325ce945d0/perceval-quandela-0.9.0.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [graphlearn-torch]: Downloading https://files.pythonhosted.org/packages/f1/a6/a4358071ca44d4f6a847296cf53293bd904fce2e3529ff4ee3ef193ff0f0/graphlearn_torch-0.2.0rc2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 14:33:36] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/41/30/ad24d094006bf8b9802db0b355accf65e57e38aef3ea18c5433daa5c04ea/aisquared-0.3.7.dev0.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/eb/1a/1f01149b410231c4d44dd57aeed6fceacfec1959405d9a43baf2dfce737f/pulumi_opnsense-0.0.69.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/e1/3e/ca4797309b2c0df0b38a96ffd8511aa8330b19cb9c344867e8ce8b0fc196/Inde_Abbre-0.4-py3-none-any.whl
+[2023-07-24 14:33:36] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/66/1a/695d48164b15cadf8f0e4ed1d38a02676aa32650a6a7118e040047bb7af3/BukeColabProject-0.4.3.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-24 14:33:36] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230724/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-24 14:33:36] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 14:33:36] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.68.tar.gz tmp/pulumi_opnsense-0.0.69.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-07-24 14:33:36] INFO root fetch - processPackages [BukeColabProject]: executing diffoscope
+[2023-07-24 14:33:36] INFO root fetch - processPackages [BukeColabProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BukeColabProject-0.4.2.tar.gz tmp/BukeColabProject-0.4.3.tar.gz --markdown 20230724/B/BukeColabProject/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-24 14:33:36] INFO root fetch - processPackages [Inde-Abbre]: executing diffoscope
+[2023-07-24 14:33:36] INFO root fetch - processPackages [Inde-Abbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inde_Abbre-0.3-py3-none-any.whl.zip tmp/Inde_Abbre-0.4-py3-none-any.whl.zip --markdown 20230724/I/Inde-Abbre/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-24 14:33:36] INFO root fetch - processPackages [perceval-quandela]: Downloading https://files.pythonhosted.org/packages/53/53/f5e011376c96463e0f2a8fe82ff961a0ee257ea6c85d62db1d800489bdfe/perceval-quandela-0.9.1.tar.gz
+[2023-07-24 14:33:36] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/dc/42/77b5d831fd0e1e8e60087aa258cb0afb6d42756c1bc20ec9a9a4250d133e/aisquared-0.3.7.dev1.tar.gz
+[2023-07-24 14:33:37] INFO root fetch - processPackages [perceval-quandela]: executing diffoscope
+[2023-07-24 14:33:37] INFO root fetch - processPackages [perceval-quandela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-quandela-0.9.0.tar.gz tmp/perceval-quandela-0.9.1.tar.gz --markdown 20230724/p/perceval-quandela/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 14:33:37] INFO root fetch - processPackages [aisquared]: executing diffoscope
+[2023-07-24 14:33:37] INFO root fetch - processPackages [aisquared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisquared-0.3.7.dev0.tar.gz tmp/aisquared-0.3.7.dev1.tar.gz --markdown 20230724/a/aisquared/0.3.7.dev0-0.3.7.dev1/diff.md --exclude *.pyd
+[2023-07-24 14:33:37] WARNING root fetch - processPackages [graphlearn-torch]: Skipping package: exceeds size limit 20504630>=10485760
+[2023-07-24 14:33:37] INFO root fetch - main [MainThread]: End processing [graphlearn-torch] error
+[2023-07-24 14:33:38] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.3-py3-none-any.whl.zip]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.4-py3-none-any.whl.zip]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [Inde-Abbre]: success
+[2023-07-24 14:33:38] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.68.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.69.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 14:33:38] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.2.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.3.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [BukeColabProject]: success
+[2023-07-24 14:33:38] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-24 14:33:38] INFO root fetch - processPackages [perceval-quandela]: Remove: archive file [/home/abi/fetcher/tmp/perceval-quandela-0.9.0.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [perceval-quandela]: Remove: archive file [/home/abi/fetcher/tmp/perceval-quandela-0.9.1.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [perceval-quandela]: success
+[2023-07-24 14:33:38] INFO root fetch - processPackages [aisquared]: Remove: archive file [/home/abi/fetcher/tmp/aisquared-0.3.7.dev0.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - processPackages [aisquared]: Remove: archive file [/home/abi/fetcher/tmp/aisquared-0.3.7.dev1.tar.gz]
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [aisquared]: success
+[2023-07-24 14:33:38] INFO root fetch - main [MainThread]: Store serial: [19012452]
