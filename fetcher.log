@@ -8819,3 +8819,57 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:08:45] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-24 08:08:45] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
 [2023-07-24 08:08:45] INFO root fetch - main [MainThread]: Store serial: [19008693]
+[2023-07-24 08:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008693]
+[2023-07-24 08:13:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eztils
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverseshellserver
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cytotransform
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-devkit
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readyocr
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reverseshellclient
+[2023-07-24 08:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-07-24 08:13:54] WARNING root fetch - processPackages [reverseshellserver]: Skipping, unable to determine old version
+[2023-07-24 08:13:54] INFO root fetch - main [MainThread]: End processing [reverseshellserver] error
+[2023-07-24 08:13:54] INFO root fetch - processPackages [eztils]: New version: [0.4.71] Old Version: [0.4.7]
+[2023-07-24 08:13:54] WARNING root fetch - processPackages [reverseshellclient]: Skipping, unable to determine old version
+[2023-07-24 08:13:54] INFO root fetch - main [MainThread]: End processing [reverseshellclient] error
+[2023-07-24 08:13:54] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:13:54] INFO root fetch - processPackages [cytotransform]: New version: [0.2.0] Old Version: [0.1.13]
+[2023-07-24 08:13:54] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230723] Old Version: [2.4.0.dev20230722]
+[2023-07-24 08:13:54] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/e7/a6/972dae723a396231de9fc48995e138014c8aa6a35e1d3ce14fed6d99cc8c/cytotransform-0.1.13.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7e/6d/724d688b6f20de2d6fad0dec491b7858c16814b6b75c81125cf18b122b1d/pyg_nightly-2.4.0.dev20230722.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/29/c9/1555138a434b3a460c670fd6b253a3f9c89daf8d35f5370bbe8114fd104c/eztils-0.4.7.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/74/86/092adba5581b476ebe6174882ff5c755cc1453714c12c9fc57c4b70f9d14/cytotransform-0.2.0.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/8b/9e/859235f0f99e2f16c6810a9a9ed98faddc56f8654078c7a3848254b840da/eztils-0.4.71.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-24 08:13:54] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230724/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:13:54] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-24 08:13:54] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.7.tar.gz tmp/eztils-0.4.71.tar.gz --markdown 20230724/e/eztils/0.4.7-0.4.71/diff.md --exclude *.pyd
+[2023-07-24 08:13:54] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bb/c623c6c4b4b8749d7b793dcfc0b17595c79d554fa439ce7f6bc4ffe066b3/pyg_nightly-2.4.0.dev20230723.tar.gz
+[2023-07-24 08:13:54] INFO root fetch - processPackages [cytotransform]: executing diffoscope
+[2023-07-24 08:13:54] INFO root fetch - processPackages [cytotransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytotransform-0.1.13.tar.gz tmp/cytotransform-0.2.0.tar.gz --markdown 20230724/c/cytotransform/0.1.13-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 08:13:55] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-24 08:13:55] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230724/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:13:55] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-24 08:13:55] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230722.tar.gz tmp/pyg_nightly-2.4.0.dev20230723.tar.gz --markdown 20230724/p/pyg-nightly/2.4.0.dev20230722-2.4.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-24 08:13:55] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.1.13.tar.gz]
+[2023-07-24 08:13:55] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.2.0.tar.gz]
+[2023-07-24 08:13:55] INFO root fetch - main [MainThread]: End processing [cytotransform]: success
+[2023-07-24 08:13:55] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.7.tar.gz]
+[2023-07-24 08:13:55] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.71.tar.gz]
+[2023-07-24 08:13:55] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-24 08:13:56] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-24 08:13:56] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-24 08:13:56] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-24 08:13:56] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-24 08:13:56] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-24 08:13:56] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-24 08:13:58] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230722.tar.gz]
+[2023-07-24 08:13:58] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230723.tar.gz]
+[2023-07-24 08:13:58] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-24 08:13:58] INFO root fetch - main [MainThread]: Store serial: [19008734]
