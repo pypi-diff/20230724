@@ -21466,3 +21466,128 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:12:55] INFO root fetch - processPackages [disco-generation]: Remove: archive file [/home/abi/fetcher/tmp/disco-generation-1.1.1.tar.gz]
 [2023-07-24 16:12:55] INFO root fetch - main [MainThread]: End processing [disco-generation]: success
 [2023-07-24 16:12:55] INFO root fetch - main [MainThread]: Store serial: [19013891]
+[2023-07-24 16:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013891]
+[2023-07-24 16:18:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezcord
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solutions-template
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oscar-nc
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-communities
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hgcal-state-machine
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assisted-service-client
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tclab-sdk
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wtisdk
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stuphos
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dside
+[2023-07-24 16:18:04] INFO root fetch - processPackages [ezcord]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [hgcal-state-machine]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [stuphos]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 16:18:04] WARNING root fetch - processPackages [oscar-nc]: Skipping, unable to determine old version
+[2023-07-24 16:18:04] INFO root fetch - processPackages [oscar-nc]: Start processing: invenio-banners
+[2023-07-24 16:18:04] INFO root fetch - main [MainThread]: End processing [oscar-nc] error
+[2023-07-24 16:18:04] INFO root fetch - processPackages [wtisdk]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [dside]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [tclab-sdk]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [solutions-template]: New version: [1.9.0] Old Version: [1.11.0]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [invenio-communities]: New version: [7.2.2] Old Version: [7.2.1]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-24 16:18:04] INFO root fetch - processPackages [invenio-banners]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-24 16:18:05] INFO root fetch - processPackages [hgcal-state-machine]: Downloading https://files.pythonhosted.org/packages/ae/1c/b79640a9baf7d79c71348042e842f94959c8f7db518e037eb9827049724a/hgcal_state_machine-0.3.0.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/c9/d8/956dc36aabe620d9c730ecdfeec735ed14e5f0cfaf4069e3726a4c34d8c2/invenio-communities-7.2.1.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/ac/bd/de12c53923ebc74f394d706fd5f2440515e547971e4daaf11e23bb29aa15/ezcord-0.3.2.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [stuphos]: Downloading https://files.pythonhosted.org/packages/a7/70/6ccdc8ba1147f52b1a1050cdd8a8d367cde9faddfbff4ed73f768c87deb6/stuphos-2.0.8.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-24 16:18:05] INFO root fetch - processPackages [solutions-template]: Downloading https://files.pythonhosted.org/packages/8b/d1/28d2e9f6add2f882e377a99dd8ac737362ddc677f4f4ae4e534f92bf3bc8/solutions_template-1.11.0.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/42/84/272a60057dfdc7c1e73cc755fba14aafbe508fb166557251e97a6b601a64/tclab-sdk-1.3.4.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [wtisdk]: Downloading https://files.pythonhosted.org/packages/7e/fa/42b9613a73baf3be4bc9902467a9f95d0a272cdec14866c0a6ede09ef924/wtisdk-1.5.2.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [dside]: Downloading https://files.pythonhosted.org/packages/0f/3f/088ea58b2fb4f026860e042cc392187325fa988f5da02f5ddb55904765b1/dside-2.0.1.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [invenio-banners]: Downloading https://files.pythonhosted.org/packages/33/3e/1407b0ae2ed3cbe334f9ba85cb77bb3eeaf13d62ee51b85a60d14d454247/invenio-banners-2.1.0.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [hgcal-state-machine]: Downloading https://files.pythonhosted.org/packages/9a/ff/a72cc728b6950fb2e862606a8f897925a8f0f90e061e4ed6e224be7773e4/hgcal_state_machine-0.4.0.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/81/96/9c93962e42b8b9e81926f6222e2f3398d4e90281921136ac0f7e09d3891e/invenio-communities-7.2.2.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [ezcord]: Downloading https://files.pythonhosted.org/packages/f0/03/93f4659eaba8e721ff55a69a33f12c0440a2a47afd740af6e2dc288d66fa/ezcord-0.3.3.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [wtisdk]: Downloading https://files.pythonhosted.org/packages/56/45/8e1729cff6eb025838f5652f13dfbc0fd1ea704faa22c22e85d30777375f/wtisdk-1.5.3.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/72/05/3380dbd1cabdeee17b2f3f04573d9389187e92a5c8f13285e1d263b4eea9/tclab-sdk-1.3.5.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-24 16:18:05] INFO root fetch - processPackages [dside]: Downloading https://files.pythonhosted.org/packages/4a/d6/bf6107039080cb4c619799fde07f13c853bc7cefdceca4907208d5976357/dside-2.0.2.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [invenio-banners]: Downloading https://files.pythonhosted.org/packages/05/7d/476841805d317c977f854e976a78b831954e890a6f6fd80506bf58a91433/invenio-banners-2.1.1.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [solutions-template]: Downloading https://files.pythonhosted.org/packages/3c/0d/2699abf0a01f0586b9fd193f8f2c7c0b0366bbc413517d19dd190bde5dae/solutions_template-1.9.0.tar.gz
+[2023-07-24 16:18:05] INFO root fetch - processPackages [ezcord]: executing diffoscope
+[2023-07-24 16:18:05] INFO root fetch - processPackages [ezcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcord-0.3.2.tar.gz tmp/ezcord-0.3.3.tar.gz --markdown 20230724/e/ezcord/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 16:18:05] INFO root fetch - processPackages [hgcal-state-machine]: executing diffoscope
+[2023-07-24 16:18:05] INFO root fetch - processPackages [hgcal-state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgcal_state_machine-0.3.0.tar.gz tmp/hgcal_state_machine-0.4.0.tar.gz --markdown 20230724/h/hgcal-state-machine/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [wtisdk]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [wtisdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtisdk-1.5.2.tar.gz tmp/wtisdk-1.5.3.tar.gz --markdown 20230724/w/wtisdk/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [dside]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [dside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dside-2.0.1.tar.gz tmp/dside-2.0.2.tar.gz --markdown 20230724/d/dside/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [tclab-sdk]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [tclab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclab-sdk-1.3.4.tar.gz tmp/tclab-sdk-1.3.5.tar.gz --markdown 20230724/t/tclab-sdk/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [invenio-banners]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [invenio-banners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-banners-2.1.0.tar.gz tmp/invenio-banners-2.1.1.tar.gz --markdown 20230724/i/invenio-banners/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230724/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-7.2.1.tar.gz tmp/invenio-communities-7.2.2.tar.gz --markdown 20230724/i/invenio-communities/7.2.1-7.2.2/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [stuphos]: Downloading https://files.pythonhosted.org/packages/6d/a0/cf9a3c12228837db0bd6fa934bb72a7891c2f247e89594472b47ea44527e/stuphos-2.0.9.tar.gz
+[2023-07-24 16:18:06] INFO root fetch - processPackages [solutions-template]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [solutions-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solutions_template-1.11.0.tar.gz tmp/solutions_template-1.9.0.tar.gz --markdown 20230724/s/solutions-template/1.11.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 16:18:06] INFO root fetch - processPackages [stuphos]: executing diffoscope
+[2023-07-24 16:18:06] INFO root fetch - processPackages [stuphos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stuphos-2.0.8.tar.gz tmp/stuphos-2.0.9.tar.gz --markdown 20230724/s/stuphos/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:18:07] INFO root fetch - processPackages [hgcal-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_state_machine-0.3.0.tar.gz]
+[2023-07-24 16:18:07] INFO root fetch - processPackages [hgcal-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/hgcal_state_machine-0.4.0.tar.gz]
+[2023-07-24 16:18:07] INFO root fetch - processPackages [hgcal-state-machine]: Start processing: pyconverter-xml2py
+[2023-07-24 16:18:07] INFO root fetch - main [MainThread]: End processing [hgcal-state-machine]: success
+[2023-07-24 16:18:07] WARNING root fetch - processPackages [pyconverter-xml2py]: Skipping, unable to determine old version
+[2023-07-24 16:18:07] INFO root fetch - processPackages [pyconverter-xml2py]: Start processing: netbox-powerdns-sync
+[2023-07-24 16:18:07] INFO root fetch - main [MainThread]: End processing [pyconverter-xml2py] error
+[2023-07-24 16:18:08] WARNING root fetch - processPackages [netbox-powerdns-sync]: Skipping, unable to determine old version
+[2023-07-24 16:18:08] INFO root fetch - processPackages [netbox-powerdns-sync]: Start processing: sparsezoo-nightly
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [netbox-powerdns-sync] error
+[2023-07-24 16:18:08] INFO root fetch - processPackages [ezcord]: Remove: archive file [/home/abi/fetcher/tmp/ezcord-0.3.2.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [ezcord]: Remove: archive file [/home/abi/fetcher/tmp/ezcord-0.3.3.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [ezcord]: Start processing: sparseml-nightly
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [ezcord]: success
+[2023-07-24 16:18:08] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.4.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab-sdk-1.3.5.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [tclab-sdk]: Start processing: deepsparse-nightly
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
+[2023-07-24 16:18:08] INFO root fetch - processPackages [sparsezoo-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230720]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [dside]: Remove: archive file [/home/abi/fetcher/tmp/dside-2.0.1.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [dside]: Remove: archive file [/home/abi/fetcher/tmp/dside-2.0.2.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [dside]: success
+[2023-07-24 16:18:08] INFO root fetch - processPackages [wtisdk]: Remove: archive file [/home/abi/fetcher/tmp/wtisdk-1.5.2.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [wtisdk]: Remove: archive file [/home/abi/fetcher/tmp/wtisdk-1.5.3.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230720]
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [wtisdk]: success
+[2023-07-24 16:18:08] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/de/d0/b4c3bac41e229b76cd27e82deaae7bd3e58abec87916de4fd1ce0f1ad276/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-24 16:18:08] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230720]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/62/b3/7c7c294b34ea3f24926e41c7a9fdd400dd4502ef33a99e38c21537bdd73e/sparseml_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-24 16:18:08] INFO root fetch - processPackages [invenio-banners]: Remove: archive file [/home/abi/fetcher/tmp/invenio-banners-2.1.0.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - processPackages [invenio-banners]: Remove: archive file [/home/abi/fetcher/tmp/invenio-banners-2.1.1.tar.gz]
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [invenio-banners]: success
+[2023-07-24 16:18:08] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/00/99/0b028b4e581794a26dd83ce125d985964e3fb824ac0c5872f5d1422bf178/deepsparse-nightly-1.6.0.20230720.tar.gz
+[2023-07-24 16:18:08] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/99/98/4450df3c52be4e2bd08640181c2b4eaf265eec72cfe3c02bfb1cd9af5fd8/sparsezoo_nightly-1.6.0.20230723-py3-none-any.whl
+[2023-07-24 16:18:08] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 43936692>=10485760
+[2023-07-24 16:18:08] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2023-07-24 16:18:09] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/22/13/980108ae107b61a88a9faaa0cd9dd17f3a7e6da1452216e53e7f49de2cb5/sparseml_nightly-1.6.0.20230723-py3-none-any.whl
+[2023-07-24 16:18:09] INFO root fetch - processPackages [sparsezoo-nightly]: executing diffoscope
+[2023-07-24 16:18:09] INFO root fetch - processPackages [sparsezoo-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl.zip tmp/sparsezoo_nightly-1.6.0.20230723-py3-none-any.whl.zip --markdown 20230724/s/sparsezoo-nightly/1.6.0.20230720-1.6.0.20230723/diff.md --exclude *.pyd
+[2023-07-24 16:18:09] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2023-07-24 16:18:09] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.6.0.20230720-py3-none-any.whl.zip tmp/sparseml_nightly-1.6.0.20230723-py3-none-any.whl.zip --markdown 20230724/s/sparseml-nightly/1.6.0.20230720-1.6.0.20230723/diff.md --exclude *.pyd
+[2023-07-24 16:18:09] INFO root fetch - processPackages [solutions-template]: Remove: archive file [/home/abi/fetcher/tmp/solutions_template-1.11.0.tar.gz]
+[2023-07-24 16:18:09] INFO root fetch - processPackages [solutions-template]: Remove: archive file [/home/abi/fetcher/tmp/solutions_template-1.9.0.tar.gz]
+[2023-07-24 16:18:09] INFO root fetch - main [MainThread]: End processing [solutions-template]: success
+[2023-07-24 16:18:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-24 16:18:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-24 16:18:10] INFO root fetch - processPackages [stuphos]: Remove: archive file [/home/abi/fetcher/tmp/stuphos-2.0.8.tar.gz]
+[2023-07-24 16:18:10] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-24 16:18:10] INFO root fetch - processPackages [stuphos]: Remove: archive file [/home/abi/fetcher/tmp/stuphos-2.0.9.tar.gz]
+[2023-07-24 16:18:10] INFO root fetch - main [MainThread]: End processing [stuphos]: success
+[2023-07-24 16:18:10] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-24 16:18:10] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230723-py3-none-any.whl.zip]
+[2023-07-24 16:18:10] INFO root fetch - main [MainThread]: End processing [sparsezoo-nightly]: success
+[2023-07-24 16:18:11] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.1.tar.gz]
+[2023-07-24 16:18:11] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.2.tar.gz]
+[2023-07-24 16:18:11] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-07-24 16:18:12] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-24 16:18:12] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230723-py3-none-any.whl.zip]
+[2023-07-24 16:18:12] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2023-07-24 16:18:12] INFO root fetch - main [MainThread]: Store serial: [19013952]
