@@ -20832,3 +20832,142 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:51:14] INFO root fetch - processPackages [pulp-rpm]: Remove: archive file [/home/abi/fetcher/tmp/pulp-rpm-3.9.1.tar.gz]
 [2023-07-24 15:51:14] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
 [2023-07-24 15:51:14] INFO root fetch - main [MainThread]: Store serial: [19013613]
+[2023-07-24 15:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013613]
+[2023-07-24 15:56:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-rpm-client
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slack-logger-python
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.z3cform.colorpicker
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upf-tools
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NetKet
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gqq521-hello
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mexc-api
+[2023-07-24 15:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pex
+[2023-07-24 15:56:24] INFO root fetch - processPackages [upf-tools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-24 15:56:24] INFO root fetch - processPackages [slack-logger-python]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-24 15:56:24] INFO root fetch - processPackages [collective.z3cform.colorpicker]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-07-24 15:56:24] WARNING root fetch - processPackages [mexc-api]: Skipping, unable to determine old version
+[2023-07-24 15:56:24] INFO root fetch - processPackages [mexc-api]: Start processing: tensordict-nightly
+[2023-07-24 15:56:24] INFO root fetch - main [MainThread]: End processing [mexc-api] error
+[2023-07-24 15:56:24] WARNING root fetch - processPackages [gqq521-hello]: Skipping, unable to determine old version
+[2023-07-24 15:56:24] INFO root fetch - processPackages [gqq521-hello]: Start processing: pulumi-hcloud
+[2023-07-24 15:56:24] INFO root fetch - main [MainThread]: End processing [gqq521-hello] error
+[2023-07-24 15:56:24] INFO root fetch - processPackages [NetKet]: New version: [3.9.1] Old Version: [3.9]
+[2023-07-24 15:56:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241351] Old Version: [99.0.202307241104]
+[2023-07-24 15:56:24] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pex]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/d5/00/9434b17ad43450e3f18882be6f03305a3c3baf2fc598be9aabfeb375ea37/netket-3.9.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/bc/74/287adfa37d7be93d3183305f3f1e9685ecf1f6dae715b25bef0d69553bfc/pex-2.1.98.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/6d/7d/998301addb4fe330b54ce1936bc0b46ded85360bf3a01a6e57447da25cf6/slack-logger-python-0.0.1.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [upf-tools]: Downloading https://files.pythonhosted.org/packages/94/23/f7a2857d86ed8da73ed4d70f36443c8ccf945d81b9e9f835b786ede4c000/upf_tools-0.0.1.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [collective.z3cform.colorpicker]: Downloading https://files.pythonhosted.org/packages/3d/b1/d97c16cbbc00918ebb949dfb51e5fdb2f739365424dc5a3e3fde25aee1ab/collective.z3cform.colorpicker-2.1.0.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/72/a3/5316809e90453285ef5027a3a4ffb05b274e8efaefb38482da408beab20c/pulp_rpm-client-3.9.0.dev1611548779.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e5/32/b87c0dc97fa103bcb4927736db50275c221767f06937c878bd5a539d3f1c/kcli-99.0.202307241104-py3-none-any.whl
+[2023-07-24 15:56:25] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-24 15:56:25] WARNING root fetch - processPackages [upf-tools]: Skipping package: exceeds size limit 59345521>=10485760
+[2023-07-24 15:56:25] INFO root fetch - processPackages [upf-tools]: Start processing: kfish
+[2023-07-24 15:56:25] INFO root fetch - main [MainThread]: End processing [upf-tools] error
+[2023-07-24 15:56:25] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kfish]: New version: [99.0.202307241354] Old Version: [99.0.202307241107]
+[2023-07-24 15:56:25] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/77/f0/04438c2322e5894eb42864c2fb14271481b4d8c7d262b380cb41927bbbf1/netket-3.9.1.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [collective.z3cform.colorpicker]: Downloading https://files.pythonhosted.org/packages/c9/25/23e3702235fb4fe1d3377e629467694cf18c79278fc4a8be1dae615684f1/collective.z3cform.colorpicker-3.0.0.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/6c/a2b8da5bf1375188c9c645ece90317a669e2b3a437bf560d061ee1b149e1/kfish-99.0.202307241107-py3-none-any.whl
+[2023-07-24 15:56:25] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/8b/aa/458447165f8c05e5a7e17cfd6f459d4e509b7c6bdbfecb9b50c7eb758700/slack-logger-python-0.1.1.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2e/43/acfc4fb7f305da454642c18ea7f7ddedeacb8b797921b04c5b0c5794bce2/kcli-99.0.202307241351-py3-none-any.whl
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/b6/be/f25fba38fea038de92e8763ae19522b9fb288b2f1a73da9ddb9aa5cbe5c9/pulp_rpm-client-3.9.1.tar.gz
+[2023-07-24 15:56:25] INFO root fetch - processPackages [NetKet]: executing diffoscope
+[2023-07-24 15:56:25] INFO root fetch - processPackages [NetKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netket-3.9.tar.gz tmp/netket-3.9.1.tar.gz --markdown 20230724/N/NetKet/3.9-3.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:56:25] INFO root fetch - processPackages [slack-logger-python]: executing diffoscope
+[2023-07-24 15:56:25] INFO root fetch - processPackages [slack-logger-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-logger-python-0.0.1.tar.gz tmp/slack-logger-python-0.1.1.tar.gz --markdown 20230724/s/slack-logger-python/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 15:56:25] INFO root fetch - processPackages [collective.z3cform.colorpicker]: executing diffoscope
+[2023-07-24 15:56:25] INFO root fetch - processPackages [collective.z3cform.colorpicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.z3cform.colorpicker-2.1.0.tar.gz tmp/collective.z3cform.colorpicker-3.0.0.tar.gz --markdown 20230724/c/collective.z3cform.colorpicker/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-24 15:56:25] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-07-24 15:56:25] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230724/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 15:56:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307241104-py3-none-any.whl.zip tmp/kcli-99.0.202307241351-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307241104-99.0.202307241351/diff.md --exclude *.pyd
+[2023-07-24 15:56:26] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-07-24 15:56:26] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230724/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:56:26] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-24 15:56:26] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230724/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-24 15:56:26] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/45/52362a97fde476b641be948543cd7dd48c881c24cd83f4af880e3b7bbd73/kfish-99.0.202307241354-py3-none-any.whl
+[2023-07-24 15:56:26] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-24 15:56:26] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307241107-py3-none-any.whl.zip tmp/kfish-99.0.202307241354-py3-none-any.whl.zip --markdown 20230724/k/kfish/99.0.202307241107-99.0.202307241354/diff.md --exclude *.pyd
+[2023-07-24 15:56:26] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-24 15:56:26] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/f8/76/7e17f82344dd14a5a9cf76391cdf6edeede0e409432a319db98512d11375/pex-2.1.99.tar.gz
+[2023-07-24 15:56:26] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-24 15:56:26] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230724/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-24 15:56:27] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.0.1.tar.gz]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.1.1.tar.gz]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [slack-logger-python]: Start processing: montagu-deploy
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [slack-logger-python]: success
+[2023-07-24 15:56:27] WARNING root fetch - processPackages [montagu-deploy]: Skipping, unable to determine old version
+[2023-07-24 15:56:27] INFO root fetch - processPackages [montagu-deploy]: Start processing: csstuning
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [montagu-deploy] error
+[2023-07-24 15:56:27] INFO root fetch - processPackages [csstuning]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [csstuning]: Downloading https://files.pythonhosted.org/packages/14/f4/9acb7f0f2e5eba4bf8cd7bbfc056a74b18975ac0736fafd21adf81d8f2c9/csstuning-0.0.2.tar.gz
+[2023-07-24 15:56:27] WARNING root fetch - processPackages [csstuning]: Skipping package: exceeds size limit 19953930>=10485760
+[2023-07-24 15:56:27] INFO root fetch - processPackages [csstuning]: Start processing: nonebot-plugin-arkgacha
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [csstuning] error
+[2023-07-24 15:56:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241107-py3-none-any.whl.zip]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241354-py3-none-any.whl.zip]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [kfish]: Start processing: optimus-prime-transformers
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-24 15:56:27] INFO root fetch - processPackages [collective.z3cform.colorpicker]: Remove: archive file [/home/abi/fetcher/tmp/collective.z3cform.colorpicker-2.1.0.tar.gz]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [collective.z3cform.colorpicker]: Remove: archive file [/home/abi/fetcher/tmp/collective.z3cform.colorpicker-3.0.0.tar.gz]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [collective.z3cform.colorpicker]: Start processing: django-user-tasks
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [collective.z3cform.colorpicker]: success
+[2023-07-24 15:56:27] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [pex]: executing diffoscope
+[2023-07-24 15:56:27] INFO root fetch - processPackages [pex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pex-2.1.98.tar.gz tmp/pex-2.1.99.tar.gz --markdown 20230724/p/pex/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-24 15:56:27] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 15:56:27] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 15:56:27] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-24 15:56:27] INFO root fetch - processPackages [django-user-tasks]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-24 15:56:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-07-24 15:56:28] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-07-24 15:56:28] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-07-24 15:56:28] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Downloading https://files.pythonhosted.org/packages/cb/20/07b788a2625e45a3d97cec9bddb31dbb4a46a18280ff4b8d3b5849e65be3/nonebot_plugin_arkgacha-0.3.0.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/a8/27/3c5922c01c8a4d3ba472eb046b60e8db2895796478688f317bd8a8824368/optimus-prime-transformers-1.1.5.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [django-user-tasks]: Downloading https://files.pythonhosted.org/packages/f4/aa/aa169f5ad87abdf8f2722599495e156c31ec512c50003a9fedf1e94ade91/django-user-tasks-3.0.0.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Downloading https://files.pythonhosted.org/packages/ba/51/85d9ebe58f7ba71d8d64b08ee69063e5440f1974d7aa02e926bc3e7b856c/nonebot_plugin_arkgacha-0.4.0.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: executing diffoscope
+[2023-07-24 15:56:28] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_arkgacha-0.3.0.tar.gz tmp/nonebot_plugin_arkgacha-0.4.0.tar.gz --markdown 20230724/n/nonebot-plugin-arkgacha/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 15:56:28] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/55/87/39a1a6b3004a56eaf0b08e5582741b255e434b679cb5515afc244b022cb0/optimus-prime-transformers-1.1.7.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [django-user-tasks]: Downloading https://files.pythonhosted.org/packages/29/23/7b0be401405e92c0948ecadaccfa589154eaf0a1fd0e8a1e453d9afa3ce9/django-user-tasks-3.1.0.tar.gz
+[2023-07-24 15:56:28] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-07-24 15:56:28] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.1.5.tar.gz tmp/optimus-prime-transformers-1.1.7.tar.gz --markdown 20230724/o/optimus-prime-transformers/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-07-24 15:56:28] INFO root fetch - processPackages [pulp-rpm-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz]
+[2023-07-24 15:56:28] INFO root fetch - processPackages [pulp-rpm-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_rpm-client-3.9.1.tar.gz]
+[2023-07-24 15:56:28] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-07-24 15:56:28] INFO root fetch - processPackages [django-user-tasks]: executing diffoscope
+[2023-07-24 15:56:28] INFO root fetch - processPackages [django-user-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-user-tasks-3.0.0.tar.gz tmp/django-user-tasks-3.1.0.tar.gz --markdown 20230724/d/django-user-tasks/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-24 15:56:29] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-24 15:56:29] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.1.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - main [MainThread]: End processing [NetKet]: success
+[2023-07-24 15:56:29] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_arkgacha-0.3.0.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_arkgacha-0.4.0.tar.gz]
+[2023-07-24 15:56:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arkgacha]: success
+[2023-07-24 15:56:30] INFO root fetch - processPackages [django-user-tasks]: Remove: archive file [/home/abi/fetcher/tmp/django-user-tasks-3.0.0.tar.gz]
+[2023-07-24 15:56:30] INFO root fetch - processPackages [django-user-tasks]: Remove: archive file [/home/abi/fetcher/tmp/django-user-tasks-3.1.0.tar.gz]
+[2023-07-24 15:56:30] INFO root fetch - main [MainThread]: End processing [django-user-tasks]: success
+[2023-07-24 15:56:30] INFO root fetch - processPackages [optimus-prime-transformers]: Remove: archive file [/home/abi/fetcher/tmp/optimus-prime-transformers-1.1.5.tar.gz]
+[2023-07-24 15:56:30] INFO root fetch - processPackages [optimus-prime-transformers]: Remove: archive file [/home/abi/fetcher/tmp/optimus-prime-transformers-1.1.7.tar.gz]
+[2023-07-24 15:56:30] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-07-24 15:56:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241104-py3-none-any.whl.zip]
+[2023-07-24 15:56:31] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241351-py3-none-any.whl.zip]
+[2023-07-24 15:56:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 15:56:34] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.98.tar.gz]
+[2023-07-24 15:56:34] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.99.tar.gz]
+[2023-07-24 15:56:34] INFO root fetch - main [MainThread]: End processing [pex]: success
+[2023-07-24 15:56:34] INFO root fetch - main [MainThread]: Store serial: [19013678]
