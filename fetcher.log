@@ -6326,3 +6326,78 @@
 [2023-07-24 05:10:23] INFO root fetch - processPackages [fullctl]: Remove: archive file [/home/abi/fetcher/tmp/fullctl-1.5.0.tar.gz]
 [2023-07-24 05:10:23] INFO root fetch - main [MainThread]: End processing [fullctl]: success
 [2023-07-24 05:10:23] INFO root fetch - main [MainThread]: Store serial: [19007619]
+[2023-07-24 05:15:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007619]
+[2023-07-24 05:15:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-runtime
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-embed
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-pyodide
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysymbolcheck
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-07-24 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s3tk
+[2023-07-24 05:15:32] INFO root fetch - processPackages [pysymbolcheck]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0.dev1620] Old Version: [0.9.0.dev1617]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0.dev1620] Old Version: [0.9.0.dev1617]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [s3tk]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0.dev1620] Old Version: [0.9.0.dev1617]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1620] Old Version: [0.9.0.dev1617]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230724] Old Version: [0.0.17.dev20230723]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet]: New version: [0.9.0.dev1620] Old Version: [0.9.0.dev1617]
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/36/69/efbbf5c8365207bdac7ceb3ca259be2110c55aa075df34940bb878aa350c/flet_pyodide-0.9.0.dev1617.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/20/33/b1d7b8f921de54605206761ccb2151aa4055bb7507ed521d9e074fca2a42/flet_runtime-0.9.0.dev1617.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/c6/86/403672958b94ed6a7b6da0aa4e5c1887c7dd8701c6701c47c79b73f7a96e/flet_embed-0.9.0.dev1617.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/1a/12/cb4ef46d30f0d1a9310202418a5d407c0d6d8f6b99ae5a79fecfbfaed78d/GANDLF-0.0.17.dev20230723.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/1e/ac/fd9a5767728b6aebf19b39f08333de44ebcc8bbaa36c51289cc1d94bb543/flet-0.9.0.dev1617.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/b0/bb/33fd8e3bc7fdce5bae75553dd29799e3c7d5010d27bb2432e38b7d586b5c/flet_core-0.9.0.dev1617.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [pysymbolcheck]: Downloading https://files.pythonhosted.org/packages/a7/89/393c4f800fc8bfb5f9073c021dd95f11ec47acc1c64789cb3bb364d215ba/pysymbolcheck-2.8.0.tar.gz
+[2023-07-24 05:15:32] INFO root fetch - processPackages [s3tk]: Downloading https://files.pythonhosted.org/packages/38/20/a9a38a7441f37fe0725180b9245f3dd0a48585e26dfc05f19361465d4424/s3tk-0.3.1-py2.py3-none-any.whl
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/22/c2/27e6c64f21ab451251ee6d4cf22c9222ce4797a667a0597743badcc3c8d9/flet_pyodide-0.9.0.dev1620.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/24/35/dfafcd836592d0f3ba22961a87c8c7db91920b869da1d6e2db03fe7f1998/GANDLF-0.0.17.dev20230724.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [s3tk]: Downloading https://files.pythonhosted.org/packages/3a/0d/ba05b8572603e913c648179b5aea8ac079a7faf87035d3f62d2e5b777863/s3tk-0.4.0-py2.py3-none-any.whl
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/a8/20/104642b5d72a045430e52e7af96489ed005394dab69051eeaebc577d6384/flet_runtime-0.9.0.dev1620.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/41/14/02326f091fc55f57ea30dc6e617388b0e81b9401e6bbdc0b46f2deccc9e1/flet_embed-0.9.0.dev1620.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [pysymbolcheck]: Downloading https://files.pythonhosted.org/packages/2f/5c/3dd727668f857da9c7a6bd1128927df036aee8f4d23587a8ffb8d9420ad3/pysymbolcheck-2.8.1.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.9.0.dev1617.tar.gz tmp/flet_pyodide-0.9.0.dev1620.tar.gz --markdown 20230724/f/flet-pyodide/0.9.0.dev1617-0.9.0.dev1620/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/14/98/c956bb11235bbb877a0b90e63487515d9b2c6129bc2283f352784e792fcb/flet_core-0.9.0.dev1620.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [s3tk]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [s3tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3tk-0.3.1-py2.py3-none-any.whl.zip tmp/s3tk-0.4.0-py2.py3-none-any.whl.zip --markdown 20230724/s/s3tk/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.9.0.dev1617.tar.gz tmp/flet_runtime-0.9.0.dev1620.tar.gz --markdown 20230724/f/flet-runtime/0.9.0.dev1617-0.9.0.dev1620/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [pysymbolcheck]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [pysymbolcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysymbolcheck-2.8.0.tar.gz tmp/pysymbolcheck-2.8.1.tar.gz --markdown 20230724/p/pysymbolcheck/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230723.tar.gz tmp/GANDLF-0.0.17.dev20230724.tar.gz --markdown 20230724/G/GANDLF/0.0.17.dev20230723-0.0.17.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.9.0.dev1617.tar.gz tmp/flet_embed-0.9.0.dev1620.tar.gz --markdown 20230724/f/flet-embed/0.9.0.dev1617-0.9.0.dev1620/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1617.tar.gz tmp/flet_core-0.9.0.dev1620.tar.gz --markdown 20230724/f/flet-core/0.9.0.dev1617-0.9.0.dev1620/diff.md --exclude *.pyd
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/9c/9b/494cea0f7be384c1c9e00eb42b969e48bf1411b1ccca4d358b45553eae33/flet-0.9.0.dev1620.tar.gz
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-07-24 05:15:33] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.9.0.dev1617.tar.gz tmp/flet-0.9.0.dev1620.tar.gz --markdown 20230724/f/flet/0.9.0.dev1617-0.9.0.dev1620/diff.md --exclude *.pyd
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1617.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.dev1620.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-24 05:15:34] INFO root fetch - processPackages [s3tk]: Remove: archive file [/home/abi/fetcher/tmp/s3tk-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-24 05:15:34] INFO root fetch - processPackages [s3tk]: Remove: archive file [/home/abi/fetcher/tmp/s3tk-0.4.0-py2.py3-none-any.whl.zip]
+[2023-07-24 05:15:34] INFO root fetch - main [MainThread]: End processing [s3tk]: success
+[2023-07-24 05:15:34] INFO root fetch - processPackages [pysymbolcheck]: Remove: archive file [/home/abi/fetcher/tmp/pysymbolcheck-2.8.0.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - processPackages [pysymbolcheck]: Remove: archive file [/home/abi/fetcher/tmp/pysymbolcheck-2.8.1.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - main [MainThread]: End processing [pysymbolcheck]: success
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1617.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.dev1620.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1617.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.dev1620.tar.gz]
+[2023-07-24 05:15:34] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-24 05:15:35] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230723.tar.gz]
+[2023-07-24 05:15:35] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230724.tar.gz]
+[2023-07-24 05:15:35] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-24 05:15:35] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1617.tar.gz]
+[2023-07-24 05:15:35] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1620.tar.gz]
+[2023-07-24 05:15:35] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-24 05:16:20] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1617.tar.gz]
+[2023-07-24 05:16:20] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.dev1620.tar.gz]
+[2023-07-24 05:16:20] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-07-24 05:16:20] INFO root fetch - main [MainThread]: Store serial: [19007650]
