@@ -8298,3 +8298,87 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:37:31] INFO root fetch - processPackages [colrev]: Remove: archive file [/home/abi/fetcher/tmp/colrev-0.9.2.tar.gz]
 [2023-07-24 07:37:31] INFO root fetch - main [MainThread]: End processing [colrev]: success
 [2023-07-24 07:37:31] INFO root fetch - main [MainThread]: Store serial: [19008448]
+[2023-07-24 07:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008448]
+[2023-07-24 07:42:39] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: educommon
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edu-rdm-integration
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-project-type
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-task-code
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-project
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-project-custom-information
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-project-assignment
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-project-work-log
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-task-project-manager
+[2023-07-24 07:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ssi-task-timebox
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-project-manager]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-task-project-manager]: Start processing: odoo14-addon-ssi-project-autocreate-analytic-account
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-project-manager] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-type]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-project-type]: Start processing: odoo14-addon-ssi-task-mixin
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-type] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-project]: Start processing: odoo14-addon-ssi-project-template
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-code]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-task-code]: Start processing: odoo14-addon-ssi-project-code
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-code] error
+[2023-07-24 07:42:40] INFO root fetch - processPackages [educommon]: New version: [3.0.0] Old Version: [2.20.0]
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-assignment]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-project-assignment]: Start processing: odoo14-addon-ssi-task-type
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-assignment] error
+[2023-07-24 07:42:40] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-work-log]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-project-work-log]: Start processing: odoo14-addon-ssi-batch-project-assignment
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-work-log] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Start processing: odoo14-addon-ssi-task-work-log
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-timebox] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-batch-project-assignment]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-batch-project-assignment]: Start processing: anarchy-bot
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-batch-project-assignment] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-custom-information]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - processPackages [odoo14-addon-ssi-project-custom-information]: Start processing: yamlwrap
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-custom-information] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-autocreate-analytic-account]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-autocreate-analytic-account] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-template]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-template] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-mixin]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-mixin] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-project-code]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-project-code] error
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-type]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-type] error
+[2023-07-24 07:42:40] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.6] Old Version: [23.0.5]
+[2023-07-24 07:42:40] INFO root fetch - processPackages [yamlwrap]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-24 07:42:40] WARNING root fetch - processPackages [odoo14-addon-ssi-task-work-log]: Skipping, unable to determine old version
+[2023-07-24 07:42:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-work-log] error
+[2023-07-24 07:42:40] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/45/ce/20f5742af8e7b4fa5e5434ebfe958f36f4e7283b9dec64e77490181c4c28/anarchy_bot-23.0.5.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/c0/6e/ab1b1576ae1d8ecad39a1bf4819351b018908e7a4734aae9dc175fbdd769/educommon-2.20.0.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/3b/d5/1089a2515a3d04d29c54f93cb7bc57fa23a5dfd531b30852555cc8648e3f/edu_rdm_integration-0.1.1.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [yamlwrap]: Downloading https://files.pythonhosted.org/packages/2e/93/5e190c14891f175c11aec8e646d453eaa65386811e736e6291e231d1af87/yamlwrap-2.1.0.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/ef/e9/453ea25b5d7da48ec6996340276c9b3858f6d9267e207295ccfe22d5eb1e/anarchy_bot-23.0.6.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/44/65/52e56b1fe463c5b24c78fd997e923ec74a1865a5e402f94c8d95620f5afd/edu_rdm_integration-0.1.2.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/75/96/b9c054ec469264914c9d72a3f8a4b2bd152c8bcb4d98163ce463b1ade8fb/educommon-3.0.0.tar.gz
+[2023-07-24 07:42:40] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-24 07:42:40] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.5.tar.gz tmp/anarchy_bot-23.0.6.tar.gz --markdown 20230724/a/anarchy-bot/23.0.5-23.0.6/diff.md --exclude *.pyd
+[2023-07-24 07:42:41] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-07-24 07:42:41] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu_rdm_integration-0.1.1.tar.gz tmp/edu_rdm_integration-0.1.2.tar.gz --markdown 20230724/e/edu-rdm-integration/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 07:42:41] INFO root fetch - processPackages [educommon]: executing diffoscope
+[2023-07-24 07:42:41] INFO root fetch - processPackages [educommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educommon-2.20.0.tar.gz tmp/educommon-3.0.0.tar.gz --markdown 20230724/e/educommon/2.20.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-24 07:42:41] INFO root fetch - processPackages [yamlwrap]: Downloading https://files.pythonhosted.org/packages/81/88/35d3197d6ec46aab3cbe3d86354e1c2db6353b14d00a7f6c6a26d2ec8430/yamlwrap-2.1.1.tar.gz
+[2023-07-24 07:42:41] INFO root fetch - processPackages [yamlwrap]: executing diffoscope
+[2023-07-24 07:42:41] INFO root fetch - processPackages [yamlwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlwrap-2.1.0.tar.gz tmp/yamlwrap-2.1.1.tar.gz --markdown 20230724/y/yamlwrap/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-24 07:42:42] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.5.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.6.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-24 07:42:42] INFO root fetch - processPackages [yamlwrap]: Remove: archive file [/home/abi/fetcher/tmp/yamlwrap-2.1.0.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - processPackages [yamlwrap]: Remove: archive file [/home/abi/fetcher/tmp/yamlwrap-2.1.1.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - main [MainThread]: End processing [yamlwrap]: success
+[2023-07-24 07:42:42] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.1.1.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu_rdm_integration-0.1.2.tar.gz]
+[2023-07-24 07:42:42] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-07-24 07:42:43] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-2.20.0.tar.gz]
+[2023-07-24 07:42:43] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.0.0.tar.gz]
+[2023-07-24 07:42:43] INFO root fetch - main [MainThread]: End processing [educommon]: success
+[2023-07-24 07:42:43] INFO root fetch - main [MainThread]: Store serial: [19008522]
