@@ -14018,3 +14018,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:52:42] INFO root fetch - processPackages [sb-arch-opt]: Remove: archive file [/home/abi/fetcher/tmp/sb-arch-opt-1.1.5.tar.gz]
 [2023-07-24 11:52:42] INFO root fetch - main [MainThread]: End processing [sb-arch-opt]: success
 [2023-07-24 11:52:42] INFO root fetch - main [MainThread]: Store serial: [19010813]
+[2023-07-24 11:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010813]
+[2023-07-24 11:57:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konbinine
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-bulk-ingest
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-appconfig
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vinhvh-package
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmt-cli
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crypto-screening
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sortinghat-openinfra
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_core
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grooveshop-django-api
+[2023-07-24 11:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: core-devoops
+[2023-07-24 11:57:51] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [pydantic-appconfig]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [konbinine]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 11:57:51] WARNING root fetch - processPackages [core-devoops]: Skipping, unable to determine old version
+[2023-07-24 11:57:51] INFO root fetch - processPackages [core-devoops]: Start processing: iosense-connect
+[2023-07-24 11:57:51] INFO root fetch - main [MainThread]: End processing [core-devoops] error
+[2023-07-24 11:57:51] INFO root fetch - processPackages [crypto-screening]: New version: [8.2.0] Old Version: [8.1.3]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/cf/8d/2cc05076d06ac70789b7299233071f38483386973408e42d166e32bd9a3d/vinhvh_package-0.0.6.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7c/05/702d0b999089cbba05fb2a44df6137f08b4131b5f2ad2108ee9243768254/grooveshop_django_api-0.9.1.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [pydantic-appconfig]: Downloading https://files.pythonhosted.org/packages/64/f3/d144d8fd6a7460734a23399be1bef34594bc2fab78c3bfc232af3c41f116/pydantic_appconfig-1.0.0.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [iosense-connect]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-24 11:57:51] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c9/d9/8b46f875045a48be59eb26f04ee70c07632c42adce8e6304ca2d68d0ef01/crypto-screening-8.1.3.tar.gz
+[2023-07-24 11:57:51] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-24 11:57:51] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 13886455>=10485760
+[2023-07-24 11:57:51] INFO root fetch - processPackages [grooveshop-django-api]: Start processing: passwgeneration
+[2023-07-24 11:57:51] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2023-07-24 11:57:52] INFO root fetch - processPackages [konbinine]: Downloading https://files.pythonhosted.org/packages/52/04/d61eed0b08a94b14013d989ca750da93bcc3c06d774b6e730d31d109cdd4/konbinine-0.1.2.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [passwgeneration]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-24 11:57:52] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/8a/6c/1c1e61c8d119ea0ebf70c6a41a0cd656d47d222d53e28cf7e6e99cedfdac/sortinghat_openinfra-0.1.8.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/4f/c3/1b0929510e02291a3b03c75669d12aaec9f95473b5a717a8da116108de1d/iosense_connect-4.0.4.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/e0/5c/0fd637185f6d30c43e09a4e23ca06caf8c25e969e076e5650ddb8d96736b/passwgeneration-1.1.8.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/42/cb/6991c3572afd193293e51ffa4072ee638e5318756aa8cf2d568dcc697059/vinhvh_package-0.0.7.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pydantic-appconfig]: Downloading https://files.pythonhosted.org/packages/d6/82/fcfc83f3703a1947fb478957ca1bd480d2ac0656e0e2a39c3cc7ba5ed589/pydantic_appconfig-2.0.0.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d6/6e/ab2924c1a50753e9b2a60dbadea159e824b0dac21e9ee3e66ee6ef0bd184/crypto-screening-8.2.0.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230724/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230724/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [konbinine]: Downloading https://files.pythonhosted.org/packages/a0/69/51d17f10524e743315a6182083b084f3c0f2a9c665782c5d24ffcf9dbdfd/konbinine-0.1.3.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/0c/84/0bc45c2dd1863f0663b11b86dfc7c4d64f071301cfd272bce23f9140d02e/sortinghat_openinfra-0.1.9.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.6.tar.gz tmp/vinhvh_package-0.0.7.tar.gz --markdown 20230724/v/vinhvh-package/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pydantic-appconfig]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [pydantic-appconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_appconfig-1.0.0.tar.gz tmp/pydantic_appconfig-2.0.0.tar.gz --markdown 20230724/p/pydantic-appconfig/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20230724/l/lmt-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.8.tar.gz tmp/sortinghat_openinfra-0.1.9.tar.gz --markdown 20230724/s/sortinghat-openinfra/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/53/2a/611d310c0d7aa6834d618d78f125dd0d81eda954e8cba1316c0d7109bfee/iosense_connect-4.0.5.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/09/7d/8ee176677938608f7a5e123aaa9f890be8bd3352a5f96f7a54adabaab4a3/passwgeneration-1.1.9.tar.gz
+[2023-07-24 11:57:52] INFO root fetch - processPackages [konbinine]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [konbinine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konbinine-0.1.2.tar.gz tmp/konbinine-0.1.3.tar.gz --markdown 20230724/k/konbinine/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.1.3.tar.gz tmp/crypto-screening-8.2.0.tar.gz --markdown 20230724/c/crypto-screening/8.1.3-8.2.0/diff.md --exclude *.pyd
+[2023-07-24 11:57:52] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-07-24 11:57:52] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-4.0.4.tar.gz tmp/iosense_connect-4.0.5.tar.gz --markdown 20230724/i/iosense-connect/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-24 11:57:53] INFO root fetch - processPackages [passwgeneration]: executing diffoscope
+[2023-07-24 11:57:53] INFO root fetch - processPackages [passwgeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwgeneration-1.1.8.tar.gz tmp/passwgeneration-1.1.9.tar.gz --markdown 20230724/p/passwgeneration/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-24 11:57:53] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-24 11:57:53] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-24 11:57:53] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: mppm
+[2023-07-24 11:57:53] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [mppm]: New version: [3.0.6] Old Version: [3.0.4]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [pydantic-appconfig]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_appconfig-1.0.0.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [pydantic-appconfig]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_appconfig-2.0.0.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [pydantic-appconfig]: Start processing: construct-typing
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [pydantic-appconfig]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.6.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.7.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [vinhvh-package]: Start processing: yargy
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [mppm]: Downloading https://files.pythonhosted.org/packages/3b/7d/5c18fece6d6715c8856e0f5c92fa3f2f684c84ebf427de2490157fb1a554/mppm-3.0.4.tar.gz
+[2023-07-24 11:57:54] INFO root fetch - processPackages [construct-typing]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.8.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.9.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [yargy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/42/5f/89f8e4fc17ea96ef9af66aa4818e00c4fb84c289c4c6879df411d11f15a4/construct-typing-0.5.6.tar.gz
+[2023-07-24 11:57:54] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.1.8.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.1.9.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [passwgeneration]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [konbinine]: Remove: archive file [/home/abi/fetcher/tmp/konbinine-0.1.2.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [konbinine]: Remove: archive file [/home/abi/fetcher/tmp/konbinine-0.1.3.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [konbinine]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.4.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.0.5.tar.gz]
+[2023-07-24 11:57:54] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-07-24 11:57:54] INFO root fetch - processPackages [mppm]: Downloading https://files.pythonhosted.org/packages/e3/da/ea4c566902d33798b937c5b8c76dd04e00933a2e937b2b36c435f1dfc9d8/mppm-3.0.6.tar.gz
+[2023-07-24 11:57:54] INFO root fetch - processPackages [yargy]: Downloading https://files.pythonhosted.org/packages/7f/7e/45f93161bccb7f6f846fe8ab15451aa7600095e20603005d798572ec505f/yargy-0.8.0-py2.py3-none-any.whl
+[2023-07-24 11:57:54] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/02/8d/1683cc6c1e550061eebe744544f0efdcc4d6af7fc468fbcbe2de13eefcf0/construct-typing-0.6.0.tar.gz
+[2023-07-24 11:57:54] INFO root fetch - processPackages [construct-typing]: executing diffoscope
+[2023-07-24 11:57:54] INFO root fetch - processPackages [construct-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-typing-0.5.6.tar.gz tmp/construct-typing-0.6.0.tar.gz --markdown 20230724/c/construct-typing/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 11:57:54] INFO root fetch - processPackages [mppm]: executing diffoscope
+[2023-07-24 11:57:54] INFO root fetch - processPackages [mppm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppm-3.0.4.tar.gz tmp/mppm-3.0.6.tar.gz --markdown 20230724/m/mppm/3.0.4-3.0.6/diff.md --exclude *.pyd
+[2023-07-24 11:57:54] INFO root fetch - processPackages [yargy]: Downloading https://files.pythonhosted.org/packages/1c/86/20427ab25349a82b41d3516cf6f050f4a2082198f7f24626391d9d9c2774/yargy-0.9.0-py2.py3-none-any.whl
+[2023-07-24 11:57:54] INFO root fetch - processPackages [yargy]: executing diffoscope
+[2023-07-24 11:57:54] INFO root fetch - processPackages [yargy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yargy-0.8.0-py2.py3-none-any.whl.zip tmp/yargy-0.9.0-py2.py3-none-any.whl.zip --markdown 20230724/y/yargy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 11:57:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.1.3.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.2.0.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-24 11:57:55] INFO root fetch - processPackages [mppm]: Remove: archive file [/home/abi/fetcher/tmp/mppm-3.0.4.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - processPackages [mppm]: Remove: archive file [/home/abi/fetcher/tmp/mppm-3.0.6.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - main [MainThread]: End processing [mppm]: success
+[2023-07-24 11:57:55] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.5.6.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.6.0.tar.gz]
+[2023-07-24 11:57:55] INFO root fetch - main [MainThread]: End processing [construct-typing]: success
+[2023-07-24 11:57:55] INFO root fetch - processPackages [yargy]: Remove: archive file [/home/abi/fetcher/tmp/yargy-0.8.0-py2.py3-none-any.whl.zip]
+[2023-07-24 11:57:55] INFO root fetch - processPackages [yargy]: Remove: archive file [/home/abi/fetcher/tmp/yargy-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-24 11:57:55] INFO root fetch - main [MainThread]: End processing [yargy]: success
+[2023-07-24 11:57:55] INFO root fetch - main [MainThread]: Store serial: [19010863]
