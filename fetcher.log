@@ -17283,3 +17283,159 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:07:18] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.0.tar.gz]
 [2023-07-24 14:07:18] INFO root fetch - main [MainThread]: End processing [neosctl]: success
 [2023-07-24 14:07:18] INFO root fetch - main [MainThread]: Store serial: [19012186]
+[2023-07-24 14:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012186]
+[2023-07-24 14:12:28] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: causica
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvisonicalarm
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vzg.jconv
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orquestra-sdk
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lexikanon
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fajrGPT
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fakesnow
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atbu-common-pkg
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resoto-plugin-scarf
+[2023-07-24 14:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uu2nano
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fajrGPT]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [atbu-common-pkg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [lexikanon]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fakesnow]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [resoto-plugin-scarf]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.53.0] Old Version: [0.52.0]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [causica]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [uu2nano]: New version: [1.0] Old Version: [0.2.1]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [vzg.jconv]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [pyvisonicalarm]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/9e/65/2ab5387871abeebdfae92e89ae6ff191ab824f60b13fa056877276420925/fajrGPT-1.4.3.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/3d/d5/ae2d0bb79ed3dec7af84483268751cb72c2e89a63a68dd89cb99f26fcfd6/lexikanon-0.2.0.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/73/8c/7adf53503678d761328bb0f2475fcd421e1d9819db0b063707d74337984b/fakesnow-0.5.0.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [uu2nano]: Downloading https://files.pythonhosted.org/packages/95/14/4f28bd8d54e307c8ab3b108eae8a555c4269be56ff5555884896ceb749fa/uu2nano-0.2.1-py3-none-any.whl
+[2023-07-24 14:12:29] INFO root fetch - processPackages [atbu-common-pkg]: Downloading https://files.pythonhosted.org/packages/62/dc/51c3dd4d0360be767a9efbd72a78bab0e20da767644a442933774a5ee0dc/atbu-common-pkg-0.0.6.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/91/45/1ef16ad4972ddf417419dd7f2928b2c361ee6d09142c7d0cb1a21bdecdba/orquestra_sdk-0.52.0-py3-none-any.whl
+[2023-07-24 14:12:29] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/d7/41/b220230e801241f4fc898195f2d00e21f96cbad6fa7fc977b797054cb775/causica-0.3.3.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/8e/6a/7872cd17cb7941239755ec1d547d4361805455d2fc7d1f6fea5ecf245134/vzg.jconv-1.2.0.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [resoto-plugin-scarf]: Downloading https://files.pythonhosted.org/packages/bd/12/e629a554c93a8963ea40cff56f1c268a03f298a01c6ac1183e3b1b87e9ba/resoto-plugin-scarf-3.6.2.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [pyvisonicalarm]: Downloading https://files.pythonhosted.org/packages/e5/12/242675cbd9231ebbb6e20a85c1762cae0413516d1ad84f106f0195325536/pyvisonicalarm-0.1.0b4.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/04/6d/14efa94b2dc7133b63a9faf006cf3cdc99a746d5e9c18c65ce44c5279729/fajrGPT-1.4.4.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/d6/9e/30bec851424f2db715a634de0196716a166e8b467bb35cfee49d82f792d8/fakesnow-0.5.1.tar.gz
+[2023-07-24 14:12:29] INFO root fetch - processPackages [uu2nano]: Downloading https://files.pythonhosted.org/packages/f7/d4/2f41a75426514143a99c7b55cbda75ddd75c2e790e127e558b0d205aaa7d/uu2nano-1.0-py3-none-any.whl
+[2023-07-24 14:12:30] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/59/81/bc712e55067d2742c92909a9d82fb89755dbef3c541825fd7bb30817a4de/lexikanon-0.2.1.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [atbu-common-pkg]: Downloading https://files.pythonhosted.org/packages/b8/dc/e105c6c392a0e317bfec27147f629563ed9ecdc244a14cfd87b33851a2ca/atbu-common-pkg-0.0.7.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/9e/c7/c8e359b8cd56eb4c7fa65a2655b6fba8dd47b261c7037972eb61ff47c9c4/causica-0.3.4.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [resoto-plugin-scarf]: Downloading https://files.pythonhosted.org/packages/69/a2/7eb111dcb7abfc991caa3c914077dcd608e0b24bcd91e3fb320da825da70/resoto-plugin-scarf-3.6.3.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [pyvisonicalarm]: Downloading https://files.pythonhosted.org/packages/05/af/ed6ce013f5973e235481102f3fcc3e75596658d04da5ce6567959fc9519b/pyvisonicalarm-0.1.0b5.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/7d/11/40b81dc0e22fb4d67642376eeec07d5cb5fb36c93d7976a2017fb7ec8013/vzg.jconv-1.2.1.tar.gz
+[2023-07-24 14:12:30] INFO root fetch - processPackages [uu2nano]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [uu2nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uu2nano-0.2.1-py3-none-any.whl.zip tmp/uu2nano-1.0-py3-none-any.whl.zip --markdown 20230724/u/uu2nano/0.2.1-1.0/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/09/88/6c965547502fa562a809bb669dce40ea601cb9813ee0a2fa998f1bf170e9/orquestra_sdk-0.53.0-py3-none-any.whl
+[2023-07-24 14:12:30] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.4.3.tar.gz tmp/fajrGPT-1.4.4.tar.gz --markdown 20230724/f/fajrGPT/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.5.0.tar.gz tmp/fakesnow-0.5.1.tar.gz --markdown 20230724/f/fakesnow/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [atbu-common-pkg]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [atbu-common-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-common-pkg-0.0.6.tar.gz tmp/atbu-common-pkg-0.0.7.tar.gz --markdown 20230724/a/atbu-common-pkg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [resoto-plugin-scarf]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [resoto-plugin-scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-scarf-3.6.2.tar.gz tmp/resoto-plugin-scarf-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-scarf/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [pyvisonicalarm]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [pyvisonicalarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisonicalarm-0.1.0b4.tar.gz tmp/pyvisonicalarm-0.1.0b5.tar.gz --markdown 20230724/p/pyvisonicalarm/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [causica]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [causica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causica-0.3.3.tar.gz tmp/causica-0.3.4.tar.gz --markdown 20230724/c/causica/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [vzg.jconv]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [vzg.jconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vzg.jconv-1.2.0.tar.gz tmp/vzg.jconv-1.2.1.tar.gz --markdown 20230724/v/vzg.jconv/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.2.0.tar.gz tmp/lexikanon-0.2.1.tar.gz --markdown 20230724/l/lexikanon/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 14:12:30] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2023-07-24 14:12:30] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.52.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.53.0-py3-none-any.whl.zip --markdown 20230724/o/orquestra-sdk/0.52.0-0.53.0/diff.md --exclude *.pyd
+[2023-07-24 14:12:31] INFO root fetch - processPackages [uu2nano]: Remove: archive file [/home/abi/fetcher/tmp/uu2nano-0.2.1-py3-none-any.whl.zip]
+[2023-07-24 14:12:31] INFO root fetch - processPackages [uu2nano]: Remove: archive file [/home/abi/fetcher/tmp/uu2nano-1.0-py3-none-any.whl.zip]
+[2023-07-24 14:12:31] INFO root fetch - processPackages [uu2nano]: Start processing: collie-lm
+[2023-07-24 14:12:31] INFO root fetch - main [MainThread]: End processing [uu2nano]: success
+[2023-07-24 14:12:31] INFO root fetch - processPackages [collie-lm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.3.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.4.4.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fajrGPT]: Start processing: resoto-plugin-cleanup-volumes
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [collie-lm]: Downloading https://files.pythonhosted.org/packages/60/b0/7745b4ce419804bab5399f46457fb78fd7c4e40bf372deba9450e4dd5454/collie-lm-1.0.2.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.5.0.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.5.1.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [fakesnow]: Start processing: resoto-plugin-cleanup-aws-alarms
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-scarf]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-scarf-3.6.2.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-scarf]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-scarf-3.6.3.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-scarf]: Start processing: resotoworker
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [resoto-plugin-scarf]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resotoworker]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [atbu-common-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-common-pkg-0.0.6.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [atbu-common-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-common-pkg-0.0.7.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [atbu-common-pkg]: Start processing: resoto-plugin-onelogin
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [atbu-common-pkg]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Downloading https://files.pythonhosted.org/packages/42/e7/97a654102b8d9f9a958135a9bebdb510911cab66b01ba538c2204441fc8b/resoto-plugin-cleanup-volumes-3.6.2.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.0.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.1.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [vzg.jconv]: Start processing: aksharify
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [vzg.jconv]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [pyvisonicalarm]: Remove: archive file [/home/abi/fetcher/tmp/pyvisonicalarm-0.1.0b4.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [pyvisonicalarm]: Remove: archive file [/home/abi/fetcher/tmp/pyvisonicalarm-0.1.0b5.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [pyvisonicalarm]: Start processing: atbu-pkg
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [pyvisonicalarm]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-onelogin]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [aksharify]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.2.0.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.2.1.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Downloading https://files.pythonhosted.org/packages/5f/3b/3e6434e6fb0aa86fe61a00dd4f182e6d6b7e43c1b6b91a74138c539d05d4/resoto-plugin-cleanup-aws-alarms-3.6.2.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [collie-lm]: Downloading https://files.pythonhosted.org/packages/80/94/071d2f0e530fb135fd39ffae5db0fe36aa524e4d9eeb2d396afc57bdc11e/collie-lm-1.0.3.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resotoworker]: Downloading https://files.pythonhosted.org/packages/af/9c/bda0da405e1c6a5a6f84fccbb1ab33dbb193c465d6b6d7b985ac28be5730/resotoworker-3.6.2.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [causica]: Remove: archive file [/home/abi/fetcher/tmp/causica-0.3.3.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - processPackages [causica]: Remove: archive file [/home/abi/fetcher/tmp/causica-0.3.4.tar.gz]
+[2023-07-24 14:12:32] INFO root fetch - main [MainThread]: End processing [causica]: success
+[2023-07-24 14:12:32] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/32/c3/f17498797a8cb66a4db9dd6199d944cc06fae4556d31b31909851bed29ae/aksharify-0.1.4.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/48/30/795de1996a7ce451effccbaba1740abfba4c6badaa4d3d1dcfe78a09cafa/resoto-plugin-onelogin-3.6.2.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [collie-lm]: executing diffoscope
+[2023-07-24 14:12:32] INFO root fetch - processPackages [collie-lm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collie-lm-1.0.2.tar.gz tmp/collie-lm-1.0.3.tar.gz --markdown 20230724/c/collie-lm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Downloading https://files.pythonhosted.org/packages/21/e8/41fb8349f1504d458e3043bb9efd41bd982a37e332d8f692e22bbfba3d57/resoto-plugin-cleanup-volumes-3.6.3.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Downloading https://files.pythonhosted.org/packages/eb/1f/dd3eb8cfe71fc04b2b3aa6820527abf8174150fbbc121fada2df449be7af/resoto-plugin-cleanup-aws-alarms-3.6.3.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: executing diffoscope
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-volumes-3.6.2.tar.gz tmp/resoto-plugin-cleanup-volumes-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-volumes/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:32] INFO root fetch - processPackages [resotoworker]: Downloading https://files.pythonhosted.org/packages/86/9c/fcca95278641b0d47085f0b485be659e5a38e67273162c7c53d5871a4a39/resotoworker-3.6.3.tar.gz
+[2023-07-24 14:12:32] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/d5/a2/757bfe2cd65f97af10b64b03b7e5360e7d081bdda99cfa923c06caada8ee/aksharify-0.1.5.tar.gz
+[2023-07-24 14:12:33] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-07-24 14:12:33] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.52.0-py3-none-any.whl.zip]
+[2023-07-24 14:12:33] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.53.0-py3-none-any.whl.zip]
+[2023-07-24 14:12:33] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: executing diffoscope
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-aws-alarms-3.6.2.tar.gz tmp/resoto-plugin-cleanup-aws-alarms-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-aws-alarms/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:33] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-07-24 14:12:33] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-0.1.4.tar.gz tmp/aksharify-0.1.5.tar.gz --markdown 20230724/a/aksharify/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resotoworker]: executing diffoscope
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resotoworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoworker-3.6.2.tar.gz tmp/resotoworker-3.6.3.tar.gz --markdown 20230724/r/resotoworker/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resoto-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/cf/e4/3c8a8e8f951f378021f07cd1d228bb0274c273e70b74e65240aa110d590b/resoto-plugin-onelogin-3.6.3.tar.gz
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resoto-plugin-onelogin]: executing diffoscope
+[2023-07-24 14:12:33] INFO root fetch - processPackages [resoto-plugin-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-onelogin-3.6.2.tar.gz tmp/resoto-plugin-onelogin-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-onelogin/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:12:33] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-07-24 14:12:33] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-07-24 14:12:33] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230724/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-volumes-3.6.2.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-volumes-3.6.3.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-volumes]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-alarms-3.6.2.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-alarms-3.6.3.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-alarms]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.4.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.5.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [collie-lm]: Remove: archive file [/home/abi/fetcher/tmp/collie-lm-1.0.2.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [collie-lm]: Remove: archive file [/home/abi/fetcher/tmp/collie-lm-1.0.3.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [collie-lm]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resotoworker]: Remove: archive file [/home/abi/fetcher/tmp/resotoworker-3.6.2.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resotoworker]: Remove: archive file [/home/abi/fetcher/tmp/resotoworker-3.6.3.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [resotoworker]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-onelogin-3.6.2.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [resoto-plugin-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-onelogin-3.6.3.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [resoto-plugin-onelogin]: success
+[2023-07-24 14:12:34] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-07-24 14:12:34] INFO root fetch - main [MainThread]: Store serial: [19012237]
