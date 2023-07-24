@@ -9060,3 +9060,45 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:24:28] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
 [2023-07-24 08:24:28] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
 [2023-07-24 08:24:28] INFO root fetch - main [MainThread]: Store serial: [19008803]
+[2023-07-24 08:29:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008803]
+[2023-07-24 08:29:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ncbi-genome-download
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osinfopkg
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-vocabularies
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SummarizedExperiment
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cytotransform
+[2023-07-24 08:29:37] WARNING root fetch - processPackages [osinfopkg]: Skipping, unable to determine old version
+[2023-07-24 08:29:37] INFO root fetch - main [MainThread]: End processing [osinfopkg] error
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ncbi-genome-download]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 08:29:37] INFO root fetch - processPackages [SummarizedExperiment]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 08:29:37] INFO root fetch - processPackages [cytotransform]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-07-24 08:29:37] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-24 08:29:37] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/a4/45/cd7ec2990324886dec57d59b931bb959da2465059d544b06ac1a2f45a44c/SummarizedExperiment-0.2.8.tar.gz
+[2023-07-24 08:29:37] INFO root fetch - processPackages [ncbi-genome-download]: Downloading https://files.pythonhosted.org/packages/f9/37/a9aaba110fb3b925b79773ad0b7420eea8a8f7252e8c62bd53ed12ff4d24/ncbi-genome-download-0.3.1.tar.gz
+[2023-07-24 08:29:37] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/ba/44/33f82704afc7518ba183ef90952890a08f33f6312c62403b931c3eff3734/cytotransform-0.1.12.tar.gz
+[2023-07-24 08:29:37] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-07-24 08:29:38] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/f9/8f/775435fe16978ae4f67af1b5bfe705ccb02b0735bee422e68b8012fb4306/SummarizedExperiment-0.2.9.tar.gz
+[2023-07-24 08:29:38] INFO root fetch - processPackages [SummarizedExperiment]: executing diffoscope
+[2023-07-24 08:29:38] INFO root fetch - processPackages [SummarizedExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SummarizedExperiment-0.2.8.tar.gz tmp/SummarizedExperiment-0.2.9.tar.gz --markdown 20230724/S/SummarizedExperiment/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 08:29:38] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/e7/a6/972dae723a396231de9fc48995e138014c8aa6a35e1d3ce14fed6d99cc8c/cytotransform-0.1.13.tar.gz
+[2023-07-24 08:29:38] INFO root fetch - processPackages [ncbi-genome-download]: Downloading https://files.pythonhosted.org/packages/f8/41/56cc8f997de26320e43fe65e11e4010291f92dc46525e7ee9a7d974fb2a7/ncbi-genome-download-0.3.2.tar.gz
+[2023-07-24 08:29:38] INFO root fetch - processPackages [cytotransform]: executing diffoscope
+[2023-07-24 08:29:38] INFO root fetch - processPackages [cytotransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytotransform-0.1.12.tar.gz tmp/cytotransform-0.1.13.tar.gz --markdown 20230724/c/cytotransform/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-07-24 08:29:38] INFO root fetch - processPackages [ncbi-genome-download]: executing diffoscope
+[2023-07-24 08:29:38] INFO root fetch - processPackages [ncbi-genome-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-genome-download-0.3.1.tar.gz tmp/ncbi-genome-download-0.3.2.tar.gz --markdown 20230724/n/ncbi-genome-download/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 08:29:38] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-07-24 08:29:38] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-07-24 08:29:38] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230724/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-24 08:29:39] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.1.12.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.1.13.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - main [MainThread]: End processing [cytotransform]: success
+[2023-07-24 08:29:39] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.8.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.9.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - main [MainThread]: End processing [SummarizedExperiment]: success
+[2023-07-24 08:29:39] INFO root fetch - processPackages [ncbi-genome-download]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-genome-download-0.3.1.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - processPackages [ncbi-genome-download]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-genome-download-0.3.2.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - main [MainThread]: End processing [ncbi-genome-download]: success
+[2023-07-24 08:29:39] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-07-24 08:29:39] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-07-24 08:29:39] INFO root fetch - main [MainThread]: Store serial: [19008819]
