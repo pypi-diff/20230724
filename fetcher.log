@@ -6542,3 +6542,51 @@
 [2023-07-24 05:26:45] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz]
 [2023-07-24 05:26:45] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
 [2023-07-24 05:26:45] INFO root fetch - main [MainThread]: Store serial: [19007693]
+[2023-07-24 05:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007693]
+[2023-07-24 05:31:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymov2gif
+[2023-07-24 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byquant
+[2023-07-24 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gearsllm
+[2023-07-24 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: froog
+[2023-07-24 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thrift2pyi
+[2023-07-24 05:31:54] INFO root fetch - processPackages [froog]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 05:31:54] INFO root fetch - processPackages [gearsllm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 05:31:54] INFO root fetch - processPackages [byquant]: New version: [1.7.23] Old Version: [1.6.29]
+[2023-07-24 05:31:54] INFO root fetch - processPackages [pymov2gif]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 05:31:54] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/c1/f2/94590b6776365ebec7afb4806dd33068eebbbfdf17a6f964a15e71be3fa2/froog-0.1.5.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [thrift2pyi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-24 05:31:54] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/38/fe/ed9b089002dab88286f37ed44154b957a824d26ac42f4792dab2830be224/gearsllm-0.1.5.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [pymov2gif]: Downloading https://files.pythonhosted.org/packages/d5/0b/47f72bc5222463443d93bf00eecf58140ac5be4da68a46c1fbc8a029825e/pymov2gif-0.0.1.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/46/54/6ea8b670633107265c52999ea7fd00f142925ce7eb69add33686a788db35/byquant-1.6.29.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [thrift2pyi]: Downloading https://files.pythonhosted.org/packages/16/85/c0a955de5831576d2af49d03c2b627c5691d84929d38686309f42eab09b1/thrift2pyi-1.0.4.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/9a/d1/06ddadc70ba5ceee2d4884b1bfe3186577de309bd726b63ae8cdf7b51493/froog-0.1.6.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/14/e8/f09dfae2e61aac53dd520f55aff0346031817c57f051aa6c7b0646d7adae/gearsllm-0.1.6.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [pymov2gif]: Downloading https://files.pythonhosted.org/packages/0f/43/c0e8e95843dca956d444e4a8a6a0eff6c0d2b89b9ffc16d3944358b67fe9/pymov2gif-0.0.2.tar.gz
+[2023-07-24 05:31:54] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-07-24 05:31:54] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.1.5.tar.gz tmp/froog-0.1.6.tar.gz --markdown 20230724/f/froog/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 05:31:54] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2023-07-24 05:31:54] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.5.tar.gz tmp/gearsllm-0.1.6.tar.gz --markdown 20230724/g/gearsllm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 05:31:54] INFO root fetch - processPackages [pymov2gif]: executing diffoscope
+[2023-07-24 05:31:54] INFO root fetch - processPackages [pymov2gif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymov2gif-0.0.1.tar.gz tmp/pymov2gif-0.0.2.tar.gz --markdown 20230724/p/pymov2gif/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 05:31:54] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/8f/9f/30b10b80883435bdb20b1be0ba515fc59abd950a666988ba55a28c031bc9/byquant-1.7.23-py3-none-any.whl
+[2023-07-24 05:31:54] INFO root fetch - processPackages [thrift2pyi]: Downloading https://files.pythonhosted.org/packages/a4/ac/2dccc9dc06a9ab1e5aedd18845d4cad49b5a3dea1099d90aa484a3ea4953/thrift2pyi-1.0.5.tar.gz
+[2023-07-24 05:31:55] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-07-24 05:31:55] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.6.29.tar.gz tmp/byquant-1.7.23-py3-none-any.whl.zip --markdown 20230724/b/byquant/1.6.29-1.7.23/diff.md --exclude *.pyd
+[2023-07-24 05:31:55] INFO root fetch - processPackages [thrift2pyi]: executing diffoscope
+[2023-07-24 05:31:55] INFO root fetch - processPackages [thrift2pyi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrift2pyi-1.0.4.tar.gz tmp/thrift2pyi-1.0.5.tar.gz --markdown 20230724/t/thrift2pyi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-24 05:31:55] INFO root fetch - processPackages [pymov2gif]: Remove: archive file [/home/abi/fetcher/tmp/pymov2gif-0.0.1.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - processPackages [pymov2gif]: Remove: archive file [/home/abi/fetcher/tmp/pymov2gif-0.0.2.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - main [MainThread]: End processing [pymov2gif]: success
+[2023-07-24 05:31:55] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.5.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.6.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2023-07-24 05:31:55] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.5.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.6.tar.gz]
+[2023-07-24 05:31:55] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-07-24 05:31:56] INFO root fetch - processPackages [thrift2pyi]: Remove: archive file [/home/abi/fetcher/tmp/thrift2pyi-1.0.4.tar.gz]
+[2023-07-24 05:31:56] INFO root fetch - processPackages [thrift2pyi]: Remove: archive file [/home/abi/fetcher/tmp/thrift2pyi-1.0.5.tar.gz]
+[2023-07-24 05:31:56] INFO root fetch - main [MainThread]: End processing [thrift2pyi]: success
+[2023-07-24 05:31:56] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.6.29.tar.gz]
+[2023-07-24 05:31:56] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.23-py3-none-any.whl.zip]
+[2023-07-24 05:31:56] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-07-24 05:31:56] INFO root fetch - main [MainThread]: Store serial: [19007710]
