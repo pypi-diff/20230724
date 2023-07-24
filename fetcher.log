@@ -6611,3 +6611,36 @@
 [2023-07-24 05:37:06] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.8.0.tar.gz]
 [2023-07-24 05:37:06] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
 [2023-07-24 05:37:06] INFO root fetch - main [MainThread]: Store serial: [19007727]
+[2023-07-24 05:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007727]
+[2023-07-24 05:42:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-24 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hhb-tvm
+[2023-07-24 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-24 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-managednetworkfabric
+[2023-07-24 05:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-24 05:42:15] INFO root fetch - processPackages [hhb-tvm]: New version: [2.4.5] Old Version: [2.2.35]
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 05:42:15] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-24 05:42:15] INFO root fetch - processPackages [hhb-tvm]: Downloading https://files.pythonhosted.org/packages/30/36/a925f927313de0a002e703e918f96cd75054fe1fe40f1994e690952e8904/hhb_tvm-2.2.35-cp36-cp36m-manylinux1_x86_64.whl
+[2023-07-24 05:42:15] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: Downloading https://files.pythonhosted.org/packages/76/e4/0e5218fe1ed7542b8f9831366035ed5239f12d9fdd04675d037b2e1c8f65/azure-mgmt-managednetworkfabric-1.0.0.zip
+[2023-07-24 05:42:15] WARNING root fetch - processPackages [hhb-tvm]: Skipping package: exceeds size limit 47979403>=10485760
+[2023-07-24 05:42:15] INFO root fetch - main [MainThread]: End processing [hhb-tvm] error
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230724/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-24 05:42:15] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230724/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 05:42:16] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: Downloading https://files.pythonhosted.org/packages/0e/16/38fe539c116b0dc4d07907cc054a48ab3594cdcaf592c1db2d53728365fc/azure-mgmt-managednetworkfabric-1.0.0b1.zip
+[2023-07-24 05:42:16] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: executing diffoscope
+[2023-07-24 05:42:16] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-managednetworkfabric-1.0.0.zip tmp/azure-mgmt-managednetworkfabric-1.0.0b1.zip --markdown 20230724/a/azure-mgmt-managednetworkfabric/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-24 05:42:16] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-24 05:42:16] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-24 05:42:16] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-24 05:42:16] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-24 05:42:17] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-managednetworkfabric-1.0.0.zip]
+[2023-07-24 05:42:17] INFO root fetch - processPackages [azure-mgmt-managednetworkfabric]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-managednetworkfabric-1.0.0b1.zip]
+[2023-07-24 05:42:17] INFO root fetch - main [MainThread]: End processing [azure-mgmt-managednetworkfabric]: success
+[2023-07-24 05:42:17] INFO root fetch - main [MainThread]: Store serial: [19007737]
