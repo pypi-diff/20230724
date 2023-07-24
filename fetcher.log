@@ -12279,3 +12279,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:41:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post909-py3-none-any.whl.zip]
 [2023-07-24 10:41:17] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-24 10:41:17] INFO root fetch - main [MainThread]: Store serial: [19010128]
+[2023-07-24 10:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010128]
+[2023-07-24 10:46:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: losscape
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rondsspark
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-milestones
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelz-llm
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: functime
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedex-sdk
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pibooth-fire-remote
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proctracer
+[2023-07-24 10:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscemu
+[2023-07-24 10:46:28] INFO root fetch - processPackages [modelz-llm]: New version: [23.7.3] Old Version: [23.7.2]
+[2023-07-24 10:46:28] INFO root fetch - processPackages [pyscemu]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 10:46:28] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-24 10:46:28] INFO root fetch - processPackages [pibooth-fire-remote]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [losscape]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [proctracer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [edx-milestones]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [functime]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230724] Old Version: [0.0.1.dev20230723]
+[2023-07-24 10:46:29] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/f8/8b/ea0b32a7d1dbbcaaf9a284076109210fdbba99c096101c8a9f96eed437cf/modelz-llm-23.7.2.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/c6/fa/548124fda2a7959a32fb6e6ab65fb37f1f5b78d647ce0612b52afe83bf6a/pibooth_fire_remote-0.1.8-py3-none-any.whl
+[2023-07-24 10:46:29] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/25/3f/ec3e36db7ed25695bf889bc8646b825facde287670a48c369236c77b0a77/pyscemu-0.2.8.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/b9/8f/7761ee71cf8f75f7b5d0e96452cae92e0b8e6c52845faf65654003524c4b/fedex-sdk-1.0.4.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/6a/f3/10175623cf9b5f8680818bf974ff4b57a5ed580f910e6999b64fcbe75737/proctracer-0.0.4.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [edx-milestones]: Downloading https://files.pythonhosted.org/packages/f6/2d/5e4f91f4db4467f2b393f9cf415f4996747464267c54870f39405c43338b/edx-milestones-0.4.0.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/27/d0/0daaba040d7aa305d205af065e5c1a5e55554a2b78f6f33a64b8c8ae9490/functime-0.2.4-py3-none-any.whl
+[2023-07-24 10:46:29] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/2a/c4/89d17589878c9a1eb5124b5c34a284f5a59d56b229abee1bae077b782bea/losscape-1.5.2.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/5d/e1/683849c6f9e0ff3cb48f9ea986ee1dbec57aa6f6af5a24097d511ef2edfb/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl
+[2023-07-24 10:46:29] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/27/21/dfd9f9ade03fb369bf9cdf66a9867a0c0a73f252905bd5ac9c0ca9657e5d/pibooth_fire_remote-0.2.0-py3-none-any.whl
+[2023-07-24 10:46:29] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/9e/6a/65ddc24971c172f8395df8e42f851ed823f08131be565605d802cb5b9204/pyscemu-0.2.9.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/10/44/e5e80bd2de92f43356961d73b760079689fa21446443e650f691e49e3101/fedex-sdk-1.0.5.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/74/5e/61a0b0de964fe146ed705c40b92c35abdd5d70016b08ab5f7f5beb35d415/proctracer-0.0.5.tar.gz
+[2023-07-24 10:46:29] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/ec/b3/40389e4eb839395dd64c00d42749081a9614719f6d91ac1949a7f904208f/modelz-llm-23.7.3.tar.gz
+[2023-07-24 10:46:30] INFO root fetch - processPackages [edx-milestones]: Downloading https://files.pythonhosted.org/packages/74/b4/3066f953505a8e4cf82b605eebcf2bc176c1db9c6e51ccaab91f249c4e1b/edx-milestones-0.5.0.tar.gz
+[2023-07-24 10:46:30] INFO root fetch - processPackages [pibooth-fire-remote]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [pibooth-fire-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibooth_fire_remote-0.1.8-py3-none-any.whl.zip tmp/pibooth_fire_remote-0.2.0-py3-none-any.whl.zip --markdown 20230724/p/pibooth-fire-remote/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.4.tar.gz tmp/fedex-sdk-1.0.5.tar.gz --markdown 20230724/f/fedex-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/4c/e7/098c3572cf73ca0ae3209985951ae418ff5a13f5aa52d5d6f2405a608f2a/functime-0.3.0-py3-none-any.whl
+[2023-07-24 10:46:30] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/60/d8/729f347d1a6a6153b7ceecc92ad69418f92bd99b8e8a493b356c715c63fa/losscape-1.5.3.tar.gz
+[2023-07-24 10:46:30] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-24 10:46:30] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.7.2.tar.gz tmp/modelz-llm-23.7.3.tar.gz --markdown 20230724/m/modelz-llm/23.7.2-23.7.3/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.8.tar.gz tmp/pyscemu-0.2.9.tar.gz --markdown 20230724/p/pyscemu/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.4.tar.gz tmp/proctracer-0.0.5.tar.gz --markdown 20230724/p/proctracer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [edx-milestones]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [edx-milestones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-milestones-0.4.0.tar.gz tmp/edx-milestones-0.5.0.tar.gz --markdown 20230724/e/edx-milestones/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/99/96/54057476b38a9075cf2c56fa421fb43cd54726af884d0747b52e2e79086d/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl
+[2023-07-24 10:46:30] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.2.tar.gz tmp/losscape-1.5.3.tar.gz --markdown 20230724/l/losscape/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.2.4-py3-none-any.whl.zip tmp/functime-0.3.0-py3-none-any.whl.zip --markdown 20230724/f/functime/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230724/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-24 10:46:30] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-24 10:46:30] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip --markdown 20230724/t/tff-nightly/0.0.1.dev20230723-0.0.1.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.1.8-py3-none-any.whl.zip]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.2.0-py3-none-any.whl.zip]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pibooth-fire-remote]: Start processing: secenv
+[2023-07-24 10:46:32] INFO root fetch - main [MainThread]: End processing [pibooth-fire-remote]: success
+[2023-07-24 10:46:32] INFO root fetch - processPackages [secenv]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [secenv]: Downloading https://files.pythonhosted.org/packages/66/b0/34bb6fa620c31432412344d1dcecbd6a74a8755b6a5bc9bffbb6282fb020/secenv-1.2.3.tar.gz
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.8.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.9.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [pyscemu]: Start processing: zerocap-websocket-test
+[2023-07-24 10:46:32] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-07-24 10:46:32] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.4.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.5.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [fedex-sdk]: Start processing: th2-grpc-read-db
+[2023-07-24 10:46:32] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 10:46:32] INFO root fetch - processPackages [edx-milestones]: Remove: archive file [/home/abi/fetcher/tmp/edx-milestones-0.4.0.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [zerocap-websocket-test]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [edx-milestones]: Remove: archive file [/home/abi/fetcher/tmp/edx-milestones-0.5.0.tar.gz]
+[2023-07-24 10:46:32] INFO root fetch - processPackages [edx-milestones]: Start processing: ddecoapiparser
+[2023-07-24 10:46:32] INFO root fetch - main [MainThread]: End processing [edx-milestones]: success
+[2023-07-24 10:46:32] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.1.dev5642724340] Old Version: [0.0.1.dev5589772713]
+[2023-07-24 10:46:33] WARNING root fetch - processPackages [ddecoapiparser]: Skipping, unable to determine old version
+[2023-07-24 10:46:33] INFO root fetch - processPackages [ddecoapiparser]: Start processing: tfp-nightly
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [ddecoapiparser] error
+[2023-07-24 10:46:33] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.2.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.3.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [losscape]: Start processing: mwsqlite
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-24 10:46:33] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/d5/2b/7f8d521d8a4081d862853e490efdaa916ed5c8bdc3b05dac501f7568441d/zerocap_websocket_test-1.0.1.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.4.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.5.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-24 10:46:33] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-24 10:46:33] INFO root fetch - processPackages [secenv]: Downloading https://files.pythonhosted.org/packages/e5/fe/24d2bad660966f6b349c84175a595e86d3d0f021aba30f35d4436ce62c86/secenv-1.2.4.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.7.2.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.7.3.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-07-24 10:46:33] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-24 10:46:33] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.2.4-py3-none-any.whl.zip]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/32/70/5fc74beef1e58ca405b8289279ef1f4e1e442cd43b07a4d1bba33a09557e/th2_grpc_read_db-0.0.1.dev5589772713.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.3.0-py3-none-any.whl.zip]
+[2023-07-24 10:46:33] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-07-24 10:46:33] INFO root fetch - processPackages [mwsqlite]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-07-24 10:46:33] INFO root fetch - processPackages [secenv]: executing diffoscope
+[2023-07-24 10:46:33] INFO root fetch - processPackages [secenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secenv-1.2.3.tar.gz tmp/secenv-1.2.4.tar.gz --markdown 20230724/s/secenv/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-24 10:46:33] INFO root fetch - processPackages [zerocap-websocket-test]: Downloading https://files.pythonhosted.org/packages/24/db/860b9d0079c4f74c2c488f5de850d632e81b5aaba88e8adb1d13d0ce9fdb/zerocap_websocket_test-1.0.2.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/9c/8e/46efb110fecc925e774857560f4253a620051dbae92f6822bcd4c2fea567/mwsqlite-1.2.3.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/65/00/69bf06f0854d476134efa5322757d1e26adbd0ab2a2505962bf2d1762438/th2_grpc_read_db-0.0.1.dev5642724340.tar.gz
+[2023-07-24 10:46:33] INFO root fetch - processPackages [zerocap-websocket-test]: executing diffoscope
+[2023-07-24 10:46:33] INFO root fetch - processPackages [zerocap-websocket-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_websocket_test-1.0.1.tar.gz tmp/zerocap_websocket_test-1.0.2.tar.gz --markdown 20230724/z/zerocap-websocket-test/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 10:46:33] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2023-07-24 10:46:33] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.1.dev5589772713.tar.gz tmp/th2_grpc_read_db-0.0.1.dev5642724340.tar.gz --markdown 20230724/t/th2-grpc-read-db/0.0.1.dev5589772713-0.0.1.dev5642724340/diff.md --exclude *.pyd
+[2023-07-24 10:46:34] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/7a/ef/5191deafbed14f665f920deb55a1165abb16571e5f279fd9292500d5aa88/mwsqlite-1.3.0.tar.gz
+[2023-07-24 10:46:34] INFO root fetch - processPackages [mwsqlite]: executing diffoscope
+[2023-07-24 10:46:34] INFO root fetch - processPackages [mwsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwsqlite-1.2.3.tar.gz tmp/mwsqlite-1.3.0.tar.gz --markdown 20230724/m/mwsqlite/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-07-24 10:46:34] INFO root fetch - processPackages [secenv]: Remove: archive file [/home/abi/fetcher/tmp/secenv-1.2.3.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - processPackages [secenv]: Remove: archive file [/home/abi/fetcher/tmp/secenv-1.2.4.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - main [MainThread]: End processing [secenv]: success
+[2023-07-24 10:46:34] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.1.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - processPackages [zerocap-websocket-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_websocket_test-1.0.2.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - main [MainThread]: End processing [zerocap-websocket-test]: success
+[2023-07-24 10:46:34] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.1.dev5589772713.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.1.dev5642724340.tar.gz]
+[2023-07-24 10:46:34] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2023-07-24 10:46:35] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip]
+[2023-07-24 10:46:35] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230724-py2.py3-none-any.whl.zip]
+[2023-07-24 10:46:35] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-24 10:46:35] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-24 10:46:35] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.2.3.tar.gz]
+[2023-07-24 10:46:35] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.3.0.tar.gz]
+[2023-07-24 10:46:35] INFO root fetch - main [MainThread]: End processing [mwsqlite]: success
+[2023-07-24 10:46:35] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-24 10:46:35] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230724/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-24 10:46:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-24 10:46:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-24 10:46:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-24 10:46:40] INFO root fetch - main [MainThread]: Store serial: [19010173]
