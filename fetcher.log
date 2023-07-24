@@ -20238,3 +20238,191 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:35:23] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.3.4.tar.gz]
 [2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
 [2023-07-24 15:35:23] INFO root fetch - main [MainThread]: Store serial: [19013335]
+[2023-07-24 15:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013335]
+[2023-07-24 15:40:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-restit
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arivo-settings-models
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qmcpy
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiwi-provider-selection-app
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiwi-provider-selection-fx-history
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiwi-provider-selection-cluster
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-radiance
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rattr
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-relion
+[2023-07-24 15:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly
+[2023-07-24 15:40:32] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-24 15:40:32] INFO root fetch - processPackages [arivo-settings-models]: New version: [0.0.1rc5] Old Version: [0.0.1rc4]
+[2023-07-24 15:40:32] WARNING root fetch - processPackages [kiwi-provider-selection-app]: Skipping, unable to determine old version
+[2023-07-24 15:40:32] INFO root fetch - processPackages [kiwi-provider-selection-app]: Start processing: hgcal-state-machine
+[2023-07-24 15:40:32] INFO root fetch - main [MainThread]: End processing [kiwi-provider-selection-app] error
+[2023-07-24 15:40:32] WARNING root fetch - processPackages [kiwi-provider-selection-fx-history]: Skipping, unable to determine old version
+[2023-07-24 15:40:32] INFO root fetch - processPackages [kiwi-provider-selection-fx-history]: Start processing: keyring-pybridge
+[2023-07-24 15:40:32] INFO root fetch - main [MainThread]: End processing [kiwi-provider-selection-fx-history] error
+[2023-07-24 15:40:32] INFO root fetch - processPackages [qmcpy]: New version: [1.4.2] Old Version: [1.4]
+[2023-07-24 15:40:32] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.23] Old Version: [2023.7.22]
+[2023-07-24 15:40:32] INFO root fetch - processPackages [rattr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-24 15:40:33] WARNING root fetch - processPackages [kiwi-provider-selection-cluster]: Skipping, unable to determine old version
+[2023-07-24 15:40:33] INFO root fetch - processPackages [kiwi-provider-selection-cluster]: Start processing: honeybee-radiance-postprocess
+[2023-07-24 15:40:33] INFO root fetch - main [MainThread]: End processing [kiwi-provider-selection-cluster] error
+[2023-07-24 15:40:33] INFO root fetch - processPackages [scipion-em-relion]: New version: [4.0b8] Old Version: [4.0b7]
+[2023-07-24 15:40:33] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 15:40:33] INFO root fetch - processPackages [keyring-pybridge]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 15:40:33] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-24 15:40:33] WARNING root fetch - processPackages [hgcal-state-machine]: Skipping, unable to determine old version
+[2023-07-24 15:40:33] INFO root fetch - processPackages [hgcal-state-machine]: Start processing: odoo14-addon-shopfloor-single-product-transfer
+[2023-07-24 15:40:33] INFO root fetch - main [MainThread]: End processing [hgcal-state-machine] error
+[2023-07-24 15:40:33] INFO root fetch - processPackages [arivo-settings-models]: Downloading https://files.pythonhosted.org/packages/53/6d/4a4f4f0d0b2841a58d7abcab5b2344e9bbcdae754d87d159cb544246ef57/arivo-settings_models-0.0.1rc4.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [rattr]: Downloading https://files.pythonhosted.org/packages/1a/e3/94137d00aebec7ec22894fc3e59eedf4e9b22a52fdf868fa1a3f5cb13222/rattr-0.1.7.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1]
+[2023-07-24 15:40:33] INFO root fetch - processPackages [qmcpy]: Downloading https://files.pythonhosted.org/packages/70/d3/5c9141b0e6a6738db259a1a5062604ba174102591a3bb9d6f0cfdd1e63d9/qmcpy-1.4.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/76/98/503eb02340a3d9a5e179a77d2dd49e5fb9e2a72ffb259559c97e6aaf5d28/fbgemm_gpu_nightly-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 15:40:33] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [scipion-em-relion]: Downloading https://files.pythonhosted.org/packages/88/32/60934de2edb021fd3e916d18e7239809db0c22b0a8414540eb3222a26c61/scipion-em-relion-4.0b7.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [keyring-pybridge]: Downloading https://files.pythonhosted.org/packages/b4/70/259b5fcf9b0757f34731a22f463f02b28966712e8c537f922ca9744b3040/keyring_pybridge-0.2.0.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/fc/f8/8541df6d7426124743d3a453fe7fd4a6f7abefc6fd722cf339d65da17de4/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.1-py3-none-any.whl
+[2023-07-24 15:40:33] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-07-24 15:40:33] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 217837214>=10485760
+[2023-07-24 15:40:33] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230724/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-24 15:40:33] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: odoo14-addon-shopfloor-mobile-base
+[2023-07-24 15:40:33] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-24 15:40:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: New version: [14.0.3.9.1] Old Version: [14.0.3.9.0]
+[2023-07-24 15:40:33] INFO root fetch - processPackages [rattr]: Downloading https://files.pythonhosted.org/packages/c5/bb/4894c9eff498bfbeca7fe042f179033225dcccc196a048eb9ee3de07f2fd/rattr-0.1.8.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [arivo-settings-models]: Downloading https://files.pythonhosted.org/packages/b6/bd/6fc95034eeff3e3e8dc5c35a71341c20d148bc7fbf05b0ed313612cd8e8f/arivo-settings_models-0.0.1rc5.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [keyring-pybridge]: Downloading https://files.pythonhosted.org/packages/f4/5a/d138868c50f98e13af7b9ce729071a7f23333ed4c69d85d1f7c5e5f05436/keyring_pybridge-0.3.0.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [rattr]: executing diffoscope
+[2023-07-24 15:40:33] INFO root fetch - processPackages [rattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattr-0.1.7.tar.gz tmp/rattr-0.1.8.tar.gz --markdown 20230724/r/rattr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-24 15:40:33] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [arivo-settings-models]: executing diffoscope
+[2023-07-24 15:40:33] INFO root fetch - processPackages [arivo-settings-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arivo-settings_models-0.0.1rc4.tar.gz tmp/arivo-settings_models-0.0.1rc5.tar.gz --markdown 20230724/a/arivo-settings-models/0.0.1rc4-0.0.1rc5/diff.md --exclude *.pyd
+[2023-07-24 15:40:33] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-24 15:40:33] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/c9/02/fbd281e8677b36013336bf9465d3cffb46f7d914917799726d5401feda45/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl
+[2023-07-24 15:40:33] INFO root fetch - processPackages [keyring-pybridge]: executing diffoscope
+[2023-07-24 15:40:33] INFO root fetch - processPackages [keyring-pybridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_pybridge-0.2.0.tar.gz tmp/keyring_pybridge-0.3.0.tar.gz --markdown 20230724/k/keyring-pybridge/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/a2/f4/3aa41700d88e85f1a29ea00b8ae39a40118bfd5bd650c6c5ff5b77a6889b/odoo14_addon_shopfloor_single_product_transfer-14.0.2.1.0-py3-none-any.whl
+[2023-07-24 15:40:34] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-24 15:40:34] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230724/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 15:40:34] INFO root fetch - processPackages [scipion-em-relion]: Downloading https://files.pythonhosted.org/packages/f5/59/9be03469e00184395dd4ec32e2964b29e69d6f8c7eddc66bd1e4ffed7086/scipion-em-relion-4.0b8.tar.gz
+[2023-07-24 15:40:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-24 15:40:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230724/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-24 15:40:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: executing diffoscope
+[2023-07-24 15:40:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor-single-product-transfer/14.0.2.0.1-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:34] INFO root fetch - processPackages [scipion-em-relion]: executing diffoscope
+[2023-07-24 15:40:34] INFO root fetch - processPackages [scipion-em-relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-relion-4.0b7.tar.gz tmp/scipion-em-relion-4.0b8.tar.gz --markdown 20230724/s/scipion-em-relion/4.0b7-4.0b8/diff.md --exclude *.pyd
+[2023-07-24 15:40:34] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-07-24 15:40:34] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-07-24 15:40:34] INFO root fetch - processPackages [django-restit]: Start processing: odoo14-addon-shopfloor-single-product-transfer-mobile
+[2023-07-24 15:40:34] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-07-24 15:40:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev6]
+[2023-07-24 15:40:34] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: Downloading https://files.pythonhosted.org/packages/fb/1d/b3cd471f83ee4a85c5d2574bab71e7d3acfeaa4b64a0fa078d256735d905/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-07-24 15:40:35] INFO root fetch - processPackages [keyring-pybridge]: Remove: archive file [/home/abi/fetcher/tmp/keyring_pybridge-0.2.0.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [keyring-pybridge]: Remove: archive file [/home/abi/fetcher/tmp/keyring_pybridge-0.3.0.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [keyring-pybridge]: Start processing: odoo14-addon-shopfloor
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [keyring-pybridge]: success
+[2023-07-24 15:40:35] INFO root fetch - processPackages [arivo-settings-models]: Remove: archive file [/home/abi/fetcher/tmp/arivo-settings_models-0.0.1rc4.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [arivo-settings-models]: Remove: archive file [/home/abi/fetcher/tmp/arivo-settings_models-0.0.1rc5.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [arivo-settings-models]: Start processing: datawords
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [arivo-settings-models]: success
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.3.2.0] Old Version: [14.0.3.1.0]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [datawords]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: Downloading https://files.pythonhosted.org/packages/e0/eb/846c633d478e7508a6eeac057222d73c106db9b065e74c609d4885132df1/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.1.0-py3-none-any.whl
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/9c/4e/8ecc8852ff23bc95932ae1f8ba30fe73b8ddad3a6a84ff656bb087fcf7ed/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl
+[2023-07-24 15:40:35] INFO root fetch - processPackages [rattr]: Remove: archive file [/home/abi/fetcher/tmp/rattr-0.1.7.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [rattr]: Remove: archive file [/home/abi/fetcher/tmp/rattr-0.1.8.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [rattr]: Start processing: lbt-dragonfly
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [rattr]: success
+[2023-07-24 15:40:35] INFO root fetch - processPackages [datawords]: Downloading https://files.pythonhosted.org/packages/e7/c1/b040ca91e76712b8634ab4f9958d4762d98adea045b6d78ae8db078f1330/datawords-0.6.2.tar.gz
+[2023-07-24 15:40:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: hotsos
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: executing diffoscope
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor-single-product-transfer-mobile/14.0.1.0.1.dev6-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:35] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.1-py3-none-any.whl.zip]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/86/40/b3c40610843a6ae96a76b4b1a42bfe4c17ffacdb10bcc87b302412198bbf/odoo14_addon_shopfloor-14.0.3.1.0-py3-none-any.whl
+[2023-07-24 15:40:35] INFO root fetch - processPackages [hotsos]: New version: [1.16.0.post4] Old Version: [1.16.0.post3]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Start processing: helloworld-gqq521
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-single-product-transfer]: success
+[2023-07-24 15:40:35] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: assemblyline-service-utilities
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-24 15:40:35] WARNING root fetch - processPackages [helloworld-gqq521]: Skipping, unable to determine old version
+[2023-07-24 15:40:35] INFO root fetch - processPackages [helloworld-gqq521]: Start processing: aiida-quantumespresso
+[2023-07-24 15:40:35] INFO root fetch - main [MainThread]: End processing [helloworld-gqq521] error
+[2023-07-24 15:40:35] INFO root fetch - processPackages [assemblyline-service-utilities]: New version: [4.4.1.dev8] Old Version: [4.4.1.dev7]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [aiida-quantumespresso]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-07-24 15:40:35] INFO root fetch - processPackages [qmcpy]: Downloading https://files.pythonhosted.org/packages/3c/1f/2a70a74014ac559d477146d7c4ab5426c8d3d46064557f2d5e80462326c2/qmcpy-1.4.2.tar.gz
+[2023-07-24 15:40:35] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/e8/c7/079eb991436d0834c1f2af0ae8c2277e7e52fec2db3143da534c2c2e65e7/hotsos-1.16.0.post3.tar.gz
+[2023-07-24 15:40:35] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-24 15:40:35] INFO root fetch - processPackages [datawords]: Downloading https://files.pythonhosted.org/packages/b2/78/4e8a4e006f3c0506bc0715c6734a84f1f0ee3ffde492b39c42f32a971e4b/datawords-0.7.0.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/0c/08/8248dd417f3037b1bc5c07da14492e253d674df44575dec6d3ae0df38b78/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl
+[2023-07-24 15:40:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/b5/6a/1a7881ed2a43bcc8fc5e288adaff7b7345ff234e475b897b209df0fcd80d/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl
+[2023-07-24 15:40:36] INFO root fetch - processPackages [datawords]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [qmcpy]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [datawords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawords-0.6.2.tar.gz tmp/datawords-0.7.0.tar.gz --markdown 20230724/d/datawords/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [qmcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmcpy-1.4.tar.gz tmp/qmcpy-1.4.2.tar.gz --markdown 20230724/q/qmcpy/1.4-1.4.2/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [aiida-quantumespresso]: Downloading https://files.pythonhosted.org/packages/ee/29/45412399631ad7c69a2f290ccc3dfc5c3e6331c16eb798856a11d29345fe/aiida-quantumespresso-4.3.0.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.3.1.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor/14.0.3.1.0-14.0.3.2.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/ec/26/ff3b6e01d068bb81ae3bafc61553dc7ad7d23d2b27c1539454080b03d8fd/hotsos-1.16.0.post4.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [scipion-em-relion]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-relion-4.0b7.tar.gz]
+[2023-07-24 15:40:36] INFO root fetch - processPackages [scipion-em-relion]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-relion-4.0b8.tar.gz]
+[2023-07-24 15:40:36] INFO root fetch - processPackages [scipion-em-relion]: Start processing: procsimulator
+[2023-07-24 15:40:36] INFO root fetch - main [MainThread]: End processing [scipion-em-relion]: success
+[2023-07-24 15:40:36] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [procsimulator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 15:40:36] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.16.0.post3.tar.gz tmp/hotsos-1.16.0.post4.tar.gz --markdown 20230724/h/hotsos/1.16.0.post3-1.16.0.post4/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230724/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [aiida-quantumespresso]: Downloading https://files.pythonhosted.org/packages/f3/71/409cfeafa1aff1f13f1aa0ae0f50561c31565340200657ac828af652d1fb/aiida_quantumespresso-4.4.0.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [assemblyline-service-utilities]: Downloading https://files.pythonhosted.org/packages/fb/4c/e44dbd2c80a049d04d0ac7b7cc88d5c46a23a7dad278339b22a6dff2bfce/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl
+[2023-07-24 15:40:36] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-shopfloor-mobile-base/14.0.3.9.0-14.0.3.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [procsimulator]: Downloading https://files.pythonhosted.org/packages/ea/fc/a830daa2fff6f5b1fd74a747a98416c897242630e27c3caa78a944a9d137/procsimulator-0.1.1.tar.gz
+[2023-07-24 15:40:36] INFO root fetch - processPackages [assemblyline-service-utilities]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [assemblyline-service-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip --markdown 20230724/a/assemblyline-service-utilities/4.4.1.dev7-4.4.1.dev8/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] INFO root fetch - processPackages [aiida-quantumespresso]: executing diffoscope
+[2023-07-24 15:40:36] INFO root fetch - processPackages [aiida-quantumespresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-quantumespresso-4.3.0.tar.gz tmp/aiida_quantumespresso-4.4.0.tar.gz --markdown 20230724/a/aiida-quantumespresso/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-07-24 15:40:36] WARNING root fetch - processPackages [procsimulator]: Skipping package: exceeds size limit 19067804>=10485760
+[2023-07-24 15:40:36] INFO root fetch - processPackages [procsimulator]: Start processing: minet
+[2023-07-24 15:40:36] INFO root fetch - main [MainThread]: End processing [procsimulator] error
+[2023-07-24 15:40:36] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-24 15:40:37] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-07-24 15:40:37] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-07-24 15:40:37] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer_mobile-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-24 15:40:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-single-product-transfer-mobile]: success
+[2023-07-24 15:40:37] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-07-24 15:40:37] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-07-24 15:40:37] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230724/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-24 15:40:37] INFO root fetch - processPackages [datawords]: Remove: archive file [/home/abi/fetcher/tmp/datawords-0.6.2.tar.gz]
+[2023-07-24 15:40:37] INFO root fetch - processPackages [datawords]: Remove: archive file [/home/abi/fetcher/tmp/datawords-0.7.0.tar.gz]
+[2023-07-24 15:40:37] INFO root fetch - main [MainThread]: End processing [datawords]: success
+[2023-07-24 15:40:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-24 15:40:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-24 15:40:37] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-24 15:40:38] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-07-24 15:40:38] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.3.2.0-py3-none-any.whl.zip]
+[2023-07-24 15:40:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-07-24 15:40:38] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip]
+[2023-07-24 15:40:38] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip]
+[2023-07-24 15:40:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile-base]: success
+[2023-07-24 15:40:39] INFO root fetch - processPackages [qmcpy]: Remove: archive file [/home/abi/fetcher/tmp/qmcpy-1.4.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - processPackages [qmcpy]: Remove: archive file [/home/abi/fetcher/tmp/qmcpy-1.4.2.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - main [MainThread]: End processing [qmcpy]: success
+[2023-07-24 15:40:39] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post3.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post4.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-24 15:40:39] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev7-py3-none-any.whl.zip]
+[2023-07-24 15:40:39] INFO root fetch - processPackages [assemblyline-service-utilities]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_utilities-4.4.1.dev8-py3-none-any.whl.zip]
+[2023-07-24 15:40:39] INFO root fetch - main [MainThread]: End processing [assemblyline-service-utilities]: success
+[2023-07-24 15:40:39] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a8.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a9.tar.gz]
+[2023-07-24 15:40:39] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-07-24 15:40:40] INFO root fetch - processPackages [aiida-quantumespresso]: Remove: archive file [/home/abi/fetcher/tmp/aiida-quantumespresso-4.3.0.tar.gz]
+[2023-07-24 15:40:40] INFO root fetch - processPackages [aiida-quantumespresso]: Remove: archive file [/home/abi/fetcher/tmp/aiida_quantumespresso-4.4.0.tar.gz]
+[2023-07-24 15:40:40] INFO root fetch - main [MainThread]: End processing [aiida-quantumespresso]: success
+[2023-07-24 15:40:40] INFO root fetch - main [MainThread]: Store serial: [19013416]
