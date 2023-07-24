@@ -5470,3 +5470,71 @@
 [2023-07-24 03:57:19] INFO root fetch - processPackages [alibabacloud-sasti20200512]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sasti20200512-1.0.1.tar.gz]
 [2023-07-24 03:57:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-sasti20200512]: success
 [2023-07-24 03:57:19] INFO root fetch - main [MainThread]: Store serial: [19007284]
+[2023-07-24 04:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007284]
+[2023-07-24 04:02:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinject-design
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aoirint-matvtool
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bento-sts
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alipay-sdk-python
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftdz-vip
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ats-case
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiutil
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervisor-shell-ui
+[2023-07-24 04:02:27] INFO root fetch - processPackages [aoirint-matvtool]: New version: [0.3.0b1] Old Version: [0.2.0]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ftdz-vip]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [aiutil]: New version: [0.80.5] Old Version: [0.80.4]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [bento-sts]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 04:02:27] WARNING root fetch - processPackages [supervisor-shell-ui]: Skipping, unable to determine old version
+[2023-07-24 04:02:27] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui] error
+[2023-07-24 04:02:27] INFO root fetch - processPackages [pinject-design]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.6.72] Old Version: [3.6.703]
+[2023-07-24 04:02:27] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/b9/c9/437d6991041f376f80103a3ea2237a92a6fe0ec1d96ae4d996413ea24a50/aiutil-0.80.4.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ftdz-vip]: Downloading https://files.pythonhosted.org/packages/56/4a/ae5ff1d167ea551ce460ac1a6d54cb1bff854f927a779833e40e36e74698/ftdz_vip-1.0.0.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/32/30/184294119b96f80c917facc9f2fdd5fb71f8b10e396dd521a4dc0a19c807/aoirint_matvtool-0.2.0.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/83/54/db1ad9fbd52ffa6923d08e0e7ea99aa93072a16004adf9e2dd0b5e3bbe6b/pinject_design-0.1.94.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/c3/9f/ab50bad2584cfd260427f0e8cb439463df11b38da5e35264cb5bed9699be/alipay-sdk-python-3.6.703.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/0c/e7/becf2a54fdd971176c12c264f134faaff9c1836b769fa82531c171548a9c/bento_sts-0.1.1.tar.gz
+[2023-07-24 04:02:27] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aiutil]: Downloading https://files.pythonhosted.org/packages/66/53/398634ba235e6747b3829380e084189f0f8b9944df1290706fd2bb1b57f4/aiutil-0.80.5.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ftdz-vip]: Downloading https://files.pythonhosted.org/packages/b3/6c/75b876b86e39b219eb1fde34c623e371dad4a297f58253c6340a06185746/ftdz_vip-1.0.1.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/4c/04/b770ed66371c26a86880b57776a2d9a83e1151a2138651b058d2cc77390c/aoirint_matvtool-0.3.0b1.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/db/46/28475584a492cd2b3b7e9d94b73bb43248d389fdb5e50e0cfea31a187b6a/pinject_design-0.1.95.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [bento-sts]: Downloading https://files.pythonhosted.org/packages/83/38/d03ff4b4bff88f4cdaf8b5227d8d506ee74473a6c688ed8e0d83d9f86f41/bento_sts-0.1.2.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ftdz-vip]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ftdz-vip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftdz_vip-1.0.0.tar.gz tmp/ftdz_vip-1.0.1.tar.gz --markdown 20230724/f/ftdz-vip/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aiutil]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aiutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiutil-0.80.4.tar.gz tmp/aiutil-0.80.5.tar.gz --markdown 20230724/a/aiutil/0.80.4-0.80.5/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.94.tar.gz tmp/pinject_design-0.1.95.tar.gz --markdown 20230724/p/pinject-design/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aoirint-matvtool]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [aoirint-matvtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aoirint_matvtool-0.2.0.tar.gz tmp/aoirint_matvtool-0.3.0b1.tar.gz --markdown 20230724/a/aoirint-matvtool/0.2.0-0.3.0b1/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230724/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [bento-sts]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [bento-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bento_sts-0.1.1.tar.gz tmp/bento_sts-0.1.2.tar.gz --markdown 20230724/b/bento-sts/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 04:02:28] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/1a/44/c1026b1a03c94307814aabb95ba597b7d8a69d4a1e1380d2e5d9942fbc05/alipay-sdk-python-3.6.72.tar.gz
+[2023-07-24 04:02:28] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2023-07-24 04:02:28] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.6.703.tar.gz tmp/alipay-sdk-python-3.6.72.tar.gz --markdown 20230724/a/alipay-sdk-python/3.6.703-3.6.72/diff.md --exclude *.pyd
+[2023-07-24 04:02:29] INFO root fetch - processPackages [ftdz-vip]: Remove: archive file [/home/abi/fetcher/tmp/ftdz_vip-1.0.0.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [ftdz-vip]: Remove: archive file [/home/abi/fetcher/tmp/ftdz_vip-1.0.1.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [ftdz-vip]: success
+[2023-07-24 04:02:29] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.2.0.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.3.0b1.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [aoirint-matvtool]: success
+[2023-07-24 04:02:29] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.94.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.95.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-07-24 04:02:29] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.80.4.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [aiutil]: Remove: archive file [/home/abi/fetcher/tmp/aiutil-0.80.5.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [aiutil]: success
+[2023-07-24 04:02:29] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.1.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - processPackages [bento-sts]: Remove: archive file [/home/abi/fetcher/tmp/bento_sts-0.1.2.tar.gz]
+[2023-07-24 04:02:29] INFO root fetch - main [MainThread]: End processing [bento-sts]: success
+[2023-07-24 04:05:28] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2023-07-24 04:05:28] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2023-07-24 04:05:28] INFO root fetch - main [MainThread]: Store serial: [19007307]
