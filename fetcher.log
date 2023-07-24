@@ -6590,3 +6590,24 @@
 [2023-07-24 05:31:56] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.23-py3-none-any.whl.zip]
 [2023-07-24 05:31:56] INFO root fetch - main [MainThread]: End processing [byquant]: success
 [2023-07-24 05:31:56] INFO root fetch - main [MainThread]: Store serial: [19007710]
+[2023-07-24 05:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007710]
+[2023-07-24 05:37:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-24 05:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlitzChain
+[2023-07-24 05:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axion
+[2023-07-24 05:37:05] INFO root fetch - processPackages [axion]: New version: [3.6.1] Old Version: [3.5.9]
+[2023-07-24 05:37:05] INFO root fetch - processPackages [BlitzChain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-24 05:37:05] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/70/e8/91761f82f4c52b4436510190073564e8177d044c179d18987ff243b2ec5c/BlitzChain-0.7.1.tar.gz
+[2023-07-24 05:37:05] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/76/67/0926fea0018276fab1956d2de52671ca3b1876028ffc3e47a3b0a62e67b4/axion-3.5.9-cp311-none-win_amd64.whl
+[2023-07-24 05:37:05] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/02/86/2ca8ecfaca9e7bea2ba26a01b058abc71ec347892f90d41ef11d7808be25/BlitzChain-0.8.0.tar.gz
+[2023-07-24 05:37:05] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/73/9b/fa7834988e971702a0f8cab597735a2b41a3c84a8df2f6e85733254b2a7c/axion-3.6.1-cp311-none-win_amd64.whl
+[2023-07-24 05:37:05] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-24 05:37:05] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.7.1.tar.gz tmp/BlitzChain-0.8.0.tar.gz --markdown 20230724/B/BlitzChain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-24 05:37:06] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-07-24 05:37:06] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip tmp/axion-3.6.1-cp311-none-win_amd64.whl.zip --markdown 20230724/a/axion/3.5.9-3.6.1/diff.md --exclude *.pyd
+[2023-07-24 05:37:06] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip]
+[2023-07-24 05:37:06] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.1-cp311-none-win_amd64.whl.zip]
+[2023-07-24 05:37:06] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-07-24 05:37:06] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.7.1.tar.gz]
+[2023-07-24 05:37:06] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.8.0.tar.gz]
+[2023-07-24 05:37:06] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-24 05:37:06] INFO root fetch - main [MainThread]: Store serial: [19007727]
