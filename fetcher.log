@@ -5027,3 +5027,125 @@
 [2023-07-24 03:35:33] ERROR root fetch - processPackages [bioregistry]: Timeout during execution of pkgdiff
 [2023-07-24 03:35:33] INFO root fetch - main [MainThread]: End processing [bioregistry] error
 [2023-07-24 03:35:33] INFO root fetch - main [MainThread]: Store serial: [19007059]
+[2023-07-24 03:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007059]
+[2023-07-24 03:40:41] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bojaxns
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pandas
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-linter
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: distributions-abcdefg
+[2023-07-24 03:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdme
+[2023-07-24 03:40:41] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] WARNING root fetch - processPackages [gpt-linter]: Skipping, unable to determine old version
+[2023-07-24 03:40:41] WARNING root fetch - processPackages [distributions-abcdefg]: Skipping, unable to determine old version
+[2023-07-24 03:40:41] INFO root fetch - processPackages [gpt-linter]: Start processing: nbdev-scipy
+[2023-07-24 03:40:41] INFO root fetch - main [MainThread]: End processing [gpt-linter] error
+[2023-07-24 03:40:41] INFO root fetch - processPackages [distributions-abcdefg]: Start processing: grss
+[2023-07-24 03:40:41] INFO root fetch - main [MainThread]: End processing [distributions-abcdefg] error
+[2023-07-24 03:40:41] INFO root fetch - processPackages [pdme]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [bojaxns]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:41] INFO root fetch - processPackages [grss]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/4f/df/796e731bfffae571063229abf8c6c5ab5da63f009ac65c62c37005ecf4ea/pdme-0.8.9.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [bojaxns]: Downloading https://files.pythonhosted.org/packages/ec/8b/fbf03af0ec9d6ac04d607643f6d64973c79f9bb3525afb957c2e4f7ff25f/bojaxns-1.0.1.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/ef/39/83380dd89f467517744a1068f180d4a65ae9cfbed0a7463e9ad8b9a0b098/grss-0.8.2.tar.gz
+[2023-07-24 03:40:42] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 28319976>=10485760
+[2023-07-24 03:40:42] INFO root fetch - processPackages [grss]: Start processing: localeet
+[2023-07-24 03:40:42] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pdme]: Downloading https://files.pythonhosted.org/packages/a9/13/1255f160dac7a8cfec5492e6b623df44418d9fc1cdec88976a7e94457d4e/pdme-0.9.0.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [localeet]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/7f/ba/7e3ae04492b4645de19c290e5264997c5ab8f71791e6e3eb0fdeee60fd58/localeet-0.1.4.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230724/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230724/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:42] INFO root fetch - processPackages [bojaxns]: Downloading https://files.pythonhosted.org/packages/4e/82/4421e35e3b09e4e903af8a6d17da9f7243ca9248bf03fb7e8a11b006e786/bojaxns-1.0.2.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230724/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230724/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pdme]: executing diffoscope
+[2023-07-24 03:40:42] INFO root fetch - processPackages [pdme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdme-0.8.9.tar.gz tmp/pdme-0.9.0.tar.gz --markdown 20230724/p/pdme/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 03:40:42] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-24 03:40:42] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-24 03:40:43] INFO root fetch - processPackages [bojaxns]: executing diffoscope
+[2023-07-24 03:40:43] INFO root fetch - processPackages [bojaxns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bojaxns-1.0.1.tar.gz tmp/bojaxns-1.0.2.tar.gz --markdown 20230724/b/bojaxns/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 03:40:43] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-24 03:40:43] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230724/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-24 03:40:43] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230724/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-24 03:40:43] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230724/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:43] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/7b/b2/77c7a70db600d56c6b79fc156aba954533428661cb8c5afddcc5e5951e8c/localeet-0.1.5.tar.gz
+[2023-07-24 03:40:43] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-07-24 03:40:43] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.1.4.tar.gz tmp/localeet-0.1.5.tar.gz --markdown 20230724/l/localeet/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 03:40:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: heare-sdk
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [heare-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: nbdev-sphinx
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.8.9.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [pdme]: Remove: archive file [/home/abi/fetcher/tmp/pdme-0.9.0.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [pdme]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [heare-sdk]: Downloading https://files.pythonhosted.org/packages/c2/c2/934a914d2c78401e20ac6d42fc8109166fb40ea0d5d19e960249ab3897d2/heare-sdk-0.0.8.tar.gz
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [bojaxns]: Remove: archive file [/home/abi/fetcher/tmp/bojaxns-1.0.1.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [bojaxns]: Remove: archive file [/home/abi/fetcher/tmp/bojaxns-1.0.2.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [bojaxns]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.4.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.5.tar.gz]
+[2023-07-24 03:40:44] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-07-24 03:40:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-24 03:40:45] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-24 03:40:45] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230724/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:40:45] INFO root fetch - processPackages [heare-sdk]: Downloading https://files.pythonhosted.org/packages/80/df/fab8578e4c6bacf8c81963cbe61fe0d367490d0313af0abf11056f354b15/heare-sdk-0.0.9.tar.gz
+[2023-07-24 03:40:45] INFO root fetch - processPackages [heare-sdk]: executing diffoscope
+[2023-07-24 03:40:45] INFO root fetch - processPackages [heare-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heare-sdk-0.0.8.tar.gz tmp/heare-sdk-0.0.9.tar.gz --markdown 20230724/h/heare-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 03:40:45] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-24 03:40:45] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-24 03:40:45] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-24 03:40:46] INFO root fetch - processPackages [heare-sdk]: Remove: archive file [/home/abi/fetcher/tmp/heare-sdk-0.0.8.tar.gz]
+[2023-07-24 03:40:46] INFO root fetch - processPackages [heare-sdk]: Remove: archive file [/home/abi/fetcher/tmp/heare-sdk-0.0.9.tar.gz]
+[2023-07-24 03:40:46] INFO root fetch - main [MainThread]: End processing [heare-sdk]: success
+[2023-07-24 03:40:46] INFO root fetch - main [MainThread]: Store serial: [19007140]
