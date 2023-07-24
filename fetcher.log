@@ -23146,3 +23146,213 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 17:04:30] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
 [2023-07-24 17:04:30] INFO root fetch - main [MainThread]: End processing [argilla]: success
 [2023-07-24 17:04:30] INFO root fetch - main [MainThread]: Store serial: [19014488]
+[2023-07-24 17:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014488]
+[2023-07-24 17:09:40] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: landfall
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medusa-zip
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-ipython-client
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-lib
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-scan-server
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtn-simrs
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-device-server
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-scan-bundler
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-file-writer
+[2023-07-24 17:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-dap
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [rtn-simrs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [landfall]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [medusa-zip]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-07-24 17:09:40] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/68/5a/9ef720515d24c5f2d732911b6dc8094a6c8d41b6a24e02f7803f51cd5e66/rtn_simrs-0.1.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/8c/df/4238b894218da89d8d48e75c00b84feca4faa8a1aaf1baea6e0a02b369fe/medusa-zip-0.0.6.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [landfall]: Downloading https://files.pythonhosted.org/packages/3c/11/6b9eee96efaa060678373db107f101cbb14d8154ccd8817012e850e73cc4/landfall-0.2.0.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/a6/44/ecf62b92c119c385cb5c4e94d4bb1867a502c484914e817929403085191b/rtn_simrs-0.1.3.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230724/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230724/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:41] INFO root fetch - processPackages [landfall]: Downloading https://files.pythonhosted.org/packages/1d/d6/e54762560deb51f471348025899fbb5a22430cf8194de5cb8842add46650/landfall-0.2.1.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [medusa-zip]: Downloading https://files.pythonhosted.org/packages/f7/a0/24ecadfea7a8464ce36e9ac52c13219442927dae847065f1ac552d94fd82/medusa-zip-0.0.7.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [rtn-simrs]: executing diffoscope
+[2023-07-24 17:09:41] INFO root fetch - processPackages [rtn-simrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtn_simrs-0.1.2.tar.gz tmp/rtn_simrs-0.1.3.tar.gz --markdown 20230724/r/rtn-simrs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230724/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230724/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:41] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-24 17:09:42] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230724/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:42] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-24 17:09:42] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230724/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:42] INFO root fetch - processPackages [landfall]: executing diffoscope
+[2023-07-24 17:09:42] INFO root fetch - processPackages [landfall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landfall-0.2.0.tar.gz tmp/landfall-0.2.1.tar.gz --markdown 20230724/l/landfall/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 17:09:42] INFO root fetch - processPackages [medusa-zip]: executing diffoscope
+[2023-07-24 17:09:42] INFO root fetch - processPackages [medusa-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medusa-zip-0.0.6.tar.gz tmp/medusa-zip-0.0.7.tar.gz --markdown 20230724/m/medusa-zip/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 17:09:42] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-24 17:09:42] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230724/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 17:09:43] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.3.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [rtn-simrs]: Start processing: bec-scihub
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [rtn-simrs]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scihub]: New version: [0.14.4] Old Version: [0.14.3]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-dap]: Start processing: bec-server
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-device-server]: Start processing: roblox-pyc
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-server]: New version: [0.14.4] Old Version: [0.14.3]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-ipython-client]: Start processing: globalemu
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [globalemu]: New version: [1.8.0] Old Version: [1.6.0]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/c1/90/c7eb08b0f38e8e1b840de869985bf200fc3b451cdd03538c319b80442bf1/bec_scihub-0.14.3.tar.gz
+[2023-07-24 17:09:43] INFO root fetch - processPackages [landfall]: Remove: archive file [/home/abi/fetcher/tmp/landfall-0.2.0.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [landfall]: Remove: archive file [/home/abi/fetcher/tmp/landfall-0.2.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [landfall]: Start processing: django-fernet-encrypted-fields
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [landfall]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-file-writer]: Start processing: curifactory
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-bundler]: Start processing: rec-spotify
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/03/59/0db716edc058541996c8f5d7b40911aa8ec9c08c7dcb94041d3c0b7d932e/bec-server-0.14.3.tar.gz
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-scan-server]: Start processing: intellect-core
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [django-fernet-encrypted-fields]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [curifactory]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.6.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [medusa-zip]: Remove: archive file [/home/abi/fetcher/tmp/medusa-zip-0.0.7.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [medusa-zip]: Start processing: aliyun-python-sdk-rds
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [medusa-zip]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [rec-spotify]: New version: [1.3] Old Version: [1.2.3]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [globalemu]: Downloading https://files.pythonhosted.org/packages/92/04/9f1416ae6b1f4deed9b9e0c88ad20adc2383e97a16f5776c53978795b7a5/globalemu-1.6.0.tar.gz
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-24 17:09:43] INFO root fetch - processPackages [bec-lib]: Start processing: chronica
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-24 17:09:43] INFO root fetch - processPackages [intellect-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 17:09:43] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-24 17:09:43] WARNING root fetch - processPackages [chronica]: Skipping, unable to determine old version
+[2023-07-24 17:09:43] INFO root fetch - processPackages [chronica]: Start processing: palmers-kpis
+[2023-07-24 17:09:43] INFO root fetch - main [MainThread]: End processing [chronica] error
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/bb/93/72d81fdd08d59dc2a5f66a43a85c80f4f6a8db16ce8982eba18b89b5ede1/bec_scihub-0.14.4.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/b1/d3/cb750220db3164dcd9e7d0b52a40790608877d77d6bdd893c9308c4d3553/rec_spotify-1.2.3.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [django-fernet-encrypted-fields]: Downloading https://files.pythonhosted.org/packages/14/22/7df13a7681905195a05239e09537ea5b2a9900bf9bc1918d746ef52b2a63/django-fernet-encrypted-fields-0.1.2.tar.gz
+[2023-07-24 17:09:44] WARNING root fetch - processPackages [palmers-kpis]: Skipping, unable to determine old version
+[2023-07-24 17:09:44] INFO root fetch - processPackages [palmers-kpis]: Start processing: asgi-replay
+[2023-07-24 17:09:44] INFO root fetch - main [MainThread]: End processing [palmers-kpis] error
+[2023-07-24 17:09:44] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/43/cd/1482f6b77e0ebe7dbb03526553d599b74216ed800a2bc828c960af07aa0c/curifactory-0.9.2.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-24 17:09:44] WARNING root fetch - processPackages [asgi-replay]: Skipping, unable to determine old version
+[2023-07-24 17:09:44] INFO root fetch - processPackages [asgi-replay]: Start processing: iparapheur-provisioning
+[2023-07-24 17:09:44] INFO root fetch - main [MainThread]: End processing [asgi-replay] error
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-0.14.3.tar.gz tmp/bec_scihub-0.14.4.tar.gz --markdown 20230724/b/bec-scihub/0.14.3-0.14.4/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/8f/46/ec2241462a21ee3817de3c3378c56283d6c5e0ab35c2f48aa24fe07e2655/bec-server-0.14.4.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [intellect-core]: Downloading https://files.pythonhosted.org/packages/48/5d/23733f06cd917dc4455fc495cd65711e4959cf8cdeb7faf28611dd23c814/intellect_core-0.2.0.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [globalemu]: Downloading https://files.pythonhosted.org/packages/ec/75/15c7291505c44a4afde1113c732e2130fbf660301bdf02d034587d44b56f/globalemu-1.8.0.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [iparapheur-provisioning]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-07-24 17:09:44] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-0.14.3.tar.gz tmp/bec-server-0.14.4.tar.gz --markdown 20230724/b/bec-server/0.14.3-0.14.4/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [django-fernet-encrypted-fields]: Downloading https://files.pythonhosted.org/packages/d5/b9/d5fec53d65603132f31c24cb5ed2d02c7a86f566dcaaa32e0e907f1d3fd3/django-fernet-encrypted-fields-0.1.3.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [globalemu]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [globalemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalemu-1.6.0.tar.gz tmp/globalemu-1.8.0.tar.gz --markdown 20230724/g/globalemu/1.6.0-1.8.0/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230724/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/b6/11/7889ddebdee0d6632477c1ba8d4e50c31161c418a962c215c34a0ff5b01d/rec_spotify-1.3.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/7e/95/9af494553e97389f43b3df0beceea8b86121b6d9ae17c501acf39b4600da/iparapheur-provisioning-1.7.2.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [django-fernet-encrypted-fields]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [django-fernet-encrypted-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-fernet-encrypted-fields-0.1.2.tar.gz tmp/django-fernet-encrypted-fields-0.1.3.tar.gz --markdown 20230724/d/django-fernet-encrypted-fields/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [rec-spotify]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [curifactory]: Downloading https://files.pythonhosted.org/packages/e8/a1/edd6b10e0dfa428e84dd7fa01e1d4ea7712a972a1b598782111f228d346d/curifactory-0.9.3.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [rec-spotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_spotify-1.2.3.tar.gz tmp/rec_spotify-1.3.tar.gz --markdown 20230724/r/rec-spotify/1.2.3-1.3/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230724/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [intellect-core]: Downloading https://files.pythonhosted.org/packages/c3/c7/388fb83e80f6215d0790d23ae208d48db2e7d36086a404bb5b135f2db156/intellect_core-0.2.1.tar.gz
+[2023-07-24 17:09:44] INFO root fetch - processPackages [intellect-core]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [intellect-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intellect_core-0.2.0.tar.gz tmp/intellect_core-0.2.1.tar.gz --markdown 20230724/i/intellect-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 17:09:44] INFO root fetch - processPackages [curifactory]: executing diffoscope
+[2023-07-24 17:09:44] INFO root fetch - processPackages [curifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curifactory-0.9.2.tar.gz tmp/curifactory-0.9.3.tar.gz --markdown 20230724/c/curifactory/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 17:09:45] INFO root fetch - processPackages [iparapheur-provisioning]: Downloading https://files.pythonhosted.org/packages/d2/d2/7b0c59946ac18de32f283a4bf84bc647907ea96bd634665b6a8ca3d656b8/iparapheur-provisioning-1.7.3.tar.gz
+[2023-07-24 17:09:45] INFO root fetch - processPackages [iparapheur-provisioning]: executing diffoscope
+[2023-07-24 17:09:45] INFO root fetch - processPackages [iparapheur-provisioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-provisioning-1.7.2.tar.gz tmp/iparapheur-provisioning-1.7.3.tar.gz --markdown 20230724/i/iparapheur-provisioning/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.3.tar.gz]
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.4.tar.gz]
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-scihub]: Start processing: yellowdog-sdk
+[2023-07-24 17:09:45] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2023-07-24 17:09:45] INFO root fetch - processPackages [yellowdog-sdk]: New version: [7.1.1] Old Version: [7.0.5]
+[2023-07-24 17:09:45] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/0c/6a/37b95680dd972b841f8cf6ff218e522960f239ee392dff1f101076204d8a/yellowdog_sdk-7.0.5-py3-none-any.whl
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.14.3.tar.gz]
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-0.14.4.tar.gz]
+[2023-07-24 17:09:45] INFO root fetch - processPackages [bec-server]: Start processing: core-devoops
+[2023-07-24 17:09:45] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2023-07-24 17:09:45] INFO root fetch - processPackages [core-devoops]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/3c/93/adfe9f514ec315e817eaf2e1c5f1bb25cf7d0f2cbc936770e2c979d2aabd/core_devoops-0.0.8.tar.gz
+[2023-07-24 17:09:46] INFO root fetch - processPackages [django-fernet-encrypted-fields]: Remove: archive file [/home/abi/fetcher/tmp/django-fernet-encrypted-fields-0.1.2.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [django-fernet-encrypted-fields]: Remove: archive file [/home/abi/fetcher/tmp/django-fernet-encrypted-fields-0.1.3.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [django-fernet-encrypted-fields]: success
+[2023-07-24 17:09:46] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-24 17:09:46] INFO root fetch - processPackages [yellowdog-sdk]: Downloading https://files.pythonhosted.org/packages/8c/a6/bfc5cadc2f9303b0249a609e6e9955588b0d66d1c8bf78622ef7f98c1bd1/yellowdog_sdk-7.1.1-py3-none-any.whl
+[2023-07-24 17:09:46] INFO root fetch - processPackages [globalemu]: Remove: archive file [/home/abi/fetcher/tmp/globalemu-1.6.0.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [globalemu]: Remove: archive file [/home/abi/fetcher/tmp/globalemu-1.8.0.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [globalemu]: success
+[2023-07-24 17:09:46] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/2a/51/6533d996524e40b530571bc10bc34c3cb3d204851df2ef711ffaf9c70b84/core_devoops-0.0.9.tar.gz
+[2023-07-24 17:09:46] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 17:09:46] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.8.tar.gz tmp/core_devoops-0.0.9.tar.gz --markdown 20230724/c/core-devoops/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:09:46] INFO root fetch - processPackages [intellect-core]: Remove: archive file [/home/abi/fetcher/tmp/intellect_core-0.2.0.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [intellect-core]: Remove: archive file [/home/abi/fetcher/tmp/intellect_core-0.2.1.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [intellect-core]: success
+[2023-07-24 17:09:46] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.3.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.3.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [rec-spotify]: success
+[2023-07-24 17:09:46] INFO root fetch - processPackages [yellowdog-sdk]: executing diffoscope
+[2023-07-24 17:09:46] INFO root fetch - processPackages [yellowdog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_sdk-7.0.5-py3-none-any.whl.zip tmp/yellowdog_sdk-7.1.1-py3-none-any.whl.zip --markdown 20230724/y/yellowdog-sdk/7.0.5-7.1.1/diff.md --exclude *.pyd
+[2023-07-24 17:09:46] INFO root fetch - processPackages [curifactory]: Remove: archive file [/home/abi/fetcher/tmp/curifactory-0.9.2.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - processPackages [curifactory]: Remove: archive file [/home/abi/fetcher/tmp/curifactory-0.9.3.tar.gz]
+[2023-07-24 17:09:46] INFO root fetch - main [MainThread]: End processing [curifactory]: success
+[2023-07-24 17:09:47] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.8.tar.gz]
+[2023-07-24 17:09:47] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.9.tar.gz]
+[2023-07-24 17:09:47] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 17:09:47] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-24 17:09:47] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-24 17:09:47] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-24 17:09:48] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.7.2.tar.gz]
+[2023-07-24 17:09:48] INFO root fetch - processPackages [iparapheur-provisioning]: Remove: archive file [/home/abi/fetcher/tmp/iparapheur-provisioning-1.7.3.tar.gz]
+[2023-07-24 17:09:48] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning]: success
+[2023-07-24 17:09:48] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.0.5-py3-none-any.whl.zip]
+[2023-07-24 17:09:48] INFO root fetch - processPackages [yellowdog-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_sdk-7.1.1-py3-none-any.whl.zip]
+[2023-07-24 17:09:48] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
+[2023-07-24 17:09:48] INFO root fetch - main [MainThread]: Store serial: [19014614]
