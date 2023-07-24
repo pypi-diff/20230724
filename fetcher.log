@@ -10497,3 +10497,127 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:28:40] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
 [2023-07-24 09:28:40] INFO root fetch - main [MainThread]: End processing [moptipy]: success
 [2023-07-24 09:28:40] INFO root fetch - main [MainThread]: Store serial: [19009432]
+[2023-07-24 09:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009432]
+[2023-07-24 09:33:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgsqlx
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proctracer
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kistipy
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysqlx-generator
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: switbuilder-core
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zanj
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-kusto
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mtng
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-project-duplicate-subtask
+[2023-07-24 09:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mdid
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mtng]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [kistipy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 09:33:51] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-24 09:33:51] INFO root fetch - processPackages [proctracer]: Start processing: roadlib
+[2023-07-24 09:33:51] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-24 09:33:51] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [zanj]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [azure-mgmt-kusto]: New version: [3.2.0] Old Version: [3.1.0b1]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mdid]: New version: [3.7.7] Old Version: [3.7.6]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [roadlib]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-24 09:33:51] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mtng]: Downloading https://files.pythonhosted.org/packages/4f/72/0aa4cca53efb69400ab500b3e0c3110250d5c3d363765701ce0bf077b544/mtng-0.7.1.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/8a/80/54aadda61f8ea7440ef1d39f8056f091945d5f4849fce7600f6da415c57a/pgsqlx-1.6.1.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/2a/07/9fc3d87f6f70c241874f69247d31f476ae47860156907f2492c5949bfbcd/kistipy-0.0.4.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/4c/2c/6ef6f516c3f4e54e1029a0cb6a9b3892a7663fc18dbbd9d31fec851c4753/mysqlx-generator-1.5.3.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/2f/83/6c373c351ea48211ff76ee4c10bab56d397c13efc19d7a4786cd975686d8/odoo_addon_project_duplicate_subtask-15.0.1.0.0.5-py3-none-any.whl
+[2023-07-24 09:33:51] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/1a/18/3af8bd48f24dde9a1aedce02b0988cce4f4229a006ae4c4e33a48d0b84eb/zanj-0.1.4.tar.gz
+[2023-07-24 09:33:51] INFO root fetch - processPackages [mdid]: Downloading https://files.pythonhosted.org/packages/32/79/0374a3af456f5b714f0b844f836aa7e36aed8c0769ba478912abc4cb60ef/mdid-3.7.6-py3-none-any.whl
+[2023-07-24 09:33:51] INFO root fetch - processPackages [azure-mgmt-kusto]: Downloading https://files.pythonhosted.org/packages/84/fa/74c793cf7d64f43cf7eb9c220c11a007637433f7908596b7a8f2a9d80149/azure-mgmt-kusto-3.1.0b1.zip
+[2023-07-24 09:33:51] INFO root fetch - processPackages [roadlib]: Downloading https://files.pythonhosted.org/packages/cc/7f/fe8eda1e7f9f477e06ee1220e891a94d9a995574cc2acb7b9dc9fd37ce14/roadlib-0.8.1.tar.gz
+[2023-07-24 09:33:52] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-07-24 09:33:52] WARNING root fetch - processPackages [mdid]: Skipping package: exceeds size limit 15736919>=10485760
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mdid]: Start processing: maths-saurabh0402
+[2023-07-24 09:33:52] INFO root fetch - main [MainThread]: End processing [mdid] error
+[2023-07-24 09:33:52] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230724/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mtng]: Downloading https://files.pythonhosted.org/packages/3a/c1/1accf8886da81a3f0ecd451b6e5823fe6f583ea41ee69dd7c82f41dd0339/mtng-0.7.2.tar.gz
+[2023-07-24 09:33:52] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/92/3b/ae1ce713fc129b83ead30ed2b8b5e0d66870d48960861f466110863a96ce/pgsqlx-1.6.2.tar.gz
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/66/34/993e6e2ad2989f371b95a00376b1a89c9c9a02123187526d50655965c841/kistipy-0.0.5.tar.gz
+[2023-07-24 09:33:52] WARNING root fetch - processPackages [maths-saurabh0402]: Skipping, unable to determine old version
+[2023-07-24 09:33:52] INFO root fetch - processPackages [maths-saurabh0402]: Start processing: yao-test-package
+[2023-07-24 09:33:52] INFO root fetch - main [MainThread]: End processing [maths-saurabh0402] error
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/54/a3/cf7ad8674490ee478457e6d098a9ee951abee7036652430b08bb2c1d2e7e/mysqlx-generator-1.6.0.tar.gz
+[2023-07-24 09:33:52] WARNING root fetch - processPackages [yao-test-package]: Skipping, unable to determine old version
+[2023-07-24 09:33:52] INFO root fetch - processPackages [yao-test-package]: Start processing: kistipy
+[2023-07-24 09:33:52] INFO root fetch - main [MainThread]: End processing [yao-test-package] error
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mtng]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mtng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtng-0.7.1.tar.gz tmp/mtng-0.7.2.tar.gz --markdown 20230724/m/mtng/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.6.1.tar.gz tmp/pgsqlx-1.6.2.tar.gz --markdown 20230724/p/pgsqlx/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/a1/5e/a136e0f3ff4828791bae93cedba5ea7e5d66eff22bf1761e9b83cc756098/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kistipy-0.0.4.tar.gz tmp/kistipy-0.0.5.tar.gz --markdown 20230724/k/kistipy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.5.3.tar.gz tmp/mysqlx-generator-1.6.0.tar.gz --markdown 20230724/m/mysqlx-generator/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [azure-mgmt-kusto]: Downloading https://files.pythonhosted.org/packages/dd/a8/9fd22cfb7cae3a77434f85460b72b3247460ed63ea6fd1426aed29633fc9/azure-mgmt-kusto-3.2.0.zip
+[2023-07-24 09:33:52] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/7a/bc/f4c600332720e47926d3f1614db4774c550539a0c0c3654b5663f494713b/zanj-0.2.0.tar.gz
+[2023-07-24 09:33:52] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_duplicate_subtask-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-project-duplicate-subtask/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [roadlib]: Downloading https://files.pythonhosted.org/packages/6f/80/20c11c3362758ff1a66662c0a0b7e4ac489b02b2adcec083a2f0bb25ccc3/roadlib-0.9.0.tar.gz
+[2023-07-24 09:33:52] INFO root fetch - processPackages [azure-mgmt-kusto]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [azure-mgmt-kusto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-kusto-3.1.0b1.zip tmp/azure-mgmt-kusto-3.2.0.zip --markdown 20230724/a/azure-mgmt-kusto/3.1.0b1-3.2.0/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [zanj]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [zanj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zanj-0.1.4.tar.gz tmp/zanj-0.2.0.tar.gz --markdown 20230724/z/zanj/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [kistipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kistipy-0.0.4.tar.gz tmp/kistipy-0.0.5.tar.gz --markdown 20230724/k/kistipy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 09:33:52] INFO root fetch - processPackages [roadlib]: executing diffoscope
+[2023-07-24 09:33:52] INFO root fetch - processPackages [roadlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roadlib-0.8.1.tar.gz tmp/roadlib-0.9.0.tar.gz --markdown 20230724/r/roadlib/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 09:33:54] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.4.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.5.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [kistipy]: Start processing: hifibgc
+[2023-07-24 09:33:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.5.3.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [kistipy]: success
+[2023-07-24 09:33:54] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.6.0.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [mysqlx-generator]: Start processing: kevin-toolbox
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-24 09:33:54] WARNING root fetch - processPackages [hifibgc]: Skipping, unable to determine old version
+[2023-07-24 09:33:54] INFO root fetch - processPackages [hifibgc]: Start processing: catalogue
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [hifibgc] error
+[2023-07-24 09:33:54] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.1.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.2.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-24 09:33:54] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.1.4.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.2.0.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [mtng]: Remove: archive file [/home/abi/fetcher/tmp/mtng-0.7.1.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [mtng]: Remove: archive file [/home/abi/fetcher/tmp/mtng-0.7.2.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [zanj]: success
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [mtng]: success
+[2023-07-24 09:33:54] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-24 09:33:54] INFO root fetch - processPackages [catalogue]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [kistipy]: success
+[2023-07-24 09:33:54] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_duplicate_subtask-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-24 09:33:54] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 09:33:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-duplicate-subtask]: success
+[2023-07-24 09:33:55] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/23/e4/5549c474dbe56b0a4d0de44ef6ab9d24706111c72d5a5c4e9ee8aaecff2e/kevin-toolbox-1.1.2.tar.gz
+[2023-07-24 09:33:55] INFO root fetch - processPackages [roadlib]: Remove: archive file [/home/abi/fetcher/tmp/roadlib-0.8.1.tar.gz]
+[2023-07-24 09:33:55] INFO root fetch - processPackages [roadlib]: Remove: archive file [/home/abi/fetcher/tmp/roadlib-0.9.0.tar.gz]
+[2023-07-24 09:33:55] INFO root fetch - main [MainThread]: End processing [roadlib]: success
+[2023-07-24 09:33:55] INFO root fetch - processPackages [catalogue]: Downloading https://files.pythonhosted.org/packages/d5/bd/c3d49317881ae32952ab269b6033b0234972086a35aef6b1fe19796f3079/catalogue-2.0.9.tar.gz
+[2023-07-24 09:33:55] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/cc/e2/1ff43f2f5ffe35d3e5d4c0906998afb5cf7a9ffc7a46fad849cf9f121e65/kevin-toolbox-1.1.3.tar.gz
+[2023-07-24 09:33:55] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-07-24 09:33:55] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.1.2.tar.gz tmp/kevin-toolbox-1.1.3.tar.gz --markdown 20230724/k/kevin-toolbox/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-24 09:33:55] INFO root fetch - processPackages [azure-mgmt-kusto]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-kusto-3.1.0b1.zip]
+[2023-07-24 09:33:55] INFO root fetch - processPackages [azure-mgmt-kusto]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-kusto-3.2.0.zip]
+[2023-07-24 09:33:55] INFO root fetch - main [MainThread]: End processing [azure-mgmt-kusto]: success
+[2023-07-24 09:33:55] INFO root fetch - processPackages [catalogue]: Downloading https://files.pythonhosted.org/packages/ff/03/e67744cbf6ab0d5437a8f27775c60b08a28790eb2f1fb36a6f47868303a9/catalogue-2.1.0.tar.gz
+[2023-07-24 09:33:55] INFO root fetch - processPackages [catalogue]: executing diffoscope
+[2023-07-24 09:33:55] INFO root fetch - processPackages [catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalogue-2.0.9.tar.gz tmp/catalogue-2.1.0.tar.gz --markdown 20230724/c/catalogue/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:33:56] INFO root fetch - processPackages [catalogue]: Remove: archive file [/home/abi/fetcher/tmp/catalogue-2.0.9.tar.gz]
+[2023-07-24 09:33:56] INFO root fetch - processPackages [catalogue]: Remove: archive file [/home/abi/fetcher/tmp/catalogue-2.1.0.tar.gz]
+[2023-07-24 09:33:56] INFO root fetch - main [MainThread]: End processing [catalogue]: success
+[2023-07-24 09:33:56] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.2.tar.gz]
+[2023-07-24 09:33:56] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.3.tar.gz]
+[2023-07-24 09:33:56] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-07-24 09:33:56] INFO root fetch - main [MainThread]: Store serial: [19009484]
