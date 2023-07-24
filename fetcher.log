@@ -21591,3 +21591,119 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:18:12] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230723-py3-none-any.whl.zip]
 [2023-07-24 16:18:12] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
 [2023-07-24 16:18:12] INFO root fetch - main [MainThread]: Store serial: [19013952]
+[2023-07-24 16:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013952]
+[2023-07-24 16:23:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cytotransform
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etherbase-predeployed
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protoc-gen-pyproject
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparsify-nightly
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nm-transformers-nightly
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nm-yolov5-nightly
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mio-cli
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groclient
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phidata
+[2023-07-24 16:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adafruit-circuitpython-dash-display
+[2023-07-24 16:23:24] INFO root fetch - processPackages [cytotransform]: New version: [0.2.11] Old Version: [0.2.1]
+[2023-07-24 16:23:24] INFO root fetch - processPackages [protoc-gen-pyproject]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 16:23:24] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: New version: [2.0.0] Old Version: [1.1.9]
+[2023-07-24 16:23:24] INFO root fetch - processPackages [groclient]: New version: [1.98.0] Old Version: [1.83.0.dev13]
+[2023-07-24 16:23:24] INFO root fetch - processPackages [mio-cli]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [phidata]: New version: [2.0.0.dev7] Old Version: [2.0.0.dev6]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [nm-yolov5-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230720]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [sparsify-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230721]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [nm-transformers-nightly]: New version: [1.6.0.20230723] Old Version: [1.6.0.20230720]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [protoc-gen-pyproject]: Downloading https://files.pythonhosted.org/packages/77/f8/4f5398ec0786879ead487c18c87cd0fa5ddd346ae86db7a3ddc4aa199bed/protoc-gen-pyproject-0.3.1.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/af/b3/d01c492f6d28d6db53b1484e475fcc310468f745cf4922491fecf5f0606b/mio-cli-1.3.1.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/47/14/5fe6646a849a4baa05678779cea2138ac2c9d71cf35ddc928d4c9d1cf0d1/cytotransform-0.2.1.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Downloading https://files.pythonhosted.org/packages/e9/98/8ef74bbb4d394e8d68e9573b0a64c7d6ffc3663cdee9aa1d251bdf2a0253/adafruit-circuitpython-dash-display-1.1.9.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [groclient]: Downloading https://files.pythonhosted.org/packages/e1/13/4fd23ad8c6f9c32cc22710cf30844d0049717fc7a6f74f0d589403dca302/groclient-1.83.0.dev13.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/ac/32/cb1fd8ae1d82e395d8d74d337ac331c445d9e611b3c4cd1cc84b2bf3ce9b/phidata-2.0.0.dev6.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/7d/b5/279eef4156d1bba593b97ab5a0e6ff10df7de86d21ac8bfee136ce9274b6/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-24 16:23:25] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/fa/e2/5fd98f053aff25919268b75cc1b1d587b6b596330dc5517855ebb124b622/sparsify-nightly-1.6.0.20230721.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/b8/ed/819b209d753a46ccfb5e94f60aae28b5b49323694b1304fc036fc5c1ff89/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-24 16:23:25] INFO root fetch - processPackages [protoc-gen-pyproject]: Downloading https://files.pythonhosted.org/packages/e3/fa/1b40baceddfbb09f8a73c27c9086e11f9b3c366d658486eed31c0630fb18/protoc-gen-pyproject-0.3.2.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/08/15/43642d70b26da5c97cc004b4200ea6654cb81be213ef695c70d35f224b5b/cytotransform-0.2.11.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Downloading https://files.pythonhosted.org/packages/65/2e/f5526120865519a4e9a93c7cd5becba18ff049455d6fb2b88d96ae51931b/adafruit-circuitpython-dash-display-2.0.0.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [protoc-gen-pyproject]: executing diffoscope
+[2023-07-24 16:23:25] INFO root fetch - processPackages [protoc-gen-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc-gen-pyproject-0.3.1.tar.gz tmp/protoc-gen-pyproject-0.3.2.tar.gz --markdown 20230724/p/protoc-gen-pyproject/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cytotransform]: executing diffoscope
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cytotransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytotransform-0.2.1.tar.gz tmp/cytotransform-0.2.11.tar.gz --markdown 20230724/c/cytotransform/0.2.1-0.2.11/diff.md --exclude *.pyd
+[2023-07-24 16:23:25] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/ca/81/8a3191bcba40e185798f630fe4457bcc5496adf749c2f09b307d21c17eb8/sparsify-nightly-1.6.0.20230723.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/d6/95/085c3b708d1a19602aff9fff3355c9b11908fb89294a74ad785743aefdde/phidata-2.0.0.dev7.tar.gz
+[2023-07-24 16:23:25] WARNING root fetch - processPackages [groclient]: Skipping package: exceeds size limit 14129293>=10485760
+[2023-07-24 16:23:25] INFO root fetch - processPackages [groclient]: Start processing: cubicweb-iprogress
+[2023-07-24 16:23:25] INFO root fetch - main [MainThread]: End processing [groclient] error
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cubicweb-iprogress]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-07-24 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: executing diffoscope
+[2023-07-24 16:23:25] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-dash-display-1.1.9.tar.gz tmp/adafruit-circuitpython-dash-display-2.0.0.tar.gz --markdown 20230724/a/adafruit-circuitpython-dash-display/1.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-24 16:23:25] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/ce/32/0be31da141ba27e127f5950160dc5931356f62d13d6036a78b593b30d947/nm_yolov5_nightly-1.6.0.20230723-py3-none-any.whl
+[2023-07-24 16:23:25] INFO root fetch - processPackages [sparsify-nightly]: executing diffoscope
+[2023-07-24 16:23:25] INFO root fetch - processPackages [sparsify-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsify-nightly-1.6.0.20230721.tar.gz tmp/sparsify-nightly-1.6.0.20230723.tar.gz --markdown 20230724/s/sparsify-nightly/1.6.0.20230721-1.6.0.20230723/diff.md --exclude *.pyd
+[2023-07-24 16:23:25] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/43/77/f20ef367a98f85b36fc80fb0ecde8c9da00cf0a904291ee29ecae559ef20/mio-cli-1.3.2.tar.gz
+[2023-07-24 16:23:25] INFO root fetch - processPackages [cubicweb-iprogress]: Downloading https://files.pythonhosted.org/packages/19/e1/c4d92b3c7cbd62a25417d976b89ad0257d7808ee1d6f3c0e74ed904cb04d/cubicweb-iprogress-0.4.0.tar.gz
+[2023-07-24 16:23:26] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-07-24 16:23:26] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.0.0.dev6.tar.gz tmp/phidata-2.0.0.dev7.tar.gz --markdown 20230724/p/phidata/2.0.0.dev6-2.0.0.dev7/diff.md --exclude *.pyd
+[2023-07-24 16:23:26] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-07-24 16:23:26] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230724/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-24 16:23:26] INFO root fetch - processPackages [nm-yolov5-nightly]: executing diffoscope
+[2023-07-24 16:23:26] INFO root fetch - processPackages [nm-yolov5-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl.zip tmp/nm_yolov5_nightly-1.6.0.20230723-py3-none-any.whl.zip --markdown 20230724/n/nm-yolov5-nightly/1.6.0.20230720-1.6.0.20230723/diff.md --exclude *.pyd
+[2023-07-24 16:23:26] INFO root fetch - processPackages [cubicweb-iprogress]: Downloading https://files.pythonhosted.org/packages/e9/0d/ee3fd5aa41c3566b892c0afa9be3ed1879641fe125442b1d85ea42317dcc/cubicweb-iprogress-1.0.0.tar.gz
+[2023-07-24 16:23:26] INFO root fetch - processPackages [cubicweb-iprogress]: executing diffoscope
+[2023-07-24 16:23:26] INFO root fetch - processPackages [cubicweb-iprogress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-iprogress-0.4.0.tar.gz tmp/cubicweb-iprogress-1.0.0.tar.gz --markdown 20230724/c/cubicweb-iprogress/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 16:23:26] INFO root fetch - processPackages [mio-cli]: executing diffoscope
+[2023-07-24 16:23:26] INFO root fetch - processPackages [mio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mio-cli-1.3.1.tar.gz tmp/mio-cli-1.3.2.tar.gz --markdown 20230724/m/mio-cli/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-24 16:23:26] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/c3/b9/ac69207aa6ce0a59acb19400ba408c2e4cbea908fc8e422d447234bccdb6/nm_transformers_nightly-1.6.0.20230723-py3-none-any.whl
+[2023-07-24 16:23:27] INFO root fetch - processPackages [protoc-gen-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/protoc-gen-pyproject-0.3.1.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [protoc-gen-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/protoc-gen-pyproject-0.3.2.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [protoc-gen-pyproject]: Start processing: otree-vcee-payment
+[2023-07-24 16:23:27] INFO root fetch - main [MainThread]: End processing [protoc-gen-pyproject]: success
+[2023-07-24 16:23:27] INFO root fetch - processPackages [otree-vcee-payment]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.2.1.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.2.11.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [cytotransform]: Start processing: perming
+[2023-07-24 16:23:27] INFO root fetch - main [MainThread]: End processing [cytotransform]: success
+[2023-07-24 16:23:27] INFO root fetch - processPackages [perming]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [nm-transformers-nightly]: executing diffoscope
+[2023-07-24 16:23:27] INFO root fetch - processPackages [nm-transformers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl.zip tmp/nm_transformers_nightly-1.6.0.20230723-py3-none-any.whl.zip --markdown 20230724/n/nm-transformers-nightly/1.6.0.20230720-1.6.0.20230723/diff.md --exclude *.pyd
+[2023-07-24 16:23:27] INFO root fetch - processPackages [otree-vcee-payment]: Downloading https://files.pythonhosted.org/packages/b4/b2/089396d3ae52a7da10aa74ffc3775c6e23da5539e620d4d46202ae2aad72/otree-vcee-payment-0.8.1.tar.gz
+[2023-07-24 16:23:27] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/7f/44/ee273bd8aff5254476fb52343100b25e4d1a5760023b92f28cee44d21d45/perming-1.4.2-py3-none-any.whl
+[2023-07-24 16:23:27] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-dash-display-1.1.9.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [adafruit-circuitpython-dash-display]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-dash-display-2.0.0.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-dash-display]: success
+[2023-07-24 16:23:27] INFO root fetch - processPackages [otree-vcee-payment]: Downloading https://files.pythonhosted.org/packages/95/a9/dc68c83a5d217e8bc975befc4569ab066de6f48076f00270a645a4b8f6a8/otree_vcee_payment-0.9.0.tar.gz
+[2023-07-24 16:23:27] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/1d/62/36a8d38eb46c135b8ce9fca0148c9707fe2acd44d8db65eca84df9c78f7c/perming-1.4.3-py3-none-any.whl
+[2023-07-24 16:23:27] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-07-24 16:23:27] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-07-24 16:23:28] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.6.0.20230721.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.6.0.20230723.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - main [MainThread]: End processing [sparsify-nightly]: success
+[2023-07-24 16:23:28] INFO root fetch - processPackages [otree-vcee-payment]: executing diffoscope
+[2023-07-24 16:23:28] INFO root fetch - processPackages [otree-vcee-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otree-vcee-payment-0.8.1.tar.gz tmp/otree_vcee_payment-0.9.0.tar.gz --markdown 20230724/o/otree-vcee-payment/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 16:23:28] INFO root fetch - processPackages [perming]: executing diffoscope
+[2023-07-24 16:23:28] INFO root fetch - processPackages [perming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perming-1.4.2-py3-none-any.whl.zip tmp/perming-1.4.3-py3-none-any.whl.zip --markdown 20230724/p/perming/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-24 16:23:28] INFO root fetch - processPackages [cubicweb-iprogress]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-iprogress-0.4.0.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - processPackages [cubicweb-iprogress]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-iprogress-1.0.0.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - main [MainThread]: End processing [cubicweb-iprogress]: success
+[2023-07-24 16:23:28] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-24 16:23:28] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230723-py3-none-any.whl.zip]
+[2023-07-24 16:23:28] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly]: success
+[2023-07-24 16:23:28] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.3.1.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.3.2.tar.gz]
+[2023-07-24 16:23:28] INFO root fetch - main [MainThread]: End processing [mio-cli]: success
+[2023-07-24 16:23:29] INFO root fetch - processPackages [otree-vcee-payment]: Remove: archive file [/home/abi/fetcher/tmp/otree-vcee-payment-0.8.1.tar.gz]
+[2023-07-24 16:23:29] INFO root fetch - processPackages [otree-vcee-payment]: Remove: archive file [/home/abi/fetcher/tmp/otree_vcee_payment-0.9.0.tar.gz]
+[2023-07-24 16:23:29] INFO root fetch - main [MainThread]: End processing [otree-vcee-payment]: success
+[2023-07-24 16:23:29] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.4.2-py3-none-any.whl.zip]
+[2023-07-24 16:23:29] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.4.3-py3-none-any.whl.zip]
+[2023-07-24 16:23:29] INFO root fetch - main [MainThread]: End processing [perming]: success
+[2023-07-24 16:23:30] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev6.tar.gz]
+[2023-07-24 16:23:30] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.0.0.dev7.tar.gz]
+[2023-07-24 16:23:30] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-07-24 16:23:37] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-24 16:23:37] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230723-py3-none-any.whl.zip]
+[2023-07-24 16:23:37] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
+[2023-07-24 16:23:37] INFO root fetch - main [MainThread]: Store serial: [19013996]
