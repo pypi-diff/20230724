@@ -11312,3 +11312,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:02:13] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-24 10:02:13] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-24 10:02:13] INFO root fetch - main [MainThread]: Store serial: [19009702]
+[2023-07-24 10:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009702]
+[2023-07-24 10:07:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snappi
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wcommon
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dev-assistant-client
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htscf
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easycompletion
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: savant-rs
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logkk
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arq-django-admin
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-07-24 10:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: savant-rs-etcd-dynamic-state
+[2023-07-24 10:07:23] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [easycompletion]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [wcommon]: New version: [1.5.8] Old Version: [1.5.6]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [arq-django-admin]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [logkk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-24 10:07:23] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-24 10:07:23] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 10:07:23] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-24 10:07:23] INFO root fetch - processPackages [wcommon]: Downloading https://files.pythonhosted.org/packages/a8/76/ce425e26ad899d8e04e422b1b6bdc094ff0af28383fb6e367d2fc95a04b6/wcommon-1.5.6.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/e2/a7/429a5d8e8089c4c8a5d37958cffe2ea3afd14b2fe432486146ee1e73a28f/easycompletion-0.2.8.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/0f/58/101839405ead37d74af142a94dbd73322515cd1c1dfe3146d92d1e7b4a6c/arq-django-admin-0.3.1.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [logkk]: Downloading https://files.pythonhosted.org/packages/47/15/dcdbdc0be88e397a7c2ab7c8d8b46295f4faad90e6824c53d267166fd8f5/logkk-0.5.0.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/24/33/f86762eed92c122ff950eb582df0a6105ce4257dc600515bba4d056d7aa2/savant_rs_etcd_dynamic_state-0.1.35-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 10:07:24] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/e1/24/ca8bfd6fd1ae66023fba8d16057e3f008c3a93fa2356621c53e01767507f/snappi-0.9.7.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230724/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/7b/59/92e027af5c9418542998d160132806fd014e86d7830f1c3f963c001a51e8/easycompletion-0.2.9.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230724/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/a3/4a/17289e3fb50aeae30aa31e94ab7bdb4f1aba2cc3e0fba76e3add6b5c227e/arq-django-admin-0.3.2.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [wcommon]: Downloading https://files.pythonhosted.org/packages/7e/44/4f93509fb392ac823c2d1b5d36189d93264aae36fc0796813a71f8af69be/wcommon-1.5.8.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [logkk]: Downloading https://files.pythonhosted.org/packages/37/50/d314e2c7828a7e96216e79f832cf4d29bc3c4038205e03e4a9763f2451c4/logkk-0.6.0.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.2.8.tar.gz tmp/easycompletion-0.2.9.tar.gz --markdown 20230724/e/easycompletion/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [arq-django-admin]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [arq-django-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arq-django-admin-0.3.1.tar.gz tmp/arq-django-admin-0.3.2.tar.gz --markdown 20230724/a/arq-django-admin/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [wcommon]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [wcommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcommon-1.5.6.tar.gz tmp/wcommon-1.5.8.tar.gz --markdown 20230724/w/wcommon/1.5.6-1.5.8/diff.md --exclude *.pyd
+[2023-07-24 10:07:24] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/09/a0/4ebf64a764adf0a4a06e6fe78f8eae91866a91f9ce7eb416b6e93d701bfa/snappi-0.9.8.tar.gz
+[2023-07-24 10:07:24] INFO root fetch - processPackages [logkk]: executing diffoscope
+[2023-07-24 10:07:24] INFO root fetch - processPackages [logkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logkk-0.5.0.tar.gz tmp/logkk-0.6.0.tar.gz --markdown 20230724/l/logkk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 10:07:25] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-07-24 10:07:25] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230724/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:07:25] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-07-24 10:07:25] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230724/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-24 10:07:25] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/1c/8c/5fd3d50ad7956b9d19828081fdfef4e8625796a58bcd97e3906930a0a6bb/savant_rs_etcd_dynamic_state-0.1.36-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 10:07:26] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [dev-assistant-client]: Start processing: tf-nightly
+[2023-07-24 10:07:26] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-24 10:07:26] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-07-24 10:07:26] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.35-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.36-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230724/s/savant-rs-etcd-dynamic-state/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-07-24 10:07:26] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [bridgecrew]: Start processing: edx-django-utils
+[2023-07-24 10:07:26] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-24 10:07:26] INFO root fetch - processPackages [edx-django-utils]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [htscf]: Start processing: spaceone-inventory
+[2023-07-24 10:07:26] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 10:07:26] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230724] Old Version: [2.14.0.dev20230723]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [spaceone-inventory]: New version: [1.9.7rc1] Old Version: [1.9.7.3]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [edx-django-utils]: Downloading https://files.pythonhosted.org/packages/1c/f7/2bf940247db4909e134cc44726ed5c0557e9a9fa32774e58a5a3a92d22ad/edx-django-utils-5.5.0.tar.gz
+[2023-07-24 10:07:26] INFO root fetch - processPackages [wcommon]: Remove: archive file [/home/abi/fetcher/tmp/wcommon-1.5.6.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [wcommon]: Remove: archive file [/home/abi/fetcher/tmp/wcommon-1.5.8.tar.gz]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [wcommon]: Start processing: langdash
+[2023-07-24 10:07:26] INFO root fetch - main [MainThread]: End processing [wcommon]: success
+[2023-07-24 10:07:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/ee/f6/2a08cda8cd50948259b864866ede2a31ae4834aa826fd3be53ef058e87de/tf_nightly-2.14.0.dev20230723-cp39-cp39-win_amd64.whl
+[2023-07-24 10:07:26] INFO root fetch - processPackages [langdash]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-24 10:07:26] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/a9/82/c593d30951fa8a48a0777598d6512a6f1c3d737ee4831063408619868fff/spaceone_inventory-1.9.7.3-py3-none-any.whl
+[2023-07-24 10:07:27] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.8.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.9.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [easycompletion]: Start processing: bmsdna-lakeapi
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-24 10:07:27] INFO root fetch - processPackages [logkk]: Remove: archive file [/home/abi/fetcher/tmp/logkk-0.5.0.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [logkk]: Remove: archive file [/home/abi/fetcher/tmp/logkk-0.6.0.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [logkk]: Start processing: proctracer
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [logkk]: success
+[2023-07-24 10:07:27] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/5d/c5/9e8d0b8c76e98a3dfba40343b10a53a6e905852aaaa8fce3a305fbffc88f/langdash-1.9.1.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [proctracer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.3.1.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.3.2.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [arq-django-admin]: Start processing: OctoBot-Commons
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [arq-django-admin]: success
+[2023-07-24 10:07:27] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/1f/0c/f8e3f20b29089fd1eb81dd346a36c9f9e467e39bd430010e932966cc5339/proctracer-0.0.2.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [edx-django-utils]: Downloading https://files.pythonhosted.org/packages/15/02/4109f686f5f8395127b49d7aeb460171ee51c919da4db0aa224444f10d78/edx-django-utils-5.6.0.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/2c/e8/4ea4960ed6ba58ee641118fb5f2379617929aa2838fb16fc1ed59c227ca5/tf_nightly-2.14.0.dev20230724-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 10:07:27] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [savant-rs]: Start processing: pyglove
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-07-24 10:07:27] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/6a/14/28a67c60ba9a1e7944d1898a3fccd002d56dfb3bfdf0b00e2b47bf98195d/langdash-1.9.2.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/a8/1d/95bd585c7c8613f2606da6a8c13eec4a631275ccee9e2dae450a9ab2c6bb/OctoBot-Commons-1.9.6.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/8b/3e/9b66d8ee4c516bd667673a5577cc4743104de117a9cf1693532b741e45c4/spaceone_inventory-1.9.7rc1-py3-none-any.whl
+[2023-07-24 10:07:27] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486181626>=10485760
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-24 10:07:27] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230724] Old Version: [0.4.1.dev20230723]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [edx-django-utils]: executing diffoscope
+[2023-07-24 10:07:27] INFO root fetch - processPackages [edx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-django-utils-5.5.0.tar.gz tmp/edx-django-utils-5.6.0.tar.gz --markdown 20230724/e/edx-django-utils/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-07-24 10:07:27] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-24 10:07:27] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.9.1.tar.gz tmp/langdash-1.9.2.tar.gz --markdown 20230724/l/langdash/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-24 10:07:27] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2023-07-24 10:07:27] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip --markdown 20230724/s/spaceone-inventory/1.9.7.3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-24 10:07:27] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/30/31/b30f057447263b61f1acd38f8c043529a48b79de53770f0b98843c4aafc6/proctracer-0.0.3.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/66/ec/766f08f60760c82abd6c286c7d6c15759b4d01f8373a50cce750e45c32e0/pyglove-0.4.1.dev20230723.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/e5/b2/c359869c9db137ef441b96260a77656eec2582e755e306b36e7a0773d837/OctoBot-Commons-1.9.7.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2023-07-24 10:07:27] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-0.9.7.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-0.9.8.tar.gz]
+[2023-07-24 10:07:27] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-07-24 10:07:28] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-24 10:07:28] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.2.tar.gz tmp/proctracer-0.0.3.tar.gz --markdown 20230724/p/proctracer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 10:07:28] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-07-24 10:07:28] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.6.tar.gz tmp/OctoBot-Commons-1.9.7.tar.gz --markdown 20230724/O/OctoBot-Commons/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-24 10:07:28] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-24 10:07:28] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20230724/b/bmsdna-lakeapi/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-24 10:07:28] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/a2/8a5b5b929eacf804d86cb454940924f2ec67e351ee1e2e565adc6cbb5028/pyglove-0.4.1.dev20230724.tar.gz
+[2023-07-24 10:07:28] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-24 10:07:28] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230723.tar.gz tmp/pyglove-0.4.1.dev20230724.tar.gz --markdown 20230724/p/pyglove/0.4.1.dev20230723-0.4.1.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 10:07:29] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.1.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.9.2.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-24 10:07:29] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.2.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.3.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-24 10:07:29] INFO root fetch - processPackages [edx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-utils-5.5.0.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - processPackages [edx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-utils-5.6.0.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - main [MainThread]: End processing [edx-django-utils]: success
+[2023-07-24 10:07:29] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2023-07-24 10:07:29] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-24 10:07:29] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7.3-py3-none-any.whl.zip]
+[2023-07-24 10:07:29] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_inventory-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-24 10:07:29] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2023-07-24 10:07:30] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.6.tar.gz]
+[2023-07-24 10:07:30] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.7.tar.gz]
+[2023-07-24 10:07:30] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-07-24 10:07:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230723.tar.gz]
+[2023-07-24 10:07:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230724.tar.gz]
+[2023-07-24 10:07:30] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-24 10:09:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.35-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 10:09:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.36-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 10:09:00] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-07-24 10:09:00] INFO root fetch - main [MainThread]: Store serial: [19009778]
