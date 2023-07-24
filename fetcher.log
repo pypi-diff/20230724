@@ -13422,3 +13422,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:26:24] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.4.tar.gz]
 [2023-07-24 11:26:24] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
 [2023-07-24 11:26:24] INFO root fetch - main [MainThread]: Store serial: [19010572]
+[2023-07-24 11:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010572]
+[2023-07-24 11:31:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: figaro
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-default-terms-conditions
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedex-sdk
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: processpiper
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grooveshop-django-api
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-viz-extension
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pykoi
+[2023-07-24 11:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spotPython
+[2023-07-24 11:31:34] WARNING root fetch - processPackages [jupyter-viz-extension]: Skipping, unable to determine old version
+[2023-07-24 11:31:34] INFO root fetch - processPackages [jupyter-viz-extension]: Start processing: lexikanon
+[2023-07-24 11:31:34] INFO root fetch - main [MainThread]: End processing [jupyter-viz-extension] error
+[2023-07-24 11:31:34] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [processpiper]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [pykoi]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [figaro]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [spotPython]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [lexikanon]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/10/44/e5e80bd2de92f43356961d73b760079689fa21446443e650f691e49e3101/fedex-sdk-1.0.5.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/18/4a/00393dae13dff75202305113d0c37fb19fffff8af6a49d4250b20fecf318/processpiper-0.4.2.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/4f/34/faa896f4184f1a6e1de0cc58e0b877f5a0e7e1cafa6388e34f592ec67dcc/lexikanon-0.1.4.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/fc/1d/bbb00ccf45e42b6f3e34b8980d9023143c173bb0166c15a416a52325f5fe/grooveshop_django_api-0.9.0.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/39/0a/926e39ce8ad2ce09c7fbb2203730fc1430777b4b144a50fc60c3d3255d0c/spotPython-0.6.8.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/6c/d3/66f03ebf23de4f82c6dc4b8d5f640dc1b16bfb35ea5aef23751f541502ae/figaro-1.2.0.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/7b/e6/3962586bdb35f2dd4e49f80d2ea9ff89e8af5fc2cc244f764544a34ebdc6/pykoi-0.0.0.tar.gz
+[2023-07-24 11:31:34] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 13853358>=10485760
+[2023-07-24 11:31:34] INFO root fetch - processPackages [grooveshop-django-api]: Start processing: serialtools
+[2023-07-24 11:31:34] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2023-07-24 11:31:34] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/80/d4/7c9b9fb6daa82d9fff9696ecf8c27543af51dd89154c86f5c2cd7336647d/odoo_addon_purchase_default_terms_conditions-16.0.1.0.1.6-py3-none-any.whl
+[2023-07-24 11:31:34] INFO root fetch - processPackages [serialtools]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-24 11:31:34] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ff/24/c95b83abb6c43c74407108ae2f259e9ad64e5c66d6e53eb75f93e0aaf77c/fedex-sdk-1.0.6.tar.gz
+[2023-07-24 11:31:34] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/3d/d5/ae2d0bb79ed3dec7af84483268751cb72c2e89a63a68dd89cb99f26fcfd6/lexikanon-0.2.0.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/df/9d/2ec9bb9a9bbb16dbac740d689d9c2cf9f0751b6e21ef3e77eef43839ca32/processpiper-0.4.3.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/6c/50/51c000972b144b49744c35330acebc87ea0d84a32156a664bac8fbf2a886/serialtools-0.4.2.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/f1/8b/cc49a0d056270e3e1d65a0d537815c0092108a777e94ecd2d28b455955bd/pykoi-0.0.1.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/ba/a7/54b6c6d81fb10dc87ba560d52f119da8f98f9c22bcc91f972edba68ca108/figaro-1.2.1.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.5.tar.gz tmp/fedex-sdk-1.0.6.tar.gz --markdown 20230724/f/fedex-sdk/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230724/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/38/50/bc4a52db6ffa1eda190981c2a731082452d4cd6567dc3be662b1b457e8f8/spotPython-0.6.9.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/0d/27/b98d8ffb187a74141c38a162729cc7da40435dfea9d6028443a0ee3020ef/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2-py3-none-any.whl
+[2023-07-24 11:31:35] INFO root fetch - processPackages [processpiper]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [processpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processpiper-0.4.2.tar.gz tmp/processpiper-0.4.3.tar.gz --markdown 20230724/p/processpiper/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.1.4.tar.gz tmp/lexikanon-0.2.0.tar.gz --markdown 20230724/l/lexikanon/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.2.0.tar.gz tmp/figaro-1.2.1.tar.gz --markdown 20230724/f/figaro/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [pykoi]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [pykoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoi-0.0.0.tar.gz tmp/pykoi-0.0.1.tar.gz --markdown 20230724/p/pykoi/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-purchase-default-terms-conditions/16.0.1.0.1.6-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.8.tar.gz tmp/spotPython-0.6.9.tar.gz --markdown 20230724/s/spotPython/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/f5/45/2651d9673f8a9a9024b966856c9ad2380e43a381cbf5ee75f820d45fa4aa/serialtools-0.5.0.tar.gz
+[2023-07-24 11:31:35] INFO root fetch - processPackages [serialtools]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [serialtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialtools-0.4.2.tar.gz tmp/serialtools-0.5.0.tar.gz --markdown 20230724/s/serialtools/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-24 11:31:35] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-07-24 11:31:35] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230724/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 11:31:36] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.5.tar.gz]
+[2023-07-24 11:31:36] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.6.tar.gz]
+[2023-07-24 11:31:36] INFO root fetch - processPackages [fedex-sdk]: Start processing: ai2-kit
+[2023-07-24 11:31:36] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 11:31:36] INFO root fetch - processPackages [ai2-kit]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-24 11:31:36] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.0.tar.gz]
+[2023-07-24 11:31:36] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.1.tar.gz]
+[2023-07-24 11:31:36] INFO root fetch - main [MainThread]: End processing [pykoi]: success
+[2023-07-24 11:31:36] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/c3/6c/c7b75d64bbe3c7e9eaaa4aabf4de7296fc62076fba3e07227bdcd8c70ce5/ai2_kit-0.4.0.tar.gz
+[2023-07-24 11:31:37] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.1.4.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.2.0.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.2.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.3.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [processpiper]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-default-terms-conditions]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.2.0.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.2.1.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-07-24 11:31:37] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/c6/eb/3cc6726e3ea52c448d6d4fd25f62bdff121eb74165048c3203c75d67131a/ai2_kit-0.5.0.tar.gz
+[2023-07-24 11:31:37] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-07-24 11:31:37] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-24 11:31:37] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.4.0.tar.gz tmp/ai2_kit-0.5.0.tar.gz --markdown 20230724/a/ai2-kit/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-24 11:31:38] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.4.2.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.5.0.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - main [MainThread]: End processing [serialtools]: success
+[2023-07-24 11:31:38] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.8.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.9.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-24 11:31:38] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.4.0.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.5.0.tar.gz]
+[2023-07-24 11:31:38] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-24 11:31:38] INFO root fetch - main [MainThread]: Store serial: [19010611]
