@@ -17439,3 +17439,242 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:12:34] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
 [2023-07-24 14:12:34] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
 [2023-07-24 14:12:34] INFO root fetch - main [MainThread]: Store serial: [19012237]
+[2023-07-24 14:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012237]
+[2023-07-24 14:17:43] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multilectic
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resoto-plugin-cleanup-untagged
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bycon
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resoto-plugin-cleanup-aws-vpcs
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agbenchmark
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resoto-plugin-gcp
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resoto-plugin-random
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resoto-plugin-posthog
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyamapping
+[2023-07-24 14:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: julearn
+[2023-07-24 14:17:44] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [agbenchmark]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [julearn]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev1]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-random]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] WARNING root fetch - processPackages [multilectic]: Skipping, unable to determine old version
+[2023-07-24 14:17:44] INFO root fetch - processPackages [multilectic]: Start processing: resoto-plugin-vsphere
+[2023-07-24 14:17:44] INFO root fetch - main [MainThread]: End processing [multilectic] error
+[2023-07-24 14:17:44] WARNING root fetch - processPackages [pyamapping]: Skipping, unable to determine old version
+[2023-07-24 14:17:44] INFO root fetch - processPackages [pyamapping]: Start processing: resotometrics
+[2023-07-24 14:17:44] INFO root fetch - main [MainThread]: End processing [pyamapping] error
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-posthog]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-gcp]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resotometrics]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-vsphere]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: Downloading https://files.pythonhosted.org/packages/f4/7b/cf3fc46699082433b534402742ddf7435f8baeff7f5db5354c1a99417674/resoto-plugin-cleanup-aws-vpcs-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/d1/22/29c09466f29b664cad0c812c3074bcc09cdb4eac242a9cd0e2124aedf847/julearn-0.3.1.dev1.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [agbenchmark]: Downloading https://files.pythonhosted.org/packages/bb/3e/31b94fba5498ba4ac403f031b875b8e2a2eba2f5d18c3b63f81384c35c00/agbenchmark-0.0.1.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-random]: Downloading https://files.pythonhosted.org/packages/5e/90/782fb812af4698990e986c2dcccca9c5b281327910293e65105d144b3e70/resoto-plugin-random-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Downloading https://files.pythonhosted.org/packages/77/03/ac5a508f597e9f3337b2d58f2c8c049444262bce3eec8ee19627a8c521cd/resoto-plugin-cleanup-untagged-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/d9/a0/ac7a14249a76cd1c3ff74eaa7c3c9ad13239bbb5b3378ec908b317ee7a7b/resoto-plugin-posthog-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/2f/4c/9731f1796309552f1e2c2bd80368badcf4acb82e01a7f5ae269535ddb3a0/resoto-plugin-gcp-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resotometrics]: Downloading https://files.pythonhosted.org/packages/56/51/7656ffcedebaed9129add6b0eb3abf8b7a8ea521c6f2a45825b0a0b3c1e0/resotometrics-3.6.2.tar.gz
+[2023-07-24 14:17:44] INFO root fetch - processPackages [resoto-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/c4/80/401f0e935ad39b05d75536fb359a23a042c0b97dcbfa1f27fe4b4134fc75/resoto-plugin-vsphere-3.6.2.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: Downloading https://files.pythonhosted.org/packages/06/5d/a4524f135d6cbbc77483ab4de39322c35445c331becea5d516d4f97f32cc/resoto-plugin-cleanup-aws-vpcs-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-random]: Downloading https://files.pythonhosted.org/packages/df/e3/2d054ba692bfe9f5efcec23cfafc612d6443e341bb060c8900910a9954a3/resoto-plugin-random-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-aws-vpcs-3.6.2.tar.gz tmp/resoto-plugin-cleanup-aws-vpcs-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-aws-vpcs/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/95/b5/7eb1099eca4cb81b16b99c0b45a1f97a0e70858cadc9bd0105e0123234f0/resoto-plugin-posthog-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [agbenchmark]: Downloading https://files.pythonhosted.org/packages/d6/a5/9417ee6454a4eeb27abe301a01c22ea12763fd2764c3146d4d682c291b10/agbenchmark-0.0.2.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Downloading https://files.pythonhosted.org/packages/55/a1/7aa9dd746c7e551f40344790bc56cb5a29d0741e4c5f7952f072473e2089/resoto-plugin-cleanup-untagged-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/ad/d7/85dc24a7f2ecca833c5f179254a0ac98f3b57b090c33a271b1c7927442d4/resoto-plugin-gcp-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resotometrics]: Downloading https://files.pythonhosted.org/packages/95/d9/e460b32e2cb9d3f7d45772278cfc46c4d47bd21e51a8304a1ac689017034/resotometrics-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-random]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-random-3.6.2.tar.gz tmp/resoto-plugin-random-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-random/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/a3/b0/b2a6fa8e2f71a621f7cf7a897c814d4946877d15462791465f4979f7f473/julearn-0.3.1.dev9.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/6c/84/122e5840ee68d55a923200e33bc1bbb9a229a7711c27361ce29f7d20885a/resoto-plugin-vsphere-3.6.3.tar.gz
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-posthog]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-posthog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-posthog-3.6.2.tar.gz tmp/resoto-plugin-posthog-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-posthog/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [agbenchmark]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [agbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agbenchmark-0.0.1.tar.gz tmp/agbenchmark-0.0.2.tar.gz --markdown 20230724/a/agbenchmark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-untagged-3.6.2.tar.gz tmp/resoto-plugin-cleanup-untagged-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-untagged/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resotometrics]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resotometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotometrics-3.6.2.tar.gz tmp/resotometrics-3.6.3.tar.gz --markdown 20230724/r/resotometrics/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-gcp]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-gcp-3.6.2.tar.gz tmp/resoto-plugin-gcp-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-gcp/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-vsphere]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [resoto-plugin-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-vsphere-3.6.2.tar.gz tmp/resoto-plugin-vsphere-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-vsphere/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.1.dev1.tar.gz tmp/julearn-0.3.1.dev9.tar.gz --markdown 20230724/j/julearn/0.3.1.dev1-0.3.1.dev9/diff.md --exclude *.pyd
+[2023-07-24 14:17:45] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-24 14:17:45] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230724/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-vpcs-3.6.2.tar.gz]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-vpcs-3.6.3.tar.gz]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-vpcs]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 14:17:46] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-vpcs]: success
+[2023-07-24 14:17:46] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: New version: [0.0.3] Old Version: [0.0.2.1]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-random]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-random-3.6.2.tar.gz]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-random]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-random-3.6.3.tar.gz]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-random]: Start processing: resoto-plugin-protector
+[2023-07-24 14:17:46] INFO root fetch - main [MainThread]: End processing [resoto-plugin-random]: success
+[2023-07-24 14:17:46] INFO root fetch - processPackages [resoto-plugin-protector]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:46] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/3a/00/14028054a4a61d33c1dc485e00c0100efb45225fb12eb44c2de8caea9cbb/streamingcommunity-unofficialapi-0.0.3.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-protector]: Downloading https://files.pythonhosted.org/packages/2f/1c/a17eb8ccdf63dbad7478fc1e25248b84bc74f1ea71a8f7e8c5945d6b431d/resoto-plugin-protector-3.6.2.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resotometrics]: Remove: archive file [/home/abi/fetcher/tmp/resotometrics-3.6.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resotometrics]: Remove: archive file [/home/abi/fetcher/tmp/resotometrics-3.6.3.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resotometrics]: Start processing: djangocms-aldryn-newsblog
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [resotometrics]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-untagged-3.6.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-untagged-3.6.3.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Start processing: resoto-plugin-github
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-untagged]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: executing diffoscope
+[2023-07-24 14:17:47] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz tmp/streamingcommunity-unofficialapi-0.0.3.tar.gz --markdown 20230724/s/streamingcommunity-unofficialapi/0.0.2.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:47] WARNING root fetch - processPackages [djangocms-aldryn-newsblog]: Skipping, unable to determine old version
+[2023-07-24 14:17:47] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: Start processing: resoto-plugin-cleanup-aws-loadbalancers
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-newsblog] error
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-github]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-posthog]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-posthog-3.6.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-posthog]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-posthog-3.6.3.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-posthog]: Start processing: peachpayments-partner-pydantic
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-vsphere-3.6.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [resoto-plugin-posthog]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-vsphere-3.6.3.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-vsphere]: Start processing: resoto-plugin-aws
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [resoto-plugin-vsphere]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [peachpayments-partner-pydantic]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-protector]: Downloading https://files.pythonhosted.org/packages/e9/92/80972a8a37e046aa30eb7d1a7c15dd9d6b6cae35db87d05c6106a586a6c4/resoto-plugin-protector-3.6.3.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-aws]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-protector]: executing diffoscope
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-protector-3.6.2.tar.gz tmp/resoto-plugin-protector-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-protector/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-github]: Downloading https://files.pythonhosted.org/packages/f6/a3/11fd582464c6f3d46039bccf9908d5d7c48cf45e8d0093eb38175d4598db/resoto-plugin-github-3.6.2.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Downloading https://files.pythonhosted.org/packages/e8/73/e2afcc25a16ca16381ec1cbcb32141c0acb7d568df7ebcf359199f4b3c2f/resoto-plugin-cleanup-aws-loadbalancers-3.6.2.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-gcp]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-gcp-3.6.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-gcp]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-gcp-3.6.3.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-gcp]: Start processing: uncertainty-datatypes
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [resoto-plugin-gcp]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [agbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/agbenchmark-0.0.1.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [agbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/agbenchmark-0.0.2.tar.gz]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [agbenchmark]: Start processing: resotocore
+[2023-07-24 14:17:47] INFO root fetch - main [MainThread]: End processing [agbenchmark]: success
+[2023-07-24 14:17:47] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Downloading https://files.pythonhosted.org/packages/ff/0d/797dbadd003957e93f7761566911a441742f2435ad061358ccd89dadc7d1/peachpayments_partner_pydantic-1.1.0.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-aws]: Downloading https://files.pythonhosted.org/packages/11/6d/0eb2336c218a830995114cb9670003543eb457de86b07cdb4028005e26ee/resoto-plugin-aws-3.6.2.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resotocore]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-github]: Downloading https://files.pythonhosted.org/packages/0e/aa/fbbdc15c69bfd040c5accd3216ed4f18feaac999942bfadfd4721c57974e/resoto-plugin-github-3.6.3.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-github]: executing diffoscope
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-github-3.6.2.tar.gz tmp/resoto-plugin-github-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-github/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Downloading https://files.pythonhosted.org/packages/91/a1/0bc050ca4baee89715ab28931044dff97f8555f840ace753274bdbeaddac/resoto-plugin-cleanup-aws-loadbalancers-3.6.3.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: executing diffoscope
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-aws-loadbalancers-3.6.2.tar.gz tmp/resoto-plugin-cleanup-aws-loadbalancers-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-aws-loadbalancers/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:47] INFO root fetch - processPackages [resoto-plugin-aws]: Downloading https://files.pythonhosted.org/packages/00/1b/2b839bd297ef709d8155131fc3a47855f62fcf5e27b2458600a88b358349/resoto-plugin-aws-3.6.3.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Downloading https://files.pythonhosted.org/packages/7a/30/639ab397d39239f9b7c2da159968828e6e36dc67074bb7e228153790645f/peachpayments_partner_pydantic-1.2.0.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resotocore]: Downloading https://files.pythonhosted.org/packages/dc/4f/e41e99ce24c8700b64b6ab669cea0057d1765d456f8b0f54dbaefee5d1de/resotocore-3.6.2.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-aws]: executing diffoscope
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-aws-3.6.2.tar.gz tmp/resoto-plugin-aws-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-aws/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:48] INFO root fetch - processPackages [peachpayments-partner-pydantic]: executing diffoscope
+[2023-07-24 14:17:48] INFO root fetch - processPackages [peachpayments-partner-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peachpayments_partner_pydantic-1.1.0.tar.gz tmp/peachpayments_partner_pydantic-1.2.0.tar.gz --markdown 20230724/p/peachpayments-partner-pydantic/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-24 14:17:48] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity-unofficialapi-0.0.3.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Start processing: LWTools
+[2023-07-24 14:17:48] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi]: success
+[2023-07-24 14:17:48] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/a2/0e/68bea11827fa0851563450359afc1526f80bfff934f592a362c8e9c4e660/uncertainty-datatypes-1.0.9.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [LWTools]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-24 14:17:48] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.8.tar.gz tmp/uncertainty-datatypes-1.0.9.tar.gz --markdown 20230724/u/uncertainty-datatypes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:17:48] INFO root fetch - processPackages [LWTools]: Downloading https://files.pythonhosted.org/packages/71/cc/6bafdec41e96b0665605227eef3c05141e5afd06d374b8c3f09602b4a1b6/LWTools-1.0.0.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.1.dev1.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.1.dev9.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [julearn]: Start processing: molgenis-emx2-pyclient
+[2023-07-24 14:17:48] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-protector]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-protector-3.6.2.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-protector]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-protector-3.6.3.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-protector]: Start processing: resoto-plugin-dockerhub
+[2023-07-24 14:17:48] INFO root fetch - main [MainThread]: End processing [resoto-plugin-protector]: success
+[2023-07-24 14:17:48] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.208.1] Old Version: [8.208.0]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-dockerhub]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resotocore]: Downloading https://files.pythonhosted.org/packages/38/5b/45144c7a133419c6104d32b6da0c84648e1f214998f61640b41b8b88ae73/resotocore-3.6.3.tar.gz
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-github]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-github-3.6.2.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-github]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-github-3.6.3.tar.gz]
+[2023-07-24 14:17:48] INFO root fetch - processPackages [resoto-plugin-github]: Start processing: resoto-plugin-k8s
+[2023-07-24 14:17:48] INFO root fetch - main [MainThread]: End processing [resoto-plugin-github]: success
+[2023-07-24 14:17:49] INFO root fetch - processPackages [LWTools]: Downloading https://files.pythonhosted.org/packages/01/5f/6aea5e70e9e659099c25da532172db1cfe5a8515ae799ffa4c10dc764b8d/LWTools-1.0.2.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/5e/42/d246602878d5d1d00d7e4f8f6cc81b6d87c5c9b3d1efbcab3fb111ca1853/molgenis_emx2_pyclient-8.208.0.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-loadbalancers-3.6.2.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-aws-loadbalancers-3.6.3.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Start processing: invenio-rdm-records
+[2023-07-24 14:17:49] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-loadbalancers]: success
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/11/07/d590168ccc53b2eb4751abd6ac7f72da5adf37b4f2fb76abdcade0028aad/resoto-plugin-dockerhub-3.6.2.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-k8s]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [LWTools]: executing diffoscope
+[2023-07-24 14:17:49] INFO root fetch - processPackages [LWTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LWTools-1.0.0.tar.gz tmp/LWTools-1.0.2.tar.gz --markdown 20230724/L/LWTools/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:17:49] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/peachpayments_partner_pydantic-1.1.0.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/peachpayments_partner_pydantic-1.2.0.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [peachpayments-partner-pydantic]: Start processing: resoto-plugin-cleanup-expired
+[2023-07-24 14:17:49] INFO root fetch - main [MainThread]: End processing [peachpayments-partner-pydantic]: success
+[2023-07-24 14:17:49] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/91/ad/b0620c2cfd1ca538b4cdb2677b98243a251ec8947129cdfcedcb0b4c9c71/molgenis_emx2_pyclient-8.208.1.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/8b/f5/9686e95cd29ba6cd803a3cc7d8fd2ebef41c44c2f1e5c2a570ff25aa854c/resoto-plugin-k8s-3.6.2.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/2d/1c/25a275b6fdfbac7f945bc862bd98d82c23c14e6a4c418911ff2d4b528878/resoto-plugin-dockerhub-3.6.3.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-24 14:17:49] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.208.0.tar.gz tmp/molgenis_emx2_pyclient-8.208.1.tar.gz --markdown 20230724/m/molgenis-emx2-pyclient/8.208.0-8.208.1/diff.md --exclude *.pyd
+[2023-07-24 14:17:49] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.9.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [uncertainty-datatypes]: Start processing: jupyter-viz-extension
+[2023-07-24 14:17:49] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resotocore]: executing diffoscope
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotocore-3.6.2.tar.gz tmp/resotocore-3.6.3.tar.gz --markdown 20230724/r/resotocore/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-dockerhub]: executing diffoscope
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-dockerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-dockerhub-3.6.2.tar.gz tmp/resoto-plugin-dockerhub-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-dockerhub/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Downloading https://files.pythonhosted.org/packages/44/5d/420747e48de19ff83c64599b0230c56051858c962a3ab0cfac4031bd6cae/resoto-plugin-cleanup-expired-3.6.2.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/1d/c2/3000681826fd335124833371b36e4899e20f31f3c2880a7cdc419208c7c7/resoto-plugin-k8s-3.6.3.tar.gz
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-aws]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-aws-3.6.2.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-aws]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-aws-3.6.3.tar.gz]
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-aws]: Start processing: resoto-plugin-digitalocean
+[2023-07-24 14:17:49] INFO root fetch - main [MainThread]: End processing [resoto-plugin-aws]: success
+[2023-07-24 14:17:49] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ce/ab/826859734598e49b21844b01e531302cf6f3a051f935d4f8bce2b8ac6e22/invenio-rdm-records-4.9.0.tar.gz
+[2023-07-24 14:17:49] WARNING root fetch - processPackages [jupyter-viz-extension]: Skipping, unable to determine old version
+[2023-07-24 14:17:49] INFO root fetch - main [MainThread]: End processing [jupyter-viz-extension] error
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-k8s]: executing diffoscope
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-k8s-3.6.2.tar.gz tmp/resoto-plugin-k8s-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-k8s/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:49] INFO root fetch - processPackages [resoto-plugin-digitalocean]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Downloading https://files.pythonhosted.org/packages/dc/df/43a616b6f583e71c2cb369ebc84ab7039dfb42027ecabd19d58f20e49c4d/resoto-plugin-cleanup-expired-3.6.3.tar.gz
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/62/06/cad1724786c76ab2087d4025a8a6f5d3e252a27f54581aaf01358862b797/resoto-plugin-digitalocean-3.6.2.tar.gz
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: executing diffoscope
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-expired-3.6.2.tar.gz tmp/resoto-plugin-cleanup-expired-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-cleanup-expired/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:50] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/82/e5/3c45a15a51348a920f83e59756c9ee9ac61a198ba3d3049f60ab32494968/invenio-rdm-records-4.9.1.tar.gz
+[2023-07-24 14:17:50] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-24 14:17:50] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.9.0.tar.gz tmp/invenio-rdm-records-4.9.1.tar.gz --markdown 20230724/i/invenio-rdm-records/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/8a/86/b2a5041ee97d2dcc1a8fe0f076e1ab33bcd9cffa2b36368138d6d8b69dbf/resoto-plugin-digitalocean-3.6.3.tar.gz
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-digitalocean]: executing diffoscope
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-digitalocean-3.6.2.tar.gz tmp/resoto-plugin-digitalocean-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-digitalocean/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:17:50] INFO root fetch - processPackages [LWTools]: Remove: archive file [/home/abi/fetcher/tmp/LWTools-1.0.0.tar.gz]
+[2023-07-24 14:17:50] INFO root fetch - processPackages [LWTools]: Remove: archive file [/home/abi/fetcher/tmp/LWTools-1.0.2.tar.gz]
+[2023-07-24 14:17:50] INFO root fetch - main [MainThread]: End processing [LWTools]: success
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-dockerhub-3.6.2.tar.gz]
+[2023-07-24 14:17:50] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-dockerhub-3.6.3.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - main [MainThread]: End processing [resoto-plugin-dockerhub]: success
+[2023-07-24 14:17:51] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.208.0.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.208.1.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-24 14:17:51] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-24 14:17:51] INFO root fetch - processPackages [resoto-plugin-k8s]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-k8s-3.6.2.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - processPackages [resoto-plugin-k8s]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-k8s-3.6.3.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - main [MainThread]: End processing [resoto-plugin-k8s]: success
+[2023-07-24 14:17:51] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-expired-3.6.2.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-cleanup-expired-3.6.3.tar.gz]
+[2023-07-24 14:17:51] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-expired]: success
+[2023-07-24 14:17:52] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-digitalocean-3.6.2.tar.gz]
+[2023-07-24 14:17:52] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-digitalocean-3.6.3.tar.gz]
+[2023-07-24 14:17:52] INFO root fetch - main [MainThread]: End processing [resoto-plugin-digitalocean]: success
+[2023-07-24 14:17:54] INFO root fetch - processPackages [resotocore]: Remove: archive file [/home/abi/fetcher/tmp/resotocore-3.6.2.tar.gz]
+[2023-07-24 14:17:54] INFO root fetch - processPackages [resotocore]: Remove: archive file [/home/abi/fetcher/tmp/resotocore-3.6.3.tar.gz]
+[2023-07-24 14:17:54] INFO root fetch - main [MainThread]: End processing [resotocore]: success
+[2023-07-24 14:17:54] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.0.tar.gz]
+[2023-07-24 14:17:54] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.1.tar.gz]
+[2023-07-24 14:17:54] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-24 14:17:54] INFO root fetch - main [MainThread]: Store serial: [19012332]
