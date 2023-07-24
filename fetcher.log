@@ -15502,3 +15502,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:58:53] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.6.tar.gz]
 [2023-07-24 12:58:53] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-07-24 12:58:53] INFO root fetch - main [MainThread]: Store serial: [19011533]
+[2023-07-24 13:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011533]
+[2023-07-24 13:04:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veetility
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycode
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysen
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twspace-dl
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adt-decorators
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-vies
+[2023-07-24 13:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gomea
+[2023-07-24 13:04:02] INFO root fetch - processPackages [adt-decorators]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [gomea]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [pysen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [twspace-dl]: New version: [2023.7.24.1] Old Version: [2023.1.22.1]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.86] Old Version: [0.3.85]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241016] Old Version: [99.0.202307232204]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [django-vies]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-07-24 13:04:02] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/fd/a4/7b267b44e9577c2479cc7c30f28a2ce0b57388d7082ac1b754c8849a5d06/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl
+[2023-07-24 13:04:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7e/f8/f87e1c49afc75ce03b9e2f6593b27b64ce8ba7b0ab418a93551c46e7af91/kcli-99.0.202307232204-py3-none-any.whl
+[2023-07-24 13:04:02] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/7f/0b/e84fb404422d896d39e92e79548c6524971bce88ae258d5d1af554650389/adt-decorators-0.1.0.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [twspace-dl]: Downloading https://files.pythonhosted.org/packages/77/42/943b3474b9e70940be1f7ac9a5a390a50fbd692c9b1d5346a14064ed2a14/twspace_dl-2023.1.22.1.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [pysen]: Downloading https://files.pythonhosted.org/packages/79/2c/5122ff5388f3ea5cd0f21eb3688f9e49060e893f7dcc5369e67d55b60e3f/pysen-0.9.0.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/fd/89/35d645d15026b01ae65e83979261c4b81df3cf5f487af6557608e142e345/gomea-1.0.1.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [django-vies]: Downloading https://files.pythonhosted.org/packages/47/b3/5800ed228279d41574bf7edd4f14b9986fabfbf538eb69b9d278c4de7b95/django-vies-6.0.2.tar.gz
+[2023-07-24 13:04:02] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/2b/42/233a29e88a110f871074e780d9839cfd74c8ebee5ab07b7fccd0395a4d5e/Print_Tricks_And_More_Alpha-0.3.86-py3-none-any.whl
+[2023-07-24 13:04:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b8/fe/86126fe75124b6d4f0b0d4f6ce3f3d0841e7a6af2a6a1f96c79cc9a28ea9/kcli-99.0.202307241016-py3-none-any.whl
+[2023-07-24 13:04:02] INFO root fetch - processPackages [adt-decorators]: Downloading https://files.pythonhosted.org/packages/06/a0/892b0e3d5d610c15daeb2b463004779014f739d9b756abb089878a3268bf/adt-decorators-0.1.1.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.86-py3-none-any.whl.zip --markdown 20230724/P/Print-Tricks-And-More-Alpha/0.3.85-0.3.86/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [adt-decorators]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [adt-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adt-decorators-0.1.0.tar.gz tmp/adt-decorators-0.1.1.tar.gz --markdown 20230724/a/adt-decorators/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [twspace-dl]: Downloading https://files.pythonhosted.org/packages/4a/38/cf8d3cf841666e186ce7bfdbc2c3b442b7e4932bffb7529c79130fa83465/twspace_dl-2023.7.24.1.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307232204-py3-none-any.whl.zip tmp/kcli-99.0.202307241016-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307232204-99.0.202307241016/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/6f/37/7fba41f0c0f4ba197d321da025c9e9fd6a9b0e72dc3966b9805623132296/gomea-1.0.2.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [twspace-dl]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [twspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twspace_dl-2023.1.22.1.tar.gz tmp/twspace_dl-2023.7.24.1.tar.gz --markdown 20230724/t/twspace-dl/2023.1.22.1-2023.7.24.1/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [django-vies]: Downloading https://files.pythonhosted.org/packages/0a/08/250fc831e3f05e72803b12da567ca4362d7d9897d3b7bda9f9f8c531f85e/django-vies-6.0.3.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230724/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [pysen]: Downloading https://files.pythonhosted.org/packages/ed/72/9691844926aedbbd67d2dd8ae9ded34145c039088d5d7b93cc0f9e502ce3/pysen-0.9.1.tar.gz
+[2023-07-24 13:04:03] INFO root fetch - processPackages [gomea]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [gomea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gomea-1.0.1.tar.gz tmp/gomea-1.0.2.tar.gz --markdown 20230724/g/gomea/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230724/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [django-vies]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [django-vies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vies-6.0.2.tar.gz tmp/django-vies-6.0.3.tar.gz --markdown 20230724/d/django-vies/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-07-24 13:04:03] INFO root fetch - processPackages [pysen]: executing diffoscope
+[2023-07-24 13:04:03] INFO root fetch - processPackages [pysen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysen-0.9.0.tar.gz tmp/pysen-0.9.1.tar.gz --markdown 20230724/p/pysen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 13:04:04] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.1.0.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - processPackages [adt-decorators]: Remove: archive file [/home/abi/fetcher/tmp/adt-decorators-0.1.1.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - main [MainThread]: End processing [adt-decorators]: success
+[2023-07-24 13:04:04] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl.zip]
+[2023-07-24 13:04:04] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.86-py3-none-any.whl.zip]
+[2023-07-24 13:04:04] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-24 13:04:04] INFO root fetch - processPackages [twspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/twspace_dl-2023.1.22.1.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - processPackages [twspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/twspace_dl-2023.7.24.1.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - main [MainThread]: End processing [twspace-dl]: success
+[2023-07-24 13:04:04] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-24 13:04:04] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-24 13:04:05] INFO root fetch - processPackages [django-vies]: Remove: archive file [/home/abi/fetcher/tmp/django-vies-6.0.2.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - processPackages [django-vies]: Remove: archive file [/home/abi/fetcher/tmp/django-vies-6.0.3.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - main [MainThread]: End processing [django-vies]: success
+[2023-07-24 13:04:05] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-24 13:04:05] INFO root fetch - processPackages [pysen]: Remove: archive file [/home/abi/fetcher/tmp/pysen-0.9.0.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - processPackages [pysen]: Remove: archive file [/home/abi/fetcher/tmp/pysen-0.9.1.tar.gz]
+[2023-07-24 13:04:05] INFO root fetch - main [MainThread]: End processing [pysen]: success
+[2023-07-24 13:04:06] INFO root fetch - processPackages [gomea]: Remove: archive file [/home/abi/fetcher/tmp/gomea-1.0.1.tar.gz]
+[2023-07-24 13:04:06] INFO root fetch - processPackages [gomea]: Remove: archive file [/home/abi/fetcher/tmp/gomea-1.0.2.tar.gz]
+[2023-07-24 13:04:06] INFO root fetch - main [MainThread]: End processing [gomea]: success
+[2023-07-24 13:04:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307232204-py3-none-any.whl.zip]
+[2023-07-24 13:04:07] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241016-py3-none-any.whl.zip]
+[2023-07-24 13:04:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 13:04:07] INFO root fetch - main [MainThread]: Store serial: [19011560]
