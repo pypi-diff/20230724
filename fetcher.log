@@ -12687,3 +12687,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:57:56] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.2.tar.gz]
 [2023-07-24 10:57:56] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
 [2023-07-24 10:57:56] INFO root fetch - main [MainThread]: Store serial: [19010273]
+[2023-07-24 11:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010273]
+[2023-07-24 11:03:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: middleware-apm
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-tbase-post-product
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-communities
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aspose-words-cloud
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nitaq
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netqasm
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avirtech-spraying-jiyi-lib
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kedro-viz
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: craft-ai-sdk
+[2023-07-24 11:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bridgecrew
+[2023-07-24 11:03:05] INFO root fetch - processPackages [invenio-communities]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [netqasm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 11:03:05] WARNING root fetch - processPackages [nitaq]: Skipping, unable to determine old version
+[2023-07-24 11:03:05] INFO root fetch - processPackages [nitaq]: Start processing: djangondor
+[2023-07-24 11:03:05] INFO root fetch - main [MainThread]: End processing [nitaq] error
+[2023-07-24 11:03:05] INFO root fetch - processPackages [aspose-words-cloud]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.716887389] Old Version: [2023.7.716887386]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [middleware-apm]: New version: [0.2.1] Old Version: [0.2.0rc4]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [kedro-viz]: New version: [6.3.4] Old Version: [6.3.3]
+[2023-07-24 11:03:05] INFO root fetch - processPackages [djangondor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 11:03:06] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-24 11:03:06] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/69/ba/bf2c8c1a83462dd2fae7b6981f8a8fcf812bf14b73ac755f5395e3ee4557/django_tbase_post_product-2023.7.716887386.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/12/08/5cee6cd71b2abc5f24dc4f28f30a983f58f4f8ecd8e87349c4bdd740cd2e/djangondor-1.0.1.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/db/8e/79bd89158154436f561939434d869c414d4517d60bd421a40edf707f3270/invenio-communities-7.2.0.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/4b/99/0defc14f0171b1b049dc502676fb7dd928c89a09b725ee90d4213af249b9/middleware-apm-0.2.0rc4.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [netqasm]: Downloading https://files.pythonhosted.org/packages/c0/0b/2175416ea9b8de5b4b1446fb4764b4ee3be5c0d24c9350213d0aaaec3881/netqasm-0.9.0.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/0a/b6/fe6723e760d70db15127f748d3d08dd05045717b9bb60d37ab318b332774/aspose-words-cloud-23.6.0.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: Downloading https://files.pythonhosted.org/packages/97/1a/d72774f674c0b4941c30a8907cdb4f6e20429ea3fa6799ce3c62fde6d606/avirtech_spraying_jiyi_lib-0.0.1.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/1a/53/b644ae418fc8fcc9fe26e8fe9c52878c437ede4bcda515a96d782080e5d3/kedro-viz-6.3.3.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/76/71/1beefb545a2b42be798e14439e8d9b4f4c0a1e9183b315860a5306e369d0/djangondor-1.0.2.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/b2/1c/662b7a63c26b1775ed703f7609bdfe40ea00728d0a5543ce6498d553c4a7/django_tbase_post_product-2023.7.716887389.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [djangondor]: executing diffoscope
+[2023-07-24 11:03:06] INFO root fetch - processPackages [djangondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangondor-1.0.1.tar.gz tmp/djangondor-1.0.2.tar.gz --markdown 20230724/d/djangondor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 11:03:06] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-24 11:03:06] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230724/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-24 11:03:06] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-24 11:03:06] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.716887386.tar.gz tmp/django_tbase_post_product-2023.7.716887389.tar.gz --markdown 20230724/d/django-tbase-post-product/2023.7.716887386-2023.7.716887389/diff.md --exclude *.pyd
+[2023-07-24 11:03:06] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/01/4c/b094136447dcdf16758c9728b28a7350c8d38d0f2a08a8174add23564089/middleware-apm-0.2.1.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/c9/d8/956dc36aabe620d9c730ecdfeec735ed14e5f0cfaf4069e3726a4c34d8c2/invenio-communities-7.2.1.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: Downloading https://files.pythonhosted.org/packages/80/66/17fab13dc0478a4c7d6ee078a988a73392078666cc2a52c10ad582aa8854/avirtech_spraying_jiyi_lib-0.0.3.tar.gz
+[2023-07-24 11:03:06] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/61/ab/5f0c3f9817634498e852f50cc873c5e12aff31c9b22c2befe00b5a5c9810/aspose-words-cloud-23.7.0.tar.gz
+[2023-07-24 11:03:07] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.2.0rc4.tar.gz tmp/middleware-apm-0.2.1.tar.gz --markdown 20230724/m/middleware-apm/0.2.0rc4-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:03:07] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-07-24 11:03:07] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-7.2.0.tar.gz tmp/invenio-communities-7.2.1.tar.gz --markdown 20230724/i/invenio-communities/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:03:07] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avirtech_spraying_jiyi_lib-0.0.1.tar.gz tmp/avirtech_spraying_jiyi_lib-0.0.3.tar.gz --markdown 20230724/a/avirtech-spraying-jiyi-lib/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 11:03:07] INFO root fetch - processPackages [kedro-viz]: Downloading https://files.pythonhosted.org/packages/1f/6e/9e6fb371873b860607da0d595cea2da299daeabaab38666e7a91ff6015d6/kedro-viz-6.3.4.tar.gz
+[2023-07-24 11:03:07] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-23.6.0.tar.gz tmp/aspose-words-cloud-23.7.0.tar.gz --markdown 20230724/a/aspose-words-cloud/23.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-24 11:03:07] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230724/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 11:03:07] INFO root fetch - processPackages [kedro-viz]: executing diffoscope
+[2023-07-24 11:03:07] INFO root fetch - processPackages [kedro-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-viz-6.3.3.tar.gz tmp/kedro-viz-6.3.4.tar.gz --markdown 20230724/k/kedro-viz/6.3.3-6.3.4/diff.md --exclude *.pyd
+[2023-07-24 11:03:08] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.1.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.2.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [djangondor]: Start processing: VisionFive.gpio
+[2023-07-24 11:03:08] INFO root fetch - main [MainThread]: End processing [djangondor]: success
+[2023-07-24 11:03:08] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.16] Old Version: [1.2.15]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887386.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887389.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-24 11:03:08] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-24 11:03:08] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.2.0rc4.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.2.1.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-24 11:03:08] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: Remove: archive file [/home/abi/fetcher/tmp/avirtech_spraying_jiyi_lib-0.0.1.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - processPackages [avirtech-spraying-jiyi-lib]: Remove: archive file [/home/abi/fetcher/tmp/avirtech_spraying_jiyi_lib-0.0.3.tar.gz]
+[2023-07-24 11:03:08] INFO root fetch - main [MainThread]: End processing [avirtech-spraying-jiyi-lib]: success
+[2023-07-24 11:03:08] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/de/0b/e688c490b313357c0fa2807a1d81e7a3c2c30fecee0f3b6b382dc718370a/VisionFive.gpio-1.2.15-cp310-cp310-any.whl
+[2023-07-24 11:03:09] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-07-24 11:03:09] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-07-24 11:03:09] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-07-24 11:03:09] INFO root fetch - processPackages [netqasm]: Downloading https://files.pythonhosted.org/packages/15/1e/6a8c7caf9b254815a92855796d92c19693412b0f61343614236fb5abd661/netqasm-0.9.1.tar.gz
+[2023-07-24 11:03:09] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/95/c2/a402c3b1f8c86fd2278dcb3ec66613129e2f0040707e3f07d8a31e96c34e/VisionFive.gpio-1.2.16-cp310-cp310-any.whl
+[2023-07-24 11:03:09] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-07-24 11:03:09] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.15-cp310-cp310-any.whl.zip tmp/VisionFive.gpio-1.2.16-cp310-cp310-any.whl.zip --markdown 20230724/V/VisionFive.gpio/1.2.15-1.2.16/diff.md --exclude *.pyd
+[2023-07-24 11:03:11] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.0.tar.gz]
+[2023-07-24 11:03:11] INFO root fetch - processPackages [invenio-communities]: Remove: archive file [/home/abi/fetcher/tmp/invenio-communities-7.2.1.tar.gz]
+[2023-07-24 11:03:11] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-07-24 11:03:12] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.15-cp310-cp310-any.whl.zip]
+[2023-07-24 11:03:12] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.16-cp310-cp310-any.whl.zip]
+[2023-07-24 11:03:12] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-07-24 11:03:12] INFO root fetch - processPackages [netqasm]: executing diffoscope
+[2023-07-24 11:03:12] INFO root fetch - processPackages [netqasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netqasm-0.9.0.tar.gz tmp/netqasm-0.9.1.tar.gz --markdown 20230724/n/netqasm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 11:03:12] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.6.0.tar.gz]
+[2023-07-24 11:03:12] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-23.7.0.tar.gz]
+[2023-07-24 11:03:12] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2023-07-24 11:03:16] INFO root fetch - processPackages [netqasm]: Remove: archive file [/home/abi/fetcher/tmp/netqasm-0.9.0.tar.gz]
+[2023-07-24 11:03:16] INFO root fetch - processPackages [netqasm]: Remove: archive file [/home/abi/fetcher/tmp/netqasm-0.9.1.tar.gz]
+[2023-07-24 11:03:16] INFO root fetch - main [MainThread]: End processing [netqasm]: success
+[2023-07-24 11:04:09] INFO root fetch - processPackages [kedro-viz]: Remove: archive file [/home/abi/fetcher/tmp/kedro-viz-6.3.3.tar.gz]
+[2023-07-24 11:04:09] INFO root fetch - processPackages [kedro-viz]: Remove: archive file [/home/abi/fetcher/tmp/kedro-viz-6.3.4.tar.gz]
+[2023-07-24 11:04:09] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
+[2023-07-24 11:04:09] INFO root fetch - main [MainThread]: Store serial: [19010318]
