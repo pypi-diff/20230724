@@ -16051,3 +16051,56 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:19:56] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.3.tar.gz]
 [2023-07-24 13:19:56] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
 [2023-07-24 13:19:56] INFO root fetch - main [MainThread]: Store serial: [19011718]
+[2023-07-24 13:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011718]
+[2023-07-24 13:25:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: im-jote
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aesim.simba
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-devoops
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mflike
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mldsutils
+[2023-07-24 13:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nasops
+[2023-07-24 13:25:06] INFO root fetch - processPackages [im-jote]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 13:25:06] INFO root fetch - processPackages [mflike]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 13:25:06] INFO root fetch - processPackages [core-devoops]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 13:25:06] INFO root fetch - processPackages [nasops]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 13:25:06] INFO root fetch - processPackages [aesim.simba]: New version: [23.5.5] Old Version: [2023.7.7a1]
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mldsutils]: New version: [0.0.3] Old Version: [0.0.2.2]
+[2023-07-24 13:25:07] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/f2/ac/653e9295115fcd4c07630f2c9b7cb561e390007102d5327dfbc604b5be68/core_devoops-0.0.3.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/f1/63/17e9ff3f9bd4b145756fa293ade12817a24d5495d4d219e4700e49b0b81b/mflike-0.9.0.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/99/c0/91f2d8ca1666c667c28916adb39658c714234a72dab1cb3a7e4632e1fd5b/aesim.simba-2023.7.7a1-py3-none-win_amd64.whl
+[2023-07-24 13:25:07] INFO root fetch - processPackages [im-jote]: Downloading https://files.pythonhosted.org/packages/0c/e9/00af05d7c73b5f56bf5b00141841cd82eedf3588c00556b5fd5c9540010d/im-jote-0.9.2.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/24/f4/b2048dda4eed11d3b017531b0bbedf91855a9389773cd867470a89ed5930/nasops-0.0.1.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mldsutils]: Downloading https://files.pythonhosted.org/packages/a8/c1/26b7745e4f22da4d3d60ea28a1b50ec526148c7166f6a9afc6766544a0d0/mldsutils-0.0.2.2.tar.gz
+[2023-07-24 13:25:07] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 70570174>=10485760
+[2023-07-24 13:25:07] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-07-24 13:25:07] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/68/ed/f887804fa6c17b8825f380ecdb050614e6c11202d70494078a38ff92ea42/core_devoops-0.0.4.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/e6/66/e2457df03507386631c9ef5fb8c38d8f99f36f06db315cd28a391a3fac86/mflike-0.9.1.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mldsutils]: Downloading https://files.pythonhosted.org/packages/4f/ab/682e4f65fd0c26feb1723243e1d0765a4aced090acaae3bd4e43abbf838f/mldsutils-0.0.3.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 13:25:07] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.3.tar.gz tmp/core_devoops-0.0.4.tar.gz --markdown 20230724/c/core-devoops/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 13:25:07] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/44/2c/26c928e70b777b08eeed3fdf52e12ed0851254aee60eefafaa1e417bd889/nasops-0.0.2.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mflike]: executing diffoscope
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mflike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflike-0.9.0.tar.gz tmp/mflike-0.9.1.tar.gz --markdown 20230724/m/mflike/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 13:25:07] INFO root fetch - processPackages [im-jote]: Downloading https://files.pythonhosted.org/packages/58/2f/e3a2e2ed805b2caf6d2d9b996bde6676cd5feee3eb478650681f87055f23/im-jote-0.9.3.tar.gz
+[2023-07-24 13:25:07] INFO root fetch - processPackages [nasops]: executing diffoscope
+[2023-07-24 13:25:07] INFO root fetch - processPackages [nasops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasops-0.0.1.tar.gz tmp/nasops-0.0.2.tar.gz --markdown 20230724/n/nasops/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mldsutils]: executing diffoscope
+[2023-07-24 13:25:07] INFO root fetch - processPackages [mldsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mldsutils-0.0.2.2.tar.gz tmp/mldsutils-0.0.3.tar.gz --markdown 20230724/m/mldsutils/0.0.2.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 13:25:07] INFO root fetch - processPackages [im-jote]: executing diffoscope
+[2023-07-24 13:25:07] INFO root fetch - processPackages [im-jote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-jote-0.9.2.tar.gz tmp/im-jote-0.9.3.tar.gz --markdown 20230724/i/im-jote/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 13:25:08] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.3.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.4.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 13:25:08] INFO root fetch - processPackages [mflike]: Remove: archive file [/home/abi/fetcher/tmp/mflike-0.9.0.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - processPackages [mflike]: Remove: archive file [/home/abi/fetcher/tmp/mflike-0.9.1.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [mflike]: success
+[2023-07-24 13:25:08] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.1.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.2.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [nasops]: success
+[2023-07-24 13:25:08] INFO root fetch - processPackages [im-jote]: Remove: archive file [/home/abi/fetcher/tmp/im-jote-0.9.2.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - processPackages [im-jote]: Remove: archive file [/home/abi/fetcher/tmp/im-jote-0.9.3.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [im-jote]: success
+[2023-07-24 13:25:08] INFO root fetch - processPackages [mldsutils]: Remove: archive file [/home/abi/fetcher/tmp/mldsutils-0.0.2.2.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - processPackages [mldsutils]: Remove: archive file [/home/abi/fetcher/tmp/mldsutils-0.0.3.tar.gz]
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [mldsutils]: success
+[2023-07-24 13:25:08] INFO root fetch - main [MainThread]: Store serial: [19011738]
