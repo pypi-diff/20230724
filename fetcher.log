@@ -7365,3 +7365,33 @@
 [2023-07-24 06:29:40] INFO root fetch - processPackages [sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_path-0.2.0a6-py3-none-win_amd64.whl.zip]
 [2023-07-24 06:29:40] INFO root fetch - main [MainThread]: End processing [sqlite-path]: success
 [2023-07-24 06:29:40] INFO root fetch - main [MainThread]: Store serial: [19008047]
+[2023-07-24 06:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008047]
+[2023-07-24 06:34:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-24 06:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazynovel
+[2023-07-24 06:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HawaData
+[2023-07-24 06:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-schematized-config
+[2023-07-24 06:34:48] INFO root fetch - processPackages [lazynovel]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-24 06:34:48] INFO root fetch - processPackages [python-schematized-config]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 06:34:48] INFO root fetch - processPackages [HawaData]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-24 06:34:49] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/0d/6b/443f4973617cf536dcdbdfe4f5f20b37cbe7c8541bdf0da5756db1c0a99c/lazynovel-0.1.7.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/f7/7a/ccd20ca2c35c01c95a3e0751601b45bf468dd00565bdbca29e979382a3f9/python-schematized-config-0.0.3.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/89/6a/5692cf4bdf9f005144f9d4968d96dbdb52d5df78f32a2879a00074cc30d0/HawaData-0.8.2.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/46/a8/eebf41b619d9f32fa1967e94ecbe843b78c7d45d0a86b560a1f18dafc2bf/lazynovel-0.1.8.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/0b/4f/31622500df98effb3d92127ea961afac813ffd9c5bc9aed516dcf207492d/python-schematized-config-0.0.4.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/ec/43/f35178544f5959f0a1c693082bd5c11af03b7e641b76575a4cd4986806ac/HawaData-0.8.3.tar.gz
+[2023-07-24 06:34:49] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-07-24 06:34:49] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.7.tar.gz tmp/lazynovel-0.1.8.tar.gz --markdown 20230724/l/lazynovel/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-24 06:34:49] INFO root fetch - processPackages [python-schematized-config]: executing diffoscope
+[2023-07-24 06:34:49] INFO root fetch - processPackages [python-schematized-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schematized-config-0.0.3.tar.gz tmp/python-schematized-config-0.0.4.tar.gz --markdown 20230724/p/python-schematized-config/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 06:34:49] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-24 06:34:49] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.8.2.tar.gz tmp/HawaData-0.8.3.tar.gz --markdown 20230724/H/HawaData/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-24 06:34:50] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.7.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.8.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-07-24 06:34:50] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.3.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.4.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - main [MainThread]: End processing [python-schematized-config]: success
+[2023-07-24 06:34:50] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.2.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.3.tar.gz]
+[2023-07-24 06:34:50] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-24 06:34:50] INFO root fetch - main [MainThread]: Store serial: [19008056]
