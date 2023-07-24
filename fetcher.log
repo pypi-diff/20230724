@@ -11821,3 +11821,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:20:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230724081507.tar.gz]
 [2023-07-24 10:20:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-07-24 10:20:04] INFO root fetch - main [MainThread]: Store serial: [19009900]
+[2023-07-24 10:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009900]
+[2023-07-24 10:25:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liquisource
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wafermap-clustering
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irene-pro
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyVIA
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainbench
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: code-loader
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: relenv
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-currency-mixin
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openpibo-models
+[2023-07-24 10:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: distgen
+[2023-07-24 10:25:14] INFO root fetch - processPackages [distgen]: New version: [1.9] Old Version: [1.8]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [relenv]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [chainbench]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [liquisource]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [openpibo-models]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev7]
+[2023-07-24 10:25:14] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/af/66/d74dde6ef2075afcc7dba6e00f916de84c07d025c86b4637d62f0d4b8f20/wafermap-clustering-0.3.3.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [distgen]: Downloading https://files.pythonhosted.org/packages/14/ec/2fedcc4ab402e9b88852960131ee633693745ea37a1439555c6ce2a4a3f8/distgen-1.8.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/6e/31/244acbbfb3828979434e2689ca966d2e3fc8ad7280316c88aba1aebb9be6/liquisource-1.2.5.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/70/57/e537df3f93cfae77d86107b4d30393e5a52da19dfaa43c4466b2ff05a7c5/pyVIA-0.1.88.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/0c/d5/97c45b457073cb4e184305fe8ccdc6d0269f1bfafec501d37d491139a2b0/relenv-0.8.2-py3-none-any.whl
+[2023-07-24 10:25:14] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/24/b0/5f9703d821f95cedfb36fae183c9df1cd1849e2e2e520d26795a5efdff83/chainbench-0.4.0.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [openpibo-models]: Downloading https://files.pythonhosted.org/packages/c5/c6/1222ab5073efeee4f2c2b6e3c9cb5bf213158b3fd1079f03e2929f75d0f9/openpibo_models-0.4.5-py3-none-any.whl
+[2023-07-24 10:25:14] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/bd/53/7dbcb42c33128177964349e0b949e50799ed17a5d54cf8f1438c7d944e88/code_loader-0.2.84.dev7.tar.gz
+[2023-07-24 10:25:14] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: Downloading https://files.pythonhosted.org/packages/c9/f0/044a7c8d1e799142c0508642bf98f7e0b1e70ffac7512123afeaa0182e99/odoo14_addon_ssi_currency_mixin-14.0.1.1.0-py3-none-any.whl
+[2023-07-24 10:25:15] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/43/9d/d47b97d031bcdceca7ff6ad13d7296d51c18962b8a26156db77f787bdbcf/wafermap-clustering-0.3.4.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230724/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/12/68/bda9cdcbfbf465b7e72dd9d84a2d0d2aecac7413493c11e2aef65173157c/liquisource-1.2.6.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [distgen]: Downloading https://files.pythonhosted.org/packages/9c/6f/97951068b2ecfdb554c32915959ce8cd06adc9e44ac8e9230e478da90c6f/distgen-1.9.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/38/2c/ea527c1c39457fc7403eb9478fb77c30d8f4ada6dc5f3e6e6fe6d4309dbc/chainbench-0.4.1.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/04/91/998d91dcc3df027619800fcef9a4d6de71c3976d23450216e6ebd6055f57/relenv-0.9.0-py3-none-any.whl
+[2023-07-24 10:25:15] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.3.tar.gz tmp/wafermap-clustering-0.3.4.tar.gz --markdown 20230724/w/wafermap-clustering/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-24 10:25:15] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: Downloading https://files.pythonhosted.org/packages/cc/44/584bb6640d0c7a26952ac9f06ef52c53b9d92cdb6bef3c15924a88fb0da0/odoo14_addon_ssi_currency_mixin-14.0.1.1.1-py3-none-any.whl
+[2023-07-24 10:25:15] INFO root fetch - processPackages [openpibo-models]: Downloading https://files.pythonhosted.org/packages/85/fd/32f43ab09bebf61a442a36398d3ce7b519279715faec0c4773f1ae372b6d/openpibo_models-0.4.6-py3-none-any.whl
+[2023-07-24 10:25:15] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.2.5.tar.gz tmp/liquisource-1.2.6.tar.gz --markdown 20230724/l/liquisource/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.4.0.tar.gz tmp/chainbench-0.4.1.tar.gz --markdown 20230724/c/chainbench/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.88.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230724/p/pyVIA/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_currency_mixin-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_currency_mixin-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230724/o/odoo14-addon-ssi-currency-mixin/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev7.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230724/c/code-loader/0.2.84.dev7-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [relenv]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [relenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relenv-0.8.2-py3-none-any.whl.zip tmp/relenv-0.9.0-py3-none-any.whl.zip --markdown 20230724/r/relenv/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [distgen]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [distgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distgen-1.8.tar.gz tmp/distgen-1.9.tar.gz --markdown 20230724/d/distgen/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-24 10:25:15] INFO root fetch - processPackages [openpibo-models]: executing diffoscope
+[2023-07-24 10:25:15] INFO root fetch - processPackages [openpibo-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpibo_models-0.4.5-py3-none-any.whl.zip tmp/openpibo_models-0.4.6-py3-none-any.whl.zip --markdown 20230724/o/openpibo-models/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-24 10:25:17] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [irene-pro]: Start processing: dev-assistant-client
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.3.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.4.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [wafermap-clustering]: Start processing: pepperize.projen-awscdk-construct
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-24 10:25:17] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.5.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.6.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e2/63/da63c28da3956aa0b16a816ebd0f700014c4b542f8233ad78aff853dec8a/dev-assistant-client-0.1.9.tar.gz
+[2023-07-24 10:25:17] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-07-24 10:25:17] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-24 10:25:17] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.8.tar.gz tmp/dev-assistant-client-0.1.9.tar.gz --markdown 20230724/d/dev-assistant-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:25:17] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev7.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.88.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.9.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.4.0.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.4.1.tar.gz]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.8.2-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.9.0-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [relenv]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_currency_mixin-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [odoo14-addon-ssi-currency-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_currency_mixin-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-currency-mixin]: success
+[2023-07-24 10:25:17] INFO root fetch - processPackages [openpibo-models]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_models-0.4.5-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - processPackages [openpibo-models]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_models-0.4.6-py3-none-any.whl.zip]
+[2023-07-24 10:25:17] INFO root fetch - main [MainThread]: End processing [openpibo-models]: success
+[2023-07-24 10:25:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-07-24 10:25:18] INFO root fetch - processPackages [distgen]: Remove: archive file [/home/abi/fetcher/tmp/distgen-1.8.tar.gz]
+[2023-07-24 10:25:18] INFO root fetch - processPackages [distgen]: Remove: archive file [/home/abi/fetcher/tmp/distgen-1.9.tar.gz]
+[2023-07-24 10:25:18] INFO root fetch - main [MainThread]: End processing [distgen]: success
+[2023-07-24 10:25:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-07-24 10:25:18] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230724/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 10:25:18] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-24 10:25:18] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.9.tar.gz]
+[2023-07-24 10:25:18] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-24 10:25:19] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-07-24 10:25:19] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-07-24 10:25:19] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-07-24 10:25:19] INFO root fetch - main [MainThread]: Store serial: [19009938]
