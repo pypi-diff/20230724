@@ -6986,3 +6986,94 @@
 [2023-07-24 06:08:49] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-24 06:08:49] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-07-24 06:08:49] INFO root fetch - main [MainThread]: Store serial: [19007920]
+[2023-07-24 06:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007920]
+[2023-07-24 06:13:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-swissknife
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medium2md
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invoicing-pkd
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-autoinstaller
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-autoinstaller
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htscf
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazynovel
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mynacode
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wph-c
+[2023-07-24 06:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mrp-warehouse-calendar
+[2023-07-24 06:13:59] INFO root fetch - processPackages [lazynovel]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 06:13:59] WARNING root fetch - processPackages [wph-c]: Skipping, unable to determine old version
+[2023-07-24 06:13:59] INFO root fetch - processPackages [wph-c]: Start processing: odoo-addon-mrp-multi-level
+[2023-07-24 06:13:59] INFO root fetch - main [MainThread]: End processing [wph-c] error
+[2023-07-24 06:13:59] WARNING root fetch - processPackages [medium2md]: Skipping, unable to determine old version
+[2023-07-24 06:13:59] INFO root fetch - processPackages [medium2md]: Start processing: odoo-addon-mrp-bom-component-menu
+[2023-07-24 06:13:59] INFO root fetch - main [MainThread]: End processing [medium2md] error
+[2023-07-24 06:13:59] INFO root fetch - processPackages [chromedriver-autoinstaller]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [chromedriver-autoinstaller]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [ml-swissknife]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-24 06:13:59] WARNING root fetch - processPackages [invoicing-pkd]: Skipping, unable to determine old version
+[2023-07-24 06:13:59] INFO root fetch - main [MainThread]: End processing [invoicing-pkd] error
+[2023-07-24 06:13:59] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: New version: [16.0.1.2.0.6] Old Version: [16.0.1.2.0.5]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-24 06:13:59] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 06:13:59] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/5e/04/40a1e2ef811c1b4a66904ae7df0509b92b983880697df10861d83c6a70ee/lazynovel-0.1.6.tar.gz
+[2023-07-24 06:13:59] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/3c/88/7b58f1291184657865537f80334f710508c85a4fd88607d57e2c8376967a/chromedriver-autoinstaller-0.5.0.tar.gz
+[2023-07-24 06:13:59] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/3c/88/7b58f1291184657865537f80334f710508c85a4fd88607d57e2c8376967a/chromedriver-autoinstaller-0.5.0.tar.gz
+[2023-07-24 06:13:59] INFO root fetch - processPackages [ml-swissknife]: Downloading https://files.pythonhosted.org/packages/1b/f4/84ef806d3a7f356b575f39eb9be97b23911451400063cb3fb76034f13aa9/ml-swissknife-0.1.8.tar.gz
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/fe/75/f9f0ed60e13ee4fdcacbdabff03fe3b8fc8ce062f295f7f3c817308384a7/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/86/f7/eb566aca489fbb817f3bcb186ce1b7b0369b3b9701dd5c221102b321ac3f/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl
+[2023-07-24 06:13:59] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-24 06:13:59] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/0d/a5/3fc77f767fa99f3158b1099f8a2525ed79803c898299336185afe2de1392/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-24 06:14:00] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230724/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/56/0d/e24a6d6e680dacaf2cfac9d58afabbabca36c3a63d411306fbf4306502dc/chromedriver-autoinstaller-0.6.0.tar.gz
+[2023-07-24 06:14:00] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/56/0d/e24a6d6e680dacaf2cfac9d58afabbabca36c3a63d411306fbf4306502dc/chromedriver-autoinstaller-0.6.0.tar.gz
+[2023-07-24 06:14:00] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/0d/6b/443f4973617cf536dcdbdfe4f5f20b37cbe7c8541bdf0da5756db1c0a99c/lazynovel-0.1.7.tar.gz
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/53/9e/8c6b9a47f80bc39239fe32457d2abedfc08666ccf988de437be2cdad0459/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-24 06:14:00] INFO root fetch - processPackages [ml-swissknife]: Downloading https://files.pythonhosted.org/packages/81/67/73dace4381e667d1d9ada5a6606ba4e01274506497c4b2338ef2bf1bc6d9/ml-swissknife-0.1.9.tar.gz
+[2023-07-24 06:14:00] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-autoinstaller-0.5.0.tar.gz tmp/chromedriver-autoinstaller-0.6.0.tar.gz --markdown 20230724/c/chromedriver-autoinstaller/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [chromedriver-autoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-autoinstaller-0.5.0.tar.gz tmp/chromedriver-autoinstaller-0.6.0.tar.gz --markdown 20230724/c/chromedriver-autoinstaller/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/ed/d4/177fae5daf14c8660f92d920da84c76b81ed8f981c5ae1d31d1c29a666ef/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/84/c2/fadce3d6a660a064c061a6ffe9256482f797f5c7175f2315904fa6b5823e/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-24 06:14:00] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.6.tar.gz tmp/lazynovel-0.1.7.tar.gz --markdown 20230724/l/lazynovel/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [ml-swissknife]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [ml-swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-swissknife-0.1.8.tar.gz tmp/ml-swissknife-0.1.9.tar.gz --markdown 20230724/m/ml-swissknife/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-mrp-warehouse-calendar/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-mrp-multi-level/16.0.1.2.0.5-16.0.1.2.0.6/diff.md --exclude *.pyd
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: executing diffoscope
+[2023-07-24 06:14:00] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-mrp-bom-component-menu/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-24 06:14:01] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-24 06:14:01] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.5.0.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.6.0.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [chromedriver-autoinstaller]: success
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [chromedriver-autoinstaller]: success
+[2023-07-24 06:14:01] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 06:14:01] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.6.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.7.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-07-24 06:14:01] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-component-menu]: success
+[2023-07-24 06:14:01] INFO root fetch - processPackages [ml-swissknife]: Remove: archive file [/home/abi/fetcher/tmp/ml-swissknife-0.1.8.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - processPackages [ml-swissknife]: Remove: archive file [/home/abi/fetcher/tmp/ml-swissknife-0.1.9.tar.gz]
+[2023-07-24 06:14:01] INFO root fetch - main [MainThread]: End processing [ml-swissknife]: success
+[2023-07-24 06:14:02] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.5-py3-none-any.whl.zip]
+[2023-07-24 06:14:02] INFO root fetch - processPackages [odoo-addon-mrp-multi-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_multi_level-16.0.1.2.0.6-py3-none-any.whl.zip]
+[2023-07-24 06:14:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-multi-level]: success
+[2023-07-24 06:14:02] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-24 06:14:02] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-24 06:14:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-warehouse-calendar]: success
+[2023-07-24 06:14:02] INFO root fetch - main [MainThread]: Store serial: [19007957]
