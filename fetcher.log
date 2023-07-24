@@ -5588,3 +5588,49 @@
 [2023-07-24 04:10:39] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.8.0.tar.gz]
 [2023-07-24 04:10:39] INFO root fetch - main [MainThread]: End processing [lmo]: success
 [2023-07-24 04:10:39] INFO root fetch - main [MainThread]: Store serial: [19007330]
+[2023-07-24 04:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007330]
+[2023-07-24 04:15:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 04:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easynotify
+[2023-07-24 04:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepchem
+[2023-07-24 04:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdf-tool
+[2023-07-24 04:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easynotify
+[2023-07-24 04:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supervisor-shell-ui
+[2023-07-24 04:15:48] INFO root fetch - processPackages [tdf-tool]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-07-24 04:15:48] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 04:15:48] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230724021110] Old Version: [2.7.2.dev20230719055234]
+[2023-07-24 04:15:48] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/71/fb/e7b423d2ca0fddc8937e3ad58a0e7c9359dae3ab81f8e35378a037ef7a27/supervisor-shell-ui-0.1.1.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/6c/d4/2469e6b5ca03a3b2d13deb0de1aec360d2a0740db03db85621d56f646010/tdf_tool-2.1.9.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/69/8e/36fc93008f28f947145d5b7bbd7f37fa2aeca8cd49bda2d65739224d2e6b/easynotify-0.1.0.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/69/8e/36fc93008f28f947145d5b7bbd7f37fa2aeca8cd49bda2d65739224d2e6b/easynotify-0.1.0.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/7b/37/0bf41162daa352302220d5bf45d1800a94233e666d264f8ad2c3eff0a513/deepchem-2.7.2.dev20230719055234.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/d8/bb/878badf462a039fea256f9918829101545a9418122c98bde6f651ea9d4e1/supervisor-shell-ui-0.2.0.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/fc/ee/e48fe076f92f5877b3c0402dd87976d24fcbc96caa60229d5e1a991eecf0/easynotify-0.1.1.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: Downloading https://files.pythonhosted.org/packages/fc/ee/e48fe076f92f5877b3c0402dd87976d24fcbc96caa60229d5e1a991eecf0/easynotify-0.1.1.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [tdf-tool]: Downloading https://files.pythonhosted.org/packages/b3/c0/2ee53950d4f4bdd175fd1c7aa230a34fe2b94120946bd966c7542fed06a6/tdf_tool-2.2.0.tar.gz
+[2023-07-24 04:15:48] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 04:15:48] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-0.1.1.tar.gz tmp/supervisor-shell-ui-0.2.0.tar.gz --markdown 20230724/s/supervisor-shell-ui/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: executing diffoscope
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynotify-0.1.0.tar.gz tmp/easynotify-0.1.1.tar.gz --markdown 20230724/e/easynotify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: executing diffoscope
+[2023-07-24 04:15:48] INFO root fetch - processPackages [easynotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynotify-0.1.0.tar.gz tmp/easynotify-0.1.1.tar.gz --markdown 20230724/e/easynotify/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 04:15:48] INFO root fetch - processPackages [tdf-tool]: executing diffoscope
+[2023-07-24 04:15:48] INFO root fetch - processPackages [tdf-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.1.9.tar.gz tmp/tdf_tool-2.2.0.tar.gz --markdown 20230724/t/tdf-tool/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-07-24 04:15:49] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/45/ed/278a575a6e3bc27b546ddff951334f315b824d976d01723ed3716942ab0d/deepchem-2.7.2.dev20230724021110.tar.gz
+[2023-07-24 04:15:49] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-07-24 04:15:49] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230719055234.tar.gz tmp/deepchem-2.7.2.dev20230724021110.tar.gz --markdown 20230724/d/deepchem/2.7.2.dev20230719055234-2.7.2.dev20230724021110/diff.md --exclude *.pyd
+[2023-07-24 04:15:49] INFO root fetch - processPackages [easynotify]: Remove: archive file [/home/abi/fetcher/tmp/easynotify-0.1.0.tar.gz]
+[2023-07-24 04:15:49] INFO root fetch - processPackages [easynotify]: Remove: archive file [/home/abi/fetcher/tmp/easynotify-0.1.1.tar.gz]
+[2023-07-24 04:15:49] INFO root fetch - main [MainThread]: End processing [easynotify]: success
+[2023-07-24 04:15:50] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.1.1.tar.gz]
+[2023-07-24 04:15:50] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.0.tar.gz]
+[2023-07-24 04:15:50] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 04:15:50] INFO root fetch - main [MainThread]: End processing [easynotify]: success
+[2023-07-24 04:15:50] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.1.9.tar.gz]
+[2023-07-24 04:15:50] INFO root fetch - processPackages [tdf-tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.2.0.tar.gz]
+[2023-07-24 04:15:50] INFO root fetch - main [MainThread]: End processing [tdf-tool]: success
+[2023-07-24 04:15:51] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230719055234.tar.gz]
+[2023-07-24 04:15:51] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230724021110.tar.gz]
+[2023-07-24 04:15:51] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-07-24 04:15:51] INFO root fetch - main [MainThread]: Store serial: [19007346]
