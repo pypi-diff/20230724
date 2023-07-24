@@ -7628,3 +7628,91 @@
 [2023-07-24 06:50:39] INFO root fetch - processPackages [azure-mgmt-netapp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-netapp-9.0.2b1.zip]
 [2023-07-24 06:50:39] INFO root fetch - main [MainThread]: End processing [azure-mgmt-netapp]: success
 [2023-07-24 06:50:39] INFO root fetch - main [MainThread]: Store serial: [19008134]
+[2023-07-24 06:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008134]
+[2023-07-24 06:55:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junifer
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ray
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plottoolbox
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyneople
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyllene
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htscf
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neuralpit
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poe-api
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ray-cpp
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gita
+[2023-07-24 06:55:48] INFO root fetch - processPackages [plottoolbox]: New version: [104.3.1] Old Version: [104.3.0]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [pyneople]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ray]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 06:55:48] WARNING root fetch - processPackages [cyllene]: Skipping, unable to determine old version
+[2023-07-24 06:55:48] INFO root fetch - processPackages [cyllene]: Start processing: awyes
+[2023-07-24 06:55:48] INFO root fetch - main [MainThread]: End processing [cyllene] error
+[2023-07-24 06:55:48] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [gita]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [awyes]: New version: [10.0.2] Old Version: [10.0.1]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/1a/39/3dd74c36526757265b060fe23717a21a65540011eeb3c9879e05dc048efd/pyneople-0.0.3.tar.gz
+[2023-07-24 06:55:48] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-24 06:55:48] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 06:55:48] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ray-cpp]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-24 06:55:48] INFO root fetch - processPackages [ray]: Downloading https://files.pythonhosted.org/packages/40/a3/66a9bf1d801d2b9ad1a439e1e45bd32054eae53fab352e079c8178b95f4f/ray-2.6.0-cp39-cp39-win_amd64.whl
+[2023-07-24 06:55:48] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/17/f6/1dfaed56cd32ee32c79dd464f8ca7423340d5f55b6761927a41d4c70df70/awyes-10.0.1.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [plottoolbox]: Downloading https://files.pythonhosted.org/packages/95/e7/9f3a933587f9551797839e61adac8ca828d7bfa57584ceeb78b629dd5e79/plottoolbox-104.3.0.tar.gz
+[2023-07-24 06:55:49] WARNING root fetch - processPackages [ray]: Skipping package: exceeds size limit 22334034>=10485760
+[2023-07-24 06:55:49] INFO root fetch - main [MainThread]: End processing [ray] error
+[2023-07-24 06:55:49] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/08/74/f22a1b2f90d56fbe2c376a3b676b3863eb1f5b17712bf29abb3b48d8ec8d/gita-0.9.8.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-24 06:55:49] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/52/60/7964ec8ff64f9e0b45f64bf9fea56542dc25af8b73fe43104a72f1c9c899/pyneople-0.0.4.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/04/56/2e26883e50b8956df5d6af01ec6138b56b5f18b5ec65927cbb2ab1541ef1/awyes-10.0.2.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [ray-cpp]: Downloading https://files.pythonhosted.org/packages/0f/45/a0b8e33ee24f6debde29ac1ecd94cc94cd291ec3a590d5fade0e4fb3adf6/ray_cpp-2.6.0-cp39-cp39-win_amd64.whl
+[2023-07-24 06:55:49] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230724/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] WARNING root fetch - processPackages [ray-cpp]: Skipping package: exceeds size limit 20724010>=10485760
+[2023-07-24 06:55:49] INFO root fetch - main [MainThread]: End processing [ray-cpp] error
+[2023-07-24 06:55:49] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230724/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.1.tar.gz tmp/awyes-10.0.2.tar.gz --markdown 20230724/a/awyes/10.0.1-10.0.2/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] INFO root fetch - processPackages [gita]: Downloading https://files.pythonhosted.org/packages/1d/46/236c7ff23d6debdb85880ac7785267931325f3896b58d56f306e7a592a0f/gita-0.9.9.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.0.3.tar.gz tmp/pyneople-0.0.4.tar.gz --markdown 20230724/p/pyneople/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [plottoolbox]: Downloading https://files.pythonhosted.org/packages/12/ff/b92ff0a526e342d67e17d5773134c3c6b8132c53f671fe6e3c69ab3628f2/plottoolbox-104.3.1.tar.gz
+[2023-07-24 06:55:49] INFO root fetch - processPackages [gita]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [gita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gita-0.9.8.tar.gz tmp/gita-0.9.9.tar.gz --markdown 20230724/g/gita/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 06:55:49] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-24 06:55:49] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230724/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-24 06:55:50] INFO root fetch - processPackages [plottoolbox]: executing diffoscope
+[2023-07-24 06:55:50] INFO root fetch - processPackages [plottoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottoolbox-104.3.0.tar.gz tmp/plottoolbox-104.3.1.tar.gz --markdown 20230724/p/plottoolbox/104.3.0-104.3.1/diff.md --exclude *.pyd
+[2023-07-24 06:55:50] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-24 06:55:50] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.1.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.2.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-24 06:55:50] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 06:55:50] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.3.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.4.tar.gz]
+[2023-07-24 06:55:50] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2023-07-24 06:55:51] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.8.tar.gz]
+[2023-07-24 06:55:51] INFO root fetch - processPackages [gita]: Remove: archive file [/home/abi/fetcher/tmp/gita-0.9.9.tar.gz]
+[2023-07-24 06:55:51] INFO root fetch - main [MainThread]: End processing [gita]: success
+[2023-07-24 06:55:51] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-24 06:55:51] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-24 06:55:51] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-24 06:55:52] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-24 06:55:52] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-24 06:55:52] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-24 06:55:52] INFO root fetch - processPackages [plottoolbox]: Remove: archive file [/home/abi/fetcher/tmp/plottoolbox-104.3.0.tar.gz]
+[2023-07-24 06:55:52] INFO root fetch - processPackages [plottoolbox]: Remove: archive file [/home/abi/fetcher/tmp/plottoolbox-104.3.1.tar.gz]
+[2023-07-24 06:55:52] INFO root fetch - main [MainThread]: End processing [plottoolbox]: success
+[2023-07-24 06:55:52] INFO root fetch - main [MainThread]: Store serial: [19008196]
