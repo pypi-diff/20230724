@@ -18658,3 +18658,110 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:00:28] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-07-24 15:00:28] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-07-24 15:00:28] INFO root fetch - main [MainThread]: Store serial: [19012818]
+[2023-07-24 15:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012818]
+[2023-07-24 15:05:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent360
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygaul
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcheapo
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagshub
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-testing-platform
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diffenator2
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gov-uk-dashboards
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upgini
+[2023-07-24 15:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tpcp
+[2023-07-24 15:05:37] INFO root fetch - processPackages [lcheapo]: New version: [1.0.7] Old Version: [1.0.6.post2]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [agent360]: New version: [1.2.46] Old Version: [1.2.45]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [pygaul]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [diffenator2]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [dagshub]: New version: [0.3.0.post3] Old Version: [0.3.0.post2]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [cg]: New version: [40.1.3] Old Version: [40.1.2]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [tpcp]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b9/59/92cc3315ddf75ded2d49d885935bb76b3b47929b49a745140da2ee71ec9e/dagshub-0.3.0.post2.tar.gz
+[2023-07-24 15:05:37] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-24 15:05:37] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/81/06/98234d22d839b385dad6ab5ac9fe6daff011cbd1af90798e7223adc65f98/agent360-1.2.45.tar.gz
+[2023-07-24 15:05:37] INFO root fetch - processPackages [lcheapo]: Downloading https://files.pythonhosted.org/packages/d2/43/060b94ccb489daccb1ed0f611465ace606f2b4637cc66e0858391464ee11/lcheapo-1.0.6.post2.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [pygaul]: Downloading https://files.pythonhosted.org/packages/62/c5/e2b10d4bb0918f3550b438fdeb0790a834592372de61fc928ce60d1a9b8f/pygaul-0.1.1.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/03/5e/087f3f6ddc811ecffe09aa294d97e14db94177216a3184de93dc3b81d535/diffenator2-0.2.6.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4c/d0/44b7e2f6262516b4fbc8b877b2ff9db47524b3f10758f1ea48f9b9873c70/cg-40.1.2.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [tpcp]: Downloading https://files.pythonhosted.org/packages/54/79/28d054007059a5501bb64c3a1da9fd60349d936775fbcb337e3f9b4f281a/tpcp-0.9.0.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-07-24 15:05:38] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12794793>=10485760
+[2023-07-24 15:05:38] INFO root fetch - processPackages [diffenator2]: Start processing: barbell2-bodycomp
+[2023-07-24 15:05:38] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2023-07-24 15:05:38] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/98/00/50a334ca3ac3fb96750a70e6cca169b0f3949456ea4f872f658a5672e4d4/dagshub-0.3.0.post3.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 15:05:38] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/2e/1f/29d35922e58b61e759db4455d0fab0b50ff1424067dff94e77ffb40a24e1/agent360-1.2.46.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [lcheapo]: Downloading https://files.pythonhosted.org/packages/cc/cc/1277794fc5fa06a5e9bf343bc460be045c47719771fb69a60da9a96b96d2/lcheapo-1.0.7.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [pygaul]: Downloading https://files.pythonhosted.org/packages/b5/09/b91d59d2089559d2663dab9ee7a72f373a844a9b99b1e4c1f679fc5ac2ba/pygaul-0.2.0.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.post2.tar.gz tmp/dagshub-0.3.0.post3.tar.gz --markdown 20230724/d/dagshub/0.3.0.post2-0.3.0.post3/diff.md --exclude *.pyd
+[2023-07-24 15:05:38] INFO root fetch - processPackages [agent360]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [agent360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent360-1.2.45.tar.gz tmp/agent360-1.2.46.tar.gz --markdown 20230724/a/agent360/1.2.45-1.2.46/diff.md --exclude *.pyd
+[2023-07-24 15:05:38] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [lcheapo]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [lcheapo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcheapo-1.0.6.post2.tar.gz tmp/lcheapo-1.0.7.tar.gz --markdown 20230724/l/lcheapo/1.0.6.post2-1.0.7/diff.md --exclude *.pyd
+[2023-07-24 15:05:38] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/67/d5/4bf343dbcb552ce4e0d45469f1ad42b9895ccc7f37341e8faffecbd05726/barbell2_bodycomp-0.8.0.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [pygaul]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [pygaul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygaul-0.1.1.tar.gz tmp/pygaul-0.2.0.tar.gz --markdown 20230724/p/pygaul/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 15:05:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7a/b1/f285aad7ae407be8fe29d160b981dae5440b33d838e37fb57160133f249f/cg-40.1.3.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [tpcp]: Downloading https://files.pythonhosted.org/packages/c1/b5/300b5effffaebda986e07ecd46bdef9d6bddbb6059eee6072eedcd5ec377/tpcp-0.9.1.tar.gz
+[2023-07-24 15:05:38] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230724/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 15:05:38] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-24 15:05:38] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230724/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-24 15:05:39] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-07-24 15:05:39] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230724/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:05:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-24 15:05:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.1.2.tar.gz tmp/cg-40.1.3.tar.gz --markdown 20230724/c/cg/40.1.2-40.1.3/diff.md --exclude *.pyd
+[2023-07-24 15:05:39] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/d7/b2/5c4c1c66995b10cf7e25ca1730dd1b837cea894e9f0d0ce2f17ac75d6066/barbell2_bodycomp-0.9.0.tar.gz
+[2023-07-24 15:05:39] INFO root fetch - processPackages [tpcp]: executing diffoscope
+[2023-07-24 15:05:39] INFO root fetch - processPackages [tpcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpcp-0.9.0.tar.gz tmp/tpcp-0.9.1.tar.gz --markdown 20230724/t/tpcp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:05:39] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-07-24 15:05:39] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.8.0.tar.gz tmp/barbell2_bodycomp-0.9.0.tar.gz --markdown 20230724/b/barbell2-bodycomp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:05:40] INFO root fetch - processPackages [pygaul]: Remove: archive file [/home/abi/fetcher/tmp/pygaul-0.1.1.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [pygaul]: Remove: archive file [/home/abi/fetcher/tmp/pygaul-0.2.0.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [pygaul]: Start processing: deklinacija
+[2023-07-24 15:05:40] INFO root fetch - main [MainThread]: End processing [pygaul]: success
+[2023-07-24 15:05:40] INFO root fetch - processPackages [agent360]: Remove: archive file [/home/abi/fetcher/tmp/agent360-1.2.45.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [agent360]: Remove: archive file [/home/abi/fetcher/tmp/agent360-1.2.46.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - main [MainThread]: End processing [agent360]: success
+[2023-07-24 15:05:40] INFO root fetch - processPackages [deklinacija]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post2.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post3.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-24 15:05:40] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/8c/8c/10273cf6acc770793a24c8c910a5d8afded8ec5922d4ee803a0976e55ab3/deklinacija-1.6.1.tar.gz
+[2023-07-24 15:05:40] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-24 15:05:40] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-24 15:05:40] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-24 15:05:41] INFO root fetch - processPackages [tpcp]: Remove: archive file [/home/abi/fetcher/tmp/tpcp-0.9.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - processPackages [tpcp]: Remove: archive file [/home/abi/fetcher/tmp/tpcp-0.9.1.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - main [MainThread]: End processing [tpcp]: success
+[2023-07-24 15:05:41] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/23/14/021f62c333422c8ff9d69ec9c07abde24a0ba806478e46bae48bf2b8375a/deklinacija-1.7.0.tar.gz
+[2023-07-24 15:05:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-07-24 15:05:41] INFO root fetch - processPackages [lcheapo]: Remove: archive file [/home/abi/fetcher/tmp/lcheapo-1.0.6.post2.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - processPackages [lcheapo]: Remove: archive file [/home/abi/fetcher/tmp/lcheapo-1.0.7.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - main [MainThread]: End processing [lcheapo]: success
+[2023-07-24 15:05:41] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.8.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.9.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-07-24 15:05:41] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-07-24 15:05:41] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-1.6.1.tar.gz tmp/deklinacija-1.7.0.tar.gz --markdown 20230724/d/deklinacija/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-24 15:05:41] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.6.1.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.7.0.tar.gz]
+[2023-07-24 15:05:41] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-07-24 15:05:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.2.tar.gz]
+[2023-07-24 15:05:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.3.tar.gz]
+[2023-07-24 15:05:45] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-24 15:05:45] INFO root fetch - main [MainThread]: Store serial: [19012862]
