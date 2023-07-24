@@ -12420,3 +12420,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:46:40] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-24 10:46:40] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-24 10:46:40] INFO root fetch - main [MainThread]: Store serial: [19010173]
+[2023-07-24 10:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010173]
+[2023-07-24 10:51:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wlc-tools
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rec-spotify
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-linstor
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptask-cli
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-dataprotection
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-plantuml
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-compute
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-mgmt-quantum
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-elasticsan
+[2023-07-24 10:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvitop
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-quantum]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [langchain-plantuml]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 10:51:49] WARNING root fetch - processPackages [wlc-tools]: Skipping, unable to determine old version
+[2023-07-24 10:51:49] INFO root fetch - processPackages [wlc-tools]: Start processing: azure-mgmt-webpubsub
+[2023-07-24 10:51:49] INFO root fetch - main [MainThread]: End processing [wlc-tools] error
+[2023-07-24 10:51:49] INFO root fetch - processPackages [rec-spotify]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [gptask-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-dataprotection]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-elasticsan]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-compute]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [python-linstor]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [nvitop]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-webpubsub]: New version: [2.0.0b1] Old Version: [1.1.0b1]
+[2023-07-24 10:51:49] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/d7/3e/9fd414ba6e76c5f0a0a5831609d212c7d3c55e458b5734bde6151af84c9b/rec_spotify-1.2.2.tar.gz
+[2023-07-24 10:51:49] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/72/5a/424f8610cdd28cbcf695f082ff152907ab1eb9f547d23294f21c2c4609f1/gptask_cli-0.1.8.tar.gz
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Downloading https://files.pythonhosted.org/packages/f4/5d/606862245af831149d6c70ec799323424a35466d7f8334dcae7828d56493/azure-mgmt-dataprotection-1.1.0.zip
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-quantum]: Downloading https://files.pythonhosted.org/packages/1d/b5/527474d84df3541bce71d78a27359b3ef74fff7fbb2a007a40172becccba/azure-mgmt-quantum-1.0.0b3.zip
+[2023-07-24 10:51:49] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/a5/e6/b8c001c5f4f48b3649b231499c023dc8ce8bcefad4861879d17ef1daba2b/langchain_plantuml-0.0.4.tar.gz
+[2023-07-24 10:51:49] INFO root fetch - processPackages [python-linstor]: Downloading https://files.pythonhosted.org/packages/6e/89/49b3e1fa8c3b6bc6a3de5416574d9e459391ec78f369412237762f3d3893/python-linstor-1.8.0.tar.gz
+[2023-07-24 10:51:49] INFO root fetch - processPackages [azure-mgmt-elasticsan]: Downloading https://files.pythonhosted.org/packages/de/16/6537136f531bc4c8d4338f9c5c408d3032fbbfdc1cd758e0b17ddda96876/azure-mgmt-elasticsan-1.0.0b1.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-webpubsub]: Downloading https://files.pythonhosted.org/packages/fb/2d/ab9668daf9b9ea43c876152e62841d4aa4b665826309ff5d2d0c202ae3b2/azure-mgmt-webpubsub-1.1.0b1.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [nvitop]: Downloading https://files.pythonhosted.org/packages/c2/b9/3d7c9182a403043deb2bf76c7cc3a76eb44b9c4de90387fe5ec8f158b224/nvitop-1.1.2.tar.gz
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/7f/13/7dc8e3a4583a997d48f833bd5da516ea85ab6431bf0142a85772ff08f9bf/azure-mgmt-compute-8.0.0.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/cb/4b/21dcf9b877fb70670462d23b945f6c505a8bcfafb23f65b29ac61934749b/gptask_cli-0.1.9.tar.gz
+[2023-07-24 10:51:50] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/b1/d3/cb750220db3164dcd9e7d0b52a40790608877d77d6bdd893c9308c4d3553/rec_spotify-1.2.3.tar.gz
+[2023-07-24 10:51:50] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/c9/58/3e1ab1b60bb5879c37cdb323690b293c50df51c83361c57b1ade03576d65/langchain_plantuml-0.0.5.tar.gz
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Downloading https://files.pythonhosted.org/packages/38/03/26c3dfb326b74b90aff1953d3022fa74865f9e88b2253b62fd3ab4c6682b/azure-mgmt-dataprotection-1.2.0.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-quantum]: Downloading https://files.pythonhosted.org/packages/ac/79/3d0fa55998d669c4f226e7cabf8275c1deefd53626c3974e5b861138a0d0/azure-mgmt-quantum-1.0.0b4.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [gptask-cli]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [gptask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptask_cli-0.1.8.tar.gz tmp/gptask_cli-0.1.9.tar.gz --markdown 20230724/g/gptask-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [rec-spotify]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [rec-spotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_spotify-1.2.2.tar.gz tmp/rec_spotify-1.2.3.tar.gz --markdown 20230724/r/rec-spotify/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-elasticsan]: Downloading https://files.pythonhosted.org/packages/b7/a6/955f9bff9821e5606f305d3a2c59a9369d9192d82d40366ec0a98c570b55/azure-mgmt-elasticsan-1.0.0b2.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-webpubsub]: Downloading https://files.pythonhosted.org/packages/6e/77/2345600aba67e751a8307aaba91edf0dc2e2cb5a016852137b851bcaae68/azure-mgmt-webpubsub-2.0.0b1.zip
+[2023-07-24 10:51:50] INFO root fetch - processPackages [langchain-plantuml]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [langchain-plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_plantuml-0.0.4.tar.gz tmp/langchain_plantuml-0.0.5.tar.gz --markdown 20230724/l/langchain-plantuml/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [nvitop]: Downloading https://files.pythonhosted.org/packages/07/28/f7a40296cbdc3123715305549534ac9962b83ef270afed4a98849d782299/nvitop-1.2.0.tar.gz
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-dataprotection]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-dataprotection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-dataprotection-1.1.0.zip tmp/azure-mgmt-dataprotection-1.2.0.zip --markdown 20230724/a/azure-mgmt-dataprotection/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-quantum]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-quantum-1.0.0b3.zip tmp/azure-mgmt-quantum-1.0.0b4.zip --markdown 20230724/a/azure-mgmt-quantum/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [nvitop]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [nvitop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvitop-1.1.2.tar.gz tmp/nvitop-1.2.0.tar.gz --markdown 20230724/n/nvitop/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-elasticsan]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-elasticsan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-elasticsan-1.0.0b1.zip tmp/azure-mgmt-elasticsan-1.0.0b2.zip --markdown 20230724/a/azure-mgmt-elasticsan/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-webpubsub]: executing diffoscope
+[2023-07-24 10:51:50] INFO root fetch - processPackages [azure-mgmt-webpubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-webpubsub-1.1.0b1.zip tmp/azure-mgmt-webpubsub-2.0.0b1.zip --markdown 20230724/a/azure-mgmt-webpubsub/1.1.0b1-2.0.0b1/diff.md --exclude *.pyd
+[2023-07-24 10:51:50] INFO root fetch - processPackages [python-linstor]: Downloading https://files.pythonhosted.org/packages/68/93/587ffa4a6e4d076d382c7c9c7f8ccf52a557d6f1fb8619bd5523d292faa0/python-linstor-1.9.0.tar.gz
+[2023-07-24 10:51:51] INFO root fetch - processPackages [azure-mgmt-compute]: Downloading https://files.pythonhosted.org/packages/a4/a6/6db35285609cc32d3941ceecfe58ab3b4c1db0242c13ff5eea5495cfd291/azure-mgmt-compute-9.0.0.zip
+[2023-07-24 10:51:51] INFO root fetch - processPackages [python-linstor]: executing diffoscope
+[2023-07-24 10:51:51] INFO root fetch - processPackages [python-linstor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-linstor-1.8.0.tar.gz tmp/python-linstor-1.9.0.tar.gz --markdown 20230724/p/python-linstor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:51:51] INFO root fetch - processPackages [azure-mgmt-compute]: executing diffoscope
+[2023-07-24 10:51:51] INFO root fetch - processPackages [azure-mgmt-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-compute-8.0.0.zip tmp/azure-mgmt-compute-9.0.0.zip --markdown 20230724/a/azure-mgmt-compute/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-24 10:51:53] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.8.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.9.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [gptask-cli]: Start processing: pybaseutils
+[2023-07-24 10:51:53] INFO root fetch - main [MainThread]: End processing [gptask-cli]: success
+[2023-07-24 10:51:53] INFO root fetch - processPackages [pybaseutils]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/a2/71/d08d979a58197671244cf51d580c72b24b638dc8b48a7e1f5b8ff1a0faf3/pybaseutils-0.8.5.tar.gz
+[2023-07-24 10:51:53] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.4.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.5.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [langchain-plantuml]: Start processing: IDsys
+[2023-07-24 10:51:53] INFO root fetch - main [MainThread]: End processing [langchain-plantuml]: success
+[2023-07-24 10:51:53] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.2.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.3.tar.gz]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [rec-spotify]: Start processing: chatglm-llm
+[2023-07-24 10:51:53] INFO root fetch - main [MainThread]: End processing [rec-spotify]: success
+[2023-07-24 10:51:53] INFO root fetch - processPackages [chatglm-llm]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.9] Old Version: [0.0.8.8]
+[2023-07-24 10:51:53] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/da/38/4eb52696d76b449d4ce96b0b17d1069f0c304eb43197b99da4f67ec7a67d/IDsys-0.0.8.8.tar.gz
+[2023-07-24 10:51:53] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/bb/8c/d49bc8a514a8b17a17398e1c85780fbbe92a148a620a70c869f1090c14e9/chatglm-llm-1.4.7.tar.gz
+[2023-07-24 10:51:53] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/a7/2a/c7b39e99b85f9fd3fc30cbdfb10fb5ee370b6c920ac13e6b78114cdccf10/pybaseutils-0.8.6.tar.gz
+[2023-07-24 10:51:54] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/d2/80/1e6f2b88807cd28fd9ec2dd2473e56f6412eff4751db460a519aa7cb69f2/IDsys-0.0.8.9.tar.gz
+[2023-07-24 10:51:54] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2023-07-24 10:51:54] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-0.8.5.tar.gz tmp/pybaseutils-0.8.6.tar.gz --markdown 20230724/p/pybaseutils/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-24 10:51:54] INFO root fetch - processPackages [chatglm-llm]: Downloading https://files.pythonhosted.org/packages/e9/7d/421b246a734cd132d6a72cea634ee075791d680b8adfb920b7066ad2a84b/chatglm-llm-1.4.8.tar.gz
+[2023-07-24 10:51:54] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-24 10:51:54] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.8.tar.gz tmp/IDsys-0.0.8.9.tar.gz --markdown 20230724/I/IDsys/0.0.8.8-0.0.8.9/diff.md --exclude *.pyd
+[2023-07-24 10:51:54] INFO root fetch - processPackages [chatglm-llm]: executing diffoscope
+[2023-07-24 10:51:54] INFO root fetch - processPackages [chatglm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-llm-1.4.7.tar.gz tmp/chatglm-llm-1.4.8.tar.gz --markdown 20230724/c/chatglm-llm/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-quantum-1.0.0b3.zip]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-quantum-1.0.0b4.zip]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-quantum]: Start processing: apify-client
+[2023-07-24 10:51:54] INFO root fetch - main [MainThread]: End processing [azure-mgmt-quantum]: success
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-elasticsan]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-elasticsan-1.0.0b1.zip]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-elasticsan]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-elasticsan-1.0.0b2.zip]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [apify-client]: New version: [1.3.0b2] Old Version: [1.3.0b1]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-elasticsan]: Start processing: bolinette
+[2023-07-24 10:51:54] INFO root fetch - main [MainThread]: End processing [azure-mgmt-elasticsan]: success
+[2023-07-24 10:51:54] INFO root fetch - processPackages [bolinette]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/b6/4f/77a79d0c708bd6c47be483ec050e4f53fcddb66afd8ac40e6f499135dcf8/apify_client-1.3.0b1.tar.gz
+[2023-07-24 10:51:54] INFO root fetch - processPackages [bolinette]: Downloading https://files.pythonhosted.org/packages/7e/46/32edf998262c22769f899dfa7da6b0bd916fba9469feae9fafc864902f66/Bolinette-0.8.5.tar.gz
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dataprotection-1.1.0.zip]
+[2023-07-24 10:51:54] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dataprotection-1.2.0.zip]
+[2023-07-24 10:51:54] INFO root fetch - main [MainThread]: End processing [azure-mgmt-dataprotection]: success
+[2023-07-24 10:51:55] INFO root fetch - processPackages [nvitop]: Remove: archive file [/home/abi/fetcher/tmp/nvitop-1.1.2.tar.gz]
+[2023-07-24 10:51:55] INFO root fetch - processPackages [nvitop]: Remove: archive file [/home/abi/fetcher/tmp/nvitop-1.2.0.tar.gz]
+[2023-07-24 10:51:55] INFO root fetch - main [MainThread]: End processing [nvitop]: success
+[2023-07-24 10:51:55] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/48/9f/1db520b7cb3b409bc0592462f9c525df9afe3f5617c6862f75cbfaf9c30f/apify_client-1.3.0b2.tar.gz
+[2023-07-24 10:51:55] INFO root fetch - processPackages [bolinette]: Downloading https://files.pythonhosted.org/packages/63/83/6ee87152be59902966986439f4eee117d2f1eb55153fbdbf359e09cf3b76/Bolinette-0.9.0.tar.gz
+[2023-07-24 10:51:55] INFO root fetch - processPackages [azure-mgmt-webpubsub]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-webpubsub-1.1.0b1.zip]
+[2023-07-24 10:51:55] INFO root fetch - processPackages [azure-mgmt-webpubsub]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-webpubsub-2.0.0b1.zip]
+[2023-07-24 10:51:55] INFO root fetch - main [MainThread]: End processing [azure-mgmt-webpubsub]: success
+[2023-07-24 10:51:55] INFO root fetch - processPackages [bolinette]: executing diffoscope
+[2023-07-24 10:51:55] INFO root fetch - processPackages [bolinette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bolinette-0.8.5.tar.gz tmp/Bolinette-0.9.0.tar.gz --markdown 20230724/b/bolinette/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:51:55] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-07-24 10:51:55] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.3.0b1.tar.gz tmp/apify_client-1.3.0b2.tar.gz --markdown 20230724/a/apify-client/1.3.0b1-1.3.0b2/diff.md --exclude *.pyd
+[2023-07-24 10:51:56] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.8.tar.gz]
+[2023-07-24 10:51:56] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.9.tar.gz]
+[2023-07-24 10:51:56] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-24 10:51:56] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.7.tar.gz]
+[2023-07-24 10:51:56] INFO root fetch - processPackages [chatglm-llm]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-llm-1.4.8.tar.gz]
+[2023-07-24 10:51:56] INFO root fetch - main [MainThread]: End processing [chatglm-llm]: success
+[2023-07-24 10:51:57] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.5.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.6.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2023-07-24 10:51:57] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.3.0b1.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.3.0b2.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-07-24 10:51:57] INFO root fetch - processPackages [bolinette]: Remove: archive file [/home/abi/fetcher/tmp/Bolinette-0.8.5.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - processPackages [bolinette]: Remove: archive file [/home/abi/fetcher/tmp/Bolinette-0.9.0.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - main [MainThread]: End processing [bolinette]: success
+[2023-07-24 10:51:57] INFO root fetch - processPackages [python-linstor]: Remove: archive file [/home/abi/fetcher/tmp/python-linstor-1.8.0.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - processPackages [python-linstor]: Remove: archive file [/home/abi/fetcher/tmp/python-linstor-1.9.0.tar.gz]
+[2023-07-24 10:51:57] INFO root fetch - main [MainThread]: End processing [python-linstor]: success
+[2023-07-24 10:52:06] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-8.0.0.zip]
+[2023-07-24 10:52:06] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-9.0.0.zip]
+[2023-07-24 10:52:06] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
+[2023-07-24 10:52:06] INFO root fetch - main [MainThread]: Store serial: [19010223]
