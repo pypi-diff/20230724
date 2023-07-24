@@ -19867,3 +19867,141 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:19:37] INFO root fetch - processPackages [codechecker]: Remove: archive file [/home/abi/fetcher/tmp/codechecker-6.22.2.tar.gz]
 [2023-07-24 15:19:37] INFO root fetch - main [MainThread]: End processing [codechecker]: success
 [2023-07-24 15:19:37] INFO root fetch - main [MainThread]: Store serial: [19013201]
+[2023-07-24 15:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013201]
+[2023-07-24 15:24:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-client
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackbricks
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oelint-adv
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrdams
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbnomics
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-cli
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vantage6-common
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-client
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6
+[2023-07-24 15:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-node
+[2023-07-24 15:24:50] INFO root fetch - processPackages [pyrdams]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [blackbricks]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [dbnomics]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [invenio-cli]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [vantage6-common]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [girder-client]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [oelint-adv]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [vantage6-node]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [vantage6-client]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-07-24 15:24:50] INFO root fetch - processPackages [vantage6]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-07-24 15:24:51] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/a4/fe/c36b3fab3d66b697aab46a2559d89c99df73ce68b96dbdee7ed3ef34b30d/girder-client-3.1.9.dev6.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [blackbricks]: Downloading https://files.pythonhosted.org/packages/83/bd/0eeed26745c1ce860b7661c5ec43e9440f315f0df5de1dd2a4cfdefbb259/blackbricks-2.1.2.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [pyrdams]: Downloading https://files.pythonhosted.org/packages/86/8b/dacf8f365b7a9ddab73dbc62b474975f4be683c7a6796a19df51079a6b91/pyrdams-2.1.2.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/5e/9b/6e693a66319b81e460459bb792223a38e12abb584d60f7b9a4063cda4e97/oelint_adv-3.9.3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/c7/d0/ea4330891bdeab17907f9f768bdb228bc39d766de445999d9eed25040388/vantage6-common-4.0.0a3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [invenio-cli]: Downloading https://files.pythonhosted.org/packages/b0/0e/4a33af708fca0b6a0740f12e293fa6e65e22dcc9d866ad08fe480ef5ffb4/invenio-cli-1.0.9.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [dbnomics]: Downloading https://files.pythonhosted.org/packages/9b/b2/6cf49ca1d17ab62e40043ec56cfecce7add08b6314a4bb228663868c23fc/dbnomics-1.2.4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/d9/0f/c901bf438073ceaba4e74a0d6bc415372defa248c030e883c09058042830/vantage6-client-4.0.0a3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/ed/72/cac1b8acb47a754fea4da24a9514938fcfbbb4ebbd6490bb8cc9b6b033c4/vantage6-4.0.0a3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/73/42/d2cb311201a75d78622082138dc776f9f59040fd33303cddeb5f0b4614f3/vantage6-node-4.0.0a3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/ab/57/00f9b6ad0bbc9f916644274c8d0af167fb864b2d7b479f20a6761ffc093c/girder-client-3.1.9.dev8.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [pyrdams]: Downloading https://files.pythonhosted.org/packages/72/c0/5a6d9512e63677622de3d9ab06a7c3c998813b976f16761fd0ae67c733bd/pyrdams-2.1.3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [blackbricks]: Downloading https://files.pythonhosted.org/packages/0f/81/6b088f079e2db55e2ced2c882a156499d65e2b72e2a93910d39697efd028/blackbricks-2.1.3.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/c5/99/1e82f3dc98583aa7b932fe1c2791bccaf0279fb0aa4db38a18f686fde48d/vantage6-common-4.0.0a4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [pyrdams]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [pyrdams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdams-2.1.2.tar.gz tmp/pyrdams-2.1.3.tar.gz --markdown 20230724/p/pyrdams/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/21/69/08131021915160e5bf82a1c314f98189c9467d78602271f763209a498ec7/vantage6-client-4.0.0a4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/e7/ed/c1b013989b5727489731e018fd2a95b1ee1eb0dea4a272933db4db7ff068/vantage6-4.0.0a4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [oelint-adv]: Downloading https://files.pythonhosted.org/packages/70/ef/260ffeeb3fd7470716269a3178856ea12e48647662bfc79127822419e048/oelint_adv-3.9.4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/46/68/6e321258881a75d95823d9710659b87538cd1833a458b0a64b680fcaae61/vantage6-node-4.0.0a4.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [girder-client]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [girder-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-client-3.1.9.dev6.tar.gz tmp/girder-client-3.1.9.dev8.tar.gz --markdown 20230724/g/girder-client/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [dbnomics]: Downloading https://files.pythonhosted.org/packages/e1/2b/b451ae3e597a1310bc47c5b19d3e1e2b67b237e2efc985ac032dbe20bba3/dbnomics-1.2.5.tar.gz
+[2023-07-24 15:24:51] INFO root fetch - processPackages [blackbricks]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [blackbricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackbricks-2.1.2.tar.gz tmp/blackbricks-2.1.3.tar.gz --markdown 20230724/b/blackbricks/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.0.0a3.tar.gz tmp/vantage6-common-4.0.0a4.tar.gz --markdown 20230724/v/vantage6-common/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.0.0a3.tar.gz tmp/vantage6-client-4.0.0a4.tar.gz --markdown 20230724/v/vantage6-client/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.0.0a3.tar.gz tmp/vantage6-4.0.0a4.tar.gz --markdown 20230724/v/vantage6/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:24:51] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.0.0a3.tar.gz tmp/vantage6-node-4.0.0a4.tar.gz --markdown 20230724/v/vantage6-node/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:24:52] INFO root fetch - processPackages [dbnomics]: executing diffoscope
+[2023-07-24 15:24:52] INFO root fetch - processPackages [dbnomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbnomics-1.2.4.tar.gz tmp/dbnomics-1.2.5.tar.gz --markdown 20230724/d/dbnomics/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-24 15:24:52] INFO root fetch - processPackages [oelint-adv]: executing diffoscope
+[2023-07-24 15:24:52] INFO root fetch - processPackages [oelint-adv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_adv-3.9.3.tar.gz tmp/oelint_adv-3.9.4.tar.gz --markdown 20230724/o/oelint-adv/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-07-24 15:24:52] INFO root fetch - processPackages [invenio-cli]: Downloading https://files.pythonhosted.org/packages/92/90/2d3be62cb3c6dcf2a9b607e1ad81a4742e6664963f343b495b1d72a276fe/invenio-cli-1.1.0.tar.gz
+[2023-07-24 15:24:52] INFO root fetch - processPackages [invenio-cli]: executing diffoscope
+[2023-07-24 15:24:52] INFO root fetch - processPackages [invenio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-cli-1.0.9.tar.gz tmp/invenio-cli-1.1.0.tar.gz --markdown 20230724/i/invenio-cli/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 15:24:53] INFO root fetch - processPackages [pyrdams]: Remove: archive file [/home/abi/fetcher/tmp/pyrdams-2.1.2.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [pyrdams]: Remove: archive file [/home/abi/fetcher/tmp/pyrdams-2.1.3.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [pyrdams]: Start processing: vantage6-server
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [pyrdams]: success
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-server]: New version: [4.0.0a4] Old Version: [4.0.0a3]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.1.9.dev6.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.1.9.dev8.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [girder-client]: Start processing: urban.restapi
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [girder-client]: success
+[2023-07-24 15:24:53] INFO root fetch - processPackages [blackbricks]: Remove: archive file [/home/abi/fetcher/tmp/blackbricks-2.1.2.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [blackbricks]: Remove: archive file [/home/abi/fetcher/tmp/blackbricks-2.1.3.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [blackbricks]: Start processing: phc
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [blackbricks]: success
+[2023-07-24 15:24:53] INFO root fetch - processPackages [urban.restapi]: New version: [1.0a1] Old Version: [1.0.0b2]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/2c/e2/e226ee58e6e3bddd72c661268971f8fe906f8c434d9ec89523b50226334f/vantage6-server-4.0.0a3.tar.gz
+[2023-07-24 15:24:53] INFO root fetch - processPackages [phc]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [urban.restapi]: Downloading https://files.pythonhosted.org/packages/c4/e4/df5991ad1e85871c45a41c13906cdb2995de5c28a579f4e8c6cf08f12a48/urban.restapi-1.0.0b2.tar.gz
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.0.0a3.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.0.0a4.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-node]: Start processing: pitot
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-07-24 15:24:53] INFO root fetch - processPackages [dbnomics]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-1.2.4.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [dbnomics]: Remove: archive file [/home/abi/fetcher/tmp/dbnomics-1.2.5.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [dbnomics]: Start processing: daktari
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [dbnomics]: success
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.0.0a3.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [pitot]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [phc]: Downloading https://files.pythonhosted.org/packages/12/bf/fcb432820d58a8875ba0e226b8632c63cd5ef3f4b2116c785f396b8cd6b4/phc-0.9.1.tar.gz
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.0.0a3.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.0.0a4.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.0.0a4.tar.gz]
+[2023-07-24 15:24:53] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-07-24 15:24:54] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-07-24 15:24:54] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.0.0a3.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.0.0a4.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-07-24 15:24:54] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/57/bd/a94128887cd463b4bc8d1a9f9aee9deaf9a2f6990889b3fef45f7cd42223/vantage6-server-4.0.0a4.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 15:24:54] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-07-24 15:24:54] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-4.0.0a3.tar.gz tmp/vantage6-server-4.0.0a4.tar.gz --markdown 20230724/v/vantage6-server/4.0.0a3-4.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:24:54] INFO root fetch - processPackages [urban.restapi]: Downloading https://files.pythonhosted.org/packages/69/08/abde8a3ca0a7009bbd5abc600709fec1c9e7e786bab25d4c38042b9d51e8/urban.restapi-1.0a1.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [pitot]: Downloading https://files.pythonhosted.org/packages/c9/33/c8415e714c416e9a806c5366157e3f0d66f7ebf4ad0cd95c0ebe0e3abd3e/pitot-0.2.0.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-3.9.3.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [oelint-adv]: Remove: archive file [/home/abi/fetcher/tmp/oelint_adv-3.9.4.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - main [MainThread]: End processing [oelint-adv]: success
+[2023-07-24 15:24:54] INFO root fetch - processPackages [invenio-cli]: Remove: archive file [/home/abi/fetcher/tmp/invenio-cli-1.0.9.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - processPackages [invenio-cli]: Remove: archive file [/home/abi/fetcher/tmp/invenio-cli-1.1.0.tar.gz]
+[2023-07-24 15:24:54] INFO root fetch - main [MainThread]: End processing [invenio-cli]: success
+[2023-07-24 15:24:54] INFO root fetch - processPackages [phc]: Downloading https://files.pythonhosted.org/packages/d7/dc/e96ad2aef81561651a92b862b7bd9552ca30974b21eb5ef436cfad1466ba/phc-0.9.2.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [urban.restapi]: executing diffoscope
+[2023-07-24 15:24:54] INFO root fetch - processPackages [urban.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urban.restapi-1.0.0b2.tar.gz tmp/urban.restapi-1.0a1.tar.gz --markdown 20230724/u/urban.restapi/1.0.0b2-1.0a1/diff.md --exclude *.pyd
+[2023-07-24 15:24:54] INFO root fetch - processPackages [phc]: executing diffoscope
+[2023-07-24 15:24:54] INFO root fetch - processPackages [phc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-0.9.1.tar.gz tmp/phc-0.9.2.tar.gz --markdown 20230724/p/phc/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 15:24:54] INFO root fetch - processPackages [pitot]: Downloading https://files.pythonhosted.org/packages/8a/26/cc9fe5477d906a54b56192704ce3f4db1f9b3a42f66d8fe9d3eece7c100b/pitot-0.3.0.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-07-24 15:24:54] INFO root fetch - processPackages [pitot]: executing diffoscope
+[2023-07-24 15:24:54] INFO root fetch - processPackages [pitot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitot-0.2.0.tar.gz tmp/pitot-0.3.0.tar.gz --markdown 20230724/p/pitot/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 15:24:54] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-07-24 15:24:54] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230724/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 15:24:55] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.0.0a3.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.0.0a4.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-07-24 15:24:55] INFO root fetch - processPackages [urban.restapi]: Remove: archive file [/home/abi/fetcher/tmp/urban.restapi-1.0.0b2.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - processPackages [urban.restapi]: Remove: archive file [/home/abi/fetcher/tmp/urban.restapi-1.0a1.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [urban.restapi]: success
+[2023-07-24 15:24:55] INFO root fetch - processPackages [phc]: Remove: archive file [/home/abi/fetcher/tmp/phc-0.9.1.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - processPackages [phc]: Remove: archive file [/home/abi/fetcher/tmp/phc-0.9.2.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [phc]: success
+[2023-07-24 15:24:55] INFO root fetch - processPackages [pitot]: Remove: archive file [/home/abi/fetcher/tmp/pitot-0.2.0.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - processPackages [pitot]: Remove: archive file [/home/abi/fetcher/tmp/pitot-0.3.0.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [pitot]: success
+[2023-07-24 15:24:55] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-07-24 15:24:55] INFO root fetch - main [MainThread]: Store serial: [19013250]
