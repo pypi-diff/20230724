@@ -7782,3 +7782,114 @@
 [2023-07-24 07:01:04] INFO root fetch - processPackages [sccd45ra]: Remove: archive file [/home/abi/fetcher/tmp/sccd45ra-0.3.1.tar.gz]
 [2023-07-24 07:01:04] INFO root fetch - main [MainThread]: End processing [sccd45ra]: success
 [2023-07-24 07:01:04] INFO root fetch - main [MainThread]: Store serial: [19008229]
+[2023-07-24 07:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008229]
+[2023-07-24 07:06:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-form-sale-link
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-order-product-assortment
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py7za
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-advance-payment
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-fixed-discount
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythainlp
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidy-tweet
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awyes
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infrahouse-toolkit
+[2023-07-24 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapid-pe
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [py7za]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: New version: [15.0.2.0.0.2] Old Version: [15.0.2.0.0.1]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: New version: [15.0.1.0.3.2] Old Version: [15.0.1.0.3]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [awyes]: New version: [10.0.4] Old Version: [10.0.3]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [pythainlp]: New version: [4.1.0b1] Old Version: [4.0.2]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230724] Old Version: [0.1.1.dev20230723]
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/c1/79/32b1a1e21ef627a1686b207b34fa0b767d7ce3501e31734e8a980341fa49/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl
+[2023-07-24 07:06:13] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2c/5c/26edd3bd364690d4458d8a590b5965cc444afd0fa47d7c422544bde9b373/rapid_pe-0.1.1.dev20230723.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Downloading https://files.pythonhosted.org/packages/4c/51/522621ab943b98b56db7fabde7471ea94eec75fa10c5a45b79a736c5f543/odoo_addon_sale_fixed_discount-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-24 07:06:13] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/23/f0/b2a975c4d4df83f7a06d448c582d1f9a2925f8f090df982ebcbfd1f096fc/awyes-10.0.3.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [py7za]: Downloading https://files.pythonhosted.org/packages/3f/00/e878e8af313cf84e22eb1d9f977414e7e28fb0ef1a832e5e1af7fee84624/py7za-0.2.8.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/06/c6/84e93020913b2df71fa89200235515d67ace9b4752b126477d6d031fbad8/tidy_tweet-1.0.0a3.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/f2/45/733dd9b880ee546ac6414c011a79e954c5bc1207eeabd01864cc305df4d5/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl
+[2023-07-24 07:06:13] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/86/3d/d74b177d14a6070b95ca1417ac291a37fa90a0b7a4d9818eeb4cdca8768a/infrahouse-toolkit-1.5.0.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [pythainlp]: Downloading https://files.pythonhosted.org/packages/3e/f7/be90fb75c6a443c56dd15eb3d61d7a6f3f963667d6ecbc97730b4c64be35/pythainlp-4.0.2.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/ea/37/8ff3adad91eb41a24f20a2f9bdfcd7c6d823b21903862fba203fe955efd8/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl
+[2023-07-24 07:06:13] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/af/1d/60f70b14760cbc3f2eb7d3049d1d376af02d4c2c8420a461cc7757c8f239/rapid_pe-0.1.1.dev20230724.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/1a/bf/252bde9bc3baf072cdeeb67c2a885371505cc22b4d2681d8df1f386b772b/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-24 07:06:13] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/48/df/5e4a58cd533b8db9f1f4adf995ed665dce7cbcab920c02746c5ce3b3b065/infrahouse-toolkit-1.6.0.tar.gz
+[2023-07-24 07:06:13] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Downloading https://files.pythonhosted.org/packages/f9/6d/a627125c1744ebc310de6324c52e6003c36747cef9e8bf008cdab6cb6e69/odoo_addon_sale_fixed_discount-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/16/7d/a0c581eb324c3b65d6e58ef655d351e25a001c7a8aedbb7a8c4c071e7639/odoo_addon_sale_order_product_assortment-15.0.2.0.0.2-py3-none-any.whl
+[2023-07-24 07:06:14] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/9b/dd/e781ece7fc7e7654cc112e19479fcabf160baf5aa5720ba33544ad07be14/tidy_tweet-1.0.0a4.tar.gz
+[2023-07-24 07:06:14] INFO root fetch - processPackages [pythainlp]: Downloading https://files.pythonhosted.org/packages/bf/6d/a848e11d22c2f40b9697abedeaedec3be48308a205d33089172b1e04133a/pythainlp-4.1.0b1.tar.gz
+[2023-07-24 07:06:14] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230723.tar.gz tmp/rapid_pe-0.1.1.dev20230724.tar.gz --markdown 20230724/r/rapid-pe/0.1.1.dev20230723-0.1.1.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/8a/0d/e76d4790b26b0ad7ff487f5123a4356226544a11529b5bf7f284832a9e62/awyes-10.0.4.tar.gz
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-product-form-sale-link/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-1.5.0.tar.gz tmp/infrahouse-toolkit-1.6.0.tar.gz --markdown 20230724/i/infrahouse-toolkit/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_fixed_discount-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_fixed_discount-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-sale-fixed-discount/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [py7za]: Downloading https://files.pythonhosted.org/packages/64/1a/651b2b827697cc9cb031e70f5da3233aae2b0d7f73763fc7fd5d10e1a3bf/py7za-0.2.9.tar.gz
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-sale-order-product-assortment/15.0.2.0.0.1-15.0.2.0.0.2/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Downloading https://files.pythonhosted.org/packages/65/a4/d910cecd4e69d4750bc807e55a3234a4d03cf65de9f1dbaf96acb254343c/odoo_addon_sale_advance_payment-15.0.1.0.3.2-py3-none-any.whl
+[2023-07-24 07:06:14] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0a3.tar.gz tmp/tidy_tweet-1.0.0a4.tar.gz --markdown 20230724/t/tidy-tweet/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [pythainlp]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [pythainlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythainlp-4.0.2.tar.gz tmp/pythainlp-4.1.0b1.tar.gz --markdown 20230724/p/pythainlp/4.0.2-4.1.0b1/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.3.tar.gz tmp/awyes-10.0.4.tar.gz --markdown 20230724/a/awyes/10.0.3-10.0.4/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_advance_payment-15.0.1.0.3.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-sale-advance-payment/15.0.1.0.3-15.0.1.0.3.2/diff.md --exclude *.pyd
+[2023-07-24 07:06:14] INFO root fetch - processPackages [py7za]: executing diffoscope
+[2023-07-24 07:06:14] INFO root fetch - processPackages [py7za]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py7za-0.2.8.tar.gz tmp/py7za-0.2.9.tar.gz --markdown 20230724/p/py7za/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 07:06:15] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Start processing: plone.all-in-one-accessibility
+[2023-07-24 07:06:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-07-24 07:06:15] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230723.tar.gz]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230724.tar.gz]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [rapid-pe]: Start processing: junifer
+[2023-07-24 07:06:15] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-24 07:06:15] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.3.tar.gz]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.4.tar.gz]
+[2023-07-24 07:06:15] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-24 07:06:15] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [plone.all-in-one-accessibility]: New version: [1.3] Old Version: [1.0a3]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_fixed_discount-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 07:06:15] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_fixed_discount-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-24 07:06:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-fixed-discount]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.1-py3-none-any.whl.zip]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [odoo-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_assortment-15.0.2.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-assortment]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-24 07:06:16] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a3.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a4.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [py7za]: Remove: archive file [/home/abi/fetcher/tmp/py7za-0.2.8.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [py7za]: Remove: archive file [/home/abi/fetcher/tmp/py7za-0.2.9.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [py7za]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_advance_payment-15.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [odoo-addon-sale-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_advance_payment-15.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-advance-payment]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/f2/33/cb2577d4e0ba98589c772b36db537896947f4dc0b5108e9d94786ed91fcb/plone.all_in_one_accessibility-1.0a3.tar.gz
+[2023-07-24 07:06:16] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.5.0.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.6.0.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-24 07:06:16] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-24 07:06:16] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-24 07:06:16] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230724/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-24 07:06:16] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/46/3e/3de2f3f1fabbe2c44c6506fde86c11a2841b22040554c5fe18b0c6fdd982/plone.all_in_one_accessibility-1.3.tar.gz
+[2023-07-24 07:06:16] INFO root fetch - processPackages [plone.all-in-one-accessibility]: executing diffoscope
+[2023-07-24 07:06:16] INFO root fetch - processPackages [plone.all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.all_in_one_accessibility-1.0a3.tar.gz tmp/plone.all_in_one_accessibility-1.3.tar.gz --markdown 20230724/p/plone.all-in-one-accessibility/1.0a3-1.3/diff.md --exclude *.pyd
+[2023-07-24 07:06:16] INFO root fetch - processPackages [pythainlp]: Remove: archive file [/home/abi/fetcher/tmp/pythainlp-4.0.2.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - processPackages [pythainlp]: Remove: archive file [/home/abi/fetcher/tmp/pythainlp-4.1.0b1.tar.gz]
+[2023-07-24 07:06:16] INFO root fetch - main [MainThread]: End processing [pythainlp]: success
+[2023-07-24 07:06:17] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/plone.all_in_one_accessibility-1.0a3.tar.gz]
+[2023-07-24 07:06:17] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/plone.all_in_one_accessibility-1.3.tar.gz]
+[2023-07-24 07:06:17] INFO root fetch - main [MainThread]: End processing [plone.all-in-one-accessibility]: success
+[2023-07-24 07:06:18] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-24 07:06:18] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-24 07:06:18] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-24 07:06:18] INFO root fetch - main [MainThread]: Store serial: [19008260]
