@@ -16316,3 +16316,153 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:30:27] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-24 13:30:27] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-24 13:30:27] INFO root fetch - main [MainThread]: Store serial: [19011820]
+[2023-07-24 13:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011820]
+[2023-07-24 13:35:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpressinsight
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-common
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xpressinsight
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picimagesearch
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swordartonline
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embody-codec
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nasops
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-ipython-client
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-lib
+[2023-07-24 13:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-scan-server
+[2023-07-24 13:35:38] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [xpressinsight]: New version: [1.7.1] Old Version: [1.6.0.post1]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [xpressinsight]: New version: [1.7.1] Old Version: [1.6.0.post1]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-scan-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [swordartonline]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [nasops]: New version: [0.0.3.3] Old Version: [0.0.3.2]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [embody-codec]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-ipython-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [picimagesearch]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:38] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/78/c2/5acfc1c7d07d36f32adabfe1bd75bc35c8dfa768ec003fc82a816d9796d6/xpressinsight-1.6.0.post1-py3-none-any.whl
+[2023-07-24 13:35:38] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/78/c2/5acfc1c7d07d36f32adabfe1bd75bc35c8dfa768ec003fc82a816d9796d6/xpressinsight-1.6.0.post1-py3-none-any.whl
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/cb/64/51bf9809484a9277dceabf8baefa5d9d07f80218cb67d4eb998fd7a9473e/bec_scan_server-0.9.1.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [swordartonline]: Downloading https://files.pythonhosted.org/packages/5a/4e/4561d00a0c9eb444cdcd3f98627020d5f06aac27febce160bd00ebfd7c6b/swordartonline-2.2.8.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/e3/e4/b920a669a59ef260e4c40d4acbcf60f6a563a75f0eeff028054a2f8c7df0/nasops-0.0.3.2.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/10/72/fd70dd6de9ada1dbf36ab04b738aec40cce0fa10f4f1c12897646c491458/bec_lib-0.9.1.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/80/1a/e0d2150fef3297ea426e95a559ee9e812ea471f758a1591a1e1a31c60bee/bec_ipython_client-0.9.1.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [picimagesearch]: Downloading https://files.pythonhosted.org/packages/d0/b4/473c43ba27b3cad74d63016d6bc90469de97184be06b6366b024cf6eb3f6/picimagesearch-3.9.4.tar.gz
+[2023-07-24 13:35:38] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/be/8e/d27f9cf42aac9e1d93d50f6595c75b042365a1208fb9a803f87d53fe2592/embody_codec-1.0.8.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/bd/6b/1edac49259a66d5337662b3396e5f6cde1cedae0261ed741fe08b1bc069d/xpressinsight-1.7.1-py3-none-any.whl
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/bd/6b/1edac49259a66d5337662b3396e5f6cde1cedae0261ed741fe08b1bc069d/xpressinsight-1.7.1-py3-none-any.whl
+[2023-07-24 13:35:39] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/32/25/5d442bc801d92cb62ad35648ef810a800ecd3f2ce327cc4674605ad9e8d1/nasops-0.0.3.3.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [swordartonline]: Downloading https://files.pythonhosted.org/packages/c6/ba/decfd890cae855285139f4244c0691d81d2d750cc8e29fdb2ec9adfed60e/swordartonline-2.2.9.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-scan-server]: Downloading https://files.pythonhosted.org/packages/38/05/95cfc86a9861bf5c43f55cc0bcaec195e42103f67c68171ea89fb71499d2/bec_scan_server-0.9.2.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpressinsight-1.6.0.post1-py3-none-any.whl.zip tmp/xpressinsight-1.7.1-py3-none-any.whl.zip --markdown 20230724/x/xpressinsight/1.6.0.post1-1.7.1/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [xpressinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpressinsight-1.6.0.post1-py3-none-any.whl.zip tmp/xpressinsight-1.7.1-py3-none-any.whl.zip --markdown 20230724/x/xpressinsight/1.6.0.post1-1.7.1/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/d4/42/a52b278cd9b6356e2546adcdd8d6d35dcd87ac1f8c1e7ade834aacd70d99/bec_ipython_client-0.9.2.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/7f/ed/38cb719532c4fd836921020e92576363fd5cccb784d31938729ac9947764/bec_lib-0.9.2.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [swordartonline]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [swordartonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swordartonline-2.2.8.tar.gz tmp/swordartonline-2.2.9.tar.gz --markdown 20230724/s/swordartonline/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [nasops]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [nasops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasops-0.0.3.2.tar.gz tmp/nasops-0.0.3.3.tar.gz --markdown 20230724/n/nasops/0.0.3.2-0.0.3.3/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [picimagesearch]: Downloading https://files.pythonhosted.org/packages/34/b2/9b6a49716071b31ab4877c31ac439758f939927da29c5bd6e702fbaf56dc/picimagesearch-3.9.5.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-scan-server]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-scan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_server-0.9.1.tar.gz tmp/bec_scan_server-0.9.2.tar.gz --markdown 20230724/b/bec-scan-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-0.9.1.tar.gz tmp/bec_ipython_client-0.9.2.tar.gz --markdown 20230724/b/bec-ipython-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-0.9.1.tar.gz tmp/bec_lib-0.9.2.tar.gz --markdown 20230724/b/bec-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [picimagesearch]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [picimagesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picimagesearch-3.9.4.tar.gz tmp/picimagesearch-3.9.5.tar.gz --markdown 20230724/p/picimagesearch/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-24 13:35:39] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/7d/57/0c220ff3b777024e60dd44ce88c7057ec13b04bccd5b5536c45ea4875d8a/embody_codec-1.0.9.tar.gz
+[2023-07-24 13:35:39] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-24 13:35:39] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230724/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-24 13:35:40] INFO root fetch - processPackages [embody-codec]: executing diffoscope
+[2023-07-24 13:35:40] INFO root fetch - processPackages [embody-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_codec-1.0.8.tar.gz tmp/embody_codec-1.0.9.tar.gz --markdown 20230724/e/embody-codec/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 13:35:40] INFO root fetch - processPackages [swordartonline]: Remove: archive file [/home/abi/fetcher/tmp/swordartonline-2.2.8.tar.gz]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [swordartonline]: Remove: archive file [/home/abi/fetcher/tmp/swordartonline-2.2.9.tar.gz]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [swordartonline]: Start processing: bec-device-server
+[2023-07-24 13:35:40] INFO root fetch - main [MainThread]: End processing [swordartonline]: success
+[2023-07-24 13:35:40] INFO root fetch - processPackages [bec-device-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.3.2.tar.gz]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.3.3.tar.gz]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [nasops]: Start processing: bec-scan-bundler
+[2023-07-24 13:35:40] INFO root fetch - main [MainThread]: End processing [nasops]: success
+[2023-07-24 13:35:40] INFO root fetch - processPackages [bec-scan-bundler]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:40] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/81/42/8e41bc83ee85380775dc7e9e78255b1af56834cd7a46730a17c4e265dbdc/bec_device_server-0.9.1.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/fb/88/7e9b38f57dbd367fc0b1f0cf660158da462175cf6c193945c6517f9a1cd0/bec_scan_bundler-0.9.1.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [picimagesearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.4.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [picimagesearch]: Remove: archive file [/home/abi/fetcher/tmp/picimagesearch-3.9.5.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [picimagesearch]: Start processing: bec-file-writer
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [picimagesearch]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-file-writer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.1.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-0.9.2.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-ipython-client]: Start processing: bec-dap
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-device-server]: Downloading https://files.pythonhosted.org/packages/76/7c/92a87c0d5f1866953ec124d11828df00cffb284813bda708dbf13c08f73d/bec_device_server-0.9.2.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [xpressinsight]: Remove: archive file [/home/abi/fetcher/tmp/xpressinsight-1.6.0.post1-py3-none-any.whl.zip]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [xpressinsight]: Remove: archive file [/home/abi/fetcher/tmp/xpressinsight-1.7.1-py3-none-any.whl.zip]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [xpressinsight]: Start processing: bec-scihub
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [xpressinsight]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.1.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_server-0.9.2.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-server]: Start processing: pyre-check-nightly
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [bec-scan-server]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [leadguru-common]: Start processing: agent-bdi
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.1.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-0.9.2.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [xpressinsight]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.8.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.9.tar.gz]
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [embody-codec]: success
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/e6/8d/a8a9a797f782350c5115f92cc8dc16531bb5d41e46e724845ccad8323099/bec_file_writer-0.9.1.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-dap]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-device-server]: executing diffoscope
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-device-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_device_server-0.9.1.tar.gz tmp/bec_device_server-0.9.2.tar.gz --markdown 20230724/b/bec-device-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-bundler]: Downloading https://files.pythonhosted.org/packages/cd/e2/d981aa11cf19542a4a10271b46de366633f111d96196b24ab991430ce1a3/bec_scan_bundler-0.9.2.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scihub]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [agent-bdi]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-bundler]: executing diffoscope
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scan-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scan_bundler-0.9.1.tar.gz tmp/bec_scan_bundler-0.9.2.tar.gz --markdown 20230724/b/bec-scan-bundler/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:41] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690197132] Old Version: [0.0.101690110709]
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/95/df/2aaddc7df5119e32ae08438452d9bf5a8d6f2646a25b26b3969cbf8f3b2b/bec_dap-0.9.1.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/c1/72/75ee5488ef0e67a06aa2c1769922a749abf0b9a4094a812f0de780616e5d/bec_scihub-0.14.0.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-file-writer]: Downloading https://files.pythonhosted.org/packages/35/07/ef4b7da734470cb7d26a00dba0cd0319c44760d855741371f66e48f5fc45/bec_file_writer-0.9.2.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/3f/32/2ed193be834152d5ac6f51c8fd73daf7464ea740e03978cfe21dea0ff259/agent-bdi-1.1.5.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/58/94/c32c2b21227caca589f706ea790b1bbe3718a259af0a593d43f509bf7fd5/pyre-check-nightly-0.0.101690110709.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-file-writer]: executing diffoscope
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-file-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_file_writer-0.9.1.tar.gz tmp/bec_file_writer-0.9.2.tar.gz --markdown 20230724/b/bec-file-writer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:41] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23770518>=10485760
+[2023-07-24 13:35:41] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-dap]: Downloading https://files.pythonhosted.org/packages/82/ab/c66a690c813002dd285c0a4b874b05e93016ddacf9e837a9598f76d3dedf/bec_dap-0.9.2.tar.gz
+[2023-07-24 13:35:41] INFO root fetch - processPackages [bec-scihub]: Downloading https://files.pythonhosted.org/packages/b0/2a/2cfe4cfba53ad7a18a424344dba74d0d17de0bfbf236731fa8a5c5a429d4/bec_scihub-0.14.1-py3-none-any.whl
+[2023-07-24 13:35:42] INFO root fetch - processPackages [agent-bdi]: Downloading https://files.pythonhosted.org/packages/4d/75/4b2e3131cd297b9ea75da3da4e4564824ea415d69691cb18ae69691fee1f/agent-bdi-1.2.0.tar.gz
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-dap]: executing diffoscope
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-dap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_dap-0.9.1.tar.gz tmp/bec_dap-0.9.2.tar.gz --markdown 20230724/b/bec-dap/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.1.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-device-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_device_server-0.9.2.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - main [MainThread]: End processing [bec-device-server]: success
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scihub]: executing diffoscope
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scihub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_scihub-0.14.0.tar.gz tmp/bec_scihub-0.14.1-py3-none-any.whl.zip --markdown 20230724/b/bec-scihub/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-07-24 13:35:42] INFO root fetch - processPackages [agent-bdi]: executing diffoscope
+[2023-07-24 13:35:42] INFO root fetch - processPackages [agent-bdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent-bdi-1.1.5.tar.gz tmp/agent-bdi-1.2.0.tar.gz --markdown 20230724/a/agent-bdi/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.1.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scan-bundler]: Remove: archive file [/home/abi/fetcher/tmp/bec_scan_bundler-0.9.2.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - main [MainThread]: End processing [bec-scan-bundler]: success
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.1.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-file-writer]: Remove: archive file [/home/abi/fetcher/tmp/bec_file_writer-0.9.2.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - main [MainThread]: End processing [bec-file-writer]: success
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.0.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-scihub]: Remove: archive file [/home/abi/fetcher/tmp/bec_scihub-0.14.1-py3-none-any.whl.zip]
+[2023-07-24 13:35:42] INFO root fetch - main [MainThread]: End processing [bec-scihub]: success
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.1.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - processPackages [bec-dap]: Remove: archive file [/home/abi/fetcher/tmp/bec_dap-0.9.2.tar.gz]
+[2023-07-24 13:35:42] INFO root fetch - main [MainThread]: End processing [bec-dap]: success
+[2023-07-24 13:35:43] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-1.1.5.tar.gz]
+[2023-07-24 13:35:43] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-1.2.0.tar.gz]
+[2023-07-24 13:35:43] INFO root fetch - main [MainThread]: End processing [agent-bdi]: success
+[2023-07-24 13:35:43] INFO root fetch - main [MainThread]: Store serial: [19011864]
