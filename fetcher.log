@@ -7498,3 +7498,133 @@
 [2023-07-24 06:45:15] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-24 06:45:15] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
 [2023-07-24 06:45:15] INFO root fetch - main [MainThread]: Store serial: [19008093]
+[2023-07-24 06:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008093]
+[2023-07-24 06:50:23] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ekonlpy
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mquad
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mquad
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-netapp
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneople
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-batch
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clams-python
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clfutils4r
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poe-api
+[2023-07-24 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-report-to-printer
+[2023-07-24 06:50:24] INFO root fetch - processPackages [mquad]: New version: [0.1.7] Old Version: [0.1.6b0]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [pyneople]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [clams-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [16.0.1.1.2.4] Old Version: [16.0.1.1.2.3]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [mquad]: New version: [0.1.7] Old Version: [0.1.6b0]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [ekonlpy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [clfutils4r]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [azure-mgmt-batch]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [azure-mgmt-netapp]: New version: [9.0.2b1] Old Version: [9.0.1]
+[2023-07-24 06:50:24] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/25/37/cbac6a3abe29d74ace27a024eb8ca1aecf868bdf5f6f1a7b418f541e171f/clams-python-1.0.8.tar.gz
+[2023-07-24 06:50:24] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/96/40/02d2e847ee7f398d1cbae90fd1941c4ffbdff017b1174e56685a75a3056c/mquad-0.1.6b0-py3.9.egg
+[2023-07-24 06:50:24] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/96/40/02d2e847ee7f398d1cbae90fd1941c4ffbdff017b1174e56685a75a3056c/mquad-0.1.6b0-py3.9.egg
+[2023-07-24 06:50:24] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-24 06:50:24] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/7a/82/2c2b38338d48f0379db3d04cf41745d4adf3042a50558bb1c137d04f1e46/pyneople-0.0.2.tar.gz
+[2023-07-24 06:50:24] INFO root fetch - processPackages [azure-mgmt-netapp]: Downloading https://files.pythonhosted.org/packages/b3/47/688c7a7d7ecea47824a3948ae89db6eb270cffbd83b0b68e6dfae2ffd5d9/azure-mgmt-netapp-9.0.1.zip
+[2023-07-24 06:50:24] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/22/ea/c88fc23fabd8769ab8ad3854e644536f9e7f09104e1b59dcae2f4a520d75/ekonlpy-2.0.0.tar.gz
+[2023-07-24 06:50:24] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/1d/59/b7e62ca2f4529d4903ee158db7594cf490ccc8c91b9588130b1f1f36a11d/odoo_addon_base_report_to_printer-16.0.1.1.2.3-py3-none-any.whl
+[2023-07-24 06:50:24] INFO root fetch - processPackages [azure-mgmt-batch]: Downloading https://files.pythonhosted.org/packages/25/0f/53ed8291ccd1bfdc9d438b76824be2592a77176b761af15f84bfd7bd964c/azure-mgmt-batch-8.0.1.zip
+[2023-07-24 06:50:24] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/e0/01/e963788dccd574aa002589c96813ef49513447dc14f4f98336431170f9cf/clfutils4r-0.0.1.tar.gz
+[2023-07-24 06:50:24] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clams-python]: Downloading https://files.pythonhosted.org/packages/9c/a4/27aa347b3cb4afec4eb9dbda24644b0e6c7845904290a5254281bd8a58d8/clams-python-1.0.9.tar.gz
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/4f/67/6eb008d33f54ce04df0ca0003d993ed013341911eb01d87ca4601266dbfd/mquad-0.1.7-py3-none-any.whl
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: Downloading https://files.pythonhosted.org/packages/4f/67/6eb008d33f54ce04df0ca0003d993ed013341911eb01d87ca4601266dbfd/mquad-0.1.7-py3-none-any.whl
+[2023-07-24 06:50:25] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/1a/39/3dd74c36526757265b060fe23717a21a65540011eeb3c9879e05dc048efd/pyneople-0.0.3.tar.gz
+[2023-07-24 06:50:25] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230724/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/06/ec/c374de67157173f792e02bf2e13845e654ff4870eb3b660ad156a50f4a66/clfutils4r-0.0.2.tar.gz
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clams-python]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clams-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clams-python-1.0.8.tar.gz tmp/clams-python-1.0.9.tar.gz --markdown 20230724/c/clams-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/b2/52/57ce2cf24bf842ecbbf7f3726c96f9421cd7f78f386d47527a00556db711/odoo_addon_base_report_to_printer-16.0.1.1.2.4-py3-none-any.whl
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-netapp]: Downloading https://files.pythonhosted.org/packages/8f/16/eaff19d88fbd3006915c43970ae51ec8e7621fa3d23c8734ba511006ef3a/azure-mgmt-netapp-9.0.2b1.zip
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mquad-0.1.6b0-py3.9.egg tmp/mquad-0.1.7-py3-none-any.whl.zip --markdown 20230724/m/mquad/0.1.6b0-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [mquad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mquad-0.1.6b0-py3.9.egg tmp/mquad-0.1.7-py3-none-any.whl.zip --markdown 20230724/m/mquad/0.1.6b0-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [ekonlpy]: Downloading https://files.pythonhosted.org/packages/ef/73/f383d3f8ab74766f0e55c61c87c4ccaf06f73cf9796ecf0b711fc7f85425/ekonlpy-2.0.1.tar.gz
+[2023-07-24 06:50:25] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.0.2.tar.gz tmp/pyneople-0.0.3.tar.gz --markdown 20230724/p/pyneople/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-batch]: Downloading https://files.pythonhosted.org/packages/a3/f8/a91baa48ef5097d89cf4c7381b76657931fe525fad4d912bd6ac62386ac6/azure-mgmt-batch-9.0.0.zip
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clfutils4r]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [clfutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clfutils4r-0.0.1.tar.gz tmp/clfutils4r-0.0.2.tar.gz --markdown 20230724/c/clfutils4r/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.4-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-base-report-to-printer/16.0.1.1.2.3-16.0.1.1.2.4/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-netapp]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-netapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-netapp-9.0.1.zip tmp/azure-mgmt-netapp-9.0.2b1.zip --markdown 20230724/a/azure-mgmt-netapp/9.0.1-9.0.2b1/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-batch]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [azure-mgmt-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-batch-8.0.1.zip tmp/azure-mgmt-batch-9.0.0.zip --markdown 20230724/a/azure-mgmt-batch/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-07-24 06:50:25] INFO root fetch - processPackages [ekonlpy]: executing diffoscope
+[2023-07-24 06:50:25] INFO root fetch - processPackages [ekonlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekonlpy-2.0.0.tar.gz tmp/ekonlpy-2.0.1.tar.gz --markdown 20230724/e/ekonlpy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-24 06:50:26] INFO root fetch - processPackages [mquad]: Remove: archive file [/home/abi/fetcher/tmp/mquad-0.1.6b0-py3.9.egg]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [mquad]: Remove: archive file [/home/abi/fetcher/tmp/mquad-0.1.7-py3-none-any.whl.zip]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [mquad]: Start processing: odoo-addon-printing-simple-configuration
+[2023-07-24 06:50:26] INFO root fetch - main [MainThread]: End processing [mquad]: success
+[2023-07-24 06:50:26] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.2.tar.gz]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.0.3.tar.gz]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [pyneople]: Start processing: nanoCEM
+[2023-07-24 06:50:26] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2023-07-24 06:50:26] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-0.0.1.tar.gz]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-0.0.2.tar.gz]
+[2023-07-24 06:50:26] INFO root fetch - processPackages [clfutils4r]: Start processing: datasette-sqlite-ulid
+[2023-07-24 06:50:26] INFO root fetch - main [MainThread]: End processing [clfutils4r]: success
+[2023-07-24 06:50:27] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.2.5] Old Version: [0.0.2.4]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [datasette-sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.8.tar.gz]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.0.9.tar.gz]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [clams-python]: Start processing: sqlite-ulid
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [clams-python]: success
+[2023-07-24 06:50:27] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [mquad]: Start processing: sqlite-utils-sqlite-ulid
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [mquad]: success
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-24 06:50:27] INFO root fetch - processPackages [sqlite-ulid]: New version: [0.2.1a9] Old Version: [0.2.1a8]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Downloading https://files.pythonhosted.org/packages/32/51/2310fe2f2361319c775c02fa1f7a51a034258ece69e2efcff5bee45e633b/odoo_addon_printing_simple_configuration-16.0.1.0.1-py3-none-any.whl
+[2023-07-24 06:50:27] ERROR root fetch - processPackages [sqlite-utils-sqlite-ulid]: Unable to get metadata: No such project 'sqlite-utils-sqlite-ulid'
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-ulid] error
+[2023-07-24 06:50:27] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/a1/08/46cd620d9010317b3aac1407605b20d72f9da18e785a2ff5cc6dd4075305/nanoCEM-0.0.2.4.tar.gz
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.3-py3-none-any.whl.zip]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-16.0.1.1.2.4-py3-none-any.whl.zip]
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2023-07-24 06:50:27] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/fb/75/84772c7d22f6331c21be9e6e44aa4d0e7bc9a093ec1efae29447e06afe1b/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl
+[2023-07-24 06:50:27] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/39/9c/3b1b12e0230189f953e9f6fa50b27a1f41b55d46b4d30faf5ba7bfdf28a6/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl
+[2023-07-24 06:50:27] INFO root fetch - processPackages [azure-mgmt-batch]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-batch-8.0.1.zip]
+[2023-07-24 06:50:27] INFO root fetch - processPackages [azure-mgmt-batch]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-batch-9.0.0.zip]
+[2023-07-24 06:50:27] INFO root fetch - main [MainThread]: End processing [azure-mgmt-batch]: success
+[2023-07-24 06:50:27] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/f0/bd/244fa0ff313dd538062791ecd367bb534077cf2de509393ca6bd607bda98/nanoCEM-0.0.2.5.tar.gz
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Downloading https://files.pythonhosted.org/packages/0a/9d/659e07dbf826b1043195ed3715f76500243ce22f7ba12bdffc834debb768/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl
+[2023-07-24 06:50:27] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-24 06:50:27] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.2.4.tar.gz tmp/nanoCEM-0.0.2.5.tar.gz --markdown 20230724/n/nanoCEM/0.0.2.4-0.0.2.5/diff.md --exclude *.pyd
+[2023-07-24 06:50:27] INFO root fetch - processPackages [datasette-sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/ab/3b/187b961948c84ee89a9df49535537d0cef20be60d541c6153ec33f55b5eb/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: executing diffoscope
+[2023-07-24 06:50:27] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-printing-simple-configuration/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-07-24 06:50:27] INFO root fetch - processPackages [datasette-sqlite-ulid]: executing diffoscope
+[2023-07-24 06:50:27] INFO root fetch - processPackages [datasette-sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-07-24 06:50:28] INFO root fetch - processPackages [sqlite-ulid]: Downloading https://files.pythonhosted.org/packages/79/88/62ad933ff780becc4cc2adda47c01876102f548edb36ed1d727d10bcbb81/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl
+[2023-07-24 06:50:28] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.4.tar.gz]
+[2023-07-24 06:50:28] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.5.tar.gz]
+[2023-07-24 06:50:28] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-24 06:50:28] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 06:50:28] INFO root fetch - processPackages [odoo-addon-printing-simple-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_printing_simple_configuration-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-07-24 06:50:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-printing-simple-configuration]: success
+[2023-07-24 06:50:28] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a8-py3-none-any.whl.zip]
+[2023-07-24 06:50:28] INFO root fetch - processPackages [datasette-sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_ulid-0.2.1a9-py3-none-any.whl.zip]
+[2023-07-24 06:50:28] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-ulid]: success
+[2023-07-24 06:50:28] INFO root fetch - processPackages [sqlite-ulid]: executing diffoscope
+[2023-07-24 06:50:28] INFO root fetch - processPackages [sqlite-ulid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-ulid/0.2.1a8-0.2.1a9/diff.md --exclude *.pyd
+[2023-07-24 06:50:29] INFO root fetch - processPackages [ekonlpy]: Remove: archive file [/home/abi/fetcher/tmp/ekonlpy-2.0.0.tar.gz]
+[2023-07-24 06:50:29] INFO root fetch - processPackages [ekonlpy]: Remove: archive file [/home/abi/fetcher/tmp/ekonlpy-2.0.1.tar.gz]
+[2023-07-24 06:50:29] INFO root fetch - main [MainThread]: End processing [ekonlpy]: success
+[2023-07-24 06:50:31] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a8-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:50:31] INFO root fetch - processPackages [sqlite-ulid]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_ulid-0.2.1a9-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:50:31] INFO root fetch - main [MainThread]: End processing [sqlite-ulid]: success
+[2023-07-24 06:50:39] INFO root fetch - processPackages [azure-mgmt-netapp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-netapp-9.0.1.zip]
+[2023-07-24 06:50:39] INFO root fetch - processPackages [azure-mgmt-netapp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-netapp-9.0.2b1.zip]
+[2023-07-24 06:50:39] INFO root fetch - main [MainThread]: End processing [azure-mgmt-netapp]: success
+[2023-07-24 06:50:39] INFO root fetch - main [MainThread]: Store serial: [19008134]
