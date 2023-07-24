@@ -14578,3 +14578,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:16:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-24 12:16:13] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-24 12:16:13] INFO root fetch - main [MainThread]: Store serial: [19011018]
+[2023-07-24 12:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011018]
+[2023-07-24 12:21:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastmysql
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CellNeighborEX
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: financetoolkit
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcam-finder
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databricks-connect
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flumine
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-connect
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minato
+[2023-07-24 12:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iamlistening
+[2023-07-24 12:21:22] WARNING root fetch - processPackages [CellNeighborEX]: Skipping, unable to determine old version
+[2023-07-24 12:21:22] INFO root fetch - processPackages [CellNeighborEX]: Start processing: kfish
+[2023-07-24 12:21:22] INFO root fetch - main [MainThread]: End processing [CellNeighborEX] error
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.43] Old Version: [9.1.42]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [minato]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.43] Old Version: [9.1.42]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [fastmysql]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [iamlistening]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [financetoolkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [hcam-finder]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241016] Old Version: [99.0.202307232204]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [flumine]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [kfish]: New version: [99.0.202307241019] Old Version: [99.0.202307232207]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/ba/8d/a540e20a73457103833322fed3220975a8a79b6d3523feb19d2f4d6529bc/hcam_finder-1.3.1.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ab/2e/32eff64ce22888afcae34a60519a040393007523da4d8ec28f3ed3b38841/iamlistening-2.0.0.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/88/3e/bb16b3c64dc9437d71f5dae53070559427a77a87e7f71ab897a70b63746a/databricks-connect-9.1.42.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/88/3e/bb16b3c64dc9437d71f5dae53070559427a77a87e7f71ab897a70b63746a/databricks-connect-9.1.42.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e5/b0/6121dd505e86e99ce3fc5006c2028ff9c75963aa13e3f8d480559c567799/kfish-99.0.202307232207-py3-none-any.whl
+[2023-07-24 12:21:22] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/c1/e4/47e4f5aa94ab1b2ea3d8db6edbc892d82fd44ecece9f91f9c864cb06ab46/flumine-2.3.7.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/5a/6a/5b70522c2a6f18c12fbee856b97eb5eb46f559bba7abe1d734aa9221b913/financetoolkit-1.1.1.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/9e/87/f78c762aad8621d849c7ce9e209824e628d2d65db3d3aefd70ed7d3629a7/fastmysql-0.1.0.tar.gz
+[2023-07-24 12:21:22] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257253820>=10485760
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: Start processing: supervisor-shell-ui
+[2023-07-24 12:21:22] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-07-24 12:21:22] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257253820>=10485760
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: Start processing: databricks-connect
+[2023-07-24 12:21:22] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-07-24 12:21:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7e/f8/f87e1c49afc75ce03b9e2f6593b27b64ce8ba7b0ab418a93551c46e7af91/kcli-99.0.202307232204-py3-none-any.whl
+[2023-07-24 12:21:22] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/2b/07/94df24fe8c8e8b589443e2c6af0e3929852f16e0f3ae5a02f081beba9508/minato-0.8.2.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.43] Old Version: [9.1.42]
+[2023-07-24 12:21:22] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/88/3e/bb16b3c64dc9437d71f5dae53070559427a77a87e7f71ab897a70b63746a/databricks-connect-9.1.42.tar.gz
+[2023-07-24 12:21:22] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/1e/43/ae3f7338a05c1f2b36de6bf7d3d3c2ab3b7a1f8a64a696b636fa2fde766c/supervisor-shell-ui-0.2.5.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/12/3e/2f6f0064087b8453a85ba42f73eea65d32f989736be4befa510b8413f851/iamlistening-2.1.0.tar.gz
+[2023-07-24 12:21:23] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257253820>=10485760
+[2023-07-24 12:21:23] INFO root fetch - processPackages [databricks-connect]: Start processing: kaumudipdf
+[2023-07-24 12:21:23] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dd/c3/4df327ecffefe0c7b722a22c22977e00030f5d5855e00ac9d8013b95854d/kfish-99.0.202307241019-py3-none-any.whl
+[2023-07-24 12:21:23] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/b4/3a/6e9cf49d0feb2adfab7777addc9ef0d788a494451df96a264d01826420f5/financetoolkit-1.1.2.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/d9/38/31d212b35fc26d4275357bfcad95d2083ee2f9fcc64c8324701dedab5a5f/flumine-2.4.0.tar.gz
+[2023-07-24 12:21:23] ERROR root fetch - processPackages [kaumudipdf]: Unable to get metadata: No such project 'kaumudipdf'
+[2023-07-24 12:21:23] INFO root fetch - main [MainThread]: End processing [kaumudipdf] error
+[2023-07-24 12:21:23] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/47/4c/ded906a0f17464d12599281f5d28a7eb1c95dc04a5ad771148757745fc7c/fastmysql-0.1.1.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [hcam-finder]: Downloading https://files.pythonhosted.org/packages/ee/d0/bc885ed5a5bbe0f488f4159fdb8ba851d859b49db67b3ccedd2c01f98b96/hcam_finder-1.3.2.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [minato]: Downloading https://files.pythonhosted.org/packages/a8/eb/f77601014ed5abff8b428223bb1bdf453c0c334d4fd19df91f00ef0757d7/minato-0.9.0.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [financetoolkit]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [financetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financetoolkit-1.1.1.tar.gz tmp/financetoolkit-1.1.2.tar.gz --markdown 20230724/f/financetoolkit/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-2.0.0.tar.gz tmp/iamlistening-2.1.0.tar.gz --markdown 20230724/i/iamlistening/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b8/fe/86126fe75124b6d4f0b0d4f6ce3f3d0841e7a6af2a6a1f96c79cc9a28ea9/kcli-99.0.202307241016-py3-none-any.whl
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307232207-py3-none-any.whl.zip tmp/kfish-99.0.202307241019-py3-none-any.whl.zip --markdown 20230724/k/kfish/99.0.202307232207-99.0.202307241019/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [fastmysql]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [fastmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmysql-0.1.0.tar.gz tmp/fastmysql-0.1.1.tar.gz --markdown 20230724/f/fastmysql/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [flumine]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [flumine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumine-2.3.7.tar.gz tmp/flumine-2.4.0.tar.gz --markdown 20230724/f/flumine/2.3.7-2.4.0/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/af/de/886e4f71d8aa090b3e676d3ff9a01b875d382331d078e0f0c5972d97aa32/supervisor-shell-ui-0.2.6.tar.gz
+[2023-07-24 12:21:23] INFO root fetch - processPackages [minato]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [minato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minato-0.8.2.tar.gz tmp/minato-0.9.0.tar.gz --markdown 20230724/m/minato/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [hcam-finder]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [hcam-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcam_finder-1.3.1.tar.gz tmp/hcam_finder-1.3.2.tar.gz --markdown 20230724/h/hcam-finder/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-0.2.5.tar.gz tmp/supervisor-shell-ui-0.2.6.tar.gz --markdown 20230724/s/supervisor-shell-ui/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 12:21:23] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307232204-py3-none-any.whl.zip tmp/kcli-99.0.202307241016-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307232204-99.0.202307241016/diff.md --exclude *.pyd
+[2023-07-24 12:21:25] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-2.0.0.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-2.1.0.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307232207-py3-none-any.whl.zip]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241019-py3-none-any.whl.zip]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.1.0.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.1.1.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [fastmysql]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.1.1.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.1.2.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [financetoolkit]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [minato]: Remove: archive file [/home/abi/fetcher/tmp/minato-0.8.2.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [minato]: Remove: archive file [/home/abi/fetcher/tmp/minato-0.9.0.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [minato]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.5.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-0.2.6.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 12:21:25] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.1.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - processPackages [hcam-finder]: Remove: archive file [/home/abi/fetcher/tmp/hcam_finder-1.3.2.tar.gz]
+[2023-07-24 12:21:25] INFO root fetch - main [MainThread]: End processing [hcam-finder]: success
+[2023-07-24 12:21:26] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.3.7.tar.gz]
+[2023-07-24 12:21:26] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.4.0.tar.gz]
+[2023-07-24 12:21:26] INFO root fetch - main [MainThread]: End processing [flumine]: success
+[2023-07-24 12:21:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307232204-py3-none-any.whl.zip]
+[2023-07-24 12:21:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241016-py3-none-any.whl.zip]
+[2023-07-24 12:21:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 12:21:28] INFO root fetch - main [MainThread]: Store serial: [19011073]
