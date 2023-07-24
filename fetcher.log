@@ -20426,3 +20426,231 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:40:40] INFO root fetch - processPackages [aiida-quantumespresso]: Remove: archive file [/home/abi/fetcher/tmp/aiida_quantumespresso-4.4.0.tar.gz]
 [2023-07-24 15:40:40] INFO root fetch - main [MainThread]: End processing [aiida-quantumespresso]: success
 [2023-07-24 15:40:40] INFO root fetch - main [MainThread]: Store serial: [19013416]
+[2023-07-24 15:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013416]
+[2023-07-24 15:45:49] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpa-pdf
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mend-ignore-alerts
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elsdk
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.pyutils
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alphatims
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-opnsense
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csstuning
+[2023-07-24 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protoc-gen-pyproject
+[2023-07-24 15:45:49] INFO root fetch - processPackages [dkist]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [rpa-pdf]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [mend-ignore-alerts]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [elsdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [protoc-gen-pyproject]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [csstuning]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [alphatims]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [imio.pyutils]: New version: [0.9] Old Version: [0.8]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-24 15:45:49] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/0a/01/495691bc63c06aaae16e688c93616155ced6f7bb7594c8956fbc5fae4134/pulumi_opnsense-0.0.71.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [rpa-pdf]: Downloading https://files.pythonhosted.org/packages/5a/26/33d63d1b4152f34cf0af5c54cfdd9b0d090ff19b7e1cbc981ee125a30fd0/rpa-pdf-1.1.2.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [elsdk]: Downloading https://files.pythonhosted.org/packages/6d/59/ee1c33a616e941d6b364fe4b75812f9d34fd279575fb69027f47364074c1/elsdk-0.1.1.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/96/f0/3bef940621edee43e955e5993be244624c058af9d19ce0068d76632b84a6/mend_ignore_alerts-0.3.1-py3-none-any.whl
+[2023-07-24 15:45:49] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/a6/3e/abef3a824a906bd915094170d3244d872371aa824b8f096da7517c9f87bf/dkist-1.0.0b8.tar.gz
+[2023-07-24 15:45:49] WARNING root fetch - processPackages [rpa-pdf]: Skipping package: exceeds size limit 28449526>=10485760
+[2023-07-24 15:45:49] INFO root fetch - processPackages [rpa-pdf]: Start processing: varvamp
+[2023-07-24 15:45:49] INFO root fetch - main [MainThread]: End processing [rpa-pdf] error
+[2023-07-24 15:45:49] INFO root fetch - processPackages [alphatims]: Downloading https://files.pythonhosted.org/packages/3c/9f/51d1e763876c6430a46807ebe3c2d4e55de5e970377f46573368b4ce714a/alphatims-1.0.7.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/b1/2e/c163f1f2838bee079c9f9f3f1fd5a31062039495b0a8faadcd6c236d0f65/imio.pyutils-0.8.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [csstuning]: Downloading https://files.pythonhosted.org/packages/e9/8a/53be418b73ecf6df77ee0c32c46077f4c9432011cf82878adf22b51d7a30/csstuning-0.0.1.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [protoc-gen-pyproject]: Downloading https://files.pythonhosted.org/packages/14/01/b528f1ba6a02b4db7a458eaef83c38d10af5f7e50b8bd8607dad1939f1f1/protoc-gen-pyproject-0.2.1.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/94/9d/3ab41ec621b52c46671e4932cc98c7fa424b8300de34eee7df9577f413cb/nucliadb_node_binding-0.7.9.tar.gz
+[2023-07-24 15:45:49] INFO root fetch - processPackages [varvamp]: New version: [0.9] Old Version: [0.8.3]
+[2023-07-24 15:45:50] WARNING root fetch - processPackages [csstuning]: Skipping package: exceeds size limit 19953922>=10485760
+[2023-07-24 15:45:50] INFO root fetch - processPackages [csstuning]: Start processing: elsdk
+[2023-07-24 15:45:50] INFO root fetch - main [MainThread]: End processing [csstuning] error
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 15:45:50] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ad/31/f2c8ad917c067b960fb6b4685da004609a7c0dfca66b5f6a064447426eec/pulumi_opnsense-0.0.72.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: Downloading https://files.pythonhosted.org/packages/24/4e/3cdaa9764b586bfdd0f34c0a82e8331f6eda8d89b5b743343258dc182bc6/elsdk-0.1.2.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/32/6e/98c9749bc58c36b782b92ecb76cd7e59c487a54b1886953691aa88b14af4/varvamp-0.8.3.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [mend-ignore-alerts]: Downloading https://files.pythonhosted.org/packages/8f/d4/62ada918e167fce6ce5314cccd6c5694fb6c17c41578117b0307ed64146a/mend_ignore_alerts-0.3.2-py3-none-any.whl
+[2023-07-24 15:45:50] INFO root fetch - processPackages [protoc-gen-pyproject]: Downloading https://files.pythonhosted.org/packages/4a/0d/985f0c70fd532cab9709b1c7802a316c561ca1972df1b6b8bd105ec07f57/protoc-gen-pyproject-0.3.0.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/f1/ea/e98947cbb85fcdc0195e85dbc24d50ac16c8eae711a882a8b547c2eb7e46/nucliadb_node_binding-0.8.0.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/d9/63/77c2cc05926bab4c181bf239ca9ebe3081961fcab4a37c2af7d83f0f98cc/imio.pyutils-0.9.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsdk-0.1.1.tar.gz tmp/elsdk-0.1.2.tar.gz --markdown 20230724/e/elsdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.71.tar.gz tmp/pulumi_opnsense-0.0.72.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/23/9d/e4ab50b6e34caa093cf1d311f12a1c41dc8cbaefabf74f5641df2f9fa65a/dkist-1.0.0b9.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [elsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsdk-0.1.1.tar.gz tmp/elsdk-0.1.2.tar.gz --markdown 20230724/e/elsdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [mend-ignore-alerts]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [mend-ignore-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_ignore_alerts-0.3.1-py3-none-any.whl.zip tmp/mend_ignore_alerts-0.3.2-py3-none-any.whl.zip --markdown 20230724/m/mend-ignore-alerts/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [protoc-gen-pyproject]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [protoc-gen-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc-gen-pyproject-0.2.1.tar.gz tmp/protoc-gen-pyproject-0.3.0.tar.gz --markdown 20230724/p/protoc-gen-pyproject/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-0.7.9.tar.gz tmp/nucliadb_node_binding-0.8.0.tar.gz --markdown 20230724/n/nucliadb-node-binding/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [imio.pyutils]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [imio.pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pyutils-0.8.tar.gz tmp/imio.pyutils-0.9.tar.gz --markdown 20230724/i/imio.pyutils/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [alphatims]: Downloading https://files.pythonhosted.org/packages/14/6e/70e8043b7869af4be21541efe8844a53c886da57748cd442a40cd0dea1f6/alphatims-1.0.8.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/c8/94/8458da0770bda5f6cb49ce6082a3c5f1c0f94e05a4f167a7e3a95fbfc0e5/varvamp-0.9.tar.gz
+[2023-07-24 15:45:50] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.0.0b8.tar.gz tmp/dkist-1.0.0b9.tar.gz --markdown 20230724/d/dkist/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-07-24 15:45:50] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2023-07-24 15:45:50] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-0.8.3.tar.gz tmp/varvamp-0.9.tar.gz --markdown 20230724/v/varvamp/0.8.3-0.9/diff.md --exclude *.pyd
+[2023-07-24 15:45:51] INFO root fetch - processPackages [alphatims]: executing diffoscope
+[2023-07-24 15:45:51] INFO root fetch - processPackages [alphatims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphatims-1.0.7.tar.gz tmp/alphatims-1.0.8.tar.gz --markdown 20230724/a/alphatims/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-24 15:45:51] INFO root fetch - processPackages [elsdk]: Remove: archive file [/home/abi/fetcher/tmp/elsdk-0.1.1.tar.gz]
+[2023-07-24 15:45:51] INFO root fetch - processPackages [elsdk]: Remove: archive file [/home/abi/fetcher/tmp/elsdk-0.1.2.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [elsdk]: Start processing: assist
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [elsdk]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [elsdk]: Start processing: crepex-pyutil
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [elsdk]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [assist]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.71.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.72.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: design.plone.contenttypes
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [crepex-pyutil]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.3.1-py3-none-any.whl.zip]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [mend-ignore-alerts]: Remove: archive file [/home/abi/fetcher/tmp/mend_ignore_alerts-0.3.2-py3-none-any.whl.zip]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [mend-ignore-alerts]: Start processing: vit-pytorch
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [mend-ignore-alerts]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [protoc-gen-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/protoc-gen-pyproject-0.2.1.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [protoc-gen-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/protoc-gen-pyproject-0.3.0.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [protoc-gen-pyproject]: Start processing: hestia-earth-schema
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [protoc-gen-pyproject]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [assist]: Downloading https://files.pythonhosted.org/packages/28/db/4970b9df4cabe832e3466d0faa9bd718b96991bf78ab0091484f94b429bb/assist-1.1.2.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-0.8.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-0.9.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [imio.pyutils]: Start processing: ml-management
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [imio.pyutils]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [vit-pytorch]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/94/ea/acc36a6002d94eba6001e6729ce075444bb77a409a04c6e921688e148bdd/crepex_pyutil-0.5.0.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.8.3.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-0.9.tar.gz]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [varvamp]: Start processing: junifer
+[2023-07-24 15:45:52] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2023-07-24 15:45:52] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [ml-management]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-24 15:45:52] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [vit-pytorch]: Downloading https://files.pythonhosted.org/packages/d2/cf/040d33086dec9c7cf84c0630666038da939d24ca802cb6e2f4f5f1fd9fb5/vit-pytorch-1.2.4.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [assist]: Downloading https://files.pythonhosted.org/packages/8d/f6/b67d88f26f6d1efc71f7de01f3be952212e4a5fef2f7bc8af40be4f15c1e/assist-1.1.3.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0a/27/14c51d3ea0818fbfa2ec9c24d61065dc3ab3601db3c9950b74dabda8414d/ml-management-0.0.44.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [crepex-pyutil]: Downloading https://files.pythonhosted.org/packages/a1/fa/36f6e62f6e39f42ef5ed423252d9a90d06f7204c962143b4e7d5aa50f502/crepex_pyutil-0.6.0.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [assist]: executing diffoscope
+[2023-07-24 15:45:52] INFO root fetch - processPackages [assist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assist-1.1.2.tar.gz tmp/assist-1.1.3.tar.gz --markdown 20230724/a/assist/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-24 15:45:52] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-07-24 15:45:52] INFO root fetch - processPackages [crepex-pyutil]: executing diffoscope
+[2023-07-24 15:45:52] INFO root fetch - processPackages [crepex-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepex_pyutil-0.5.0.tar.gz tmp/crepex_pyutil-0.6.0.tar.gz --markdown 20230724/c/crepex-pyutil/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 15:45:53] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-24 15:45:53] INFO root fetch - processPackages [vit-pytorch]: Downloading https://files.pythonhosted.org/packages/12/41/492d63dd51bc0e31e12b9be09adfb309ca03222c242bf0bbb1e4e3a06dc8/vit-pytorch-1.2.5.tar.gz
+[2023-07-24 15:45:53] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-07-24 15:45:53] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230724/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-24 15:45:53] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0d/a5/1db8fe1200ec83179fbb831070c6c1c4a3a1307a5f788002cffa5e557dfd/ml-management-0.0.45.tar.gz
+[2023-07-24 15:45:53] INFO root fetch - processPackages [vit-pytorch]: executing diffoscope
+[2023-07-24 15:45:53] INFO root fetch - processPackages [vit-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-pytorch-1.2.4.tar.gz tmp/vit-pytorch-1.2.5.tar.gz --markdown 20230724/v/vit-pytorch/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-24 15:45:53] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-24 15:45:53] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230724/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-24 15:45:53] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-07-24 15:45:53] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.44.tar.gz tmp/ml-management-0.0.45.tar.gz --markdown 20230724/m/ml-management/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-24 15:45:53] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.0.0b8.tar.gz]
+[2023-07-24 15:45:53] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.0.0b9.tar.gz]
+[2023-07-24 15:45:53] INFO root fetch - processPackages [dkist]: Start processing: sd-meh
+[2023-07-24 15:45:53] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2023-07-24 15:45:53] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2023-07-24 15:45:53] INFO root fetch - processPackages [sd-meh]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-24 15:45:53] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/a1/56/d0c984cd3eb54c0ee62a93a27a8e0af0cf389eb85ac4cd936b97c0d3efb8/sd_meh-0.9.0.tar.gz
+[2023-07-24 15:45:53] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-07-24 15:45:53] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230724/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-07-24 15:45:54] INFO root fetch - processPackages [sd-meh]: Downloading https://files.pythonhosted.org/packages/75/7f/4db598e139a50275330951d78dd721672a4ad97b8a7326f6c201a4aafb0c/sd_meh-0.9.2.tar.gz
+[2023-07-24 15:45:54] INFO root fetch - processPackages [sd-meh]: executing diffoscope
+[2023-07-24 15:45:54] INFO root fetch - processPackages [sd-meh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_meh-0.9.0.tar.gz tmp/sd_meh-0.9.2.tar.gz --markdown 20230724/s/sd-meh/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 15:45:54] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.5.0.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [crepex-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/crepex_pyutil-0.6.0.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [crepex-pyutil]: Start processing: shimpy
+[2023-07-24 15:45:54] INFO root fetch - main [MainThread]: End processing [crepex-pyutil]: success
+[2023-07-24 15:45:54] INFO root fetch - processPackages [shimpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [shimpy]: Downloading https://files.pythonhosted.org/packages/4b/28/b1801aad940ffcfec8668663bf70d454a508754aa57e78be9f9c9e1196a7/shimpy-0.0.1.tar.gz
+[2023-07-24 15:45:54] INFO root fetch - processPackages [assist]: Remove: archive file [/home/abi/fetcher/tmp/assist-1.1.2.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [assist]: Remove: archive file [/home/abi/fetcher/tmp/assist-1.1.3.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [assist]: Start processing: hello-gqq521
+[2023-07-24 15:45:54] INFO root fetch - main [MainThread]: End processing [assist]: success
+[2023-07-24 15:45:54] WARNING root fetch - processPackages [hello-gqq521]: Skipping, unable to determine old version
+[2023-07-24 15:45:54] INFO root fetch - processPackages [hello-gqq521]: Start processing: easyliftover
+[2023-07-24 15:45:54] INFO root fetch - main [MainThread]: End processing [hello-gqq521] error
+[2023-07-24 15:45:54] INFO root fetch - processPackages [shimpy]: Downloading https://files.pythonhosted.org/packages/57/99/87304e262ce8f32e6bc96aa74e48fcb0bbba7e4ebc535d177f48e664fe0b/shimpy-0.0.2.tar.gz
+[2023-07-24 15:45:54] INFO root fetch - processPackages [easyliftover]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [shimpy]: executing diffoscope
+[2023-07-24 15:45:54] INFO root fetch - processPackages [shimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimpy-0.0.1.tar.gz tmp/shimpy-0.0.2.tar.gz --markdown 20230724/s/shimpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 15:45:54] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/45/35/fb0fb678e128f236c087d39326045e827b34e3f29c2cd73c4a365e79672c/easyliftover-0.0.3.tar.gz
+[2023-07-24 15:45:54] INFO root fetch - processPackages [vit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-1.2.4.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [vit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vit-pytorch-1.2.5.tar.gz]
+[2023-07-24 15:45:54] INFO root fetch - processPackages [vit-pytorch]: Start processing: kissio
+[2023-07-24 15:45:54] INFO root fetch - main [MainThread]: End processing [vit-pytorch]: success
+[2023-07-24 15:45:54] INFO root fetch - processPackages [kissio]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/de/3e/1c6e8cfda5c6b86e6cf6fc8c1377887a099a5f208c1c88d4d682fafe37d8/kissio-0.0.5.tar.gz
+[2023-07-24 15:45:55] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.44.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.45.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [ml-management]: Start processing: blinkpy
+[2023-07-24 15:45:55] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-07-24 15:45:55] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/ff/23/0a283100b102a64497be98fb55075eea1f7c228f902d24c65d43d2d4732a/easyliftover-0.0.4.tar.gz
+[2023-07-24 15:45:55] INFO root fetch - processPackages [blinkpy]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.0.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.1.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [hestia-earth-schema]: Start processing: odoo-addon-webservice
+[2023-07-24 15:45:55] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-07-24 15:45:55] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/48/6c/e7a431c6abbe7f663e13ad5f7e3192ebfb22ab039a986a18ebe24ddf90d4/kissio-0.0.6.tar.gz
+[2023-07-24 15:45:55] INFO root fetch - processPackages [alphatims]: Remove: archive file [/home/abi/fetcher/tmp/alphatims-1.0.7.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [alphatims]: Remove: archive file [/home/abi/fetcher/tmp/alphatims-1.0.8.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [alphatims]: Start processing: dbt-materialize
+[2023-07-24 15:45:55] INFO root fetch - main [MainThread]: End processing [alphatims]: success
+[2023-07-24 15:45:55] INFO root fetch - processPackages [odoo-addon-webservice]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.6]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.9.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.8.0.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2023-07-24 15:45:55] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 15:45:55] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.5.tar.gz tmp/kissio-0.0.6.tar.gz --markdown 20230724/k/kissio/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 15:45:55] INFO root fetch - processPackages [easyliftover]: executing diffoscope
+[2023-07-24 15:45:55] INFO root fetch - processPackages [easyliftover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyliftover-0.0.3.tar.gz tmp/easyliftover-0.0.4.tar.gz --markdown 20230724/e/easyliftover/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 15:45:55] INFO root fetch - processPackages [blinkpy]: Downloading https://files.pythonhosted.org/packages/bb/94/dc46b3e492c611752ea56e20a7af21780205de3b88374873288c9d7750c0/blinkpy-0.8.3-py3-none-any.whl
+[2023-07-24 15:45:55] INFO root fetch - processPackages [dbt-materialize]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/ec/36/232385db5c517c8928bba32c8165a6608d7114e090ea895507a0774e12ba/odoo_addon_webservice-15.0.1.0.0.6-py3-none-any.whl
+[2023-07-24 15:45:55] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.0.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - processPackages [sd-meh]: Remove: archive file [/home/abi/fetcher/tmp/sd_meh-0.9.2.tar.gz]
+[2023-07-24 15:45:55] INFO root fetch - main [MainThread]: End processing [sd-meh]: success
+[2023-07-24 15:45:55] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/20/87/0ad5c8cb0ec138600aa12512b05378eecd60f8a0b3b9dd9d07494745f1e2/dbt-materialize-1.5.0.tar.gz
+[2023-07-24 15:45:56] INFO root fetch - processPackages [shimpy]: Remove: archive file [/home/abi/fetcher/tmp/shimpy-0.0.1.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - processPackages [shimpy]: Remove: archive file [/home/abi/fetcher/tmp/shimpy-0.0.2.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - main [MainThread]: End processing [shimpy]: success
+[2023-07-24 15:45:56] INFO root fetch - processPackages [blinkpy]: Downloading https://files.pythonhosted.org/packages/94/1c/9a12fec07a39b76b6cd265a781accfa81618524f334be0c4431adbf74a6c/blinkpy-0.9.0-py3-none-any.whl
+[2023-07-24 15:45:56] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/a0/0e/17c267988e74e9fb17e69281b2bdc35f281efc87ab37529319ffaae565ab/odoo_addon_webservice-15.0.1.0.1-py3-none-any.whl
+[2023-07-24 15:45:56] INFO root fetch - processPackages [dbt-materialize]: Downloading https://files.pythonhosted.org/packages/fa/0c/34850b65a16f67140d5b2479ad98fe80ebe8c6fcee6b2cb7eadb50bbce74/dbt-materialize-1.5.1.tar.gz
+[2023-07-24 15:45:56] INFO root fetch - processPackages [blinkpy]: executing diffoscope
+[2023-07-24 15:45:56] INFO root fetch - processPackages [blinkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blinkpy-0.8.3-py3-none-any.whl.zip tmp/blinkpy-0.9.0-py3-none-any.whl.zip --markdown 20230724/b/blinkpy/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:45:56] INFO root fetch - processPackages [odoo-addon-webservice]: executing diffoscope
+[2023-07-24 15:45:56] INFO root fetch - processPackages [odoo-addon-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_webservice-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_webservice-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-webservice/15.0.1.0.0.6-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-24 15:45:56] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-07-24 15:45:56] INFO root fetch - processPackages [dbt-materialize]: executing diffoscope
+[2023-07-24 15:45:56] INFO root fetch - processPackages [dbt-materialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-materialize-1.5.0.tar.gz tmp/dbt-materialize-1.5.1.tar.gz --markdown 20230724/d/dbt-materialize/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-24 15:45:56] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.5.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.6.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 15:45:56] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-24 15:45:56] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.3.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.4.tar.gz]
+[2023-07-24 15:45:56] INFO root fetch - main [MainThread]: End processing [easyliftover]: success
+[2023-07-24 15:45:57] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-24 15:45:57] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 15:45:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-webservice]: success
+[2023-07-24 15:45:57] INFO root fetch - processPackages [blinkpy]: Remove: archive file [/home/abi/fetcher/tmp/blinkpy-0.8.3-py3-none-any.whl.zip]
+[2023-07-24 15:45:57] INFO root fetch - processPackages [blinkpy]: Remove: archive file [/home/abi/fetcher/tmp/blinkpy-0.9.0-py3-none-any.whl.zip]
+[2023-07-24 15:45:57] INFO root fetch - main [MainThread]: End processing [blinkpy]: success
+[2023-07-24 15:45:57] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.5.0.tar.gz]
+[2023-07-24 15:45:57] INFO root fetch - processPackages [dbt-materialize]: Remove: archive file [/home/abi/fetcher/tmp/dbt-materialize-1.5.1.tar.gz]
+[2023-07-24 15:45:57] INFO root fetch - main [MainThread]: End processing [dbt-materialize]: success
+[2023-07-24 15:45:57] INFO root fetch - main [MainThread]: Store serial: [19013547]
