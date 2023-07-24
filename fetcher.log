@@ -16821,3 +16821,162 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:51:26] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
 [2023-07-24 13:51:26] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
 [2023-07-24 13:51:26] INFO root fetch - main [MainThread]: Store serial: [19012021]
+[2023-07-24 13:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012021]
+[2023-07-24 13:56:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myds
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: score.serve
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Furious-GUI
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpi-cbs.mediforms
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webdns
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clearml-agent
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastlane-bot
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-network-firewall
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-devoops
+[2023-07-24 13:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aksharify
+[2023-07-24 13:56:36] WARNING root fetch - processPackages [Furious-GUI]: Skipping, unable to determine old version
+[2023-07-24 13:56:36] INFO root fetch - processPackages [Furious-GUI]: Start processing: experimaestro-ir
+[2023-07-24 13:56:36] INFO root fetch - main [MainThread]: End processing [Furious-GUI] error
+[2023-07-24 13:56:36] INFO root fetch - processPackages [score.serve]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [clearml-agent]: New version: [1.6.0rc2] Old Version: [1.6.0rc1]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [core-devoops]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [webdns]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [aksharify]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [mpi-cbs.mediforms]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [myds]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [fastlane-bot]: New version: [0.91.1] Old Version: [0.90.1]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [experimaestro-ir]: New version: [1.0.0] Old Version: [0.6.2]
+[2023-07-24 13:56:36] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/68/ed/f887804fa6c17b8825f380ecdb050614e6c11202d70494078a38ff92ea42/core_devoops-0.0.4.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/fb/a5/db0f560af18045b81dd3bec184377c39f6b9c3b91ce79605f91eada75f04/mpi-cbs.mediforms-0.1.0a8.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/67/38/0039bb6966c446aed9b299c81bd2ce91cb84025ee0a2aa67b8e101fc8dd1/aws_network_firewall-0.2.0.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [score.serve]: Downloading https://files.pythonhosted.org/packages/82/f6/667b5951e778153c60535dab844745ed8e179308a1b403d0fed79b51d308/score.serve-0.1.8.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/32/c3/f17498797a8cb66a4db9dd6199d944cc06fae4556d31b31909851bed29ae/aksharify-0.1.4.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/6d/6b/8c95ba50a2947ce40d7958ec2760953e01e24679cefb1513ed974f9a0bc7/fastlane_bot-0.90.1.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/25/8f/5556855611fbdb0ca8c762c341f6d1c67f9f24aaf5fd38edb06f3b0a7b02/clearml_agent-1.6.0rc1-py3-none-any.whl
+[2023-07-24 13:56:36] INFO root fetch - processPackages [webdns]: Downloading https://files.pythonhosted.org/packages/03/76/1719a69551ded49f3454beaffb612725223810bccc5cc18d956c6fd500aa/webdns-0.0.8.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [myds]: Downloading https://files.pythonhosted.org/packages/a6/f8/65d9ddbf7156dd78802c67dd94ae2e57c25f9bc6fd5dba9ef3d1b4e7762f/myds-0.1.2.tar.gz
+[2023-07-24 13:56:36] INFO root fetch - processPackages [experimaestro-ir]: Downloading https://files.pythonhosted.org/packages/7f/08/f95df7563651d1e73a927c15936782df57bdc8e4c714ebe5858dd1e170f4/experimaestro-ir-0.6.2.zip
+[2023-07-24 13:56:36] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/aa/c4/a4eda5aa88a16b4403505cce355dea09c2ecd705c3d32db49e09972fbede/core_devoops-0.0.5.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/78/2f/584feac5e67bcea9501b4fe7d09a9692264939fb2d1ae2370d7abd55c7f5/aws_network_firewall-0.3.0.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.4.tar.gz tmp/core_devoops-0.0.5.tar.gz --markdown 20230724/c/core-devoops/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/d5/a2/757bfe2cd65f97af10b64b03b7e5360e7d081bdda99cfa923c06caada8ee/aksharify-0.1.5.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.2.0.tar.gz tmp/aws_network_firewall-0.3.0.tar.gz --markdown 20230724/a/aws-network-firewall/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/d1/d9/5bbd4e52fb3651cba514f1808476f41878b49239de60f7282d86ac98fcc1/fastlane_bot-0.91.1.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [myds]: Downloading https://files.pythonhosted.org/packages/d2/28/315abc61a0c7be04fdbefa44fa17b1d8083f849663525b1966d6a991f6ed/myds-0.1.4.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [experimaestro-ir]: Downloading https://files.pythonhosted.org/packages/77/29/abe68e77e4ed9fe90c471a5a9070fb71ef48de72c1abc7bad22a78cab3ea/experimaestro-ir-1.0.0.zip
+[2023-07-24 13:56:37] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/61/5c/4c2693d74d5a5d8d31dc1897df617551cbe58b85859a66b0058ad831078b/clearml_agent-1.6.0rc2-py3-none-any.whl
+[2023-07-24 13:56:37] INFO root fetch - processPackages [score.serve]: Downloading https://files.pythonhosted.org/packages/14/0b/e1008d7e4a519a8db2dff61812cc411af33771c893d66ee47beaecfc6358/score.serve-0.1.9.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-0.1.4.tar.gz tmp/aksharify-0.1.5.tar.gz --markdown 20230724/a/aksharify/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [webdns]: Downloading https://files.pythonhosted.org/packages/45/62/295df4938815da6e40fc341d76d5299015c82a128b312549ae037072e77a/webdns-0.0.9.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.90.1.tar.gz tmp/fastlane_bot-0.91.1.tar.gz --markdown 20230724/f/fastlane-bot/0.90.1-0.91.1/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [myds]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [myds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myds-0.1.2.tar.gz tmp/myds-0.1.4.tar.gz --markdown 20230724/m/myds/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [score.serve]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [score.serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score.serve-0.1.8.tar.gz tmp/score.serve-0.1.9.tar.gz --markdown 20230724/s/score.serve/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [experimaestro-ir]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [experimaestro-ir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-ir-0.6.2.zip tmp/experimaestro-ir-1.0.0.zip --markdown 20230724/e/experimaestro-ir/0.6.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/c5/47/5306f01b519d5d73d50901fa4c517511bc68b1fcaecce1700b4552ccb469/mpi-cbs.mediforms-0.1.0a9.tar.gz
+[2023-07-24 13:56:37] INFO root fetch - processPackages [clearml-agent]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [clearml-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_agent-1.6.0rc1-py3-none-any.whl.zip tmp/clearml_agent-1.6.0rc2-py3-none-any.whl.zip --markdown 20230724/c/clearml-agent/1.6.0rc1-1.6.0rc2/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [webdns]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [webdns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdns-0.0.8.tar.gz tmp/webdns-0.0.9.tar.gz --markdown 20230724/w/webdns/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 13:56:37] INFO root fetch - processPackages [mpi-cbs.mediforms]: executing diffoscope
+[2023-07-24 13:56:37] INFO root fetch - processPackages [mpi-cbs.mediforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz --markdown 20230724/m/mpi-cbs.mediforms/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.2.0.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.3.0.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aws-network-firewall]: Start processing: fastlane-bot
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.4.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.5.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [core-devoops]: Start processing: pyopencga
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [fastlane-bot]: New version: [0.91.1] Old Version: [0.90.1]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.4.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [pyopencga]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aksharify]: Remove: archive file [/home/abi/fetcher/tmp/aksharify-0.1.5.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [aksharify]: Start processing: cycode
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [myds]: Remove: archive file [/home/abi/fetcher/tmp/myds-0.1.2.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [myds]: Remove: archive file [/home/abi/fetcher/tmp/myds-0.1.4.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [myds]: Start processing: vprikol-api-python
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [myds]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [vprikol-api-python]: New version: [1.5] Old Version: [1.4]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-24 13:56:39] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 13:56:39] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.90.1.tar.gz tmp/fastlane_bot-0.91.1.tar.gz --markdown 20230724/f/fastlane-bot/0.90.1-0.91.1/diff.md --exclude *.pyd
+[2023-07-24 13:56:39] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/02/8c/3a16f6b46f42c7346f118222e0e0ecdaf687f3ae9f7c1433d89882fc7f93/pyopencga-2.9.1.tar.gz
+[2023-07-24 13:56:39] INFO root fetch - processPackages [webdns]: Remove: archive file [/home/abi/fetcher/tmp/webdns-0.0.8.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [webdns]: Remove: archive file [/home/abi/fetcher/tmp/webdns-0.0.9.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [webdns]: Start processing: nvfuser-cu121
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [webdns]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [vprikol-api-python]: Downloading https://files.pythonhosted.org/packages/44/85/baa3ef08503d565718717a38a7d31c586a2bc465d098012ee139cab98a9c/vprikol_api_python-1.4.tar.gz
+[2023-07-24 13:56:39] INFO root fetch - processPackages [score.serve]: Remove: archive file [/home/abi/fetcher/tmp/score.serve-0.1.8.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [score.serve]: Remove: archive file [/home/abi/fetcher/tmp/score.serve-0.1.9.tar.gz]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [score.serve]: Start processing: nvfuser-cu118
+[2023-07-24 13:56:39] INFO root fetch - main [MainThread]: End processing [score.serve]: success
+[2023-07-24 13:56:39] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-24 13:56:39] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-24 13:56:39] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/69/1e/4a9e9c2fb3270b11a995e946cba5c5d6b51aa218132816492bf1f6df25e1/pyopencga-2.9.2.tar.gz
+[2023-07-24 13:56:39] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-24 13:56:39] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230724/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-24 13:56:40] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 13:56:40] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.90.1.tar.gz]
+[2023-07-24 13:56:40] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.91.1.tar.gz]
+[2023-07-24 13:56:40] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-2.9.1.tar.gz tmp/pyopencga-2.9.2.tar.gz --markdown 20230724/p/pyopencga/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: Start processing: fastlane-bot
+[2023-07-24 13:56:40] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-24 13:56:40] INFO root fetch - processPackages [vprikol-api-python]: Downloading https://files.pythonhosted.org/packages/27/ac/fa0ee002a0da490481282e799cb3bdc1354f1e7b58fe17a41c52e67a5786/vprikol_api_python-1.5.tar.gz
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: New version: [0.91.1] Old Version: [0.90.1]
+[2023-07-24 13:56:40] ERROR root fetch - processPackages [fastlane-bot]: Diffoscope failed: time="2023-07-24T13:56:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastlane_bot-0.90.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/fastlane_bot-0.91.1.tar.gz: No such file or directory
+
+[2023-07-24 13:56:40] INFO root fetch - main [MainThread]: End processing [fastlane-bot] error
+[2023-07-24 13:56:40] INFO root fetch - processPackages [vprikol-api-python]: executing diffoscope
+[2023-07-24 13:56:40] INFO root fetch - processPackages [vprikol-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vprikol_api_python-1.4.tar.gz tmp/vprikol_api_python-1.5.tar.gz --markdown 20230724/v/vprikol-api-python/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/6d/6b/8c95ba50a2947ce40d7958ec2760953e01e24679cefb1513ed974f9a0bc7/fastlane_bot-0.90.1.tar.gz
+[2023-07-24 13:56:40] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz]
+[2023-07-24 13:56:40] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz]
+[2023-07-24 13:56:40] INFO root fetch - main [MainThread]: End processing [mpi-cbs.mediforms]: success
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/d1/d9/5bbd4e52fb3651cba514f1808476f41878b49239de60f7282d86ac98fcc1/fastlane_bot-0.91.1.tar.gz
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 13:56:40] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.90.1.tar.gz tmp/fastlane_bot-0.91.1.tar.gz --markdown 20230724/f/fastlane-bot/0.90.1-0.91.1/diff.md --exclude *.pyd
+[2023-07-24 13:56:40] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.6.0rc1-py3-none-any.whl.zip]
+[2023-07-24 13:56:40] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.6.0rc2-py3-none-any.whl.zip]
+[2023-07-24 13:56:40] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
+[2023-07-24 13:56:41] INFO root fetch - processPackages [experimaestro-ir]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-ir-0.6.2.zip]
+[2023-07-24 13:56:41] INFO root fetch - processPackages [experimaestro-ir]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-ir-1.0.0.zip]
+[2023-07-24 13:56:41] INFO root fetch - main [MainThread]: End processing [experimaestro-ir]: success
+[2023-07-24 13:56:41] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 13:56:41] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-24 13:56:41] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-24 13:56:41] INFO root fetch - processPackages [vprikol-api-python]: Remove: archive file [/home/abi/fetcher/tmp/vprikol_api_python-1.4.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - processPackages [vprikol-api-python]: Remove: archive file [/home/abi/fetcher/tmp/vprikol_api_python-1.5.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - main [MainThread]: End processing [vprikol-api-python]: success
+[2023-07-24 13:56:41] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-2.9.1.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-2.9.2.tar.gz]
+[2023-07-24 13:56:41] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2023-07-24 13:56:42] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.90.1.tar.gz]
+[2023-07-24 13:56:42] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.91.1.tar.gz]
+[2023-07-24 13:56:42] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-24 13:56:43] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-24 13:56:43] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230724/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-24 13:56:43] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-24 13:56:43] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230724/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-24 13:56:44] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 13:56:44] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 13:56:44] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-24 13:56:45] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 13:56:45] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-24 13:56:45] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-24 13:56:45] INFO root fetch - main [MainThread]: Store serial: [19012077]
