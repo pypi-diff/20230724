@@ -18009,3 +18009,73 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:33:38] INFO root fetch - processPackages [aisquared]: Remove: archive file [/home/abi/fetcher/tmp/aisquared-0.3.7.dev1.tar.gz]
 [2023-07-24 14:33:38] INFO root fetch - main [MainThread]: End processing [aisquared]: success
 [2023-07-24 14:33:38] INFO root fetch - main [MainThread]: Store serial: [19012452]
+[2023-07-24 14:38:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012452]
+[2023-07-24 14:38:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datawords
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpa-pdf
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyliftover
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aimmo
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: t8s
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LWTools
+[2023-07-24 14:38:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typechat
+[2023-07-24 14:38:49] INFO root fetch - processPackages [easyliftover]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [rpa-pdf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [datawords]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [LWTools]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/45/35/fb0fb678e128f236c087d39326045e827b34e3f29c2cd73c4a365e79672c/easyliftover-0.0.3.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [t8s]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230724] Old Version: [2.14.0.dev20230723]
+[2023-07-24 14:38:49] WARNING root fetch - processPackages [typechat]: Skipping, unable to determine old version
+[2023-07-24 14:38:49] INFO root fetch - main [MainThread]: End processing [typechat] error
+[2023-07-24 14:38:49] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-07-24 14:38:49] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [rpa-pdf]: Downloading https://files.pythonhosted.org/packages/da/3b/f0b7928a393046622e99bc5b34cce8638a08fae40d93665005580f70636d/rpa-pdf-1.1.0.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [datawords]: Downloading https://files.pythonhosted.org/packages/67/18/8df1051c78e78bb419bf3b9ed9e204f17c99aa90c429fcf40d783d5b9bee/datawords-0.6.1.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [LWTools]: Downloading https://files.pythonhosted.org/packages/71/cc/6bafdec41e96b0665605227eef3c05141e5afd06d374b8c3f09602b4a1b6/LWTools-1.0.0.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/54/73/74ac617c4f34a8f7011d1f2d8a2169d0b7600cce7cc08e08377d00d4f257/tf_nightly_intel-2.14.0.dev20230723-cp39-cp39-win_amd64.whl
+[2023-07-24 14:38:49] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/b7/70/10f05eb411362b5a243d802de719121e3a2497f99b782cb6e6931d36de5c/t8s-0.1.8.tar.gz
+[2023-07-24 14:38:49] WARNING root fetch - processPackages [rpa-pdf]: Skipping package: exceeds size limit 28449499>=10485760
+[2023-07-24 14:38:49] INFO root fetch - main [MainThread]: End processing [rpa-pdf] error
+[2023-07-24 14:38:49] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/ff/23/0a283100b102a64497be98fb55075eea1f7c228f902d24c65d43d2d4732a/easyliftover-0.0.4.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [datawords]: Downloading https://files.pythonhosted.org/packages/e7/c1/b040ca91e76712b8634ab4f9958d4762d98adea045b6d78ae8db078f1330/datawords-0.6.2.tar.gz
+[2023-07-24 14:38:49] INFO root fetch - processPackages [easyliftover]: executing diffoscope
+[2023-07-24 14:38:49] INFO root fetch - processPackages [easyliftover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyliftover-0.0.3.tar.gz tmp/easyliftover-0.0.4.tar.gz --markdown 20230724/e/easyliftover/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 14:38:49] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182698323>=10485760
+[2023-07-24 14:38:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-24 14:38:50] INFO root fetch - processPackages [LWTools]: Downloading https://files.pythonhosted.org/packages/01/5f/6aea5e70e9e659099c25da532172db1cfe5a8515ae799ffa4c10dc764b8d/LWTools-1.0.2.tar.gz
+[2023-07-24 14:38:50] INFO root fetch - processPackages [datawords]: executing diffoscope
+[2023-07-24 14:38:50] INFO root fetch - processPackages [datawords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawords-0.6.1.tar.gz tmp/datawords-0.6.2.tar.gz --markdown 20230724/d/datawords/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-24 14:38:50] INFO root fetch - processPackages [LWTools]: executing diffoscope
+[2023-07-24 14:38:50] INFO root fetch - processPackages [LWTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LWTools-1.0.0.tar.gz tmp/LWTools-1.0.2.tar.gz --markdown 20230724/L/LWTools/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:38:50] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-24 14:38:50] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/c7/0b/595844163fcc3d47af7b0e05c304678dd4f361e3eaba27110329a30a8287/t8s-0.1.9.tar.gz
+[2023-07-24 14:38:50] INFO root fetch - processPackages [t8s]: executing diffoscope
+[2023-07-24 14:38:50] INFO root fetch - processPackages [t8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t8s-0.1.8.tar.gz tmp/t8s-0.1.9.tar.gz --markdown 20230724/t/t8s/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 14:38:50] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-07-24 14:38:50] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-07-24 14:38:50] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230724/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-07-24 14:38:50] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-24 14:38:50] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230724/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-24 14:38:51] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.3.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.4.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - main [MainThread]: End processing [easyliftover]: success
+[2023-07-24 14:38:51] INFO root fetch - processPackages [datawords]: Remove: archive file [/home/abi/fetcher/tmp/datawords-0.6.1.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - processPackages [datawords]: Remove: archive file [/home/abi/fetcher/tmp/datawords-0.6.2.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - main [MainThread]: End processing [datawords]: success
+[2023-07-24 14:38:51] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.8.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.9.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - main [MainThread]: End processing [t8s]: success
+[2023-07-24 14:38:51] INFO root fetch - processPackages [LWTools]: Remove: archive file [/home/abi/fetcher/tmp/LWTools-1.0.0.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - processPackages [LWTools]: Remove: archive file [/home/abi/fetcher/tmp/LWTools-1.0.2.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - main [MainThread]: End processing [LWTools]: success
+[2023-07-24 14:38:51] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz]
+[2023-07-24 14:38:51] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-07-24 14:38:52] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-24 14:38:52] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-24 14:38:52] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-24 14:38:52] INFO root fetch - main [MainThread]: Store serial: [19012484]
