@@ -1227,3 +1227,72 @@
 [2023-07-24 02:02:18] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.6.0.0.tar.gz]
 [2023-07-24 02:02:18] INFO root fetch - main [MainThread]: End processing [maud-metabolic-models]: success
 [2023-07-24 02:02:18] INFO root fetch - main [MainThread]: Store serial: [19005617]
+[2023-07-24 02:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005617]
+[2023-07-24 02:07:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-ncm
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kissio
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlproc-tools
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmt-cli
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-24 02:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-07-24 02:07:27] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 02:07:27] WARNING root fetch - processPackages [nlproc-tools]: Skipping, unable to determine old version
+[2023-07-24 02:07:27] INFO root fetch - main [MainThread]: End processing [nlproc-tools] error
+[2023-07-24 02:07:27] INFO root fetch - processPackages [nonebot-plugin-ncm]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [kissio]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690070621] Old Version: [1689984188]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230723] Old Version: [0.0.8.dev20230722]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230723.post423] Old Version: [1.9.0.20230722.post358]
+[2023-07-24 02:07:27] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/bf/84/69cd0fe749e36f6cc1ac8e1d7c4100ab54422b7291304b469b586b544bef/torchdatasets-nightly-1689984188.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/cb/21/59f7ca0b6c0bdee7966f0191615c6e23f87c8925ad33614fc79d0a721f5f/jaxutils-nightly-0.0.8.dev20230722.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/9f/e5/808f6912657dd9610769219317ebce7566af5ce4ff85fd034e3a76f33e8b/kissio-0.0.1.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [nonebot-plugin-ncm]: Downloading https://files.pythonhosted.org/packages/f0/b7/dae363360ed182a43aff989d413831c9ddffbd3310729b60abd5f722d6cb/nonebot_plugin_ncm-1.6.0.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/f0/1b/8659a8a0dff5f1622099113692b1e2462a226fbca050a9ad32416a76941c/mct-nightly-1.9.0.20230722.post358.tar.gz
+[2023-07-24 02:07:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/ae/a5/94db4829121d736ffdba89c81680124177277bd73771898a3893ff69f71d/torchdatasets-nightly-1690070621.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/b5/7f/aad05bd08fa47c9365613b519f1eb34c3bd372d7539231768cddbf40644c/kissio-0.0.2.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230724/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6c/90/cab6926b1c409f10cf6af92933877302ee3f93e7b6f261bab25bf274531d/jaxutils-nightly-0.0.8.dev20230723.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [nonebot-plugin-ncm]: Downloading https://files.pythonhosted.org/packages/71/b5/a0098a61d0c2f3b25361c7936309c2dc042b65fcb7b7acd03ca074fd29c4/nonebot_plugin_ncm-1.6.1.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689984188.tar.gz tmp/torchdatasets-nightly-1690070621.tar.gz --markdown 20230724/t/torchdatasets-nightly/1689984188-1690070621/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230722.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230723.tar.gz --markdown 20230724/j/jaxutils-nightly/0.0.8.dev20230722-0.0.8.dev20230723/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.1.tar.gz tmp/kissio-0.0.2.tar.gz --markdown 20230724/k/kissio/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/1b/fe/b0527bac7086e68b50b623d226d3b617ed713b851e30aba926f49fedb9be/mct-nightly-1.9.0.20230723.post423.tar.gz
+[2023-07-24 02:07:28] INFO root fetch - processPackages [nonebot-plugin-ncm]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [nonebot-plugin-ncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ncm-1.6.0.tar.gz tmp/nonebot_plugin_ncm-1.6.1.tar.gz --markdown 20230724/n/nonebot-plugin-ncm/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20230724/l/lmt-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 02:07:28] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-24 02:07:28] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230722.post358.tar.gz tmp/mct-nightly-1.9.0.20230723.post423.tar.gz --markdown 20230724/m/mct-nightly/1.9.0.20230722.post358-1.9.0.20230723.post423/diff.md --exclude *.pyd
+[2023-07-24 02:07:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-24 02:07:29] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.1.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.2.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 02:07:29] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689984188.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690070621.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-24 02:07:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230722.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230723.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-24 02:07:29] INFO root fetch - processPackages [nonebot-plugin-ncm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ncm-1.6.0.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [nonebot-plugin-ncm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ncm-1.6.1.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ncm]: success
+[2023-07-24 02:07:29] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2023-07-24 02:07:29] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2023-07-24 02:07:31] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230722.post358.tar.gz]
+[2023-07-24 02:07:31] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230723.post423.tar.gz]
+[2023-07-24 02:07:31] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-24 02:07:31] INFO root fetch - main [MainThread]: Store serial: [19005643]
