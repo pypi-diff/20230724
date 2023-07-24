@@ -9102,3 +9102,108 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:29:39] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
 [2023-07-24 08:29:39] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
 [2023-07-24 08:29:39] INFO root fetch - main [MainThread]: Store serial: [19008819]
+[2023-07-24 08:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008819]
+[2023-07-24 08:34:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yyxx-game-pkg
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OgbujiPT
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sum-arun-test
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydracogltf
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datamart-yhdr
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-poe-client
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microlearn-gen-course
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chromedriver-autoinstaller
+[2023-07-24 08:34:48] INFO root fetch - processPackages [microlearn-gen-course]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [sum-arun-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 08:34:48] WARNING root fetch - processPackages [OgbujiPT]: Skipping, unable to determine old version
+[2023-07-24 08:34:48] INFO root fetch - processPackages [OgbujiPT]: Start processing: ML-Algo
+[2023-07-24 08:34:48] INFO root fetch - main [MainThread]: End processing [OgbujiPT] error
+[2023-07-24 08:34:48] INFO root fetch - processPackages [chromedriver-autoinstaller]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [datamart-yhdr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [pydracogltf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.6.2] Old Version: [2023.7.6.1]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [ML-Algo]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-24 08:34:48] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/6d/d4/9fe894cdaa3266309314c87fd78973afa3c7adffa2fc8e75f22405d1013f/microlearn_gen_course-0.0.1.tar.gz
+[2023-07-24 08:34:48] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/e5/b0/788a38049635dd8f24018a2a93a39164b54e0861beacbce52f186bdcf763/chromedriver-autoinstaller-0.6.1.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [sum-arun-test]: Downloading https://files.pythonhosted.org/packages/79/6d/b243fbb054bbb54a52c999218c0320333235c3b9f748ad5272d943c57770/sum_arun_test-0.1.1.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/cb/5f/256f5b22884ea9ea27d28afffc1f49561eaf025d025a3e96ae945d648905/async_poe_client-0.1.4.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/0e/bc/ed34883dec504ebf376d95c69009c34b42190198006c9c84d9093e9a3913/pydracogltf-0.0.3-py3-none-win_amd64.whl
+[2023-07-24 08:34:49] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9b/b7/cc822920f7bf0f7fafdb31e00496522c7ca28ce20584aab633789ebd0d11/yyxx_game_pkg-2023.7.6.1.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/8a/3a/bfb2b3d10247d63f4392be0a0bcd35a1c34e41a4731806fba4c350f8be89/datamart_yhdr-0.1.0.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/e0/95/af6201e5578dea9c0d03075ee929111dc49d283bde80f060d4ccc934fd8a/ML-Algo-1.3.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/d8/5e/bc717d79a9e8543d111659bce3b72dadcdaeb75b90de0c06767dde61af2a/microlearn_gen_course-0.0.2.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/ee/0b/dac4c8f5b124be16a81ea8602bbba4e000c3b525dd0c0d1616f34d539796/chromedriver-autoinstaller-0.6.2.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [sum-arun-test]: Downloading https://files.pythonhosted.org/packages/91/ad/3b7abb73985c033bc97cea4898942ca6b20ca2d6a3a4dc0269a093459282/sum_arun_test-0.1.2.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [microlearn-gen-course]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [microlearn-gen-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_gen_course-0.0.1.tar.gz tmp/microlearn_gen_course-0.0.2.tar.gz --markdown 20230724/m/microlearn-gen-course/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/f1/93/b013bb35915994162be6e39f9c3f226ad57db43af6e52e627be949cce691/async_poe_client-0.1.5.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pydracogltf]: Downloading https://files.pythonhosted.org/packages/ea/89/4387287695eb57793299dbb407ae230cf25cd0d70efd5f7120a9ba8824d2/pydracogltf-0.0.4.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [chromedriver-autoinstaller]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [chromedriver-autoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-autoinstaller-0.6.1.tar.gz tmp/chromedriver-autoinstaller-0.6.2.tar.gz --markdown 20230724/c/chromedriver-autoinstaller/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [sum-arun-test]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [sum-arun-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sum_arun_test-0.1.1.tar.gz tmp/sum_arun_test-0.1.2.tar.gz --markdown 20230724/s/sum-arun-test/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [ML-Algo]: Downloading https://files.pythonhosted.org/packages/08/47/1f6a36879220c84eb7d225b8c2475d21b7284386d7012afe2cf8a3659272/ML-Algo-1.3.1.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/52/c8/4d94e9b70bbcd6d0fdaa116fb28699bd2cc2ed05d8bebdb025b85921bd7c/datamart_yhdr-0.1.1.tar.gz
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pydracogltf]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pydracogltf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydracogltf-0.0.3-py3-none-win_amd64.whl.zip tmp/pydracogltf-0.0.4.tar.gz --markdown 20230724/p/pydracogltf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230724/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.4.tar.gz tmp/async_poe_client-0.1.5.tar.gz --markdown 20230724/a/async-poe-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [ML-Algo]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [ML-Algo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ML-Algo-1.3.tar.gz tmp/ML-Algo-1.3.1.tar.gz --markdown 20230724/M/ML-Algo/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-24 08:34:49] INFO root fetch - processPackages [datamart-yhdr]: executing diffoscope
+[2023-07-24 08:34:49] INFO root fetch - processPackages [datamart-yhdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamart_yhdr-0.1.0.tar.gz tmp/datamart_yhdr-0.1.1.tar.gz --markdown 20230724/d/datamart-yhdr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 08:34:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-24 08:34:50] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/33/8e/06c4b18d6a407263a41cf7dbfca9809cb73955a9680aa4110d2f3bd5f0f6/yyxx_game_pkg-2023.7.6.2.tar.gz
+[2023-07-24 08:34:50] INFO root fetch - processPackages [sum-arun-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_arun_test-0.1.1.tar.gz]
+[2023-07-24 08:34:50] INFO root fetch - processPackages [sum-arun-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_arun_test-0.1.2.tar.gz]
+[2023-07-24 08:34:50] INFO root fetch - processPackages [sum-arun-test]: Start processing: async-poe-client
+[2023-07-24 08:34:50] INFO root fetch - main [MainThread]: End processing [sum-arun-test]: success
+[2023-07-24 08:34:50] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 08:34:50] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.6.1.tar.gz]
+[2023-07-24 08:34:50] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.6.2.tar.gz]
+[2023-07-24 08:34:50] INFO root fetch - main [MainThread]: End processing [chromedriver-autoinstaller]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.1.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.2.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [microlearn-gen-course]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.3-py3-none-win_amd64.whl.zip]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pydracogltf]: Remove: archive file [/home/abi/fetcher/tmp/pydracogltf-0.0.4.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [pydracogltf]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.3.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [ML-Algo]: Remove: archive file [/home/abi/fetcher/tmp/ML-Algo-1.3.1.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [ML-Algo]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/b9/48/5f8419382a22f4d4fdbb0e4369d3cdacad1a10791090a329c177a7fcc0b1/async_poe_client-0.1.6.tar.gz
+[2023-07-24 08:34:51] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.4.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.5.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.0.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.1.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [datamart-yhdr]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-24 08:34:51] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.5.tar.gz tmp/async_poe_client-0.1.6.tar.gz --markdown 20230724/a/async-poe-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-24 08:34:51] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-24 08:34:51] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.6.1.tar.gz tmp/yyxx_game_pkg-2023.7.6.2.tar.gz --markdown 20230724/y/yyxx-game-pkg/2023.7.6.1-2023.7.6.2/diff.md --exclude *.pyd
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-24 08:34:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230724/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 08:34:51] ERROR root fetch - processPackages [async-poe-client]: Diffoscope failed: time="2023-07-24T08:34:51+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/async_poe_client-0.1.5.tar.gz: No such file or directory
+
+[2023-07-24 08:34:51] INFO root fetch - main [MainThread]: End processing [async-poe-client] error
+[2023-07-24 08:34:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-24 08:34:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-24 08:34:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-24 08:34:53] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.1.tar.gz]
+[2023-07-24 08:34:53] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.2.tar.gz]
+[2023-07-24 08:34:53] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-24 08:34:53] INFO root fetch - main [MainThread]: Store serial: [19008860]
