@@ -12561,3 +12561,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:52:06] INFO root fetch - processPackages [azure-mgmt-compute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-compute-9.0.0.zip]
 [2023-07-24 10:52:06] INFO root fetch - main [MainThread]: End processing [azure-mgmt-compute]: success
 [2023-07-24 10:52:06] INFO root fetch - main [MainThread]: Store serial: [19010223]
+[2023-07-24 10:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010223]
+[2023-07-24 10:57:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proctracer
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IDsys
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytetrade-recommend-model-sdk
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micro-chrome-devtools-protocol
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyconnectwise
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corus
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crawler-commons
+[2023-07-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2023-07-24 10:57:16] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [IDsys]: New version: [0.0.9] Old Version: [0.0.8.9]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.1.1] Old Version: [16.0.2.1.0.1]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [proctracer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [corus]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [pyconnectwise]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:57:16] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-24 10:57:17] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/d2/80/1e6f2b88807cd28fd9ec2dd2473e56f6412eff4751db460a519aa7cb69f2/IDsys-0.0.8.9.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/74/5e/61a0b0de964fe146ed705c40b92c35abdd5d70016b08ab5f7f5beb35d415/proctracer-0.0.5.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/5f/65/f4dcdd01959291b3cc2c892a44de56bb9ff3381868d6237a4600a61be442/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl
+[2023-07-24 10:57:17] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/6f/d9/ddfee604b050b966492837fec59a7274b13783f99315ef1b5e9d7d1902cb/bytetrade-recommend-model-sdk-0.0.27.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/60/2c/a1c1ca402fea4d1931df146d45deba23e8b8c884f7a3179394b8391bf5b4/pyconnectwise-0.4.1.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Downloading https://files.pythonhosted.org/packages/09/48/c4c930d7cda92aac1682be29682c47f28dd60863316d4ec6f90e21cc5a26/micro-chrome-devtools-protocol-0.2.0.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [corus]: Downloading https://files.pythonhosted.org/packages/cd/d2/cb17018734ecd26c40287cab605f65fd2ca787bab56452477d76a570bb97/corus-0.7.0.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/72/38/70536fe84a24708d767f2b9bbca17f3744cca21d23a45b368349fa0704f8/IDsys-0.0.9.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/1b/da/e0ab34d3b10e009f2167caa3b31919d8b7eb33fc0d427b35245cd129868c/proctracer-0.0.6.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/62/ed/12444419d8f4b9fff67bfb505b4380fd22dc6979c306e75ebf24553c9e35/bytetrade-recommend-model-sdk-0.0.28.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/8c/d9/c7494baa71f6537cb5b21da912e13412929123ede52cd485a901317d84eb/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl
+[2023-07-24 10:57:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/fa/ae/4f93437a7be101b903caca4a432e1ce06c08df1143a1c93a80e8555d30e6/pyconnectwise-0.4.2.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Downloading https://files.pythonhosted.org/packages/f1/75/96b8bc3cef9e7e157ab6ab73ae1bbc93ef46da7bca0c424efbd2b1b8b240/micro-chrome-devtools-protocol-0.2.1.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-24 10:57:17] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-24 10:57:17] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.9.tar.gz tmp/IDsys-0.0.9.tar.gz --markdown 20230724/I/IDsys/0.0.8.9-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:57:17] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-24 10:57:17] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.5.tar.gz tmp/proctracer-0.0.6.tar.gz --markdown 20230724/p/proctracer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-07-24 10:57:18] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.27.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.28.tar.gz --markdown 20230724/b/bytetrade-recommend-model-sdk/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micro-chrome-devtools-protocol-0.2.0.tar.gz tmp/micro-chrome-devtools-protocol-0.2.1.tar.gz --markdown 20230724/m/micro-chrome-devtools-protocol/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230724/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-l10n-es-aeat/16.0.2.1.0.1-16.0.2.1.1/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [pyconnectwise]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [pyconnectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconnectwise-0.4.1.tar.gz tmp/pyconnectwise-0.4.2.tar.gz --markdown 20230724/p/pyconnectwise/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230724/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230724/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:57:18] INFO root fetch - processPackages [corus]: Downloading https://files.pythonhosted.org/packages/7d/9c/703c9de8e64ba8d638886db7f5b0a6efaafd62088b2ac47d875c0aa6a2ad/corus-0.9.0.tar.gz
+[2023-07-24 10:57:18] INFO root fetch - processPackages [corus]: executing diffoscope
+[2023-07-24 10:57:18] INFO root fetch - processPackages [corus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corus-0.7.0.tar.gz tmp/corus-0.9.0.tar.gz --markdown 20230724/c/corus/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:57:20] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.9.tar.gz]
+[2023-07-24 10:57:20] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.9.tar.gz]
+[2023-07-24 10:57:20] INFO root fetch - processPackages [IDsys]: Start processing: fdfat
+[2023-07-24 10:57:20] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [fdfat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Remove: archive file [/home/abi/fetcher/tmp/micro-chrome-devtools-protocol-0.2.0.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Remove: archive file [/home/abi/fetcher/tmp/micro-chrome-devtools-protocol-0.2.1.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Start processing: dartrig
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [micro-chrome-devtools-protocol]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.5.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.6.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [proctracer]: Start processing: casex
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-24 10:57:21] INFO root fetch - processPackages [casex]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.27.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.0.28.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Start processing: konbinine
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [crawler-commons]: Start processing: morphic-util
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [casex]: Downloading https://files.pythonhosted.org/packages/2b/32/86a25580d87a9625cc3d6717647b3ccb5e51b69e996a7ef04c1437f6f318/casex-1.2.2.tar.gz
+[2023-07-24 10:57:21] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-07-24 10:57:21] WARNING root fetch - processPackages [konbinine]: Skipping, unable to determine old version
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [konbinine] error
+[2023-07-24 10:57:21] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-24 10:57:21] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/33/f3/6899c69370589ad43d818b9e5cdb2d0d01d7ef88af4613948080645b45db/fdfat-0.1.9.tar.gz
+[2023-07-24 10:57:21] WARNING root fetch - processPackages [morphic-util]: Skipping, unable to determine old version
+[2023-07-24 10:57:21] INFO root fetch - main [MainThread]: End processing [morphic-util] error
+[2023-07-24 10:57:21] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-24 10:57:21] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.8.tar.gz tmp/fdfat-0.1.9.tar.gz --markdown 20230724/f/fdfat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:57:22] INFO root fetch - processPackages [casex]: Downloading https://files.pythonhosted.org/packages/47/06/b72e93774044a42d71ac96975139bfffe0c5052d3f502ed454ce836a4100/casex-1.2.3.tar.gz
+[2023-07-24 10:57:22] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-07-24 10:57:22] INFO root fetch - processPackages [casex]: executing diffoscope
+[2023-07-24 10:57:22] INFO root fetch - processPackages [casex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casex-1.2.2.tar.gz tmp/casex-1.2.3.tar.gz --markdown 20230724/c/casex/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-24 10:57:22] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-07-24 10:57:22] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230724/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:57:22] INFO root fetch - processPackages [corus]: Remove: archive file [/home/abi/fetcher/tmp/corus-0.7.0.tar.gz]
+[2023-07-24 10:57:22] INFO root fetch - processPackages [corus]: Remove: archive file [/home/abi/fetcher/tmp/corus-0.9.0.tar.gz]
+[2023-07-24 10:57:22] INFO root fetch - main [MainThread]: End processing [corus]: success
+[2023-07-24 10:57:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 10:57:22] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.1-py3-none-any.whl.zip]
+[2023-07-24 10:57:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-07-24 10:57:24] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.9.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-24 10:57:24] INFO root fetch - processPackages [casex]: Remove: archive file [/home/abi/fetcher/tmp/casex-1.2.2.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - processPackages [casex]: Remove: archive file [/home/abi/fetcher/tmp/casex-1.2.3.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - main [MainThread]: End processing [casex]: success
+[2023-07-24 10:57:24] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-07-24 10:57:24] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-07-24 10:57:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-24 10:57:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-24 10:57:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-24 10:57:56] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.1.tar.gz]
+[2023-07-24 10:57:56] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.2.tar.gz]
+[2023-07-24 10:57:56] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
+[2023-07-24 10:57:56] INFO root fetch - main [MainThread]: Store serial: [19010273]
