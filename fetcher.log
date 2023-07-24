@@ -8632,3 +8632,82 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [ops-channel]: success
 [2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [shioaji-position-management]: success
 [2023-07-24 07:58:20] INFO root fetch - main [MainThread]: Store serial: [19008605]
+[2023-07-24 08:03:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008605]
+[2023-07-24 08:03:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops-channel
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shioaji-position-management
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sum-arun-test
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anarchy-bot
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biggo-pms-api-python
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wikichangewatcher
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinject-design
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lesscode-py
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: control-lab-ly
+[2023-07-24 08:03:29] INFO root fetch - processPackages [biggo-pms-api-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 08:03:29] WARNING root fetch - processPackages [sum-arun-test]: Skipping, unable to determine old version
+[2023-07-24 08:03:29] INFO root fetch - main [MainThread]: End processing [sum-arun-test] error
+[2023-07-24 08:03:29] INFO root fetch - processPackages [shioaji-position-management]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-24 08:03:29] WARNING root fetch - processPackages [wikichangewatcher]: Skipping, unable to determine old version
+[2023-07-24 08:03:29] INFO root fetch - main [MainThread]: End processing [wikichangewatcher] error
+[2023-07-24 08:03:29] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.9] Old Version: [23.0.8]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ops-channel]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [control-lab-ly]: New version: [1.1.3a1] Old Version: [1.1.2]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 08:03:29] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/e0/4c/c3906c30dcc9bb4bdee2563ec5b534228e704d62e5543427d0316f72b298/shioaji_position_management-1.0.2.tar.gz
+[2023-07-24 08:03:29] INFO root fetch - processPackages [biggo-pms-api-python]: Downloading https://files.pythonhosted.org/packages/96/c9/ca43d389076b3301a6216386d03f0d06c88edf1c9e41fdf971bb44cd3ef6/biggo_pms_api_python-1.0.1.tar.gz
+[2023-07-24 08:03:29] INFO root fetch - processPackages [ops-channel]: Downloading https://files.pythonhosted.org/packages/2f/51/055205a8f14faca60f382d7c14061757c9f7ba49c4b6e9b03c7ead9ec133/ops_channel-0.5.7.tar.gz
+[2023-07-24 08:03:29] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/00/08/c1d70eee73270b6678301db4b5e59977aa00d8246a0ff8bf6a2defa25035/anarchy_bot-23.0.8.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/dd/b1/3adf2c16916d44292e01f7ec784d5e25c66667b254b8a0368fa8ab2f697d/control-lab-ly-1.1.2.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [biggo-pms-api-python]: Downloading https://files.pythonhosted.org/packages/cc/96/82758f60f590ee88a814d9061c2c80aa19ec5b03f6e162c5e02a9e31258a/biggo_pms_api_python-1.0.2.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [control-lab-ly]: Downloading https://files.pythonhosted.org/packages/18/ae/90f6766b65f4635b239f8618e70fab42de206b097ac7712767bde418fa11/control-lab-ly-1.1.3a1.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/29/04/0ec39417aed3e036fc317d232c179104ccdf3150ab4a22179c07f60c2959/shioaji_position_management-1.0.3.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [ops-channel]: Downloading https://files.pythonhosted.org/packages/ea/7f/96a54ce39cd80afd505e2b387cb47135e5bfdb3f7f947cd8d0b1186158c1/ops_channel-0.5.8.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [biggo-pms-api-python]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [biggo-pms-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biggo_pms_api_python-1.0.1.tar.gz tmp/biggo_pms_api_python-1.0.2.tar.gz --markdown 20230724/b/biggo-pms-api-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/d2/39/09ca4fdfdd115d21cb2824c0f57dc827210f551672a0b655583e03c9681f/anarchy_bot-23.0.9.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-07-24 08:03:30] INFO root fetch - processPackages [shioaji-position-management]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [shioaji-position-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji_position_management-1.0.2.tar.gz tmp/shioaji_position_management-1.0.3.tar.gz --markdown 20230724/s/shioaji-position-management/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [ops-channel]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [ops-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_channel-0.5.7.tar.gz tmp/ops_channel-0.5.8.tar.gz --markdown 20230724/o/ops-channel/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.8.tar.gz tmp/anarchy_bot-23.0.9.tar.gz --markdown 20230724/a/anarchy-bot/23.0.8-23.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230724/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230724/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-07-24 08:03:30] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.1.2.tar.gz tmp/control-lab-ly-1.1.3a1.tar.gz --markdown 20230724/c/control-lab-ly/1.1.2-1.1.3a1/diff.md --exclude *.pyd
+[2023-07-24 08:03:30] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-24 08:03:31] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-24 08:03:31] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230724/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 08:03:31] INFO root fetch - processPackages [biggo-pms-api-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo_pms_api_python-1.0.1.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - processPackages [biggo-pms-api-python]: Remove: archive file [/home/abi/fetcher/tmp/biggo_pms_api_python-1.0.2.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - main [MainThread]: End processing [biggo-pms-api-python]: success
+[2023-07-24 08:03:31] INFO root fetch - processPackages [shioaji-position-management]: Remove: archive file [/home/abi/fetcher/tmp/shioaji_position_management-1.0.2.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - processPackages [shioaji-position-management]: Remove: archive file [/home/abi/fetcher/tmp/shioaji_position_management-1.0.3.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - main [MainThread]: End processing [shioaji-position-management]: success
+[2023-07-24 08:03:31] INFO root fetch - processPackages [ops-channel]: Remove: archive file [/home/abi/fetcher/tmp/ops_channel-0.5.7.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - processPackages [ops-channel]: Remove: archive file [/home/abi/fetcher/tmp/ops_channel-0.5.8.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - main [MainThread]: End processing [ops-channel]: success
+[2023-07-24 08:03:31] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.8.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.9.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-24 08:03:31] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-07-24 08:03:31] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-24 08:03:32] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-24 08:03:32] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.2.tar.gz]
+[2023-07-24 08:03:32] INFO root fetch - processPackages [control-lab-ly]: Remove: archive file [/home/abi/fetcher/tmp/control-lab-ly-1.1.3a1.tar.gz]
+[2023-07-24 08:03:32] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-07-24 08:03:32] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-24 08:03:32] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-24 08:03:32] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-24 08:03:32] INFO root fetch - main [MainThread]: Store serial: [19008638]
