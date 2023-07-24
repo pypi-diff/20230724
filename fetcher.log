@@ -9857,3 +9857,154 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:01:40] INFO root fetch - processPackages [struphy]: Remove: archive file [/home/abi/fetcher/tmp/struphy-2.0.2.tar.gz]
 [2023-07-24 09:01:40] INFO root fetch - main [MainThread]: End processing [struphy]: success
 [2023-07-24 09:01:40] INFO root fetch - main [MainThread]: Store serial: [19009121]
+[2023-07-24 09:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009121]
+[2023-07-24 09:06:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: distcrab
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docarray
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microcat
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typedspark
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sdk-openapi
+[2023-07-24 09:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libtimed
+[2023-07-24 09:06:49] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [sdk-openapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [libtimed]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [microcat]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [typedspark]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-24 09:06:49] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/c3/a4/3d253dd268ac7376c27e04f2f76b2dd9472c957d1f6bd5807bf2331d26c1/sdk-openapi-0.0.2.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/cb/c5/82440186519fe8e2ac9788216f526e91258c625d4eb97b4ec3d3f72c0233/libtimed-0.4.0.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/c8/7a/5b7af5fea6a6c69d54446f8601e38d6e127d5160464f50fc2fb9f6783a82/typedspark-1.0.8.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/35/8a/89123e4fdc8874dbb7833b15bdcec03cf6f7855e6060376646ca97e62311/microcat-0.2.3.tar.gz
+[2023-07-24 09:06:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [sdk-openapi]: Downloading https://files.pythonhosted.org/packages/21/bb/0374382e38b3550c525689cfce1b054362546f3871b0e980c42024d17871/sdk-openapi-0.0.3.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230724/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [libtimed]: Downloading https://files.pythonhosted.org/packages/69/6e/1599654d0b4c3d649ea35ca59ea435969e9eec378aa52a2f9a646230de0e/libtimed-0.4.1.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/f9/d8/51db73310caf1dd33e354a0bd438352fd44612a51dac6e8440593bc7ab02/typedspark-1.0.9.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/39/a9/3dfdb9defe54c21edc7ba6ffd226dcc29fa9ff2373f68337427d6923b213/microcat-0.2.4.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [sdk-openapi]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [sdk-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk-openapi-0.0.2.tar.gz tmp/sdk-openapi-0.0.3.tar.gz --markdown 20230724/s/sdk-openapi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230724/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [libtimed]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [libtimed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtimed-0.4.0.tar.gz tmp/libtimed-0.4.1.tar.gz --markdown 20230724/l/libtimed/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-07-24 09:06:50] WARNING root fetch - processPackages [microcat]: Skipping package: exceeds size limit 26980855>=10485760
+[2023-07-24 09:06:50] INFO root fetch - processPackages [microcat]: Start processing: HawaData
+[2023-07-24 09:06:50] INFO root fetch - main [MainThread]: End processing [microcat] error
+[2023-07-24 09:06:50] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.8.tar.gz tmp/typedspark-1.0.9.tar.gz --markdown 20230724/t/typedspark/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [HawaData]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-24 09:06:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230724/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/ec/43/f35178544f5959f0a1c693082bd5c11af03b7e641b76575a4cd4986806ac/HawaData-0.8.3.tar.gz
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230724/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230724/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-07-24 09:06:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-24 09:06:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230724/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 09:06:51] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/bf/bd/e03c9397841092ead8b1f1514efef027e6191e847556d317165de84bda2d/HawaData-0.8.4.tar.gz
+[2023-07-24 09:06:51] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-24 09:06:51] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.8.3.tar.gz tmp/HawaData-0.8.4.tar.gz --markdown 20230724/H/HawaData/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-24 09:06:52] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-24 09:06:52] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-24 09:06:52] INFO root fetch - processPackages [distcrab]: Start processing: skoufas-dbf-reader
+[2023-07-24 09:06:52] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-24 09:06:52] INFO root fetch - processPackages [skoufas-dbf-reader]: New version: [0.0.4rc172.post1] Old Version: [0.0.4rc170.post1]
+[2023-07-24 09:06:52] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk-openapi-0.0.2.tar.gz]
+[2023-07-24 09:06:52] INFO root fetch - processPackages [sdk-openapi]: Remove: archive file [/home/abi/fetcher/tmp/sdk-openapi-0.0.3.tar.gz]
+[2023-07-24 09:06:52] INFO root fetch - processPackages [sdk-openapi]: Start processing: kistipy
+[2023-07-24 09:06:52] INFO root fetch - main [MainThread]: End processing [sdk-openapi]: success
+[2023-07-24 09:06:52] INFO root fetch - processPackages [kistipy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/5a/ea/57b776cff5d6e2aa9e693187e708e65a3dfb3e347b3e6c731ccb8303b136/skoufas_dbf_reader-0.0.4rc170.post1.tar.gz
+[2023-07-24 09:06:53] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/2c/25/b75b12c59221ce7cc10ab9692e68cc07bcbe624f39a3a3118cd44bdb9ae9/kistipy-0.0.1.tar.gz
+[2023-07-24 09:06:53] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.4.0.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [libtimed]: Remove: archive file [/home/abi/fetcher/tmp/libtimed-0.4.1.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [libtimed]: Start processing: ansible-later
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [libtimed]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [ansible-later]: New version: [3.3.7] Old Version: [3.3.5]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.8.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.9.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [typedspark]: Start processing: deepdog
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/dc/e2/ef11e1160a7b26711e1e610f8687be9815187c0ee0a49807fbe16cf564ce/kistipy-0.0.2.tar.gz
+[2023-07-24 09:06:53] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [seqio-nightly]: Start processing: tf-hub-nightly
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/b7/c4/6d4aead5ac3115f09ac0d6349a79c84be91b9e7ed7c74677e098fbd509e0/ansible_later-3.3.5.tar.gz
+[2023-07-24 09:06:53] INFO root fetch - processPackages [deepdog]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [kistipy]: executing diffoscope
+[2023-07-24 09:06:53] INFO root fetch - processPackages [kistipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kistipy-0.0.1.tar.gz tmp/kistipy-0.0.2.tar.gz --markdown 20230724/k/kistipy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:06:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: xinference
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-24 09:06:53] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.3.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.4.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [xinference]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/6d/97/5295e4f328ce56ef759d133697a43204a71d42dd9eb2666ba064c61449bc/deepdog-0.7.0.tar.gz
+[2023-07-24 09:06:53] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-24 09:06:53] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-24 09:06:53] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/68/0c/78307e97e5c8e710a99674c2ea9c987791ad80f292f81d4cdba8e60ec8e3/ansible_later-3.3.7.tar.gz
+[2023-07-24 09:06:54] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-24 09:06:54] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/ad/8a/455c8ed666292fc5c78904fa3893475da1cde59be66a01eb324300a0de5f/xinference-0.0.5.tar.gz
+[2023-07-24 09:06:54] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-07-24 09:06:54] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-07-24 09:06:54] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-24 09:06:54] INFO root fetch - processPackages [skoufas-dbf-reader]: Downloading https://files.pythonhosted.org/packages/85/43/3e1743b1e819ed241f634093adc65929afb88f06dd5e217d722b9b0cf279/skoufas_dbf_reader-0.0.4rc172.post1.tar.gz
+[2023-07-24 09:06:54] INFO root fetch - processPackages [ansible-later]: executing diffoscope
+[2023-07-24 09:06:54] INFO root fetch - processPackages [ansible-later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_later-3.3.5.tar.gz tmp/ansible_later-3.3.7.tar.gz --markdown 20230724/a/ansible-later/3.3.5-3.3.7/diff.md --exclude *.pyd
+[2023-07-24 09:06:54] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-07-24 09:06:54] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/95/84/5565aa2c1e35fa935fac6932f145235391804f7baf277ff1ceec041b27f7/deepdog-0.7.1.tar.gz
+[2023-07-24 09:06:54] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-24 09:06:54] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230724/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-24 09:06:54] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/ab/8b/e5a45b72ef1f4a8a2e73be26cc26cadc1f70839c09213f0d9e7611cce352/xinference-0.0.6.tar.gz
+[2023-07-24 09:06:54] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2023-07-24 09:06:54] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-0.7.0.tar.gz tmp/deepdog-0.7.1.tar.gz --markdown 20230724/d/deepdog/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-24 09:06:54] INFO root fetch - processPackages [skoufas-dbf-reader]: executing diffoscope
+[2023-07-24 09:06:54] INFO root fetch - processPackages [skoufas-dbf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skoufas_dbf_reader-0.0.4rc170.post1.tar.gz tmp/skoufas_dbf_reader-0.0.4rc172.post1.tar.gz --markdown 20230724/s/skoufas-dbf-reader/0.0.4rc170.post1-0.0.4rc172.post1/diff.md --exclude *.pyd
+[2023-07-24 09:06:54] INFO root fetch - processPackages [xinference]: executing diffoscope
+[2023-07-24 09:06:54] INFO root fetch - processPackages [xinference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-0.0.5.tar.gz tmp/xinference-0.0.6.tar.gz --markdown 20230724/x/xinference/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 09:06:55] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.1.tar.gz]
+[2023-07-24 09:06:55] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.2.tar.gz]
+[2023-07-24 09:06:55] INFO root fetch - main [MainThread]: End processing [kistipy]: success
+[2023-07-24 09:06:56] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-0.7.0.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-0.7.1.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2023-07-24 09:06:56] INFO root fetch - processPackages [ansible-later]: Remove: archive file [/home/abi/fetcher/tmp/ansible_later-3.3.5.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - processPackages [ansible-later]: Remove: archive file [/home/abi/fetcher/tmp/ansible_later-3.3.7.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
+[2023-07-24 09:06:56] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-24 09:06:56] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-24 09:06:56] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-24 09:06:56] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.5.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.6.tar.gz]
+[2023-07-24 09:06:56] INFO root fetch - main [MainThread]: End processing [xinference]: success
+[2023-07-24 09:07:02] INFO root fetch - processPackages [skoufas-dbf-reader]: Remove: archive file [/home/abi/fetcher/tmp/skoufas_dbf_reader-0.0.4rc170.post1.tar.gz]
+[2023-07-24 09:07:02] INFO root fetch - processPackages [skoufas-dbf-reader]: Remove: archive file [/home/abi/fetcher/tmp/skoufas_dbf_reader-0.0.4rc172.post1.tar.gz]
+[2023-07-24 09:07:02] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
+[2023-07-24 09:07:02] INFO root fetch - main [MainThread]: Store serial: [19009171]
