@@ -14920,3 +14920,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:31:58] INFO root fetch - processPackages [lib4sbom]: Remove: archive file [/home/abi/fetcher/tmp/lib4sbom-0.4.0-py2.py3-none-any.whl.zip]
 [2023-07-24 12:31:58] INFO root fetch - main [MainThread]: End processing [lib4sbom]: success
 [2023-07-24 12:31:58] INFO root fetch - main [MainThread]: Store serial: [19011175]
+[2023-07-24 12:37:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011175]
+[2023-07-24 12:37:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynareadout
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastlane-bot
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQt6-3D-Qt6
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedex-sdk
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQt6-Charts-Qt6
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zero-python-sdk
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQt6-DataVisualization-Qt6
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-cognitiveservices
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ai21
+[2023-07-24 12:37:07] INFO root fetch - processPackages [dynareadout]: New version: [23.7] Old Version: [23.6]
+[2023-07-24 12:37:07] WARNING root fetch - processPackages [zero-python-sdk]: Skipping, unable to determine old version
+[2023-07-24 12:37:07] INFO root fetch - processPackages [zero-python-sdk]: Start processing: PyQt6-NetworkAuth-Qt6
+[2023-07-24 12:37:07] INFO root fetch - main [MainThread]: End processing [zero-python-sdk] error
+[2023-07-24 12:37:07] INFO root fetch - processPackages [PyQt6-3D-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: New version: [7.0.0] Old Version: [6.3.0]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.80.1]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.85] Old Version: [0.3.84rc0]
+[2023-07-24 12:37:07] INFO root fetch - processPackages [ai21]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9f/a8/6418597d9c665665e98e3bf56e57e34501b16a1b96bc37065712a3a15610/fastlane_bot-0.80.1.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ff/24/c95b83abb6c43c74407108ae2f259e9ad64e5c66d6e53eb75f93e0aaf77c/fedex-sdk-1.0.6.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8b/70/6058635f54a5d243074e46914f6be25d78e758a14e2710ac84d038b177ce/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [dynareadout]: Downloading https://files.pythonhosted.org/packages/d5/8a/f639f207829062e5ac240a6111f1febf7e4dd4ab075340394b4ea787e328/dynareadout-23.6.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Downloading https://files.pythonhosted.org/packages/89/96/c20cb0501a205140cf8651ac377e7ec1f347836fbc6559fe8ce58cbe01c4/PyQt6_3D_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Downloading https://files.pythonhosted.org/packages/63/40/968635efda6446652b26d02f294fbf23e226294683bd94b450a0d3431589/PyQt6_Charts_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Downloading https://files.pythonhosted.org/packages/2d/d7/059cc5f832994ba01a9b25de17c404ffed2df636020764850330ff451b2c/PyQt6_DataVisualization_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: Downloading https://files.pythonhosted.org/packages/a2/b2/209015559d399f3a9b67ee2faaf7b19676e2f15107a1b20f99a5a3d1a82c/azure-mgmt-cognitiveservices-6.3.0.zip
+[2023-07-24 12:37:08] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/10/a7/0047731c4312df830dc34500c09f874612265ce9eba402ec1242ea1baae1/ai21-1.2.1.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Downloading https://files.pythonhosted.org/packages/8b/5d/dad37a07a1cb64ae8a471ce1269e4e377d7a83a744121064fa9bb63b7a48/PyQt6_NetworkAuth_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9d/66/79e822b1bdec857d9f5f826f119690d1215b832e32058c86e65fab6651c5/fastlane_bot-0.9.1.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ef/37/2643a0bd673bd52e328486906869736a9cb434dcf61df2be81c143b4fe9d/fedex-sdk-1.0.7.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/fd/a4/7b267b44e9577c2479cc7c30f28a2ce0b57388d7082ac1b754c8849a5d06/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/4e/94/7fd1c45ebfcef0974e03dee68d3bb5b2451cd4487d4ae035c2cc277319b7/ai21-1.2.2.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [dynareadout]: Downloading https://files.pythonhosted.org/packages/7e/1c/b336b5bbf0e45e02b577fa37551a251a91114101081c39791c5ff2eef117/dynareadout-23.7.tar.gz
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.80.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230724/f/fastlane-bot/0.80.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Downloading https://files.pythonhosted.org/packages/fa/c1/3a1e9f3d60be2c86cbf699da0e36e7f00f081e6c03dfc5e36b071cdd0066/PyQt6_DataVisualization_Qt6-6.5.2-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Downloading https://files.pythonhosted.org/packages/fc/0a/0126b9beb4d20c52c8cbe3e2498a7d129b4c3d4969c58c78664ef34632f6/PyQt6_Charts_Qt6-6.5.2-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: Downloading https://files.pythonhosted.org/packages/0f/45/eb52c83417a7062b6eb9b3cc27370e7c6e4fd096f1d77dee7fd1941809b2/azure-mgmt-cognitiveservices-7.0.0.zip
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 12:37:08] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.6.tar.gz tmp/fedex-sdk-1.0.7.tar.gz --markdown 20230724/f/fedex-sdk/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-24 12:37:08] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Downloading https://files.pythonhosted.org/packages/6d/49/dae2f6ab6c58c700123cd79d5c2bc9aae58fd34d8efe9f6773156c2367bd/PyQt6_NetworkAuth_Qt6-6.5.2-py3-none-win_amd64.whl
+[2023-07-24 12:37:08] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-07-24 12:37:08] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.2.1.tar.gz tmp/ai21-1.2.2.tar.gz --markdown 20230724/a/ai21/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Downloading https://files.pythonhosted.org/packages/63/05/04eeabc5a2e8abca61a0359f5b625f8aee0b54e46fe038d06f5f6a907ef8/PyQt6_3D_Qt6-6.5.2-py3-none-win_amd64.whl
+[2023-07-24 12:37:09] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl.zip --markdown 20230724/P/Print-Tricks-And-More-Alpha/0.3.84rc0-0.3.85/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [dynareadout]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-cognitiveservices-6.3.0.zip tmp/azure-mgmt-cognitiveservices-7.0.0.zip --markdown 20230724/a/azure-mgmt-cognitiveservices/6.3.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [dynareadout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynareadout-23.6.tar.gz tmp/dynareadout-23.7.tar.gz --markdown 20230724/d/dynareadout/23.6-23.7/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_DataVisualization_Qt6-6.5.1-py3-none-win_amd64.whl.zip tmp/PyQt6_DataVisualization_Qt6-6.5.2-py3-none-win_amd64.whl.zip --markdown 20230724/P/PyQt6-DataVisualization-Qt6/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_Charts_Qt6-6.5.1-py3-none-win_amd64.whl.zip tmp/PyQt6_Charts_Qt6-6.5.2-py3-none-win_amd64.whl.zip --markdown 20230724/P/PyQt6-Charts-Qt6/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_NetworkAuth_Qt6-6.5.1-py3-none-win_amd64.whl.zip tmp/PyQt6_NetworkAuth_Qt6-6.5.2-py3-none-win_amd64.whl.zip --markdown 20230724/P/PyQt6-NetworkAuth-Qt6/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-3D-Qt6]: executing diffoscope
+[2023-07-24 12:37:09] INFO root fetch - processPackages [PyQt6-3D-Qt6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_3D_Qt6-6.5.1-py3-none-win_amd64.whl.zip tmp/PyQt6_3D_Qt6-6.5.2-py3-none-win_amd64.whl.zip --markdown 20230724/P/PyQt6-3D-Qt6/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2023-07-24 12:37:10] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.6.tar.gz]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.7.tar.gz]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [fedex-sdk]: Start processing: sparglim
+[2023-07-24 12:37:10] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 12:37:10] INFO root fetch - processPackages [sparglim]: New version: [0.1.0rc0] Old Version: [0.0.1a0]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl.zip]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.85-py3-none-any.whl.zip]
+[2023-07-24 12:37:10] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-24 12:37:10] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.1.tar.gz]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.2.tar.gz]
+[2023-07-24 12:37:10] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-07-24 12:37:10] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/c8/2a/13607839b112655c63d9b0f80a21d1736a9d7a8d0abec30bdf5b3317e8cd/sparglim-0.0.1a0.tar.gz
+[2023-07-24 12:37:10] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-cognitiveservices-6.3.0.zip]
+[2023-07-24 12:37:10] INFO root fetch - processPackages [azure-mgmt-cognitiveservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-cognitiveservices-7.0.0.zip]
+[2023-07-24 12:37:10] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cognitiveservices]: success
+[2023-07-24 12:37:11] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.80.1.tar.gz]
+[2023-07-24 12:37:11] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
+[2023-07-24 12:37:11] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-24 12:37:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth_Qt6-6.5.1-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:11] INFO root fetch - processPackages [PyQt6-NetworkAuth-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_NetworkAuth_Qt6-6.5.2-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:11] INFO root fetch - main [MainThread]: End processing [PyQt6-NetworkAuth-Qt6]: success
+[2023-07-24 12:37:11] INFO root fetch - processPackages [sparglim]: Downloading https://files.pythonhosted.org/packages/62/34/6d9516f3406f9c188375605886f60cfa1359072e5bbb9d2b25d481261ab6/sparglim-0.1.0rc0.tar.gz
+[2023-07-24 12:37:11] INFO root fetch - processPackages [sparglim]: executing diffoscope
+[2023-07-24 12:37:11] INFO root fetch - processPackages [sparglim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparglim-0.0.1a0.tar.gz tmp/sparglim-0.1.0rc0.tar.gz --markdown 20230724/s/sparglim/0.0.1a0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-07-24 12:37:11] INFO root fetch - processPackages [dynareadout]: Remove: archive file [/home/abi/fetcher/tmp/dynareadout-23.6.tar.gz]
+[2023-07-24 12:37:11] INFO root fetch - processPackages [dynareadout]: Remove: archive file [/home/abi/fetcher/tmp/dynareadout-23.7.tar.gz]
+[2023-07-24 12:37:11] INFO root fetch - main [MainThread]: End processing [dynareadout]: success
+[2023-07-24 12:37:12] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.0.1a0.tar.gz]
+[2023-07-24 12:37:12] INFO root fetch - processPackages [sparglim]: Remove: archive file [/home/abi/fetcher/tmp/sparglim-0.1.0rc0.tar.gz]
+[2023-07-24 12:37:12] INFO root fetch - main [MainThread]: End processing [sparglim]: success
+[2023-07-24 12:37:13] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization_Qt6-6.5.1-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:13] INFO root fetch - processPackages [PyQt6-DataVisualization-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_DataVisualization_Qt6-6.5.2-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:13] INFO root fetch - main [MainThread]: End processing [PyQt6-DataVisualization-Qt6]: success
+[2023-07-24 12:37:15] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts_Qt6-6.5.1-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:15] INFO root fetch - processPackages [PyQt6-Charts-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_Charts_Qt6-6.5.2-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:15] INFO root fetch - main [MainThread]: End processing [PyQt6-Charts-Qt6]: success
+[2023-07-24 12:37:25] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.5.1-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:25] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.5.2-py3-none-win_amd64.whl.zip]
+[2023-07-24 12:37:25] INFO root fetch - main [MainThread]: End processing [PyQt6-3D-Qt6]: success
+[2023-07-24 12:37:25] INFO root fetch - main [MainThread]: Store serial: [19011229]
