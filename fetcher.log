@@ -10872,3 +10872,83 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:44:37] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.tar.gz]
 [2023-07-24 09:44:37] INFO root fetch - main [MainThread]: End processing [NetKet]: success
 [2023-07-24 09:44:37] INFO root fetch - main [MainThread]: Store serial: [19009586]
+[2023-07-24 09:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009586]
+[2023-07-24 09:49:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easypcd
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terraform-local
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlpylint
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yente
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-sc3D-viewer
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sc-3D
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eoshep
+[2023-07-24 09:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loghelper
+[2023-07-24 09:49:45] INFO root fetch - processPackages [terraform-local]: New version: [0.9] Old Version: [0.8]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [napari-sc3D-viewer]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [yente]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1327] Old Version: [1.0.9.dev1312]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [loghelper]: New version: [1.0.9] Old Version: [1.0.6]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [sc-3D]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [mlpylint]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [easypcd]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-07-24 09:49:45] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/ac/23/c2fee5dcef92134f9b892d0b74537b2be6c98225a59a2d3fe804d21ac91a/easypcd-0.0.26-py3-none-any.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [terraform-local]: Downloading https://files.pythonhosted.org/packages/fa/bc/63a01fb109c29d5fab39a0db4dfd5622d97a2e11a07fd2da327617361df2/terraform-local-0.8.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [napari-sc3D-viewer]: Downloading https://files.pythonhosted.org/packages/c8/44/33867658d45122d96a4ff7d654b0a373139c561f86878709db3678479414/napari-sc3D-viewer-1.0.0.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/4c/1a/4e228b541c80486e88474d36c729e9270ebb29aa10f085b96cdc31afb025/yente-3.5.0.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [mlpylint]: Downloading https://files.pythonhosted.org/packages/fe/21/091c26a27cfa123c44a1d9b1ee7db0d5d00a33b32ba99936620afaaf5c14/mlpylint-0.0.1.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [sc-3D]: Downloading https://files.pythonhosted.org/packages/9a/57/65db0384e8ac48863badba3110342acc5163c4d8563ff2eb7a4abbf695f6/sc-3D-1.0.2.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [loghelper]: Downloading https://files.pythonhosted.org/packages/1d/e2/4298ac153b9e7c83656ea13ffec600b0eb22f25bd2b7f5d9546924d5d245/loghelper-1.0.6-py3-none-any.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/b4/5a/5b8ea869ffde8fa35ade37e7ac73542bc5bf78a76315b1ffe79fcd6dd815/eoshep-1.0.9.dev1312-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/51/ac/f0e84aab811ce6aa52ef8a843a5bcbe66ed1a5f0e4920b5e25d482f53f92/easypcd-0.0.27-py3-none-any.whl
+[2023-07-24 09:49:46] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78066563>=10485760
+[2023-07-24 09:49:46] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-07-24 09:49:46] INFO root fetch - processPackages [terraform-local]: Downloading https://files.pythonhosted.org/packages/95/2e/032c5a409c7d6afc39cb0e5df21323cdd13eb339a5f17fb36f256d7527e4/terraform-local-0.9.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.26-py3-none-any.whl.zip tmp/easypcd-0.0.27-py3-none-any.whl.zip --markdown 20230724/e/easypcd/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/44/23/19b2b2d462126ee1659c582ec4f2c8573586330b9adf934fb5c1c6d01046/yente-3.6.0.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [loghelper]: Downloading https://files.pythonhosted.org/packages/35/3e/bacda6a8601ee9a2bbb8e17d080aabffe04d655dcac1724dd39ce94d009b/loghelper-1.0.9-py3-none-any.whl
+[2023-07-24 09:49:46] INFO root fetch - processPackages [mlpylint]: Downloading https://files.pythonhosted.org/packages/cf/75/3e510d37d53faaa15965824272d7461aa27ec66705cc688809e53db8afca/mlpylint-0.0.2.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [sc-3D]: Downloading https://files.pythonhosted.org/packages/83/f9/756fc854f03a1c19ee4ec1dcc0f855c5e1c54e8e3841c3bf91019feb79c9/sc-3D-1.1.0.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [napari-sc3D-viewer]: Downloading https://files.pythonhosted.org/packages/01/b9/7819bf08161c75b902da49dc6299338d785d7a5be0d9fb8dd67d7b0b39fe/napari-sc3D-viewer-1.1.0.tar.gz
+[2023-07-24 09:49:46] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230724/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [yente]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [yente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yente-3.5.0.tar.gz tmp/yente-3.6.0.tar.gz --markdown 20230724/y/yente/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [terraform-local]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [terraform-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-local-0.8.tar.gz tmp/terraform-local-0.9.tar.gz --markdown 20230724/t/terraform-local/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [mlpylint]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [mlpylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpylint-0.0.1.tar.gz tmp/mlpylint-0.0.2.tar.gz --markdown 20230724/m/mlpylint/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [sc-3D]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [sc-3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc-3D-1.0.2.tar.gz tmp/sc-3D-1.1.0.tar.gz --markdown 20230724/s/sc-3D/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [loghelper]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [loghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loghelper-1.0.6-py3-none-any.whl.zip tmp/loghelper-1.0.9-py3-none-any.whl.zip --markdown 20230724/l/loghelper/1.0.6-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:49:46] INFO root fetch - processPackages [napari-sc3D-viewer]: executing diffoscope
+[2023-07-24 09:49:46] INFO root fetch - processPackages [napari-sc3D-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sc3D-viewer-1.0.0.tar.gz tmp/napari-sc3D-viewer-1.1.0.tar.gz --markdown 20230724/n/napari-sc3D-viewer/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:49:48] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.26-py3-none-any.whl.zip]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.27-py3-none-any.whl.zip]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-24 09:49:48] INFO root fetch - processPackages [loghelper]: Remove: archive file [/home/abi/fetcher/tmp/loghelper-1.0.6-py3-none-any.whl.zip]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [loghelper]: Remove: archive file [/home/abi/fetcher/tmp/loghelper-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [loghelper]: success
+[2023-07-24 09:49:48] INFO root fetch - processPackages [sc-3D]: Remove: archive file [/home/abi/fetcher/tmp/sc-3D-1.0.2.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [sc-3D]: Remove: archive file [/home/abi/fetcher/tmp/sc-3D-1.1.0.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [sc-3D]: success
+[2023-07-24 09:49:48] INFO root fetch - processPackages [terraform-local]: Remove: archive file [/home/abi/fetcher/tmp/terraform-local-0.8.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [terraform-local]: Remove: archive file [/home/abi/fetcher/tmp/terraform-local-0.9.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [terraform-local]: success
+[2023-07-24 09:49:48] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.5.0.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.6.0.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [yente]: success
+[2023-07-24 09:49:48] INFO root fetch - processPackages [napari-sc3D-viewer]: Remove: archive file [/home/abi/fetcher/tmp/napari-sc3D-viewer-1.0.0.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - processPackages [napari-sc3D-viewer]: Remove: archive file [/home/abi/fetcher/tmp/napari-sc3D-viewer-1.1.0.tar.gz]
+[2023-07-24 09:49:48] INFO root fetch - main [MainThread]: End processing [napari-sc3D-viewer]: success
+[2023-07-24 09:49:49] INFO root fetch - processPackages [mlpylint]: Remove: archive file [/home/abi/fetcher/tmp/mlpylint-0.0.1.tar.gz]
+[2023-07-24 09:49:49] INFO root fetch - processPackages [mlpylint]: Remove: archive file [/home/abi/fetcher/tmp/mlpylint-0.0.2.tar.gz]
+[2023-07-24 09:49:49] INFO root fetch - main [MainThread]: End processing [mlpylint]: success
+[2023-07-24 09:49:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-24 09:49:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-24 09:49:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-24 09:49:51] INFO root fetch - main [MainThread]: Store serial: [19009611]
