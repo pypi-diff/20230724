@@ -22867,3 +22867,108 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:50:33] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.9.0.tar.gz]
 [2023-07-24 16:50:33] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
 [2023-07-24 16:50:33] INFO root fetch - main [MainThread]: Store serial: [19014368]
+[2023-07-24 16:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014368]
+[2023-07-24 16:55:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: struvolpy
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yanimage
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strongmind-deployment
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fermpy
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: triplify-csv
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsws
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netron
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perun
+[2023-07-24 16:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kazanexpress-airflow-commons
+[2023-07-24 16:55:43] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 16:55:43] WARNING root fetch - processPackages [yanimage]: Skipping, unable to determine old version
+[2023-07-24 16:55:43] INFO root fetch - processPackages [fermpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [yanimage]: Start processing: canopy
+[2023-07-24 16:55:43] INFO root fetch - main [MainThread]: End processing [yanimage] error
+[2023-07-24 16:55:43] INFO root fetch - processPackages [struvolpy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [kazanexpress-airflow-commons]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [netron]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [perun]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [triplify-csv]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [struvolpy]: Downloading https://files.pythonhosted.org/packages/0f/ef/3d2676d7334971e218b3bd97e9e04d9aa1c4d1a7a2a868d54d2c9edff422/struvolpy-1.0.3.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/44/37/1fa9e511059e9286981228d061a848835373aa0d2564f1817d7e1cb50c09/strongmind_deployment-1.0.8-py3-none-any.whl
+[2023-07-24 16:55:43] INFO root fetch - processPackages [kazanexpress-airflow-commons]: Downloading https://files.pythonhosted.org/packages/df/43/23f9175d3efda4bab302bbca7b69e1438c2e094659436009318d9f0ea67d/kazanexpress_airflow_commons-0.1.2.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [canopy]: New version: [8.9] Old Version: [8.8]
+[2023-07-24 16:55:43] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [fermpy]: Downloading https://files.pythonhosted.org/packages/0b/a9/6f9a6c7879b0e287e8ca5313093332eb975d58300722c5068912004ac7d6/fermpy-0.0.1.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [triplify-csv]: Downloading https://files.pythonhosted.org/packages/aa/49/0098112d53fac5752d69060466e402a796993708dc8ec89e96dcafb2cdb2/triplify_csv-0.5.0.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/f9/f9/9cd8e1b20152389f410a7f078affc0a6015569b0c6ff075de30d4907af56/netron-7.0.7-py3-none-any.whl
+[2023-07-24 16:55:43] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/15/87/fb933b98b4d0a9a5959d4b9c379cf4f1aea74deb2ba4fd1406bb3555331f/perun-0.3.2.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [canopy]: Downloading https://files.pythonhosted.org/packages/88/fa/150f11042d557f49729defc521ca71482bf5c5ff50f7fde71d4059852de3/canopy-8.8.tar.gz
+[2023-07-24 16:55:43] INFO root fetch - processPackages [struvolpy]: Downloading https://files.pythonhosted.org/packages/5e/6c/df28658d959c89814bc66fb1275c57e18dbd250c07cc6c3f26ed9c06c387/struvolpy-1.0.4.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [kazanexpress-airflow-commons]: Downloading https://files.pythonhosted.org/packages/48/68/9122aaa62281eebeb6fbd340c5c1523440716c930d2afd8b79689aefbb19/kazanexpress_airflow_commons-0.1.3.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [struvolpy]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [struvolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struvolpy-1.0.3.tar.gz tmp/struvolpy-1.0.4.tar.gz --markdown 20230724/s/struvolpy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/6a/1b/90068fc2357bb338535372b0a54aaf7542de3c94754f32c7d29dfd0aa361/strongmind_deployment-1.0.9-py3-none-any.whl
+[2023-07-24 16:55:44] INFO root fetch - processPackages [fermpy]: Downloading https://files.pythonhosted.org/packages/68/d7/bb44ae38ec1cf708e9f9b835b0a223379de8f94759679d6547920c2ea19c/fermpy-0.0.2.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [triplify-csv]: Downloading https://files.pythonhosted.org/packages/f3/3c/f52197e45686f6f9c3bfe8ecd487a26802a228cd8c50996daf580eef5e91/triplify_csv-0.5.1.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [kazanexpress-airflow-commons]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [kazanexpress-airflow-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazanexpress_airflow_commons-0.1.2.tar.gz tmp/kazanexpress_airflow_commons-0.1.3.tar.gz --markdown 20230724/k/kazanexpress-airflow-commons/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/e4/c8/c419964b2ff3533a27e1cd94b6ca447997ec36e3a2397860f4d35836c978/netron-7.0.8-py3-none-any.whl
+[2023-07-24 16:55:44] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/b4/2a/b6b4e3ee95e757f65f9edd3d3b440ad2d56b090c8c8dbf17bb8dd7d33529/perun-0.3.3.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip --markdown 20230724/s/strongmind-deployment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [fermpy]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [fermpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fermpy-0.0.1.tar.gz tmp/fermpy-0.0.2.tar.gz --markdown 20230724/f/fermpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [triplify-csv]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [triplify-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triplify_csv-0.5.0.tar.gz tmp/triplify_csv-0.5.1.tar.gz --markdown 20230724/t/triplify-csv/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230724/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [perun]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun-0.3.2.tar.gz tmp/perun-0.3.3.tar.gz --markdown 20230724/p/perun/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [canopy]: Downloading https://files.pythonhosted.org/packages/41/66/07c23e230bc9105ecfdaff6dbf4799bd9053bf445d46fba41c9b6a9985c4/canopy-8.9.tar.gz
+[2023-07-24 16:55:44] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.0.7-py3-none-any.whl.zip tmp/netron-7.0.8-py3-none-any.whl.zip --markdown 20230724/n/netron/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [canopy]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [canopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-8.8.tar.gz tmp/canopy-8.9.tar.gz --markdown 20230724/c/canopy/8.8-8.9/diff.md --exclude *.pyd
+[2023-07-24 16:55:44] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-07-24 16:55:44] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230724/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-24 16:55:45] INFO root fetch - processPackages [struvolpy]: Remove: archive file [/home/abi/fetcher/tmp/struvolpy-1.0.3.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [struvolpy]: Remove: archive file [/home/abi/fetcher/tmp/struvolpy-1.0.4.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [struvolpy]: Start processing: epure
+[2023-07-24 16:55:45] INFO root fetch - main [MainThread]: End processing [struvolpy]: success
+[2023-07-24 16:55:45] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [kazanexpress-airflow-commons]: Remove: archive file [/home/abi/fetcher/tmp/kazanexpress_airflow_commons-0.1.2.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [kazanexpress-airflow-commons]: Remove: archive file [/home/abi/fetcher/tmp/kazanexpress_airflow_commons-0.1.3.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - main [MainThread]: End processing [kazanexpress-airflow-commons]: success
+[2023-07-24 16:55:45] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-24 16:55:45] INFO root fetch - processPackages [triplify-csv]: Remove: archive file [/home/abi/fetcher/tmp/triplify_csv-0.5.0.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [triplify-csv]: Remove: archive file [/home/abi/fetcher/tmp/triplify_csv-0.5.1.tar.gz]
+[2023-07-24 16:55:45] INFO root fetch - main [MainThread]: End processing [triplify-csv]: success
+[2023-07-24 16:55:45] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-24 16:55:45] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip]
+[2023-07-24 16:55:45] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 16:55:45] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-07-24 16:55:46] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-24 16:55:46] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230724/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 16:55:46] INFO root fetch - processPackages [fermpy]: Remove: archive file [/home/abi/fetcher/tmp/fermpy-0.0.1.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - processPackages [fermpy]: Remove: archive file [/home/abi/fetcher/tmp/fermpy-0.0.2.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - main [MainThread]: End processing [fermpy]: success
+[2023-07-24 16:55:46] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-24 16:55:46] INFO root fetch - processPackages [perun]: Remove: archive file [/home/abi/fetcher/tmp/perun-0.3.2.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - processPackages [perun]: Remove: archive file [/home/abi/fetcher/tmp/perun-0.3.3.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - main [MainThread]: End processing [perun]: success
+[2023-07-24 16:55:46] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-07-24 16:55:46] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-07-24 16:55:47] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-24 16:55:47] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-24 16:55:47] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-24 16:55:47] INFO root fetch - processPackages [canopy]: Remove: archive file [/home/abi/fetcher/tmp/canopy-8.8.tar.gz]
+[2023-07-24 16:55:47] INFO root fetch - processPackages [canopy]: Remove: archive file [/home/abi/fetcher/tmp/canopy-8.9.tar.gz]
+[2023-07-24 16:55:47] INFO root fetch - main [MainThread]: End processing [canopy]: success
+[2023-07-24 16:58:12] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.7-py3-none-any.whl.zip]
+[2023-07-24 16:58:12] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.8-py3-none-any.whl.zip]
+[2023-07-24 16:58:12] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-07-24 16:58:12] INFO root fetch - main [MainThread]: Store serial: [19014410]
