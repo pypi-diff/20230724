@@ -18192,3 +18192,161 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:44:10] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
 [2023-07-24 14:44:10] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-07-24 14:44:10] INFO root fetch - main [MainThread]: Store serial: [19012535]
+[2023-07-24 14:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012535]
+[2023-07-24 14:49:19] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfant
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-app-rdm
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparseconverter
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlite-xeus-python
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfsd
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manticore
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BukeColabProject
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JAAEC
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddecoapiparser
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qwewxsadld
+[2023-07-24 14:49:19] WARNING root fetch - processPackages [qwewxsadld]: Skipping, unable to determine old version
+[2023-07-24 14:49:19] INFO root fetch - processPackages [qwewxsadld]: Start processing: api4jenkins
+[2023-07-24 14:49:19] INFO root fetch - main [MainThread]: End processing [qwewxsadld] error
+[2023-07-24 14:49:19] WARNING root fetch - processPackages [ddecoapiparser]: Skipping, unable to determine old version
+[2023-07-24 14:49:19] INFO root fetch - processPackages [ddecoapiparser]: Start processing: pydantic-numpy
+[2023-07-24 14:49:19] INFO root fetch - main [MainThread]: End processing [ddecoapiparser] error
+[2023-07-24 14:49:19] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [JAAEC]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [BukeColabProject]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [jupyterlite-xeus-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [sparseconverter]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [pyfant]: New version: [23.7.24.0] Old Version: [19.12.5.0]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [api4jenkins]: New version: [1.9.1] Old Version: [1.9]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [pydantic-numpy]: New version: [3.0.0] Old Version: [2.2.2]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230724] Old Version: [0.3.8.dev230723]
+[2023-07-24 14:49:19] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/66/1a/695d48164b15cadf8f0e4ed1d38a02676aa32650a6a7118e040047bb7af3/BukeColabProject-0.4.3.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [JAAEC]: Downloading https://files.pythonhosted.org/packages/b9/cb/f858e82b7536dcd56ffe4b37b1e6cc93a3fa39c81a01c52711a1add36b2f/JAAEC-0.1.2.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/1b/78/af9af40ff5107a630b25617c4f2df7c63f5f6cfb819c35d35c835773cfd1/manticore-0.3.8.dev230723.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [sparseconverter]: Downloading https://files.pythonhosted.org/packages/26/28/cc15dfaa4c55e65066dfedbb132ef4da5016572d187ccdbb8e6ec06d143a/sparseconverter-0.3.2.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [jupyterlite-xeus-python]: Downloading https://files.pythonhosted.org/packages/77/14/8b20f250fc4b9700b13ef930dc29d1681ac93e73aa1e6ea330975ed9b07b/jupyterlite-xeus-python-0.9.1.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [pyfant]: Downloading https://files.pythonhosted.org/packages/2c/75/4db5135a9c195ec644a94f521eb0727c9268d446392c7870d28496df4094/pyfant-19.12.5.0.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/f0/5c/2ed962eff83c7c965875f66557dc4968dfa3bda46673699afca7495ca384/pydantic_numpy-2.2.2.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-24 14:49:19] INFO root fetch - processPackages [api4jenkins]: Downloading https://files.pythonhosted.org/packages/bb/9e/dfe7b791ae5cf627e02321f5bfa418741ca75452fce8cb54d3e37f8a0174/api4jenkins-1.9.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/59/91/6ca864ae0fae5542c67ca920b2f1a42593ede4675e0b1eef5e9658aa4dc6/BukeColabProject-0.4.4.tar.gz
+[2023-07-24 14:49:20] WARNING root fetch - processPackages [jupyterlite-xeus-python]: Skipping package: exceeds size limit 13551317>=10485760
+[2023-07-24 14:49:20] INFO root fetch - processPackages [jupyterlite-xeus-python]: Start processing: treepoem
+[2023-07-24 14:49:20] INFO root fetch - main [MainThread]: End processing [jupyterlite-xeus-python] error
+[2023-07-24 14:49:20] INFO root fetch - processPackages [treepoem]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-24 14:49:20] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [JAAEC]: Downloading https://files.pythonhosted.org/packages/be/b7/7930b002bd8ca10e1a640079af64bfe105dd2dc52a59ce4696a1635993e5/JAAEC-0.1.3.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [BukeColabProject]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [BukeColabProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BukeColabProject-0.4.3.tar.gz tmp/BukeColabProject-0.4.4.tar.gz --markdown 20230724/B/BukeColabProject/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pydantic-numpy]: Downloading https://files.pythonhosted.org/packages/b1/34/2c94571f143fe443de931e970810152e2b24e07ae1d486e815c99fb3ca58/pydantic_numpy-3.0.0.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/89/61/691ed7c4759e31b4d63f2d80fb84114773d2497a7c46f794ce95b2620628/manticore-0.3.8.dev230724.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/2f/74/9d4480075187ac923ac1000fb5cf1531619cbbc88e151a7f2c0e4641a4b6/treepoem-3.8.0.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [JAAEC]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [JAAEC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JAAEC-0.1.2.tar.gz tmp/JAAEC-0.1.3.tar.gz --markdown 20230724/J/JAAEC/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230724/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [sparseconverter]: Downloading https://files.pythonhosted.org/packages/c4/a6/06e277c6c6f891a105b5c42f608ce29cd490c8348e5d3fcfb961b7600b68/sparseconverter-0.3.3.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pyfant]: Downloading https://files.pythonhosted.org/packages/a5/bf/ec12bef921a395fe176075f00bef29a286ea6c1b7c86ec97acad6613e444/pyfant-23.7.24.0.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pydantic-numpy]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pydantic-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_numpy-2.2.2.tar.gz tmp/pydantic_numpy-3.0.0.tar.gz --markdown 20230724/p/pydantic-numpy/2.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230724/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [sparseconverter]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [sparseconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseconverter-0.3.2.tar.gz tmp/sparseconverter-0.3.3.tar.gz --markdown 20230724/s/sparseconverter/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pyfant]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [pyfant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfant-19.12.5.0.tar.gz tmp/pyfant-23.7.24.0.tar.gz --markdown 20230724/p/pyfant/19.12.5.0-23.7.24.0/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-24 14:49:20] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230723.tar.gz tmp/manticore-0.3.8.dev230724.tar.gz --markdown 20230724/m/manticore/0.3.8.dev230723-0.3.8.dev230724/diff.md --exclude *.pyd
+[2023-07-24 14:49:20] INFO root fetch - processPackages [api4jenkins]: Downloading https://files.pythonhosted.org/packages/83/a1/e2f983696b98d23059e3fb34717ede01409df40477ffb0acc029d804255c/api4jenkins-1.9.1.tar.gz
+[2023-07-24 14:49:20] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/e1/3b/0ff4460d5e5203e1e001fdc3a7606c7da10a9a50a5e7253e6ee2de98ec87/treepoem-3.9.0.tar.gz
+[2023-07-24 14:49:21] INFO root fetch - processPackages [api4jenkins]: executing diffoscope
+[2023-07-24 14:49:21] INFO root fetch - processPackages [api4jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api4jenkins-1.9.tar.gz tmp/api4jenkins-1.9.1.tar.gz --markdown 20230724/a/api4jenkins/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-07-24 14:49:21] INFO root fetch - processPackages [treepoem]: executing diffoscope
+[2023-07-24 14:49:21] INFO root fetch - processPackages [treepoem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treepoem-3.8.0.tar.gz tmp/treepoem-3.9.0.tar.gz --markdown 20230724/t/treepoem/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-24 14:49:22] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.3.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.4.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [BukeColabProject]: Start processing: streams-py
+[2023-07-24 14:49:22] INFO root fetch - main [MainThread]: End processing [BukeColabProject]: success
+[2023-07-24 14:49:22] INFO root fetch - processPackages [streams-py]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [JAAEC]: Remove: archive file [/home/abi/fetcher/tmp/JAAEC-0.1.2.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [JAAEC]: Remove: archive file [/home/abi/fetcher/tmp/JAAEC-0.1.3.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [JAAEC]: Start processing: cece
+[2023-07-24 14:49:22] INFO root fetch - main [MainThread]: End processing [JAAEC]: success
+[2023-07-24 14:49:22] INFO root fetch - processPackages [cece]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/7b/a6/9beebb0dfc53634c22fb87ed5bcaff597aabd3d09635258707c72aee381f/streams_py-0.3.1.tar.gz
+[2023-07-24 14:49:22] INFO root fetch - processPackages [sparseconverter]: Remove: archive file [/home/abi/fetcher/tmp/sparseconverter-0.3.2.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [sparseconverter]: Remove: archive file [/home/abi/fetcher/tmp/sparseconverter-0.3.3.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [sparseconverter]: Start processing: dmlab2d
+[2023-07-24 14:49:22] INFO root fetch - main [MainThread]: End processing [sparseconverter]: success
+[2023-07-24 14:49:22] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-2.2.2.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [pydantic-numpy]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_numpy-3.0.0.tar.gz]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [pydantic-numpy]: Start processing: aeronet-raster
+[2023-07-24 14:49:22] INFO root fetch - main [MainThread]: End processing [pydantic-numpy]: success
+[2023-07-24 14:49:22] INFO root fetch - processPackages [dmlab2d]: New version: [1.0.0.dev9] Old Version: [1.0.0.dev8]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [cece]: Downloading https://files.pythonhosted.org/packages/c9/85/8b4c27d02793f2cab1ee2354e5b1d5721c39667746d9f096cb4fc1324ebb/cece-0.0.2.tar.gz
+[2023-07-24 14:49:22] INFO root fetch - processPackages [aeronet-raster]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-24 14:49:22] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/20/18/204ac645a0e232356c3e2a592acc272d03a903b92cc5ec2f0b994a6bc754/streams_py-0.3.2.tar.gz
+[2023-07-24 14:49:22] INFO root fetch - processPackages [dmlab2d]: Downloading https://files.pythonhosted.org/packages/af/a9/bfd442712bc6dbe742fd3151b2b4b7126adfb6eb242a8c9ca137e39dded9/dmlab2d-1.0.0_dev.8-cp39-cp39-manylinux_2_35_x86_64.whl
+[2023-07-24 14:49:22] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/0d/57/0e976c1cc2805c26ade9be27dde82f4d035a1e1912c99a3f368a0e758bc4/aeronet_raster-0.1.0a1.tar.gz
+[2023-07-24 14:49:22] INFO root fetch - processPackages [cece]: Downloading https://files.pythonhosted.org/packages/08/ef/afa6381854f9d86c6e88f251105e895c755eee036e6f67a692a140a929fc/cece-0.0.3.tar.gz
+[2023-07-24 14:49:23] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [kfsd]: Start processing: aeronet
+[2023-07-24 14:49:23] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-24 14:49:23] INFO root fetch - processPackages [streams-py]: executing diffoscope
+[2023-07-24 14:49:23] INFO root fetch - processPackages [streams-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streams_py-0.3.1.tar.gz tmp/streams_py-0.3.2.tar.gz --markdown 20230724/s/streams-py/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet]: New version: [0.1.0a1] Old Version: [0.0.9]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [cece]: executing diffoscope
+[2023-07-24 14:49:23] INFO root fetch - processPackages [cece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cece-0.0.2.tar.gz tmp/cece-0.0.3.tar.gz --markdown 20230724/c/cece/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/08/03/4641747ac64ea09392902764f98f35212af05a63adc8902155effdf65f8b/aeronet-0.0.9-py3-none-any.whl
+[2023-07-24 14:49:23] INFO root fetch - processPackages [api4jenkins]: Remove: archive file [/home/abi/fetcher/tmp/api4jenkins-1.9.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [api4jenkins]: Remove: archive file [/home/abi/fetcher/tmp/api4jenkins-1.9.1.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [api4jenkins]: Start processing: aries-cloudcontroller
+[2023-07-24 14:49:23] INFO root fetch - main [MainThread]: End processing [api4jenkins]: success
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.2b0] Old Version: [0.8.1rc9]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/d5/df/9896bfac57d930c7d2255a77e1d00d40ac99b704eec2e9f189cd00821ceb/aeronet_raster-0.1.0a2.tar.gz
+[2023-07-24 14:49:23] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230723.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230724.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/84/c6/76b143600ece5593675205a367c7ad31e99eec7eae985c1e77cbbc72b003/aeronet-0.1.0a1.tar.gz
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet]: executing diffoscope
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet-0.0.9-py3-none-any.whl.zip tmp/aeronet-0.1.0a1.tar.gz --markdown 20230724/a/aeronet/0.0.9-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet-raster]: executing diffoscope
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aeronet-raster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_raster-0.1.0a1.tar.gz tmp/aeronet_raster-0.1.0a2.tar.gz --markdown 20230724/a/aeronet-raster/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-24 14:49:23] INFO root fetch - processPackages [dmlab2d]: Downloading https://files.pythonhosted.org/packages/63/88/f8c09e2c2e301bb98b98ebdb1d3a91318cc668b892ed9b2389d65a678aaf/dmlab2d-1.0.0_dev.9-cp39-cp39-manylinux_2_35_x86_64.whl
+[2023-07-24 14:49:23] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/a9/65/8c1f09da11897a7f113789868521046e0bdf84ded189651b7aaec3b9945e/aries_cloudcontroller-0.8.2b0.tar.gz
+[2023-07-24 14:49:23] INFO root fetch - processPackages [pyfant]: Remove: archive file [/home/abi/fetcher/tmp/pyfant-19.12.5.0.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - processPackages [pyfant]: Remove: archive file [/home/abi/fetcher/tmp/pyfant-23.7.24.0.tar.gz]
+[2023-07-24 14:49:23] INFO root fetch - main [MainThread]: End processing [pyfant]: success
+[2023-07-24 14:49:24] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-07-24 14:49:24] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc9.tar.gz tmp/aries_cloudcontroller-0.8.2b0.tar.gz --markdown 20230724/a/aries-cloudcontroller/0.8.1rc9-0.8.2b0/diff.md --exclude *.pyd
+[2023-07-24 14:49:24] INFO root fetch - processPackages [dmlab2d]: executing diffoscope
+[2023-07-24 14:49:24] INFO root fetch - processPackages [dmlab2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmlab2d-1.0.0_dev.8-cp39-cp39-manylinux_2_35_x86_64.whl.zip tmp/dmlab2d-1.0.0_dev.9-cp39-cp39-manylinux_2_35_x86_64.whl.zip --markdown 20230724/d/dmlab2d/1.0.0.dev8-1.0.0.dev9/diff.md --exclude *.pyd
+[2023-07-24 14:49:24] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-07-24 14:49:24] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.3.1.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.3.2.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - main [MainThread]: End processing [streams-py]: success
+[2023-07-24 14:49:24] INFO root fetch - processPackages [cece]: Remove: archive file [/home/abi/fetcher/tmp/cece-0.0.2.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - processPackages [cece]: Remove: archive file [/home/abi/fetcher/tmp/cece-0.0.3.tar.gz]
+[2023-07-24 14:49:24] INFO root fetch - main [MainThread]: End processing [cece]: success
+[2023-07-24 14:49:25] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.8.0.tar.gz]
+[2023-07-24 14:49:25] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.9.0.tar.gz]
+[2023-07-24 14:49:25] INFO root fetch - main [MainThread]: End processing [treepoem]: success
+[2023-07-24 14:49:25] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 14:49:25] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a1.tar.gz]
+[2023-07-24 14:49:25] INFO root fetch - main [MainThread]: End processing [aeronet]: success
+[2023-07-24 14:49:25] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a1.tar.gz]
+[2023-07-24 14:49:25] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a2.tar.gz]
+[2023-07-24 14:49:25] INFO root fetch - main [MainThread]: End processing [aeronet-raster]: success
+[2023-07-24 14:49:26] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-07-24 14:49:26] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.2b0.tar.gz]
+[2023-07-24 14:49:26] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-07-24 14:49:36] INFO root fetch - processPackages [dmlab2d]: Remove: archive file [/home/abi/fetcher/tmp/dmlab2d-1.0.0_dev.8-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
+[2023-07-24 14:49:36] INFO root fetch - processPackages [dmlab2d]: Remove: archive file [/home/abi/fetcher/tmp/dmlab2d-1.0.0_dev.9-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
+[2023-07-24 14:49:36] INFO root fetch - main [MainThread]: End processing [dmlab2d]: success
+[2023-07-24 14:49:36] INFO root fetch - main [MainThread]: Store serial: [19012615]
