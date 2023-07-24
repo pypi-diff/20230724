@@ -15787,3 +15787,162 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:09:25] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230724.124015.tar.gz]
 [2023-07-24 13:09:25] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-24 13:09:25] INFO root fetch - main [MainThread]: Store serial: [19011629]
+[2023-07-24 13:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011629]
+[2023-07-24 13:14:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hvps
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squirrel-core
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kissio
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-disconnect-notice
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkit
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peakrdl-euvm
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spyder-notebook
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulser
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amazon-textract-response-parser
+[2023-07-24 13:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulser-core
+[2023-07-24 13:14:35] INFO root fetch - processPackages [kissio]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [peakrdl-euvm]: New version: [1.1] Old Version: [1.0]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [pulser-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [spyder-notebook]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [squirrel-core]: New version: [0.19.2.dev863] Old Version: [0.19.2]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [pulser]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [amazon-textract-response-parser]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-07-24 13:14:35] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/de/3e/1c6e8cfda5c6b86e6cf6fc8c1377887a099a5f208c1c88d4d682fafe37d8/kissio-0.0.5.tar.gz
+[2023-07-24 13:14:35] INFO root fetch - processPackages [spyder-notebook]: Downloading https://files.pythonhosted.org/packages/68/2e/d70b381ddb5256e110177575e94a8e6d6cf171a0eb70ff01548d04e6724c/spyder-notebook-0.5.0.tar.gz
+[2023-07-24 13:14:35] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/a4/ad/c4edbda835970ac1f3336f87a523b720e52620ddd665a8920720c6163013/nonebot_plugin_disconnect_notice-0.1.1.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [peakrdl-euvm]: Downloading https://files.pythonhosted.org/packages/00/16/987a7bb88311dc3996325ba84145c1ff73ecf088f85fd969b250a0b1f8e9/peakrdl-euvm-1.0.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [squirrel-core]: Downloading https://files.pythonhosted.org/packages/f5/20/4f59ee934deef8f4b9ed0d1a2fed946c8bde290c530f7ca3a2b94a7034fc/squirrel_core-0.19.2.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/50/d8/f849379e24e8bb7f7ae7f008169e8d06b8d499f05ac7f799064dc520b62b/pulser_core-0.9.2-py3-none-any.whl
+[2023-07-24 13:14:36] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [amazon-textract-response-parser]: Downloading https://files.pythonhosted.org/packages/ba/32/3c0255d3d61e902fc3e295226455bab701f2382bfa5431fe755b90c48781/amazon-textract-response-parser-0.1.9.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/7a/f5/dc3d2a7d7080c9ee2dfa9e08f20a258f502d81e6f5fa1af62208883a29f8/pulser-0.9.2-py3-none-any.whl
+[2023-07-24 13:14:36] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/a8/ca/8e156020eb4d7edd4f980fa54ef1d698fb5463154a3d7732c727009b4ec1/nonebot_plugin_disconnect_notice-0.1.2.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/48/6c/e7a431c6abbe7f663e13ad5f7e3192ebfb22ab039a986a18ebe24ddf90d4/kissio-0.0.6.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [peakrdl-euvm]: Downloading https://files.pythonhosted.org/packages/c6/67/c8984b9c5931afb926fa8b7cc120d7e19243c566ac1609a4afd09bf371eb/peakrdl-euvm-1.1.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [spyder-notebook]: Downloading https://files.pythonhosted.org/packages/4a/90/97a46e88b8e972ef9a3d4581bb12e911f86cc691bb4a0e35c99e2b2ffa23/spyder-notebook-0.5.1.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [squirrel-core]: Downloading https://files.pythonhosted.org/packages/8b/12/53ac18bca509a804dabc5d992fee7ff51c937184f39ef07c7d3a1ecf5023/squirrel_core-0.19.2.dev863.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2023-07-24 13:14:36] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.1.1.tar.gz tmp/nonebot_plugin_disconnect_notice-0.1.2.tar.gz --markdown 20230724/n/nonebot-plugin-disconnect-notice/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 13:14:36] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 13:14:36] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.5.tar.gz tmp/kissio-0.0.6.tar.gz --markdown 20230724/k/kissio/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 13:14:36] INFO root fetch - processPackages [amazon-textract-response-parser]: Downloading https://files.pythonhosted.org/packages/55/ef/70f687eb396202fd45b06c4fb3daab0c80997721e73c414fdfee646ec0c4/amazon-textract-response-parser-1.0.0.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [squirrel-core]: executing diffoscope
+[2023-07-24 13:14:36] INFO root fetch - processPackages [squirrel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squirrel_core-0.19.2.tar.gz tmp/squirrel_core-0.19.2.dev863.tar.gz --markdown 20230724/s/squirrel-core/0.19.2-0.19.2.dev863/diff.md --exclude *.pyd
+[2023-07-24 13:14:36] INFO root fetch - processPackages [peakrdl-euvm]: executing diffoscope
+[2023-07-24 13:14:36] INFO root fetch - processPackages [peakrdl-euvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-euvm-1.0.tar.gz tmp/peakrdl-euvm-1.1.tar.gz --markdown 20230724/p/peakrdl-euvm/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-24 13:14:36] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-07-24 13:14:36] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/b3/4c/e0c85f11a7c4b8348b4f084333258c0fe20e92304dc0c6753a72aeb52b40/pulser_core-0.9.3-py3-none-any.whl
+[2023-07-24 13:14:36] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/9e/dd/b544014809726e9c26e1f6b4bc8b80bd057546b594270fa4bb6260415ad2/pulser-0.9.3-py3-none-any.whl
+[2023-07-24 13:14:36] INFO root fetch - processPackages [amazon-textract-response-parser]: executing diffoscope
+[2023-07-24 13:14:36] INFO root fetch - processPackages [amazon-textract-response-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-response-parser-0.1.9.tar.gz tmp/amazon-textract-response-parser-1.0.0.tar.gz --markdown 20230724/a/amazon-textract-response-parser/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-24 13:14:37] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-07-24 13:14:37] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230724/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 13:14:37] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-24 13:14:37] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230724/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 13:14:37] INFO root fetch - processPackages [pulser-core]: executing diffoscope
+[2023-07-24 13:14:37] INFO root fetch - processPackages [pulser-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_core-0.9.2-py3-none-any.whl.zip tmp/pulser_core-0.9.3-py3-none-any.whl.zip --markdown 20230724/p/pulser-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 13:14:37] INFO root fetch - processPackages [pulser]: executing diffoscope
+[2023-07-24 13:14:37] INFO root fetch - processPackages [pulser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser-0.9.2-py3-none-any.whl.zip tmp/pulser-0.9.3-py3-none-any.whl.zip --markdown 20230724/p/pulser/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 13:14:37] INFO root fetch - processPackages [spyder-notebook]: executing diffoscope
+[2023-07-24 13:14:37] INFO root fetch - processPackages [spyder-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder-notebook-0.5.0.tar.gz tmp/spyder-notebook-0.5.1.tar.gz --markdown 20230724/s/spyder-notebook/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-24 13:14:38] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.1.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.2.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Start processing: pulser-pasqal
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.5.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.6.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [kissio]: Start processing: pulser-simulation
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [pulser-pasqal]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [pulser-simulation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [amazon-textract-response-parser]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-response-parser-0.1.9.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [amazon-textract-response-parser]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-response-parser-1.0.0.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [amazon-textract-response-parser]: Start processing: Imgbb-Client
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [amazon-textract-response-parser]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/e0/b1/5ac368dd1c0f3dfd390a168f8b38d93c34ad5d42087407f7a0aff2495046/pulser_pasqal-0.9.2-py3-none-any.whl
+[2023-07-24 13:14:38] WARNING root fetch - processPackages [Imgbb-Client]: Skipping, unable to determine old version
+[2023-07-24 13:14:38] INFO root fetch - processPackages [Imgbb-Client]: Start processing: veetility
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [Imgbb-Client] error
+[2023-07-24 13:14:38] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/48/a5/5e5b94881cf8608659a1bac865530a27484b74446b05d4f1301ec14ee370/pulser_simulation-0.9.2-py3-none-any.whl
+[2023-07-24 13:14:38] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [peakrdl-euvm]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-euvm-1.0.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [peakrdl-euvm]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-euvm-1.1.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [peakrdl-euvm]: Start processing: aws-network-firewall
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [peakrdl-euvm]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [squirrel-core]: Remove: archive file [/home/abi/fetcher/tmp/squirrel_core-0.19.2.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [squirrel-core]: Remove: archive file [/home/abi/fetcher/tmp/squirrel_core-0.19.2.dev863.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [squirrel-core]: Start processing: uframe
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [squirrel-core]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-24 13:14:38] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-07-24 13:14:38] INFO root fetch - processPackages [hvps]: Start processing: jupyterlab_local_browser
+[2023-07-24 13:14:38] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-07-24 13:14:38] INFO root fetch - processPackages [uframe]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.2-py3-none-any.whl.zip]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.3-py3-none-any.whl.zip]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser]: Start processing: findmyorder
+[2023-07-24 13:14:39] INFO root fetch - main [MainThread]: End processing [pulser]: success
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.2-py3-none-any.whl.zip]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [jupyterlab_local_browser]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.3-py3-none-any.whl.zip]
+[2023-07-24 13:14:39] INFO root fetch - main [MainThread]: End processing [pulser-core]: success
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/db/3e/198aea9df13043e681751c9e3c957c3df78c5621bc71fc10ffc264ee8d22/pulser_simulation-0.9.3-py3-none-any.whl
+[2023-07-24 13:14:39] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-24 13:14:39] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-24 13:14:39] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/9b/53/113ccae9150495539ea3a2798612d0c7b0fbd959da1f50e347e9500ea026/aws_network_firewall-0.1.2.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230724/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 13:14:39] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/5e/d3/faf950a362606dd7cff711835ec0a40d9af407b9997d6714879d9c781452/uframe-0.0.6.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [findmyorder]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-simulation]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip --markdown 20230724/p/pulser-simulation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 13:14:39] INFO root fetch - processPackages [jupyterlab_local_browser]: Downloading https://files.pythonhosted.org/packages/14/52/5cda719b7c20b78d520d0d35ff2719bea82eeec012b8be66d10921e76204/jupyterlab_local_browser-0.4.2.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/b8/2d/a0f7bcf6bc61eab01ea28a0f20812e0cc77ac8e353cf5e3de6a19b3ed55b/findmyorder-1.6.1.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/67/38/0039bb6966c446aed9b299c81bd2ce91cb84025ee0a2aa67b8e101fc8dd1/aws_network_firewall-0.2.0.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/40/e0/26ba4af7e7b6f15a07ada9d9d963b6148fe875b11eb195ff7468777a866a/pulser_pasqal-0.9.3-py3-none-any.whl
+[2023-07-24 13:14:39] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/22/b3/c89a251fbd3c4171315874fb6aa4cf052e92cfca47d597ef941ea8d823f2/uframe-0.0.7.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.1.2.tar.gz tmp/aws_network_firewall-0.2.0.tar.gz --markdown 20230724/a/aws-network-firewall/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 13:14:39] INFO root fetch - processPackages [jupyterlab_local_browser]: Downloading https://files.pythonhosted.org/packages/09/f1/d240ef592608eb7f97b5f1f0406f4f03fbe59a6a48fa6e419a9ecf1b2ef1/jupyterlab_local_browser-0.4.3.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.6.tar.gz tmp/uframe-0.0.7.tar.gz --markdown 20230724/u/uframe/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-pasqal]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [pulser-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip --markdown 20230724/p/pulser-pasqal/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-24 13:14:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/04/cb/527db72d5fe149a84a7dcaef87b8963eae5e90127827c5d4ed4c7e4aac43/findmyorder-1.7.0.tar.gz
+[2023-07-24 13:14:39] INFO root fetch - processPackages [jupyterlab_local_browser]: executing diffoscope
+[2023-07-24 13:14:39] INFO root fetch - processPackages [jupyterlab_local_browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_local_browser-0.4.2.tar.gz tmp/jupyterlab_local_browser-0.4.3.tar.gz --markdown 20230724/j/jupyterlab_local_browser/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-24 13:14:40] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-24 13:14:40] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.6.1.tar.gz tmp/findmyorder-1.7.0.tar.gz --markdown 20230724/f/findmyorder/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-24 13:14:40] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-24 13:14:40] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip]
+[2023-07-24 13:14:40] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip]
+[2023-07-24 13:14:40] INFO root fetch - main [MainThread]: End processing [pulser-simulation]: success
+[2023-07-24 13:14:40] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.1.2.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.2.0.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-07-24 13:14:40] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.6.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.7.tar.gz]
+[2023-07-24 13:14:40] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-07-24 13:14:41] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip]
+[2023-07-24 13:14:41] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip]
+[2023-07-24 13:14:41] INFO root fetch - main [MainThread]: End processing [pulser-pasqal]: success
+[2023-07-24 13:14:41] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.6.1.tar.gz]
+[2023-07-24 13:14:41] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.0.tar.gz]
+[2023-07-24 13:14:41] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-24 13:14:42] INFO root fetch - processPackages [spyder-notebook]: Remove: archive file [/home/abi/fetcher/tmp/spyder-notebook-0.5.0.tar.gz]
+[2023-07-24 13:14:42] INFO root fetch - processPackages [spyder-notebook]: Remove: archive file [/home/abi/fetcher/tmp/spyder-notebook-0.5.1.tar.gz]
+[2023-07-24 13:14:42] INFO root fetch - main [MainThread]: End processing [spyder-notebook]: success
+[2023-07-24 13:14:42] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.2.tar.gz]
+[2023-07-24 13:14:42] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.3.tar.gz]
+[2023-07-24 13:14:42] INFO root fetch - main [MainThread]: End processing [jupyterlab_local_browser]: success
+[2023-07-24 13:14:42] INFO root fetch - main [MainThread]: Store serial: [19011681]
