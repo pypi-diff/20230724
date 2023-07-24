@@ -13116,3 +13116,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:15:22] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.3.tar.gz]
 [2023-07-24 11:15:22] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
 [2023-07-24 11:15:22] INFO root fetch - main [MainThread]: Store serial: [19010447]
+[2023-07-24 11:20:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010447]
+[2023-07-24 11:20:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: construct-typing
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagshub
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PeerAnnot
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotstat-io
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-webstack
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyatlan
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libprobe
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secrets-vault
+[2023-07-24 11:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Xray-core
+[2023-07-24 11:20:31] WARNING root fetch - processPackages [Xray-core]: Skipping, unable to determine old version
+[2023-07-24 11:20:31] INFO root fetch - processPackages [Xray-core]: Start processing: async-poe-client
+[2023-07-24 11:20:31] INFO root fetch - main [MainThread]: End processing [Xray-core] error
+[2023-07-24 11:20:31] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 11:20:31] INFO root fetch - processPackages [PeerAnnot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2023-07-24 11:20:31] INFO root fetch - processPackages [construct-typing]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-24 11:20:31] INFO root fetch - processPackages [pyatlan]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-24 11:20:31] WARNING root fetch - processPackages [django-webstack]: Skipping, unable to determine old version
+[2023-07-24 11:20:31] INFO root fetch - processPackages [django-webstack]: Start processing: pypi-json
+[2023-07-24 11:20:31] INFO root fetch - processPackages [dotstat-io]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 11:20:31] INFO root fetch - main [MainThread]: End processing [django-webstack] error
+[2023-07-24 11:20:31] INFO root fetch - processPackages [libprobe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 11:20:31] INFO root fetch - processPackages [dagshub]: New version: [0.3.0.post2] Old Version: [0.3.0.post1]
+[2023-07-24 11:20:31] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-24 11:20:32] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-24 11:20:32] INFO root fetch - processPackages [pypi-json]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/d2/dc/5aa323857354028ec503d41f73066a00ffd78960c71d6f3536140d583e05/dagshub-0.3.0.post1.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/68/38/6b42338d52bb0f9dde9720ad0c5893cabe17d482e165a32ab3ae8cfc4d8d/pyatlan-0.4.0.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/42/5f/89f8e4fc17ea96ef9af66aa4818e00c4fb84c289c4c6879df411d11f15a4/construct-typing-0.5.6.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/44/aa/4a5d2ca64a6d79c980853ede4e669938583170de17f4c192bcf92500ff1f/secrets-vault-0.1.8.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [libprobe]: Downloading https://files.pythonhosted.org/packages/c5/1f/af20b692dcf94399cd2cffe831face1ea7b3d07c04c743436deaab07bb12/libprobe-0.2.8.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/73/86/34c307db917133362d159bdc731afb8d3cff8bce48175cbc97bd27c6b323/PeerAnnot-0.0.1.post8.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dotstat-io]: Downloading https://files.pythonhosted.org/packages/72/ef/53a24f2bc042901cd8d742dbbe2eeded0eb5a7eb377fcbf5f76399d31f76/dotstat_io-0.1.3.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [pypi-json]: Downloading https://files.pythonhosted.org/packages/e6/5e/66086b2572bd1379af1113cc6c8bd8e690d036272703ecee19e69182ec7b/pypi_json-0.3.0.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/86/6d/220de236320261baf7783ae3f8abdd0964afd46b6715522be6f0305e4ede/async_poe_client-0.1.7.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-24 11:20:32] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.6.tar.gz tmp/async_poe_client-0.1.7.tar.gz --markdown 20230724/a/async-poe-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b9/59/92cc3315ddf75ded2d49d885935bb76b3b47929b49a745140da2ee71ec9e/dagshub-0.3.0.post2.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [construct-typing]: Downloading https://files.pythonhosted.org/packages/02/8d/1683cc6c1e550061eebe744544f0efdcc4d6af7fc468fbcbe2de13eefcf0/construct-typing-0.6.0.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/fb/07/bc2a1662dc0ed7e174bb078e2e2535276a28379ec2bf1cf7223faba5a988/secrets-vault-0.1.9.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/0e/d5/669bbe73bf1adb86e9d8354665319956cce747648940fc66cbb6b940bfa1/pyatlan-0.4.1.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dotstat-io]: Downloading https://files.pythonhosted.org/packages/95/dc/b6e08560ede3050cbfe0f7e2eaa7eb71341933aaa89d48623b4818fc9f3b/dotstat_io-0.1.4.tar.gz
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-24 11:20:32] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.post1.tar.gz tmp/dagshub-0.3.0.post2.tar.gz --markdown 20230724/d/dagshub/0.3.0.post1-0.3.0.post2/diff.md --exclude *.pyd
+[2023-07-24 11:20:32] INFO root fetch - processPackages [construct-typing]: executing diffoscope
+[2023-07-24 11:20:32] INFO root fetch - processPackages [construct-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-typing-0.5.6.tar.gz tmp/construct-typing-0.6.0.tar.gz --markdown 20230724/c/construct-typing/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 11:20:32] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-24 11:20:32] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.8.tar.gz tmp/secrets-vault-0.1.9.tar.gz --markdown 20230724/s/secrets-vault/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [pypi-json]: Downloading https://files.pythonhosted.org/packages/96/f3/fcc8271d415fed916dde9d70baa59d825bc2d61f75f4b3644dda9f72854b/pypi_json-0.4.0.tar.gz
+[2023-07-24 11:20:33] INFO root fetch - processPackages [PeerAnnot]: Downloading https://files.pythonhosted.org/packages/dd/71/b94ad97cab8d83bde8d05acb23bf3af002e83ae39a4411d7d76fddb19db6/PeerAnnot-0.0.1.post9.tar.gz
+[2023-07-24 11:20:33] INFO root fetch - processPackages [dotstat-io]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [dotstat-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotstat_io-0.1.3.tar.gz tmp/dotstat_io-0.1.4.tar.gz --markdown 20230724/d/dotstat-io/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.4.0.tar.gz tmp/pyatlan-0.4.1.tar.gz --markdown 20230724/p/pyatlan/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [pypi-json]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [pypi-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_json-0.3.0.tar.gz tmp/pypi_json-0.4.0.tar.gz --markdown 20230724/p/pypi-json/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-24 11:20:33] INFO root fetch - processPackages [PeerAnnot]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [PeerAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PeerAnnot-0.0.1.post8.tar.gz tmp/PeerAnnot-0.0.1.post9.tar.gz --markdown 20230724/P/PeerAnnot/0.0.1.post8-0.0.1.post9/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [libprobe]: Downloading https://files.pythonhosted.org/packages/61/5a/f4e65398417ac03db887161f2ae805375a54ba90252b7c78118fb0d4e4e2/libprobe-0.2.9.tar.gz
+[2023-07-24 11:20:33] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230724/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-24 11:20:33] INFO root fetch - processPackages [libprobe]: executing diffoscope
+[2023-07-24 11:20:33] INFO root fetch - processPackages [libprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprobe-0.2.8.tar.gz tmp/libprobe-0.2.9.tar.gz --markdown 20230724/l/libprobe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 11:20:34] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.6.tar.gz]
+[2023-07-24 11:20:34] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.7.tar.gz]
+[2023-07-24 11:20:34] INFO root fetch - processPackages [async-poe-client]: Start processing: marketwatchdata
+[2023-07-24 11:20:34] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-24 11:20:34] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/e0/23/f832c3f3dfad5583df008a825585c4b641db4a42f591f55c041bec81b8dd/marketwatchdata-0.0.7.tar.gz
+[2023-07-24 11:20:35] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.8.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.9.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [secrets-vault]: Start processing: openi-beta
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-24 11:20:35] INFO root fetch - processPackages [openi-beta]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/50/8a/2dd1bed76ec5ddfa93a2d3e5f12b530f95d453c15275458f4b2bdc73b41a/marketwatchdata-0.0.8.tar.gz
+[2023-07-24 11:20:35] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/94/1b/24da50b0017c1588bea20fac3b351567c37f38209103d71b6bc8dc420197/openi-beta-2.0.0.tar.gz
+[2023-07-24 11:20:35] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.5.6.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [construct-typing]: Remove: archive file [/home/abi/fetcher/tmp/construct-typing-0.6.0.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [construct-typing]: Start processing: rongdavbaaddins
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [construct-typing]: success
+[2023-07-24 11:20:35] INFO root fetch - processPackages [dotstat-io]: Remove: archive file [/home/abi/fetcher/tmp/dotstat_io-0.1.3.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [dotstat-io]: Remove: archive file [/home/abi/fetcher/tmp/dotstat_io-0.1.4.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [dotstat-io]: Start processing: pygood
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [dotstat-io]: success
+[2023-07-24 11:20:35] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.8] Old Version: [0.1.0.7]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-24 11:20:35] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.7.tar.gz tmp/marketwatchdata-0.0.8.tar.gz --markdown 20230724/m/marketwatchdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 11:20:35] INFO root fetch - processPackages [pypi-json]: Remove: archive file [/home/abi/fetcher/tmp/pypi_json-0.3.0.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [pypi-json]: Remove: archive file [/home/abi/fetcher/tmp/pypi_json-0.4.0.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [pypi-json]: success
+[2023-07-24 11:20:35] WARNING root fetch - processPackages [pygood]: Skipping, unable to determine old version
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [pygood] error
+[2023-07-24 11:20:35] INFO root fetch - processPackages [openi-beta]: Downloading https://files.pythonhosted.org/packages/f8/aa/67b71ee8477efe18de4bddc115c990e14349fd6686f7f371d0f3b33bbaee/openi-beta-2.0.1.tar.gz
+[2023-07-24 11:20:35] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/ad/45/65c0f8e74ae038f4728029309c7d9430cdadb11b19860efdfd1c325dea36/rongdavbaaddins-0.1.0.7.tar.gz
+[2023-07-24 11:20:35] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post8.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [PeerAnnot]: Remove: archive file [/home/abi/fetcher/tmp/PeerAnnot-0.0.1.post9.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [PeerAnnot]: success
+[2023-07-24 11:20:35] INFO root fetch - processPackages [openi-beta]: executing diffoscope
+[2023-07-24 11:20:35] INFO root fetch - processPackages [openi-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-beta-2.0.0.tar.gz tmp/openi-beta-2.0.1.tar.gz --markdown 20230724/o/openi-beta/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-24 11:20:35] INFO root fetch - processPackages [libprobe]: Remove: archive file [/home/abi/fetcher/tmp/libprobe-0.2.8.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [libprobe]: Remove: archive file [/home/abi/fetcher/tmp/libprobe-0.2.9.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [libprobe]: success
+[2023-07-24 11:20:35] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post1.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post2.tar.gz]
+[2023-07-24 11:20:35] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-24 11:20:36] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.4.0.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.4.1.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-07-24 11:20:36] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/b4/d1/71f4fdb12eb521d5d44547866644639f07b6466ae6479519bf370fea10ee/rongdavbaaddins-0.1.0.8.tar.gz
+[2023-07-24 11:20:36] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.7.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.8.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-24 11:20:36] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-24 11:20:36] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.7.tar.gz tmp/rongdavbaaddins-0.1.0.8.tar.gz --markdown 20230724/r/rongdavbaaddins/0.1.0.7-0.1.0.8/diff.md --exclude *.pyd
+[2023-07-24 11:20:36] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.0.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - processPackages [openi-beta]: Remove: archive file [/home/abi/fetcher/tmp/openi-beta-2.0.1.tar.gz]
+[2023-07-24 11:20:36] INFO root fetch - main [MainThread]: End processing [openi-beta]: success
+[2023-07-24 11:20:37] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-24 11:20:37] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-24 11:20:37] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-24 11:20:38] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.7.tar.gz]
+[2023-07-24 11:20:38] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.8.tar.gz]
+[2023-07-24 11:20:38] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-24 11:20:38] INFO root fetch - main [MainThread]: Store serial: [19010507]
