@@ -10785,3 +10785,90 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:39:18] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.1.1.tar.gz]
 [2023-07-24 09:39:18] INFO root fetch - main [MainThread]: End processing [mmsegmentation]: success
 [2023-07-24 09:39:18] INFO root fetch - main [MainThread]: Store serial: [19009548]
+[2023-07-24 09:44:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009548]
+[2023-07-24 09:44:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangondor
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lexikanon
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aoirint-matvtool
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-loader
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betfairlightweight
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kistipy
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htscf
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NetKet
+[2023-07-24 09:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fluke-api
+[2023-07-24 09:44:32] INFO root fetch - processPackages [lexikanon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [aoirint-matvtool]: New version: [0.4.0b1] Old Version: [0.3.0b4]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [djangondor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [betfairlightweight]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [kistipy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 09:44:32] WARNING root fetch - processPackages [streamingcommunity-unofficialapi]: Skipping, unable to determine old version
+[2023-07-24 09:44:32] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi] error
+[2023-07-24 09:44:32] INFO root fetch - processPackages [fluke-api]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [NetKet]: New version: [3.9] Old Version: [3.8]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev6]
+[2023-07-24 09:44:32] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/a5/c3/42a80c0e3367794f23df43eb9568f95799da1f63fd39846ad90182dc7819/aoirint_matvtool-0.3.0b4.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/66/34/993e6e2ad2989f371b95a00376b1a89c9c9a02123187526d50655965c841/kistipy-0.0.5.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/ae/d7/efd4a11ebf9df9b3ffd2d249ab00f22db325f68d634ae6ee38e85117d4c7/lexikanon-0.1.3.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/12/08/5cee6cd71b2abc5f24dc4f28f30a983f58f4f8ecd8e87349c4bdd740cd2e/djangondor-1.0.1.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [betfairlightweight]: Downloading https://files.pythonhosted.org/packages/0c/24/a6cf29b3a9855525a0b6c271a53401333ac24dadd888fcd2e0e4e8a07135/betfairlightweight-2.9.1.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/d7/cd/f6c3892f6e8db43fc8fb5d60ff2d960f8ab3684c94c15275e3a3eb2df61f/code_loader-0.2.84.dev6.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [fluke-api]: Downloading https://files.pythonhosted.org/packages/e4/7b/a60089e9935180403c678455f0fbdaa868a2dcd05022c4aec163cbdc08d8/fluke-api-0.2.0.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/0e/03/194d87a33233c446724e5e5f997e8be3a53d1d65e51b83e2913b7234dd89/netket-3.8.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 09:44:32] INFO root fetch - processPackages [aoirint-matvtool]: Downloading https://files.pythonhosted.org/packages/fe/a8/60919f3366fcbc7f5a4817e3842a10a1e4e49a7250b01c0531b14b1978f3/aoirint_matvtool-0.4.0b1.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [kistipy]: Downloading https://files.pythonhosted.org/packages/bb/40/ee4b188458fb2a59f149754369a2c2e5823fc39b1a412960fcd9946b09aa/kistipy-0.0.6.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/4f/34/faa896f4184f1a6e1de0cc58e0b877f5a0e7e1cafa6388e34f592ec67dcc/lexikanon-0.1.4.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/76/71/1beefb545a2b42be798e14439e8d9b4f4c0a1e9183b315860a5306e369d0/djangondor-1.0.2.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [aoirint-matvtool]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [aoirint-matvtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aoirint_matvtool-0.3.0b4.tar.gz tmp/aoirint_matvtool-0.4.0b1.tar.gz --markdown 20230724/a/aoirint-matvtool/0.3.0b4-0.4.0b1/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/d5/00/9434b17ad43450e3f18882be6f03305a3c3baf2fc598be9aabfeb375ea37/netket-3.9.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.1.3.tar.gz tmp/lexikanon-0.1.4.tar.gz --markdown 20230724/l/lexikanon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [djangondor]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [djangondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangondor-1.0.1.tar.gz tmp/djangondor-1.0.2.tar.gz --markdown 20230724/d/djangondor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [kistipy]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [kistipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kistipy-0.0.5.tar.gz tmp/kistipy-0.0.6.tar.gz --markdown 20230724/k/kistipy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [betfairlightweight]: Downloading https://files.pythonhosted.org/packages/18/ab/c477220ae8a8beb46171e2391356f413cecdd425591cbb2646b8c9a04aad/betfairlightweight-2.9.2.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [fluke-api]: Downloading https://files.pythonhosted.org/packages/c9/c1/6ea01f7523fd5b35db477ed4f620d6e542e38b8871b0dc407bbc5781c8fe/fluke-api-0.3.0.tar.gz
+[2023-07-24 09:44:33] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev6.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230724/c/code-loader/0.2.84.dev6-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [NetKet]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [NetKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netket-3.8.tar.gz tmp/netket-3.9.tar.gz --markdown 20230724/N/NetKet/3.8-3.9/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [fluke-api]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [fluke-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke-api-0.2.0.tar.gz tmp/fluke-api-0.3.0.tar.gz --markdown 20230724/f/fluke-api/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 09:44:33] INFO root fetch - processPackages [betfairlightweight]: executing diffoscope
+[2023-07-24 09:44:33] INFO root fetch - processPackages [betfairlightweight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfairlightweight-2.9.1.tar.gz tmp/betfairlightweight-2.9.2.tar.gz --markdown 20230724/b/betfairlightweight/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-24 09:44:35] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.1.3.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.1.4.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.3.0b4.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [aoirint-matvtool]: Remove: archive file [/home/abi/fetcher/tmp/aoirint_matvtool-0.4.0b1.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [aoirint-matvtool]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.5.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [kistipy]: Remove: archive file [/home/abi/fetcher/tmp/kistipy-0.0.6.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [kistipy]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev6.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.1.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.2.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [djangondor]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [fluke-api]: Remove: archive file [/home/abi/fetcher/tmp/fluke-api-0.2.0.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [fluke-api]: Remove: archive file [/home/abi/fetcher/tmp/fluke-api-0.3.0.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [fluke-api]: success
+[2023-07-24 09:44:35] INFO root fetch - processPackages [betfairlightweight]: Remove: archive file [/home/abi/fetcher/tmp/betfairlightweight-2.9.1.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - processPackages [betfairlightweight]: Remove: archive file [/home/abi/fetcher/tmp/betfairlightweight-2.9.2.tar.gz]
+[2023-07-24 09:44:35] INFO root fetch - main [MainThread]: End processing [betfairlightweight]: success
+[2023-07-24 09:44:37] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.8.tar.gz]
+[2023-07-24 09:44:37] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.tar.gz]
+[2023-07-24 09:44:37] INFO root fetch - main [MainThread]: End processing [NetKet]: success
+[2023-07-24 09:44:37] INFO root fetch - main [MainThread]: Store serial: [19009586]
