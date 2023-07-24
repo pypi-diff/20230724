@@ -10008,3 +10008,133 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:07:02] INFO root fetch - processPackages [skoufas-dbf-reader]: Remove: archive file [/home/abi/fetcher/tmp/skoufas_dbf_reader-0.0.4rc172.post1.tar.gz]
 [2023-07-24 09:07:02] INFO root fetch - main [MainThread]: End processing [skoufas-dbf-reader]: success
 [2023-07-24 09:07:02] INFO root fetch - main [MainThread]: Store serial: [19009171]
+[2023-07-24 09:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009171]
+[2023-07-24 09:12:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: switbuilder-core
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-dynamic-routes
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namekoplus
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rp
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microlearn-gen-course
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedex-sdk
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedex-sdk
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marqo
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m-abac
+[2023-07-24 09:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timedctl
+[2023-07-24 09:12:12] ERROR root fetch - processPackages [fastapi-dynamic-routes]: Unable to get metadata: No such project 'fastapi-dynamic-routes'
+[2023-07-24 09:12:12] INFO root fetch - processPackages [fastapi-dynamic-routes]: Start processing: django-backblaze-b2
+[2023-07-24 09:12:12] INFO root fetch - main [MainThread]: End processing [fastapi-dynamic-routes] error
+[2023-07-24 09:12:12] INFO root fetch - processPackages [timedctl]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [microlearn-gen-course]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [marqo]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [namekoplus]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [m-abac]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [django-backblaze-b2]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 09:12:12] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/f7/9b/adb5ec2972d5dfd7a12e1e779bc7318c3b9509a0a69a36ed49c54eaa109b/switbuilder_core-0.0.7.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/fc/2f/62dc83bcdf07fd1435c4fcbbd60604c61ba12fe5f5690052f863d0a880c2/timedctl-5.0.1.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/d8/5e/bc717d79a9e8543d111659bce3b72dadcdaeb75b90de0c06767dde61af2a/microlearn_gen_course-0.0.2.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/cf/25/369e404bce913c1beddaed1f1d3e46b8862a396396793b7a8cacadab94fd/rp-0.1.98.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ec/1a/c1cccaf0e7d99d1dea67145ab55090a611ce4015dbd761e93829b1583fb7/fedex-sdk-1.0.0.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/b4/19/4e45e16b5b1218d82d96f64cff050f1804de54690f1ac957039563ceeee8/django_backblaze_b2-4.0.0.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/ec/1a/c1cccaf0e7d99d1dea67145ab55090a611ce4015dbd761e93829b1583fb7/fedex-sdk-1.0.0.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/e9/dc/35fa9d2d5ad0eaede25e72e73f6e22d3ef648e78062567885cbee290a2fa/m-abac-1.0.3.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/db/e9/489b737a2d1b94171896b0cf05323262b744dca3ac4a9c4bcbcdbd403b2b/namekoplus-0.2.4.tar.gz
+[2023-07-24 09:12:12] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/a9/4f/52470408280525c909720ecfb47956f6aea81474442228a4ad8c454ea132/marqo-1.0.0.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/ec/00/6608369456ebeaf64a1d35b37a90007c61a25194b4286abe9f6d1b4bb3fc/timedctl-5.0.2.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [microlearn-gen-course]: Downloading https://files.pythonhosted.org/packages/85/8a/8c64c6021a95c97e1d18e78b6b1a6b6d0eebdcf4334eeffbfdb744c210f2/microlearn_gen_course-0.0.3.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [django-backblaze-b2]: Downloading https://files.pythonhosted.org/packages/27/8b/728f8a8a252bfcfd54c179bea3de5500fb8bbb0d740fdfaddc19fa1d1950/django_backblaze_b2-4.0.1.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/8c/07/4906647b2e098701a052ff5872a2a0c90db0d89d9b3ba87d146983bb910b/rp-0.1.99.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/46/e0/0dc88d9fccf665f46da1ff66a4ab069f5b0da216b25c74a5d6652e9deb51/namekoplus-0.3.0.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/34/e6/27f8b1bfe9c894a1407164a2791eaa9a9fa5f7431a654cb398217564b945/m-abac-1.0.4.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/63/73/5176a37a1b7bdc5305ee4f10587bee50178431cedec10d3eb8a4a9821912/fedex-sdk-1.0.1.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/63/73/5176a37a1b7bdc5305ee4f10587bee50178431cedec10d3eb8a4a9821912/fedex-sdk-1.0.1.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-5.0.1.tar.gz tmp/timedctl-5.0.2.tar.gz --markdown 20230724/t/timedctl/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/82/b6/782beb7832bc5c2feab52170c991aa252a3ead2bed1950f7637d412ccdf4/marqo-1.1.0.tar.gz
+[2023-07-24 09:12:13] INFO root fetch - processPackages [microlearn-gen-course]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [microlearn-gen-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_gen_course-0.0.2.tar.gz tmp/microlearn_gen_course-0.0.3.tar.gz --markdown 20230724/m/microlearn-gen-course/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230724/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.2.4.tar.gz tmp/namekoplus-0.3.0.tar.gz --markdown 20230724/n/namekoplus/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [django-backblaze-b2]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [django-backblaze-b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_backblaze_b2-4.0.0.tar.gz tmp/django_backblaze_b2-4.0.1.tar.gz --markdown 20230724/d/django-backblaze-b2/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.7.tar.gz tmp/switbuilder_core-0.0.8.tar.gz --markdown 20230724/s/switbuilder-core/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [m-abac]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [m-abac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-1.0.3.tar.gz tmp/m-abac-1.0.4.tar.gz --markdown 20230724/m/m-abac/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.0.tar.gz tmp/fedex-sdk-1.0.1.tar.gz --markdown 20230724/f/fedex-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.0.tar.gz tmp/fedex-sdk-1.0.1.tar.gz --markdown 20230724/f/fedex-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 09:12:13] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-07-24 09:12:13] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-1.0.0.tar.gz tmp/marqo-1.1.0.tar.gz --markdown 20230724/m/marqo/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:12:15] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.2.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [microlearn-gen-course]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_gen_course-0.0.3.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [microlearn-gen-course]: Start processing: neptune
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [microlearn-gen-course]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.1.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-5.0.2.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [timedctl]: Start processing: neptune-client
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [neptune]: New version: [1.4.0rc0] Old Version: [1.3.3rc0]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.2.4.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.3.0.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [namekoplus]: Start processing: openedx-django-require
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [neptune-client]: New version: [1.4.0rc0] Old Version: [1.3.3rc0]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.0.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.1.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [fedex-sdk]: Start processing: mage-ai
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [openedx-django-require]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/99/43/4d7fe93f22a4bf8c6406484e805b7b01050c32d4e5c395bfe71ca0f8e291/neptune-1.3.3rc0.tar.gz
+[2023-07-24 09:12:15] INFO root fetch - processPackages [mage-ai]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-4.0.0.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - processPackages [django-backblaze-b2]: Remove: archive file [/home/abi/fetcher/tmp/django_backblaze_b2-4.0.1.tar.gz]
+[2023-07-24 09:12:15] INFO root fetch - main [MainThread]: End processing [django-backblaze-b2]: success
+[2023-07-24 09:12:15] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/01/7d/2191d8c6761d378083af2a9cadd3a176d4d727b0fc9fcf4a5c1ab3087c0f/mage-ai-0.9.6.tar.gz
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/32/27/eec1c38d93af21338763a3525f5f026d3fbd4dceb9e792c9e56905506805/neptune_client-1.3.3rc0.tar.gz
+[2023-07-24 09:12:16] INFO root fetch - processPackages [openedx-django-require]: Downloading https://files.pythonhosted.org/packages/2a/3b/56d7b3a8c93c93018a1df381e25730b4a6beed10ea171bac6788cc1b4aae/openedx-django-require-2.0.0.tar.gz
+[2023-07-24 09:12:16] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.0.0.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-1.1.0.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-07-24 09:12:16] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.3.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.4.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - main [MainThread]: End processing [m-abac]: success
+[2023-07-24 09:12:16] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.7.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/bb/eb/8d26eda5c0c2712e5f19abab53e8bd63092a0d8b63bf844b1be2f9771c73/neptune-1.4.0rc0.tar.gz
+[2023-07-24 09:12:16] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.98.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.99.tar.gz]
+[2023-07-24 09:12:16] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/51/b4/f8f4d00517abb25ad121697ebb32847a01cea1cb6d249b6dd678e12ac149/neptune_client-1.4.0rc0.tar.gz
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-1.3.3rc0.tar.gz tmp/neptune-1.4.0rc0.tar.gz --markdown 20230724/n/neptune/1.3.3rc0-1.4.0rc0/diff.md --exclude *.pyd
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune-client]: executing diffoscope
+[2023-07-24 09:12:16] INFO root fetch - processPackages [neptune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_client-1.3.3rc0.tar.gz tmp/neptune_client-1.4.0rc0.tar.gz --markdown 20230724/n/neptune-client/1.3.3rc0-1.4.0rc0/diff.md --exclude *.pyd
+[2023-07-24 09:12:16] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/92/ee/cb42682977e4df3c05c6c45efe17807e304ae37c293fd365f7fb287f724b/mage-ai-0.9.7.tar.gz
+[2023-07-24 09:12:17] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-07-24 09:12:17] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.9.6.tar.gz tmp/mage-ai-0.9.7.tar.gz --markdown 20230724/m/mage-ai/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-24 09:12:17] INFO root fetch - processPackages [openedx-django-require]: Downloading https://files.pythonhosted.org/packages/ff/39/74d61581c08b2ff7818e7131f0d95781f40806c5ae181330b43b3a56bd62/openedx-django-require-2.1.0.tar.gz
+[2023-07-24 09:12:18] INFO root fetch - processPackages [openedx-django-require]: executing diffoscope
+[2023-07-24 09:12:18] INFO root fetch - processPackages [openedx-django-require]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-django-require-2.0.0.tar.gz tmp/openedx-django-require-2.1.0.tar.gz --markdown 20230724/o/openedx-django-require/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:12:19] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.3.3rc0.tar.gz]
+[2023-07-24 09:12:19] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-1.4.0rc0.tar.gz]
+[2023-07-24 09:12:19] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2023-07-24 09:12:19] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.3.3rc0.tar.gz]
+[2023-07-24 09:12:19] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.4.0rc0.tar.gz]
+[2023-07-24 09:12:19] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
+[2023-07-24 09:12:20] INFO root fetch - processPackages [openedx-django-require]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-require-2.0.0.tar.gz]
+[2023-07-24 09:12:20] INFO root fetch - processPackages [openedx-django-require]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-require-2.1.0.tar.gz]
+[2023-07-24 09:12:20] INFO root fetch - main [MainThread]: End processing [openedx-django-require]: success
+[2023-07-24 09:12:51] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.6.tar.gz]
+[2023-07-24 09:12:51] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.7.tar.gz]
+[2023-07-24 09:12:51] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-07-24 09:12:51] INFO root fetch - main [MainThread]: Store serial: [19009222]
