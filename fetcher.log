@@ -18765,3 +18765,193 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:05:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.1.3.tar.gz]
 [2023-07-24 15:05:45] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-24 15:05:45] INFO root fetch - main [MainThread]: Store serial: [19012862]
+[2023-07-24 15:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012862]
+[2023-07-24 15:10:54] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxy-cheap
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iota-sdk
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panel
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-opnsense
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psl
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unimenu
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: barbell2-bodycomp
+[2023-07-24 15:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-power-ops
+[2023-07-24 15:10:54] INFO root fetch - processPackages [proxy-cheap]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [unimenu]: New version: [3.0.0] Old Version: [0.4.2]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [iota-sdk]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [psl]: New version: [2023.7.3] Old Version: [2023.7.24]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [hyfi]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [panel]: New version: [1.2.1rc1] Old Version: [1.2.1a1]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.24] Old Version: [2023.7.23]
+[2023-07-24 15:10:54] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/eb/1a/1f01149b410231c4d44dd57aeed6fceacfec1959405d9a43baf2dfce737f/pulumi_opnsense-0.0.69.tar.gz
+[2023-07-24 15:10:54] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/67/d5/4bf343dbcb552ce4e0d45469f1ad42b9895ccc7f37341e8faffecbd05726/barbell2_bodycomp-0.8.0.tar.gz
+[2023-07-24 15:10:54] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/4f/56/3fc3482d8febc23534e11d5118c8b95760fd21f6c8074e33e0d426f5f993/proxy_cheap-0.0.5.tar.gz
+[2023-07-24 15:10:54] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/dd/cc/ae1ee3eea14fe07d20a8dab3293ecf53d97334e2e5f78be72f5463115618/hyfi-1.9.0.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/0c/a6/e21f5b249acfd08930aefbb5024859179458beec97c5a9a0449f60c4e7a0/unimenu-0.4.2.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/d7/29/fc45e1f86571dd7cfbe00cce3c9691aa84978a01ec472d6bd8088a02b3fc/psl-2023.7.24.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/b0/79/7109f4c395946cc759225ea888ea9d956b4b47f2ae9221577992ac8ec2df/iota_sdk-1.0.0rc0-cp39-none-win_amd64.whl
+[2023-07-24 15:10:55] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/53/37/fa9abe748d8503dfa0a1e3096a6f047057c27536a866ba594b27c33fa1fb/panel-1.2.1a1.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ee/8e/0009104e4b21c0c4c5979112475dad0d6d240e64d84d7fb71194acd9d73d/fbgemm_gpu_nightly_cpu-2023.7.23-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 15:10:55] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25706778>=10485760
+[2023-07-24 15:10:55] INFO root fetch - processPackages [panel]: Start processing: ansible-navigator
+[2023-07-24 15:10:55] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-07-24 15:10:55] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/d7/b2/5c4c1c66995b10cf7e25ca1730dd1b837cea894e9f0d0ce2f17ac75d6066/barbell2_bodycomp-0.9.0.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [ansible-navigator]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-07-24 15:10:55] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/15/f7/07d9b670fa0f64cf6897deb610be29634d165eecf1c1ac6a64a76ffbc01e/pulumi_opnsense-0.0.70.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/11/bd/87667a7983e637aa08eee318bd1125f750b687d7fb5e7ecf26679e3e0467/hyfi-1.9.1.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-07-24 15:10:55] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.8.0.tar.gz tmp/barbell2_bodycomp-0.9.0.tar.gz --markdown 20230724/b/barbell2-bodycomp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:10:55] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-24 15:10:55] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.0.tar.gz tmp/hyfi-1.9.1.tar.gz --markdown 20230724/h/hyfi/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-24 15:10:55] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/10/19/9a813d16d9498ea9a988c5cc8a5d960554fb134eda1d6aacca4b49e76865/unimenu-3.0.0.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/51/25/4969819520476eaac80ecdfcedab7ed2ab5c8abad627ea1309cb9fce3753/psl-2023.7.3.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/02/b5/bb7bd817302c6abc3feacb8398a4b4908dca833ee4bf5959f088dd684e99/ansible-navigator-3.4.0.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 15:10:55] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.69.tar.gz tmp/pulumi_opnsense-0.0.70.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-07-24 15:10:55] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-24 15:10:55] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230724/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 15:10:55] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/d0/dd/feb2472724cfef0ddf94bd8c1be303035420dd693e97bda98d381d41a12c/proxy_cheap-0.0.6.tar.gz
+[2023-07-24 15:10:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2e/9b/9c69a483d298e9eba7cc3874d37fc797a630e22553525ab2b8b019ea34d8/fbgemm_gpu_nightly_cpu-2023.7.24-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 15:10:55] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-07-24 15:10:55] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.7.24.tar.gz tmp/psl-2023.7.3.tar.gz --markdown 20230724/p/psl/2023.7.24-2023.7.3/diff.md --exclude *.pyd
+[2023-07-24 15:10:56] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/58/fd/4640ea43e18af3ace69e9aba8367620ed87ca1ad5dae33890d394ff3765b/ansible-navigator-3.4.1.tar.gz
+[2023-07-24 15:10:56] INFO root fetch - processPackages [ansible-navigator]: executing diffoscope
+[2023-07-24 15:10:56] INFO root fetch - processPackages [ansible-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-navigator-3.4.0.tar.gz tmp/ansible-navigator-3.4.1.tar.gz --markdown 20230724/a/ansible-navigator/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-07-24 15:10:56] INFO root fetch - processPackages [unimenu]: executing diffoscope
+[2023-07-24 15:10:56] INFO root fetch - processPackages [unimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimenu-0.4.2.tar.gz tmp/unimenu-3.0.0.tar.gz --markdown 20230724/u/unimenu/0.4.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-24 15:10:56] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/7b/0a/10ef5bf0a5fe3fc27e8fcfc6d2161cfa8a5de59db93f3a3bd6cbebfdfde9/iota_sdk-1.0.0rc1-cp39-none-win_amd64.whl
+[2023-07-24 15:10:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-24 15:10:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.23-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.24-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230724/f/fbgemm-gpu-nightly-cpu/2023.7.23-2023.7.24/diff.md --exclude *.pyd
+[2023-07-24 15:10:56] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.8.0.tar.gz]
+[2023-07-24 15:10:56] INFO root fetch - processPackages [barbell2-bodycomp]: Remove: archive file [/home/abi/fetcher/tmp/barbell2_bodycomp-0.9.0.tar.gz]
+[2023-07-24 15:10:56] INFO root fetch - processPackages [barbell2-bodycomp]: Start processing: nbdev-stdlib
+[2023-07-24 15:10:56] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-07-24 15:10:56] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 15:10:56] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-24 15:10:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.69.tar.gz]
+[2023-07-24 15:10:56] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.70.tar.gz]
+[2023-07-24 15:10:56] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: qrlew-datasets
+[2023-07-24 15:10:56] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 15:10:56] INFO root fetch - processPackages [iota-sdk]: executing diffoscope
+[2023-07-24 15:10:56] INFO root fetch - processPackages [iota-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iota_sdk-1.0.0rc0-cp39-none-win_amd64.whl.zip tmp/iota_sdk-1.0.0rc1-cp39-none-win_amd64.whl.zip --markdown 20230724/i/iota-sdk/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-24 15:10:57] INFO root fetch - processPackages [qrlew-datasets]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [cognite-power-ops]: Start processing: run-one
+[2023-07-24 15:10:57] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-24 15:10:57] INFO root fetch - processPackages [run-one]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [proxy-cheap]: executing diffoscope
+[2023-07-24 15:10:57] INFO root fetch - processPackages [proxy-cheap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_cheap-0.0.5.tar.gz tmp/proxy_cheap-0.0.6.tar.gz --markdown 20230724/p/proxy-cheap/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 15:10:57] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-24 15:10:57] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230724/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 15:10:57] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.24.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2023.7.3.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [psl]: Start processing: waffle-hub
+[2023-07-24 15:10:57] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-07-24 15:10:57] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/a7/ab/db1279e734b081ffbcaab2a901fe17e8b059d631160508bb2faf5adb6639/qrlew_datasets-0.3.1.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [waffle-hub]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-24 15:10:57] WARNING root fetch - processPackages [qrlew-datasets]: Skipping package: exceeds size limit 60570106>=10485760
+[2023-07-24 15:10:57] INFO root fetch - processPackages [qrlew-datasets]: Start processing: minecraftschematics
+[2023-07-24 15:10:57] INFO root fetch - main [MainThread]: End processing [qrlew-datasets] error
+[2023-07-24 15:10:57] INFO root fetch - processPackages [minecraftschematics]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/30/e6/5c163f644f55022f29ddaa26bd959548d374dd0565ff4c301dd247949eb0/run_one-1.0.1.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.0.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.1.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [hyfi]: Start processing: excel-framework
+[2023-07-24 15:10:57] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-24 15:10:57] INFO root fetch - processPackages [excel-framework]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/3b/a1/ba7559f16f7053aa2b1c0111db444c0a1146e792b236d74f860f9cfc9863/waffle_hub-0.2.7.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [minecraftschematics]: Downloading https://files.pythonhosted.org/packages/de/b6/a7aa07edfeb0e14a06b46aab0588c7a276b07d52374d7194e09116dff9f9/minecraftschematics-0.1.1.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/38/c5/419b60fc85019c3c2656111ad3e9c10d715c9e3e870d6a263241bb1993a3/run_one-1.0.2.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/98/40/83545921383d66e2120016ad9863e993f807a2efe67719d2af6012a87771/excel_framework-0.3.0.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-0.4.2.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-3.0.0.tar.gz]
+[2023-07-24 15:10:57] INFO root fetch - processPackages [unimenu]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 15:10:57] INFO root fetch - main [MainThread]: End processing [unimenu]: success
+[2023-07-24 15:10:57] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/72/7e/42f36fdf174164429e4d32ecd3ef6ebdd662abb25b55899f797315a2cdb9/waffle_hub-0.2.8.tar.gz
+[2023-07-24 15:10:57] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2023-07-24 15:10:57] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.0.1.tar.gz tmp/run_one-1.0.2.tar.gz --markdown 20230724/r/run-one/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 15:10:57] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [minecraftschematics]: Downloading https://files.pythonhosted.org/packages/4e/7a/a9746991f2d39eb12bee8f749dc5ab0d5ede0beda236449468d5255df389/minecraftschematics-0.1.2.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.2.7.tar.gz tmp/waffle_hub-0.2.8.tar.gz --markdown 20230724/w/waffle-hub/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/5b/65/4af9d8f51591b83822de7ae2d02287f77fb0088d4a36a5d50237220676c7/streamingcommunity_unofficialapi-0.0.3.1.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [minecraftschematics]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [minecraftschematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraftschematics-0.1.1.tar.gz tmp/minecraftschematics-0.1.2.tar.gz --markdown 20230724/m/minecraftschematics/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/d8/61/7b16334133b8ab830aa5ac09c76c49941fa696f45354b3cae40de0a71df5/excel_framework-0.4.0.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.23-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.24-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Start processing: nbdev-numpy
+[2023-07-24 15:10:58] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-24 15:10:58] INFO root fetch - processPackages [excel-framework]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [excel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_framework-0.3.0.tar.gz tmp/excel_framework-0.4.0.tar.gz --markdown 20230724/e/excel-framework/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/cb/f1/5032386a616bda063b2560d93aa1154aaef65f909bd806283a467c31a5c9/streamingcommunity_unofficialapi-0.0.3.2.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: circt
+[2023-07-24 15:10:58] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-24 15:10:58] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev41] Old Version: [1.48.1.dev39]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcommunity_unofficialapi-0.0.3.1.tar.gz tmp/streamingcommunity_unofficialapi-0.0.3.2.tar.gz --markdown 20230724/s/streamingcommunity-unofficialapi/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-24 15:10:58] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.0.0rc0-cp39-none-win_amd64.whl.zip]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.0.0rc1-cp39-none-win_amd64.whl.zip]
+[2023-07-24 15:10:58] INFO root fetch - processPackages [iota-sdk]: Start processing: cubicweb-calendar
+[2023-07-24 15:10:58] INFO root fetch - main [MainThread]: End processing [iota-sdk]: success
+[2023-07-24 15:10:58] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev39-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230724/c/circt/1.48.1.dev39-1.48.1.dev41/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-24 15:10:58] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230724/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 15:10:58] INFO root fetch - processPackages [cubicweb-calendar]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [ansible-navigator]: Remove: archive file [/home/abi/fetcher/tmp/ansible-navigator-3.4.0.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [ansible-navigator]: Remove: archive file [/home/abi/fetcher/tmp/ansible-navigator-3.4.1.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [ansible-navigator]: Start processing: cqi
+[2023-07-24 15:10:59] INFO root fetch - main [MainThread]: End processing [ansible-navigator]: success
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cubicweb-calendar]: Downloading https://files.pythonhosted.org/packages/e1/33/4d29d5f521187d2f114cefd4a200b998e145b00f05edc263a8484eb91d77/cubicweb-calendar-0.8.0.tar.gz
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cqi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.1.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.0.2.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cqi]: Downloading https://files.pythonhosted.org/packages/cb/16/ab887e99a663b0014ce6121398b56c61591e321a9f1781f6249db53cea9d/cqi-0.1.4.tar.gz
+[2023-07-24 15:10:59] INFO root fetch - processPackages [minecraftschematics]: Remove: archive file [/home/abi/fetcher/tmp/minecraftschematics-0.1.1.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [minecraftschematics]: Remove: archive file [/home/abi/fetcher/tmp/minecraftschematics-0.1.2.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - main [MainThread]: End processing [minecraftschematics]: success
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cubicweb-calendar]: Downloading https://files.pythonhosted.org/packages/d6/9d/34dff27c1d4f634a486174aabe246f5b159eaba73a991ffd33d9d424cb15/cubicweb-calendar-0.9.0.tar.gz
+[2023-07-24 15:10:59] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.7.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [waffle-hub]: Remove: archive file [/home/abi/fetcher/tmp/waffle_hub-0.2.8.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-07-24 15:10:59] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.3.0.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.4.0.tar.gz]
+[2023-07-24 15:10:59] INFO root fetch - main [MainThread]: End processing [excel-framework]: success
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cubicweb-calendar]: executing diffoscope
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cubicweb-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-calendar-0.8.0.tar.gz tmp/cubicweb-calendar-0.9.0.tar.gz --markdown 20230724/c/cubicweb-calendar/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:10:59] INFO root fetch - processPackages [cqi]: Downloading https://files.pythonhosted.org/packages/6a/3c/a5609297f778402f3176093304398b08129baa487194d71758f7b9cbd9d9/cqi-0.1.5.tar.gz
+[2023-07-24 15:11:00] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.3.1.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.3.2.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi]: success
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cqi]: executing diffoscope
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqi-0.1.4.tar.gz tmp/cqi-0.1.5.tar.gz --markdown 20230724/c/cqi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 15:11:00] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cqi]: Remove: archive file [/home/abi/fetcher/tmp/cqi-0.1.4.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cqi]: Remove: archive file [/home/abi/fetcher/tmp/cqi-0.1.5.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - main [MainThread]: End processing [cqi]: success
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cubicweb-calendar]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-calendar-0.8.0.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - processPackages [cubicweb-calendar]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-calendar-0.9.0.tar.gz]
+[2023-07-24 15:11:00] INFO root fetch - main [MainThread]: End processing [cubicweb-calendar]: success
+[2023-07-24 15:11:13] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.5.tar.gz]
+[2023-07-24 15:11:13] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.6.tar.gz]
+[2023-07-24 15:11:13] INFO root fetch - main [MainThread]: End processing [proxy-cheap]: success
+[2023-07-24 15:13:58] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-24 15:13:58] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-24 15:13:58] INFO root fetch - main [MainThread]: Store serial: [19012952]
