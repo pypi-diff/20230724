@@ -16602,3 +16602,89 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:41:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-24 13:41:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-24 13:41:00] INFO root fetch - main [MainThread]: Store serial: [19011910]
+[2023-07-24 13:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011910]
+[2023-07-24 13:46:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpress
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramqp
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-cuda110
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aio-fluid
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-vector
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skylarkpdf
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cycode
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phap
+[2023-07-24 13:46:09] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ramqp]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev9] Old Version: [0.2.6.dev8]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.86.1]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [xpress]: New version: [9.2.0] Old Version: [9.1.2]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [aio-fluid]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-24 13:46:09] WARNING root fetch - processPackages [skylarkpdf]: Skipping, unable to determine old version
+[2023-07-24 13:46:09] INFO root fetch - processPackages [skylarkpdf]: Start processing: astro-plugins
+[2023-07-24 13:46:09] INFO root fetch - main [MainThread]: End processing [skylarkpdf] error
+[2023-07-24 13:46:09] INFO root fetch - processPackages [smart-vector]: New version: [1.1] Old Version: [1.0]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [phap]: New version: [3.1.0a1] Old Version: [3.0.0]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: New version: [1.28.0] Old Version: [1.27.0]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/97/59/809b6d12b4010a0f94f8dc506c0de9c0cc63c5c68d45270c204b0b25fd2b/streamingcommunity_unofficialapi-0.0.2.1.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/c3/79/4ef7aab9039d942e10ea1e2cad8bae1a417f8ccf47df2e84b59e9b3cb8da/ramqp-9.0.0.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/40/cb/51280bbe25b1f60e412ee842e5db8968a9feb054f5ae158e200945dfb88b/cycode-0.2.6.dev8.tar.gz
+[2023-07-24 13:46:09] WARNING root fetch - processPackages [astro-plugins]: Skipping, unable to determine old version
+[2023-07-24 13:46:09] INFO root fetch - processPackages [astro-plugins]: Start processing: fastlane-bot
+[2023-07-24 13:46:09] INFO root fetch - main [MainThread]: End processing [astro-plugins] error
+[2023-07-24 13:46:09] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/eb/75/e73aa408bb66dfa26cad1f68839f28399b2aa84fb4fec40201179de5479a/fastlane_bot-0.86.1.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.87.1]
+[2023-07-24 13:46:09] INFO root fetch - processPackages [xpress]: Downloading https://files.pythonhosted.org/packages/f3/7b/68b822d03ac0144473cd673dc1ddcc6b1b79ee953983050bdf7f15a675d8/xpress-9.1.2-cp39-cp39-win_amd64.whl
+[2023-07-24 13:46:09] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/86/b2/2b9d0289650ef9d4a4e131cf73765436b84926ab324ccb6989d34e98a3fc/smart_vector-1.0.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Downloading https://files.pythonhosted.org/packages/7d/46/c87ba7de7daecb9d1cb5e3a50ff93e53887e504f1e793bd02bb6449a409f/nvidia-dali-tf-plugin-cuda110-1.27.0.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/84/6f/d9e1418947dfc190f7c582855a2f52caa5b3b04a4e6652e81e83872d4cd6/phap-3.0.0.tar.gz
+[2023-07-24 13:46:09] INFO root fetch - processPackages [aio-fluid]: Downloading https://files.pythonhosted.org/packages/1e/77/bac6d9eb39ddabdfe82d93182f4bc38c3a8cae14ab25d945c2f941943345/aio_fluid-0.5.3.tar.gz
+[2023-07-24 13:46:10] ERROR root fetch - processPackages [streamingcommunity-unofficialapi]: Unable to fetch info: No such project/version 'streamingcommunity-unofficialapi' 0.0.2.2
+[2023-07-24 13:46:10] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi] error
+[2023-07-24 13:46:10] WARNING root fetch - processPackages [xpress]: Skipping package: exceeds size limit 55088978>=10485760
+[2023-07-24 13:46:10] INFO root fetch - main [MainThread]: End processing [xpress] error
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/7e/37/02897404f51165b0205c14a048c3749dd220e9f090633d083dc6fa52ec68/fastlane_bot-0.87.1.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/8f/bc3f9b68e32f000f61eb48472d3882d83ee7f5529bfb88ef231e64e45b51/cycode-0.2.6.dev9.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9d/66/79e822b1bdec857d9f5f826f119690d1215b832e32058c86e65fab6651c5/fastlane_bot-0.9.1.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/1e/3f/3a91b5eed3067afcb0bfbb8d96da791b91ee5d4a422019e1e013961d4d7b/ramqp-9.0.1.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev8.tar.gz tmp/cycode-0.2.6.dev9.tar.gz --markdown 20230724/c/cycode/0.2.6.dev8-0.2.6.dev9/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.86.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230724/f/fastlane-bot/0.86.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] INFO root fetch - processPackages [ramqp]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [ramqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramqp-9.0.0.tar.gz tmp/ramqp-9.0.1.tar.gz --markdown 20230724/r/ramqp/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/8d/d6/ba44ad8b6f2a1c1b0d20797dafbc7b583fe15a0041113f2496f119897ffd/phap-3.1.0a1.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [aio-fluid]: Downloading https://files.pythonhosted.org/packages/52/53/a5d1c7c7816525c9eb7bdf245fcd7c3d0e35e5e338fcd6921df107d247cf/aio_fluid-0.6.0.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/f9/97/5d2ae8639fb5d453a9050a11f04a5293a69a5f1b1f6ff3ab2eaf3b8f866f/smart_vector-1.1.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Downloading https://files.pythonhosted.org/packages/f5/5f/12451d9bf1b33959ac6179d09fb61c558f53558cc6edf29b0e91f657324b/nvidia-dali-tf-plugin-cuda110-1.28.0.tar.gz
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.87.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230724/f/fastlane-bot/0.87.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] WARNING root fetch - processPackages [smart-vector]: Skipping package: exceeds size limit 10898725>=10485760
+[2023-07-24 13:46:10] INFO root fetch - main [MainThread]: End processing [smart-vector] error
+[2023-07-24 13:46:10] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-3.0.0.tar.gz tmp/phap-3.1.0a1.tar.gz --markdown 20230724/p/phap/3.0.0-3.1.0a1/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] INFO root fetch - processPackages [aio-fluid]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [aio-fluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_fluid-0.5.3.tar.gz tmp/aio_fluid-0.6.0.tar.gz --markdown 20230724/a/aio-fluid/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 13:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: executing diffoscope
+[2023-07-24 13:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-cuda110-1.27.0.tar.gz tmp/nvidia-dali-tf-plugin-cuda110-1.28.0.tar.gz --markdown 20230724/n/nvidia-dali-tf-plugin-cuda110/1.27.0-1.28.0/diff.md --exclude *.pyd
+[2023-07-24 13:46:11] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev8.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev9.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-24 13:46:11] INFO root fetch - processPackages [ramqp]: Remove: archive file [/home/abi/fetcher/tmp/ramqp-9.0.0.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - processPackages [ramqp]: Remove: archive file [/home/abi/fetcher/tmp/ramqp-9.0.1.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - main [MainThread]: End processing [ramqp]: success
+[2023-07-24 13:46:11] INFO root fetch - processPackages [aio-fluid]: Remove: archive file [/home/abi/fetcher/tmp/aio_fluid-0.5.3.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - processPackages [aio-fluid]: Remove: archive file [/home/abi/fetcher/tmp/aio_fluid-0.6.0.tar.gz]
+[2023-07-24 13:46:11] INFO root fetch - main [MainThread]: End processing [aio-fluid]: success
+[2023-07-24 13:46:12] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.86.1.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-24 13:46:12] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.87.1.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-24 13:46:12] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.0.0.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.1.0a1.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-07-24 13:46:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-cuda110-1.27.0.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-cuda110-1.28.0.tar.gz]
+[2023-07-24 13:46:12] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-cuda110]: success
+[2023-07-24 13:46:12] INFO root fetch - main [MainThread]: Store serial: [19011971]
