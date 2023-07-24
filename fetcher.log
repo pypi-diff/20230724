@@ -7893,3 +7893,134 @@
 [2023-07-24 07:06:18] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
 [2023-07-24 07:06:18] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2023-07-24 07:06:18] INFO root fetch - main [MainThread]: Store serial: [19008260]
+[2023-07-24 07:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008260]
+[2023-07-24 07:11:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiffler
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.all-in-one-accessibility
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cog2
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bsl-appcli
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libdeeplake
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: render-engine-tailwindcss
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plone.all-in-one-accessibility
+[2023-07-24 07:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: params-proto
+[2023-07-24 07:11:26] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230724] Old Version: [23.8.0a230723]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [cog2]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [render-engine-tailwindcss]: New version: [2023.7.1a2] Old Version: [2023.1.2a2]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: New version: [1.5] Old Version: [1.4]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [awyes]: New version: [10.0.6] Old Version: [10.0.5]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: New version: [1.5] Old Version: [1.4]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [tiffler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [bsl-appcli]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [params-proto]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-07-24 07:11:27] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/19/03/6738f306f0f51352c621177ec957741087f99c5cccca632a7affc5d14466/dask-cuda-23.8.0a230723.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/3f/25/1007100b17d869a2158020f0c0b06a5eee2b1e588cd3fb03c23e16bc9cf2/awyes-10.0.5.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/60/7c/1274b3842d529509e0c51534056c5de4866c1b2e77df8b7626b614af90c5/plone.all_in_one_accessibility-1.4.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/60/7c/1274b3842d529509e0c51534056c5de4866c1b2e77df8b7626b614af90c5/plone.all_in_one_accessibility-1.4.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/6a/59/c1a1177016c4a0a15fd887dc117bfd61c1cdaa837f5d607d2f4e957da2c9/tiffler-0.1.8.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/51/5a/2dca42d1b00bf615c5408182a547ed8f1ca8158629d0c191ca4175c3f64d/cog2-0.1.1.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/0a/20/7ffbcebdd86abce1864462ec4fcf39151f39d0f8e059210862e1f42b0ee3/params_proto-2.9.6-py3-none-any.whl
+[2023-07-24 07:11:27] INFO root fetch - processPackages [render-engine-tailwindcss]: Downloading https://files.pythonhosted.org/packages/c5/af/be38296a182ef62e74630f3ccae7e672faeaefd9f715d469519c139fe0e4/render_engine_tailwindcss-2023.1.2a2.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/dc/7b/1685beaf03b9ceb4d00371e322870ba0d0a2eeaa8c94a2ec55cd8c9e0a41/bsl-appcli-2.2.0.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 07:11:27] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ab/95/a9afc8692aa1159b19c5068b59fccceced7241e046c80d3bda1e9a5115f3/dask-cuda-23.8.0a230724.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/8d/d4/1966c77329abff036cb7715d08ced00346166e70a56a109b6e309694ad74/tiffler-0.1.9.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [params-proto]: Downloading https://files.pythonhosted.org/packages/d8/3c/4d8cc65883f3aae60d9d73972b9e344a55ce4c97d4130dd3848b106578ae/params_proto-2.9.7-py3-none-any.whl
+[2023-07-24 07:11:27] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/5b/7d/5c9be298bed6dfde84003f6b258f00af7b5adfd1e22ee072d62848b0b54f/awyes-10.0.6.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/29/fb/7b12656c902ff329e6aa091f8318f6a924ec77218fc16ce3b89b85345373/plone.all_in_one_accessibility-1.5.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/29/fb/7b12656c902ff329e6aa091f8318f6a924ec77218fc16ce3b89b85345373/plone.all_in_one_accessibility-1.5.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/e1/99/a059fc235640c14c7aecf12e874a3b77b7954afee6c216ae95b05ac7942a/bsl-appcli-2.2.1.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [cog2]: Downloading https://files.pythonhosted.org/packages/9a/70/2bc41fc061ba594625e9c586b5ad13055d988675016f5d6d36fb4eb83df9/cog2-0.1.2.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [render-engine-tailwindcss]: Downloading https://files.pythonhosted.org/packages/3e/79/ad4d81274ed26f8d88986fe0e20f4669a58f4eaed43c10c7bbef5c884943/render_engine_tailwindcss-2023.7.1a2.tar.gz
+[2023-07-24 07:11:27] INFO root fetch - processPackages [params-proto]: executing diffoscope
+[2023-07-24 07:11:27] INFO root fetch - processPackages [params-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/params_proto-2.9.6-py3-none-any.whl.zip tmp/params_proto-2.9.7-py3-none-any.whl.zip --markdown 20230724/p/params-proto/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.5.tar.gz tmp/awyes-10.0.6.tar.gz --markdown 20230724/a/awyes/10.0.5-10.0.6/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [tiffler]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [tiffler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiffler-0.1.8.tar.gz tmp/tiffler-0.1.9.tar.gz --markdown 20230724/t/tiffler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230723.tar.gz tmp/dask-cuda-23.8.0a230724.tar.gz --markdown 20230724/d/dask-cuda/23.8.0a230723-23.8.0a230724/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-2.2.0.tar.gz tmp/bsl-appcli-2.2.1.tar.gz --markdown 20230724/b/bsl-appcli/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [render-engine-tailwindcss]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [render-engine-tailwindcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine_tailwindcss-2023.1.2a2.tar.gz tmp/render_engine_tailwindcss-2023.7.1a2.tar.gz --markdown 20230724/r/render-engine-tailwindcss/2023.1.2a2-2023.7.1a2/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [plone.all-in-one-accessibility]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [plone.all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.all_in_one_accessibility-1.4.tar.gz tmp/plone.all_in_one_accessibility-1.5.tar.gz --markdown 20230724/p/plone.all-in-one-accessibility/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-07-24 07:11:28] INFO root fetch - processPackages [plone.all-in-one-accessibility]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [libdeeplake]: Start processing: awyes
+[2023-07-24 07:11:28] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-07-24 07:11:28] INFO root fetch - processPackages [plone.all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.all_in_one_accessibility-1.4.tar.gz tmp/plone.all_in_one_accessibility-1.5.tar.gz --markdown 20230724/p/plone.all-in-one-accessibility/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [cog2]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [cog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog2-0.1.1.tar.gz tmp/cog2-0.1.2.tar.gz --markdown 20230724/c/cog2/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 07:11:28] INFO root fetch - processPackages [awyes]: New version: [10.0.6] Old Version: [10.0.5]
+[2023-07-24 07:11:28] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 07:11:28] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.5.tar.gz tmp/awyes-10.0.6.tar.gz --markdown 20230724/a/awyes/10.0.5-10.0.6/diff.md --exclude *.pyd
+[2023-07-24 07:11:29] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.5.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.6.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [awyes]: Start processing: plone.all-in-one-accessibility
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.6-py3-none-any.whl.zip]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [params-proto]: Remove: archive file [/home/abi/fetcher/tmp/params_proto-2.9.7-py3-none-any.whl.zip]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [params-proto]: Start processing: tiffler
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [params-proto]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [plone.all-in-one-accessibility]: New version: [1.6] Old Version: [1.5]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.8.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.9.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [tiffler]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [tiffler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/6a/59/c1a1177016c4a0a15fd887dc117bfd61c1cdaa837f5d607d2f4e957da2c9/tiffler-0.1.8.tar.gz
+[2023-07-24 07:11:29] INFO root fetch - processPackages [render-engine-tailwindcss]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_tailwindcss-2023.1.2a2.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [render-engine-tailwindcss]: Remove: archive file [/home/abi/fetcher/tmp/render_engine_tailwindcss-2023.7.1a2.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [render-engine-tailwindcss]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.1.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [cog2]: Remove: archive file [/home/abi/fetcher/tmp/cog2-0.1.2.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [cog2]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Downloading https://files.pythonhosted.org/packages/6e/ca/ac3de0de269a8ed940830abf3442e4b1667dfc58f3621d607ee0c949e183/plone.all_in_one_accessibility-1.6.tar.gz
+[2023-07-24 07:11:29] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/plone.all_in_one_accessibility-1.4.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [plone.all-in-one-accessibility]: Remove: archive file [/home/abi/fetcher/tmp/plone.all_in_one_accessibility-1.5.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [plone.all-in-one-accessibility]: success
+[2023-07-24 07:11:29] ERROR root fetch - processPackages [awyes]: Diffoscope failed: time="2023-07-24T07:11:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
+
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [awyes] error
+[2023-07-24 07:11:29] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/8d/d4/1966c77329abff036cb7715d08ced00346166e70a56a109b6e309694ad74/tiffler-0.1.9.tar.gz
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [plone.all-in-one-accessibility]: success
+[2023-07-24 07:11:29] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230723.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230724.tar.gz]
+[2023-07-24 07:11:29] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-24 07:11:30] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.2.0.tar.gz]
+[2023-07-24 07:11:30] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.2.1.tar.gz]
+[2023-07-24 07:11:30] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-07-24 07:11:30] INFO root fetch - processPackages [tiffler]: executing diffoscope
+[2023-07-24 07:11:30] INFO root fetch - processPackages [tiffler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiffler-0.1.8.tar.gz tmp/tiffler-0.1.9.tar.gz --markdown 20230724/t/tiffler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 07:11:30] INFO root fetch - processPackages [plone.all-in-one-accessibility]: executing diffoscope
+[2023-07-24 07:11:30] INFO root fetch - processPackages [plone.all-in-one-accessibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.all_in_one_accessibility-1.5.tar.gz tmp/plone.all_in_one_accessibility-1.6.tar.gz --markdown 20230724/p/plone.all-in-one-accessibility/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-24 07:11:30] ERROR root fetch - processPackages [plone.all-in-one-accessibility]: Diffoscope failed: time="2023-07-24T07:11:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/plone.all_in_one_accessibility-1.5.tar.gz: No such file or directory
+
+[2023-07-24 07:11:30] INFO root fetch - main [MainThread]: End processing [plone.all-in-one-accessibility] error
+[2023-07-24 07:11:30] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.8.tar.gz]
+[2023-07-24 07:11:30] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.9.tar.gz]
+[2023-07-24 07:11:30] INFO root fetch - main [MainThread]: End processing [tiffler]: success
+[2023-07-24 07:11:30] INFO root fetch - main [MainThread]: Store serial: [19008329]
