@@ -17839,3 +17839,108 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:23:09] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-tagvalidator-3.6.3.tar.gz]
 [2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [resoto-plugin-tagvalidator]: success
 [2023-07-24 14:23:09] INFO root fetch - main [MainThread]: Store serial: [19012391]
+[2023-07-24 14:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012391]
+[2023-07-24 14:28:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resoto-plugin-azure
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omidb
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-standard-margin
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zou
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serialtools
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-payment-order
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csstuning
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feedancy
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-jobs
+[2023-07-24 14:28:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynrender-skia
+[2023-07-24 14:28:18] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1.3]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [resoto-plugin-azure]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [omidb]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-24 14:28:18] WARNING root fetch - processPackages [csstuning]: Skipping, unable to determine old version
+[2023-07-24 14:28:18] INFO root fetch - processPackages [csstuning]: Start processing: pyo-oracle
+[2023-07-24 14:28:18] INFO root fetch - main [MainThread]: End processing [csstuning] error
+[2023-07-24 14:28:18] INFO root fetch - processPackages [serialtools]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [dynrender-skia]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [feedancy]: New version: [0.1.4] Old Version: [0.1.3b0]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [pyo-oracle]: New version: [0.0.2] Old Version: [0.0.1a0]
+[2023-07-24 14:28:18] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/bc/60/34072c3e63de24c524d10927e5f675dd8aef3018d70d95bc91c3653f3a5c/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl
+[2023-07-24 14:28:18] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/f5/45/2651d9673f8a9a9024b966856c9ad2380e43a381cbf5ee75f820d45fa4aa/serialtools-0.5.0.tar.gz
+[2023-07-24 14:28:18] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-24 14:28:18] INFO root fetch - processPackages [omidb]: Downloading https://files.pythonhosted.org/packages/90/fd/50c67c9691f9454d7c746382aefa5be3501ed2742cd1759e2021666f92a8/omidb-0.6.0.tar.gz
+[2023-07-24 14:28:18] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Downloading https://files.pythonhosted.org/packages/96/41/f44eeda03b908de5a6f8bc57001a45e1eadde93219018f0d94bab4fbaea0/odoo_addon_product_standard_margin-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-24 14:28:18] INFO root fetch - processPackages [dynrender-skia]: Downloading https://files.pythonhosted.org/packages/68/a9/33bfa4d34c90d5a3c56121683c357d993d41380554c029ae3a148860600c/dynrender_skia-0.1.2.tar.gz
+[2023-07-24 14:28:18] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/e0/f3/ddf0ea5f64246150d59814daac4fa2009d019bf744563061c0cb82460597/feedancy-0.1.3b0.tar.gz
+[2023-07-24 14:28:18] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-07-24 14:28:18] INFO root fetch - processPackages [resoto-plugin-azure]: Downloading https://files.pythonhosted.org/packages/6b/12/f91b52626331c04d45c3978cba738f6da92913ec5fe31c07e6d9ce24024f/resoto-plugin-azure-3.6.2.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [pyo-oracle]: Downloading https://files.pythonhosted.org/packages/b8/55/c4a46357ac28a976cd4f2e037b44fbbada02f49299faa8568f427413815c/pyo_oracle-0.0.1a0.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/d9/28/f21f020b7ae96288c8ea7de93de9829813825daba19deee8cd937ec3a46b/serialtools-0.6.0.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230724/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/85/64/719d1f375094f31023cd2b97435870f17fea5d016d5f51fdd8250c664576/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl
+[2023-07-24 14:28:19] INFO root fetch - processPackages [omidb]: Downloading https://files.pythonhosted.org/packages/e5/26/0d6e504fb5bb1bd7fca70dc6aea9cb35deb62bcf425f57d9e4f2d133176d/omidb-0.7.0.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/e9/77/6a2e167a2f892efb0d0ac10fb350b12e5ec63c1c8df7ccf3d00cc2227a17/feedancy-0.1.4.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [serialtools]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [serialtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialtools-0.5.0.tar.gz tmp/serialtools-0.6.0.tar.gz --markdown 20230724/s/serialtools/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [dynrender-skia]: Downloading https://files.pythonhosted.org/packages/7d/40/4e6455f765ed2129f1bc66fad73bbef32357150347b6d28d1dc000c88555/dynrender_skia-0.1.5.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [resoto-plugin-azure]: Downloading https://files.pythonhosted.org/packages/74/36/4b9f7b63cbb4a6a061b7c38110d69a545271bcdd3b950026058c4159d2a2/resoto-plugin-azure-3.6.3.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Downloading https://files.pythonhosted.org/packages/21/76/3321c2f592a6bbb78366dc49e729afcb7d16e1165760e0d8cf04e8a96b22/odoo_addon_product_standard_margin-16.0.1.0.1-py3-none-any.whl
+[2023-07-24 14:28:19] INFO root fetch - processPackages [pyo-oracle]: Downloading https://files.pythonhosted.org/packages/80/7d/a4641891c9c81594ae8ec750f4fb72d6484ce02e04ab8537dffb38b94c14/pyo_oracle-0.0.2.tar.gz
+[2023-07-24 14:28:19] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-account-payment-order/16.0.1.1.1.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.1.3b0.tar.gz tmp/feedancy-0.1.4.tar.gz --markdown 20230724/f/feedancy/0.1.3b0-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [omidb]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [omidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omidb-0.6.0.tar.gz tmp/omidb-0.7.0.tar.gz --markdown 20230724/o/omidb/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [resoto-plugin-azure]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [resoto-plugin-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-azure-3.6.2.tar.gz tmp/resoto-plugin-azure-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-azure/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [dynrender-skia]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_standard_margin-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_standard_margin-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-product-standard-margin/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [dynrender-skia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynrender_skia-0.1.2.tar.gz tmp/dynrender_skia-0.1.5.tar.gz --markdown 20230724/d/dynrender-skia/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [pyo-oracle]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [pyo-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyo_oracle-0.0.1a0.tar.gz tmp/pyo_oracle-0.0.2.tar.gz --markdown 20230724/p/pyo-oracle/0.0.1a0-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:28:19] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-07-24 14:28:19] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230724/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 14:28:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-24 14:28:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-24 14:28:21] INFO root fetch - processPackages [leadguru-jobs]: Start processing: riptable
+[2023-07-24 14:28:21] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-24 14:28:21] INFO root fetch - processPackages [riptable]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-24 14:28:21] INFO root fetch - processPackages [riptable]: Downloading https://files.pythonhosted.org/packages/d7/66/df9b44095f74fa32b23033ab9808e50cacd450df4bec9bb8ae973a0221c1/riptable-1.9.1.tar.gz
+[2023-07-24 14:28:22] INFO root fetch - processPackages [omidb]: Remove: archive file [/home/abi/fetcher/tmp/omidb-0.6.0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [omidb]: Remove: archive file [/home/abi/fetcher/tmp/omidb-0.7.0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [omidb]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [pyo-oracle]: Remove: archive file [/home/abi/fetcher/tmp/pyo_oracle-0.0.1a0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [pyo-oracle]: Remove: archive file [/home/abi/fetcher/tmp/pyo_oracle-0.0.2.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [pyo-oracle]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [resoto-plugin-azure]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-azure-3.6.2.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [resoto-plugin-azure]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-azure-3.6.3.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [resoto-plugin-azure]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [dynrender-skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.1.2.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [dynrender-skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.1.5.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [dynrender-skia]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_margin-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_margin-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-standard-margin]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.3b0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.4.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [riptable]: Downloading https://files.pythonhosted.org/packages/9d/a4/0c950029d8fc30f8e516b88fe5233d4e5dba81304a532b3c67ba628be471/riptable-1.9.2.tar.gz
+[2023-07-24 14:28:22] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-07-24 14:28:22] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.5.0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.6.0.tar.gz]
+[2023-07-24 14:28:22] INFO root fetch - main [MainThread]: End processing [serialtools]: success
+[2023-07-24 14:28:23] INFO root fetch - processPackages [riptable]: executing diffoscope
+[2023-07-24 14:28:23] INFO root fetch - processPackages [riptable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptable-1.9.1.tar.gz tmp/riptable-1.9.2.tar.gz --markdown 20230724/r/riptable/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-24 14:28:25] INFO root fetch - processPackages [riptable]: Remove: archive file [/home/abi/fetcher/tmp/riptable-1.9.1.tar.gz]
+[2023-07-24 14:28:25] INFO root fetch - processPackages [riptable]: Remove: archive file [/home/abi/fetcher/tmp/riptable-1.9.2.tar.gz]
+[2023-07-24 14:28:25] INFO root fetch - main [MainThread]: End processing [riptable]: success
+[2023-07-24 14:28:25] INFO root fetch - main [MainThread]: Store serial: [19012425]
