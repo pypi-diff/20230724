@@ -9276,3 +9276,129 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:40:04] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.7.tar.gz]
 [2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
 [2023-07-24 08:40:04] INFO root fetch - main [MainThread]: Store serial: [19008897]
+[2023-07-24 08:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008897]
+[2023-07-24 08:45:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stock-open-api
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distcrab
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciokatana
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcmd
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p3lib
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazynovel
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biggo-pms-api-python
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apimatic-core-interfaces
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hot-fair-utilities
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easypcd
+[2023-07-24 08:45:13] WARNING root fetch - processPackages [ciokatana]: Skipping, unable to determine old version
+[2023-07-24 08:45:13] INFO root fetch - processPackages [ciokatana]: Start processing: django-jsonform
+[2023-07-24 08:45:13] INFO root fetch - main [MainThread]: End processing [ciokatana] error
+[2023-07-24 08:45:13] INFO root fetch - processPackages [easypcd]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [bcmd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [hot-fair-utilities]: New version: [1.1.1] Old Version: [1.0.52]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [lazynovel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [p3lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [apimatic-core-interfaces]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 08:45:13] WARNING root fetch - processPackages [biggo-pms-api-python]: Skipping, unable to determine old version
+[2023-07-24 08:45:13] INFO root fetch - processPackages [biggo-pms-api-python]: Start processing: alibabacloud-cdn20180510-py2
+[2023-07-24 08:45:13] INFO root fetch - main [MainThread]: End processing [biggo-pms-api-python] error
+[2023-07-24 08:45:13] INFO root fetch - processPackages [django-jsonform]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/46/a8/eebf41b619d9f32fa1967e94ecbe843b78c7d45d0a86b560a1f18dafc2bf/lazynovel-0.1.8.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/0a/d8/c401e2a1418c6391c8838cbcdfb73780650cb5b3d5f958f06d427ffc8843/easypcd-0.0.23-py3-none-any.whl
+[2023-07-24 08:45:13] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/5e/e3/cd2bd2fb723d3c3bda219528fde625cc97c662a4231f812db800c334a205/bcmd-0.0.7.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-24 08:45:13] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a9/3c/063f1b38ae7de2bb168521e833ff550429d3ace25b246023b64288409417/stock-open-api-0.0.6.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/55/b4/4268f55ec92e6edf58f002fc8dc370db4195e6139f3032d8c7b5863921cb/p3lib-1.1.8.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [apimatic-core-interfaces]: Downloading https://files.pythonhosted.org/packages/7b/0a/e2a2655b1d78f9e3de19e8c2b58f40f4c8fc442e0a0c1bb9ec826da63772/apimatic-core-interfaces-0.1.3.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/dd/92/c6727e2eca8116a4a5d6ce6a92a1ef20be8e63196d8e7307a4749c16ad62/hot-fair-utilities-1.0.52.tar.gz
+[2023-07-24 08:45:13] INFO root fetch - processPackages [django-jsonform]: Downloading https://files.pythonhosted.org/packages/f3/c5/1b6d2ff20d2173436b29b2e69f657c6371d5e1c71f588af14bf5630c1805/django-jsonform-2.8.1.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/35/ef/434de7cfc6944271044d56580cb478a0d5ac2d1134625c5f619618723fc4/alibabacloud_cdn20180510_py2-1.2.8.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/b8/92/adb188f1c22259efb22475de73d750f0e798a80bddf9ccb1edf2eac207e5/lazynovel-0.1.9.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/14/bb/4ff93028b64c93970c4b76f5b7cfe73c743a936ed7a9653b9166cfab7d40/bcmd-0.0.8.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [easypcd]: Downloading https://files.pythonhosted.org/packages/d7/2c/a0fe3821d39ece622b4c264057955aad24321d0d55727bcec36406c27532/easypcd-0.0.24-py3-none-any.whl
+[2023-07-24 08:45:14] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a8/e4/fe19ada3d18a4a5f7e9bb3bcb840a3f41c1cb6683237767fe6d5ada2a6ea/stock-open-api-0.0.7.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [apimatic-core-interfaces]: Downloading https://files.pythonhosted.org/packages/ab/cd/9d8c6647667327778578738f33b122ea0ca9832d8d9b608c232487d28063/apimatic-core-interfaces-0.1.4.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.8.tar.gz tmp/lazynovel-0.1.9.tar.gz --markdown 20230724/l/lazynovel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [easypcd]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [easypcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypcd-0.0.23-py3-none-any.whl.zip tmp/easypcd-0.0.24-py3-none-any.whl.zip --markdown 20230724/e/easypcd/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.7.tar.gz tmp/bcmd-0.0.8.tar.gz --markdown 20230724/b/bcmd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230724/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/60/e1/43c45312c25e2b9aa211bbc520597e2bb4da540463d09157e3b570a40ab5/hot-fair-utilities-1.1.1.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.6.tar.gz tmp/stock-open-api-0.0.7.tar.gz --markdown 20230724/s/stock-open-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [p3lib]: Downloading https://files.pythonhosted.org/packages/a9/c3/0d9fa73590a7b32debaaf0a21580a8af5a4b1780adbc93e9ec56ed1a1faa/p3lib-1.1.9.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Downloading https://files.pythonhosted.org/packages/c0/ab/4534fca9a4233612688ff128425b4cb3ed491595e204a4732512452a2096/alibabacloud_cdn20180510_py2-1.2.9.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [apimatic-core-interfaces]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [apimatic-core-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-interfaces-0.1.3.tar.gz tmp/apimatic-core-interfaces-0.1.4.tar.gz --markdown 20230724/a/apimatic-core-interfaces/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [django-jsonform]: Downloading https://files.pythonhosted.org/packages/3c/68/dab99403f181b5914aeab45bd24c8ba108f832e6d37fc571ca3b416b66f9/django-jsonform-2.9.0.tar.gz
+[2023-07-24 08:45:14] INFO root fetch - processPackages [hot-fair-utilities]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [hot-fair-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-fair-utilities-1.0.52.tar.gz tmp/hot-fair-utilities-1.1.1.tar.gz --markdown 20230724/h/hot-fair-utilities/1.0.52-1.1.1/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz --markdown 20230724/a/alibabacloud-cdn20180510-py2/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [p3lib]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [p3lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3lib-1.1.8.tar.gz tmp/p3lib-1.1.9.tar.gz --markdown 20230724/p/p3lib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:45:14] INFO root fetch - processPackages [django-jsonform]: executing diffoscope
+[2023-07-24 08:45:14] INFO root fetch - processPackages [django-jsonform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jsonform-2.8.1.tar.gz tmp/django-jsonform-2.9.0.tar.gz --markdown 20230724/d/django-jsonform/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-24 08:45:15] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.23-py3-none-any.whl.zip]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [easypcd]: Remove: archive file [/home/abi/fetcher/tmp/easypcd-0.0.24-py3-none-any.whl.zip]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [easypcd]: Start processing: fugue
+[2023-07-24 08:45:15] INFO root fetch - main [MainThread]: End processing [easypcd]: success
+[2023-07-24 08:45:15] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.8.tar.gz]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.9.tar.gz]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [lazynovel]: Start processing: gardener-cicd-base
+[2023-07-24 08:45:15] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2023-07-24 08:45:15] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.7.tar.gz]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.8.tar.gz]
+[2023-07-24 08:45:15] INFO root fetch - processPackages [bcmd]: Start processing: gardener-cicd-cli
+[2023-07-24 08:45:15] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [fugue]: New version: [0.8.6.dev3] Old Version: [0.8.6.dev2]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.6.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.7.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [p3lib]: Remove: archive file [/home/abi/fetcher/tmp/p3lib-1.1.8.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [p3lib]: Remove: archive file [/home/abi/fetcher/tmp/p3lib-1.1.9.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [p3lib]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/41/8e/a44a77eefebb2825294c128f5fc1c94eec66432551f0f0f0058712a302dc/fugue-0.8.6.dev2.tar.gz
+[2023-07-24 08:45:16] INFO root fetch - processPackages [apimatic-core-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-interfaces-0.1.3.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [apimatic-core-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-interfaces-0.1.4.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [apimatic-core-interfaces]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.52.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.1.1.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [hot-fair-utilities]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/09/ac/718b13caa0fefb088cb419297901fd56f409c39c90f42b1640436ce75ebc/gardener-cicd-base-1.2114.0.tar.gz
+[2023-07-24 08:45:16] INFO root fetch - processPackages [fugue]: Downloading https://files.pythonhosted.org/packages/9f/60/5a8226a6219d0aaa0c201c329c2b832c6c1afb43f0e46b8c267efac64078/fugue-0.8.6.dev3.tar.gz
+[2023-07-24 08:45:16] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2115.0] Old Version: [1.2114.0]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.8.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [alibabacloud-cdn20180510-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cdn20180510_py2-1.2.9.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-cdn20180510-py2]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [fugue]: executing diffoscope
+[2023-07-24 08:45:16] INFO root fetch - processPackages [fugue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugue-0.8.6.dev2.tar.gz tmp/fugue-0.8.6.dev3.tar.gz --markdown 20230724/f/fugue/0.8.6.dev2-0.8.6.dev3/diff.md --exclude *.pyd
+[2023-07-24 08:45:16] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/e2/18/50ced0db529e53c245cd3e019cfc7f22e90fca6c3d4283fe9d6870d46eab/gardener_cicd_base-1.2115.0-py3-none-any.whl
+[2023-07-24 08:45:16] INFO root fetch - processPackages [django-jsonform]: Remove: archive file [/home/abi/fetcher/tmp/django-jsonform-2.8.1.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - processPackages [django-jsonform]: Remove: archive file [/home/abi/fetcher/tmp/django-jsonform-2.9.0.tar.gz]
+[2023-07-24 08:45:16] INFO root fetch - main [MainThread]: End processing [django-jsonform]: success
+[2023-07-24 08:45:16] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b6/22/9488d68dd188ff719d42e9f0f9aa1c5011c3408eb926b13724c294f4af69/gardener-cicd-cli-1.2114.0.tar.gz
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2114.0.tar.gz tmp/gardener_cicd_base-1.2115.0-py3-none-any.whl.zip --markdown 20230724/g/gardener-cicd-base/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/6f/66/ed2b19a3083d659fd0cf165121b62328f09ff2eed6df890b43484ba41b1c/gardener_cicd_cli-1.2115.0-py3-none-any.whl
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2114.0.tar.gz tmp/gardener_cicd_cli-1.2115.0-py3-none-any.whl.zip --markdown 20230724/g/gardener-cicd-cli/1.2114.0-1.2115.0/diff.md --exclude *.pyd
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2114.0.tar.gz]
+[2023-07-24 08:45:17] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2115.0-py3-none-any.whl.zip]
+[2023-07-24 08:45:17] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-24 08:45:18] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev2.tar.gz]
+[2023-07-24 08:45:18] INFO root fetch - processPackages [fugue]: Remove: archive file [/home/abi/fetcher/tmp/fugue-0.8.6.dev3.tar.gz]
+[2023-07-24 08:45:18] INFO root fetch - main [MainThread]: End processing [fugue]: success
+[2023-07-24 08:45:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2114.0.tar.gz]
+[2023-07-24 08:45:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2115.0-py3-none-any.whl.zip]
+[2023-07-24 08:45:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-24 08:45:18] INFO root fetch - main [MainThread]: Store serial: [19008939]
