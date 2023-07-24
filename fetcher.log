@@ -4506,3 +4506,90 @@
 [2023-07-24 03:00:56] INFO root fetch - processPackages [careless]: Remove: archive file [/home/abi/fetcher/tmp/careless-0.3.5.tar.gz]
 [2023-07-24 03:00:56] INFO root fetch - main [MainThread]: End processing [careless]: success
 [2023-07-24 03:00:56] INFO root fetch - main [MainThread]: Store serial: [19006863]
+[2023-07-24 03:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19006863]
+[2023-07-24 03:06:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-hello
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-hello
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-hello
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odooless
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idg-metadata-client
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cycparser
+[2023-07-24 03:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hue-sunrise
+[2023-07-24 03:06:05] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-24 03:06:05] WARNING root fetch - processPackages [idg-metadata-client]: Skipping, unable to determine old version
+[2023-07-24 03:06:05] INFO root fetch - main [MainThread]: End processing [idg-metadata-client] error
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a60] Old Version: [0.1.0a59]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: New version: [0.1.0a60] Old Version: [0.1.0a59]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a60] Old Version: [0.1.0a59]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [odooless]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cycparser]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230723] Old Version: [0.0.8.dev20230722]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/83/c7/5187d52214fac6a43d9c74459c5f99b719a8085f1dc90b35d589c9ae7a42/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/75/22/4da44c5075cba5feb38d0de0a9b3edd8bf25cbe5774f1cd5e8762bbd39cd/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/44/c4/00724869fd192d97a3320ee4a783000e3edf4b265a6489b61598bdafda45/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/68/1f/4ed853a33bd5090675f0f6f71e7a0e9b7e0039e9ef8d39702499789dac36/aemcmc-nightly-0.0.8.dev20230722.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/70/de/852482611778aa3545ac429491ffb6ff6c488fe3b7919cc962d3ce959bad/odooless-0.1.8.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/1c/df/ccef6d8e9998e1f3a0d71ad2d1dccb82149bd4b6761aa0ba04746369db67/cycparser-1.2.8.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/45/a7/b36be33674418f4f3dac30d3b1e1c6a8767a059c10e1002e19683f1667e6/sqlite_utils_sqlite_hello-0.1.0a60-py3-none-any.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/63/0a/5b0a440e5e6b81852d4cce4341de3eda3176570a296a2517134c85ca9dda/aemcmc-nightly-0.0.8.dev20230723.tar.gz
+[2023-07-24 03:06:05] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/74/39/33482432b1103e0fa26e84ee27f22cbb5dd5f341924f1eb42a2e3fa544f7/sqlite_hello-0.1.0a60-py3-none-win_amd64.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/db/e7/b8dc97875eb25715a17d91ef1dda95eef0b60d1d0cab9bc386cb7fb8f87f/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl
+[2023-07-24 03:06:05] INFO root fetch - processPackages [odooless]: Downloading https://files.pythonhosted.org/packages/8d/34/afa3f9b7bc5815240a0c4a3b35fa74133d9bbedadc4257bc8768e0376cfe/odooless-0.1.9.tar.gz
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-24 03:06:06] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-hello/0.1.0a59-0.1.0a60/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_hello-0.1.0a60-py3-none-any.whl.zip --markdown 20230724/s/sqlite-utils-sqlite-hello/0.1.0a59-0.1.0a60/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230722.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230723.tar.gz --markdown 20230724/a/aemcmc-nightly/0.0.8.dev20230722-0.0.8.dev20230723/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [odooless]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [odooless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooless-0.1.8.tar.gz tmp/odooless-0.1.9.tar.gz --markdown 20230724/o/odooless/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cycparser]: Downloading https://files.pythonhosted.org/packages/18/d8/2b7fc87b39a5c7e3e5efb3c4fba10bdea69dddbcaccc22660be5d4666496/cycparser-1.2.9.tar.gz
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-24 03:06:06] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl.zip tmp/sqlite_hello-0.1.0a60-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-hello/0.1.0a59-0.1.0a60/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cycparser]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cycparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycparser-1.2.8.tar.gz tmp/cycparser-1.2.9.tar.gz --markdown 20230724/c/cycparser/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230724/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230724/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-24 03:06:06] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230724/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 03:06:07] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a60-py3-none-any.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.8.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [odooless]: Remove: archive file [/home/abi/fetcher/tmp/odooless-0.1.9.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [odooless]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a60-py3-none-any.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a60-py3-none-win_amd64.whl.zip]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230722.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230723.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-24 03:06:07] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.8.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - processPackages [cycparser]: Remove: archive file [/home/abi/fetcher/tmp/cycparser-1.2.9.tar.gz]
+[2023-07-24 03:06:07] INFO root fetch - main [MainThread]: End processing [cycparser]: success
+[2023-07-24 03:06:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-24 03:06:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-24 03:06:08] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-24 03:06:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-24 03:06:08] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-24 03:06:08] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-24 03:06:08] INFO root fetch - main [MainThread]: Store serial: [19006894]
