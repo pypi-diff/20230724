@@ -10621,3 +10621,167 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:33:56] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.3.tar.gz]
 [2023-07-24 09:33:56] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
 [2023-07-24 09:33:56] INFO root fetch - main [MainThread]: Store serial: [19009484]
+[2023-07-24 09:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009484]
+[2023-07-24 09:39:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catalogue
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kevin-toolbox-dev
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tksheet
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: binapy
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgsqlx-generator
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loghelper
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proctracer
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microcat
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azureml-acft-accelerator
+[2023-07-24 09:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azureml-acft-common-components
+[2023-07-24 09:39:07] INFO root fetch - processPackages [tksheet]: New version: [6.2.3] Old Version: [6.2.2]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [microcat]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [loghelper]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [proctracer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [binapy]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [catalogue]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-07-24 09:39:07] WARNING root fetch - processPackages [pgsqlx-generator]: Skipping, unable to determine old version
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [pgsqlx-generator]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-07-24 09:39:07] INFO root fetch - main [MainThread]: End processing [pgsqlx-generator] error
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/39/a9/3dfdb9defe54c21edc7ba6ffd226dcc29fa9ff2373f68337427d6923b213/microcat-0.2.4.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [loghelper]: Downloading https://files.pythonhosted.org/packages/02/ce/d6d93f1e73dc2c0697672939ca345201e65e5045c54a3b11de6009a63e7b/loghelper-1.0.7-py3-none-any.whl
+[2023-07-24 09:39:07] INFO root fetch - processPackages [binapy]: Downloading https://files.pythonhosted.org/packages/31/8f/c65404fd35d65173a821888266719070b8c6d7bbf20554ea2a5eeeecc5f6/binapy-0.6.1.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [catalogue]: Downloading https://files.pythonhosted.org/packages/d5/bd/c3d49317881ae32952ab269b6033b0234972086a35aef6b1fe19796f3079/catalogue-2.0.9.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/67/dd/488aff6db65c250411ff66a279b4ca2abf57035aca2996ab4329606dc515/tksheet-6.2.2.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/9c/50/3a7a6a4f03f2636bd638fa238dfc6e8df1154c84b0f5245d91a5e28503a1/proctracer-0.0.1.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/93/52/73018c686f115cfb4833de4eb90c509c8b8b6dc5e8af8a9a1395fcbcc678/kevin-toolbox-dev-1.1.3.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/1b/69/79c753b95642820059ac6078e8d3304c534d5fb1670b39f2979261b8e8e5/azureml_acft_common_components-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/7e/ef/bae82174f8ae37679572ec1080feac58efa577918ab6594b2b38d1113bcd/azureml_acft_accelerator-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:07] WARNING root fetch - processPackages [microcat]: Skipping package: exceeds size limit 26980855>=10485760
+[2023-07-24 09:39:07] INFO root fetch - processPackages [microcat]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-07-24 09:39:07] INFO root fetch - main [MainThread]: End processing [microcat] error
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/b3/e4/d85f7a1a243a906f8c0c1337e73e9679cc506d3cacd07e2751e7fe7db717/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:07] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:07] INFO root fetch - processPackages [catalogue]: Downloading https://files.pythonhosted.org/packages/ff/03/e67744cbf6ab0d5437a8f27775c60b08a28790eb2f1fb36a6f47868303a9/catalogue-2.1.0.tar.gz
+[2023-07-24 09:39:07] INFO root fetch - processPackages [loghelper]: Downloading https://files.pythonhosted.org/packages/20/d2/a33fd7906df4a7cd1c9f7a15a8bcdae4c2d2180544ce91577c98524ecadb/loghelper-1.0.8-py3-none-any.whl
+[2023-07-24 09:39:07] INFO root fetch - processPackages [binapy]: Downloading https://files.pythonhosted.org/packages/0d/18/322295f816bc7865b9a778c353af922e8d72e22a76bcd0490cfc7f2ff2c1/binapy-0.7.0.tar.gz
+[2023-07-24 09:39:08] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/02/d7/2bd895e2558f31b66e53346898e42476cc562a74f69b73d1aeb377769b6f/tksheet-6.2.3.tar.gz
+[2023-07-24 09:39:08] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/1f/0c/f8e3f20b29089fd1eb81dd346a36c9f9e467e39bd430010e932966cc5339/proctracer-0.0.2.tar.gz
+[2023-07-24 09:39:08] INFO root fetch - processPackages [catalogue]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalogue-2.0.9.tar.gz tmp/catalogue-2.1.0.tar.gz --markdown 20230724/c/catalogue/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c6/b4/92fe2844600ef202ad1bfb17d785a9983adaed2ba8c40362e8d46f44641f/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:08] INFO root fetch - processPackages [loghelper]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [loghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loghelper-1.0.7-py3-none-any.whl.zip tmp/loghelper-1.0.8-py3-none-any.whl.zip --markdown 20230724/l/loghelper/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [binapy]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [binapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binapy-0.6.1.tar.gz tmp/binapy-0.7.0.tar.gz --markdown 20230724/b/binapy/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/20/9b/b881ccb5efbe70a8667887fcb68dc07c2e1aeeb7abd9b6f331a7f5a9fe95/kevin-toolbox-dev-1.1.4.tar.gz
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/f4/a3/15bfb45471496789ba0291a4458055542302f2b954414120e64af247a54d/azureml_acft_accelerator-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:08] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.1.tar.gz tmp/proctracer-0.0.2.tar.gz --markdown 20230724/p/proctracer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.2.2.tar.gz tmp/tksheet-6.2.3.tar.gz --markdown 20230724/t/tksheet/6.2.2-6.2.3/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/74/d7/91a6d6d711d3c106762e53ec7cae4d9dc23f91a43d347e9d438e3934f50b/azureml_acft_common_components-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:08] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.3.tar.gz tmp/kevin-toolbox-dev-1.1.4.tar.gz --markdown 20230724/k/kevin-toolbox-dev/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/17/fa/51d9356bdb0000b44f3f9e37245c49c28a3dd3170bd8534527159f3ba71a/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-acft-common-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-acft-accelerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-acft-contrib-hf-diffusion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/3f/53/207e2ef0fc5d44967253be36d79a263cd47893128e4f9c253c01c386828a/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-07-24 09:39:08] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-acft-contrib-hf-nlp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:10] INFO root fetch - processPackages [catalogue]: Remove: archive file [/home/abi/fetcher/tmp/catalogue-2.0.9.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [catalogue]: Remove: archive file [/home/abi/fetcher/tmp/catalogue-2.1.0.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [catalogue]: Start processing: azureml-acft-image-components
+[2023-07-24 09:39:10] INFO root fetch - main [MainThread]: End processing [catalogue]: success
+[2023-07-24 09:39:10] INFO root fetch - processPackages [loghelper]: Remove: archive file [/home/abi/fetcher/tmp/loghelper-1.0.7-py3-none-any.whl.zip]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [loghelper]: Remove: archive file [/home/abi/fetcher/tmp/loghelper-1.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [loghelper]: Start processing: azureml-evaluate-mlflow
+[2023-07-24 09:39:10] INFO root fetch - main [MainThread]: End processing [loghelper]: success
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [binapy]: Remove: archive file [/home/abi/fetcher/tmp/binapy-0.6.1.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [binapy]: Remove: archive file [/home/abi/fetcher/tmp/binapy-0.7.0.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [binapy]: Start processing: azureml-metrics
+[2023-07-24 09:39:10] INFO root fetch - main [MainThread]: End processing [binapy]: success
+[2023-07-24 09:39:10] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-6.2.2.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-6.2.3.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [tksheet]: Start processing: mmsegmentation
+[2023-07-24 09:39:10] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/54/14/b21660f0894f00e8b252c21c555bfa0f0d81cb9c5e21a5d0558cef89779c/azureml_acft_image_components-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:10] INFO root fetch - processPackages [mmsegmentation]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.1.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.2.tar.gz]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [proctracer]: Start processing: qwak-core
+[2023-07-24 09:39:10] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-07-24 09:39:10] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/ab/8d/c00408ae3f836d5caab609c4e0207687802fba036c489afd1de05df60ee8/azureml_metrics-0.0.8-py3-none-any.whl
+[2023-07-24 09:39:10] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 09:39:10] INFO root fetch - processPackages [mmsegmentation]: Downloading https://files.pythonhosted.org/packages/b2/e2/6a3fcd519f17c74833d3e7cb49b671409cce2e9fc8914bf675db090d0d0a/mmsegmentation-1.1.0.tar.gz
+[2023-07-24 09:39:11] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/c2/4c/c39c6718dda35b70925d6b2c893e31372e3c932478f5c52caf1ae909f8fa/azureml_acft_image_components-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-common-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_common_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-common-components]: Start processing: django-config-models
+[2023-07-24 09:39:11] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/b8/d5/37e5123c1308f4fb41e069c8fe225331772b429781cd0e55a35c8a932e20/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:11] INFO root fetch - processPackages [django-config-models]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-evaluate-mlflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-acft-image-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:11] INFO root fetch - processPackages [mmsegmentation]: Downloading https://files.pythonhosted.org/packages/5c/fd/3275111428802053ff539265675ab9d404be6d539d49b6a12f247d17bac5/mmsegmentation-1.1.1.tar.gz
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/d9/b6/db1d2bb7b04794fb4db613f74b2e3f42e69d272672dc18a156a2eab656c4/azureml_metrics-0.0.9-py3-none-any.whl
+[2023-07-24 09:39:11] INFO root fetch - processPackages [django-config-models]: Downloading https://files.pythonhosted.org/packages/f8/d4/e3c497150e5d4b28a768c0d316026927319e313e4aa4b7283ebad236e6f2/django-config-models-2.3.0.tar.gz
+[2023-07-24 09:39:11] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-24 09:39:11] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230724/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 09:39:11] INFO root fetch - processPackages [mmsegmentation]: executing diffoscope
+[2023-07-24 09:39:11] INFO root fetch - processPackages [mmsegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmsegmentation-1.1.0.tar.gz tmp/mmsegmentation-1.1.1.tar.gz --markdown 20230724/m/mmsegmentation/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-accelerator]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_accelerator-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-acft-accelerator]: Start processing: shioaji
+[2023-07-24 09:39:11] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-07-24 09:39:11] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.3.tar.gz]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.4.tar.gz]
+[2023-07-24 09:39:11] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-07-24 09:39:11] INFO root fetch - processPackages [shioaji]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-07-24 09:39:11] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip --markdown 20230724/a/azureml-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:11] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/53/bc/ce59eedf72a6ce9e5e6e738f96de504b80b60ef87b3a0de3df60cd42da5d/shioaji-1.1.8-cp39-cp39-win_amd64.whl
+[2023-07-24 09:39:11] INFO root fetch - processPackages [django-config-models]: Downloading https://files.pythonhosted.org/packages/87/f3/ccc58c9e5eeab10a2d9b89ca0589b1c679dca575e027ded82be6af42cda9/django-config-models-2.4.0.tar.gz
+[2023-07-24 09:39:12] INFO root fetch - processPackages [django-config-models]: executing diffoscope
+[2023-07-24 09:39:12] INFO root fetch - processPackages [django-config-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-config-models-2.3.0.tar.gz tmp/django-config-models-2.4.0.tar.gz --markdown 20230724/d/django-config-models/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-24 09:39:12] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:12] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_diffusion-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:12] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-07-24 09:39:12] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:12] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:12] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-07-24 09:39:12] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/25/d1/c8de47c254d1a037a4e6946d619b99975eb1dcbc433ced107e013850ebb4/shioaji-1.1.9-cp39-cp39-win_amd64.whl
+[2023-07-24 09:39:13] INFO root fetch - processPackages [shioaji]: executing diffoscope
+[2023-07-24 09:39:13] INFO root fetch - processPackages [shioaji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji-1.1.8-cp39-cp39-win_amd64.whl.zip tmp/shioaji-1.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230724/s/shioaji/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_evaluate_mlflow-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-acft-image-components]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_image_components-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-0.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:39:13] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-07-24 09:39:13] INFO root fetch - processPackages [django-config-models]: Remove: archive file [/home/abi/fetcher/tmp/django-config-models-2.3.0.tar.gz]
+[2023-07-24 09:39:13] INFO root fetch - processPackages [django-config-models]: Remove: archive file [/home/abi/fetcher/tmp/django-config-models-2.4.0.tar.gz]
+[2023-07-24 09:39:13] INFO root fetch - main [MainThread]: End processing [django-config-models]: success
+[2023-07-24 09:39:14] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 09:39:14] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 09:39:14] INFO root fetch - main [MainThread]: End processing [shioaji]: success
+[2023-07-24 09:39:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-24 09:39:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-24 09:39:15] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-24 09:39:18] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.1.0.tar.gz]
+[2023-07-24 09:39:18] INFO root fetch - processPackages [mmsegmentation]: Remove: archive file [/home/abi/fetcher/tmp/mmsegmentation-1.1.1.tar.gz]
+[2023-07-24 09:39:18] INFO root fetch - main [MainThread]: End processing [mmsegmentation]: success
+[2023-07-24 09:39:18] INFO root fetch - main [MainThread]: Store serial: [19009548]
