@@ -18511,3 +18511,150 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:54:54] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
 [2023-07-24 14:54:54] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
 [2023-07-24 14:54:54] INFO root fetch - main [MainThread]: Store serial: [19012686]
+[2023-07-24 14:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012686]
+[2023-07-24 15:00:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicescad
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubicweb-person
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-forecast-line
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: podman
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moss-decoder
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-devoops
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenFisca-France
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-24 15:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 15:00:03] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: New version: [0.0.3.1] Old Version: [0.0.2.1]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [cubicweb-person]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [podman]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: New version: [15.0.1.3.2] Old Version: [15.0.1.3.1.6]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [core-devoops]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [nicescad]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [moss-decoder]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-07-24 15:00:03] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-24 15:00:03] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/aa/c4/a4eda5aa88a16b4403505cce355dea09c2ecd705c3d32db49e09972fbede/core_devoops-0.0.5.tar.gz
+[2023-07-24 15:00:03] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-24 15:00:03] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/86/5b/a2ef512970c3248f3ff6bb1556aa85942093b18d4dc1c2c36b6c6b0a0f74/nicescad-0.0.4.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/97/59/809b6d12b4010a0f94f8dc506c0de9c0cc63c5c68d45270c204b0b25fd2b/streamingcommunity_unofficialapi-0.0.2.1.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [cubicweb-person]: Downloading https://files.pythonhosted.org/packages/9e/3e/866b7b8f39690cb03333924ab4e896ae660ffe483f4c3f6e72912a8acea4/cubicweb-person-1.8.1.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [podman]: Downloading https://files.pythonhosted.org/packages/73/b7/73f0aa999936c964fd6393c8a3b2339621bceb5cadb3de2a1330161625f9/podman-4.5.1.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Downloading https://files.pythonhosted.org/packages/59/18/3d8e0244738917235cb93f1da5146c1db701f6740dd51c58c87586c7f240/odoo_addon_project_forecast_line-15.0.1.3.1.6-py3-none-any.whl
+[2023-07-24 15:00:04] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/3e/c9/1abb6ecb6f3aa13941c5f1aa1e8d96bbc254b872d75a0656c04869bc8c83/moss_decoder-0.1.2.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-07-24 15:00:04] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [core-devoops]: Downloading https://files.pythonhosted.org/packages/48/27/86e51a2437f63aa89405a8296cf19ecc2081398c6c8afa9ad378f589e5b9/core_devoops-0.0.6.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/5b/65/4af9d8f51591b83822de7ae2d02287f77fb0088d4a36a5d50237220676c7/streamingcommunity_unofficialapi-0.0.3.1.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/f1/96/f40a272638a204c9b95a99e2017b4a246765431a277c4e3958afaa7bed99/nicescad-0.0.5.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230724/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [core-devoops]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [core-devoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_devoops-0.0.5.tar.gz tmp/core_devoops-0.0.6.tar.gz --markdown 20230724/c/core-devoops/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Downloading https://files.pythonhosted.org/packages/5c/91/fdf9d9334c72b18b9b43798983b6a39c39c910639b5d3de103f9ea3df670/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl
+[2023-07-24 15:00:04] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz tmp/streamingcommunity_unofficialapi-0.0.3.1.tar.gz --markdown 20230724/s/streamingcommunity-unofficialapi/0.0.2.1-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [podman]: Downloading https://files.pythonhosted.org/packages/fb/cd/50d587c780bc2f7901dfacfa95080f12515bec0be24f6a18db1b31730982/podman-4.6.0.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [cubicweb-person]: Downloading https://files.pythonhosted.org/packages/ad/75/a834dfb5c5cff6b583e175fa25c386d5e7c36d395f9a3e81425ae6738866/cubicweb-person-1.9.0.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230724/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.4.tar.gz tmp/nicescad-0.0.5.tar.gz --markdown 20230724/n/nicescad/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_forecast_line-15.0.1.3.1.6-py3-none-any.whl.zip tmp/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-project-forecast-line/15.0.1.3.1.6-15.0.1.3.2/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [podman]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [podman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podman-4.5.1.tar.gz tmp/podman-4.6.0.tar.gz --markdown 20230724/p/podman/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2023-07-24 15:00:04] INFO root fetch - processPackages [moss-decoder]: Downloading https://files.pythonhosted.org/packages/15/92/afb3ad826670a3e338be25d777c5a383a0c3954eed80c951d3773cf6da6d/moss_decoder-0.1.3.tar.gz
+[2023-07-24 15:00:04] INFO root fetch - processPackages [cubicweb-person]: executing diffoscope
+[2023-07-24 15:00:04] INFO root fetch - processPackages [cubicweb-person]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-person-1.8.1.tar.gz tmp/cubicweb-person-1.9.0.tar.gz --markdown 20230724/c/cubicweb-person/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:00:05] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-07-24 15:00:05] INFO root fetch - processPackages [moss-decoder]: executing diffoscope
+[2023-07-24 15:00:05] INFO root fetch - processPackages [moss-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moss_decoder-0.1.2.tar.gz tmp/moss_decoder-0.1.3.tar.gz --markdown 20230724/m/moss-decoder/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 15:00:05] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-07-24 15:00:05] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230724/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-07-24 15:00:06] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.5.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [core-devoops]: Remove: archive file [/home/abi/fetcher/tmp/core_devoops-0.0.6.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [core-devoops]: Start processing: aeronet-convert
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [core-devoops]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet-convert]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.3.1.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Start processing: aeronet
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/63/5f/9735910d87350c710240f796b0cd7abb50e30bf215cf32110b9f74cc935f/aeronet_convert-0.1.0a1.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/f0/dc/ef16fcfc91e7db270d9dc42fb59aed2b9b98970f2387904ea7560e73f6b4/aeronet-0.1.0a2.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/7b/e2/c38e4e24292b64be0cad462ee8ad8927818a30ab2678f0cb3f39b26db6ed/aeronet_convert-0.1.0a2.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [cubicweb-person]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-person-1.8.1.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [cubicweb-person]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-person-1.9.0.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [cubicweb-person]: Start processing: panther
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [cubicweb-person]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [coiled]: Start processing: cubicweb-person
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line-15.0.1.3.1.6-py3-none-any.whl.zip]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line-15.0.1.3.2-py3-none-any.whl.zip]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [odoo-addon-project-forecast-line]: Start processing: proxy-cheap
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-forecast-line]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/5b/fd/09adea318a6b9411126f682cdbfd826cee69fd4a92bc5ba70c60238c10b6/aeronet-0.1.0a3.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.4.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [podman]: Remove: archive file [/home/abi/fetcher/tmp/podman-4.5.1.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.5.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [podman]: Remove: archive file [/home/abi/fetcher/tmp/podman-4.6.0.tar.gz]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [nicescad]: Start processing: invenio-github
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-24 15:00:06] INFO root fetch - main [MainThread]: End processing [podman]: success
+[2023-07-24 15:00:06] INFO root fetch - processPackages [cubicweb-person]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [panther]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [proxy-cheap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [invenio-github]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet-convert]: executing diffoscope
+[2023-07-24 15:00:06] INFO root fetch - processPackages [aeronet-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_convert-0.1.0a1.tar.gz tmp/aeronet_convert-0.1.0a2.tar.gz --markdown 20230724/a/aeronet-convert/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-24 15:00:06] INFO root fetch - processPackages [cubicweb-person]: Downloading https://files.pythonhosted.org/packages/9e/3e/866b7b8f39690cb03333924ab4e896ae660ffe483f4c3f6e72912a8acea4/cubicweb-person-1.8.1.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/d7/c3/c9d15c557706954514b8c3c55512c8cba8d50cf358c7a8b021259cd66cd5/proxy_cheap-0.0.4.tar.gz
+[2023-07-24 15:00:06] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/22/7f/e45916f90c729b991d5fb68083607ae07c06576b188b70d69c1e2344301a/panther-1.7.8.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/a7/89/488f33b736394a59992c30e58edf6df59a94a3be615c287a9e0c6bb59365/invenio-github-1.0.0b6.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [aeronet]: executing diffoscope
+[2023-07-24 15:00:07] INFO root fetch - processPackages [aeronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet-0.1.0a2.tar.gz tmp/aeronet-0.1.0a3.tar.gz --markdown 20230724/a/aeronet/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-07-24 15:00:07] INFO root fetch - processPackages [cubicweb-person]: Downloading https://files.pythonhosted.org/packages/ad/75/a834dfb5c5cff6b583e175fa25c386d5e7c36d395f9a3e81425ae6738866/cubicweb-person-1.9.0.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-24 15:00:07] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/26/b4/a11d5e9201570ef6c49a09335ff86fdedfb67593aafcf07712d13a04dcef/panther-1.7.9.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/3d/8e/95fb3ebd84b9b789f01028b2a2ba579e7863ee74715b901535646df8d027/invenio-github-1.0.0b7.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/4f/56/3fc3482d8febc23534e11d5118c8b95760fd21f6c8074e33e0d426f5f993/proxy_cheap-0.0.5.tar.gz
+[2023-07-24 15:00:07] INFO root fetch - processPackages [cubicweb-person]: executing diffoscope
+[2023-07-24 15:00:07] INFO root fetch - processPackages [cubicweb-person]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-person-1.8.1.tar.gz tmp/cubicweb-person-1.9.0.tar.gz --markdown 20230724/c/cubicweb-person/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:00:07] INFO root fetch - processPackages [panther]: executing diffoscope
+[2023-07-24 15:00:07] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-1.7.8.tar.gz tmp/panther-1.7.9.tar.gz --markdown 20230724/p/panther/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-24 15:00:07] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.1.2.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - processPackages [moss-decoder]: Remove: archive file [/home/abi/fetcher/tmp/moss_decoder-0.1.3.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - main [MainThread]: End processing [moss-decoder]: success
+[2023-07-24 15:00:07] INFO root fetch - processPackages [invenio-github]: executing diffoscope
+[2023-07-24 15:00:07] INFO root fetch - processPackages [invenio-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-github-1.0.0b6.tar.gz tmp/invenio-github-1.0.0b7.tar.gz --markdown 20230724/i/invenio-github/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-07-24 15:00:07] INFO root fetch - processPackages [proxy-cheap]: executing diffoscope
+[2023-07-24 15:00:07] INFO root fetch - processPackages [proxy-cheap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_cheap-0.0.4.tar.gz tmp/proxy_cheap-0.0.5.tar.gz --markdown 20230724/p/proxy-cheap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 15:00:07] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a1.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a2.tar.gz]
+[2023-07-24 15:00:07] INFO root fetch - main [MainThread]: End processing [aeronet-convert]: success
+[2023-07-24 15:00:08] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a2.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a3.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - main [MainThread]: End processing [aeronet]: success
+[2023-07-24 15:00:08] INFO root fetch - processPackages [cubicweb-person]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-person-1.8.1.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - processPackages [cubicweb-person]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-person-1.9.0.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - main [MainThread]: End processing [cubicweb-person]: success
+[2023-07-24 15:00:08] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.8.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.9.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2023-07-24 15:00:08] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b6.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b7.tar.gz]
+[2023-07-24 15:00:08] INFO root fetch - main [MainThread]: End processing [invenio-github]: success
+[2023-07-24 15:00:11] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.4.tar.gz]
+[2023-07-24 15:00:11] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.5.tar.gz]
+[2023-07-24 15:00:11] INFO root fetch - main [MainThread]: End processing [proxy-cheap]: success
+[2023-07-24 15:00:28] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-07-24 15:00:28] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-07-24 15:00:28] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-07-24 15:00:28] INFO root fetch - main [MainThread]: Store serial: [19012818]
