@@ -15025,3 +15025,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:37:25] INFO root fetch - processPackages [PyQt6-3D-Qt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6_3D_Qt6-6.5.2-py3-none-win_amd64.whl.zip]
 [2023-07-24 12:37:25] INFO root fetch - main [MainThread]: End processing [PyQt6-3D-Qt6]: success
 [2023-07-24 12:37:25] INFO root fetch - main [MainThread]: Store serial: [19011229]
+[2023-07-24 12:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011229]
+[2023-07-24 12:42:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-iotfirmwaredefense
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moosez
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kissio
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQt6-WebEngine-Qt6
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasai
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangocms-aldryn-categories
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bolinette-data
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mwj-apitest
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apify-client
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skypilot-nightly
+[2023-07-24 12:42:50] INFO root fetch - processPackages [djangocms-aldryn-categories]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-24 12:42:50] WARNING root fetch - processPackages [bolinette-data]: Skipping, unable to determine old version
+[2023-07-24 12:42:50] INFO root fetch - processPackages [bolinette-data]: Start processing: bolinette-web
+[2023-07-24 12:42:50] INFO root fetch - main [MainThread]: End processing [bolinette-data] error
+[2023-07-24 12:42:50] INFO root fetch - processPackages [kissio]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 12:42:50] WARNING root fetch - processPackages [azure-mgmt-iotfirmwaredefense]: Skipping, unable to determine old version
+[2023-07-24 12:42:50] INFO root fetch - processPackages [azure-mgmt-iotfirmwaredefense]: Start processing: ns-asphalt9
+[2023-07-24 12:42:50] INFO root fetch - main [MainThread]: End processing [azure-mgmt-iotfirmwaredefense] error
+[2023-07-24 12:42:50] INFO root fetch - processPackages [moosez]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [mwj-apitest]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230723] Old Version: [1.0.0.dev20230722]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [PyQt6-WebEngine-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [pandasai]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [apify-client]: New version: [1.3.0b2] Old Version: [1.3.0b1]
+[2023-07-24 12:42:50] WARNING root fetch - processPackages [bolinette-web]: Skipping, unable to determine old version
+[2023-07-24 12:42:50] INFO root fetch - processPackages [bolinette-web]: Start processing: nonebot-plugin-kawaii-robot
+[2023-07-24 12:42:50] INFO root fetch - main [MainThread]: End processing [bolinette-web] error
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/05/43/051948f388efd9002507bd36e34378c17c24086e28fc64a9747d5c68c852/skypilot-nightly-1.0.0.dev20230722.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/30/b1/d1f58deb570029ca7c997cd0e5bbc3f5f94c5fcbf3fc9bd97fa666ee89fc/mwj-apitest-1.1.3.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/b5/7f/aad05bd08fa47c9365613b519f1eb34c3bd372d7539231768cddbf40644c/kissio-0.0.2.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/b6/4f/77a79d0c708bd6c47be483ec050e4f53fcddb66afd8ac40e6f499135dcf8/apify_client-1.3.0b1.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [djangocms-aldryn-categories]: Downloading https://files.pythonhosted.org/packages/ec/c3/a506a82a0ace8f1fdbd2ee244148448fedda81c672b2314595f5dda48d31/djangocms-aldryn-categories-2.0.0.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/bf/a5/47a885ab8127c349a1d5066745b0e5702e8083bc25acfd269ba7af0fdeab/moosez-2.2.4.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/f2/f9/b7530db177b2685423581efcf5cae728661dce18698ff7fa03bb60f55516/ns_asphalt9-0.1.5.tar.gz
+[2023-07-24 12:42:50] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: New version: [4.0.0] Old Version: [3.3.2]
+[2023-07-24 12:42:50] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/13/4c/0538de689640d599c70b1fc0e323c1fc191f9825d0b2e1fff51c7b1dd7c0/pandasai-0.7.1.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [PyQt6-WebEngine-Qt6]: Downloading https://files.pythonhosted.org/packages/dd/5d/2bff6f37661eca2ed0f592ab7ce2938c20c6f9fe32330753aa0302c2f832/PyQt6_WebEngine_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:42:51] WARNING root fetch - processPackages [PyQt6-WebEngine-Qt6]: Skipping package: exceeds size limit 86270436>=10485760
+[2023-07-24 12:42:51] INFO root fetch - processPackages [PyQt6-WebEngine-Qt6]: Start processing: kohlrahbi
+[2023-07-24 12:42:51] INFO root fetch - main [MainThread]: End processing [PyQt6-WebEngine-Qt6] error
+[2023-07-24 12:42:51] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Downloading https://files.pythonhosted.org/packages/93/f7/4ade3bedb5851c9513d3e95af7fd5d081fd9cb0667d52a2eb0d6ead3107f/nonebot_plugin_kawaii_robot-3.3.2.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/48/9f/1db520b7cb3b409bc0592462f9c525df9afe3f5617c6862f75cbfaf9c30f/apify_client-1.3.0b2.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [mwj-apitest]: Downloading https://files.pythonhosted.org/packages/7a/56/adbaa2866bc210a68d90dc7c62f6b2fca47166824853640eb22bec9bd152/mwj-apitest-1.1.4.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/40/4a/e64655f532d5572f467f56fc63abe6a97476f65d1348d28b36b725d071e3/ns_asphalt9-0.1.6.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [kohlrahbi]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-07-24 12:42:51] INFO root fetch - processPackages [djangocms-aldryn-categories]: Downloading https://files.pythonhosted.org/packages/4c/7b/51c6867ffc7a334039f69b2c96f39c553243a14433171c3c37eae9b569fe/djangocms-aldryn-categories-2.0.1.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/f0/e0/9adc1e7014e79ba649cf14bfd065c1e08ff65a8ef26f8d30a40f5b6d4476/kissio-0.0.3.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/ac/d6/45cb6f3608f1e5b1f190d775d0dc4d0028156da8154d4cdbd87d81e683f4/moosez-2.2.5.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/32/e4/01807a95919a3ce97cebed2820a52956befa82fc3c9f9c1f2214a259ac2d/skypilot-nightly-1.0.0.dev20230723.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.3.0b1.tar.gz tmp/apify_client-1.3.0b2.tar.gz --markdown 20230724/a/apify-client/1.3.0b1-1.3.0b2/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [mwj-apitest]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [mwj-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwj-apitest-1.1.3.tar.gz tmp/mwj-apitest-1.1.4.tar.gz --markdown 20230724/m/mwj-apitest/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.2.tar.gz tmp/kissio-0.0.3.tar.gz --markdown 20230724/k/kissio/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [djangocms-aldryn-categories]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [djangocms-aldryn-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-aldryn-categories-2.0.0.tar.gz tmp/djangocms-aldryn-categories-2.0.1.tar.gz --markdown 20230724/d/djangocms-aldryn-categories/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/51/6e/9711d9d05d09d4070263a349576605d6b13b4305918323f73bf6b01032dd/kohlrahbi-0.0.6.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/0a/8d/c14b01734cd10d4dceb003585e4ef605bb0d0986bf82bdabad25fdbc484e/pandasai-0.7.2.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.4.tar.gz tmp/moosez-2.2.5.tar.gz --markdown 20230724/m/moosez/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.1.5.tar.gz tmp/ns_asphalt9-0.1.6.tar.gz --markdown 20230724/n/ns-asphalt9/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.7.1.tar.gz tmp/pandasai-0.7.2.tar.gz --markdown 20230724/p/pandasai/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Downloading https://files.pythonhosted.org/packages/47/4c/8883cb21cc6ffd845ff7a2093a494deb822bab47d6254fb5d29e98438f96/nonebot-plugin-kawaii-robot-4.0.0.tar.gz
+[2023-07-24 12:42:51] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230722.tar.gz tmp/skypilot-nightly-1.0.0.dev20230723.tar.gz --markdown 20230724/s/skypilot-nightly/1.0.0.dev20230722-1.0.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-24 12:42:51] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: executing diffoscope
+[2023-07-24 12:42:51] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kawaii_robot-3.3.2.tar.gz tmp/nonebot-plugin-kawaii-robot-4.0.0.tar.gz --markdown 20230724/n/nonebot-plugin-kawaii-robot/3.3.2-4.0.0/diff.md --exclude *.pyd
+[2023-07-24 12:42:52] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/7f/d8/ef676ac9e5ea488970a8768c99e845665c6a757076401491afeadc06c061/kohlrahbi-0.0.6a1.tar.gz
+[2023-07-24 12:42:53] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.2.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.3.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [kohlrahbi]: executing diffoscope
+[2023-07-24 12:42:53] INFO root fetch - processPackages [kohlrahbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kohlrahbi-0.0.6.tar.gz tmp/kohlrahbi-0.0.6a1.tar.gz --markdown 20230724/k/kohlrahbi/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-07-24 12:42:53] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.4.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.5.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [djangocms-aldryn-categories]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-categories-2.0.0.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [djangocms-aldryn-categories]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-categories-2.0.1.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-categories]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.3.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [mwj-apitest]: Remove: archive file [/home/abi/fetcher/tmp/mwj-apitest-1.1.4.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [mwj-apitest]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.7.1.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.7.2.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.5.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.6.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kawaii_robot-3.3.2.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [nonebot-plugin-kawaii-robot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-kawaii-robot-4.0.0.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kawaii-robot]: success
+[2023-07-24 12:42:53] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.3.0b1.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.3.0b2.tar.gz]
+[2023-07-24 12:42:53] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-07-24 12:42:54] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230722.tar.gz]
+[2023-07-24 12:42:54] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230723.tar.gz]
+[2023-07-24 12:42:54] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-24 12:42:54] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-0.0.6.tar.gz]
+[2023-07-24 12:42:54] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-0.0.6a1.tar.gz]
+[2023-07-24 12:42:54] INFO root fetch - main [MainThread]: End processing [kohlrahbi]: success
+[2023-07-24 12:42:54] INFO root fetch - main [MainThread]: Store serial: [19011282]
