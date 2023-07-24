@@ -5634,3 +5634,18 @@
 [2023-07-24 04:15:51] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230724021110.tar.gz]
 [2023-07-24 04:15:51] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-07-24 04:15:51] INFO root fetch - main [MainThread]: Store serial: [19007346]
+[2023-07-24 04:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007346]
+[2023-07-24 04:21:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-24 04:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rlviser-py
+[2023-07-24 04:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyramp
+[2023-07-24 04:21:00] INFO root fetch - processPackages [rlviser-py]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-24 04:21:00] WARNING root fetch - processPackages [skyramp]: Skipping, unable to determine old version
+[2023-07-24 04:21:00] INFO root fetch - main [MainThread]: End processing [skyramp] error
+[2023-07-24 04:21:00] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/f0/55/9e153076d74ca037ad77db4ad47606bc32699b347be55eea6490e0692359/rlviser_py-0.2.2.tar.gz
+[2023-07-24 04:21:00] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/34/20/8ae1feab7aa099e0d624acd5d840e09bdb98c2292759c21c33fa6be1fb9c/rlviser_py-0.2.3.tar.gz
+[2023-07-24 04:21:01] INFO root fetch - processPackages [rlviser-py]: executing diffoscope
+[2023-07-24 04:21:01] INFO root fetch - processPackages [rlviser-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlviser_py-0.2.2.tar.gz tmp/rlviser_py-0.2.3.tar.gz --markdown 20230724/r/rlviser-py/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-24 04:21:01] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.2.2.tar.gz]
+[2023-07-24 04:21:01] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.2.3.tar.gz]
+[2023-07-24 04:21:01] INFO root fetch - main [MainThread]: End processing [rlviser-py]: success
+[2023-07-24 04:21:01] INFO root fetch - main [MainThread]: Store serial: [19007355]
