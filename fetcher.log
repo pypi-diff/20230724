@@ -17678,3 +17678,164 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:17:54] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.9.1.tar.gz]
 [2023-07-24 14:17:54] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-07-24 14:17:54] INFO root fetch - main [MainThread]: Store serial: [19012332]
+[2023-07-24 14:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012332]
+[2023-07-24 14:23:04] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resoto-plugin-slack
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resoto-plugin-onprem
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runpandarun
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splunksplwrapper
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resoto-plugin-example-collector
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resotoshell
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvas
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skylarkpdf
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-07-24 14:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-bank-python
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resotoshell]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [splunksplwrapper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-onprem]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:04] WARNING root fetch - processPackages [skylarkpdf]: Skipping, unable to determine old version
+[2023-07-24 14:23:04] INFO root fetch - processPackages [skylarkpdf]: Start processing: pulumi-opnsense
+[2023-07-24 14:23:04] INFO root fetch - main [MainThread]: End processing [skylarkpdf] error
+[2023-07-24 14:23:04] INFO root fetch - processPackages [runpandarun]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-slack]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-example-collector]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 14:23:04] WARNING root fetch - processPackages [dvas]: Skipping, unable to determine old version
+[2023-07-24 14:23:04] INFO root fetch - processPackages [dvas]: Start processing: cybrid-api-organization-python
+[2023-07-24 14:23:04] INFO root fetch - main [MainThread]: End processing [dvas] error
+[2023-07-24 14:23:04] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-24 14:23:04] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/77/a2/55b05a537ac5e0cb97f2387cb9e5fa0195cd1e6880887c4056a0a4917ac7/pulumi_opnsense-0.0.67.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [splunksplwrapper]: Downloading https://files.pythonhosted.org/packages/8f/40/9222d2e13acc60e036c50a7116b1581d09948d102e3a39a1c75da40d1225/splunksplwrapper-1.0.1.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resotoshell]: Downloading https://files.pythonhosted.org/packages/df/2e/91fdc7cd09c2ff5b009de63bd2992f9b9fa10a1eac436283fd57a3216166/resotoshell-3.6.2.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-slack]: Downloading https://files.pythonhosted.org/packages/07/08/3cb0f5f0344fd4f9cb4668b615d7d189237c1f5990852e0a2c6c0e2206fa/resoto-plugin-slack-3.6.2.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-example-collector]: Downloading https://files.pythonhosted.org/packages/09/78/67d395d95ca794609d1cc962a477d751566d6b38041d0d66a4bf8e8e2d77/resoto-plugin-example-collector-3.6.2.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [resoto-plugin-onprem]: Downloading https://files.pythonhosted.org/packages/53/9a/2c7f177b0670dff42032709acf2063e72f3b8cc0167ad3dcda01595b6f21/resoto-plugin-onprem-3.6.2.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-24 14:23:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [runpandarun]: Downloading https://files.pythonhosted.org/packages/a6/53/7dd8e94af9a34ab0a6518e70004a71e012d07382b091059ca280023390bd/runpandarun-0.2.5.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/aa/e4/4b4d71eed93c3488cae25f94cb5bae53c4ef3aa516f000c9d97f80bfd188/pulumi_opnsense-0.0.68.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [splunksplwrapper]: Downloading https://files.pythonhosted.org/packages/49/16/2b054da1a13e7fe2a0b4c265df5f45708dbbe615041c147bec6ceb9f8783/splunksplwrapper-1.0.2.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resotoshell]: Downloading https://files.pythonhosted.org/packages/ec/47/89b9f52cc0685c7cafeddf52ecb483a4f5fdcec547a45f400186e51b8843/resotoshell-3.6.3.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-slack]: Downloading https://files.pythonhosted.org/packages/38/d3/8ecb54980c2e52f2f2cc1940c372de157fd83d7fca07aa8f2a07f199bc5e/resoto-plugin-slack-3.6.3.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [runpandarun]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [runpandarun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpandarun-0.2.4.tar.gz tmp/runpandarun-0.2.5.tar.gz --markdown 20230724/r/runpandarun/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-example-collector]: Downloading https://files.pythonhosted.org/packages/93/bf/f3f152de45577f37ca0ef56c6722c5419650244b31da3a5228f12acbc0ed/resoto-plugin-example-collector-3.6.3.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: Downloading https://files.pythonhosted.org/packages/c1/d4/b3bb17ca6eaa6406804e3a75c32b2708af40227256d0e1f31d5c2c50e1c3/resoto-plugin-onprem-3.6.3.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.67.tar.gz tmp/pulumi_opnsense-0.0.68.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [splunksplwrapper]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [splunksplwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunksplwrapper-1.0.1.tar.gz tmp/splunksplwrapper-1.0.2.tar.gz --markdown 20230724/s/splunksplwrapper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resotoshell]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resotoshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoshell-3.6.2.tar.gz tmp/resotoshell-3.6.3.tar.gz --markdown 20230724/r/resotoshell/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-slack]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-slack-3.6.2.tar.gz tmp/resoto-plugin-slack-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-slack/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-example-collector]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-example-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-example-collector-3.6.2.tar.gz tmp/resoto-plugin-example-collector-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-example-collector/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-onprem-3.6.2.tar.gz tmp/resoto-plugin-onprem-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-onprem/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230724/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230724/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-24 14:23:05] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230724/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-24 14:23:06] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.2.4.tar.gz]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.2.5.tar.gz]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [runpandarun]: Start processing: resotolib
+[2023-07-24 14:23:06] INFO root fetch - main [MainThread]: End processing [runpandarun]: success
+[2023-07-24 14:23:06] INFO root fetch - processPackages [resotolib]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.67.tar.gz]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.68.tar.gz]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: datapipe-core
+[2023-07-24 14:23:06] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 14:23:06] INFO root fetch - processPackages [datapipe-core]: New version: [0.13.0a6] Old Version: [0.13.0a5]
+[2023-07-24 14:23:06] INFO root fetch - processPackages [resotolib]: Downloading https://files.pythonhosted.org/packages/73/0e/f389d7e9cb7c0ca0cc3bad24e36a453d4992bf5fc6b6cbc18a7664df1f4c/resotolib-3.6.2.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/d7/78/2fae489907be25d786b462008b8b6c935a224edf8e7a76091b81dd3d2ece/datapipe_core-0.13.0a5.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotoshell]: Remove: archive file [/home/abi/fetcher/tmp/resotoshell-3.6.2.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotoshell]: Remove: archive file [/home/abi/fetcher/tmp/resotoshell-3.6.3.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotoshell]: Start processing: auto-pr
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [resotoshell]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-example-collector-3.6.2.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-example-collector-3.6.3.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: Start processing: atbu-pkg
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [resoto-plugin-example-collector]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [auto-pr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-onprem]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-onprem-3.6.2.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-onprem]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-onprem-3.6.3.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-onprem]: Start processing: IngeoDash
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [resoto-plugin-onprem]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-slack]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-slack-3.6.2.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-slack]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-slack-3.6.3.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-slack]: Start processing: resoto-plugin-tagvalidator
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [resoto-plugin-slack]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotolib]: Downloading https://files.pythonhosted.org/packages/77/d0/6753be295e0850767308fc0e4ad653ab3eaf462f0c9dfb53199bfff40ba0/resotolib-3.6.3.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: uncertainty-datatypes
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [IngeoDash]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [splunksplwrapper]: Remove: archive file [/home/abi/fetcher/tmp/splunksplwrapper-1.0.1.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [splunksplwrapper]: Remove: archive file [/home/abi/fetcher/tmp/splunksplwrapper-1.0.2.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [splunksplwrapper]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/e8/55/009968b900475c4409b42fa0c8c451892a7428282ebc770fff94b2c8284c/datapipe_core-0.13.0a6.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-24 14:23:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotolib]: executing diffoscope
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resotolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotolib-3.6.2.tar.gz tmp/resotolib-3.6.3.tar.gz --markdown 20230724/r/resotolib/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:07] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [auto-pr]: Downloading https://files.pythonhosted.org/packages/fc/76/8f8d0723d84d98d6a50dfb7f7e1c7d7db7a12de8be9ad3494bf783218ef2/auto-pr-1.0.2.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [datapipe-core]: executing diffoscope
+[2023-07-24 14:23:07] INFO root fetch - processPackages [datapipe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_core-0.13.0a5.tar.gz tmp/datapipe_core-0.13.0a6.tar.gz --markdown 20230724/d/datapipe-core/0.13.0a5-0.13.0a6/diff.md --exclude *.pyd
+[2023-07-24 14:23:07] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/47/27/efce4f72127ebb13605439efa3f3d85ffec59ee1aea67993579e4e00760b/IngeoDash-0.1.1.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/a2/0e/68bea11827fa0851563450359afc1526f80bfff934f592a362c8e9c4e660/uncertainty-datatypes-1.0.9.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: Downloading https://files.pythonhosted.org/packages/b1/24/e872d917d0e960cf5dae768c16a0ae8de9c26eb15a25fe204feac192383e/resoto-plugin-tagvalidator-3.6.2.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-07-24 14:23:07] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230724/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:23:07] INFO root fetch - processPackages [auto-pr]: Downloading https://files.pythonhosted.org/packages/ca/5c/574b7d13d045447111dcb9e75202e3da6e45d67c9aca880baf8eac26fb6f/auto_pr-1.0.3.tar.gz
+[2023-07-24 14:23:07] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-24 14:23:07] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.8.tar.gz tmp/uncertainty-datatypes-1.0.9.tar.gz --markdown 20230724/u/uncertainty-datatypes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:23:08] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/24/46/6eac22dafcd49f205649ac610adfbb34debe906a04222a01b24f7457d741/IngeoDash-0.1.2.tar.gz
+[2023-07-24 14:23:08] INFO root fetch - processPackages [auto-pr]: executing diffoscope
+[2023-07-24 14:23:08] INFO root fetch - processPackages [auto-pr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-pr-1.0.2.tar.gz tmp/auto_pr-1.0.3.tar.gz --markdown 20230724/a/auto-pr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:08] INFO root fetch - processPackages [IngeoDash]: executing diffoscope
+[2023-07-24 14:23:08] INFO root fetch - processPackages [IngeoDash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IngeoDash-0.1.1.tar.gz tmp/IngeoDash-0.1.2.tar.gz --markdown 20230724/I/IngeoDash/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 14:23:08] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: Downloading https://files.pythonhosted.org/packages/64/07/391f2bb2b066faef07144b29b426d71a623538c3c6be739ce451b12d4fcd/resoto-plugin-tagvalidator-3.6.3.tar.gz
+[2023-07-24 14:23:08] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: executing diffoscope
+[2023-07-24 14:23:08] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-tagvalidator-3.6.2.tar.gz tmp/resoto-plugin-tagvalidator-3.6.3.tar.gz --markdown 20230724/r/resoto-plugin-tagvalidator/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-24 14:23:08] INFO root fetch - processPackages [resotolib]: Remove: archive file [/home/abi/fetcher/tmp/resotolib-3.6.2.tar.gz]
+[2023-07-24 14:23:08] INFO root fetch - processPackages [resotolib]: Remove: archive file [/home/abi/fetcher/tmp/resotolib-3.6.3.tar.gz]
+[2023-07-24 14:23:08] INFO root fetch - main [MainThread]: End processing [resotolib]: success
+[2023-07-24 14:23:08] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-24 14:23:08] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a5.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a6.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [datapipe-core]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.9.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [auto-pr]: Remove: archive file [/home/abi/fetcher/tmp/auto-pr-1.0.2.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [auto-pr]: Remove: archive file [/home/abi/fetcher/tmp/auto_pr-1.0.3.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [auto-pr]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.1.1.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.1.2.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [IngeoDash]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-07-24 14:23:09] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-tagvalidator-3.6.2.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - processPackages [resoto-plugin-tagvalidator]: Remove: archive file [/home/abi/fetcher/tmp/resoto-plugin-tagvalidator-3.6.3.tar.gz]
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: End processing [resoto-plugin-tagvalidator]: success
+[2023-07-24 14:23:09] INFO root fetch - main [MainThread]: Store serial: [19012391]
