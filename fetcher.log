@@ -22972,3 +22972,177 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:58:12] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.8-py3-none-any.whl.zip]
 [2023-07-24 16:58:12] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-07-24 16:58:12] INFO root fetch - main [MainThread]: Store serial: [19014410]
+[2023-07-24 17:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014410]
+[2023-07-24 17:03:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clitable
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-snippets
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EnsembleParticleSwarmOptimization
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatlab
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superannotate
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argilla
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyramid-oereb
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dstack
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-07-24 17:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IsYatirim
+[2023-07-24 17:03:22] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [torch-snippets]: New version: [0.5] Old Version: [0.499.9]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [argilla]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-24 17:03:22] WARNING root fetch - processPackages [IsYatirim]: Skipping, unable to determine old version
+[2023-07-24 17:03:22] INFO root fetch - processPackages [IsYatirim]: Start processing: messageflux
+[2023-07-24 17:03:22] INFO root fetch - main [MainThread]: End processing [IsYatirim] error
+[2023-07-24 17:03:22] WARNING root fetch - processPackages [clitable]: Skipping, unable to determine old version
+[2023-07-24 17:03:22] INFO root fetch - processPackages [clitable]: Start processing: py-experimenter
+[2023-07-24 17:03:22] INFO root fetch - main [MainThread]: End processing [clitable] error
+[2023-07-24 17:03:22] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [pyramid-oereb]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [kcli]: New version: [99.0.202307241457] Old Version: [99.0.202307241351]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [messageflux]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [py-experimenter]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-24 17:03:22] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/55/d4/4c54f0cfcd4c7b2765776383dafa9015aa528fe3335d6051282fbb1eafe4/chatlab-1.0.0a3.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: Downloading https://files.pythonhosted.org/packages/6e/51/cc16d60fc1c3568022a8b1dd4820f57f7f9cb05ddc4b68e69a6fa83bf349/EnsembleParticleSwarmOptimization-0.1.3.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/63/3c/2adc8bbdc37604d3bfc0eea97ee56d1ba2d7463315123d81f7065ab57e47/argilla-1.8.0.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [pyramid-oereb]: Downloading https://files.pythonhosted.org/packages/a3/03/8c32d62268e99b0ad084539a668697ea7f5d9128e4e19a7bb118bf0cbbfc/pyramid_oereb-2.4.4.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [py-experimenter]: Downloading https://files.pythonhosted.org/packages/aa/4d/8eb6b36ea9cb5e612d456cfb835b400ef6c3d5cb48194645b273d2306829/py_experimenter-1.3.0.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2e/43/acfc4fb7f305da454642c18ea7f7ddedeacb8b797921b04c5b0c5794bce2/kcli-99.0.202307241351-py3-none-any.whl
+[2023-07-24 17:03:22] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/ff/5b/867f667bffbeb46301f62763cf877aa19bad996d43efd35d474ade90aaa0/messageflux-0.2.6.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/6e/94/bbeff23ce0285335e11382875117d300b9f7187efacb234ff9f66bfafd36/chatlab-1.0.0a4.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: Downloading https://files.pythonhosted.org/packages/7c/2a/3695860f9aa46b3a2068956203ae3a01c3ad92ab2bf1a93b517881b23bc3/EnsembleParticleSwarmOptimization-0.1.4.tar.gz
+[2023-07-24 17:03:22] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: executing diffoscope
+[2023-07-24 17:03:22] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnsembleParticleSwarmOptimization-0.1.3.tar.gz tmp/EnsembleParticleSwarmOptimization-0.1.4.tar.gz --markdown 20230724/E/EnsembleParticleSwarmOptimization/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/b1/9bbf67afdf61be393740f41a724684426e790c75525886f7c7540abdbe9b/kcli-99.0.202307241457-py3-none-any.whl
+[2023-07-24 17:03:23] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/f5/ec/773edaba95b930097cb40ef7c020bbd6619cdb23c77a3a0bd6e3ba946624/messageflux-0.3.0.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-1.0.0a3.tar.gz tmp/chatlab-1.0.0a4.tar.gz --markdown 20230724/c/chatlab/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/7a/91/c9fac46299375cf9fe0bb56e49820875bf18a03ec323e5ba284966ac9910/torch_snippets-0.5.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [py-experimenter]: Downloading https://files.pythonhosted.org/packages/05/32/ad05d365a682fd9f2b75b9485fe502dee207b0499efaf3a73d4a50fb1dfd/py_experimenter-1.3.1.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.6.tar.gz tmp/messageflux-0.3.0.tar.gz --markdown 20230724/m/messageflux/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230724/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [py-experimenter]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [py-experimenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_experimenter-1.3.0.tar.gz tmp/py_experimenter-1.3.1.tar.gz --markdown 20230724/p/py-experimenter/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307241351-py3-none-any.whl.zip tmp/kcli-99.0.202307241457-py3-none-any.whl.zip --markdown 20230724/k/kcli/99.0.202307241351-99.0.202307241457/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [pyramid-oereb]: Downloading https://files.pythonhosted.org/packages/33/88/d56ab317c7f64657a1d7b6a714cc6e6708307014800f5c8a1fab1881f32f/pyramid_oereb-2.4.5.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.9.tar.gz tmp/torch_snippets-0.5.tar.gz --markdown 20230724/t/torch-snippets/0.499.9-0.5/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/d5/65/f5260906481f183068fa89f4a369f0d6b322e536cb0b5aa12eedb16fe91d/argilla-1.9.0.tar.gz
+[2023-07-24 17:03:23] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230724/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-07-24 17:03:23] INFO root fetch - processPackages [pyramid-oereb]: executing diffoscope
+[2023-07-24 17:03:23] INFO root fetch - processPackages [pyramid-oereb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramid_oereb-2.4.4.tar.gz tmp/pyramid_oereb-2.4.5.tar.gz --markdown 20230724/p/pyramid-oereb/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-07-24 17:03:24] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-07-24 17:03:24] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.8.0.tar.gz tmp/argilla-1.9.0.tar.gz --markdown 20230724/a/argilla/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 17:03:24] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: Remove: archive file [/home/abi/fetcher/tmp/EnsembleParticleSwarmOptimization-0.1.3.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: Remove: archive file [/home/abi/fetcher/tmp/EnsembleParticleSwarmOptimization-0.1.4.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [EnsembleParticleSwarmOptimization]: Start processing: openplugin
+[2023-07-24 17:03:24] INFO root fetch - main [MainThread]: End processing [EnsembleParticleSwarmOptimization]: success
+[2023-07-24 17:03:24] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a3.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a4.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [chatlab]: Start processing: easier
+[2023-07-24 17:03:24] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-07-24 17:03:24] INFO root fetch - processPackages [openplugin]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [easier]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/69/7a/9543def42a4ff3e815eaebb45ce9259a295db7ecdb1b48ee685e3eab11d2/openplugin-0.0.14.tar.gz
+[2023-07-24 17:03:24] INFO root fetch - processPackages [py-experimenter]: Remove: archive file [/home/abi/fetcher/tmp/py_experimenter-1.3.0.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [py-experimenter]: Remove: archive file [/home/abi/fetcher/tmp/py_experimenter-1.3.1.tar.gz]
+[2023-07-24 17:03:24] INFO root fetch - processPackages [py-experimenter]: Start processing: orbit-component-base
+[2023-07-24 17:03:24] INFO root fetch - main [MainThread]: End processing [py-experimenter]: success
+[2023-07-24 17:03:24] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/26/fc/b99a717ab6789fe5ba898a50335e048576469b712e34896b2f6877e4682a/easier-1.3.5.tar.gz
+[2023-07-24 17:03:24] INFO root fetch - processPackages [orbit-component-base]: New version: [1.0.9] Old Version: [1.0.26]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/57/66/6fa262c134191fb330ca9644a8aaea50463c52d42aa9c73f9a8a2f3e0bc5/orbit_component_base-1.0.26.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [openplugin]: Downloading https://files.pythonhosted.org/packages/dc/77/07b3323eefc320947e42a4857031eef861424b5a7b2ea48380e266d46016/openplugin-0.0.15.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.9.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.5.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [torch-snippets]: Start processing: kfish
+[2023-07-24 17:03:25] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2023-07-24 17:03:25] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.2.6.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [messageflux]: Remove: archive file [/home/abi/fetcher/tmp/messageflux-0.3.0.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [messageflux]: Start processing: orbit-component-zerodocs
+[2023-07-24 17:03:25] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-07-24 17:03:25] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/94/18/35ea2d6cd1b2a332e63c672d7bc92c8aa8b7378d030bc6fdc2e46345890a/easier-1.3.6.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [1.0.9] Old Version: [1.0.17]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [kfish]: New version: [99.0.202307241501] Old Version: [99.0.202307241354]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [openplugin]: executing diffoscope
+[2023-07-24 17:03:25] INFO root fetch - processPackages [openplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-0.0.14.tar.gz tmp/openplugin-0.0.15.tar.gz --markdown 20230724/o/openplugin/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-24 17:03:25] INFO root fetch - processPackages [easier]: executing diffoscope
+[2023-07-24 17:03:25] INFO root fetch - processPackages [easier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easier-1.3.5.tar.gz tmp/easier-1.3.6.tar.gz --markdown 20230724/e/easier/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-24 17:03:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/45/52362a97fde476b641be948543cd7dd48c881c24cd83f4af880e3b7bbd73/kfish-99.0.202307241354-py3-none-any.whl
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/f0/d6/8364041cbfb22b7c70f7e584ea53315869d99dd04d8bb410e667011fbd79/orbit_component_zerodocs-1.0.17.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-base]: Downloading https://files.pythonhosted.org/packages/d2/67/10fc0971fd85e0d95f32c6146a0e2bd1c6ac0e19c2823b8712f3d6c6e918/orbit_component_base-1.0.9.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9.dev5.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [superannotate]: Start processing: servicefoundry
+[2023-07-24 17:03:25] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-07-24 17:03:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/36/20/f85c51c2f22f0962d011688cb09f2fbb48d07aa9f199f78fea5c2866d2a9/kfish-99.0.202307241501-py3-none-any.whl
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-base]: executing diffoscope
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_base-1.0.26.tar.gz tmp/orbit_component_base-1.0.9.tar.gz --markdown 20230724/o/orbit-component-base/1.0.26-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:03:25] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-24 17:03:25] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307241354-py3-none-any.whl.zip tmp/kfish-99.0.202307241501-py3-none-any.whl.zip --markdown 20230724/k/kfish/99.0.202307241354-99.0.202307241501/diff.md --exclude *.pyd
+[2023-07-24 17:03:25] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/04/2c/8c8531b18da66a5bff50cef3ed436d05cbc4cd0c86ce2edb050974cd4cbd/orbit_component_zerodocs-1.0.9.tar.gz
+[2023-07-24 17:03:25] INFO root fetch - processPackages [pyramid-oereb]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_oereb-2.4.4.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [pyramid-oereb]: Remove: archive file [/home/abi/fetcher/tmp/pyramid_oereb-2.4.5.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [pyramid-oereb]: Start processing: Janex
+[2023-07-24 17:03:25] INFO root fetch - main [MainThread]: End processing [pyramid-oereb]: success
+[2023-07-24 17:03:25] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-07-24 17:03:25] INFO root fetch - processPackages [dstack]: Start processing: yao-hello-world
+[2023-07-24 17:03:25] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-07-24 17:03:26] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-07-24 17:03:26] WARNING root fetch - processPackages [yao-hello-world]: Skipping, unable to determine old version
+[2023-07-24 17:03:26] INFO root fetch - processPackages [yao-hello-world]: Start processing: kissio
+[2023-07-24 17:03:26] INFO root fetch - main [MainThread]: End processing [yao-hello-world] error
+[2023-07-24 17:03:26] INFO root fetch - processPackages [kissio]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 17:03:26] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/48/6c/e7a431c6abbe7f663e13ad5f7e3192ebfb22ab039a986a18ebe24ddf90d4/kissio-0.0.6.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2023-07-24 17:03:26] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20230724/s/servicefoundry/0.9.9rc1-0.9.9rc2/diff.md --exclude *.pyd
+[2023-07-24 17:03:26] INFO root fetch - processPackages [openplugin]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-0.0.14.tar.gz]
+[2023-07-24 17:03:26] INFO root fetch - processPackages [openplugin]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-0.0.15.tar.gz]
+[2023-07-24 17:03:26] INFO root fetch - main [MainThread]: End processing [openplugin]: success
+[2023-07-24 17:03:26] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-07-24 17:03:26] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-1.0.17.tar.gz tmp/orbit_component_zerodocs-1.0.9.tar.gz --markdown 20230724/o/orbit-component-zerodocs/1.0.17-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:03:26] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.5.tar.gz]
+[2023-07-24 17:03:26] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.6.tar.gz]
+[2023-07-24 17:03:26] INFO root fetch - main [MainThread]: End processing [easier]: success
+[2023-07-24 17:03:26] INFO root fetch - processPackages [kissio]: Downloading https://files.pythonhosted.org/packages/2d/16/cab5c635d1076315cbc421b4c07258a70d37f3c1732614aa2c80f442042d/kissio-0.0.7.tar.gz
+[2023-07-24 17:03:26] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-07-24 17:03:26] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230724/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 17:03:26] INFO root fetch - processPackages [kissio]: executing diffoscope
+[2023-07-24 17:03:26] INFO root fetch - processPackages [kissio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kissio-0.0.6.tar.gz tmp/kissio-0.0.7.tar.gz --markdown 20230724/k/kissio/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 17:03:27] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.26.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - processPackages [orbit-component-base]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_base-1.0.9.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - main [MainThread]: End processing [orbit-component-base]: success
+[2023-07-24 17:03:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241354-py3-none-any.whl.zip]
+[2023-07-24 17:03:27] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307241501-py3-none-any.whl.zip]
+[2023-07-24 17:03:27] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-24 17:03:27] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.17.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.9.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-07-24 17:03:27] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-07-24 17:03:27] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.6.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - processPackages [kissio]: Remove: archive file [/home/abi/fetcher/tmp/kissio-0.0.7.tar.gz]
+[2023-07-24 17:03:27] INFO root fetch - main [MainThread]: End processing [kissio]: success
+[2023-07-24 17:03:28] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2023-07-24 17:03:28] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2023-07-24 17:03:28] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2023-07-24 17:03:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241351-py3-none-any.whl.zip]
+[2023-07-24 17:03:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241457-py3-none-any.whl.zip]
+[2023-07-24 17:03:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-24 17:04:30] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.8.0.tar.gz]
+[2023-07-24 17:04:30] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
+[2023-07-24 17:04:30] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-07-24 17:04:30] INFO root fetch - main [MainThread]: Store serial: [19014488]
