@@ -8552,3 +8552,83 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:53:08] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.8.tar.gz]
 [2023-07-24 07:53:08] INFO root fetch - main [MainThread]: End processing [pyft]: success
 [2023-07-24 07:53:08] INFO root fetch - main [MainThread]: Store serial: [19008581]
+[2023-07-24 07:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008581]
+[2023-07-24 07:58:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: probable-fiesta
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shioaji-position-management
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiearth-core
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-disconnect-notice
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shioaji-position-management
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinject-design
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtgql
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ops-channel
+[2023-07-24 07:58:17] INFO root fetch - processPackages [probable-fiesta]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [aiearth-core]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [shioaji-position-management]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [shioaji-position-management]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [pinject-design]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [qtgql]: New version: [0.130.9] Old Version: [0.130.8]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [probable-fiesta]: Downloading https://files.pythonhosted.org/packages/13/31/53cc26eda5fb7f133a8ff5190c8ebc91b8353b2c712580e6fbfc586f01a8/probable_fiesta-0.1.4.tar.gz
+[2023-07-24 07:58:17] INFO root fetch - processPackages [pinject-design]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [ops-channel]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-24 07:58:17] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/db/46/28475584a492cd2b3b7e9d94b73bb43248d389fdb5e50e0cfea31a187b6a/pinject_design-0.1.95.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/db/46/28475584a492cd2b3b7e9d94b73bb43248d389fdb5e50e0cfea31a187b6a/pinject_design-0.1.95.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/8f/39/fca97650337e1d1dadf81f7fe0118f3f1ce866e37cd4a5e3a227e1355b2b/qtgql-0.130.8.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [aiearth-core]: Downloading https://files.pythonhosted.org/packages/5e/ec/66c57b89d248e448b34fd1c6c3fe4a6d8e054bb1a04c6d8d7c6b31d1613b/aiearth-core-1.0.0.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/5f/c5/f9e324a2a70d4959c832570bd04d3dcd5f42c83177f5ce9e40983e49cfa2/shioaji_position_management-1.0.1.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/5f/c5/f9e324a2a70d4959c832570bd04d3dcd5f42c83177f5ce9e40983e49cfa2/shioaji_position_management-1.0.1.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/89/b9/f040379a53dd5dd47de7ed3207340eb5ebc09f7eec59c1599f27a538b43c/nonebot_plugin_disconnect_notice-0.1.0.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [ops-channel]: Downloading https://files.pythonhosted.org/packages/2f/51/055205a8f14faca60f382d7c14061757c9f7ba49c4b6e9b03c7ead9ec133/ops_channel-0.5.7.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [probable-fiesta]: Downloading https://files.pythonhosted.org/packages/f2/59/d1a032a6fc7cf25d9db321601a8c4b5f8c6ff5aa30925083cfd2dcce53c8/probable_fiesta-0.1.5.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/9f/ab/c0023c769ecf8a0bc27ba521330c85c32fc56a5eb2013321bca793efed49/pinject_design-0.1.96.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/9f/ab/c0023c769ecf8a0bc27ba521330c85c32fc56a5eb2013321bca793efed49/pinject_design-0.1.96.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/13/d9/d300f5e94ac3ab842ca5d919d27fdb928580d325552b8df2cf04d0d17972/qtgql-0.130.9.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [aiearth-core]: Downloading https://files.pythonhosted.org/packages/02/0c/194217d0412f2cea425081ab54da20581f462a02c4cf1d11901d20515103/aiearth-core-1.0.1.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/a4/ad/c4edbda835970ac1f3336f87a523b720e52620ddd665a8920720c6163013/nonebot_plugin_disconnect_notice-0.1.1.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [probable-fiesta]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [probable-fiesta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probable_fiesta-0.1.4.tar.gz tmp/probable_fiesta-0.1.5.tar.gz --markdown 20230724/p/probable-fiesta/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/e0/4c/c3906c30dcc9bb4bdee2563ec5b534228e704d62e5543427d0316f72b298/shioaji_position_management-1.0.2.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: Downloading https://files.pythonhosted.org/packages/e0/4c/c3906c30dcc9bb4bdee2563ec5b534228e704d62e5543427d0316f72b298/shioaji_position_management-1.0.2.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.1.0.tar.gz tmp/nonebot_plugin_disconnect_notice-0.1.1.tar.gz --markdown 20230724/n/nonebot-plugin-disconnect-notice/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.95.tar.gz tmp/pinject_design-0.1.96.tar.gz --markdown 20230724/p/pinject-design/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [aiearth-core]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [ops-channel]: Downloading https://files.pythonhosted.org/packages/ea/7f/96a54ce39cd80afd505e2b387cb47135e5bfdb3f7f947cd8d0b1186158c1/ops_channel-0.5.8.tar.gz
+[2023-07-24 07:58:18] INFO root fetch - processPackages [aiearth-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiearth-core-1.0.0.tar.gz tmp/aiearth-core-1.0.1.tar.gz --markdown 20230724/a/aiearth-core/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.95.tar.gz tmp/pinject_design-0.1.96.tar.gz --markdown 20230724/p/pinject-design/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.130.8.tar.gz tmp/qtgql-0.130.9.tar.gz --markdown 20230724/q/qtgql/0.130.8-0.130.9/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji_position_management-1.0.1.tar.gz tmp/shioaji_position_management-1.0.2.tar.gz --markdown 20230724/s/shioaji-position-management/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: executing diffoscope
+[2023-07-24 07:58:18] INFO root fetch - processPackages [shioaji-position-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji_position_management-1.0.1.tar.gz tmp/shioaji_position_management-1.0.2.tar.gz --markdown 20230724/s/shioaji-position-management/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 07:58:19] INFO root fetch - processPackages [ops-channel]: executing diffoscope
+[2023-07-24 07:58:19] INFO root fetch - processPackages [ops-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_channel-0.5.7.tar.gz tmp/ops_channel-0.5.8.tar.gz --markdown 20230724/o/ops-channel/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-24 07:58:20] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.0.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.1.1.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [aiearth-core]: Remove: archive file [/home/abi/fetcher/tmp/aiearth-core-1.0.0.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [aiearth-core]: Remove: archive file [/home/abi/fetcher/tmp/aiearth-core-1.0.1.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [aiearth-core]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [probable-fiesta]: Remove: archive file [/home/abi/fetcher/tmp/probable_fiesta-0.1.4.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [probable-fiesta]: Remove: archive file [/home/abi/fetcher/tmp/probable_fiesta-0.1.5.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [probable-fiesta]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [shioaji-position-management]: Remove: archive file [/home/abi/fetcher/tmp/shioaji_position_management-1.0.1.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [shioaji-position-management]: Remove: archive file [/home/abi/fetcher/tmp/shioaji_position_management-1.0.2.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [shioaji-position-management]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.95.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.96.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.8.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.9.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-24 07:58:20] INFO root fetch - processPackages [ops-channel]: Remove: archive file [/home/abi/fetcher/tmp/ops_channel-0.5.7.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - processPackages [ops-channel]: Remove: archive file [/home/abi/fetcher/tmp/ops_channel-0.5.8.tar.gz]
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [ops-channel]: success
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: End processing [shioaji-position-management]: success
+[2023-07-24 07:58:20] INFO root fetch - main [MainThread]: Store serial: [19008605]
