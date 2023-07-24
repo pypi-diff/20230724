@@ -6848,3 +6848,69 @@
 [2023-07-24 05:58:10] INFO root fetch - processPackages [dash-deckgl]: Remove: archive file [/home/abi/fetcher/tmp/dash_deckgl-0.2.1.tar.gz]
 [2023-07-24 05:58:10] INFO root fetch - main [MainThread]: End processing [dash-deckgl]: success
 [2023-07-24 05:58:10] INFO root fetch - main [MainThread]: Store serial: [19007825]
+[2023-07-24 06:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007825]
+[2023-07-24 06:03:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-regex
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-regex
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oceanum
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biggo-api-pms-python
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelz-llm
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mecord-cli
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ebcdic-parser
+[2023-07-24 06:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argparse-tui
+[2023-07-24 06:03:19] WARNING root fetch - processPackages [biggo-api-pms-python]: Skipping, unable to determine old version
+[2023-07-24 06:03:19] INFO root fetch - main [MainThread]: End processing [biggo-api-pms-python] error
+[2023-07-24 06:03:19] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230722] Old Version: [1.0.3.dev20230721]
+[2023-07-24 06:03:19] INFO root fetch - processPackages [datasette-sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 06:03:19] WARNING root fetch - processPackages [ebcdic-parser]: Skipping, unable to determine old version
+[2023-07-24 06:03:19] INFO root fetch - main [MainThread]: End processing [ebcdic-parser] error
+[2023-07-24 06:03:19] INFO root fetch - processPackages [oceanum]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-24 06:03:19] INFO root fetch - processPackages [modelz-llm]: New version: [23.7.2] Old Version: [23.7.1]
+[2023-07-24 06:03:19] WARNING root fetch - processPackages [argparse-tui]: Skipping, unable to determine old version
+[2023-07-24 06:03:19] INFO root fetch - main [MainThread]: End processing [argparse-tui] error
+[2023-07-24 06:03:19] INFO root fetch - processPackages [sqlite-regex]: New version: [0.2.3a9] Old Version: [0.2.3a8]
+[2023-07-24 06:03:19] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.89]
+[2023-07-24 06:03:19] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/06/09/0326f981373db0eeaa86605c46c822912238b5223d69fd56938c418e7e18/evals-nightly-1.0.3.dev20230721.tar.gz
+[2023-07-24 06:03:19] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/34/ae/66cc25813e1f74b7d072e437fefaeffea26cb92a2ebd320295c517828b8c/mecord-cli-0.1.89.tar.gz
+[2023-07-24 06:03:19] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/b1/06/4db5ebce60a3f07d4b77c213ae069b036967a9583cb894c9d0a27f5e18ac/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl
+[2023-07-24 06:03:19] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/36/41/5f52f1abea15a178c89dd75bfd89e046f1959dac341a89a7d5a4ccb2269f/modelz-llm-23.7.1.tar.gz
+[2023-07-24 06:03:19] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/a9/f8/1d7695e36b445abdaff6fe9a6d845689f712ce083b5fa35876e3b7a1a9b8/oceanum-0.7.9.tar.gz
+[2023-07-24 06:03:19] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/25/c5/7c63d35ee5f41a41d5d94b797a0545e2d77df72f6d7d15640fd9693b2911/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl
+[2023-07-24 06:03:19] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/90/b6/ec2dc6d576d4390ea55452f94df6dabae8e8d517fe65c8f8cfb3e00fb5ae/evals-nightly-1.0.3.dev20230722.tar.gz
+[2023-07-24 06:03:19] INFO root fetch - processPackages [datasette-sqlite-regex]: Downloading https://files.pythonhosted.org/packages/48/62/95bcaf409cd88ea3aac6424ee42ecd2df4fa5dab60b5bc2d965cbd656673/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl
+[2023-07-24 06:03:20] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/f8/8b/ea0b32a7d1dbbcaaf9a284076109210fdbba99c096101c8a9f96eed437cf/modelz-llm-23.7.2.tar.gz
+[2023-07-24 06:03:20] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-24 06:03:20] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-24 06:03:20] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230721.tar.gz tmp/evals-nightly-1.0.3.dev20230722.tar.gz --markdown 20230724/e/evals-nightly/1.0.3.dev20230721-1.0.3.dev20230722/diff.md --exclude *.pyd
+[2023-07-24 06:03:20] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-07-24 06:03:20] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.7.1.tar.gz tmp/modelz-llm-23.7.2.tar.gz --markdown 20230724/m/modelz-llm/23.7.1-23.7.2/diff.md --exclude *.pyd
+[2023-07-24 06:03:20] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-24 06:03:20] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.89.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230724/m/mecord-cli/0.1.89-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 06:03:20] INFO root fetch - processPackages [datasette-sqlite-regex]: executing diffoscope
+[2023-07-24 06:03:20] INFO root fetch - processPackages [datasette-sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 06:03:20] INFO root fetch - processPackages [sqlite-regex]: Downloading https://files.pythonhosted.org/packages/c6/af/dc3e5461f322aa76450bd02d99ee04f6e3971e6886fcccecd8b3ea645e97/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl
+[2023-07-24 06:03:20] INFO root fetch - processPackages [sqlite-regex]: executing diffoscope
+[2023-07-24 06:03:20] INFO root fetch - processPackages [sqlite-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-regex/0.2.3a8-0.2.3a9/diff.md --exclude *.pyd
+[2023-07-24 06:03:20] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/f0/c9/73e560be92042b76ab99977ae7743f7ba05ee7650fca85860404573d2b8c/oceanum-0.8.0.tar.gz
+[2023-07-24 06:03:21] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-07-24 06:03:21] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.7.9.tar.gz tmp/oceanum-0.8.0.tar.gz --markdown 20230724/o/oceanum/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-24 06:03:21] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a8-py3-none-any.whl.zip]
+[2023-07-24 06:03:21] INFO root fetch - processPackages [datasette-sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_regex-0.2.3a9-py3-none-any.whl.zip]
+[2023-07-24 06:03:21] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-regex]: success
+[2023-07-24 06:03:21] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.89.tar.gz]
+[2023-07-24 06:03:21] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-24 06:03:21] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-24 06:03:21] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.7.1.tar.gz]
+[2023-07-24 06:03:21] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.7.2.tar.gz]
+[2023-07-24 06:03:21] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-07-24 06:03:22] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230721.tar.gz]
+[2023-07-24 06:03:22] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230722.tar.gz]
+[2023-07-24 06:03:22] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-24 06:03:22] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.9.tar.gz]
+[2023-07-24 06:03:22] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.8.0.tar.gz]
+[2023-07-24 06:03:22] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-07-24 06:03:26] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a8-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:03:26] INFO root fetch - processPackages [sqlite-regex]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_regex-0.2.3a9-py3-none-win_amd64.whl.zip]
+[2023-07-24 06:03:26] INFO root fetch - main [MainThread]: End processing [sqlite-regex]: success
+[2023-07-24 06:03:26] INFO root fetch - main [MainThread]: Store serial: [19007860]
