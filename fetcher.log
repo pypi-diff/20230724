@@ -14683,3 +14683,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:21:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307241016-py3-none-any.whl.zip]
 [2023-07-24 12:21:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-24 12:21:28] INFO root fetch - main [MainThread]: Store serial: [19011073]
+[2023-07-24 12:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011073]
+[2023-07-24 12:26:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudproof-aesgcm
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudproof-anonymization
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudproof-fpe
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cover-crypt
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudproof-ecies
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findex
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: losscape
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-connect
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatllm
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciderpolarity
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-fpe]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-aesgcm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-ecies]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [findex]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [losscape]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-anonymization]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cover-crypt]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.43] Old Version: [9.1.42]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-24 12:26:37] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/b9/fa/9165932d2b3e071810453e8a7735faa21e615d389532245be87d4a7895ce/losscape-1.5.4.tar.gz
+[2023-07-24 12:26:37] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/ba/23/7d06585a66bb6dbc209321b07b3de3ba335842930baddd3a95ede300fba8/ciderpolarity-0.2.8.tar.gz
+[2023-07-24 12:26:37] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/4d/62/a4719b798b0a71299e3ff74c2631b4ee65f63f3e92a1a6c1941b7704fad4/findex-4.0.2-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/88/3e/bb16b3c64dc9437d71f5dae53070559427a77a87e7f71ab897a70b63746a/databricks-connect-9.1.42.tar.gz
+[2023-07-24 12:26:37] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-fpe]: Downloading https://files.pythonhosted.org/packages/19/1e/ed55aa8593dd58cb940cd89ea52cf1a0453e59420bf7ae5aafd19daa9d57/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-ecies]: Downloading https://files.pythonhosted.org/packages/5a/b2/06bd59bcf978a0094d93d8725a494b83bbcb94f1905359fa5607002f646c/cloudproof_ecies-0.1.0-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-aesgcm]: Downloading https://files.pythonhosted.org/packages/c3/9e/62781f57906d98b7cdda4b4750b89a1818b1eeef7ff7ce94fa78a3a4128a/cloudproof_aesgcm-0.1.0-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cloudproof-anonymization]: Downloading https://files.pythonhosted.org/packages/87/58/c6cebb7554c94d329cc9251c6d3a4a2dc2729fb0fdceacf52b802e15551a/cloudproof_anonymization-0.1.0-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257253820>=10485760
+[2023-07-24 12:26:37] INFO root fetch - processPackages [databricks-connect]: Start processing: kili
+[2023-07-24 12:26:37] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-07-24 12:26:37] INFO root fetch - processPackages [cover-crypt]: Downloading https://files.pythonhosted.org/packages/c4/ee/ee248c1e5ac2e8e1af9ac49af626777dd4ab1c4413198138ecdab5421978/cover_crypt-8.0.1-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:37] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-24 12:26:37] INFO root fetch - processPackages [chatllm]: Start processing: lacuscore
+[2023-07-24 12:26:37] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-24 12:26:38] INFO root fetch - processPackages [losscape]: Downloading https://files.pythonhosted.org/packages/90/c6/b89ab084dfcbb99109e8c96c367489ee480a2948bc7a1b5c517681fe230c/losscape-1.5.5.tar.gz
+[2023-07-24 12:26:38] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-07-24 12:26:38] INFO root fetch - processPackages [lacuscore]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-24 12:26:38] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/01/d9/4ce87a3af681374f4c4135491869e1811bdd6d6741293d02665ac017c0d8/ciderpolarity-0.2.9.tar.gz
+[2023-07-24 12:26:38] INFO root fetch - processPackages [losscape]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [losscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/losscape-1.5.4.tar.gz tmp/losscape-1.5.5.tar.gz --markdown 20230724/l/losscape/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.8.tar.gz tmp/ciderpolarity-0.2.9.tar.gz --markdown 20230724/c/ciderpolarity/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [findex]: Downloading https://files.pythonhosted.org/packages/cc/e2/f8204ffd53c466e25b987f84f2b9296b676e32fcc30f3972d1fc0c412245/findex-4.0.3-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-ecies]: Downloading https://files.pythonhosted.org/packages/93/47/824c18e554d83b8c5fee8389414f46a6bad01f6fa5c72466dde4c8970fc5/cloudproof_ecies-0.1.1-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-fpe]: Downloading https://files.pythonhosted.org/packages/36/0b/e84ca1f49a0322c7e0bf075faaf19a4f82bfc12f03454e20613c086bfadc/cloudproof_fpe-0.2.1-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-anonymization]: Downloading https://files.pythonhosted.org/packages/2b/1b/0f4756be67bc2ae876e8c65cdebcd6618626650ee748816e36e2b7294d1e/cloudproof_anonymization-0.1.1-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-aesgcm]: Downloading https://files.pythonhosted.org/packages/1d/ca/0f88ecbe414812e78085b853a55018c790cf7f2b622e8419bea270047a5f/cloudproof_aesgcm-0.1.1-cp37-abi3-win_amd64.whl
+[2023-07-24 12:26:38] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-07-24 12:26:38] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/f0/b4/317820a190ce77b424cc6562ac2476c93a14f1af7e14bcec80a0fa9f2061/lacuscore-1.6.2.tar.gz
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-ecies]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-ecies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_ecies-0.1.0-cp37-abi3-win_amd64.whl.zip tmp/cloudproof_ecies-0.1.1-cp37-abi3-win_amd64.whl.zip --markdown 20230724/c/cloudproof-ecies/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [findex]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [findex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findex-4.0.2-cp37-abi3-win_amd64.whl.zip tmp/findex-4.0.3-cp37-abi3-win_amd64.whl.zip --markdown 20230724/f/findex/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-anonymization]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-anonymization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_anonymization-0.1.0-cp37-abi3-win_amd64.whl.zip tmp/cloudproof_anonymization-0.1.1-cp37-abi3-win_amd64.whl.zip --markdown 20230724/c/cloudproof-anonymization/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-aesgcm]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-aesgcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_aesgcm-0.1.0-cp37-abi3-win_amd64.whl.zip tmp/cloudproof_aesgcm-0.1.1-cp37-abi3-win_amd64.whl.zip --markdown 20230724/c/cloudproof-aesgcm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-fpe]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [cloudproof-fpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl.zip tmp/cloudproof_fpe-0.2.1-cp37-abi3-win_amd64.whl.zip --markdown 20230724/c/cloudproof-fpe/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 12:26:38] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/b5/9a/034de49d72c145449292a890212b4ca09bd84eeb2b1f9f8911ea9df281f0/lacuscore-1.6.3.tar.gz
+[2023-07-24 12:26:38] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2023-07-24 12:26:38] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.6.2.tar.gz tmp/lacuscore-1.6.3.tar.gz --markdown 20230724/l/lacuscore/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cover-crypt]: Downloading https://files.pythonhosted.org/packages/85/0f/a5dbe68fc887e26ddbf1ede64d4c99ad5062ceb1066a8624878ada5f72b9/cover_crypt-8.0.2-cp37-abi3-manylinux_2_28_x86_64.whl
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cover-crypt]: executing diffoscope
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cover-crypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cover_crypt-8.0.1-cp37-abi3-win_amd64.whl.zip tmp/cover_crypt-8.0.2-cp37-abi3-manylinux_2_28_x86_64.whl.zip --markdown 20230724/c/cover-crypt/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-07-24 12:26:39] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-07-24 12:26:39] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.4.tar.gz]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [losscape]: Remove: archive file [/home/abi/fetcher/tmp/losscape-1.5.5.tar.gz]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [losscape]: Start processing: aio-openapi
+[2023-07-24 12:26:39] INFO root fetch - main [MainThread]: End processing [losscape]: success
+[2023-07-24 12:26:39] INFO root fetch - processPackages [aio-openapi]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cloudproof-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_anonymization-0.1.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cloudproof-anonymization]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_anonymization-0.1.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cloudproof-anonymization]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-07-24 12:26:39] INFO root fetch - main [MainThread]: End processing [cloudproof-anonymization]: success
+[2023-07-24 12:26:39] INFO root fetch - processPackages [aio-openapi]: Downloading https://files.pythonhosted.org/packages/22/40/de096e55dae4d70d854bf9424bd9f5efd8ed73a7ee90bc5d10e9a8c5f08b/aio_openapi-3.2.0.tar.gz
+[2023-07-24 12:26:39] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.8.tar.gz]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.9.tar.gz]
+[2023-07-24 12:26:39] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cloudproof-ecies]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_ecies-0.1.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:39] INFO root fetch - processPackages [cloudproof-ecies]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_ecies-0.1.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:39] INFO root fetch - main [MainThread]: End processing [cloudproof-ecies]: success
+[2023-07-24 12:26:39] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cloudproof-aesgcm]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_aesgcm-0.1.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cloudproof-aesgcm]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_aesgcm-0.1.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - main [MainThread]: End processing [cloudproof-aesgcm]: success
+[2023-07-24 12:26:40] INFO root fetch - processPackages [findex]: Remove: archive file [/home/abi/fetcher/tmp/findex-4.0.2-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [findex]: Remove: archive file [/home/abi/fetcher/tmp/findex-4.0.3-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - main [MainThread]: End processing [findex]: success
+[2023-07-24 12:26:40] INFO root fetch - processPackages [aio-openapi]: Downloading https://files.pythonhosted.org/packages/a2/c6/4a923386ce5bf79f5610969566a31084b7e044a1f714c89964a40d06902b/aio_openapi-3.2.1.tar.gz
+[2023-07-24 12:26:40] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.6.2.tar.gz]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.6.3.tar.gz]
+[2023-07-24 12:26:40] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2023-07-24 12:26:40] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cloudproof-fpe]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_fpe-0.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cloudproof-fpe]: Remove: archive file [/home/abi/fetcher/tmp/cloudproof_fpe-0.2.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - main [MainThread]: End processing [cloudproof-fpe]: success
+[2023-07-24 12:26:40] INFO root fetch - processPackages [aio-openapi]: executing diffoscope
+[2023-07-24 12:26:40] INFO root fetch - processPackages [aio-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_openapi-3.2.0.tar.gz tmp/aio_openapi-3.2.1.tar.gz --markdown 20230724/a/aio-openapi/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cover-crypt]: Remove: archive file [/home/abi/fetcher/tmp/cover_crypt-8.0.1-cp37-abi3-win_amd64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - processPackages [cover-crypt]: Remove: archive file [/home/abi/fetcher/tmp/cover_crypt-8.0.2-cp37-abi3-manylinux_2_28_x86_64.whl.zip]
+[2023-07-24 12:26:40] INFO root fetch - main [MainThread]: End processing [cover-crypt]: success
+[2023-07-24 12:26:40] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-07-24 12:26:40] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-07-24 12:26:40] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230724/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 12:26:40] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-07-24 12:26:40] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230724/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-07-24 12:26:41] INFO root fetch - processPackages [aio-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aio_openapi-3.2.0.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - processPackages [aio-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aio_openapi-3.2.1.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - main [MainThread]: End processing [aio-openapi]: success
+[2023-07-24 12:26:41] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-07-24 12:26:41] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-07-24 12:26:41] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-07-24 12:26:41] INFO root fetch - main [MainThread]: Store serial: [19011128]
