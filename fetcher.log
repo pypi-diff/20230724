@@ -18350,3 +18350,164 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 14:49:36] INFO root fetch - processPackages [dmlab2d]: Remove: archive file [/home/abi/fetcher/tmp/dmlab2d-1.0.0_dev.9-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
 [2023-07-24 14:49:36] INFO root fetch - main [MainThread]: End processing [dmlab2d]: success
 [2023-07-24 14:49:36] INFO root fetch - main [MainThread]: Store serial: [19012615]
+[2023-07-24 14:54:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19012615]
+[2023-07-24 14:54:47] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pelican-sitemap
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proxy-cheap
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Furious-GUI
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BukeColabProject
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-core
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lingtrain-aligner
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: impunity
+[2023-07-24 14:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-image-pipeline
+[2023-07-24 14:54:47] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230724.12.49.786092] Old Version: [20230724.10.56.456557]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [pelican-sitemap]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [BukeColabProject]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [proxy-cheap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [lingtrain-aligner]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [impunity]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 14:54:47] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/59/91/6ca864ae0fae5542c67ca920b2f1a42593ede4675e0b1eef5e9658aa4dc6/BukeColabProject-0.4.4.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [lingtrain-aligner]: Downloading https://files.pythonhosted.org/packages/fd/c2/b1344a469ebb6a13207edf83279ea88e8e9420de3830f52cfafc0c49fc4b/lingtrain-aligner-0.9.0.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/b9/d0/4609737b76fe555ecd75c3d413d626bb6e3feb29eb898284d0ec2f1e87ca/proxy_cheap-0.0.2.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pelican-sitemap]: Downloading https://files.pythonhosted.org/packages/51/16/c35c694d2844b1575b64dd502650e1bfdb83a6e1855a7e09f07fc145e953/pelican_sitemap-1.0.3.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/71/ed/010a273225c14cb338bdf45aba472c5357490fa5a00e3303ff0057e13104/certora-cli-alpha-master-20230724.10.56.456557.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/5f/26/5b8902757e12cc0825241d9a87775ea622a82d72a8734a0d32dee8435f0f/Furious-GUI-0.1.0.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [impunity]: Downloading https://files.pythonhosted.org/packages/06/d2/17f3df51d69dc1dbaf5fcdbf17170c0a6aa55b1b2c30f7f8accc0d59ad1f/impunity-1.0.1.tar.gz
+[2023-07-24 14:54:48] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37538515>=10485760
+[2023-07-24 14:54:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: amsterdam-schema-tools
+[2023-07-24 14:54:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-24 14:54:48] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/be/bc2e75d8f3cce22e1b2878fbe3e389816d5ac3084df0ff546a63ea73dfcc/cdk-image-pipeline-0.3.8.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-07-24 14:54:48] INFO root fetch - processPackages [BukeColabProject]: Downloading https://files.pythonhosted.org/packages/a7/a2/fc96755063e5d3851535ca6dfb1278381db1477d9699dcc54068f06c5162/BukeColabProject-0.4.5.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/8f/85/472b53a27c5639d093574caf20c8437a166e607d63ecdc1c4791217748f6/proxy_cheap-0.0.3.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [lingtrain-aligner]: Downloading https://files.pythonhosted.org/packages/c6/b9/addfc4069ee057a4dba5f8915f03bc113c36aa743ec3b33c21abcb05b98a/lingtrain-aligner-0.9.2.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [impunity]: Downloading https://files.pythonhosted.org/packages/b2/66/01ecc26bc3766aa373ad7b1b23d016ab4973d65b097558b1a389ab585b47/impunity-1.0.2.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [BukeColabProject]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [BukeColabProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BukeColabProject-0.4.4.tar.gz tmp/BukeColabProject-0.4.5.tar.gz --markdown 20230724/B/BukeColabProject/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pelican-sitemap]: Downloading https://files.pythonhosted.org/packages/cd/11/5ccc1e52e3122186c8bee07bbbcdf2d6a1b42feaeadf9cec4262b87828fc/pelican_sitemap-1.1.0.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [proxy-cheap]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [proxy-cheap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_cheap-0.0.2.tar.gz tmp/proxy_cheap-0.0.3.tar.gz --markdown 20230724/p/proxy-cheap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [lingtrain-aligner]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [lingtrain-aligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingtrain-aligner-0.9.0.tar.gz tmp/lingtrain-aligner-0.9.2.tar.gz --markdown 20230724/l/lingtrain-aligner/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230724/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [impunity]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [impunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impunity-1.0.1.tar.gz tmp/impunity-1.0.2.tar.gz --markdown 20230724/i/impunity/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/03/94/57ddc24a74709b1e0e032a7d1714714876ac0608d0f0ebc12cb11b4d41d0/cdk-image-pipeline-0.3.9.tar.gz
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pelican-sitemap]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pelican-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_sitemap-1.0.3.tar.gz tmp/pelican_sitemap-1.1.0.tar.gz --markdown 20230724/p/pelican-sitemap/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-24 14:54:48] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230724/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 14:54:49] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/70/8a/eb7a7cbe34569cf42b8ed5cb92f85b442e14a23ee858081676a00d44f8f3/Furious-GUI-0.1.1.tar.gz
+[2023-07-24 14:54:49] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-07-24 14:54:49] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.3.8.tar.gz tmp/cdk-image-pipeline-0.3.9.tar.gz --markdown 20230724/c/cdk-image-pipeline/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 14:54:49] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-07-24 14:54:49] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-07-24 14:54:49] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230724/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-07-24 14:54:49] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-07-24 14:54:49] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.0.tar.gz tmp/Furious-GUI-0.1.1.tar.gz --markdown 20230724/F/Furious-GUI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 14:54:50] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.2.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.3.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [proxy-cheap]: Start processing: a99
+[2023-07-24 14:54:50] INFO root fetch - main [MainThread]: End processing [proxy-cheap]: success
+[2023-07-24 14:54:50] INFO root fetch - processPackages [a99]: New version: [23.7.21.0] Old Version: [18.3.1.0]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.4.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [BukeColabProject]: Remove: archive file [/home/abi/fetcher/tmp/BukeColabProject-0.4.5.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [BukeColabProject]: Start processing: f311
+[2023-07-24 14:54:50] INFO root fetch - main [MainThread]: End processing [BukeColabProject]: success
+[2023-07-24 14:54:50] INFO root fetch - processPackages [pelican-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/pelican_sitemap-1.0.3.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [pelican-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/pelican_sitemap-1.1.0.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [pelican-sitemap]: Start processing: mpi-cbs.mediforms
+[2023-07-24 14:54:50] INFO root fetch - main [MainThread]: End processing [pelican-sitemap]: success
+[2023-07-24 14:54:50] INFO root fetch - processPackages [a99]: Downloading https://files.pythonhosted.org/packages/a9/27/6a1ca7d6c66db062f707ae65c2fac7a21b777e9f33a0795257a9565e548c/a99-18.3.1.0.tar.gz
+[2023-07-24 14:54:50] INFO root fetch - processPackages [f311]: New version: [23.7.21.0] Old Version: [18.3.1.0]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [mpi-cbs.mediforms]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [impunity]: Remove: archive file [/home/abi/fetcher/tmp/impunity-1.0.1.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [impunity]: Remove: archive file [/home/abi/fetcher/tmp/impunity-1.0.2.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [impunity]: Start processing: proxy-cheap
+[2023-07-24 14:54:50] INFO root fetch - main [MainThread]: End processing [impunity]: success
+[2023-07-24 14:54:50] INFO root fetch - processPackages [proxy-cheap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [lingtrain-aligner]: Remove: archive file [/home/abi/fetcher/tmp/lingtrain-aligner-0.9.0.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [lingtrain-aligner]: Remove: archive file [/home/abi/fetcher/tmp/lingtrain-aligner-0.9.2.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [lingtrain-aligner]: Start processing: promql-parser
+[2023-07-24 14:54:50] INFO root fetch - main [MainThread]: End processing [lingtrain-aligner]: success
+[2023-07-24 14:54:50] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.8.tar.gz]
+[2023-07-24 14:54:50] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.9.tar.gz]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [cdk-image-pipeline]: Start processing: oarepo-model-builder
+[2023-07-24 14:54:51] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-07-24 14:54:51] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/fb/a5/db0f560af18045b81dd3bec184377c39f6b9c3b91ce79605f91eada75f04/mpi-cbs.mediforms-0.1.0a8.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/8f/85/472b53a27c5639d093574caf20c8437a166e607d63ecdc1c4791217748f6/proxy_cheap-0.0.3.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [f311]: Downloading https://files.pythonhosted.org/packages/98/1e/22a863201ed91ca29bf3208333f77d961e1422e2d13547cd569e530b1278/f311-18.3.1.0.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [promql-parser]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [a99]: Downloading https://files.pythonhosted.org/packages/58/6e/21a314b038b189924eca1888799d9a7b4cd8e40bcda698f47397364ea121/a99-23.7.21.0.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [mpi-cbs.mediforms]: Downloading https://files.pythonhosted.org/packages/c5/47/5306f01b519d5d73d50901fa4c517511bc68b1fcaecce1700b4552ccb469/mpi-cbs.mediforms-0.1.0a9.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [a99]: executing diffoscope
+[2023-07-24 14:54:51] INFO root fetch - processPackages [a99]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a99-18.3.1.0.tar.gz tmp/a99-23.7.21.0.tar.gz --markdown 20230724/a/a99/18.3.1.0-23.7.21.0/diff.md --exclude *.pyd
+[2023-07-24 14:54:51] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [mpi-cbs.mediforms]: executing diffoscope
+[2023-07-24 14:54:51] INFO root fetch - processPackages [mpi-cbs.mediforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz --markdown 20230724/m/mpi-cbs.mediforms/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-24 14:54:51] INFO root fetch - processPackages [promql-parser]: Downloading https://files.pythonhosted.org/packages/7d/ea/24e36b4d60922de56faef02493942148c8cb20a8ff47058468ba3fc919c3/promql_parser-0.1.3.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [proxy-cheap]: Downloading https://files.pythonhosted.org/packages/d7/c3/c9d15c557706954514b8c3c55512c8cba8d50cf358c7a8b021259cd66cd5/proxy_cheap-0.0.4.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [f311]: Downloading https://files.pythonhosted.org/packages/b3/d2/a5fc661a420cbed9b5bf877404d8fbc2cfaa173814a4b2c885a67855c0b8/f311-23.7.21.0.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [amsterdam-schema-tools]: Start processing: nicescad
+[2023-07-24 14:54:51] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-07-24 14:54:51] INFO root fetch - processPackages [f311]: executing diffoscope
+[2023-07-24 14:54:51] INFO root fetch - processPackages [f311]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f311-18.3.1.0.tar.gz tmp/f311-23.7.21.0.tar.gz --markdown 20230724/f/f311/18.3.1.0-23.7.21.0/diff.md --exclude *.pyd
+[2023-07-24 14:54:51] INFO root fetch - processPackages [proxy-cheap]: executing diffoscope
+[2023-07-24 14:54:51] INFO root fetch - processPackages [proxy-cheap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_cheap-0.0.3.tar.gz tmp/proxy_cheap-0.0.4.tar.gz --markdown 20230724/p/proxy-cheap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 14:54:51] INFO root fetch - processPackages [nicescad]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 14:54:51] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/21/19/9a3fa8bf3b69e059f97ce533c64284f5a98e68635e8ed118355ea7a022c7/nicescad-0.0.3.tar.gz
+[2023-07-24 14:54:51] INFO root fetch - processPackages [promql-parser]: Downloading https://files.pythonhosted.org/packages/14/03/c193074ff572a2004ed54d5b0f937e4a8ab6d20e043bc716eb7037e0753e/promql_parser-0.2.0-cp38-none-win_amd64.whl
+[2023-07-24 14:54:51] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-24 14:54:52] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-24 14:54:52] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-24 14:54:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-24 14:54:52] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/86/5b/a2ef512970c3248f3ff6bb1556aa85942093b18d4dc1c2c36b6c6b0a0f74/nicescad-0.0.4.tar.gz
+[2023-07-24 14:54:52] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-24 14:54:52] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230724/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-24 14:54:52] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-24 14:54:52] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.3.tar.gz tmp/nicescad-0.0.4.tar.gz --markdown 20230724/n/nicescad/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 14:54:52] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.0.tar.gz]
+[2023-07-24 14:54:52] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.1.tar.gz]
+[2023-07-24 14:54:52] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-07-24 14:54:52] INFO root fetch - processPackages [promql-parser]: executing diffoscope
+[2023-07-24 14:54:52] INFO root fetch - processPackages [promql-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_parser-0.1.3.tar.gz tmp/promql_parser-0.2.0-cp38-none-win_amd64.whl.zip --markdown 20230724/p/promql-parser/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 14:54:53] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.3.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - processPackages [proxy-cheap]: Remove: archive file [/home/abi/fetcher/tmp/proxy_cheap-0.0.4.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - main [MainThread]: End processing [proxy-cheap]: success
+[2023-07-24 14:54:53] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a8.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - processPackages [mpi-cbs.mediforms]: Remove: archive file [/home/abi/fetcher/tmp/mpi-cbs.mediforms-0.1.0a9.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - main [MainThread]: End processing [mpi-cbs.mediforms]: success
+[2023-07-24 14:54:53] INFO root fetch - processPackages [f311]: Remove: archive file [/home/abi/fetcher/tmp/f311-18.3.1.0.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - processPackages [f311]: Remove: archive file [/home/abi/fetcher/tmp/f311-23.7.21.0.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - main [MainThread]: End processing [f311]: success
+[2023-07-24 14:54:53] INFO root fetch - processPackages [a99]: Remove: archive file [/home/abi/fetcher/tmp/a99-18.3.1.0.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - processPackages [a99]: Remove: archive file [/home/abi/fetcher/tmp/a99-23.7.21.0.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - main [MainThread]: End processing [a99]: success
+[2023-07-24 14:54:53] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.3.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.4.tar.gz]
+[2023-07-24 14:54:53] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-24 14:54:54] INFO root fetch - processPackages [promql-parser]: Remove: archive file [/home/abi/fetcher/tmp/promql_parser-0.1.3.tar.gz]
+[2023-07-24 14:54:54] INFO root fetch - processPackages [promql-parser]: Remove: archive file [/home/abi/fetcher/tmp/promql_parser-0.2.0-cp38-none-win_amd64.whl.zip]
+[2023-07-24 14:54:54] INFO root fetch - main [MainThread]: End processing [promql-parser]: success
+[2023-07-24 14:54:54] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-24 14:54:54] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-24 14:54:54] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-24 14:54:54] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-24 14:54:54] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-24 14:54:54] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-24 14:54:54] INFO root fetch - main [MainThread]: Store serial: [19012686]
