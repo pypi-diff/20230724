@@ -9207,3 +9207,72 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:34:53] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.6.2.tar.gz]
 [2023-07-24 08:34:53] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2023-07-24 08:34:53] INFO root fetch - main [MainThread]: Store serial: [19008860]
+[2023-07-24 08:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008860]
+[2023-07-24 08:40:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benimang
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avirtech-spraying-jiyi-lib
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickmpc
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biggo-pms-api-python
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-employee-document-mixin
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-hr-employee
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Queue-Analyzer
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sum-arun-test
+[2023-07-24 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stock-open-api
+[2023-07-24 08:40:02] WARNING root fetch - processPackages [avirtech-spraying-jiyi-lib]: Skipping, unable to determine old version
+[2023-07-24 08:40:02] INFO root fetch - main [MainThread]: End processing [avirtech-spraying-jiyi-lib] error
+[2023-07-24 08:40:02] WARNING root fetch - processPackages [odoo14-addon-ssi-hr-employee]: Skipping, unable to determine old version
+[2023-07-24 08:40:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-employee] error
+[2023-07-24 08:40:02] WARNING root fetch - processPackages [biggo-pms-api-python]: Skipping, unable to determine old version
+[2023-07-24 08:40:02] INFO root fetch - main [MainThread]: End processing [biggo-pms-api-python] error
+[2023-07-24 08:40:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 08:40:02] WARNING root fetch - processPackages [odoo14-addon-ssi-employee-document-mixin]: Skipping, unable to determine old version
+[2023-07-24 08:40:02] INFO root fetch - processPackages [sum-arun-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 08:40:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-employee-document-mixin] error
+[2023-07-24 08:40:02] INFO root fetch - processPackages [quickmpc]: New version: [9.9.9] Old Version: [1.0.0]
+[2023-07-24 08:40:02] INFO root fetch - processPackages [benimang]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-07-24 08:40:02] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 08:40:02] INFO root fetch - processPackages [Queue-Analyzer]: New version: [0.9.1.2] Old Version: [0.9.1.1]
+[2023-07-24 08:40:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [sum-arun-test]: Downloading https://files.pythonhosted.org/packages/79/6d/b243fbb054bbb54a52c999218c0320333235c3b9f748ad5272d943c57770/sum_arun_test-0.1.1.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/53/48/44bcf70988ff6f350a7a8d598248c5af84641929be139b1e268cd53f2410/benimang-0.4.6.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/93/c9/3f2eebe4e45f16dbb47387310b5e0b68064a9fd08ff18fc06d19302cdf99/quickmpc-1.0.0.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a9/3c/063f1b38ae7de2bb168521e833ff550429d3ace25b246023b64288409417/stock-open-api-0.0.6.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [Queue-Analyzer]: Downloading https://files.pythonhosted.org/packages/23/df/2ef09c32502b80dd1f6c9afae6d21a4547dd05f71eadfd9644a7734adfb2/Queue_Analyzer-0.9.1.1.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [sum-arun-test]: Downloading https://files.pythonhosted.org/packages/91/ad/3b7abb73985c033bc97cea4898942ca6b20ca2d6a3a4dc0269a093459282/sum_arun_test-0.1.2.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-24 08:40:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-24 08:40:02] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230724/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 08:40:02] INFO root fetch - processPackages [sum-arun-test]: executing diffoscope
+[2023-07-24 08:40:02] INFO root fetch - processPackages [sum-arun-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sum_arun_test-0.1.1.tar.gz tmp/sum_arun_test-0.1.2.tar.gz --markdown 20230724/s/sum-arun-test/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 08:40:03] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/26/12/07fe98de75a60c5be794f0bdf3be406b5827e657bb350cf76634562437e2/benimang-0.4.7.tar.gz
+[2023-07-24 08:40:03] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-24 08:40:03] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.6.tar.gz tmp/benimang-0.4.7.tar.gz --markdown 20230724/b/benimang/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-07-24 08:40:03] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/12/c6/2a3ca90ab9f59221074e1ecf047c806c035133dc406f3bf816798f1ddb4a/quickmpc-9.9.9.tar.gz
+[2023-07-24 08:40:03] INFO root fetch - processPackages [Queue-Analyzer]: Downloading https://files.pythonhosted.org/packages/6c/70/c85750f2517e3bc242f5ecf395997dbe41056e5b94f5e2a175623947b65b/Queue_Analyzer-0.9.1.2.tar.gz
+[2023-07-24 08:40:03] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-07-24 08:40:03] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-1.0.0.tar.gz tmp/quickmpc-9.9.9.tar.gz --markdown 20230724/q/quickmpc/1.0.0-9.9.9/diff.md --exclude *.pyd
+[2023-07-24 08:40:03] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a8/e4/fe19ada3d18a4a5f7e9bb3bcb840a3f41c1cb6683237767fe6d5ada2a6ea/stock-open-api-0.0.7.tar.gz
+[2023-07-24 08:40:03] INFO root fetch - processPackages [Queue-Analyzer]: executing diffoscope
+[2023-07-24 08:40:03] INFO root fetch - processPackages [Queue-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Queue_Analyzer-0.9.1.1.tar.gz tmp/Queue_Analyzer-0.9.1.2.tar.gz --markdown 20230724/Q/Queue-Analyzer/0.9.1.1-0.9.1.2/diff.md --exclude *.pyd
+[2023-07-24 08:40:03] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-24 08:40:03] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.6.tar.gz tmp/stock-open-api-0.0.7.tar.gz --markdown 20230724/s/stock-open-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 08:40:04] INFO root fetch - processPackages [sum-arun-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_arun_test-0.1.1.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [sum-arun-test]: Remove: archive file [/home/abi/fetcher/tmp/sum_arun_test-0.1.2.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [sum-arun-test]: success
+[2023-07-24 08:40:04] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.6.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.7.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-24 08:40:04] INFO root fetch - processPackages [Queue-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/Queue_Analyzer-0.9.1.1.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [Queue-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/Queue_Analyzer-0.9.1.2.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [Queue-Analyzer]: success
+[2023-07-24 08:40:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-24 08:40:04] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-1.0.0.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-9.9.9.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-07-24 08:40:04] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.6.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.7.tar.gz]
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-24 08:40:04] INFO root fetch - main [MainThread]: Store serial: [19008897]
