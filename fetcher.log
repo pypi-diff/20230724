@@ -9569,3 +9569,156 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 08:51:07] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
 [2023-07-24 08:51:07] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2023-07-24 08:51:07] INFO root fetch - main [MainThread]: Store serial: [19009005]
+[2023-07-24 08:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009005]
+[2023-07-24 08:56:16] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trilium-py
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echoss-fileformat
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb_netmgmt
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartchart
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: godot-rl
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dc3client
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openeo-pg-parser-networkx
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SingleCellExperiment
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiofauna
+[2023-07-24 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readyocr
+[2023-07-24 08:56:17] INFO root fetch - processPackages [mb_netmgmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [godot-rl]: New version: [0.6.0] Old Version: [0.5.0a0]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [trilium-py]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [echoss-fileformat]: New version: [0.2] Old Version: [0.1]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [SingleCellExperiment]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [openeo-pg-parser-networkx]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-24 08:56:17] WARNING root fetch - processPackages [dc3client]: Skipping, unable to determine old version
+[2023-07-24 08:56:17] INFO root fetch - processPackages [dc3client]: Start processing: latinex-sdk
+[2023-07-24 08:56:17] INFO root fetch - main [MainThread]: End processing [dc3client] error
+[2023-07-24 08:56:17] INFO root fetch - processPackages [smartchart]: New version: [6.6.8.1] Old Version: [6.6.8]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [latinex-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 08:56:17] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/3e/84/b747dee6692591279355d2d4bffaee7c1e4649d75ee3c51ccd90aac99c5f/trilium_py-0.8.1-py3-none-any.whl
+[2023-07-24 08:56:17] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/5c/b7/ce5b3ea57cc10c4995877e0feafa4180899bdbba74ec3d17bcb024dc1a36/openeo_pg_parser_networkx-2023.7.0.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/c5/08/34cb3d39ed007932f38305034cf8a5455e5fc04967b4330d641500c725d4/mb_netmgmt-0.0.8.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [echoss-fileformat]: Downloading https://files.pythonhosted.org/packages/62/ea/614a6e9db4a0da84b8543933b4718c347e5966c76ac691ab978d06136733/echoss_fileformat-0.1.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [godot-rl]: Downloading https://files.pythonhosted.org/packages/54/9c/ce7791d1699ca60d2c5fa53afa098423a4b47a72f985b96ce1e22ed22f6b/godot_rl-0.5.0a0.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [SingleCellExperiment]: Downloading https://files.pythonhosted.org/packages/49/a6/2d242dfed7bfff76de83c02c20b6d73ff7a4621ae33458c0b0e35f98e2e5/SingleCellExperiment-0.2.5.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/ed/2e/a64e8cba75811e2701e2a82fff520e0ab05291910a39c186aaaee77c55b6/smartchart-6.6.8.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/69/9d/54c3e3f32588ef26f3947d937eb7dd3365ff76f7dd929ed5725b890f652c/latinex_sdk-0.0.7.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/75/18/015a283dffd0645b72c4bdc7c0358d1986cbf9fb4095e44a8028edc083aa/trilium_py-0.8.2-py3-none-any.whl
+[2023-07-24 08:56:17] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [echoss-fileformat]: Downloading https://files.pythonhosted.org/packages/36/b7/8b75eb553da65e73b6a2677b0262a8e31345849f721b2db75690a79581ae/echoss_fileformat-0.2.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/ff/35/1b2ac3c09b1f15266fbd7c3c8884e5902bd9ddf057f3c051fe190e9bf52f/openeo_pg_parser_networkx-2023.7.1.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-24 08:56:17] INFO root fetch - processPackages [mb_netmgmt]: Downloading https://files.pythonhosted.org/packages/f5/4a/2237f43f6621af590e38d99a70ba13765ba572848f251dd89f9e01ef5d47/mb_netmgmt-0.0.9.tar.gz
+[2023-07-24 08:56:18] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230724/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.8.1-py3-none-any.whl.zip tmp/trilium_py-0.8.2-py3-none-any.whl.zip --markdown 20230724/t/trilium-py/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [SingleCellExperiment]: Downloading https://files.pythonhosted.org/packages/a2/6c/60235e68e76f83bbbd8fbdb95e6c9d0d159501e42fb9be0d0428ec665116/SingleCellExperiment-0.2.6.tar.gz
+[2023-07-24 08:56:18] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230724/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [latinex-sdk]: Downloading https://files.pythonhosted.org/packages/ed/70/73ee4973b7196c2daa6b8a7a65b5c6e4dc232c886605ebd548b7adaaeb94/latinex-sdk-0.0.8.tar.gz
+[2023-07-24 08:56:18] INFO root fetch - processPackages [echoss-fileformat]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [echoss-fileformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoss_fileformat-0.1.tar.gz tmp/echoss_fileformat-0.2.tar.gz --markdown 20230724/e/echoss-fileformat/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [openeo-pg-parser-networkx]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [openeo-pg-parser-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_pg_parser_networkx-2023.7.0.tar.gz tmp/openeo_pg_parser_networkx-2023.7.1.tar.gz --markdown 20230724/o/openeo-pg-parser-networkx/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [mb_netmgmt]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [mb_netmgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_netmgmt-0.0.8.tar.gz tmp/mb_netmgmt-0.0.9.tar.gz --markdown 20230724/m/mb_netmgmt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [godot-rl]: Downloading https://files.pythonhosted.org/packages/49/c4/48f5985a4087f277e9a6b53fe592c8a8628048bafcbc1903f4c9e8075ec8/godot_rl-0.6.0.tar.gz
+[2023-07-24 08:56:18] INFO root fetch - processPackages [latinex-sdk]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [latinex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latinex_sdk-0.0.7.tar.gz tmp/latinex-sdk-0.0.8.tar.gz --markdown 20230724/l/latinex-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [SingleCellExperiment]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [SingleCellExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SingleCellExperiment-0.2.5.tar.gz tmp/SingleCellExperiment-0.2.6.tar.gz --markdown 20230724/S/SingleCellExperiment/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [godot-rl]: executing diffoscope
+[2023-07-24 08:56:18] INFO root fetch - processPackages [godot-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godot_rl-0.5.0a0.tar.gz tmp/godot_rl-0.6.0.tar.gz --markdown 20230724/g/godot-rl/0.5.0a0-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 08:56:18] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/96/d3/34939e761ce86e557407a07ec53b2b6fb95e6fe9125d3bddc839f4154e72/smartchart-6.6.8.1.tar.gz
+[2023-07-24 08:56:19] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-07-24 08:56:19] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.8.tar.gz tmp/smartchart-6.6.8.1.tar.gz --markdown 20230724/s/smartchart/6.6.8-6.6.8.1/diff.md --exclude *.pyd
+[2023-07-24 08:56:19] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2023.7.0.tar.gz]
+[2023-07-24 08:56:19] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2023.7.1.tar.gz]
+[2023-07-24 08:56:19] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Start processing: utils-azr
+[2023-07-24 08:56:19] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
+[2023-07-24 08:56:19] WARNING root fetch - processPackages [utils-azr]: Skipping, unable to determine old version
+[2023-07-24 08:56:19] INFO root fetch - processPackages [utils-azr]: Start processing: socid-extractor
+[2023-07-24 08:56:19] INFO root fetch - main [MainThread]: End processing [utils-azr] error
+[2023-07-24 08:56:19] INFO root fetch - processPackages [socid-extractor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.1-py3-none-any.whl.zip]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.2-py3-none-any.whl.zip]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [trilium-py]: Start processing: core-models
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [readyocr]: Start processing: stock-open-api
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [core-models]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [echoss-fileformat]: Remove: archive file [/home/abi/fetcher/tmp/echoss_fileformat-0.1.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [echoss-fileformat]: Remove: archive file [/home/abi/fetcher/tmp/echoss_fileformat-0.2.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [echoss-fileformat]: Start processing: distcrab
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [echoss-fileformat]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [socid-extractor]: Downloading https://files.pythonhosted.org/packages/bc/1f/1c45ec7c7f57d8d1321c4d67fdf640d6e89362d9e77c4d1853c8a035aef3/socid-extractor-0.0.8.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/4f/74/bba9a4c7e0999693f18a5376f05361dbb1ed61583f9d82ae4bf16094b9cd/core_models-0.1.5.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a8/e4/fe19ada3d18a4a5f7e9bb3bcb840a3f41c1cb6683237767fe6d5ada2a6ea/stock-open-api-0.0.7.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.8.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [mb_netmgmt]: Remove: archive file [/home/abi/fetcher/tmp/mb_netmgmt-0.0.9.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [mb_netmgmt]: Start processing: arun-test
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [mb_netmgmt]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [SingleCellExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SingleCellExperiment-0.2.5.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [SingleCellExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SingleCellExperiment-0.2.6.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [SingleCellExperiment]: Start processing: aws-ssm-tool
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [SingleCellExperiment]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex_sdk-0.0.7.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [latinex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/latinex-sdk-0.0.8.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [latinex-sdk]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [arun-test]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [aws-ssm-tool]: New version: [2023.7.24.6.55] Old Version: [2023.7.13.9.24]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/53/f4/fe06cb6dd2c956f5b85d452cb80388d1ff71a831abf67c10e34415968e45/core_models-0.1.6.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [godot-rl]: Remove: archive file [/home/abi/fetcher/tmp/godot_rl-0.5.0a0.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - processPackages [godot-rl]: Remove: archive file [/home/abi/fetcher/tmp/godot_rl-0.6.0.tar.gz]
+[2023-07-24 08:56:20] INFO root fetch - main [MainThread]: End processing [godot-rl]: success
+[2023-07-24 08:56:20] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a5/90/6329cb1873f5c13ee39173c227f94769f2b92b6b4a9b928bbf4ed6931b2c/stock-open-api-0.0.8.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [socid-extractor]: Downloading https://files.pythonhosted.org/packages/91/ee/8717a33154b805ae78eaac76528f02e088aaa784542e2d6ca5e55fcbe263/socid-extractor-0.0.9.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [aws-ssm-tool]: Downloading https://files.pythonhosted.org/packages/4d/f9/8cd12584048557ab59c73ed7bc7af6aadaa6cfc770e5bb8237430a71ce3c/aws-ssm-tool-2023.7.13.9.24.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [arun-test]: Downloading https://files.pythonhosted.org/packages/eb/96/8dc8b67b962a0ca000d14b9b1fdf508a12b20af2ae8313e09d3e6e242e7b/arun_test-0.1.0.tar.gz
+[2023-07-24 08:56:20] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2023-07-24 08:56:20] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20230724/d/distcrab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:56:20] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-07-24 08:56:20] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.5.tar.gz tmp/core_models-0.1.6.tar.gz --markdown 20230724/c/core-models/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 08:56:20] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2023-07-24 08:56:20] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.7.tar.gz tmp/stock-open-api-0.0.8.tar.gz --markdown 20230724/s/stock-open-api/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 08:56:20] INFO root fetch - processPackages [socid-extractor]: executing diffoscope
+[2023-07-24 08:56:20] INFO root fetch - processPackages [socid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socid-extractor-0.0.8.tar.gz tmp/socid-extractor-0.0.9.tar.gz --markdown 20230724/s/socid-extractor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 08:56:21] INFO root fetch - processPackages [aws-ssm-tool]: Downloading https://files.pythonhosted.org/packages/46/fc/c64dd3cd59df26f6256d52c9a69c96b32fe1c9e4051b377a98f59eeb5b5b/aws-ssm-tool-2023.7.24.6.55.tar.gz
+[2023-07-24 08:56:21] INFO root fetch - processPackages [arun-test]: Downloading https://files.pythonhosted.org/packages/94/b4/cc800039c87df96724441ffe0b635571b023db4fd5e81930a7b2c48f013d/arun_test-0.1.1.tar.gz
+[2023-07-24 08:56:21] INFO root fetch - processPackages [aws-ssm-tool]: executing diffoscope
+[2023-07-24 08:56:21] INFO root fetch - processPackages [aws-ssm-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ssm-tool-2023.7.13.9.24.tar.gz tmp/aws-ssm-tool-2023.7.24.6.55.tar.gz --markdown 20230724/a/aws-ssm-tool/2023.7.13.9.24-2023.7.24.6.55/diff.md --exclude *.pyd
+[2023-07-24 08:56:21] INFO root fetch - processPackages [arun-test]: executing diffoscope
+[2023-07-24 08:56:21] INFO root fetch - processPackages [arun-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arun_test-0.1.0.tar.gz tmp/arun_test-0.1.1.tar.gz --markdown 20230724/a/arun-test/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 08:56:21] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2023-07-24 08:56:21] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2023-07-24 08:56:21] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2023-07-24 08:56:22] INFO root fetch - processPackages [socid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/socid-extractor-0.0.8.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - processPackages [socid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/socid-extractor-0.0.9.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - main [MainThread]: End processing [socid-extractor]: success
+[2023-07-24 08:56:22] INFO root fetch - processPackages [arun-test]: Remove: archive file [/home/abi/fetcher/tmp/arun_test-0.1.0.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - processPackages [arun-test]: Remove: archive file [/home/abi/fetcher/tmp/arun_test-0.1.1.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - main [MainThread]: End processing [arun-test]: success
+[2023-07-24 08:56:22] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.5.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.6.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-07-24 08:56:22] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.7.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.8.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2023-07-24 08:56:22] INFO root fetch - processPackages [aws-ssm-tool]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tool-2023.7.13.9.24.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - processPackages [aws-ssm-tool]: Remove: archive file [/home/abi/fetcher/tmp/aws-ssm-tool-2023.7.24.6.55.tar.gz]
+[2023-07-24 08:56:22] INFO root fetch - main [MainThread]: End processing [aws-ssm-tool]: success
+[2023-07-24 08:56:24] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.tar.gz]
+[2023-07-24 08:56:24] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.1.tar.gz]
+[2023-07-24 08:56:24] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-07-24 08:56:24] INFO root fetch - main [MainThread]: Store serial: [19009060]
