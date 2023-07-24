@@ -11474,3 +11474,189 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:09:00] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.36-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-24 10:09:00] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-07-24 10:09:00] INFO root fetch - main [MainThread]: Store serial: [19009778]
+[2023-07-24 10:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009778]
+[2023-07-24 10:14:24] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-server
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuclear
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flumine
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syntaxlight
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flash-attn
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sso-client-manager
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marketwatchdata
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfrpc
+[2023-07-24 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pibooth-fire-remote
+[2023-07-24 10:14:25] INFO root fetch - processPackages [nuclear]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [jupyterlab-server]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pyfrpc]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [marketwatchdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [flash-attn]: New version: [2.0.1] Old Version: [2.0.0.post1]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pibooth-fire-remote]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [django-sso-client-manager]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230724] Old Version: [0.4.1.dev20230723]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [flumine]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/7e/95/7a856bb691cc4b1a855613dde79d203eceea5d03cbc797be7aa42642a14b/pibooth_fire_remote-0.1.5-py3-none-any.whl
+[2023-07-24 10:14:25] INFO root fetch - processPackages [nuclear]: Downloading https://files.pythonhosted.org/packages/cb/cd/3822ca974497dfe61de3745d0e6b52ec3005417d2d851b6600ccdafada7a/nuclear-1.4.2.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/66/ec/766f08f60760c82abd6c286c7d6c15759b4d01f8373a50cce750e45c32e0/pyglove-0.4.1.dev20230723.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/cc/4f/9c35ccb858bd701f648295301f6d7755167ee0157a189ad37ac9ea3282d4/django-sso-client-manager-0.0.5.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/e0/23/f832c3f3dfad5583df008a825585c4b641db4a42f591f55c041bec81b8dd/marketwatchdata-0.0.7.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [pyfrpc]: Downloading https://files.pythonhosted.org/packages/e4/44/a361b755f32c08ec751e2546d9828d145816b3828b58f5ed67582d292626/pyfrpc-0.2.7.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/79/41/552120becdd267b505f6aafc522c0d90bb051d780cd1b1e7429286b01418/jupyterlab_server-2.8.2.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/a4/52/868536dd609c42071c2b9aeda8ceb11cf7186508ff568021beaa7dab09a8/flash_attn-2.0.0.post1.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/94/34/d26685a10642cdb58bf9583cfe1a4af2780259ed9baea5d8154abc322b82/syntaxlight-0.0.4.tar.gz
+[2023-07-24 10:14:25] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/68/8a/0e0f0ab0e808faa3294453baa84c5d1043acecccff9160be7503701426b1/flumine-2.3.6.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/a2/8a5b5b929eacf804d86cb454940924f2ec67e351ee1e2e565adc6cbb5028/pyglove-0.4.1.dev20230724.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/62/8e/d59abda0e3b583ca361e3cdcadb079b599020d83867e7f3f2b91f4cbf7eb/django-sso-client-manager-0.0.6.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pibooth-fire-remote]: Downloading https://files.pythonhosted.org/packages/c2/50/9c8a9ccb1a89da31a5e669181eb177637f569c962365d0ce2404452aa1ca/pibooth_fire_remote-0.1.6-py3-none-any.whl
+[2023-07-24 10:14:26] INFO root fetch - processPackages [nuclear]: Downloading https://files.pythonhosted.org/packages/b2/98/aef8ac09a5763d8b763c9d1f888f828623f7feb517c1b53d08330e703f76/nuclear-1.4.3.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [marketwatchdata]: Downloading https://files.pythonhosted.org/packages/50/8a/2dd1bed76ec5ddfa93a2d3e5f12b530f95d453c15275458f4b2bdc73b41a/marketwatchdata-0.0.8.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/36/83/b8b6aa8cc6e64ed6d3b37ebb0ed486391b027fa66d3c01812e1e7d424e7e/syntaxlight-0.0.5.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [django-sso-client-manager]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [django-sso-client-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-manager-0.0.5.tar.gz tmp/django-sso-client-manager-0.0.6.tar.gz --markdown 20230724/d/django-sso-client-manager/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230723.tar.gz tmp/pyglove-0.4.1.dev20230724.tar.gz --markdown 20230724/p/pyglove/0.4.1.dev20230723-0.4.1.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyfrpc]: Downloading https://files.pythonhosted.org/packages/2f/43/a6e17f0eeafeace616d910b0b3db12d660e38eff065f351e38a831311a69/pyfrpc-0.2.8.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/c1/e4/47e4f5aa94ab1b2ea3d8db6edbc892d82fd44ecece9f91f9c864cb06ab46/flumine-2.3.7.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [jupyterlab-server]: Downloading https://files.pythonhosted.org/packages/34/4f/40ba0045d6bb0249d36cb66e3407ae0fa151991af1cfa238f1add5059aa8/jupyterlab_server-2.9.0.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pibooth-fire-remote]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pibooth-fire-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibooth_fire_remote-0.1.5-py3-none-any.whl.zip tmp/pibooth_fire_remote-0.1.6-py3-none-any.whl.zip --markdown 20230724/p/pibooth-fire-remote/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [nuclear]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [nuclear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclear-1.4.2.tar.gz tmp/nuclear-1.4.3.tar.gz --markdown 20230724/n/nuclear/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [marketwatchdata]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [marketwatchdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketwatchdata-0.0.7.tar.gz tmp/marketwatchdata-0.0.8.tar.gz --markdown 20230724/m/marketwatchdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.4.tar.gz tmp/syntaxlight-0.0.5.tar.gz --markdown 20230724/s/syntaxlight/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyfrpc]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [pyfrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrpc-0.2.7.tar.gz tmp/pyfrpc-0.2.8.tar.gz --markdown 20230724/p/pyfrpc/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [jupyterlab-server]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [jupyterlab-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_server-2.8.2.tar.gz tmp/jupyterlab_server-2.9.0.tar.gz --markdown 20230724/j/jupyterlab-server/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/8a/fc/2aaa1def50b35e29abf44fbdfbb301aeb34b02e7e9724cac2eb95d5b22f4/flash_attn-2.0.1.tar.gz
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flumine]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flumine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumine-2.3.6.tar.gz tmp/flumine-2.3.7.tar.gz --markdown 20230724/f/flumine/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2023-07-24 10:14:26] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-2.0.0.post1.tar.gz tmp/flash_attn-2.0.1.tar.gz --markdown 20230724/f/flash-attn/2.0.0.post1-2.0.1/diff.md --exclude *.pyd
+[2023-07-24 10:14:28] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.1.5-py3-none-any.whl.zip]
+[2023-07-24 10:14:28] INFO root fetch - processPackages [pibooth-fire-remote]: Remove: archive file [/home/abi/fetcher/tmp/pibooth_fire_remote-0.1.6-py3-none-any.whl.zip]
+[2023-07-24 10:14:28] INFO root fetch - processPackages [pibooth-fire-remote]: Start processing: junoplatform
+[2023-07-24 10:14:28] INFO root fetch - main [MainThread]: End processing [pibooth-fire-remote]: success
+[2023-07-24 10:14:28] INFO root fetch - processPackages [junoplatform]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 10:14:28] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.5.tar.gz]
+[2023-07-24 10:14:28] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.6.tar.gz]
+[2023-07-24 10:14:28] INFO root fetch - processPackages [django-sso-client-manager]: Start processing: contact-magic
+[2023-07-24 10:14:28] INFO root fetch - main [MainThread]: End processing [django-sso-client-manager]: success
+[2023-07-24 10:14:28] INFO root fetch - processPackages [contact-magic]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e4/1c/a76d40e4776cc8dea0a4c2eb251ffd80e24d2313c8dc1109a61085f73b59/junoplatform-0.0.6.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.7.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [marketwatchdata]: Remove: archive file [/home/abi/fetcher/tmp/marketwatchdata-0.0.8.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [marketwatchdata]: Start processing: windmill-api
+[2023-07-24 10:14:29] INFO root fetch - main [MainThread]: End processing [marketwatchdata]: success
+[2023-07-24 10:14:29] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/b4/d3/66185a71e354294405f12124ddbada7823e719057d1e44061b2873bd69d8/contact_magic-0.5.6.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [pyfrpc]: Remove: archive file [/home/abi/fetcher/tmp/pyfrpc-0.2.7.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [pyfrpc]: Remove: archive file [/home/abi/fetcher/tmp/pyfrpc-0.2.8.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [pyfrpc]: Start processing: wmill
+[2023-07-24 10:14:29] INFO root fetch - main [MainThread]: End processing [pyfrpc]: success
+[2023-07-24 10:14:29] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/9a/ba/e8eea9055d65e64d62ca918b1eb344a45848e4d3af38bb92709e1214cb23/junoplatform-0.0.7.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.4.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.5.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [syntaxlight]: Start processing: wmill-pg
+[2023-07-24 10:14:29] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-24 10:14:29] INFO root fetch - processPackages [nuclear]: Remove: archive file [/home/abi/fetcher/tmp/nuclear-1.4.2.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [nuclear]: Remove: archive file [/home/abi/fetcher/tmp/nuclear-1.4.3.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [nuclear]: Start processing: gogo-cli
+[2023-07-24 10:14:29] INFO root fetch - main [MainThread]: End processing [nuclear]: success
+[2023-07-24 10:14:29] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/ff/23/bd52cc314a9aca9df3c6bcd579f2fbbd160403fa3937cb82240407d1183b/contact_magic-0.5.7.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-07-24 10:14:29] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.6.tar.gz tmp/junoplatform-0.0.7.tar.gz --markdown 20230724/j/junoplatform/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 10:14:29] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.8.2.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [gogo-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [jupyterlab-server]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_server-2.9.0.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [jupyterlab-server]: Start processing: papfa
+[2023-07-24 10:14:29] INFO root fetch - main [MainThread]: End processing [jupyterlab-server]: success
+[2023-07-24 10:14:29] INFO root fetch - processPackages [papfa]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-07-24 10:14:29] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.5.6.tar.gz tmp/contact_magic-0.5.7.tar.gz --markdown 20230724/c/contact-magic/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-24 10:14:29] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/fa/e7/2a4f693538ffb01820821cef653efdf356a52d19cfc6c64ac4cc6d3ec5c8/gogo_cli-0.0.3.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-24 10:14:29] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.3.6.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [flumine]: Remove: archive file [/home/abi/fetcher/tmp/flumine-2.3.7.tar.gz]
+[2023-07-24 10:14:29] INFO root fetch - processPackages [flumine]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-07-24 10:14:30] INFO root fetch - main [MainThread]: End processing [flumine]: success
+[2023-07-24 10:14:30] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/fe/17/0c60d0a9c9b0a73b56aaf120ae869df0a3809185b119dd5bbc06af7fd346/papfa-0.1.8-py2.py3-none-any.whl
+[2023-07-24 10:14:30] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:14:30] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-24 10:14:30] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-24 10:14:30] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230724/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-24 10:14:30] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-24 10:14:30] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230724/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-24 10:14:30] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/a8/26/bf8a64ea21429ce0418f1c55ae4e0b187b600fb33c65f12e018a2922d83b/gogo_cli-0.0.4.tar.gz
+[2023-07-24 10:14:30] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-24 10:14:30] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230724/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-24 10:14:30] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-07-24 10:14:30] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/2a/3b/4734c27d30b6ba87fab469399d6fe9b88ed83e4ad790dd9c7f5801ca6720/papfa-0.1.9-py2.py3-none-any.whl
+[2023-07-24 10:14:30] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-24 10:14:30] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.3.tar.gz tmp/gogo_cli-0.0.4.tar.gz --markdown 20230724/g/gogo-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 10:14:30] INFO root fetch - processPackages [papfa]: executing diffoscope
+[2023-07-24 10:14:30] INFO root fetch - processPackages [papfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papfa-0.1.8-py2.py3-none-any.whl.zip tmp/papfa-0.1.9-py2.py3-none-any.whl.zip --markdown 20230724/p/papfa/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:14:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230723.tar.gz]
+[2023-07-24 10:14:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230724.tar.gz]
+[2023-07-24 10:14:30] INFO root fetch - processPackages [pyglove]: Start processing: odd-collector-sdk
+[2023-07-24 10:14:30] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-24 10:14:30] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 10:14:31] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-24 10:14:31] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.6.tar.gz]
+[2023-07-24 10:14:31] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.7.tar.gz]
+[2023-07-24 10:14:31] INFO root fetch - processPackages [junoplatform]: Start processing: pip-services4-components
+[2023-07-24 10:14:31] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-07-24 10:14:31] WARNING root fetch - processPackages [pip-services4-components]: Skipping, unable to determine old version
+[2023-07-24 10:14:31] INFO root fetch - processPackages [pip-services4-components]: Start processing: treepoem
+[2023-07-24 10:14:31] INFO root fetch - main [MainThread]: End processing [pip-services4-components] error
+[2023-07-24 10:14:31] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-24 10:14:31] INFO root fetch - processPackages [treepoem]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-24 10:14:31] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-24 10:14:31] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230724/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 10:14:31] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.6.tar.gz]
+[2023-07-24 10:14:31] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.7.tar.gz]
+[2023-07-24 10:14:31] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-07-24 10:14:31] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-07-24 10:14:32] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/2f/74/9d4480075187ac923ac1000fb5cf1531619cbbc88e151a7f2c0e4641a4b6/treepoem-3.8.0.tar.gz
+[2023-07-24 10:14:32] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-24 10:14:32] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-24 10:14:32] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.3.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.4.tar.gz]
+[2023-07-24 10:14:32] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-24 10:14:32] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-24 10:14:32] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-24 10:14:32] INFO root fetch - main [MainThread]: End processing [papfa]: success
+[2023-07-24 10:14:32] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-07-24 10:14:32] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230724/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:14:33] INFO root fetch - processPackages [treepoem]: Downloading https://files.pythonhosted.org/packages/e1/3b/0ff4460d5e5203e1e001fdc3a7606c7da10a9a50a5e7253e6ee2de98ec87/treepoem-3.9.0.tar.gz
+[2023-07-24 10:14:33] INFO root fetch - processPackages [treepoem]: executing diffoscope
+[2023-07-24 10:14:33] INFO root fetch - processPackages [treepoem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treepoem-3.8.0.tar.gz tmp/treepoem-3.9.0.tar.gz --markdown 20230724/t/treepoem/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:14:33] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-24 10:14:33] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-24 10:14:33] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-24 10:14:35] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-07-24 10:14:35] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-07-24 10:14:35] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-07-24 10:14:36] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.8.0.tar.gz]
+[2023-07-24 10:14:36] INFO root fetch - processPackages [treepoem]: Remove: archive file [/home/abi/fetcher/tmp/treepoem-3.9.0.tar.gz]
+[2023-07-24 10:14:36] INFO root fetch - main [MainThread]: End processing [treepoem]: success
+[2023-07-24 10:14:40] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-24 10:14:40] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-24 10:14:40] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-24 10:14:44] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.0.post1.tar.gz]
+[2023-07-24 10:14:44] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.0.1.tar.gz]
+[2023-07-24 10:14:44] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2023-07-24 10:14:44] INFO root fetch - main [MainThread]: Store serial: [19009844]
