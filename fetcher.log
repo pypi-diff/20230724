@@ -16466,3 +16466,139 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:35:43] INFO root fetch - processPackages [agent-bdi]: Remove: archive file [/home/abi/fetcher/tmp/agent-bdi-1.2.0.tar.gz]
 [2023-07-24 13:35:43] INFO root fetch - main [MainThread]: End processing [agent-bdi]: success
 [2023-07-24 13:35:43] INFO root fetch - main [MainThread]: Store serial: [19011864]
+[2023-07-24 13:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011864]
+[2023-07-24 13:40:53] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swordartonline
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kohlrahbi
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elsdk
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bigsansar
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: outlines
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AZMusicAPI
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piel
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangondor
+[2023-07-24 13:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LbCondaWrappers
+[2023-07-24 13:40:53] INFO root fetch - processPackages [Bigsansar]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [swordartonline]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-24 13:40:53] WARNING root fetch - processPackages [elsdk]: Skipping, unable to determine old version
+[2023-07-24 13:40:53] INFO root fetch - processPackages [elsdk]: Start processing: web3-ethereum-defi
+[2023-07-24 13:40:53] INFO root fetch - main [MainThread]: End processing [elsdk] error
+[2023-07-24 13:40:53] INFO root fetch - processPackages [piel]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [outlines]: New version: [0.1.dev0] Old Version: [0.0.7]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [djangondor]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [AZMusicAPI]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [kohlrahbi]: New version: [0.0.7] Old Version: [0.0.6a1]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [LbCondaWrappers]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-07-24 13:40:53] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/80/d5/5c4483f0454d340ea43495438b5f85816c3a7908d57be2633756e4abe68a/AZMusicAPI-0.9.6.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/7f/d8/ef676ac9e5ea488970a8768c99e845665c6a757076401491afeadc06c061/kohlrahbi-0.0.6a1.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/48/72/b90ae1a54e50bd1923bad21fd6f19a2cdf0d6b3ce8453b3b1ad15d7506e9/piel-0.0.43.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/2f/19/2235cab83660b732e407f725310ce5dfd973d42ebe7a22da6f4af92b65e1/Bigsansar-1.8.3.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [swordartonline]: Downloading https://files.pythonhosted.org/packages/5a/4e/4561d00a0c9eb444cdcd3f98627020d5f06aac27febce160bd00ebfd7c6b/swordartonline-2.2.8.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/e8/20/c8bd403938b9cdaff4c33b3508e1983607ae8dd31fa2a03dc94cb661163c/djangondor-1.0.3.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/42/ed/588f70ca1c8250b4674399d41399021be286335f26dd86b0cbc75b0e8643/LbCondaWrappers-0.3.1.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/a9/7f/532fc6d45a1feee65ecf6a0aa299076299549271d1ed99da21bcf23fdeb5/outlines-0.0.7.tar.gz
+[2023-07-24 13:40:53] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [AZMusicAPI]: Downloading https://files.pythonhosted.org/packages/6a/96/96324951bc69b4716d2f759438b6e2e37603b9c4151662f9b44776e14e84/AZMusicAPI-0.9.8.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [swordartonline]: Downloading https://files.pythonhosted.org/packages/c6/ba/decfd890cae855285139f4244c0691d81d2d750cc8e29fdb2ec9adfed60e/swordartonline-2.2.9.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [AZMusicAPI]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [AZMusicAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AZMusicAPI-0.9.6.tar.gz tmp/AZMusicAPI-0.9.8.tar.gz --markdown 20230724/A/AZMusicAPI/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/77/54/a24065efbc3b75387cae6e33947e3f1beebe002a5f3d26214934899f24f4/Bigsansar-1.8.4.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/db/ab/0fb4c354466a3f82d7f6da5a28d31a5ddb70c335d99bde574574d11523b9/kohlrahbi-0.0.7.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/e5/94/f7c3ba113d53b1e2e5aa489ba54e42248d8b05e12e7bdc8a8c1a5b698a13/piel-0.0.44.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/ab/46/4f4605750ba7549532f104dfd8597d2f84c63e6dd1982b4a7edffbf8b297/djangondor-1.0.5.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [LbCondaWrappers]: Downloading https://files.pythonhosted.org/packages/be/6a/f2db57f19e5670544c2efe43b0701b50da52f8419c0159a4620d8aaa48f8/LbCondaWrappers-0.3.3.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [swordartonline]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [swordartonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swordartonline-2.2.8.tar.gz tmp/swordartonline-2.2.9.tar.gz --markdown 20230724/s/swordartonline/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [outlines]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [outlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outlines-0.0.7.tar.gz tmp/outlines-0.1.dev0.tar.gz --markdown 20230724/o/outlines/0.0.7-0.1.dev0/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-07-24 13:40:54] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.8.3.tar.gz tmp/Bigsansar-1.8.4.tar.gz --markdown 20230724/B/Bigsansar/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [LbCondaWrappers]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [LbCondaWrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbCondaWrappers-0.3.1.tar.gz tmp/LbCondaWrappers-0.3.3.tar.gz --markdown 20230724/L/LbCondaWrappers/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.43.tar.gz tmp/piel-0.0.44.tar.gz --markdown 20230724/p/piel/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [djangondor]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [djangondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangondor-1.0.3.tar.gz tmp/djangondor-1.0.5.tar.gz --markdown 20230724/d/djangondor/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [kohlrahbi]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [kohlrahbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kohlrahbi-0.0.6a1.tar.gz tmp/kohlrahbi-0.0.7.tar.gz --markdown 20230724/k/kohlrahbi/0.0.6a1-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230724/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-24 13:40:54] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-07-24 13:40:54] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230724/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-24 13:40:55] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-0.9.6.tar.gz]
+[2023-07-24 13:40:55] INFO root fetch - processPackages [AZMusicAPI]: Remove: archive file [/home/abi/fetcher/tmp/AZMusicAPI-0.9.8.tar.gz]
+[2023-07-24 13:40:55] INFO root fetch - processPackages [AZMusicAPI]: Start processing: testgres
+[2023-07-24 13:40:55] INFO root fetch - main [MainThread]: End processing [AZMusicAPI]: success
+[2023-07-24 13:40:55] INFO root fetch - processPackages [testgres]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-24 13:40:55] INFO root fetch - processPackages [swordartonline]: Remove: archive file [/home/abi/fetcher/tmp/swordartonline-2.2.8.tar.gz]
+[2023-07-24 13:40:55] INFO root fetch - processPackages [swordartonline]: Remove: archive file [/home/abi/fetcher/tmp/swordartonline-2.2.9.tar.gz]
+[2023-07-24 13:40:55] INFO root fetch - processPackages [swordartonline]: Start processing: akshare
+[2023-07-24 13:40:55] INFO root fetch - main [MainThread]: End processing [swordartonline]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [testgres]: Downloading https://files.pythonhosted.org/packages/df/53/76d71d65c467ae6acbee7098190ca7f598946a9865d9ed0addf9c55d4014/testgres-1.8.8.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.0.7.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.1.dev0.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [outlines]: Start processing: bagbag
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [outlines]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [LbCondaWrappers]: Remove: archive file [/home/abi/fetcher/tmp/LbCondaWrappers-0.3.1.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [LbCondaWrappers]: Remove: archive file [/home/abi/fetcher/tmp/LbCondaWrappers-0.3.3.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [LbCondaWrappers]: Start processing: streamingcommunity-unofficialapi
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [LbCondaWrappers]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [bagbag]: New version: [0.61.6] Old Version: [0.61.5]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.3.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-1.0.5.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [djangondor]: Start processing: xpress
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [djangondor]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [testgres]: Downloading https://files.pythonhosted.org/packages/e6/f1/3d1bbfed03f8ccf4cf1d9246bde874beb3b8037a5213636c00d2483f0fe3/testgres-1.8.9.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-0.0.6a1.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [testgres]: executing diffoscope
+[2023-07-24 13:40:56] INFO root fetch - processPackages [testgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testgres-1.8.8.tar.gz tmp/testgres-1.8.9.tar.gz --markdown 20230724/t/testgres/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-24 13:40:56] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-0.0.7.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [kohlrahbi]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/12/ad71c9a76cc63c90d17bfa3b86cb170245e5c24f532d63afebd07a2f0d36/bagbag-0.61.5.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [xpress]: New version: [9.2.0] Old Version: [9.1.2]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-24 13:40:56] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230724/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-24 13:40:56] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/97/59/809b6d12b4010a0f94f8dc506c0de9c0cc63c5c68d45270c204b0b25fd2b/streamingcommunity_unofficialapi-0.0.2.1.tar.gz
+[2023-07-24 13:40:56] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.3.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.4.tar.gz]
+[2023-07-24 13:40:56] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-07-24 13:40:56] INFO root fetch - processPackages [xpress]: Downloading https://files.pythonhosted.org/packages/f3/7b/68b822d03ac0144473cd673dc1ddcc6b1b79ee953983050bdf7f15a675d8/xpress-9.1.2-cp39-cp39-win_amd64.whl
+[2023-07-24 13:40:57] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/40/9a/ff95ced358074e9a982297110bc834bd0d5cfa3dbe7949a8fc7f8071c25c/bagbag-0.61.6.tar.gz
+[2023-07-24 13:40:57] WARNING root fetch - processPackages [xpress]: Skipping package: exceeds size limit 55088978>=10485760
+[2023-07-24 13:40:57] INFO root fetch - main [MainThread]: End processing [xpress] error
+[2023-07-24 13:40:57] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Downloading https://files.pythonhosted.org/packages/56/10/5953b61c0952d6dcd6f483d1680ec23ca57e72ba919f5611893816641029/streamingcommunity-unofficialapi-0.0.2.2.tar.gz
+[2023-07-24 13:40:57] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-24 13:40:57] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.5.tar.gz tmp/bagbag-0.61.6.tar.gz --markdown 20230724/b/bagbag/0.61.5-0.61.6/diff.md --exclude *.pyd
+[2023-07-24 13:40:57] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: executing diffoscope
+[2023-07-24 13:40:57] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz tmp/streamingcommunity-unofficialapi-0.0.2.2.tar.gz --markdown 20230724/s/streamingcommunity-unofficialapi/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-07-24 13:40:57] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-07-24 13:40:57] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.43.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.44.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-07-24 13:40:57] INFO root fetch - processPackages [testgres]: Remove: archive file [/home/abi/fetcher/tmp/testgres-1.8.8.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - processPackages [testgres]: Remove: archive file [/home/abi/fetcher/tmp/testgres-1.8.9.tar.gz]
+[2023-07-24 13:40:57] INFO root fetch - main [MainThread]: End processing [testgres]: success
+[2023-07-24 13:40:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity_unofficialapi-0.0.2.1.tar.gz]
+[2023-07-24 13:40:58] INFO root fetch - processPackages [streamingcommunity-unofficialapi]: Remove: archive file [/home/abi/fetcher/tmp/streamingcommunity-unofficialapi-0.0.2.2.tar.gz]
+[2023-07-24 13:40:58] INFO root fetch - main [MainThread]: End processing [streamingcommunity-unofficialapi]: success
+[2023-07-24 13:40:58] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.5.tar.gz]
+[2023-07-24 13:40:58] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.6.tar.gz]
+[2023-07-24 13:40:58] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-24 13:41:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-24 13:41:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-24 13:41:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-24 13:41:00] INFO root fetch - main [MainThread]: Store serial: [19011910]
