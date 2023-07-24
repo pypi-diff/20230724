@@ -15359,3 +15359,146 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:53:31] INFO root fetch - processPackages [PyQt6]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-6.5.2.tar.gz]
 [2023-07-24 12:53:31] INFO root fetch - main [MainThread]: End processing [PyQt6]: success
 [2023-07-24 12:53:31] INFO root fetch - main [MainThread]: Store serial: [19011423]
+[2023-07-24 12:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011423]
+[2023-07-24 12:58:40] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resoto-plugin-azure
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funi
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readyocr
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mariqt
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opnsense
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rucio
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rucio-clients
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adt-decorators
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rucio-webui
+[2023-07-24 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gymnasium-connect-four
+[2023-07-24 12:58:40] WARNING root fetch - processPackages [resoto-plugin-azure]: Skipping, unable to determine old version
+[2023-07-24 12:58:40] INFO root fetch - processPackages [resoto-plugin-azure]: Start processing: dxsp
+[2023-07-24 12:58:40] INFO root fetch - main [MainThread]: End processing [resoto-plugin-azure] error
+[2023-07-24 12:58:40] WARNING root fetch - processPackages [adt-decorators]: Skipping, unable to determine old version
+[2023-07-24 12:58:40] INFO root fetch - processPackages [adt-decorators]: Start processing: funasr
+[2023-07-24 12:58:40] INFO root fetch - main [MainThread]: End processing [adt-decorators] error
+[2023-07-24 12:58:41] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [mariqt]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio-clients]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio-webui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funasr]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [dxsp]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-07-24 12:58:41] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/6d/1a/18b620162d1e8155d4028a90deca455fc725e2d0486e055d13b5e9e57057/pulumi_opnsense-0.0.65.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/c2/b5/337a96cd4693af223ec5c66ba8d0479888dfc40b0507fae48e01f5a302d5/rucio-clients-1.9.5.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/66/e0/ac74d2fef3cf79fef7422052819eb0be235f9c3bd4691ede79143292ab67/gymnasium_connect_four-1.0.2.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/29/fc/88932782195077adcdd8316b58de27f3be03ec79b025e258c65b09e6a5ec/mariqt-0.5.6-py2.py3-none-any.whl
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funi]: Downloading https://files.pythonhosted.org/packages/9e/e9/b70ca0730678200d13038e7b8994e5de2c7525e956f08de6cdb55794ff93/funi-0.0.1.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/91/8f/9393746d35a84d9c642188a5fb30dbc886497642a6075bc2d6507a1a8bc0/rucio-1.9.5.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f4/6b/3726a7681cd770c42ac968f151b94735a11d1d8eceba70dd0c329d7a140a/rucio-webui-1.9.5.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/bf/e4/d57718ec09805daf9978a54016ddd261df50956d9e49c7d0226fd9c8f6fd/dxsp-4.1.2.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/bf/5f/d9b2c45db6e96a38c5ee9eb59250bf338d2d81f26d7242e54e3ffb70f17a/funasr-0.7.0.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/ff/a9/d59b71c817d3dec662840e501016b117ffa9a6ecddd0ce71ad0b600374b9/pulumi_opnsense-0.0.66.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/ef/9e/0142d9a87f7cdc7673f27867b5de490c8cf4f03967f6c25d3e74eef80b22/gymnasium_connect_four-1.1.0.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-24 12:58:41] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230724/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funi]: Downloading https://files.pythonhosted.org/packages/12/50/c0359347098014fc6deb131c90d75a882d5383d8aba5f1310ec37d40d40b/funi-0.0.2.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/48/7d/38adb9b3d514b40efe24ec3f66724492165f2e4e1c569f3cfbcae5342769/dxsp-4.2.0.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/7d/89/bd78442a7e42a0f81b073d44d5619860853dc8855b68e60b25a54178a231/mariqt-0.5.7-py2.py3-none-any.whl
+[2023-07-24 12:58:41] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-24 12:58:41] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.0.2.tar.gz tmp/gymnasium_connect_four-1.1.0.tar.gz --markdown 20230724/g/gymnasium-connect-four/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 12:58:41] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/0a/64/548c9ce02077753921d8bda7ddb9e51c8f5ce42519560d77a8b5e94eeaa1/funasr-0.7.1.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/7e/d3/df65f86894f8b3f09c88db4456cff382dafe6909f679f62cbcfaebf3e316/rucio-webui-1.9.6.tar.gz
+[2023-07-24 12:58:41] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-07-24 12:58:41] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.0.65.tar.gz tmp/pulumi_opnsense-0.0.66.tar.gz --markdown 20230724/p/pulumi-opnsense/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-07-24 12:58:42] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-24 12:58:42] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.1.2.tar.gz tmp/dxsp-4.2.0.tar.gz --markdown 20230724/d/dxsp/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-07-24 12:58:42] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-07-24 12:58:42] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.5.6-py2.py3-none-any.whl.zip tmp/mariqt-0.5.7-py2.py3-none-any.whl.zip --markdown 20230724/m/mariqt/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-24 12:58:42] INFO root fetch - processPackages [funi]: executing diffoscope
+[2023-07-24 12:58:42] INFO root fetch - processPackages [funi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funi-0.0.1.tar.gz tmp/funi-0.0.2.tar.gz --markdown 20230724/f/funi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 12:58:42] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-07-24 12:58:42] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-1.9.5.tar.gz tmp/rucio-webui-1.9.6.tar.gz --markdown 20230724/r/rucio-webui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-24 12:58:42] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-07-24 12:58:42] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.7.0.tar.gz tmp/funasr-0.7.1.tar.gz --markdown 20230724/f/funasr/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-24 12:58:43] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [readyocr]: Start processing: tap-square
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [tap-square]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.65.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.0.66.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [pulumi-opnsense]: Start processing: cliqs
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.0.2.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.1.0.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [gymnasium-connect-four]: Start processing: dolang
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-24 12:58:43] WARNING root fetch - processPackages [cliqs]: Skipping, unable to determine old version
+[2023-07-24 12:58:43] INFO root fetch - processPackages [cliqs]: Start processing: certora-cli-alpha-master
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [cliqs] error
+[2023-07-24 12:58:43] INFO root fetch - processPackages [dolang]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230724.10.56.456557] Old Version: [20230723.19.31.635481]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/82/02/5361243e1dd8c362dcce384dcb6c75eda1ba21c1a13e6adfc8fdd213ec83/rucio-clients-1.9.6.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [tap-square]: Downloading https://files.pythonhosted.org/packages/a0/62/88a9e2ff69fc8c59709fcffd51272c648da3b264e4b33f02bf9ee66413d6/tap-square-1.3.1.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.1.2.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.2.0.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [dxsp]: Start processing: mdgpt
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [mdgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c9/30/12c73f9db8a49bef43046dff69a9e418998b4f348fc27458a4754dc4d392/certora-cli-alpha-master-20230723.19.31.635481.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [dolang]: Downloading https://files.pythonhosted.org/packages/86/cb/8e5a39bfe6c4bd89d4701005092e2a9f3e5b6029b163f92b2bdc0c445b14/dolang-0.0.8.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [funi]: Remove: archive file [/home/abi/fetcher/tmp/funi-0.0.1.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [funi]: Remove: archive file [/home/abi/fetcher/tmp/funi-0.0.2.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [funi]: Start processing: ns-asphalt9
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [funi]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/c6/19/3fc4c66f82132e8d4aa936f67fd9785460a42cffd5f243f9c3482456ce95/mdgpt-0.1.1.tar.gz
+[2023-07-24 12:58:43] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37538249>=10485760
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-24 12:58:43] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.6-py2.py3-none-any.whl.zip]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.5.7-py2.py3-none-any.whl.zip]
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-1.9.5.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-1.9.6.tar.gz]
+[2023-07-24 12:58:43] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-07-24 12:58:43] INFO root fetch - processPackages [tap-square]: Downloading https://files.pythonhosted.org/packages/03/2e/07458cae86965d728cd8c12fe1a3c711006c243c3c24c23ccdf839242437/tap-square-2.0.0.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/ce/ee/fea8546fec5e6d0d84526dfe28b29f16809196b3001054c3a8e1ab77da45/rucio-1.9.6.tar.gz
+[2023-07-24 12:58:43] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/01/0a/b273dc9b52a4695e4b6c04c28b17770da0fd497f4e8d6aa78dc14b8ecfb3/ns_asphalt9-0.1.7.tar.gz
+[2023-07-24 12:58:44] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/b9/d8/6c0555037cdade9add2fdaa26632b6e77daa718c89bb45aa4cabafc71b21/mdgpt-0.1.2.tar.gz
+[2023-07-24 12:58:44] INFO root fetch - processPackages [tap-square]: executing diffoscope
+[2023-07-24 12:58:44] INFO root fetch - processPackages [tap-square]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-square-1.3.1.tar.gz tmp/tap-square-2.0.0.tar.gz --markdown 20230724/t/tap-square/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-24 12:58:44] INFO root fetch - processPackages [dolang]: Downloading https://files.pythonhosted.org/packages/93/7d/2892c5fe05b93c5ed220eed06fcc7d37ef07e50db12f807ae566050102b4/dolang-0.0.9.tar.gz
+[2023-07-24 12:58:44] INFO root fetch - processPackages [mdgpt]: executing diffoscope
+[2023-07-24 12:58:44] INFO root fetch - processPackages [mdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdgpt-0.1.1.tar.gz tmp/mdgpt-0.1.2.tar.gz --markdown 20230724/m/mdgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-24 12:58:44] INFO root fetch - processPackages [dolang]: executing diffoscope
+[2023-07-24 12:58:44] INFO root fetch - processPackages [dolang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolang-0.0.8.tar.gz tmp/dolang-0.0.9.tar.gz --markdown 20230724/d/dolang/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 12:58:44] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/50/0a/0c300becd3508ebffa3bf5f6ac3549aa54439baf16577587ccfc523e4181/ns_asphalt9-0.1.8.tar.gz
+[2023-07-24 12:58:44] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-24 12:58:44] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.1.7.tar.gz tmp/ns_asphalt9-0.1.8.tar.gz --markdown 20230724/n/ns-asphalt9/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-24 12:58:45] INFO root fetch - processPackages [tap-square]: Remove: archive file [/home/abi/fetcher/tmp/tap-square-1.3.1.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - processPackages [tap-square]: Remove: archive file [/home/abi/fetcher/tmp/tap-square-2.0.0.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - main [MainThread]: End processing [tap-square]: success
+[2023-07-24 12:58:45] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.1.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.2.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - main [MainThread]: End processing [mdgpt]: success
+[2023-07-24 12:58:45] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-07-24 12:58:45] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-1.9.5.tar.gz tmp/rucio-clients-1.9.6.tar.gz --markdown 20230724/r/rucio-clients/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-24 12:58:45] INFO root fetch - processPackages [dolang]: Remove: archive file [/home/abi/fetcher/tmp/dolang-0.0.8.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - processPackages [dolang]: Remove: archive file [/home/abi/fetcher/tmp/dolang-0.0.9.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - main [MainThread]: End processing [dolang]: success
+[2023-07-24 12:58:45] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.7.0.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.7.1.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-07-24 12:58:45] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.7.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.8.tar.gz]
+[2023-07-24 12:58:45] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-24 12:58:46] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-07-24 12:58:46] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-1.9.5.tar.gz tmp/rucio-1.9.6.tar.gz --markdown 20230724/r/rucio/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-24 12:58:49] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-1.9.5.tar.gz]
+[2023-07-24 12:58:49] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-1.9.6.tar.gz]
+[2023-07-24 12:58:49] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-07-24 12:58:53] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.5.tar.gz]
+[2023-07-24 12:58:53] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-1.9.6.tar.gz]
+[2023-07-24 12:58:53] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-07-24 12:58:53] INFO root fetch - main [MainThread]: Store serial: [19011533]
