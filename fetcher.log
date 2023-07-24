@@ -1426,3 +1426,135 @@
 [2023-07-24 02:12:46] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-07-24 02:12:46] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-07-24 02:12:46] INFO root fetch - main [MainThread]: Store serial: [19005687]
+[2023-07-24 02:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005687]
+[2023-07-24 02:17:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-analyst
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keyrings.alt
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-dash
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: angreal
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-gitlab-runner
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-events-notify
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-skylight
+[2023-07-24 02:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-common
+[2023-07-24 02:17:55] INFO root fetch - processPackages [image-analyst]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [keyrings.alt]: New version: [5.0.0] Old Version: [4.2.0]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [angreal]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [fast-dash]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/0a/0d/98287195840afb114854e3f7266a0e5df6d5307e063769e1bdad516862f1/image_analyst-0.2.0.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/30/2c/c5b68254ea07854a90d7b70e18e2abdfd147b7523dbd8310b3c1fd3f6688/fast_dash-0.2.0.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [keyrings.alt]: Downloading https://files.pythonhosted.org/packages/88/4e/2af12a91eb8245b7ff24fdc0afbe5a1d62e9d5ec24ffdb53972753cec644/keyrings.alt-4.2.0.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/ba/39/80b410de6edbd350c666d4d57c9749a1051fec71222683ccdd706286451b/angreal-2.0.8.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [image-analyst]: Downloading https://files.pythonhosted.org/packages/03/e7/cc07511878068111a9b5932616dfe43ec4274c2fbd31679cb1fd8ba13468/image_analyst-0.2.1.tar.gz
+[2023-07-24 02:17:55] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230724/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-24 02:17:56] INFO root fetch - processPackages [fast-dash]: Downloading https://files.pythonhosted.org/packages/e6/7e/3dce6ecc235ed2b001533d1989ef548cc8daaac523d4abcaec5556613fcd/fast_dash-0.2.1.tar.gz
+[2023-07-24 02:17:56] INFO root fetch - processPackages [keyrings.alt]: Downloading https://files.pythonhosted.org/packages/a6/97/c7344bed881cc6f78b6231262436eb0c72615011fab4786d23d676ab77b0/keyrings.alt-5.0.0.tar.gz
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230724/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230724/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230724/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [image-analyst]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [image-analyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_analyst-0.2.0.tar.gz tmp/image_analyst-0.2.1.tar.gz --markdown 20230724/i/image-analyst/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [fast-dash]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [fast-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_dash-0.2.0.tar.gz tmp/fast_dash-0.2.1.tar.gz --markdown 20230724/f/fast-dash/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [keyrings.alt]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [keyrings.alt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrings.alt-4.2.0.tar.gz tmp/keyrings.alt-5.0.0.tar.gz --markdown 20230724/k/keyrings.alt/4.2.0-5.0.0/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230724/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-07-24 02:17:56] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230724/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-24 02:17:56] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/58/91/d298d3ebede5efbe2f1618b75c54e615602a227ac016af66d1f5591c64e8/angreal-2.0.9.tar.gz
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-amazon-chime-resources
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-events-notify]: Start processing: pytorch-ignite
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-skylight]: Start processing: aimsgb
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [aimsgb]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230724] Old Version: [0.5.0.dev20230723]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.2.0.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [image-analyst]: Remove: archive file [/home/abi/fetcher/tmp/image_analyst-0.2.1.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [image-analyst]: Start processing: cdktf-tf-module-stack
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [image-analyst]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: tencentcloud-sdk-python
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 02:17:57] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-07-24 02:17:57] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/00/6e/dec4861aa419c5915357c7080d0b40bcf7f5ef855eac81ea888fe8762a70/pytorch-ignite-0.5.0.dev20230723.tar.gz
+[2023-07-24 02:17:57] INFO root fetch - processPackages [aimsgb]: Downloading https://files.pythonhosted.org/packages/d3/06/fbe73340dd360551c01db0a87af53ac657e3baaf1af7f1698dd523476959/aimsgb-1.0.1.tar.gz
+[2023-07-24 02:17:57] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.0.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [fast-dash]: Remove: archive file [/home/abi/fetcher/tmp/fast_dash-0.2.1.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [fast-dash]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [keyrings.alt]: Remove: archive file [/home/abi/fetcher/tmp/keyrings.alt-4.2.0.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [keyrings.alt]: Remove: archive file [/home/abi/fetcher/tmp/keyrings.alt-5.0.0.tar.gz]
+[2023-07-24 02:17:57] INFO root fetch - main [MainThread]: End processing [keyrings.alt]: success
+[2023-07-24 02:17:57] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-24 02:17:57] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/4d/c0/6f78c49f39cfc2c512363586ecc539abbe99cf635e8fc089e2e966989e9e/cdktf-tf-module-stack-2.0.8.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-24 02:17:58] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-24 02:17:58] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-24 02:17:58] INFO root fetch - processPackages [angreal]: executing diffoscope
+[2023-07-24 02:17:58] INFO root fetch - processPackages [angreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angreal-2.0.8.tar.gz tmp/angreal-2.0.9.tar.gz --markdown 20230724/a/angreal/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 02:17:58] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/fa/c1/74a9ba40948370651cd94a75d8a44fcdd305dffdcd00e9ba10d27d96870b/pytorch-ignite-0.5.0.dev20230724.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [aimsgb]: Downloading https://files.pythonhosted.org/packages/1e/83/6812d87eeea6a62382836601c22f6775f93bb25c076c95ba6cedbac1ffaa/aimsgb-1.0.2.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/f0/66/70bad4df9baa2cf443aefa77ba985f71fafcb3897adfe825ffc9dfa6caef/tencentcloud-sdk-python-3.0.98.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [aimsgb]: executing diffoscope
+[2023-07-24 02:17:58] INFO root fetch - processPackages [aimsgb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimsgb-1.0.1.tar.gz tmp/aimsgb-1.0.2.tar.gz --markdown 20230724/a/aimsgb/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 02:17:58] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-07-24 02:17:58] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230723.tar.gz tmp/pytorch-ignite-0.5.0.dev20230724.tar.gz --markdown 20230724/p/pytorch-ignite/0.5.0.dev20230723-0.5.0.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 02:17:58] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/89/41/87af5276a32f8509872a75834f57e534f04ad290920898b254db0d5b70d2/cdktf-tf-module-stack-2.0.9.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/b5/b3/1181ead927d9f39a37e213be45e2821a5c0cb99c327b50b4f1401b90cc33/tencentcloud-sdk-python-3.0.99.tar.gz
+[2023-07-24 02:17:58] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2023-07-24 02:17:58] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-2.0.8.tar.gz tmp/cdktf-tf-module-stack-2.0.9.tar.gz --markdown 20230724/c/cdktf-tf-module-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 02:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-07-24 02:17:58] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230724/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:17:59] INFO root fetch - processPackages [aimsgb]: Remove: archive file [/home/abi/fetcher/tmp/aimsgb-1.0.1.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - processPackages [aimsgb]: Remove: archive file [/home/abi/fetcher/tmp/aimsgb-1.0.2.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - main [MainThread]: End processing [aimsgb]: success
+[2023-07-24 02:17:59] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.8.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-2.0.9.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2023-07-24 02:17:59] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230723.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230724.tar.gz]
+[2023-07-24 02:17:59] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-07-24 02:18:00] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.8.tar.gz]
+[2023-07-24 02:18:00] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.9.tar.gz]
+[2023-07-24 02:18:00] INFO root fetch - main [MainThread]: End processing [angreal]: success
+[2023-07-24 02:18:00] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-07-24 02:18:00] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-07-24 02:18:00] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-07-24 02:18:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.98.tar.gz]
+[2023-07-24 02:18:02] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.99.tar.gz]
+[2023-07-24 02:18:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-07-24 02:18:02] INFO root fetch - main [MainThread]: Store serial: [19005795]
