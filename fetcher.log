@@ -13244,3 +13244,181 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 11:20:38] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.8.tar.gz]
 [2023-07-24 11:20:38] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
 [2023-07-24 11:20:38] INFO root fetch - main [MainThread]: Store serial: [19010507]
+[2023-07-24 11:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010507]
+[2023-07-24 11:25:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-perceiver
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localcosmos-server
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-editor-dev
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allianceauth-oidc-provider
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: angmom-suite
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyst
+[2023-07-24 11:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyconnectwise
+[2023-07-24 11:25:49] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-24 11:25:49] INFO root fetch - processPackages [fast-perceiver]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 11:25:49] INFO root fetch - processPackages [allianceauth-oidc-provider]: New version: [0.0.1b1] Old Version: [0.0.1a3]
+[2023-07-24 11:25:49] INFO root fetch - processPackages [pyst]: New version: [0.9] Old Version: [0.8]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [crypto-screening]: New version: [8.1.3] Old Version: [8.1.2]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [pyconnectwise]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-24 11:25:50] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/53/6b/96238454c3680481064458a2836cb7cb86a3f0a1e43eb984a94353f28723/pyconnectwise-0.4.3.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [fast-perceiver]: Downloading https://files.pythonhosted.org/packages/70/1c/eec4c5b968be7970ed40f74d15d889486478a2e5d24514407761249a4954/fast_perceiver-0.1.2.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/9e/7b/64b88b1ec277589676979aacd604f8274e5c0ab74f2eb8ee3c8571b51b1e/crypto-screening-8.1.2.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [pyst]: Downloading https://files.pythonhosted.org/packages/bb/dc/ba8736744975fd9134cdba9921e078ff8ab72cc901fb5d09de088ebc938b/pyst-0.8.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [allianceauth-oidc-provider]: Downloading https://files.pythonhosted.org/packages/fc/97/436ceeeaa4c1670d36d70491e61877e678f62516189db3afa5fbaf849fca/allianceauth_oidc_provider-0.0.1a3.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [fast-perceiver]: Downloading https://files.pythonhosted.org/packages/6a/e3/cd7cb3e8227349789ab1f09bf9dcb5b514c01cb1c5086f1f744723e2b8ac/fast_perceiver-0.1.3.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230724/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-24 11:25:50] INFO root fetch - processPackages [pyconnectwise]: Downloading https://files.pythonhosted.org/packages/4c/61/ba7d541b9b5fc1fec799e42d5731363f0fb70cc9a9399a5db687d8daa36d/pyconnectwise-0.4.4.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c9/d9/8b46f875045a48be59eb26f04ee70c07632c42adce8e6304ca2d68d0ef01/crypto-screening-8.1.3.tar.gz
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-24 11:25:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230724/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [fast-perceiver]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [fast-perceiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_perceiver-0.1.2.tar.gz tmp/fast_perceiver-0.1.3.tar.gz --markdown 20230724/f/fast-perceiver/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-24 11:25:51] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-07-24 11:25:51] INFO root fetch - processPackages [allianceauth-oidc-provider]: Downloading https://files.pythonhosted.org/packages/9c/67/3e166543cac29dded975e432514ced0495d74b000fc96f556eb8a30feaf7/allianceauth_oidc_provider-0.0.1b1.tar.gz
+[2023-07-24 11:25:51] INFO root fetch - processPackages [pyconnectwise]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [pyconnectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconnectwise-0.4.3.tar.gz tmp/pyconnectwise-0.4.4.tar.gz --markdown 20230724/p/pyconnectwise/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.1.2.tar.gz tmp/crypto-screening-8.1.3.tar.gz --markdown 20230724/c/crypto-screening/8.1.2-8.1.3/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [pyst]: Downloading https://files.pythonhosted.org/packages/11/89/acbcf3ed5c55e588ef84186b45138c96c672a40ce3e6b640a66b79ba988e/pyst-0.9.tar.gz
+[2023-07-24 11:25:51] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230724/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230724/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [pyst]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [pyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyst-0.8.tar.gz tmp/pyst-0.9.tar.gz --markdown 20230724/p/pyst/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-24 11:25:51] INFO root fetch - processPackages [allianceauth-oidc-provider]: executing diffoscope
+[2023-07-24 11:25:51] INFO root fetch - processPackages [allianceauth-oidc-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth_oidc_provider-0.0.1a3.tar.gz tmp/allianceauth_oidc_provider-0.0.1b1.tar.gz --markdown 20230724/a/allianceauth-oidc-provider/0.0.1a3-0.0.1b1/diff.md --exclude *.pyd
+[2023-07-24 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: ccxt
+[2023-07-24 11:25:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-24 11:25:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: pyTermUI
+[2023-07-24 11:25:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-24 11:25:52] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [pyTermUI]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [pyst]: Remove: archive file [/home/abi/fetcher/tmp/pyst-0.8.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [pyst]: Remove: archive file [/home/abi/fetcher/tmp/pyst-0.9.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [pyst]: Start processing: construct-editor
+[2023-07-24 11:25:52] INFO root fetch - main [MainThread]: End processing [pyst]: success
+[2023-07-24 11:25:52] INFO root fetch - processPackages [fast-perceiver]: Remove: archive file [/home/abi/fetcher/tmp/fast_perceiver-0.1.2.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [fast-perceiver]: Remove: archive file [/home/abi/fetcher/tmp/fast_perceiver-0.1.3.tar.gz]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [fast-perceiver]: Start processing: seven-cloudapp-frame
+[2023-07-24 11:25:52] INFO root fetch - main [MainThread]: End processing [fast-perceiver]: success
+[2023-07-24 11:25:52] INFO root fetch - processPackages [construct-editor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 11:25:52] INFO root fetch - processPackages [pyTermUI]: Downloading https://files.pythonhosted.org/packages/bb/0c/7c59def246e9b0ea2fdaed59107402982fe7d4bb8d35e2990e2a93f44469/pyTermUI-1.2.0.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.96] Old Version: [1.0.95]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [allianceauth-oidc-provider]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_oidc_provider-0.0.1a3.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [allianceauth-oidc-provider]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_oidc_provider-0.0.1b1.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [allianceauth-oidc-provider]: Start processing: invenio-github
+[2023-07-24 11:25:53] INFO root fetch - main [MainThread]: End processing [allianceauth-oidc-provider]: success
+[2023-07-24 11:25:53] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [je-editor-dev]: Start processing: luminesce-sdk-preview
+[2023-07-24 11:25:53] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-07-24 11:25:53] INFO root fetch - processPackages [invenio-github]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/d7/31/f0ef9b5cc0c5930f8990c96eddc75b12b2f4ed685ee20ccfc13e8a062638/seven_cloudapp_frame-1.0.95.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [angmom-suite]: Start processing: pyTermUI
+[2023-07-24 11:25:53] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.1.2.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.1.3.tar.gz]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [crypto-screening]: Start processing: shipdan-serializer-tester
+[2023-07-24 11:25:53] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-24 11:25:53] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/1a/6f/959151edc75869567b52de7fe1da3a69178e548bed92553ff5c8983e35be/construct-editor-0.1.4.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [shipdan-serializer-tester]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 11:25:53] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/a7/89/488f33b736394a59992c30e58edf6df59a94a3be615c287a9e0c6bb59365/invenio-github-1.0.0b6.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: Downloading https://files.pythonhosted.org/packages/f0/be/d53cb7e76b4a75bd177dcc74553e3405733e1bec43bf0b91382989fd9ba8/pyTermUI-1.2.1.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: Downloading https://files.pythonhosted.org/packages/f0/be/d53cb7e76b4a75bd177dcc74553e3405733e1bec43bf0b91382989fd9ba8/pyTermUI-1.2.1.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/e6/4f/21440d1b5e113c8885291dbd3d5a63f572fdaf169b1e67e94a8e60d90d1c/seven_cloudapp_frame-1.0.96.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/30/d0/a0aa6b1d61b6f4fb2d2a3bf0c95867a471026e00b2e6663bda87bfe9c278/shipdan_serializer_tester-0.0.7.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: executing diffoscope
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermUI-1.2.0.tar.gz tmp/pyTermUI-1.2.1.tar.gz --markdown 20230724/p/pyTermUI/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: executing diffoscope
+[2023-07-24 11:25:53] INFO root fetch - processPackages [pyTermUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermUI-1.2.0.tar.gz tmp/pyTermUI-1.2.1.tar.gz --markdown 20230724/p/pyTermUI/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-24 11:25:53] INFO root fetch - processPackages [construct-editor]: Downloading https://files.pythonhosted.org/packages/57/ca/f56e4399d49a32143c070f31b163121f62a0f07a293e5c0ee9f24c22a13a/construct-editor-0.1.5.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-24 11:25:53] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.95.tar.gz tmp/seven_cloudapp_frame-1.0.96.tar.gz --markdown 20230724/s/seven-cloudapp-frame/1.0.95-1.0.96/diff.md --exclude *.pyd
+[2023-07-24 11:25:53] INFO root fetch - processPackages [invenio-github]: Downloading https://files.pythonhosted.org/packages/3d/8e/95fb3ebd84b9b789f01028b2a2ba579e7863ee74715b901535646df8d027/invenio-github-1.0.0b7.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [construct-editor]: executing diffoscope
+[2023-07-24 11:25:53] INFO root fetch - processPackages [construct-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-editor-0.1.4.tar.gz tmp/construct-editor-0.1.5.tar.gz --markdown 20230724/c/construct-editor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 11:25:53] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/13/50/6467c91e2bac944713092fadbe409e81e0fe05fa83546aeab0869bb8417e/shipdan_serializer_tester-0.0.8.tar.gz
+[2023-07-24 11:25:53] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-24 11:25:54] INFO root fetch - processPackages [shipdan-serializer-tester]: executing diffoscope
+[2023-07-24 11:25:54] INFO root fetch - processPackages [shipdan-serializer-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdan_serializer_tester-0.0.7.tar.gz tmp/shipdan_serializer_tester-0.0.8.tar.gz --markdown 20230724/s/shipdan-serializer-tester/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 11:25:54] INFO root fetch - processPackages [invenio-github]: executing diffoscope
+[2023-07-24 11:25:54] INFO root fetch - processPackages [invenio-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-github-1.0.0b6.tar.gz tmp/invenio-github-1.0.0b7.tar.gz --markdown 20230724/i/invenio-github/1.0.0b6-1.0.0b7/diff.md --exclude *.pyd
+[2023-07-24 11:25:54] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-24 11:25:54] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230724/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-24 11:25:54] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-24 11:25:55] INFO root fetch - processPackages [pyTermUI]: Remove: archive file [/home/abi/fetcher/tmp/pyTermUI-1.2.0.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [pyTermUI]: Remove: archive file [/home/abi/fetcher/tmp/pyTermUI-1.2.1.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [pyTermUI]: Start processing: genUniquePassw
+[2023-07-24 11:25:55] INFO root fetch - main [MainThread]: End processing [pyTermUI]: success
+[2023-07-24 11:25:55] INFO root fetch - processPackages [pyTermUI]: Start processing: passwgeneration
+[2023-07-24 11:25:55] INFO root fetch - main [MainThread]: End processing [pyTermUI]: success
+[2023-07-24 11:25:55] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-24 11:25:55] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230724/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-24 11:25:55] INFO root fetch - processPackages [genUniquePassw]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [passwgeneration]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2023-07-24 11:25:55] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20230724/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-24 11:25:55] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.7.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.8.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - main [MainThread]: End processing [shipdan-serializer-tester]: success
+[2023-07-24 11:25:55] INFO root fetch - processPackages [genUniquePassw]: Downloading https://files.pythonhosted.org/packages/e7/15/e2f1e509d551b90a469cea424e2d32a542c0d6d55b1022a12e55100319ad/genUniquePassw-1.1.4.tar.gz
+[2023-07-24 11:25:55] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/30/fe/9b45c09b2901f6a95f2b0cf44ce8f1c14fb8b00b7a1b813f8cd9bb71bd6c/passwgeneration-1.1.7.tar.gz
+[2023-07-24 11:25:55] INFO root fetch - processPackages [construct-editor]: Remove: archive file [/home/abi/fetcher/tmp/construct-editor-0.1.4.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - processPackages [construct-editor]: Remove: archive file [/home/abi/fetcher/tmp/construct-editor-0.1.5.tar.gz]
+[2023-07-24 11:25:55] INFO root fetch - main [MainThread]: End processing [construct-editor]: success
+[2023-07-24 11:25:55] INFO root fetch - processPackages [passwgeneration]: Downloading https://files.pythonhosted.org/packages/e0/5c/0fd637185f6d30c43e09a4e23ca06caf8c25e969e076e5650ddb8d96736b/passwgeneration-1.1.8.tar.gz
+[2023-07-24 11:25:56] INFO root fetch - processPackages [genUniquePassw]: Downloading https://files.pythonhosted.org/packages/d2/02/9f90ad9e43fdd75f823aa26112edab46738cddfe4315377c29b29476f489/genUniquePassw-1.1.5.tar.gz
+[2023-07-24 11:25:56] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b6.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - processPackages [invenio-github]: Remove: archive file [/home/abi/fetcher/tmp/invenio-github-1.0.0b7.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - main [MainThread]: End processing [invenio-github]: success
+[2023-07-24 11:25:56] INFO root fetch - processPackages [passwgeneration]: executing diffoscope
+[2023-07-24 11:25:56] INFO root fetch - processPackages [passwgeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwgeneration-1.1.7.tar.gz tmp/passwgeneration-1.1.8.tar.gz --markdown 20230724/p/passwgeneration/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-24 11:25:56] INFO root fetch - processPackages [genUniquePassw]: executing diffoscope
+[2023-07-24 11:25:56] INFO root fetch - processPackages [genUniquePassw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genUniquePassw-1.1.4.tar.gz tmp/genUniquePassw-1.1.5.tar.gz --markdown 20230724/g/genUniquePassw/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-24 11:25:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-24 11:25:56] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.95.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.96.tar.gz]
+[2023-07-24 11:25:56] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-24 11:25:57] INFO root fetch - processPackages [genUniquePassw]: Remove: archive file [/home/abi/fetcher/tmp/genUniquePassw-1.1.4.tar.gz]
+[2023-07-24 11:25:57] INFO root fetch - processPackages [genUniquePassw]: Remove: archive file [/home/abi/fetcher/tmp/genUniquePassw-1.1.5.tar.gz]
+[2023-07-24 11:25:57] INFO root fetch - main [MainThread]: End processing [genUniquePassw]: success
+[2023-07-24 11:25:57] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.1.7.tar.gz]
+[2023-07-24 11:25:57] INFO root fetch - processPackages [passwgeneration]: Remove: archive file [/home/abi/fetcher/tmp/passwgeneration-1.1.8.tar.gz]
+[2023-07-24 11:25:57] INFO root fetch - main [MainThread]: End processing [passwgeneration]: success
+[2023-07-24 11:26:01] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-24 11:26:01] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-24 11:26:01] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-24 11:26:04] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.3.tar.gz]
+[2023-07-24 11:26:04] INFO root fetch - processPackages [localcosmos-server]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_server-0.9.4.tar.gz]
+[2023-07-24 11:26:04] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2023-07-24 11:26:24] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.3.tar.gz]
+[2023-07-24 11:26:24] INFO root fetch - processPackages [pyconnectwise]: Remove: archive file [/home/abi/fetcher/tmp/pyconnectwise-0.4.4.tar.gz]
+[2023-07-24 11:26:24] INFO root fetch - main [MainThread]: End processing [pyconnectwise]: success
+[2023-07-24 11:26:24] INFO root fetch - main [MainThread]: Store serial: [19010572]
