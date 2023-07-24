@@ -5875,3 +5875,53 @@
 [2023-07-24 04:37:06] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230724.tar.gz]
 [2023-07-24 04:37:06] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-24 04:37:06] INFO root fetch - main [MainThread]: Store serial: [19007439]
+[2023-07-24 04:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007439]
+[2023-07-24 04:42:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starwhale
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rs-valdo
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py4AxisStage
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PDFAgent
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pisync
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvqnet
+[2023-07-24 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pr-colour
+[2023-07-24 04:42:14] INFO root fetch - processPackages [py4AxisStage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 04:42:14] WARNING root fetch - processPackages [PDFAgent]: Skipping, unable to determine old version
+[2023-07-24 04:42:14] INFO root fetch - main [MainThread]: End processing [PDFAgent] error
+[2023-07-24 04:42:14] WARNING root fetch - processPackages [pr-colour]: Skipping, unable to determine old version
+[2023-07-24 04:42:14] INFO root fetch - processPackages [starwhale]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-24 04:42:14] INFO root fetch - processPackages [pyvqnet]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-24 04:42:14] INFO root fetch - main [MainThread]: End processing [pr-colour] error
+[2023-07-24 04:42:14] INFO root fetch - processPackages [pisync]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 04:42:14] INFO root fetch - processPackages [rs-valdo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-24 04:42:15] INFO root fetch - processPackages [py4AxisStage]: Downloading https://files.pythonhosted.org/packages/98/c9/2a18f5769aa35b7c98d8a5fd5d38c403894f041b4689bf0ea007b76a3983/py4AxisStage-0.0.1-py3-none-any.whl
+[2023-07-24 04:42:15] INFO root fetch - processPackages [pyvqnet]: Downloading https://files.pythonhosted.org/packages/28/cb/4b2fe684cca17132216966c5f8fec179a1364d1eaa7fd886cbe7c30cf3ba/pyvqnet-2.0.6-cp38-none-manylinux1_x86_64.whl
+[2023-07-24 04:42:15] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/8d/96/db47c68d7f70df9d5c7d49a747d09e02b170c75c69a1f9bd2a1c84a3bbff/pisync-0.0.3.tar.gz
+[2023-07-24 04:42:15] INFO root fetch - processPackages [rs-valdo]: Downloading https://files.pythonhosted.org/packages/ba/8d/afeb37d1dd09cb688a5ff4ef370ae4e7fc45a140fc71fdc141bb3fef464c/rs-valdo-0.0.1.tar.gz
+[2023-07-24 04:42:15] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/69/f8/9221d749cf4b8e3991c5bec40b9e54eb38d4aaf1c79276f727e3a63755d6/starwhale-0.5.6.tar.gz
+[2023-07-24 04:42:15] INFO root fetch - processPackages [py4AxisStage]: Downloading https://files.pythonhosted.org/packages/82/0e/17bee8fc92e0152dc1adcb4fa291f546aa4d104a8de40f0add3a29c2f26a/py4AxisStage-0.0.2-py3-none-any.whl
+[2023-07-24 04:42:15] INFO root fetch - processPackages [pisync]: Downloading https://files.pythonhosted.org/packages/76/67/3ca2e7c2e45535c9c5e3d1aff8b6c6d63b039d1553330fad84637fb1c13d/pisync-0.0.4.tar.gz
+[2023-07-24 04:42:15] INFO root fetch - processPackages [rs-valdo]: Downloading https://files.pythonhosted.org/packages/42/d8/98b941226cae3096ca6ff1cd58dd0fd8c740b0bfaf996ebd8a52e25b6987/rs-valdo-0.0.2.tar.gz
+[2023-07-24 04:42:15] INFO root fetch - processPackages [py4AxisStage]: executing diffoscope
+[2023-07-24 04:42:15] INFO root fetch - processPackages [py4AxisStage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4AxisStage-0.0.1-py3-none-any.whl.zip tmp/py4AxisStage-0.0.2-py3-none-any.whl.zip --markdown 20230724/p/py4AxisStage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 04:42:15] INFO root fetch - processPackages [pisync]: executing diffoscope
+[2023-07-24 04:42:15] INFO root fetch - processPackages [pisync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisync-0.0.3.tar.gz tmp/pisync-0.0.4.tar.gz --markdown 20230724/p/pisync/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 04:42:15] INFO root fetch - processPackages [rs-valdo]: executing diffoscope
+[2023-07-24 04:42:15] INFO root fetch - processPackages [rs-valdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rs-valdo-0.0.1.tar.gz tmp/rs-valdo-0.0.2.tar.gz --markdown 20230724/r/rs-valdo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-24 04:42:16] WARNING root fetch - processPackages [pyvqnet]: Skipping package: exceeds size limit 42124842>=10485760
+[2023-07-24 04:42:16] INFO root fetch - main [MainThread]: End processing [pyvqnet] error
+[2023-07-24 04:42:16] INFO root fetch - processPackages [py4AxisStage]: Remove: archive file [/home/abi/fetcher/tmp/py4AxisStage-0.0.1-py3-none-any.whl.zip]
+[2023-07-24 04:42:16] INFO root fetch - processPackages [py4AxisStage]: Remove: archive file [/home/abi/fetcher/tmp/py4AxisStage-0.0.2-py3-none-any.whl.zip]
+[2023-07-24 04:42:16] INFO root fetch - main [MainThread]: End processing [py4AxisStage]: success
+[2023-07-24 04:42:16] INFO root fetch - processPackages [rs-valdo]: Remove: archive file [/home/abi/fetcher/tmp/rs-valdo-0.0.1.tar.gz]
+[2023-07-24 04:42:16] INFO root fetch - processPackages [rs-valdo]: Remove: archive file [/home/abi/fetcher/tmp/rs-valdo-0.0.2.tar.gz]
+[2023-07-24 04:42:16] INFO root fetch - main [MainThread]: End processing [rs-valdo]: success
+[2023-07-24 04:42:16] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/1b/52/a9bb812f0d168e2da0c33b0e21801f0df63fc22ff6e3f1f0b1975b63d368/starwhale-0.5.7.tar.gz
+[2023-07-24 04:42:16] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.3.tar.gz]
+[2023-07-24 04:42:16] INFO root fetch - processPackages [pisync]: Remove: archive file [/home/abi/fetcher/tmp/pisync-0.0.4.tar.gz]
+[2023-07-24 04:42:16] INFO root fetch - main [MainThread]: End processing [pisync]: success
+[2023-07-24 04:42:17] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-07-24 04:42:17] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.5.6.tar.gz tmp/starwhale-0.5.7.tar.gz --markdown 20230724/s/starwhale/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-24 04:44:20] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.6.tar.gz]
+[2023-07-24 04:44:20] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.7.tar.gz]
+[2023-07-24 04:44:20] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-07-24 04:44:20] INFO root fetch - main [MainThread]: Store serial: [19007468]
