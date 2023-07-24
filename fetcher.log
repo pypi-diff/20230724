@@ -21132,3 +21132,132 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:02:22] INFO root fetch - processPackages [pydevd-pycharm]: Remove: archive file [/home/abi/fetcher/tmp/pydevd-pycharm-232.8660.49.tar.gz]
 [2023-07-24 16:02:22] INFO root fetch - main [MainThread]: End processing [pydevd-pycharm]: success
 [2023-07-24 16:02:22] INFO root fetch - main [MainThread]: Store serial: [19013741]
+[2023-07-24 16:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013741]
+[2023-07-24 16:07:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gogo-cli
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-functools
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfsd
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaiacalc
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structio
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-rds-dump
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chinesename
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: connectors-to-databases
+[2023-07-24 16:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubicweb-prometheus
+[2023-07-24 16:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: github-actions-cli
+[2023-07-24 16:07:32] INFO root fetch - processPackages [openai-functools]: New version: [1.0.81] Old Version: [1.0.80]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [cubicweb-prometheus]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [github-actions-cli]: New version: [1.0.1] Old Version: [1.0.0b2]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [gaiacalc]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [connectors-to-databases]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [chinesename]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [structio]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [gogo-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 16:07:32] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/7a/bf/794f7c99888435f1d6faefa352e9bd2ce56ed27fe47586fc95ee0b405856/openai_functools-1.0.80.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/dd/a8/e97a91444b19d70ae833448edc999307379df7896b368300010248b1e058/github_actions_cli-1.0.0b2.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [cubicweb-prometheus]: Downloading https://files.pythonhosted.org/packages/8a/1a/92f208f40c35830fa0655ebe2eba924e9b9b201155464dfb4245e69c9701/cubicweb-prometheus-0.4.0.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/d7/7a/3612a78c61aebbb38ed82a4be947fb67bf469412384d01208b1f44cabe05/cdk-rds-dump-1.2.6.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [gaiacalc]: Downloading https://files.pythonhosted.org/packages/45/16/acb0772ea7b5e4b762cf50ad1133235953e88a2941c64ce9e42f2a3da22d/gaiacalc-1.0.0.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/a9/0f/8d64cd9422c084cebc40ecf1f0e5237eb9898a9d2da0d5cea428af14cb94/connectors_to_databases-1.1.1.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [chinesename]: Downloading https://files.pythonhosted.org/packages/c4/69/88f4c8ffa42415d0194d7511186c0a8f5d68e76a900e75dc7dd0dd7d1905/chinesename-0.1.0.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/a8/26/bf8a64ea21429ce0418f1c55ae4e0b187b600fb33c65f12e018a2922d83b/gogo_cli-0.0.4.tar.gz
+[2023-07-24 16:07:32] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/dd/e5/69f9ee225c40787166059ff80cf52e05d0b1a39f15a7f38d59f8d2277cb3/structio-1.3.4.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/d3/0f/87c70919c0c1e3d0dd35e020d421d4fb339b9bd929402301ef2990764796/github_actions_cli-1.0.1.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/ef/51/b537b76ea686d4a50323e457533d59775cc7985c435c55a6e03de3c1d2f3/openai_functools-1.0.81.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cubicweb-prometheus]: Downloading https://files.pythonhosted.org/packages/18/a4/47026c51d48494ad9bc9427f486478c82c2446ec62ded83ad146ce612d43/cubicweb-prometheus-0.5.0.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [connectors-to-databases]: Downloading https://files.pythonhosted.org/packages/50/22/4d9d22e7c074f3ce97bed21068cae53106bee9e5913110fa89434f1f9241/connectors_to_databases-1.1.2.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [openai-functools]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [openai-functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functools-1.0.80.tar.gz tmp/openai_functools-1.0.81.tar.gz --markdown 20230724/o/openai-functools/1.0.80-1.0.81/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/ff/2c/7ea9839cc408360e8d786f3b79f3091e1e18eec189048851336475ffd965/gogo_cli-0.0.5.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230724/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [chinesename]: Downloading https://files.pythonhosted.org/packages/21/28/3573253abdc04a1ed6018187f2b615f4fcc29e6d3233323ef11c415d2575/chinesename-0.1.1.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cubicweb-prometheus]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cubicweb-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-prometheus-0.4.0.tar.gz tmp/cubicweb-prometheus-0.5.0.tar.gz --markdown 20230724/c/cubicweb-prometheus/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [github-actions-cli]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [github-actions-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_actions_cli-1.0.0b2.tar.gz tmp/github_actions_cli-1.0.1.tar.gz --markdown 20230724/g/github-actions-cli/1.0.0b2-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/ea/67/757f9444a9009529428cd46fbf27914314e7e60a815472408a90be45dcab/cdk-rds-dump-1.2.7.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/f6/68/2148ecc490708d3884089b828de4fed577b2a6a15ecda811e0fd4daeb16d/structio-1.3.5.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [connectors-to-databases]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [connectors-to-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectors_to_databases-1.1.1.tar.gz tmp/connectors_to_databases-1.1.2.tar.gz --markdown 20230724/c/connectors-to-databases/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [chinesename]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [chinesename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinesename-0.1.0.tar.gz tmp/chinesename-0.1.1.tar.gz --markdown 20230724/c/chinesename/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [gaiacalc]: Downloading https://files.pythonhosted.org/packages/e2/63/8d3ebcde815f6507e7ddc7170aaca3691722a4cadcc3be5f635bae12b668/gaiacalc-1.1.0.tar.gz
+[2023-07-24 16:07:33] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.4.tar.gz tmp/gogo_cli-0.0.5.tar.gz --markdown 20230724/g/gogo-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [structio]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [structio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structio-1.3.4.tar.gz tmp/structio-1.3.5.tar.gz --markdown 20230724/s/structio/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-07-24 16:07:33] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.6.tar.gz tmp/cdk-rds-dump-1.2.7.tar.gz --markdown 20230724/c/cdk-rds-dump/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-07-24 16:07:34] INFO root fetch - processPackages [gaiacalc]: executing diffoscope
+[2023-07-24 16:07:34] INFO root fetch - processPackages [gaiacalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiacalc-1.0.0.tar.gz tmp/gaiacalc-1.1.0.tar.gz --markdown 20230724/g/gaiacalc/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-24 16:07:35] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-1.0.80.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-1.0.81.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [openai-functools]: Start processing: drf-pydantic-openapi
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [openai-functools]: success
+[2023-07-24 16:07:35] INFO root fetch - processPackages [drf-pydantic-openapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.0b2.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.1.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [github-actions-cli]: Start processing: generalindex
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [github-actions-cli]: success
+[2023-07-24 16:07:35] INFO root fetch - processPackages [generalindex]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.1.1.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [connectors-to-databases]: Remove: archive file [/home/abi/fetcher/tmp/connectors_to_databases-1.1.2.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [connectors-to-databases]: Start processing: meili-sdk
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [connectors-to-databases]: success
+[2023-07-24 16:07:35] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/c7/34/b5a4204dedebaf2696d2ae443e3da03ac5cd1771cc05b6ee4e318a217aa7/drf_pydantic_openapi-0.3.0.tar.gz
+[2023-07-24 16:07:35] INFO root fetch - processPackages [cubicweb-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-prometheus-0.4.0.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [cubicweb-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-prometheus-0.5.0.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [cubicweb-prometheus]: Start processing: salure-helpers-ftp
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [cubicweb-prometheus]: success
+[2023-07-24 16:07:35] INFO root fetch - processPackages [meili-sdk]: New version: [0.6.0] Old Version: [0.5.7]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [chinesename]: Remove: archive file [/home/abi/fetcher/tmp/chinesename-0.1.0.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [chinesename]: Remove: archive file [/home/abi/fetcher/tmp/chinesename-0.1.1.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [chinesename]: success
+[2023-07-24 16:07:35] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.4.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.5.tar.gz]
+[2023-07-24 16:07:35] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-24 16:07:36] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/36/9a/43576fb7cefd0eb0b0992fb6ec72daf5cc7d3548b71167587bea6fe2b5c8/generalindex-0.1.3.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.4.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - processPackages [salure-helpers-ftp]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-24 16:07:36] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.5.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - main [MainThread]: End processing [structio]: success
+[2023-07-24 16:07:36] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.6.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.7.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-07-24 16:07:36] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/02/73/864e5e4a41f492bef449835dd62c455bab64f5bcf99a5ba7b31d74e0de0a/meili-sdk-0.5.7.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-24 16:07:36] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-24 16:07:36] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/44/a4/04813caf6b67148e06028319172face2e23f9009c4751894ddfceae7a02f/salure_helpers_ftp-1.5.1.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/e3/52/51fcc1d5a5bb638ccc1020a2c3b786ebf93cf30d71d67a2519d94e574eda/drf_pydantic_openapi-0.4.0.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/67/25/83ec73719f7aa350d83ef41b6c934875034a73eea44a7a2828b300bd12f3/generalindex-0.1.4.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [drf-pydantic-openapi]: executing diffoscope
+[2023-07-24 16:07:36] INFO root fetch - processPackages [drf-pydantic-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_pydantic_openapi-0.3.0.tar.gz tmp/drf_pydantic_openapi-0.4.0.tar.gz --markdown 20230724/d/drf-pydantic-openapi/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 16:07:36] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/f5/78/9e3542ebe14b9331f57487c40bbabfb893f6be6246dd960a1ead1425a420/meili-sdk-0.6.0.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [generalindex]: executing diffoscope
+[2023-07-24 16:07:36] INFO root fetch - processPackages [generalindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalindex-0.1.3.tar.gz tmp/generalindex-0.1.4.tar.gz --markdown 20230724/g/generalindex/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 16:07:36] INFO root fetch - processPackages [salure-helpers-ftp]: Downloading https://files.pythonhosted.org/packages/22/36/4d41c2f0368da4d0e49d8b7862df16721fdd61e2f21fb75b1e9a6f989623/salure_helpers_ftp-1.5.2.tar.gz
+[2023-07-24 16:07:36] INFO root fetch - processPackages [meili-sdk]: executing diffoscope
+[2023-07-24 16:07:36] INFO root fetch - processPackages [meili-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili-sdk-0.5.7.tar.gz tmp/meili-sdk-0.6.0.tar.gz --markdown 20230724/m/meili-sdk/0.5.7-0.6.0/diff.md --exclude *.pyd
+[2023-07-24 16:07:36] INFO root fetch - processPackages [salure-helpers-ftp]: executing diffoscope
+[2023-07-24 16:07:36] INFO root fetch - processPackages [salure-helpers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_ftp-1.5.1.tar.gz tmp/salure_helpers_ftp-1.5.2.tar.gz --markdown 20230724/s/salure-helpers-ftp/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-24 16:07:37] INFO root fetch - processPackages [gaiacalc]: Remove: archive file [/home/abi/fetcher/tmp/gaiacalc-1.0.0.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - processPackages [gaiacalc]: Remove: archive file [/home/abi/fetcher/tmp/gaiacalc-1.1.0.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - main [MainThread]: End processing [gaiacalc]: success
+[2023-07-24 16:07:37] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.3.0.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.4.0.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - main [MainThread]: End processing [drf-pydantic-openapi]: success
+[2023-07-24 16:07:37] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.1.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - processPackages [salure-helpers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_ftp-1.5.2.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - main [MainThread]: End processing [salure-helpers-ftp]: success
+[2023-07-24 16:07:37] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.1.3.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.1.4.tar.gz]
+[2023-07-24 16:07:37] INFO root fetch - main [MainThread]: End processing [generalindex]: success
+[2023-07-24 16:07:38] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.5.7.tar.gz]
+[2023-07-24 16:07:38] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.6.0.tar.gz]
+[2023-07-24 16:07:38] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
+[2023-07-24 16:07:38] INFO root fetch - main [MainThread]: Store serial: [19013788]
