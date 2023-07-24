@@ -12192,3 +12192,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 10:35:49] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9225710791626.tar.gz]
 [2023-07-24 10:35:49] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-07-24 10:35:49] INFO root fetch - main [MainThread]: Store serial: [19010098]
+[2023-07-24 10:40:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19010098]
+[2023-07-24 10:41:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AndroidN
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irene-pro
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: target-s3-delta
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedex-sdk
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bolinette
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiofauna
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proctracer
+[2023-07-24 10:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: storey
+[2023-07-24 10:41:00] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post909] Old Version: [1.0.0.post908]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [fedex-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [AndroidN]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-24 10:41:00] WARNING root fetch - processPackages [proctracer]: Skipping, unable to determine old version
+[2023-07-24 10:41:00] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 10:41:00] INFO root fetch - main [MainThread]: End processing [proctracer] error
+[2023-07-24 10:41:00] INFO root fetch - processPackages [bolinette]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [storey]: New version: [1.5.0] Old Version: [1.4.4]
+[2023-07-24 10:41:00] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/8d/24/5d199197c42814c9d4037f928818a19d06180710fb85ad9a9e075dbb84ef/AndroidN-0.0.6.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/4b/5d/afbe458c7c0372ae54904cd35b34a6ccca0818fe1068dfe1a3e3c98e8339/fedex-sdk-1.0.3.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/ea/8a/c806fd9ee311ec301a56b01b110f590a8c5e704bfc6b245d6b813074bc27/nucliadb_contributor_assets-1.0.0.post908-py3-none-any.whl
+[2023-07-24 10:41:00] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-24 10:41:00] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [bolinette]: Downloading https://files.pythonhosted.org/packages/7e/46/32edf998262c22769f899dfa7da6b0bd916fba9469feae9fafc864902f66/Bolinette-0.8.5.tar.gz
+[2023-07-24 10:41:00] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/08/4d/55f153158c3b25bc74e820c353a18194025291e8f574c028b3d7478c0673/storey-1.4.4.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-24 10:41:01] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230724/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [AndroidN]: Downloading https://files.pythonhosted.org/packages/4c/82/6e886e58bb830c8a14378c610edef1c48eafff1bceed19c27edec1255c46/AndroidN-0.0.7.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [fedex-sdk]: Downloading https://files.pythonhosted.org/packages/b9/8f/7761ee71cf8f75f7b5d0e96452cae92e0b8e6c52845faf65654003524c4b/fedex-sdk-1.0.4.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/c6/95/21779c58f465641f6d30d0c9fdfd6022b41e4e6d19689390ed291f18666a/nucliadb_contributor_assets-1.0.0.post909-py3-none-any.whl
+[2023-07-24 10:41:01] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230724/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230724/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [fedex-sdk]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [fedex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedex-sdk-1.0.3.tar.gz tmp/fedex-sdk-1.0.4.tar.gz --markdown 20230724/f/fedex-sdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post908-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post909-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-contributor-assets/1.0.0.post908-1.0.0.post909/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [AndroidN]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [AndroidN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidN-0.0.6.tar.gz tmp/AndroidN-0.0.7.tar.gz --markdown 20230724/A/AndroidN/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [bolinette]: Downloading https://files.pythonhosted.org/packages/63/83/6ee87152be59902966986439f4eee117d2f1eb55153fbdbf359e09cf3b76/Bolinette-0.9.0.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/49/31/12a099311119718cf7abf6d3caf97362c1ab596795e309e850b8b411c55e/storey-1.5.0.tar.gz
+[2023-07-24 10:41:01] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230724/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.4.4.tar.gz tmp/storey-1.5.0.tar.gz --markdown 20230724/s/storey/1.4.4-1.5.0/diff.md --exclude *.pyd
+[2023-07-24 10:41:01] INFO root fetch - processPackages [bolinette]: executing diffoscope
+[2023-07-24 10:41:01] INFO root fetch - processPackages [bolinette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bolinette-0.8.5.tar.gz tmp/Bolinette-0.9.0.tar.gz --markdown 20230724/b/bolinette/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-24 10:41:03] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-07-24 10:41:03] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-07-24 10:41:03] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-24 10:41:03] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-24 10:41:03] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-24 10:41:03] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-24 10:41:04] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-24 10:41:04] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.3.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - processPackages [fedex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fedex-sdk-1.0.4.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - main [MainThread]: End processing [fedex-sdk]: success
+[2023-07-24 10:41:04] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.4.4.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.5.0.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-07-24 10:41:04] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-24 10:41:04] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-24 10:41:04] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-24 10:41:04] INFO root fetch - processPackages [bolinette]: Remove: archive file [/home/abi/fetcher/tmp/Bolinette-0.8.5.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - processPackages [bolinette]: Remove: archive file [/home/abi/fetcher/tmp/Bolinette-0.9.0.tar.gz]
+[2023-07-24 10:41:04] INFO root fetch - main [MainThread]: End processing [bolinette]: success
+[2023-07-24 10:41:05] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.6.tar.gz]
+[2023-07-24 10:41:05] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.7.tar.gz]
+[2023-07-24 10:41:05] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
+[2023-07-24 10:41:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post908-py3-none-any.whl.zip]
+[2023-07-24 10:41:17] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post909-py3-none-any.whl.zip]
+[2023-07-24 10:41:17] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-24 10:41:17] INFO root fetch - main [MainThread]: Store serial: [19010128]
