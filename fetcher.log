@@ -14804,3 +14804,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-07-24 12:26:41] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
 [2023-07-24 12:26:41] INFO root fetch - main [MainThread]: End processing [kili]: success
 [2023-07-24 12:26:41] INFO root fetch - main [MainThread]: Store serial: [19011128]
+[2023-07-24 12:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011128]
+[2023-07-24 12:31:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2kerastl
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-cli
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-web-create-write-confirm
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tlv
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib4sbom
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: murfey
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akshare
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiomisc
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciderpolarity
+[2023-07-24 12:31:50] INFO root fetch - processPackages [lib4sbom]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-24 12:31:50] WARNING root fetch - processPackages [odoo14-addon-web-create-write-confirm]: Skipping, unable to determine old version
+[2023-07-24 12:31:50] INFO root fetch - processPackages [odoo14-addon-web-create-write-confirm]: Start processing: odoo-addon-sale-quotation-number
+[2023-07-24 12:31:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-create-write-confirm] error
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [tlv]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.84rc0] Old Version: [0.3.84]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-07-24 12:31:50] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/ba/23/7d06585a66bb6dbc209321b07b3de3ba335842930baddd3a95ede300fba8/ciderpolarity-0.2.8.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/db/62/e7ac98575dfac712aabbf07dd71407ba3738caa5033542024a1709629310/Print_Tricks_And_More_Alpha-0.3.84-py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: Downloading https://files.pythonhosted.org/packages/ab/26/22d29e1d087afb6e7f7c409546760913d0ef8681ba4fec842b855684ed58/odoo_addon_sale_quotation_number-15.0.1.0.1-py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [lib4sbom]: Downloading https://files.pythonhosted.org/packages/59/a6/5e594b9d2554b0bd1449276c71ae542d5714d78d7e1c5be1c315e71c3026/lib4sbom-0.3.1-py2.py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/5c/41/bcd578d5504027632d87d9f1521f1f2d07d33cef36251932b9545f389abd/tlv-1.4.0.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/06/4f/a37cd48a24edf35edbbeafaa3f929ada933d8ace6f309321972545424ec5/murfey-0.7.8.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/01/d9/4ce87a3af681374f4c4135491869e1811bdd6d6741293d02665ac017c0d8/ciderpolarity-0.2.9.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.8.tar.gz tmp/ciderpolarity-0.2.9.tar.gz --markdown 20230724/c/ciderpolarity/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8b/70/6058635f54a5d243074e46914f6be25d78e758a14e2710ac84d038b177ce/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [lib4sbom]: Downloading https://files.pythonhosted.org/packages/02/23/23ef86909595df684a67bb50a3db51eaa71dc3de0d0999814d67e7c9e0f9/lib4sbom-0.4.0-py2.py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: Downloading https://files.pythonhosted.org/packages/69/27/8c7954004838d44c465c9fd88e41b32a8303351897a1c58e96e905cc4e03/odoo_addon_sale_quotation_number-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-24 12:31:51] INFO root fetch - processPackages [tlv]: Downloading https://files.pythonhosted.org/packages/da/40/358d6a9dc9863cb3150c54b4d6e5ce40c895424c5c36d8e8022268b22ca5/tlv-1.4.1.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [lib4sbom]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [lib4sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib4sbom-0.3.1-py2.py3-none-any.whl.zip tmp/lib4sbom-0.4.0-py2.py3-none-any.whl.zip --markdown 20230724/l/lib4sbom/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_quotation_number-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_quotation_number-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-sale-quotation-number/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [tlv]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [tlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlv-1.4.0.tar.gz tmp/tlv-1.4.1.tar.gz --markdown 20230724/t/tlv/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-07-24 12:31:51] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230724/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.84-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl.zip --markdown 20230724/P/Print-Tricks-And-More-Alpha/0.3.84-0.3.84rc0/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230724/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230724/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 12:31:51] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-07-24 12:31:51] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230724/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 12:31:52] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-07-24 12:31:52] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-07-24 12:31:52] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230724/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-24 12:31:52] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.8.tar.gz]
+[2023-07-24 12:31:52] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.9.tar.gz]
+[2023-07-24 12:31:52] INFO root fetch - processPackages [ciderpolarity]: Start processing: PyQt6-Qt6
+[2023-07-24 12:31:52] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-24 12:31:52] INFO root fetch - processPackages [PyQt6-Qt6]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [PyQt6-Qt6]: Downloading https://files.pythonhosted.org/packages/7a/c3/cc5b5dd021c6e5d0a5cd4e66b190403b1259f872eb00d3eac7eacd994f56/PyQt6_Qt6-6.5.1-py3-none-win_amd64.whl
+[2023-07-24 12:31:53] WARNING root fetch - processPackages [PyQt6-Qt6]: Skipping package: exceeds size limit 59113050>=10485760
+[2023-07-24 12:31:53] INFO root fetch - processPackages [PyQt6-Qt6]: Start processing: cell_key_perturbation
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [PyQt6-Qt6] error
+[2023-07-24 12:31:53] WARNING root fetch - processPackages [cell_key_perturbation]: Skipping, unable to determine old version
+[2023-07-24 12:31:53] INFO root fetch - processPackages [cell_key_perturbation]: Start processing: holamundoplayerjjml
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [cell_key_perturbation] error
+[2023-07-24 12:31:53] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_quotation_number-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_quotation_number-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [odoo-addon-sale-quotation-number]: Start processing: superannotate
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-quotation-number]: success
+[2023-07-24 12:31:53] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.84-py3-none-any.whl.zip]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.84rc0-py3-none-any.whl.zip]
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-24 12:31:53] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.0.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [tlv]: Remove: archive file [/home/abi/fetcher/tmp/tlv-1.4.1.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [tlv]: success
+[2023-07-24 12:31:53] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-24 12:31:53] WARNING root fetch - processPackages [holamundoplayerjjml]: Skipping, unable to determine old version
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [holamundoplayerjjml] error
+[2023-07-24 12:31:53] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.1.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.4.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-07-24 12:31:53] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-07-24 12:31:53] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-07-24 12:31:53] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-07-24 12:31:53] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2023-07-24 12:31:54] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.8.tar.gz]
+[2023-07-24 12:31:54] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.7.9.tar.gz]
+[2023-07-24 12:31:54] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-07-24 12:31:54] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2023-07-24 12:31:54] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-07-24 12:31:54] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230724/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-07-24 12:31:55] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-24 12:31:55] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-24 12:31:55] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-24 12:31:55] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9.dev5.tar.gz]
+[2023-07-24 12:31:55] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
+[2023-07-24 12:31:55] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-07-24 12:31:58] INFO root fetch - processPackages [lib4sbom]: Remove: archive file [/home/abi/fetcher/tmp/lib4sbom-0.3.1-py2.py3-none-any.whl.zip]
+[2023-07-24 12:31:58] INFO root fetch - processPackages [lib4sbom]: Remove: archive file [/home/abi/fetcher/tmp/lib4sbom-0.4.0-py2.py3-none-any.whl.zip]
+[2023-07-24 12:31:58] INFO root fetch - main [MainThread]: End processing [lib4sbom]: success
+[2023-07-24 12:31:58] INFO root fetch - main [MainThread]: Store serial: [19011175]
