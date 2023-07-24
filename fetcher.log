@@ -1935,3 +1935,148 @@
 [2023-07-24 02:23:22] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
 [2023-07-24 02:23:22] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
 [2023-07-24 02:23:22] INFO root fetch - main [MainThread]: Store serial: [19005926]
+[2023-07-24 02:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005926]
+[2023-07-24 02:28:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-remote-stack
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinx-toolbox
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-tweet-queue
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: utz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-local-exec
+[2023-07-24 02:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-docker-image-deployment
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [utz]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [sphinx-toolbox]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/80/5f/632b487240e81298c96f27358e4e8fc33b1e968a339752086cd6a4018782/utz-0.3.8.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/b6/d5/9db67e5018cbb315231f1cbe55a86e64898b9ce0809ed5cc5d4632fc5c5c/cdktf-local-exec-0.2.8.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [sphinx-toolbox]: Downloading https://files.pythonhosted.org/packages/f1/9c/bbf8bf24ea33e805f62362d4021e109ec86fb2e23fb4baed958a61262422/sphinx_toolbox-3.4.0.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-07-24 02:28:31] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-24 02:28:31] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdk8s-grafana
+[2023-07-24 02:28:31] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230724/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [sphinx-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/bf/526ee15902aae86a764d55d34f8f5d3dfb8ff35986c579b3538100c51a0a/sphinx_toolbox-3.5.0.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230724/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/19/02/83e6ceb8de9cca722ee3e14572dc8001d4f7c34c4de404e7ca645de74bc4/cdktf-local-exec-0.2.9.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230724/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/88/0b/8af56a1053a885d3e989d8a3bb2f4d2042bf37cbce047607a41d2b89d5d3/utz-0.3.9.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [sphinx-toolbox]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [sphinx-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_toolbox-3.4.0.tar.gz tmp/sphinx_toolbox-3.5.0.tar.gz --markdown 20230724/s/sphinx-toolbox/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230724/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230724/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230724/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [utz]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [utz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utz-0.3.8.tar.gz tmp/utz-0.3.9.tar.gz --markdown 20230724/u/utz/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-24 02:28:32] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230724/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230724/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-tweet-queue]: Start processing: cdk8s-plus-26
+[2023-07-24 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: supervisor-shell-ui
+[2023-07-24 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/e7/88/e6049463504dce51b952620e03b949f7dc6786dc247b4d57869c97625b61/cdk8s-plus-26-2.6.0.tar.gz
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [cdk-remote-stack]: Start processing: supervisor-shell-ui
+[2023-07-24 02:28:33] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-07-24 02:28:33] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [1.0.0a0] Old Version: [1.0.0]
+[2023-07-24 02:28:33] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [1.0.0a0] Old Version: [1.0.0]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.8.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.9.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdktf-local-exec]: Start processing: supervisor-shell-ui
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/b0/a0/e7d86a832d29dc92e83aced810f4e38f2920837c44fcfd6eb74401c37972/supervisor-shell-ui-1.0.0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/b0/a0/e7d86a832d29dc92e83aced810f4e38f2920837c44fcfd6eb74401c37972/supervisor-shell-ui-1.0.0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: New version: [1.0.0a0] Old Version: [1.0.0]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s]: Start processing: cdk-serverless-clamscan
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s]: Start processing: cdk-certbot-dns-route53
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/08/dc/67ecab57a6ef1e5c673f0592f5edfa3548d4cc8cfa02a90efd9a97c31c45/cdk8s-plus-26-2.7.0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [sphinx-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_toolbox-3.4.0.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [sphinx-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_toolbox-3.5.0.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [sphinx-toolbox]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.8.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.3.9.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [utz]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-24 02:28:34] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/fc/17/35e5f7d0d28af3e90979939f36ffe6251c929098f57194094e8bdeea989f/supervisor-shell-ui-1.0.0a0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/fc/17/35e5f7d0d28af3e90979939f36ffe6251c929098f57194094e8bdeea989f/supervisor-shell-ui-1.0.0a0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: Downloading https://files.pythonhosted.org/packages/fc/17/35e5f7d0d28af3e90979939f36ffe6251c929098f57194094e8bdeea989f/supervisor-shell-ui-1.0.0a0.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-1.0.0.tar.gz tmp/supervisor-shell-ui-1.0.0a0.tar.gz --markdown 20230724/s/supervisor-shell-ui/1.0.0-1.0.0a0/diff.md --exclude *.pyd
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-1.0.0.tar.gz tmp/supervisor-shell-ui-1.0.0a0.tar.gz --markdown 20230724/s/supervisor-shell-ui/1.0.0-1.0.0a0/diff.md --exclude *.pyd
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [supervisor-shell-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisor-shell-ui-1.0.0.tar.gz tmp/supervisor-shell-ui-1.0.0a0.tar.gz --markdown 20230724/s/supervisor-shell-ui/1.0.0-1.0.0a0/diff.md --exclude *.pyd
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230724/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.6.0.tar.gz tmp/cdk8s-plus-26-2.7.0.tar.gz --markdown 20230724/c/cdk8s-plus-26/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-24 02:28:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230724/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-24 02:28:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-24 02:28:35] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-1.0.0.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - processPackages [supervisor-shell-ui]: Remove: archive file [/home/abi/fetcher/tmp/supervisor-shell-ui-1.0.0a0.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 02:28:35] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 02:28:35] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui]: success
+[2023-07-24 02:28:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-24 02:28:35] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-24 02:28:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-24 02:28:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-24 02:28:36] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-24 02:28:36] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.6.0.tar.gz]
+[2023-07-24 02:28:36] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.7.0.tar.gz]
+[2023-07-24 02:28:36] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-24 02:28:36] INFO root fetch - main [MainThread]: Store serial: [19005986]
