@@ -22486,3 +22486,119 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 16:39:38] INFO root fetch - processPackages [pynwb]: Remove: archive file [/home/abi/fetcher/tmp/pynwb-2.4.0.tar.gz]
 [2023-07-24 16:39:38] INFO root fetch - main [MainThread]: End processing [pynwb]: success
 [2023-07-24 16:39:38] INFO root fetch - main [MainThread]: Store serial: [19014236]
+[2023-07-24 16:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19014236]
+[2023-07-24 16:44:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mds-cashbook
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mozregression
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epure
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openpy-fxts
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adapta
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inscar
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prodimopy
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurosift
+[2023-07-24 16:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: l2rpn-baselines
+[2023-07-24 16:44:48] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [neurosift]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [mozregression]: New version: [5.7.0.dev2] Old Version: [5.7.0.dev1]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [mds-cashbook]: New version: [6.8.29] Old Version: [6.0.27]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [l2rpn-baselines]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [openpy-fxts]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [adapta]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [inscar]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [prodimopy]: New version: [2.2] Old Version: [2.1.6]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [neurosift]: Downloading https://files.pythonhosted.org/packages/d8/48/6da983404f262953d31615cefee5c8dcb48fa08ece44045cb9ec6f57395f/neurosift-0.2.1.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/17/b4/563484eab289da7217a1f66eb96c8676e8be1e15c196f35320c597190c1e/mozregression-5.7.0.dev1.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [inscar]: Downloading https://files.pythonhosted.org/packages/2b/7c/531bae033e447c71ea611d9b4a3d217b54fcb0e2f1e0c1b679ce38555805/inscar-3.0.3.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/8b/97540d66629cdcc443394eaba881ec7e7fe1830378199bb63379127e0956/adapta-2.3.1.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [l2rpn-baselines]: Downloading https://files.pythonhosted.org/packages/82/25/4b68635847a528ab82e85362bfb440fa1d29c0ab6e074c97024011d510d2/l2rpn_baselines-0.7.0.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [openpy-fxts]: Downloading https://files.pythonhosted.org/packages/f6/02/8f6c3d1a6007f03c4c1798b7bd2d4784c48c1d8ff0f8511e43bb9ddb83b9/openpy_fxts-0.1.2.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [mds-cashbook]: Downloading https://files.pythonhosted.org/packages/3c/59/2735696a1c79a0752d25e082b09e7a9817327a4734f8baf13b158ac8e71b/mds_cashbook-6.0.27.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [prodimopy]: Downloading https://files.pythonhosted.org/packages/99/7c/c0fa3da65693e218a81fdcef1602f79a096e6b624407aefba48c6a27508e/prodimopy-2.1.6.tar.gz
+[2023-07-24 16:44:48] WARNING root fetch - processPackages [openpy-fxts]: Skipping package: exceeds size limit 32475462>=10485760
+[2023-07-24 16:44:48] INFO root fetch - processPackages [openpy-fxts]: Start processing: sinr
+[2023-07-24 16:44:48] INFO root fetch - main [MainThread]: End processing [openpy-fxts] error
+[2023-07-24 16:44:48] INFO root fetch - processPackages [sinr]: New version: [1.2.0a0] Old Version: [1.1.1]
+[2023-07-24 16:44:48] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-24 16:44:48] INFO root fetch - processPackages [neurosift]: Downloading https://files.pythonhosted.org/packages/d5/9d/f148bfa0e24f19d2292d65b0b8149493ab645482f153d4227c97a875e2d3/neurosift-0.2.2.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [inscar]: Downloading https://files.pythonhosted.org/packages/fc/66/da75e0d6e5b9c46aadf7732092f6c00152718fbc30170e35d5c87b5adf5f/inscar-3.0.4.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [sinr]: Downloading https://files.pythonhosted.org/packages/ae/28/9a86fd0fdfe8da44e6595885ec003bb418ccb37b78843a36c6a6685dda83/sinr-1.1.1.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/bf/23/cffc3064c360915765f8134c750102079c97a1197c012dfdbba7bb501806/mozregression-5.7.0.dev2.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/97/f2/eacf6a10bef311c77194401a8d06c31fcb5a68fbec516c97636fdc4a3810/adapta-2.3.2.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [l2rpn-baselines]: Downloading https://files.pythonhosted.org/packages/a3/49/a23cd32fd384e4c1c6ea94ba7a5af3f0494a626fd1b11deadc24ecac5fa4/l2rpn_baselines-0.8.0.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mds-cashbook]: Downloading https://files.pythonhosted.org/packages/1e/ea/a0bd1294ce64ff18d8647603b61617e6c0f86a7477eaea27a504b92891a8/mds_cashbook-6.8.29.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [neurosift]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [neurosift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosift-0.2.1.tar.gz tmp/neurosift-0.2.2.tar.gz --markdown 20230724/n/neurosift/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [inscar]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [inscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscar-3.0.3.tar.gz tmp/inscar-3.0.4.tar.gz --markdown 20230724/i/inscar/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [prodimopy]: Downloading https://files.pythonhosted.org/packages/44/0b/79bca68713464d8bf73a5373c6df9479135ed658bde91dd104e30c7e4a95/prodimopy-2.2.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230724/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mozregression]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mozregression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozregression-5.7.0.dev1.tar.gz tmp/mozregression-5.7.0.dev2.tar.gz --markdown 20230724/m/mozregression/5.7.0.dev1-5.7.0.dev2/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.3.1.tar.gz tmp/adapta-2.3.2.tar.gz --markdown 20230724/a/adapta/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mds-cashbook]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [mds-cashbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mds_cashbook-6.0.27.tar.gz tmp/mds_cashbook-6.8.29.tar.gz --markdown 20230724/m/mds-cashbook/6.0.27-6.8.29/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230724/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [l2rpn-baselines]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [l2rpn-baselines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2rpn_baselines-0.7.0.tar.gz tmp/l2rpn_baselines-0.8.0.tar.gz --markdown 20230724/l/l2rpn-baselines/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [prodimopy]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [prodimopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodimopy-2.1.6.tar.gz tmp/prodimopy-2.2.tar.gz --markdown 20230724/p/prodimopy/2.1.6-2.2/diff.md --exclude *.pyd
+[2023-07-24 16:44:49] INFO root fetch - processPackages [sinr]: Downloading https://files.pythonhosted.org/packages/84/e8/f3a05a91b407f2877781b9b91249d87d30c6d0db3040b30b028c904bfef4/sinr-1.2.0a0.tar.gz
+[2023-07-24 16:44:49] INFO root fetch - processPackages [sinr]: executing diffoscope
+[2023-07-24 16:44:49] INFO root fetch - processPackages [sinr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinr-1.1.1.tar.gz tmp/sinr-1.2.0a0.tar.gz --markdown 20230724/s/sinr/1.1.1-1.2.0a0/diff.md --exclude *.pyd
+[2023-07-24 16:44:51] INFO root fetch - processPackages [neurosift]: Remove: archive file [/home/abi/fetcher/tmp/neurosift-0.2.1.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [neurosift]: Remove: archive file [/home/abi/fetcher/tmp/neurosift-0.2.2.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [neurosift]: Start processing: muninn
+[2023-07-24 16:44:51] INFO root fetch - main [MainThread]: End processing [neurosift]: success
+[2023-07-24 16:44:51] INFO root fetch - processPackages [inscar]: Remove: archive file [/home/abi/fetcher/tmp/inscar-3.0.3.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [inscar]: Remove: archive file [/home/abi/fetcher/tmp/inscar-3.0.4.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [inscar]: Start processing: gedcomx-v1
+[2023-07-24 16:44:51] INFO root fetch - main [MainThread]: End processing [inscar]: success
+[2023-07-24 16:44:51] INFO root fetch - processPackages [muninn]: New version: [6.1] Old Version: [6.0.1]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [gedcomx-v1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [muninn]: Downloading https://files.pythonhosted.org/packages/06/64/64d46342493993247a33c450ec3a240417b0c121d6b0c2e8a8a32d2ca092/muninn-6.0.1.tar.gz
+[2023-07-24 16:44:51] INFO root fetch - processPackages [gedcomx-v1]: Downloading https://files.pythonhosted.org/packages/87/44/4b3be53ba53e77122e02ac5a4436f7d397cef6782212558fd2c4e403d2d4/gedcomx-v1-1.0.8.tar.gz
+[2023-07-24 16:44:51] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.7.0.dev1.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-5.7.0.dev2.tar.gz]
+[2023-07-24 16:44:51] INFO root fetch - main [MainThread]: End processing [mozregression]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [muninn]: Downloading https://files.pythonhosted.org/packages/3d/e3/ddb8843c4433ad5e95c9ab7153142be03ba68ab6530bbd3065592c45bbf7/muninn-6.1.tar.gz
+[2023-07-24 16:44:52] INFO root fetch - processPackages [prodimopy]: Remove: archive file [/home/abi/fetcher/tmp/prodimopy-2.1.6.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [prodimopy]: Remove: archive file [/home/abi/fetcher/tmp/prodimopy-2.2.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [prodimopy]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.1.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.2.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [sinr]: Remove: archive file [/home/abi/fetcher/tmp/sinr-1.1.1.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [gedcomx-v1]: Downloading https://files.pythonhosted.org/packages/05/00/6568ce71a6cfd600592de3559f2ccf1e4814fda6ddb9c44f7cea0a807a44/gedcomx-v1-1.0.9.tar.gz
+[2023-07-24 16:44:52] INFO root fetch - processPackages [sinr]: Remove: archive file [/home/abi/fetcher/tmp/sinr-1.2.0a0.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [sinr]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [muninn]: executing diffoscope
+[2023-07-24 16:44:52] INFO root fetch - processPackages [muninn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muninn-6.0.1.tar.gz tmp/muninn-6.1.tar.gz --markdown 20230724/m/muninn/6.0.1-6.1/diff.md --exclude *.pyd
+[2023-07-24 16:44:52] INFO root fetch - processPackages [mds-cashbook]: Remove: archive file [/home/abi/fetcher/tmp/mds_cashbook-6.0.27.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [mds-cashbook]: Remove: archive file [/home/abi/fetcher/tmp/mds_cashbook-6.8.29.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [mds-cashbook]: success
+[2023-07-24 16:44:52] INFO root fetch - processPackages [gedcomx-v1]: executing diffoscope
+[2023-07-24 16:44:52] INFO root fetch - processPackages [gedcomx-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedcomx-v1-1.0.8.tar.gz tmp/gedcomx-v1-1.0.9.tar.gz --markdown 20230724/g/gedcomx-v1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 16:44:52] INFO root fetch - processPackages [l2rpn-baselines]: Remove: archive file [/home/abi/fetcher/tmp/l2rpn_baselines-0.7.0.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - processPackages [l2rpn-baselines]: Remove: archive file [/home/abi/fetcher/tmp/l2rpn_baselines-0.8.0.tar.gz]
+[2023-07-24 16:44:52] INFO root fetch - main [MainThread]: End processing [l2rpn-baselines]: success
+[2023-07-24 16:44:53] INFO root fetch - processPackages [gedcomx-v1]: Remove: archive file [/home/abi/fetcher/tmp/gedcomx-v1-1.0.8.tar.gz]
+[2023-07-24 16:44:53] INFO root fetch - processPackages [gedcomx-v1]: Remove: archive file [/home/abi/fetcher/tmp/gedcomx-v1-1.0.9.tar.gz]
+[2023-07-24 16:44:53] INFO root fetch - main [MainThread]: End processing [gedcomx-v1]: success
+[2023-07-24 16:44:53] INFO root fetch - processPackages [muninn]: Remove: archive file [/home/abi/fetcher/tmp/muninn-6.0.1.tar.gz]
+[2023-07-24 16:44:53] INFO root fetch - processPackages [muninn]: Remove: archive file [/home/abi/fetcher/tmp/muninn-6.1.tar.gz]
+[2023-07-24 16:44:53] INFO root fetch - main [MainThread]: End processing [muninn]: success
+[2023-07-24 16:45:06] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-24 16:45:06] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-24 16:45:06] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-24 16:45:06] INFO root fetch - main [MainThread]: Store serial: [19014281]
