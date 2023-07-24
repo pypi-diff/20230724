@@ -16104,3 +16104,215 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 13:25:08] INFO root fetch - processPackages [mldsutils]: Remove: archive file [/home/abi/fetcher/tmp/mldsutils-0.0.3.tar.gz]
 [2023-07-24 13:25:08] INFO root fetch - main [MainThread]: End processing [mldsutils]: success
 [2023-07-24 13:25:08] INFO root fetch - main [MainThread]: Store serial: [19011738]
+[2023-07-24 13:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19011738]
+[2023-07-24 13:30:18] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip-services4-components
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volare
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Connectome-Utilities
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hsfs
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fasttextsearch
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2023-07-24 13:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2023-07-24 13:30:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 13:30:18] INFO root fetch - processPackages [hsfs]: New version: [3.3.0rc1] Old Version: [3.3.0rc0]
+[2023-07-24 13:30:18] INFO root fetch - processPackages [Connectome-Utilities]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-24 13:30:18] INFO root fetch - processPackages [pip-services4-components]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 13:30:18] INFO root fetch - processPackages [fasttextsearch]: New version: [0.61] Old Version: [0.6]
+[2023-07-24 13:30:18] INFO root fetch - processPackages [volare]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hotsos]: New version: [1.16.0.post3] Old Version: [1.16.0.post2]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/3c/1c/009786e63e8255a40d830af6914753de7334967941f76121100ba1b65d58/hsfs-3.3.0rc0.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [pip-services4-components]: Downloading https://files.pythonhosted.org/packages/c4/c5/4388ecf850bab460443ce80a1e5b228243eaff6bb336a10483f80e5f5daa/pip_services4_components-0.0.3.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a6/4d/6459b403c66a2be54fb80afcb105f97148600dd8112f92df7bf6fee5246f/hotsos-1.16.0.post2.tar.gz
+[2023-07-24 13:30:19] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torchserve-nightly]: Start processing: superagent-py
+[2023-07-24 13:30:19] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-24 13:30:19] INFO root fetch - processPackages [Connectome-Utilities]: Downloading https://files.pythonhosted.org/packages/11/cc/05dac0a8647c451c65831c878d5177cdfe2161d952fe0c8626fd4c331ef7/Connectome-Utilities-0.3.2.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/31/9a/5cca62578003c02178cf5ef6940faa8c9fd9f15d373824f2b55a6241444b/fasttextsearch-0.6.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/a8/5f/ba19e9f0c65f8565afd4a4a4e5cf3db5acdd78484b791767f4d09b59c9e9/volare-0.9.1.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [superagent-py]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [pip-services4-components]: Downloading https://files.pythonhosted.org/packages/52/0a/53c5831f39f14e4b8c76d915c58236dfda5a77aa792069e2545321a330a8/pip_services4_components-0.0.4.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/14/19/0856f408c77318850eccce525a01428c4a322da91e5abf9f3444385d5020/superagent_py-0.0.36.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/e8/c7/079eb991436d0834c1f2af0ae8c2277e7e52fec2db3143da534c2c2e65e7/hotsos-1.16.0.post3.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/4d/f4/d2b33ca6cac3fee132d1ca9e4d1dcffaff9a874586f5117ed2bec0ec85a7/hsfs-3.3.0rc1.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230724/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-24 13:30:19] INFO root fetch - processPackages [pip-services4-components]: executing diffoscope
+[2023-07-24 13:30:19] INFO root fetch - processPackages [pip-services4-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_services4_components-0.0.3.tar.gz tmp/pip_services4_components-0.0.4.tar.gz --markdown 20230724/p/pip-services4-components/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-24 13:30:19] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.16.0.post2.tar.gz tmp/hotsos-1.16.0.post3.tar.gz --markdown 20230724/h/hotsos/1.16.0.post2-1.16.0.post3/diff.md --exclude *.pyd
+[2023-07-24 13:30:19] INFO root fetch - processPackages [Connectome-Utilities]: Downloading https://files.pythonhosted.org/packages/cb/b9/f6b8bc847e496d0e5b694c9f74eb42423bec4946542ca1a5e7d2e8672064/Connectome-Utilities-0.4.0.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/b3/9f/87ba3083af20eec4fea0ca2fe58b14ecb87ad0b6ce735db7a9e20d090423/volare-0.9.2.tar.gz
+[2023-07-24 13:30:19] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/bf/bf/09cac3544a5342d8db9a345a80ec90a41fee81761d47f1502cc8b9654989/fasttextsearch-0.61-cp39-cp39-win_amd64.whl
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-24 13:30:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230724/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.3.0rc0.tar.gz tmp/hsfs-3.3.0rc1.tar.gz --markdown 20230724/h/hsfs/3.3.0rc0-3.3.0rc1/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [volare]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [volare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volare-0.9.1.tar.gz tmp/volare-0.9.2.tar.gz --markdown 20230724/v/volare/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-24 13:30:20] INFO root fetch - processPackages [Connectome-Utilities]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [Connectome-Utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Connectome-Utilities-0.3.2.tar.gz tmp/Connectome-Utilities-0.4.0.tar.gz --markdown 20230724/C/Connectome-Utilities/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.6.tar.gz tmp/fasttextsearch-0.61-cp39-cp39-win_amd64.whl.zip --markdown 20230724/f/fasttextsearch/0.6-0.61/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/b2/ab/2ba5852b166b1026a1714a6064982e5aa35dc99fc9cea1292ac9a84ac906/superagent_py-0.0.37.tar.gz
+[2023-07-24 13:30:20] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230724/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-24 13:30:20] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-24 13:30:20] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.36.tar.gz tmp/superagent_py-0.0.37.tar.gz --markdown 20230724/s/superagent-py/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: odoo-addon-mail-activity-board
+[2023-07-24 13:30:21] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-24 13:30:21] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Downloading https://files.pythonhosted.org/packages/81/8b/f6c719269b45700d08207b4ecddce01ca80ca0eb0940161402656c9754ea/odoo_addon_mail_activity_board-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: feedancy
+[2023-07-24 13:30:21] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-24 13:30:21] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.6.tar.gz]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.61-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [fasttextsearch]: Start processing: torchrec-nightly
+[2023-07-24 13:30:21] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-07-24 13:30:21] INFO root fetch - processPackages [feedancy]: New version: [0.1.3b0] Old Version: [0.1.3a0]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.23] Old Version: [2023.7.22]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/cd/d7/86cd145ff548c83f8e07dfcb7c5606851492f918b4b26b7883efb51f3e44/feedancy-0.1.3a0.tar.gz
+[2023-07-24 13:30:21] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.1.tar.gz]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.2.tar.gz]
+[2023-07-24 13:30:21] INFO root fetch - processPackages [volare]: Start processing: moptipyapps
+[2023-07-24 13:30:21] INFO root fetch - main [MainThread]: End processing [volare]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [Connectome-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/Connectome-Utilities-0.3.2.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [Connectome-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/Connectome-Utilities-0.4.0.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [Connectome-Utilities]: Start processing: xknx
+[2023-07-24 13:30:22] INFO root fetch - main [MainThread]: End processing [Connectome-Utilities]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/8c/50/2c63c7f96dbd2b50f3338c35944a3cbd587eef301c8177f21cb8d55889c4/torchrec_nightly-2023.7.22-py39-none-any.whl
+[2023-07-24 13:30:22] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [pip-services4-components]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_components-0.0.3.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [pip-services4-components]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_components-0.0.4.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [pip-services4-components]: Start processing: svbench
+[2023-07-24 13:30:22] INFO root fetch - main [MainThread]: End processing [pip-services4-components]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [xknx]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [svbench]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.36.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.37.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [superagent-py]: Start processing: django-lazy-srcset
+[2023-07-24 13:30:22] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [django-lazy-srcset]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Downloading https://files.pythonhosted.org/packages/c4/39/9ecadf14a4e853c050db9721fb89f50467ff81d044cc7e406e218c83db76/odoo_addon_mail_activity_board-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-24 13:30:22] INFO root fetch - processPackages [feedancy]: Downloading https://files.pythonhosted.org/packages/e0/f3/ddf0ea5f64246150d59814daac4fa2009d019bf744563061c0cb82460597/feedancy-0.1.3b0.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/dd/b4/372f1e1ae19b5e3f8b5e9be2bda60edf1667543cd5ae4b16fbd6408c9958/moptipyapps-0.8.8.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_board-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_board-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230724/o/odoo-addon-mail-activity-board/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/2c/20/4a1dd050eb0440be4315e22cb2a18c282db281bc23a91172838252006d87/xknx-2.8.0.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [svbench]: Downloading https://files.pythonhosted.org/packages/9c/d1/ef6f29fb62641ef8be6fe093288f7f176a759c54c18026429a55ad757a0f/svbench-0.7.3.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/59/6e/5a96ac18f87893c600fdf91f4a15ba7891e254c31dd92f3b631be2e0dc0c/django-lazy-srcset-1.0.0.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/1f/e6/61db3d113d9fd766a13ac00aabd235c66fd57982bd9886a4e1555c3145df/torchrec_nightly-2023.7.23-py39-none-any.whl
+[2023-07-24 13:30:22] INFO root fetch - processPackages [feedancy]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [feedancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedancy-0.1.3a0.tar.gz tmp/feedancy-0.1.3b0.tar.gz --markdown 20230724/f/feedancy/0.1.3a0-0.1.3b0/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.3.0rc0.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.3.0rc1.tar.gz]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [hsfs]: Start processing: jms-storage
+[2023-07-24 13:30:22] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/99/84/e6a54ea53992f0d12000f77a325b6ffd82fd0a9248f130f966739810c773/moptipyapps-0.8.9.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [svbench]: Downloading https://files.pythonhosted.org/packages/ed/95/e88d5acd55ad5bfb04b57d25db81fd54da2206ba4830e748a95116e617ce/svbench-0.7.4.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.50]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.22-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.23-py39-none-any.whl.zip --markdown 20230724/t/torchrec-nightly/2023.7.22-2023.7.23/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [torchrl-nightly]: Start processing: scale-nucleus
+[2023-07-24 13:30:22] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-24 13:30:22] INFO root fetch - processPackages [django-lazy-srcset]: Downloading https://files.pythonhosted.org/packages/89/61/99ed34cd9fa4194cb60591c28c99155ed99952dc4f41b9ea9e77a6fa0b40/django-lazy-srcset-1.0.1.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [scale-nucleus]: New version: [0.9b6] Old Version: [0.9b5]
+[2023-07-24 13:30:22] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/13/d7/c6d1636743067c51da463f46cd4cd48078d50745e12d8b685111abc67e79/xknx-2.9.0.tar.gz
+[2023-07-24 13:30:22] INFO root fetch - processPackages [svbench]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [svbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svbench-0.7.3.tar.gz tmp/svbench-0.7.4.tar.gz --markdown 20230724/s/svbench/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.8.tar.gz tmp/moptipyapps-0.8.9.tar.gz --markdown 20230724/m/moptipyapps/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [django-lazy-srcset]: executing diffoscope
+[2023-07-24 13:30:22] INFO root fetch - processPackages [django-lazy-srcset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lazy-srcset-1.0.0.tar.gz tmp/django-lazy-srcset-1.0.1.tar.gz --markdown 20230724/d/django-lazy-srcset/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 13:30:22] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/98/ff/9be8ddcc9f7194fc7d1240c49d12deeeb9fe78df7912b600ce8ce56039e7/jms-storage-0.0.50.tar.gz
+[2023-07-24 13:30:23] INFO root fetch - processPackages [xknx]: executing diffoscope
+[2023-07-24 13:30:23] INFO root fetch - processPackages [xknx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xknx-2.8.0.tar.gz tmp/xknx-2.9.0.tar.gz --markdown 20230724/x/xknx/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-24 13:30:23] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/bf/c8/3c9bb9264e452777f75ca0449c13fb21ca37bf72f8738404d71baf5b1e5f/scale-nucleus-0.9b5.tar.gz
+[2023-07-24 13:30:23] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2023-07-24 13:30:23] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2023-07-24 13:30:23] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.50.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20230724/j/jms-storage/0.0.50-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 13:30:23] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post2.tar.gz]
+[2023-07-24 13:30:23] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post3.tar.gz]
+[2023-07-24 13:30:23] INFO root fetch - processPackages [hotsos]: Start processing: swordartonline
+[2023-07-24 13:30:23] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-24 13:30:23] WARNING root fetch - processPackages [swordartonline]: Skipping, unable to determine old version
+[2023-07-24 13:30:23] INFO root fetch - processPackages [swordartonline]: Start processing: pip-services4-config
+[2023-07-24 13:30:23] INFO root fetch - main [MainThread]: End processing [swordartonline] error
+[2023-07-24 13:30:23] WARNING root fetch - processPackages [pip-services4-config]: Skipping, unable to determine old version
+[2023-07-24 13:30:23] INFO root fetch - processPackages [pip-services4-config]: Start processing: tb-nightly
+[2023-07-24 13:30:23] INFO root fetch - main [MainThread]: End processing [pip-services4-config] error
+[2023-07-24 13:30:23] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/35/78/6ee21b292c395656a8fa3e6431b6070ee45f13b09754a998b4f9f2d510ad/scale-nucleus-0.9b6.tar.gz
+[2023-07-24 13:30:23] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_board-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-24 13:30:23] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_board-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-24 13:30:23] INFO root fetch - processPackages [odoo-addon-mail-activity-board]: Start processing: leadguru-data
+[2023-07-24 13:30:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-board]: success
+[2023-07-24 13:30:23] INFO root fetch - processPackages [scale-nucleus]: executing diffoscope
+[2023-07-24 13:30:23] INFO root fetch - processPackages [scale-nucleus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale-nucleus-0.9b5.tar.gz tmp/scale-nucleus-0.9b6.tar.gz --markdown 20230724/s/scale-nucleus/0.9b5-0.9b6/diff.md --exclude *.pyd
+[2023-07-24 13:30:23] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-24 13:30:23] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-24 13:30:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-24 13:30:24] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-1.0.0.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [django-lazy-srcset]: Remove: archive file [/home/abi/fetcher/tmp/django-lazy-srcset-1.0.1.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [django-lazy-srcset]: Start processing: xpressinsight
+[2023-07-24 13:30:24] INFO root fetch - main [MainThread]: End processing [django-lazy-srcset]: success
+[2023-07-24 13:30:24] INFO root fetch - processPackages [svbench]: Remove: archive file [/home/abi/fetcher/tmp/svbench-0.7.3.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [svbench]: Remove: archive file [/home/abi/fetcher/tmp/svbench-0.7.4.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - main [MainThread]: End processing [svbench]: success
+[2023-07-24 13:30:24] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.50.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2023-07-24 13:30:24] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.3a0.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - processPackages [feedancy]: Remove: archive file [/home/abi/fetcher/tmp/feedancy-0.1.3b0.tar.gz]
+[2023-07-24 13:30:24] INFO root fetch - main [MainThread]: End processing [feedancy]: success
+[2023-07-24 13:30:24] INFO root fetch - processPackages [xpressinsight]: New version: [1.6.0.post1] Old Version: [1.6.0]
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/ad/dc/f8731dd424fe56513ef26da6ffcaeaee55c6e8c63b28d932f26afb5010e7/xpressinsight-1.6.0-py3-none-any.whl
+[2023-07-24 13:30:25] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.22-py39-none-any.whl.zip]
+[2023-07-24 13:30:25] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.23-py39-none-any.whl.zip]
+[2023-07-24 13:30:25] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-24 13:30:25] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-24 13:30:25] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-24 13:30:25] INFO root fetch - processPackages [scale-nucleus]: Remove: archive file [/home/abi/fetcher/tmp/scale-nucleus-0.9b5.tar.gz]
+[2023-07-24 13:30:25] INFO root fetch - processPackages [scale-nucleus]: Remove: archive file [/home/abi/fetcher/tmp/scale-nucleus-0.9b6.tar.gz]
+[2023-07-24 13:30:25] INFO root fetch - main [MainThread]: End processing [scale-nucleus]: success
+[2023-07-24 13:30:25] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-24 13:30:25] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230724/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xknx]: Remove: archive file [/home/abi/fetcher/tmp/xknx-2.8.0.tar.gz]
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xknx]: Remove: archive file [/home/abi/fetcher/tmp/xknx-2.9.0.tar.gz]
+[2023-07-24 13:30:25] INFO root fetch - main [MainThread]: End processing [xknx]: success
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/78/c2/5acfc1c7d07d36f32adabfe1bd75bc35c8dfa768ec003fc82a816d9796d6/xpressinsight-1.6.0.post1-py3-none-any.whl
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xpressinsight]: executing diffoscope
+[2023-07-24 13:30:25] INFO root fetch - processPackages [xpressinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpressinsight-1.6.0-py3-none-any.whl.zip tmp/xpressinsight-1.6.0.post1-py3-none-any.whl.zip --markdown 20230724/x/xpressinsight/1.6.0-1.6.0.post1/diff.md --exclude *.pyd
+[2023-07-24 13:30:26] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.8.tar.gz]
+[2023-07-24 13:30:26] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
+[2023-07-24 13:30:26] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-07-24 13:30:26] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-24 13:30:26] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230724/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-24 13:30:26] INFO root fetch - processPackages [xpressinsight]: Remove: archive file [/home/abi/fetcher/tmp/xpressinsight-1.6.0-py3-none-any.whl.zip]
+[2023-07-24 13:30:26] INFO root fetch - processPackages [xpressinsight]: Remove: archive file [/home/abi/fetcher/tmp/xpressinsight-1.6.0.post1-py3-none-any.whl.zip]
+[2023-07-24 13:30:26] INFO root fetch - main [MainThread]: End processing [xpressinsight]: success
+[2023-07-24 13:30:27] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-24 13:30:27] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-24 13:30:27] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-24 13:30:27] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-24 13:30:27] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-24 13:30:27] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-24 13:30:27] INFO root fetch - main [MainThread]: Store serial: [19011820]
