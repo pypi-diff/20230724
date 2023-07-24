@@ -7458,3 +7458,43 @@
 [2023-07-24 06:40:03] INFO root fetch - processPackages [sqlite-url]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_url-0.1.0a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-24 06:40:03] INFO root fetch - main [MainThread]: End processing [sqlite-url]: success
 [2023-07-24 06:40:03] INFO root fetch - main [MainThread]: Store serial: [19008078]
+[2023-07-24 06:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008078]
+[2023-07-24 06:45:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 06:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-24 06:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-lines
+[2023-07-24 06:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-lines
+[2023-07-24 06:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-utils-sqlite-lines
+[2023-07-24 06:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awyes
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: New version: [10.0.2] Old Version: [10.0.1]
+[2023-07-24 06:45:13] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2023-07-24 06:45:13] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: New version: [10.0.2] Old Version: [10.0.1]
+[2023-07-24 06:45:13] WARNING root fetch - processPackages [sqlite-utils-sqlite-lines]: Skipping, unable to determine old version
+[2023-07-24 06:45:13] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-lines] error
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/17/f6/1dfaed56cd32ee32c79dd464f8ca7423340d5f55b6761927a41d4c70df70/awyes-10.0.1.tar.gz
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/17/f6/1dfaed56cd32ee32c79dd464f8ca7423340d5f55b6761927a41d4c70df70/awyes-10.0.1.tar.gz
+[2023-07-24 06:45:13] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/02/bf/074510c2dfc1fdce26a160760d09811075d07a56c5466db29b3711b2455b/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl
+[2023-07-24 06:45:13] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/a9/ec/31b912824df70281d548442748ef4f8170f16041d6497abf19437f56d11c/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 06:45:13] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/fa/64/519a60604f470d9e4593ef935d20b4c3728cc5e4497096cce486b85606ba/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/04/56/2e26883e50b8956df5d6af01ec6138b56b5f18b5ec65927cbb2ab1541ef1/awyes-10.0.2.tar.gz
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: Downloading https://files.pythonhosted.org/packages/04/56/2e26883e50b8956df5d6af01ec6138b56b5f18b5ec65927cbb2ab1541ef1/awyes-10.0.2.tar.gz
+[2023-07-24 06:45:13] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-07-24 06:45:13] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-lines/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.1.tar.gz tmp/awyes-10.0.2.tar.gz --markdown 20230724/a/awyes/10.0.1-10.0.2/diff.md --exclude *.pyd
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: executing diffoscope
+[2023-07-24 06:45:13] INFO root fetch - processPackages [awyes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awyes-10.0.1.tar.gz tmp/awyes-10.0.2.tar.gz --markdown 20230724/a/awyes/10.0.1-10.0.2/diff.md --exclude *.pyd
+[2023-07-24 06:45:14] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/a5/f8/01ccbe99d79524a36b74906e2bc344777d72591b7d8c9efa277d3107e9f6/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-24 06:45:14] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-07-24 06:45:14] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230724/s/sqlite-lines/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2023-07-24 06:45:14] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.0a5-py3-none-any.whl.zip]
+[2023-07-24 06:45:14] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl.zip]
+[2023-07-24 06:45:14] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-07-24 06:45:14] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.1.tar.gz]
+[2023-07-24 06:45:14] INFO root fetch - processPackages [awyes]: Remove: archive file [/home/abi/fetcher/tmp/awyes-10.0.2.tar.gz]
+[2023-07-24 06:45:14] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-24 06:45:14] INFO root fetch - main [MainThread]: End processing [awyes]: success
+[2023-07-24 06:45:15] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 06:45:15] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-24 06:45:15] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-07-24 06:45:15] INFO root fetch - main [MainThread]: Store serial: [19008093]
