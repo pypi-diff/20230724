@@ -10952,3 +10952,137 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 09:49:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-24 09:49:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-24 09:49:51] INFO root fetch - main [MainThread]: Store serial: [19009611]
+[2023-07-24 09:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19009611]
+[2023-07-24 09:55:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-vectorworks
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urlincode
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: r2diaphora
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htscf
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multicloud-diagrams
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vulp
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lark-oapi
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-dynamic-routers
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-24 09:55:01] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [urlincode]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [r2diaphora]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [vulp]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [fastapi-dynamic-routers]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230724] Old Version: [2.14.0.dev20230723]
+[2023-07-24 09:55:01] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 09:55:01] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/c4/64/590ad29727f95514117c1ec7beabd95cc8a0056eed62de4c8c73f1455133/multicloud_diagrams-0.3.7.tar.gz
+[2023-07-24 09:55:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/bb/1e/85e8355c2d262b1c45730f15f46c2c9b5291a4a6859effc4e7be73378060/nonebot_plugin_spark_gpt-1.2.3.tar.gz
+[2023-07-24 09:55:01] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/c5/40/657193de62c221f6f8dc5551a0ed6238b3dab70078d6113ec3d838b467d0/r2diaphora-0.3.0.tar.gz
+[2023-07-24 09:55:01] INFO root fetch - processPackages [urlincode]: Downloading https://files.pythonhosted.org/packages/10/51/4ea4b3552ae77d9f8a271bb64100b6419d101299d70ca7142415dfaa12bd/urlincode-0.1.0.tar.gz
+[2023-07-24 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ad/b2/250e5ac4bce834467124068a9ca3d471580ba22bbdd5bda3aa50e50bed37/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl
+[2023-07-24 09:55:02] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/ba/c6/7d4e9d8635530c02cc1b200fc02310fc766c8bfbe52f5069cceae5b99e5c/ladybug_vectorworks-0.2.9.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [fastapi-dynamic-routers]: Downloading https://files.pythonhosted.org/packages/3b/b8/7b3a415f06a69e18db3705e5cd54ce5c9b58a52c1fa5be67f1a4ddac1988/fastapi_dynamic_routers-0.1.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/41/34/94e93bb88a2e5400eb0e99ddec7a58d12d3d6b77f150459debd5ad32d0b6/lark-oapi-1.0.2.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/f2/55/109ba7cf7320d870846412e0e5d287d109e3d492fb6ab3ecf312a4424b74/vulp-1.2.1.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 09:55:02] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 54244372>=10485760
+[2023-07-24 09:55:02] INFO root fetch - processPackages [ladybug-vectorworks]: Start processing: unitorch
+[2023-07-24 09:55:02] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-07-24 09:55:02] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/23/bc/bd2d8d9768ef5002081e14784a5bf8fe6327a7960ea4f62c9a3c46862ba3/multicloud_diagrams-0.3.8.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [unitorch]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2023-07-24 09:55:02] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [urlincode]: Downloading https://files.pythonhosted.org/packages/30/69/d0e31acd538cadf575784e14a9e0ad4d4fff5c0ed985910b3e8afb5147f8/urlincode-0.2.0.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/62/30/262925fb701f2a75712dc2fc2a9e84a4e83f4961e706e7fc072ef345c7e4/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl
+[2023-07-24 09:55:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/ee/ee/74cf7036f6bf12e7c409bd1a9764861a327cd784a8a8374ac805b4adf34f/nonebot_plugin_spark_gpt-1.2.4.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.7.tar.gz tmp/multicloud_diagrams-0.3.8.tar.gz --markdown 20230724/m/multicloud-diagrams/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/4b/67/8299c7e3af6c3503c343c095dab53f63a638a768d212ba68a56c46ca1653/lark-oapi-1.0.3.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/fb/2a/10fb9e28b7f6e6c3bf50f79a63fe575364b13fc74d70e9419d57aba087a3/r2diaphora-0.3.1.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/9e/ac/b57987d34c336c3a3205c242955019636a405f6b872e3372f53b9f23b5a4/vulp-1.3.0.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [urlincode]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [urlincode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlincode-0.1.0.tar.gz tmp/urlincode-0.2.0.tar.gz --markdown 20230724/u/urlincode/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [fastapi-dynamic-routers]: Downloading https://files.pythonhosted.org/packages/68/86/8eb4e432a01327fff49d6aba9f93dbbb05ffe6ebd45fb23e0db59be7d9da/fastapi_dynamic_routers-0.1.1.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/b3/c1/c399a02448c58eb4151fa2784d3f797578a9d5ade8b3dba27db2bf5140d8/unitorch-0.0.0.5.tar.gz
+[2023-07-24 09:55:02] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.2.tar.gz tmp/lark-oapi-1.0.3.tar.gz --markdown 20230724/l/lark-oapi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_spark_gpt-1.2.3.tar.gz tmp/nonebot_plugin_spark_gpt-1.2.4.tar.gz --markdown 20230724/n/nonebot-plugin-spark-gpt/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl.zip --markdown 20230724/t/tf-nightly-cpu/2.14.0.dev20230723-2.14.0.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.3.0.tar.gz tmp/r2diaphora-0.3.1.tar.gz --markdown 20230724/r/r2diaphora/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [vulp]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [vulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulp-1.2.1.tar.gz tmp/vulp-1.3.0.tar.gz --markdown 20230724/v/vulp/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-24 09:55:02] INFO root fetch - processPackages [fastapi-dynamic-routers]: executing diffoscope
+[2023-07-24 09:55:02] INFO root fetch - processPackages [fastapi-dynamic-routers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_dynamic_routers-0.1.tar.gz tmp/fastapi_dynamic_routers-0.1.1.tar.gz --markdown 20230724/f/fastapi-dynamic-routers/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-24 09:55:03] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/43/73/e995905d81a700c61eb1ac10e0111691fce770b766b2e34a27d999738f5e/unitorch-0.0.0.6.tar.gz
+[2023-07-24 09:55:03] INFO root fetch - processPackages [unitorch]: executing diffoscope
+[2023-07-24 09:55:03] INFO root fetch - processPackages [unitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitorch-0.0.0.5.tar.gz tmp/unitorch-0.0.0.6.tar.gz --markdown 20230724/u/unitorch/0.0.0.5-0.0.0.6/diff.md --exclude *.pyd
+[2023-07-24 09:55:04] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [htscf]: Start processing: lumigo-opentelemetry
+[2023-07-24 09:55:04] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 09:55:04] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.87]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [urlincode]: Remove: archive file [/home/abi/fetcher/tmp/urlincode-0.1.0.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [urlincode]: Remove: archive file [/home/abi/fetcher/tmp/urlincode-0.2.0.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [urlincode]: Start processing: htscf
+[2023-07-24 09:55:04] INFO root fetch - main [MainThread]: End processing [urlincode]: success
+[2023-07-24 09:55:04] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/60/8a/ccc2321c39451aa514e1fe4281cd2fe9f961da4846428da942ab8a18dda2/lumigo_opentelemetry-1.0.87-py3-none-any.whl
+[2023-07-24 09:55:04] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.7.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.8.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [multicloud-diagrams]: Start processing: always-updates
+[2023-07-24 09:55:04] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-07-24 09:55:04] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-24 09:55:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230724-cp39-cp39-win_amd64.whl.zip]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: django-sso-client-manager
+[2023-07-24 09:55:04] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-24 09:55:04] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-24 09:55:04] INFO root fetch - processPackages [fastapi-dynamic-routers]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_dynamic_routers-0.1.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - processPackages [fastapi-dynamic-routers]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_dynamic_routers-0.1.1.tar.gz]
+[2023-07-24 09:55:04] INFO root fetch - main [MainThread]: End processing [fastapi-dynamic-routers]: success
+[2023-07-24 09:55:04] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-24 09:55:05] INFO root fetch - processPackages [r2diaphora]: Remove: archive file [/home/abi/fetcher/tmp/r2diaphora-0.3.0.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - processPackages [r2diaphora]: Remove: archive file [/home/abi/fetcher/tmp/r2diaphora-0.3.1.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-07-24 09:55:05] INFO root fetch - processPackages [django-sso-client-manager]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-24 09:55:05] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-24 09:55:05] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-24 09:55:05] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.87-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230724/l/lumigo-opentelemetry/1.0.87-1.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:55:05] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-24 09:55:05] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230724/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 09:55:05] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-24 09:55:05] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-24 09:55:05] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230724/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-24 09:55:05] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/fe/bc/b65cdef892b6155d5c8115313757d2c9bd5375f7bd494f43c0f5a30710c7/django-sso-client-manager-0.0.3.tar.gz
+[2023-07-24 09:55:05] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-1.2.1.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-1.3.0.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - main [MainThread]: End processing [vulp]: success
+[2023-07-24 09:55:05] INFO root fetch - processPackages [django-sso-client-manager]: Downloading https://files.pythonhosted.org/packages/cc/4f/9c35ccb858bd701f648295301f6d7755167ee0157a189ad37ac9ea3282d4/django-sso-client-manager-0.0.5.tar.gz
+[2023-07-24 09:55:05] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_spark_gpt-1.2.3.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_spark_gpt-1.2.4.tar.gz]
+[2023-07-24 09:55:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt]: success
+[2023-07-24 09:55:05] INFO root fetch - processPackages [django-sso-client-manager]: executing diffoscope
+[2023-07-24 09:55:05] INFO root fetch - processPackages [django-sso-client-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-manager-0.0.3.tar.gz tmp/django-sso-client-manager-0.0.5.tar.gz --markdown 20230724/d/django-sso-client-manager/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 09:55:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-24 09:55:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-24 09:55:06] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-24 09:55:06] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-24 09:55:06] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-24 09:55:06] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-24 09:55:06] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.87-py3-none-any.whl.zip]
+[2023-07-24 09:55:06] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-24 09:55:06] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-24 09:55:07] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.3.tar.gz]
+[2023-07-24 09:55:07] INFO root fetch - processPackages [django-sso-client-manager]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-manager-0.0.5.tar.gz]
+[2023-07-24 09:55:07] INFO root fetch - main [MainThread]: End processing [django-sso-client-manager]: success
+[2023-07-24 09:55:07] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.5.tar.gz]
+[2023-07-24 09:55:07] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.6.tar.gz]
+[2023-07-24 09:55:07] INFO root fetch - main [MainThread]: End processing [unitorch]: success
+[2023-07-24 09:56:43] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.2.tar.gz]
+[2023-07-24 09:56:43] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.3.tar.gz]
+[2023-07-24 09:56:43] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-07-24 09:56:43] INFO root fetch - main [MainThread]: Store serial: [19009658]
