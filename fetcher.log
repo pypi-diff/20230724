@@ -5364,3 +5364,109 @@
 [2023-07-24 03:51:55] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-24 03:51:55] INFO root fetch - main [MainThread]: End processing [hugedict]: success
 [2023-07-24 03:51:55] INFO root fetch - main [MainThread]: Store serial: [19007237]
+[2023-07-24 03:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007237]
+[2023-07-24 03:57:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-sasti
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysqlx
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manga2pdf
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-schematized-config
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: energon-prometheus-exporter
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spyc-iot
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgsqlx
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RobertCommonDriver
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: energon-prometheus-exporter
+[2023-07-24 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervisor-shell-ui
+[2023-07-24 03:57:14] INFO root fetch - processPackages [mysqlx]: New version: [1.6.0] Old Version: [1.5.7]
+[2023-07-24 03:57:14] INFO root fetch - processPackages [manga2pdf]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-24 03:57:14] WARNING root fetch - processPackages [supervisor-shell-ui]: Skipping, unable to determine old version
+[2023-07-24 03:57:14] INFO root fetch - processPackages [supervisor-shell-ui]: Start processing: froog
+[2023-07-24 03:57:14] INFO root fetch - main [MainThread]: End processing [supervisor-shell-ui] error
+[2023-07-24 03:57:14] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-07-24 03:57:14] INFO root fetch - processPackages [pgsqlx]: New version: [1.6.0] Old Version: [1.0.9]
+[2023-07-24 03:57:14] INFO root fetch - processPackages [spyc-iot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 03:57:14] INFO root fetch - processPackages [python-schematized-config]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-24 03:57:14] WARNING root fetch - processPackages [aliyun-python-sdk-sasti]: Skipping, unable to determine old version
+[2023-07-24 03:57:14] INFO root fetch - processPackages [aliyun-python-sdk-sasti]: Start processing: alibabacloud-sasti20200512-py2
+[2023-07-24 03:57:14] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-sasti] error
+[2023-07-24 03:57:14] INFO root fetch - processPackages [energon-prometheus-exporter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 03:57:14] INFO root fetch - processPackages [energon-prometheus-exporter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-24 03:57:15] INFO root fetch - processPackages [froog]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-24 03:57:15] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 03:57:15] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/3c/f0/48fd0e3774e92af081b93c4116c38fc28fb597d5ce971196b70372618609/froog-0.1.4.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/f5/78/fc40aaaf2733d0cd16b9a30d423368c02fa70f1909215761d3b5ff1c1fff/mysqlx-1.5.7.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/20/47/e01aaad3cb9f86defe5dc89958b3d2f978cb1939f333c1baf2d90ad1262f/RobertCommonDriver-0.1.45.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/1b/66/2e9ac71d8a36aa1db2009f5c01f39db32503f299c630b04edf8cd45740cc/energon_prometheus_exporter-0.0.4.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/fb/f5/8a05ec0d146b20a4f03f7934640d6a889a5246ecd285f00fcb0a697fe3b8/spyc_iot-0.0.5.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/1b/66/2e9ac71d8a36aa1db2009f5c01f39db32503f299c630b04edf8cd45740cc/energon_prometheus_exporter-0.0.4.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [manga2pdf]: Downloading https://files.pythonhosted.org/packages/10/67/df5364ab7b63b4f9ebc5af1d6d2c8c150197e0f41c9c3c44dac1cb946836/manga2pdf-0.1.3.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/56/5b/4b3e126dd4f1e4e83239d35fc47b455285e9ad1985e02ba0461b153c60cc/python-schematized-config-0.0.2.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/ae/6f/bc4cb06bff4954d45dbcbdbe048c9f1d54678ee7ac3791034facce225caf/pgsqlx-1.0.9.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: Downloading https://files.pythonhosted.org/packages/8d/ee/a9cd7b7cc1bc3ea41425d0db08deb3f0a53843b8d5af6ca1a23dcc83ea5c/alibabacloud_sasti20200512_py2-1.0.0.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [froog]: Downloading https://files.pythonhosted.org/packages/c1/f2/94590b6776365ebec7afb4806dd33068eebbbfdf17a6f964a15e71be3fa2/froog-0.1.5.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/58/09/ed86aadfb270ea92779732d2e19792453225485b09ab80ac92a702ad718c/mysqlx-1.6.0.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [spyc-iot]: Downloading https://files.pythonhosted.org/packages/03/a0/fd7a311ff5e12705d4fb8feee7580c330a05d0353025e34b511c273c5e7d/spyc_iot-0.0.6.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [manga2pdf]: Downloading https://files.pythonhosted.org/packages/c2/43/92837137b7fdc8cb0632b9c8bd99916c102c34198673053f65c210d905fb/manga2pdf-0.1.4.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: Downloading https://files.pythonhosted.org/packages/e9/9e/676a8d73de082d4c4d7860dd129f7540690b2b037fd8ca3e5db09bce8e3c/alibabacloud_sasti20200512_py2-1.0.1.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/77/30/c8c5ff11693a840de573e4522c8be5dde3b79465955905d7a761731da8c1/pgsqlx-1.6.0.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/6e/7c/fb81abfaf85f53579a6e087318cbbad2a5b0a99fd29b9af4a265d0e80805/RobertCommonDriver-0.1.46.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [python-schematized-config]: Downloading https://files.pythonhosted.org/packages/f7/7a/ccd20ca2c35c01c95a3e0751601b45bf468dd00565bdbca29e979382a3f9/python-schematized-config-0.0.3.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/6b/9e/58bca1baf01eeb7536a3ef5dd6d67b0d15bf5e87b7b78d8e3fffcfc37597/energon_prometheus_exporter-0.0.5.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/6b/9e/58bca1baf01eeb7536a3ef5dd6d67b0d15bf5e87b7b78d8e3fffcfc37597/energon_prometheus_exporter-0.0.5.tar.gz
+[2023-07-24 03:57:15] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-24 03:57:15] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.7.tar.gz tmp/mysqlx-1.6.0.tar.gz --markdown 20230724/m/mysqlx/1.5.7-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 03:57:15] INFO root fetch - processPackages [froog]: executing diffoscope
+[2023-07-24 03:57:15] INFO root fetch - processPackages [froog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froog-0.1.4.tar.gz tmp/froog-0.1.5.tar.gz --markdown 20230724/f/froog/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [spyc-iot]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [spyc-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyc_iot-0.0.5.tar.gz tmp/spyc_iot-0.0.6.tar.gz --markdown 20230724/s/spyc-iot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [manga2pdf]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [manga2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga2pdf-0.1.3.tar.gz tmp/manga2pdf-0.1.4.tar.gz --markdown 20230724/m/manga2pdf/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.9.tar.gz tmp/pgsqlx-1.6.0.tar.gz --markdown 20230724/p/pgsqlx/1.0.9-1.6.0/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [python-schematized-config]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [python-schematized-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schematized-config-0.0.2.tar.gz tmp/python-schematized-config-0.0.3.tar.gz --markdown 20230724/p/python-schematized-config/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sasti20200512_py2-1.0.0.tar.gz tmp/alibabacloud_sasti20200512_py2-1.0.1.tar.gz --markdown 20230724/a/alibabacloud-sasti20200512-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [energon-prometheus-exporter]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [energon-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energon_prometheus_exporter-0.0.4.tar.gz tmp/energon_prometheus_exporter-0.0.5.tar.gz --markdown 20230724/e/energon-prometheus-exporter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [energon-prometheus-exporter]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [energon-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energon_prometheus_exporter-0.0.4.tar.gz tmp/energon_prometheus_exporter-0.0.5.tar.gz --markdown 20230724/e/energon-prometheus-exporter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-24 03:57:16] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-07-24 03:57:16] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.45.tar.gz tmp/RobertCommonDriver-0.1.46.tar.gz --markdown 20230724/R/RobertCommonDriver/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-07-24 03:57:17] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.4.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [froog]: Remove: archive file [/home/abi/fetcher/tmp/froog-0.1.5.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [froog]: Start processing: alibabacloud-sasti20200512
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [froog]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sasti20200512_py2-1.0.0.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [alibabacloud-sasti20200512-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sasti20200512_py2-1.0.1.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-sasti20200512-py2]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [alibabacloud-sasti20200512]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [manga2pdf]: Remove: archive file [/home/abi/fetcher/tmp/manga2pdf-0.1.3.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [manga2pdf]: Remove: archive file [/home/abi/fetcher/tmp/manga2pdf-0.1.4.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [manga2pdf]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.9.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.6.0.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.7.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.6.0.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.2.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [python-schematized-config]: Remove: archive file [/home/abi/fetcher/tmp/python-schematized-config-0.0.3.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [python-schematized-config]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.5.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [spyc-iot]: Remove: archive file [/home/abi/fetcher/tmp/spyc_iot-0.0.6.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [spyc-iot]: success
+[2023-07-24 03:57:17] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.4.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.5.tar.gz]
+[2023-07-24 03:57:17] INFO root fetch - processPackages [alibabacloud-sasti20200512]: Downloading https://files.pythonhosted.org/packages/b9/5f/464f762682bfa962c5a46916d37292c4029ade09490e60a2286bac4f0a35/alibabacloud_sasti20200512-1.0.0.tar.gz
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [energon-prometheus-exporter]: success
+[2023-07-24 03:57:17] INFO root fetch - main [MainThread]: End processing [energon-prometheus-exporter]: success
+[2023-07-24 03:57:18] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.45.tar.gz]
+[2023-07-24 03:57:18] INFO root fetch - processPackages [RobertCommonDriver]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonDriver-0.1.46.tar.gz]
+[2023-07-24 03:57:18] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-07-24 03:57:18] INFO root fetch - processPackages [alibabacloud-sasti20200512]: Downloading https://files.pythonhosted.org/packages/a9/11/3aa316aac73239818a67b483b69b9696b87f410336fb6367a7da560d3931/alibabacloud_sasti20200512-1.0.1.tar.gz
+[2023-07-24 03:57:18] INFO root fetch - processPackages [alibabacloud-sasti20200512]: executing diffoscope
+[2023-07-24 03:57:18] INFO root fetch - processPackages [alibabacloud-sasti20200512]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sasti20200512-1.0.0.tar.gz tmp/alibabacloud_sasti20200512-1.0.1.tar.gz --markdown 20230724/a/alibabacloud-sasti20200512/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-24 03:57:19] INFO root fetch - processPackages [alibabacloud-sasti20200512]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sasti20200512-1.0.0.tar.gz]
+[2023-07-24 03:57:19] INFO root fetch - processPackages [alibabacloud-sasti20200512]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sasti20200512-1.0.1.tar.gz]
+[2023-07-24 03:57:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-sasti20200512]: success
+[2023-07-24 03:57:19] INFO root fetch - main [MainThread]: Store serial: [19007284]
