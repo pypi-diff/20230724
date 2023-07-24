@@ -20073,3 +20073,168 @@ AssertionError: tmp/kfish-99.0.202307241106-py3-none-any.whl.zip does not exist
 [2023-07-24 15:30:08] INFO root fetch - processPackages [nanite]: Remove: archive file [/home/abi/fetcher/tmp/nanite-3.7.0.tar.gz]
 [2023-07-24 15:30:08] INFO root fetch - main [MainThread]: End processing [nanite]: success
 [2023-07-24 15:30:08] INFO root fetch - main [MainThread]: Store serial: [19013283]
+[2023-07-24 15:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19013283]
+[2023-07-24 15:35:17] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeronet-raster
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeronet-convert
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeronet
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciderpolarity
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: b2sdk
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-client
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-07-24 15:35:17] INFO root fetch - processPackages [aeronet]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [b2sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [aeronet-raster]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [aeronet-convert]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:17] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/c2/5d/200bfbf5edd06461de4c9dffba90a91dcf3ff84bdeb14abd9a39cd54243e/aeronet-0.1.0a4.tar.gz
+[2023-07-24 15:35:17] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/ba/23/7d06585a66bb6dbc209321b07b3de3ba335842930baddd3a95ede300fba8/ciderpolarity-0.2.8.tar.gz
+[2023-07-24 15:35:17] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/41/98/bb55dcd5b5251d8d7d92f28f09659167cd2257f1cd940a29639a8316cd93/aeronet_convert-0.1.0a3.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/3f/6e/bc956f21fec56e67ad1a0e6464646fea4968fcfb7d945edbe8c29f296acc/aeronet_raster-0.1.0a3.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/df/38/177db217be6b4a435015a859584f7f608fbf41a47be0bf52495cb13baacb/b2sdk-1.8.0.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/01/d9/4ce87a3af681374f4c4135491869e1811bdd6d6741293d02665ac017c0d8/ciderpolarity-0.2.9.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-convert]: Downloading https://files.pythonhosted.org/packages/6f/bc/c70196adceb9669a62908fde2c051a7416f40f0ccf3af6878da77b901de1/aeronet_convert-0.1.0a4.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet]: Downloading https://files.pythonhosted.org/packages/db/44/4be796d574470b99c0766267bc0345fcd6c84c91c99e3122caf753cce2ce/aeronet-0.1.0a5.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-raster]: Downloading https://files.pythonhosted.org/packages/d9/df/59f0650d61a6a6effef53f9855b2affd3fb1d9d5546ed77089f3dd68ff9f/aeronet_raster-0.1.0a4.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:18] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.8.tar.gz tmp/ciderpolarity-0.2.9.tar.gz --markdown 20230724/c/ciderpolarity/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet-0.1.0a4.tar.gz tmp/aeronet-0.1.0a5.tar.gz --markdown 20230724/a/aeronet/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-raster]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-raster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_raster-0.1.0a3.tar.gz tmp/aeronet_raster-0.1.0a4.tar.gz --markdown 20230724/a/aeronet-raster/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/06/f0/aec7b68040e2033844a1b546f95fa525649962e1c32ef5173cf235442264/b2sdk-1.9.0.tar.gz
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-convert]: executing diffoscope
+[2023-07-24 15:35:18] INFO root fetch - processPackages [aeronet-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeronet_convert-0.1.0a3.tar.gz tmp/aeronet_convert-0.1.0a4.tar.gz --markdown 20230724/a/aeronet-convert/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-07-24 15:35:19] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-07-24 15:35:19] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:19] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2023-07-24 15:35:19] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-1.8.0.tar.gz tmp/b2sdk-1.9.0.tar.gz --markdown 20230724/b/b2sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.8.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.9.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [ciderpolarity]: Start processing: nucliadb-utils
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a3.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-convert]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_convert-0.1.0a4.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-convert]: Start processing: django-orm-views
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [aeronet-convert]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a4.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet]: Remove: archive file [/home/abi/fetcher/tmp/aeronet-0.1.0a5.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet]: Start processing: torch4keras
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [aeronet]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [django-orm-views]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [torch4keras]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-models]: Start processing: eros_core
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a3.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-raster]: Remove: archive file [/home/abi/fetcher/tmp/aeronet_raster-0.1.0a4.tar.gz]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [aeronet-raster]: Start processing: nobuco
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [aeronet-raster]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-client]: Start processing: speedtab
+[2023-07-24 15:35:20] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-07-24 15:35:20] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:20] INFO root fetch - processPackages [eros_core]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [speedtab]: New version: [0.1.6.2] Old Version: [0.1.6.1]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-protos]: Start processing: solo-epd-loader
+[2023-07-24 15:35:21] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nobuco]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/56/b5/8a3dc2210efdf790fb1844782dc4467cbf5e9bf20522554664cf0677374c/speedtab-0.1.6.1.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [django-orm-views]: Downloading https://files.pythonhosted.org/packages/9e/bf/5c1806a4f09b50f95a739dabd07f457f172c6256d68b43ca635a033a7dcf/django-orm-views-2.0.1.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/4e/03/6d03992425b2ad7085ea5eb57ec388d130c591b4aafe47dcfe485a9c06ce/torch4keras-0.0.9.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 15:35:21] INFO root fetch - processPackages [eros_core]: Downloading https://files.pythonhosted.org/packages/f2/7b/9174aed693270ab2b29c4db7707e70319ea15e79dc7793e97c2250542bae/eros_core-1.0.0.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/85/28/fbcb89277c18745bf163ff96113f806943415d8c76501b7d1c4c45f75df1/nobuco-0.6.0.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/8f/36/1f5c6f1a016a10bcab10c3a70dc2d441e388ca85a244749d04bfdac229d6/solo_epd_loader-0.3.3.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230724/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/fb/77/9d5cc43c5e49c6189691ab4ab7360fc697e97a6edef8647b61764b6bc035/speedtab-0.1.6.2.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [django-orm-views]: Downloading https://files.pythonhosted.org/packages/20/14/5c7e0f137f7102971bd745174d6f9b23483cfbc79a8dc88b02bf849320a4/django-orm-views-2.0.2.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/94/5d/ab40a08ee1d549af27159eaa181663708041742e088816d154a0ac58d724/torch4keras-0.1.0.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [eros_core]: Downloading https://files.pythonhosted.org/packages/2a/0d/12f71cf77306111cee413d72c0ecd6d8355838645badde8548e356012276/eros_core-1.0.2.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.6.1.tar.gz tmp/speedtab-0.1.6.2.tar.gz --markdown 20230724/s/speedtab/0.1.6.1-0.1.6.2/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [django-orm-views]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [django-orm-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-orm-views-2.0.1.tar.gz tmp/django-orm-views-2.0.2.tar.gz --markdown 20230724/d/django-orm-views/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [torch4keras]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [torch4keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4keras-0.0.9.tar.gz tmp/torch4keras-0.1.0.tar.gz --markdown 20230724/t/torch4keras/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/d5/9c/644c49ae94e2b274ed30d4094c4f1718bd98d1ccbd69e9e038ad8e8dd79d/nobuco-0.6.1.tar.gz
+[2023-07-24 15:35:21] INFO root fetch - processPackages [eros_core]: executing diffoscope
+[2023-07-24 15:35:21] INFO root fetch - processPackages [eros_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eros_core-1.0.0.tar.gz tmp/eros_core-1.0.2.tar.gz --markdown 20230724/e/eros_core/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-24 15:35:21] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/8a/3c/3c58e8a4a00a5307045a8e8339640433ed7044f8b73d62befdf8cb404cb9/solo_epd_loader-0.3.4.tar.gz
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.6.0.tar.gz tmp/nobuco-0.6.1.tar.gz --markdown 20230724/n/nobuco/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-24 15:35:22] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-07-24 15:35:22] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.3.3.tar.gz tmp/solo_epd_loader-0.3.4.tar.gz --markdown 20230724/s/solo-epd-loader/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:22] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-07-24 15:35:22] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-1.8.0.tar.gz]
+[2023-07-24 15:35:22] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-1.9.0.tar.gz]
+[2023-07-24 15:35:22] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:22] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:22] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.6.1.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.1.6.2.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [django-orm-views]: Remove: archive file [/home/abi/fetcher/tmp/django-orm-views-2.0.1.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [django-orm-views]: Remove: archive file [/home/abi/fetcher/tmp/django-orm-views-2.0.2.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [django-orm-views]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.0.9.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.1.0.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [torch4keras]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [eros_core]: Remove: archive file [/home/abi/fetcher/tmp/eros_core-1.0.0.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [eros_core]: Remove: archive file [/home/abi/fetcher/tmp/eros_core-1.0.2.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [eros_core]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.0.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.1.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-07-24 15:35:23] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.3.3.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.3.4.tar.gz]
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-07-24 15:35:23] INFO root fetch - main [MainThread]: Store serial: [19013335]
