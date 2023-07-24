@@ -1190,3 +1190,40 @@
 [2023-07-24 01:57:08] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230530.tar.gz]
 [2023-07-24 01:57:08] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
 [2023-07-24 01:57:08] INFO root fetch - main [MainThread]: Store serial: [19005557]
+[2023-07-24 02:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005557]
+[2023-07-24 02:02:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-24 02:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-SQL-Pro
+[2023-07-24 02:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maud-metabolic-models
+[2023-07-24 02:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WinDeklar
+[2023-07-24 02:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-SQL-Pro
+[2023-07-24 02:02:16] INFO root fetch - processPackages [maud-metabolic-models]: New version: [0.6.0.0] Old Version: [0.5.1.1]
+[2023-07-24 02:02:16] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [4.2] Old Version: [4.1]
+[2023-07-24 02:02:16] INFO root fetch - processPackages [WinDeklar]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-24 02:02:16] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [4.2] Old Version: [4.1]
+[2023-07-24 02:02:16] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/7a/fc/d386e8b80ace1f430c3cf05dd13cf0b9e104bb2a73bbe156887881bba93c/Flask-SQL-Pro-4.1.tar.gz
+[2023-07-24 02:02:16] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/7a/fc/d386e8b80ace1f430c3cf05dd13cf0b9e104bb2a73bbe156887881bba93c/Flask-SQL-Pro-4.1.tar.gz
+[2023-07-24 02:02:16] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/77/3f/eff91810c13398714da8bc0a4c21b293cfa206973eddf42716472d874293/maud-metabolic-models-0.5.1.1.tar.gz
+[2023-07-24 02:02:16] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/8a/18/f4ff49c59bcd7c26629faaca2c087bb96e847e13498451bcf8c4cecad9c2/windeklar-0.2.6.tar.gz
+[2023-07-24 02:02:17] INFO root fetch - processPackages [WinDeklar]: Downloading https://files.pythonhosted.org/packages/fc/e9/470cafe01cfd0402aa47787a114835e8e19a5c25e10ee5e6d8bd988423c2/windeklar-0.3.0.tar.gz
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/e4/53/5639d93b4716c58cb25f78e06875b55ff48cd53faae25f82fdc89c4694ef/Flask-SQL-Pro-4.2.tar.gz
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/e4/53/5639d93b4716c58cb25f78e06875b55ff48cd53faae25f82fdc89c4694ef/Flask-SQL-Pro-4.2.tar.gz
+[2023-07-24 02:02:17] INFO root fetch - processPackages [maud-metabolic-models]: Downloading https://files.pythonhosted.org/packages/31/e2/ed831c22915c3932e3c54e564cf48e2a685596a407fae5c504d3f36646a2/maud-metabolic-models-0.6.0.0.tar.gz
+[2023-07-24 02:02:17] INFO root fetch - processPackages [WinDeklar]: executing diffoscope
+[2023-07-24 02:02:17] INFO root fetch - processPackages [WinDeklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windeklar-0.2.6.tar.gz tmp/windeklar-0.3.0.tar.gz --markdown 20230724/W/WinDeklar/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-24 02:02:17] INFO root fetch - processPackages [maud-metabolic-models]: executing diffoscope
+[2023-07-24 02:02:17] INFO root fetch - processPackages [maud-metabolic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maud-metabolic-models-0.5.1.1.tar.gz tmp/maud-metabolic-models-0.6.0.0.tar.gz --markdown 20230724/m/maud-metabolic-models/0.5.1.1-0.6.0.0/diff.md --exclude *.pyd
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-4.1.tar.gz tmp/Flask-SQL-Pro-4.2.tar.gz --markdown 20230724/F/Flask-SQL-Pro/4.1-4.2/diff.md --exclude *.pyd
+[2023-07-24 02:02:17] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-4.1.tar.gz tmp/Flask-SQL-Pro-4.2.tar.gz --markdown 20230724/F/Flask-SQL-Pro/4.1-4.2/diff.md --exclude *.pyd
+[2023-07-24 02:02:18] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-4.1.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-4.2.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-24 02:02:18] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.2.6.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - processPackages [WinDeklar]: Remove: archive file [/home/abi/fetcher/tmp/windeklar-0.3.0.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - main [MainThread]: End processing [WinDeklar]: success
+[2023-07-24 02:02:18] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-24 02:02:18] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.5.1.1.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - processPackages [maud-metabolic-models]: Remove: archive file [/home/abi/fetcher/tmp/maud-metabolic-models-0.6.0.0.tar.gz]
+[2023-07-24 02:02:18] INFO root fetch - main [MainThread]: End processing [maud-metabolic-models]: success
+[2023-07-24 02:02:18] INFO root fetch - main [MainThread]: Store serial: [19005617]
