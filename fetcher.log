@@ -8066,3 +8066,78 @@ AssertionError: tmp/awyes-10.0.5.tar.gz does not exist
 [2023-07-24 07:16:41] INFO root fetch - processPackages [sccd45ra]: Remove: archive file [/home/abi/fetcher/tmp/sccd45ra-0.3.2.tar.gz]
 [2023-07-24 07:16:41] INFO root fetch - main [MainThread]: End processing [sccd45ra]: success
 [2023-07-24 07:16:41] INFO root fetch - main [MainThread]: Store serial: [19008349]
+[2023-07-24 07:21:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19008349]
+[2023-07-24 07:21:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sccd45ra
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygbop
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiffler
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: render-engine-theme-kjaymiller
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-interpreter
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biggo-pms-api-python
+[2023-07-24 07:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trolldaddy
+[2023-07-24 07:21:50] WARNING root fetch - processPackages [sccd45ra]: Skipping, unable to determine old version
+[2023-07-24 07:21:50] INFO root fetch - main [MainThread]: End processing [sccd45ra] error
+[2023-07-24 07:21:50] INFO root fetch - processPackages [pygbop]: New version: [0.2.0.6] Old Version: [0.2.0.5]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tiffler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: New version: [2023.7.1a4] Old Version: [2023.7.1a3]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.238] Old Version: [0.0.237]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230724] Old Version: [0.5.4.dev20230723]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Downloading https://files.pythonhosted.org/packages/05/f1/804263f06c75122ea492718eb9c7abcad4565d8ac39dbdd68f3759e0910c/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz
+[2023-07-24 07:21:50] WARNING root fetch - processPackages [biggo-pms-api-python]: Skipping, unable to determine old version
+[2023-07-24 07:21:50] INFO root fetch - main [MainThread]: End processing [biggo-pms-api-python] error
+[2023-07-24 07:21:50] WARNING root fetch - processPackages [trolldaddy]: Skipping, unable to determine old version
+[2023-07-24 07:21:50] INFO root fetch - main [MainThread]: End processing [trolldaddy] error
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230723] Old Version: [2.14.0.dev20230722]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/6a/59/c1a1177016c4a0a15fd887dc117bfd61c1cdaa837f5d607d2f4e957da2c9/tiffler-0.1.8.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/33/66/32fd09447a05a49e774b73bfe7062ed6dc7521f4adb3facd54e0b3fbfdd6/open_interpreter-0.0.237.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/a6/79/173dd6ed1d32e83018f4da065c81590888ff93e7072f93d3d69befabceea/pygbop-0.2.0.5.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-24 07:21:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e9/a1/6a2c0beccd0591684b4cf024f403da261f0ce7380d59b257155540078b2f/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/af/62/3c0e60ab727d7f8e51b583741e0acf54620fab7fbec44ae83378e0df2766/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tiffler]: Downloading https://files.pythonhosted.org/packages/8d/d4/1966c77329abff036cb7715d08ced00346166e70a56a109b6e309694ad74/tiffler-0.1.9.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-24 07:21:50] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/ef/e8/f9344b81c81dbc9e34242068a8c82a396f654283474ff5d98a054e23a5b9/open_interpreter-0.0.238.tar.gz
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tiffler]: executing diffoscope
+[2023-07-24 07:21:50] INFO root fetch - processPackages [tiffler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiffler-0.1.8.tar.gz tmp/tiffler-0.1.9.tar.gz --markdown 20230724/t/tiffler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/e5/10/b1f29284e3f07bf1f2c379e308e5d408b58d6d04d02c47f8bdb54bff7f4b/pygbop-0.2.0.6.tar.gz
+[2023-07-24 07:21:51] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Downloading https://files.pythonhosted.org/packages/2b/97/4618625481ac515ecb401c1ca3b8f9d4b818807f2aa4e8ba04dd93249c65/render-engine-theme-kjaymiller-2023.7.1a4.tar.gz
+[2023-07-24 07:21:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/50/39/d82caef2c758561901414e739dc0a9344baa3e6e4838283d92aff08e6039/rapidpe_rift_pipe-0.5.4.dev20230724.tar.gz
+[2023-07-24 07:21:51] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-07-24 07:21:51] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.2.0.5.tar.gz tmp/pygbop-0.2.0.6.tar.gz --markdown 20230724/p/pygbop/0.2.0.5-0.2.0.6/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-24 07:21:51] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.237.tar.gz tmp/open_interpreter-0.0.238.tar.gz --markdown 20230724/o/open-interpreter/0.0.237-0.0.238/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-24 07:21:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230724.tar.gz --markdown 20230724/r/rapidpe-rift-pipe/0.5.4.dev20230723-0.5.4.dev20230724/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-24 07:21:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-24 07:21:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230724/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/da/58/3d7a4e334ccdb058a9276860b0f89d75da6bc29dea034ded9f31fbfe86f7/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-24 07:21:51] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: executing diffoscope
+[2023-07-24 07:21:51] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz tmp/render-engine-theme-kjaymiller-2023.7.1a4.tar.gz --markdown 20230724/r/render-engine-theme-kjaymiller/2023.7.1a3-2023.7.1a4/diff.md --exclude *.pyd
+[2023-07-24 07:21:51] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.8.tar.gz]
+[2023-07-24 07:21:51] INFO root fetch - processPackages [tiffler]: Remove: archive file [/home/abi/fetcher/tmp/tiffler-0.1.9.tar.gz]
+[2023-07-24 07:21:51] INFO root fetch - main [MainThread]: End processing [tiffler]: success
+[2023-07-24 07:21:52] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.5.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.6.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-07-24 07:21:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.237.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.238.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-24 07:21:52] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-24 07:21:52] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230724/t/tflite-runtime-nightly/2.14.0.dev20230722-2.14.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-24 07:21:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230724.tar.gz]
+[2023-07-24 07:21:52] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-24 07:21:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230722-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 07:21:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230723-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-24 07:21:53] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-24 07:21:53] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Remove: archive file [/home/abi/fetcher/tmp/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz]
+[2023-07-24 07:21:53] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Remove: archive file [/home/abi/fetcher/tmp/render-engine-theme-kjaymiller-2023.7.1a4.tar.gz]
+[2023-07-24 07:21:53] INFO root fetch - main [MainThread]: End processing [render-engine-theme-kjaymiller]: success
+[2023-07-24 07:21:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-24 07:21:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-24 07:21:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-24 07:21:54] INFO root fetch - main [MainThread]: Store serial: [19008395]
