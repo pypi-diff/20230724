@@ -4398,3 +4398,60 @@
 [2023-07-24 02:50:34] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.4.tar.gz]
 [2023-07-24 02:50:34] INFO root fetch - main [MainThread]: End processing [localeet]: success
 [2023-07-24 02:50:34] INFO root fetch - main [MainThread]: Store serial: [19006812]
+[2023-07-24 02:55:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19006812]
+[2023-07-24 02:55:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-hello
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-hello
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-hello
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-slack-chatbot
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PymoNNto
+[2023-07-24 02:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-databrew-cicd
+[2023-07-24 02:55:43] INFO root fetch - processPackages [PymoNNto]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a59] Old Version: [0.1.0a58]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: New version: [0.1.0a59] Old Version: [0.1.0a58]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a59] Old Version: [0.1.0a58]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-24 02:55:43] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/d3/d5/dc54d73b466a2a68a5f15aa67793d8150789b824cf3ce0cf5ec0d990f820/sqlite_hello-0.1.0a58-py3-none-win_amd64.whl
+[2023-07-24 02:55:43] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-24 02:55:43] INFO root fetch - processPackages [PymoNNto]: Downloading https://files.pythonhosted.org/packages/2a/c4/afe285d57eb7581a9dde2fec3deeaae9bbb95854c3bd4a1a74f18a31573a/PymoNNto-3.0.0.tar.gz
+[2023-07-24 02:55:43] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-07-24 02:55:43] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/e6/08/1cce8c3784220277c3fdfccae22c1cd5a12991597f63cfa7b65884462191/sqlite_utils_sqlite_hello-0.1.0a58-py3-none-any.whl
+[2023-07-24 02:55:43] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/3b/6a/000c0129be425573c44aceafe9f495e916af4fcb38110ac956c3ea00213a/datasette_sqlite_hello-0.1.0a58-py3-none-any.whl
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/75/22/4da44c5075cba5feb38d0de0a9b3edd8bf25cbe5774f1cd5e8762bbd39cd/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/83/c7/5187d52214fac6a43d9c74459c5f99b719a8085f1dc90b35d589c9ae7a42/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl
+[2023-07-24 02:55:44] INFO root fetch - processPackages [PymoNNto]: Downloading https://files.pythonhosted.org/packages/ba/07/1fe992b68097169cf78956fd4bb3988cf2c74b0c60344c8f44446b6f1186/PymoNNto-3.0.1.tar.gz
+[2023-07-24 02:55:44] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/44/c4/00724869fd192d97a3320ee4a783000e3edf4b265a6489b61598bdafda45/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a58-py3-none-win_amd64.whl.zip tmp/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl.zip --markdown 20230724/s/sqlite-hello/0.1.0a58-0.1.0a59/diff.md --exclude *.pyd
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-07-24 02:55:44] INFO root fetch - processPackages [PymoNNto]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [PymoNNto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PymoNNto-3.0.0.tar.gz tmp/PymoNNto-3.0.1.tar.gz --markdown 20230724/P/PymoNNto/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-24 02:55:44] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a58-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl.zip --markdown 20230724/d/datasette-sqlite-hello/0.1.0a58-0.1.0a59/diff.md --exclude *.pyd
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_hello-0.1.0a58-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl.zip --markdown 20230724/s/sqlite-utils-sqlite-hello/0.1.0a58-0.1.0a59/diff.md --exclude *.pyd
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230724/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-07-24 02:55:44] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230724/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-24 02:55:45] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a58-py3-none-any.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a59-py3-none-any.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello]: success
+[2023-07-24 02:55:45] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a58-py3-none-any.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a59-py3-none-any.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-07-24 02:55:45] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a58-py3-none-win_amd64.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a59-py3-none-win_amd64.whl.zip]
+[2023-07-24 02:55:45] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-07-24 02:55:45] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-24 02:55:45] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-24 02:55:45] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-24 02:55:45] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-07-24 02:55:45] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-07-24 02:55:45] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-07-24 02:55:46] INFO root fetch - processPackages [PymoNNto]: Remove: archive file [/home/abi/fetcher/tmp/PymoNNto-3.0.0.tar.gz]
+[2023-07-24 02:55:46] INFO root fetch - processPackages [PymoNNto]: Remove: archive file [/home/abi/fetcher/tmp/PymoNNto-3.0.1.tar.gz]
+[2023-07-24 02:55:46] INFO root fetch - main [MainThread]: End processing [PymoNNto]: success
+[2023-07-24 02:55:46] INFO root fetch - main [MainThread]: Store serial: [19006831]
