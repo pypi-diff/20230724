@@ -6134,3 +6134,48 @@
 [2023-07-24 04:54:47] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.8.tar.gz]
 [2023-07-24 04:54:47] INFO root fetch - main [MainThread]: End processing [SiPMai]: success
 [2023-07-24 04:54:47] INFO root fetch - main [MainThread]: Store serial: [19007552]
+[2023-07-24 04:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007552]
+[2023-07-24 04:59:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-24 04:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-sale-commission
+[2023-07-24 04:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablemap
+[2023-07-24 04:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgpc
+[2023-07-24 04:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyatp
+[2023-07-24 04:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: render-engine
+[2023-07-24 04:59:56] INFO root fetch - processPackages [tablemap]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-24 04:59:56] INFO root fetch - processPackages [odoo8-addon-sale-commission]: New version: [8.0.3.1.1.99.dev9] Old Version: [8.0.3.1.1.99.dev8]
+[2023-07-24 04:59:56] INFO root fetch - processPackages [pgpc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-24 04:59:56] INFO root fetch - processPackages [pyatp]: New version: [1.1.6] Old Version: [1.1.40]
+[2023-07-24 04:59:56] INFO root fetch - processPackages [render-engine]: New version: [2023.7.4a7] Old Version: [2023.7.4a6]
+[2023-07-24 04:59:56] INFO root fetch - processPackages [pgpc]: Downloading https://files.pythonhosted.org/packages/8e/a0/8f7e36def83ec7a42af1e4671b25244bb120e3b7d0fa63180054af6a2cb9/pgpc-0.0.3.tar.gz
+[2023-07-24 04:59:56] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/48/2b/9a92b1f9e141ce8dbb74bbb56da9667185aea9f6f0cfdeb1a13a299f5583/tablemap-0.3.1.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/37/61/b5a516691b02fa43a0e4db43aab4275f00298d8fd801183a06c2ad6abeb9/pyatp-1.1.40.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/3d/9a/425cceb43d4ed82c6811d1e0bc99df0b869822cc372d236ff52715c0b0a4/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl
+[2023-07-24 04:59:57] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/b3/69/913fb61832d7add62f4c1a57e978bb448fcd0ddffdf2a3b44622f5cf7d73/render_engine-2023.7.4a6.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [pgpc]: Downloading https://files.pythonhosted.org/packages/e3/82/218dc670b4cd48ef28bcf5b3b9efe418e8072deef884a2ab7705ebd82fba/pgpc-0.0.4.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [tablemap]: Downloading https://files.pythonhosted.org/packages/6a/54/657ad7c2f002e6c3d3e2d506771eff9c8a856646bad28d95c5c4e0d6c8ff/tablemap-0.3.2.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [pgpc]: executing diffoscope
+[2023-07-24 04:59:57] INFO root fetch - processPackages [pgpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpc-0.0.3.tar.gz tmp/pgpc-0.0.4.tar.gz --markdown 20230724/p/pgpc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-24 04:59:57] INFO root fetch - processPackages [tablemap]: executing diffoscope
+[2023-07-24 04:59:57] INFO root fetch - processPackages [tablemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemap-0.3.1.tar.gz tmp/tablemap-0.3.2.tar.gz --markdown 20230724/t/tablemap/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-24 04:59:57] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/5f/b9/70759e373e1c9ec9b457e5bc1f7a8a6e6212129985746d7d2605346ffcc8/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl
+[2023-07-24 04:59:57] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/95/6b/ee0209057bb724589bc5592727e1eb55140a74a3e64851e8f610af4a4cad/render_engine-2023.7.4a7.tar.gz
+[2023-07-24 04:59:57] INFO root fetch - processPackages [odoo8-addon-sale-commission]: executing diffoscope
+[2023-07-24 04:59:57] INFO root fetch - processPackages [odoo8-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230724/o/odoo8-addon-sale-commission/8.0.3.1.1.99.dev8-8.0.3.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-07-24 04:59:57] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-07-24 04:59:57] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.7.4a6.tar.gz tmp/render_engine-2023.7.4a7.tar.gz --markdown 20230724/r/render-engine/2023.7.4a6-2023.7.4a7/diff.md --exclude *.pyd
+[2023-07-24 04:59:57] INFO root fetch - processPackages [pyatp]: Downloading https://files.pythonhosted.org/packages/9b/78/5a57885963b343aa7c50e1be20c2f0f34022237cfb6461ea3bceb5edf5d6/pyatp-1.1.6.tar.gz
+[2023-07-24 04:59:58] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.1.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - processPackages [tablemap]: Remove: archive file [/home/abi/fetcher/tmp/tablemap-0.3.2.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - main [MainThread]: End processing [tablemap]: success
+[2023-07-24 04:59:58] WARNING root fetch - processPackages [pyatp]: Skipping package: exceeds size limit 51918834>=10485760
+[2023-07-24 04:59:58] INFO root fetch - main [MainThread]: End processing [pyatp] error
+[2023-07-24 04:59:58] INFO root fetch - processPackages [pgpc]: Remove: archive file [/home/abi/fetcher/tmp/pgpc-0.0.3.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - processPackages [pgpc]: Remove: archive file [/home/abi/fetcher/tmp/pgpc-0.0.4.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - main [MainThread]: End processing [pgpc]: success
+[2023-07-24 04:59:58] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a6.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - processPackages [render-engine]: Remove: archive file [/home/abi/fetcher/tmp/render_engine-2023.7.4a7.tar.gz]
+[2023-07-24 04:59:58] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-07-24 04:59:59] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev8-py2-none-any.whl.zip]
+[2023-07-24 04:59:59] INFO root fetch - processPackages [odoo8-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_commission-8.0.3.1.1.99.dev9-py2-none-any.whl.zip]
+[2023-07-24 04:59:59] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-commission]: success
+[2023-07-24 04:59:59] INFO root fetch - main [MainThread]: Store serial: [19007565]
