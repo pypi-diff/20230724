@@ -6022,3 +6022,115 @@
 [2023-07-24 04:49:33] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.9-py3-none-any.whl.zip]
 [2023-07-24 04:49:33] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
 [2023-07-24 04:49:33] INFO root fetch - main [MainThread]: Store serial: [19007511]
+[2023-07-24 04:54:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19007511]
+[2023-07-24 04:54:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SiPMai
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmspec
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-prometheus-client
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seaborn-analyzer
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-tea-util
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiofauna
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-tea-util-py2
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cogdb
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: render-engine-theme-kjaymiller
+[2023-07-24 04:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clickzetta-migration
+[2023-07-24 04:54:42] INFO root fetch - processPackages [alibabacloud-tea-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [SiPMai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [aio-prometheus-client]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: New version: [2023.7.1a3] Old Version: [2023.7.1a2]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [cogdb]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [llmspec]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [clickzetta-migration]: New version: [0.0.1] Old Version: [0.0.0.9]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-24 04:54:42] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [SiPMai]: Downloading https://files.pythonhosted.org/packages/f0/45/0b59c95cca0c716b0f3e5fef4dfbc4a4f4948423cce953c8b622b04a45d5/SiPMai-0.0.7.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/e6/9b/d711a92ad72e5a260a8b911e0475c4afab063cfcc76e12e15d597d683f38/alibabacloud_tea_util-0.3.8.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: Downloading https://files.pythonhosted.org/packages/9e/6f/ea6aacb888a4a6a1e4dd7be27e9c6400032d7b9b3041c98b6be7d0d55ddd/alibabacloud_tea_util_py2-0.0.8.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [aio-prometheus-client]: Downloading https://files.pythonhosted.org/packages/13/fc/f8a2fdfd07830bb8d3f480fa3f4f2c7b06ddeb792ce949a08ef9b51aa6d4/aio_prometheus_client-0.0.3-py3-none-any.whl
+[2023-07-24 04:54:42] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Downloading https://files.pythonhosted.org/packages/6e/58/14afdd871fa349a976b058ac8289eea112f9085bb8495604339c2606678d/render-engine-theme-kjaymiller-2023.7.1a2.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/54/f8/ad112bd82d34d061cc7ebd0d2849d125f7bc21c1e24e4c9cafe0482dda15/clickzetta-migration-0.0.0.9.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [cogdb]: Downloading https://files.pythonhosted.org/packages/b7/75/34493f0a947075e06d02bf5f4a92f99fecf4b1e78050f760079eb935f6a4/cogdb-3.0.5.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/fd/b2/bb3697bce7ec1c6e3a444d5da1a3c3d11d9ba0e94fb503c5806c275b0d2a/seaborn-analyzer-0.3.3.tar.gz
+[2023-07-24 04:54:42] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/78/b9/4a0fb2c7ed94e96a750b639027045ba6bdd9385b68fff54123fb03a36607/llmspec-0.3.8.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/15/77/da9e7d132fcefd54b64cc03984428191062758e5b3b8d98ababc016b2109/alibabacloud_tea_util-0.3.9.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: Downloading https://files.pythonhosted.org/packages/d4/7d/7d691ebf53d688281a197d4e3d3325423e83b856c0120e389133b923f3e8/alibabacloud_tea_util_py2-0.0.9.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aio-prometheus-client]: Downloading https://files.pythonhosted.org/packages/c0/a6/6b67c3646c238ab74202678bff2c1843bdc5a8868d6e454c5bd6be161ff7/aio_prometheus_client-0.1.0-py3-none-any.whl
+[2023-07-24 04:54:43] INFO root fetch - processPackages [cogdb]: Downloading https://files.pythonhosted.org/packages/79/98/30419fc8c070aeadf350998604c6ba9e8c5eceaec372e241f1685d017b72/cogdb-3.0.6.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tea_util-0.3.8.tar.gz tmp/alibabacloud_tea_util-0.3.9.tar.gz --markdown 20230724/a/alibabacloud-tea-util/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [clickzetta-migration]: Downloading https://files.pythonhosted.org/packages/c0/79/2fcf7db13a1821b34412c2761a4e68dde888c87ac6f0516f919c10dcc2a2/clickzetta-migration-0.0.1.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tea_util_py2-0.0.8.tar.gz tmp/alibabacloud_tea_util_py2-0.0.9.tar.gz --markdown 20230724/a/alibabacloud-tea-util-py2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Downloading https://files.pythonhosted.org/packages/05/f1/804263f06c75122ea492718eb9c7abcad4565d8ac39dbdd68f3759e0910c/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aio-prometheus-client]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aio-prometheus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_prometheus_client-0.0.3-py3-none-any.whl.zip tmp/aio_prometheus_client-0.1.0-py3-none-any.whl.zip --markdown 20230724/a/aio-prometheus-client/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/19/7e/e35cdff0e81a37f3fc3b3a8550963aa328434ae888f9a7df822f71a00140/seaborn-analyzer-0.3.4.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/cb/ec/5feb32c379c88bb108234a46b8c773e1dba766fbc66e2897479931b4216a/llmspec-0.3.9.tar.gz
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230724/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [cogdb]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [cogdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogdb-3.0.5.tar.gz tmp/cogdb-3.0.6.tar.gz --markdown 20230724/c/cogdb/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [clickzetta-migration]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [clickzetta-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-migration-0.0.0.9.tar.gz tmp/clickzetta-migration-0.0.1.tar.gz --markdown 20230724/c/clickzetta-migration/0.0.0.9-0.0.1/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.3.3.tar.gz tmp/seaborn-analyzer-0.3.4.tar.gz --markdown 20230724/s/seaborn-analyzer/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-07-24 04:54:43] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.8.tar.gz tmp/llmspec-0.3.9.tar.gz --markdown 20230724/l/llmspec/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-24 04:54:43] INFO root fetch - processPackages [SiPMai]: Downloading https://files.pythonhosted.org/packages/fb/d6/b3b58ec63fa53199efe260adca0b36e6e4edbca5b4fa83ef5a3d6374da15/SiPMai-0.0.8.tar.gz
+[2023-07-24 04:54:44] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: executing diffoscope
+[2023-07-24 04:54:44] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render-engine-theme-kjaymiller-2023.7.1a2.tar.gz tmp/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz --markdown 20230724/r/render-engine-theme-kjaymiller/2023.7.1a2-2023.7.1a3/diff.md --exclude *.pyd
+[2023-07-24 04:54:44] INFO root fetch - processPackages [SiPMai]: executing diffoscope
+[2023-07-24 04:54:44] INFO root fetch - processPackages [SiPMai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiPMai-0.0.7.tar.gz tmp/SiPMai-0.0.8.tar.gz --markdown 20230724/S/SiPMai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-24 04:54:44] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util_py2-0.0.8.tar.gz]
+[2023-07-24 04:54:44] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util_py2-0.0.9.tar.gz]
+[2023-07-24 04:54:44] INFO root fetch - processPackages [alibabacloud-tea-util-py2]: Start processing: shipdan-serializer-tester
+[2023-07-24 04:54:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea-util-py2]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.8.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.9.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [alibabacloud-tea-util]: Start processing: shipdan-serializer-tester
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea-util]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [aio-prometheus-client]: Remove: archive file [/home/abi/fetcher/tmp/aio_prometheus_client-0.0.3-py3-none-any.whl.zip]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [aio-prometheus-client]: Remove: archive file [/home/abi/fetcher/tmp/aio_prometheus_client-0.1.0-py3-none-any.whl.zip]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [aio-prometheus-client]: Start processing: sqlite-utils-dateutil
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [aio-prometheus-client]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/b5/21/e1eb281d0a9c6c5cc19718acb6530dae52ce61dd5e90feafc2a3ea12d645/shipdan_serializer_tester-0.0.5.tar.gz
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/b5/21/e1eb281d0a9c6c5cc19718acb6530dae52ce61dd5e90feafc2a3ea12d645/shipdan_serializer_tester-0.0.5.tar.gz
+[2023-07-24 04:54:45] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-24 04:54:45] WARNING root fetch - processPackages [sqlite-utils-dateutil]: Skipping, unable to determine old version
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [sqlite-utils-dateutil] error
+[2023-07-24 04:54:45] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.0.9.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [clickzetta-migration]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-migration-0.0.1.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [clickzetta-migration]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.8.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.9.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.3.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.4.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [cogdb]: Remove: archive file [/home/abi/fetcher/tmp/cogdb-3.0.5.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [cogdb]: Remove: archive file [/home/abi/fetcher/tmp/cogdb-3.0.6.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [cogdb]: success
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/6c/ef/601f5c59e2353963b20cb86ef5775a0465a60605514b6db21f7a5df0dfa1/shipdan_serializer_tester-0.0.6.tar.gz
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: Downloading https://files.pythonhosted.org/packages/6c/ef/601f5c59e2353963b20cb86ef5775a0465a60605514b6db21f7a5df0dfa1/shipdan_serializer_tester-0.0.6.tar.gz
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: executing diffoscope
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdan_serializer_tester-0.0.5.tar.gz tmp/shipdan_serializer_tester-0.0.6.tar.gz --markdown 20230724/s/shipdan-serializer-tester/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: executing diffoscope
+[2023-07-24 04:54:45] INFO root fetch - processPackages [shipdan-serializer-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230724:/home/abi/fetcher/20230724:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipdan_serializer_tester-0.0.5.tar.gz tmp/shipdan_serializer_tester-0.0.6.tar.gz --markdown 20230724/s/shipdan-serializer-tester/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-24 04:54:45] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Remove: archive file [/home/abi/fetcher/tmp/render-engine-theme-kjaymiller-2023.7.1a2.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - processPackages [render-engine-theme-kjaymiller]: Remove: archive file [/home/abi/fetcher/tmp/render-engine-theme-kjaymiller-2023.7.1a3.tar.gz]
+[2023-07-24 04:54:45] INFO root fetch - main [MainThread]: End processing [render-engine-theme-kjaymiller]: success
+[2023-07-24 04:54:46] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.5.tar.gz]
+[2023-07-24 04:54:46] INFO root fetch - processPackages [shipdan-serializer-tester]: Remove: archive file [/home/abi/fetcher/tmp/shipdan_serializer_tester-0.0.6.tar.gz]
+[2023-07-24 04:54:46] INFO root fetch - main [MainThread]: End processing [shipdan-serializer-tester]: success
+[2023-07-24 04:54:46] INFO root fetch - main [MainThread]: End processing [shipdan-serializer-tester]: success
+[2023-07-24 04:54:47] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.7.tar.gz]
+[2023-07-24 04:54:47] INFO root fetch - processPackages [SiPMai]: Remove: archive file [/home/abi/fetcher/tmp/SiPMai-0.0.8.tar.gz]
+[2023-07-24 04:54:47] INFO root fetch - main [MainThread]: End processing [SiPMai]: success
+[2023-07-24 04:54:47] INFO root fetch - main [MainThread]: Store serial: [19007552]
